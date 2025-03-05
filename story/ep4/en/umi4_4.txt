@@ -266,7 +266,7 @@
 ` *cackle*cackle*!"`
 `"......I can't believe I let this stupid wordplay make a fool of me in the last game.`
 ` My lameness pisses even me off!"`
-`"Alright, Beato, time for a repetition request!!`
+`"Alright, Beato, repeat it!!`
 ` Declare that Grandfather's included in the 18 people on the island, if you caaaaaan!!"`
 `"Yeah, never in a million years.`
 ` Because he's already dead.`
@@ -321,7 +321,7 @@
 `"............You just said it.`
 ` You want to push him off at the sweetest spot.`
 ` This ill‐natured witch is saying that she won't use the red anywhere you ask for it any more."`
-`"In other words, she won't play along with your game of repetition requests any more."`
+`"In other words, she won't play along with your game of telling her to repeat things anymore."`
 `"*cackle*cackle*!`
 ` Exactly, exactly!`
 ` Unlike Battler, everything goes quickly with this woman, there's never a need to explain!`
@@ -332,7 +332,7 @@
 ` ...............But that depends on the details."`
 `"......The details......?`
 ` What do you mean...?"`
-`"The witch has no responsibility to respond to your repetition requests.`
+`"The witch has no responsibility to respond when you tell her to repeat something.`
 ` But when and only when your claim would destroy the witch theory, it {i:does} become her responsibility.`
 ` Because in this court without a judge, that which is not refuted becomes the "truth"."`
 `"......In just the same way that whenever you've stopped thinking,`

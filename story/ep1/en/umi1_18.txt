@@ -41,7 +41,7 @@
 `"......I don't wanna believe it, but that does prove the culprit was a witch calling herself {f:5:Beatrice}."`
 `"That's right...`
 ` There were many strange things that happened which a human couldn't do..."`
-`"Uu. Only a witch could do things like Auntie Eva's locked‐room murder.`
+`"Uu. Only a witch could do things like Aunt Eva's locked‐room murder.`
 ` A human couldn't do that!`
 ` Uu!"`
 `"............Not only is it clear that a 19th person exists, but it is also obvious that this person holds a power that humans can't even imagine."`
@@ -230,7 +230,7 @@
 `or what about this?!"`
 `"Kanon‐kun, what if the whole thing was just you playacting?!`
 ` Th‐that's it, you were playacting!!`
-` Auntie Eva and Uncle Hideyoshi were also playacting.`
+` Aunt Eva and Uncle Hideyoshi were also playacting.`
 ` They made the locked room themselves, and were only pretending to be dead!"`
 `".........Battler...`
 ` .........Has your...`
@@ -247,7 +247,7 @@
 `"But that only holds true for the survivors.`
 ` ......If the culprit pretended to be dead, placed themselves together with the real victims to hide themselves, and then acted on their own later, then everything would be explained!"`
 `"............I guess...`
-` Are you trying to say that Auntie Eva or one of the rest of them was the culprit...?`
+` Are you trying to say that Aunt Eva or one of the rest of them was the culprit...?`
 ` But Doctor Nanjo confirmed everyone's death as a doctor, remember?"`
 `"......That's right.`
 ` Doctor Nanjo checked all of the victims.`
@@ -340,7 +340,7 @@
 ` This is the one place I'm going to have to say too bad, that's no goddamn good at all. I refuse.`
 ` ......{i:You guys are all pressing me, and that is exactly why it's no goddamn good.}"`
 `".....................Why?"`
-`"Sorry, but why don't you let me flip over the chessboard one last time...?`
+`"Sorry, but why don't you let me spin the chessboard around one last time...?`
 ` If you want to force me to accept that there's a witch, there's a really easy way."`
 `"......And it's not the roundabout way of saying "humans can't do it so it must be a witch"!`
 ` All you have to do is actually show it to me, the way a witch did it with magic."`

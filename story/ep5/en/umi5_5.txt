@@ -109,7 +109,7 @@
 `After eating, taking a bath, and relaxing while watching TV,`
 ` I wonder if they'll gather again in the mansion in the middle of all this rain and resume their high‐tension family conference...`
 ` I'd rather not think about that.`
-` Auntie Eva seemed to get very worked up trying to convince the rest to start the family conference right away, but it didn't look like many people agreed with her.`
+` Aunt Eva seemed to get very worked up trying to convince the rest to start the family conference right away, but it didn't look like many people agreed with her.`
 ` The meeting had probably come to a close for the night.`
 `Since they had guesthouse duty, Gohda‐san and Kumasawa‐san were chosen to guide us to the guesthouse.`
 `It must be tough for Gohda‐san.`
@@ -145,7 +145,7 @@
 `......Witch."`
 `"What're you doing, brats?`
 ` Get your asses in gear, we're off back to the guesthouse."`
-`Dad, Kyrie‐san, Auntie Eva, Uncle Hideyoshi, and Auntie Rosa all came over.`
+`Dad, Kyrie‐san, Aunt Eva, Uncle Hideyoshi, and Aunt Rosa all came over.`
 `The guesthouse party had all gathered.`
 `However, Erika's gaze was captured by the portrait of the witch, and she simply stared at it for a while......`
 `"......Yeah.`
@@ -166,7 +166,7 @@
 `When she said that, the adults froze,`
 ` ......and slowly turned to face Erika...`
 `"Why.........do you think that...?"`
-`Auntie Eva spoke with a coaxing voice.`
+`Aunt Eva spoke with a coaxing voice.`
 `......Though there had been whisperings between the relatives every now and then that the person who solved the epitaph's riddle might inherit the family headship,`
 ` ......that had been nothing more than wishful thinking, since such a thing had never been specifically stated.`
 `And yet, though she had only read it once......this outsider had already reached that conclusion.`
@@ -236,7 +236,7 @@
 ` The only purpose for an epitaph like that would be to cast doubt on Krauss‐san's position as successor to the head.`
 ` In other words, if Kinzo‐san wished for Krauss‐san to become the head without any trouble, he would have no reason to go out of his way to display something so dangerous for all to see."`
 `"Yes.`
-` .........If you flip over the chessboard, you certainly could say that.`
+` .........If you spin the chessboard around, you certainly could say that.`
 ` It would be odd if he handed over the position of the head normally, but wouldn't hand over the 20 billion yen in gold except to the person who solved the riddle."`
 `Giving up the title of head, but only giving the 20 billion yen in gold to the person who solved the epitaph...`
 `......You really couldn't call that passing on the headship in the truest sense.`
@@ -386,7 +386,7 @@
 `"...The "beloved home of old" definitely won't betray our expectations.`
 ` ......The only past that Father held dear was his years as a boy."`
 `".........I remember that.`
-` ...This is when, in the third game, Auntie Eva was just about to solve the riddle of the epitaph, and was thinking it over with this witch inside her or whatever."`
+` ...This is when, in the third game, Aunt Eva was just about to solve the riddle of the epitaph, and was thinking it over with this witch inside her or whatever."`
 `"............That's right.`
 ` And, from these thoughts, she made her way to the correct answer.`
 ` In other words, this fragment shows a vital hint for reaching the truth.`
@@ -401,7 +401,7 @@
 ` This probably isn't Odawara.`
 ` From what I've heard, he had a very fun time as a youth."`
 `"That's right......`
-` ......Auntie Eva and her siblings said that it wasn't Odawara.`
+` ......Aunt Eva and her siblings said that it wasn't Odawara.`
 ` ......And not only that, it looks like everyone had a good idea where Grandfather's home was."`
 `"......Right.`
 ` And annoyingly, the actual location isn't spoken of in any of the fragments."`
@@ -456,9 +456,9 @@
 ` .........In other words, the "sweetfish" is a key to make you think of something else.`
 ` If that something is a different word, but a word that sweetfish makes you think of, then Eva's line about how it "probably didn't have to be sweetfish" makes sense..."`
 `"...................................."`
-`From these thoughts, Auntie Eva formed some theory,`
+`From these thoughts, Aunt Eva formed some theory,`
 ` ......went to the archive, looked through some kind of book, and {i:verified that she was right}.`
-`In short, Auntie Eva formed some theory about the true nature of this sweetfish river running through his home of old.`
+`In short, Aunt Eva formed some theory about the true nature of this sweetfish river running through his home of old.`
 `Then, ......she opened a certain book to determine whether that theory was correct or not.`
 `In other words, this theory was something that could be verified through some kind of book...`
 `Also, after she figured out what the sweetfish river was, she figured out the rest of the riddle very quickly......`
@@ -662,9 +662,9 @@
 ` she entrusted it all to the epitaph's riddle, and waited for a human fitting to be the successor to appear and solve it......`
 `And if that human didn't appear within a set time limit,`
 ` ......that meant game over?`
-`Certainly, when Auntie Eva solved the riddle in the third game,`
+`Certainly, when Aunt Eva solved the riddle in the third game,`
 ` she became the only survivor and, automatically, the final head of the Ushiromiya family, inheriting everything.`
-`Up to this moment, no one has ever survived past October 5th except Auntie Eva, the one who solved the epitaph......`
+`Up to this moment, no one has ever survived past October 5th except Aunt Eva, the one who solved the epitaph......`
 `That was the only case where {f:5:Beatrice} let anyone survive......`
 `.................................`
 `Is {f:5:Beatrice}'s loyalty to Grandfather......the thing that drives her.........?`
@@ -724,15 +724,15 @@
 ` I'll think things through here just a bit longer.`
 ` If I can just figure out the list of characters that marks the first twilight, I'll bet the road before me will open up all at once..."`
 `Everyone went up to the second floor one by one.`
-`Only Auntie Rosa remained behind, cleaning up the coffee cups everyone had been drinking out of.`
+`Only Aunt Rosa remained behind, cleaning up the coffee cups everyone had been drinking out of.`
 `Kyrie‐san and some others had offered to help,`
-` but since Auntie Rosa had refused this, she was washing them all alone.`
+` but since Aunt Rosa had refused this, she was washing them all alone.`
 `Since I'd just been treated to such delicious coffee, I decided to help too.`
 `......I wasn't just doing it because I felt obligated.`
 `{n}I wanted to keep discussing the epitaph with someone.`
 `".........The first twilight...the first twilight.`
 ` ......Gah.`
-` Auntie Rosa, have you thought of some list of characters or a word?"`
+` Aunt Rosa, have you thought of some list of characters or a word?"`
 `"Nope...`
 ` I don't have a clue.`
 ` .........But instead of the first twilight, it's the tenth twilight that bugs me."`
@@ -759,7 +759,7 @@
 ` but before then, I didn't think it was like that at all...`
 ` It's frustrating how thickheaded I am."`
 `"That's not true.`
-` You have a very flexible mind, Auntie Rosa.`
+` You have a very flexible mind, Aunt Rosa.`
 ` That "Home" discovery might be really important somewhere down the line."`
 `"Not at all. My mind's very stiff.`
 ` ......Until a few moments ago, I was thinking of the first twilight as a place, one‐tenth of the way to the Golden Land."`
@@ -801,7 +801,7 @@
 `She gave me a wink and a smile which almost made my heart jump a little, even though she was my aunt.`
 `As I helped her wash the coffee cups,`
 ` ......I kept pondering the epitaph's riddle silently.........`
-`......After I finished helping Auntie Rosa and went into the corridor on my way to the bathroom,`
+`......After I finished helping Aunt Rosa and went into the corridor on my way to the bathroom,`
 ` I saw Erika unlocking the door to a room on the way there.`
 `"......Your room is on the second floor, right?`
 ` I was sure you'd gone upstairs and fallen asleep by now."`
@@ -829,7 +829,7 @@
 `My first impression of her had been that she was a bit of a weird one, and it looked like I hadn't been wrong.`
 `Erika started searching for the book she was after, slowly going around the bookshelves...`
 `"I'm also in the middle of trying to solve the epitaph.`
-` .........Oh yeah, just a second ago, I heard something interesting from Auntie Rosa which might be a hint about the first twilight."`
+` .........Oh yeah, just a second ago, I heard something interesting from Aunt Rosa which might be a hint about the first twilight."`
 `"............May I ask what it was?"`
 `Erika asked this without stopping her search or even turning to face me.`
 `"In the line before the first twilight, it says something like whoever obtains the key must do so and so, right?"`

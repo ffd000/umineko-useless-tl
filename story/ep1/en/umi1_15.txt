@@ -126,13 +126,13 @@
 ` If you continue to add any more oil to the fire, even I will get very angry."`
 `".................."`
 `Aunt Natsuhi glared at Maria with frightening eyes.`
-`...Maria was used to Auntie Rosa's loud style of scolding, but she apparently hadn't developed a resistance to this kind of silent telling‐off.`
+`...Maria was used to Aunt Rosa's loud style of scolding, but she apparently hadn't developed a resistance to this kind of silent telling‐off.`
 ` ...She shrugged and kept her mouth shut.`
 `A desolate feeling filled the room...`
 `{n}It felt as though things would just get more complicated if anyone spoke.`
 `......How many people had already died?`
 `Six in Dad's group.`
-` Also, both Auntie Eva and Uncle Hideyoshi; Kanon‐kun; Grandfather.`
+` Also, both Aunt Eva and Uncle Hideyoshi; Kanon‐kun; Grandfather.`
 `.........There were a whole eighteen people on this island.`
 `{n}...Ten of those had been killed.`
 `More than half of us had been killed.`
@@ -216,7 +216,7 @@
 `......It's an opportunity to force the culprit to demonstrate that trick right before our eyes.`
 `If they're a real witch, we would be forcing them to say Open Sesame and open the door by magic right in front of us.`
 ` ......But such a thing is probably impossible.`
-`If you flip over the chessboard, you realize that the culprit is obviously just trying to act like they're a witch.`
+`If you spin the chessboard around, you realize that the culprit is obviously just trying to act like they're a witch.`
 `......If they really were a witch, all they'd have to do is appear in front of us and show off a spell colorful enough to silence all our doubts.`
 `...Since they've avoided doing that, everything must be the work of a fake witch who wants us to think otherwise.`
 `......Therefore, {i:a culprit who used a technique other than magic to defeat the locked room couldn't open the door before our eyes}.`
@@ -251,13 +251,13 @@
 `"......However, just as Battler‐kun reasoned,`
 ` I also can't deny the possibility that Father left the study of his own accord and was attacked outside."`
 `...That crazy theory had just been what I came up with to stop the argument.`
-`However, just as Auntie Eva had said, even though that trick would work,`
+`However, just as Aunt Eva had said, even though that trick would work,`
 ` I can't begin to explain what motive could have made Grandfather do something so awkward to sneak out of his own study.`
 `Plus, that trick of hiding under the bed and waiting for the receipt to be removed before escaping,`
 ` couldn't have been used unless Grandfather had "known that the receipt was wedged in the door".`
-`Auntie Eva hadn't pointed out that last part,`
+`Aunt Eva hadn't pointed out that last part,`
 ` ......but it's clear how absurd the theory was.`
-`Then does that mean, that as Auntie Eva claimed, the door was sealed and it was a locked room?`
+`Then does that mean, that as Aunt Eva claimed, the door was sealed and it was a locked room?`
 `Is it a doubtless fact that Aunt Natsuhi was the culprit, and that the room was a locked room...?`
 `............If Auntie were here now, she would probably make that claim openly and do me the favor of blowing my strange theory away.`
 `...But anyway.`
@@ -266,9 +266,9 @@
 `At the very least, I figured this would be better than shutting ourselves up in the parlor again, and saying "nothing went wrong while we were in there before".`
 `No, wait, ......were we safe only because we were shut up in the parlor?`
 `{n}What if leaving that room and moving to an unexplored location is actually more dangerous...?`
-`...Aah, no good, no good, no goddamn good at all...`
+`...Aah, it's useless, it's useless, it's all useless...`
 `{n}.........My flimsy head is about to break out in a fever.`
-`...As I keep flipping over the chessboard, the real and the inverse keep switching with each other over and over, and I lose my ability to believe anything...`
+`...As I keep spinning the chessboard around, the real and the inverse keep switching with each other over and over, and I lose my ability to believe anything...`
 `When it seems like the culprit is one of the 18, I want to believe in {f:5:Beatrice},`
 ` and once I start believing in {f:5:Beatrice}, I start wanting to find the culprit amid the 18.`
 `...That keeps spinning around forever, and in the end, my thoughts haven't taken one step from where they started...`
@@ -474,7 +474,7 @@
 ` whether they were a witch or a human—the lady in this portrait was strongly related to the basis and background of these crimes.`
 `.........You couldn't talk about them without talking about her.`
 `"......Oh yeah.`
-` ...Mom, you picked up a letter from the culprit in Auntie Eva's room, right?"`
+` ...Mom, you picked up a letter from the culprit in Aunt Eva's room, right?"`
 `"Yes...`
 ` We still haven't opened it, have we...`
 ` ......Let's open it and see."`

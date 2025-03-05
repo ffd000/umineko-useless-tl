@@ -240,7 +240,7 @@
 ` Ushiromiya Battler!!"`
 `"Don't use my full name."`
 `"Allow me to confirm the location of all characters present.`
-` Repetition requested!"`
+` Repeat it!"`
 `"Of course, I'm not obliged to respond, remember...?"`
 `"If you don't, I'll just say that someone sneaked out while I wasn't looking, and that this person was responsible for the bizarre crimes that are sure to follow.`
 ` If you want to show me an impossible murder, you should first confirm their locations...!"`

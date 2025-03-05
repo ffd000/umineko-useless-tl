@@ -101,7 +101,7 @@
 `It was Maria, who was sobbing; the other children, who had come down with her; and Nanjo.`
 `...In other words, everyone on the second floor had come downstairs because of Maria's tantrum.`
 `Rosa couldn't hide her dizziness at the scale of the annoyance her daughter was bringing to everyone...`
-`"S‐sorry, Auntie Rosa...`
+`"S‐sorry, Aunt Rosa...`
 ` We tried to calm her, but she just wouldn't listen..."`
 `"Uu‐uu‐uu!!`
 ` Uu‐uu‐uu!!`
@@ -246,7 +246,7 @@
 `"Uu‐uu!`
 ` Uu‐uu‐uu‐uu!!!"`
 `"...Maria‐chan, sorry.`
-` Auntie Eva isn't feelin' well, and she's tryin' to sleep.`
+` Aunt Eva isn't feelin' well, and she's tryin' to sleep.`
 ` Could you quiet down a smidgen...?"`
 `Maria's tone didn't change after being asked by Hideyoshi.`
 `She kept whining and repeating "My rose, my rose".`
@@ -342,8 +342,8 @@
 `......It's alright.`
 ` It's only a farce.`
 `{n}There was never a murderer on this island in the first place...`
-`"Damn it, wait, Auntie Rosa...!!`
-` Are Auntie Rosa and Maria......the sacrifices for the second twilight?!`
+`"Damn it, wait, Aunt Rosa...!!`
+` Are Aunt Rosa and Maria......the sacrifices for the second twilight?!`
 ` Damn it damn it damn it, someone, notice them, tell them to stop!!`
 ` What are those guys in the living room and us kids doing?!!"`
 `"Hmm.`
@@ -423,7 +423,7 @@
 `Rosa threw away her umbrella and wildly lifted her gun...`
 `When she did, the figure beyond the bush......showed itself.`
 `".........Uu?`
-` ......Auntie Eva............`
+` ......Aunt Eva............`
 ` .........?"`
 `"...You scared me.`
 ` So it was you, Nee‐san?`
@@ -773,13 +773,13 @@
 `As Beato continued to enjoy it in a crazed sort of way, Battler lifted her up by the collar and yelled at her.`
 `"Stop it stop it stop iiiiiiiiiiiiiiiiit!!!`
 ` That's {i:enough}, you goddamn witch!!`
-` Are you trying to tell me that's Auntie Eva?!"`
+` Are you trying to tell me that's Aunt Eva?!"`
 `"That's impossible!!`
-` While the Auntie Eva I know may be a bit mean at times,`
+` While the Aunt Eva I know may be a bit mean at times,`
 ` it's completely impossible that she's the kind of person that would do something this cruel!!"`
 `"This is all part of your deception!!`
-` Don't toy with Auntie Rosa!!`
-` Don't toy with Auntie Eva!!`
+` Don't toy with Aunt Rosa!!`
+` Don't toy with Aunt Eva!!`
 ` Stop this farce RIGHT NOOOOOOOOOOOOOOOOOW!!"`
 `"But I already said that it's not me playing with Rosa anymore.`
 ` I told you, that's the new {f:5:Beatrice}."`

@@ -161,7 +161,7 @@
 `"Ihihi!`
 ` Like the battle royal between our parents over the inheritance isn't horrible."`
 `"......You're right.`
-` ...Dad and Uncle Rudolf are pretty tough, and Auntie Eva's even trained in the martial arts.`
+` ...Dad and Uncle Rudolf are pretty tough, and Aunt Eva's even trained in the martial arts.`
 ` ......We'll be OK.`
 ` Yeah..."`
 `Jessica didn't say it, but she had vaguely noticed that her own father opposed all of the other siblings regarding the inheritance.`
@@ -254,7 +254,7 @@
 ` She's a witch.`
 ` ......She can move her pieces in ways that {y:0:Human}{n:0:human}s can't.`
 ` .........Right now, your perception of that is wrong.`
-` ...Battler, you like Auntie Kyrie's chessboard thinking, right?"`
+` ...Battler, you like Aunt Kyrie's chessboard thinking, right?"`
 `".........Yeah.`
 ` I like that style of thinking where you stand in your opponent's position."`
 `"And that's no good.`

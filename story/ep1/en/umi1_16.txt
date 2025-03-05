@@ -91,8 +91,8 @@
 `"...Why does Maria have to keep saying stuff like that?`
 ` She's bringing about her own ruin..."`
 `"..................I think that the reason Maria‐chan adores witches and magic so much...`
-`......might be because of Auntie Rosa."`
-`"Because of Auntie Rosa?`
+`......might be because of Aunt Rosa."`
+`"Because of Aunt Rosa?`
 ` What does she have to do with this?"`
 `"......I think you must have realized it too, Battler‐kun.`
 ` ...Maria‐chan's real father ran off somewhere a long time ago.`
@@ -103,7 +103,7 @@
 ` ............After all, she sometimes...`
 `got incredibly emotional and took it all out on Maria‐chan."`
 `"............I agree with you there.`
-` ......It looked like Auntie Rosa was trying hard to like Maria."`
+` ......It looked like Aunt Rosa was trying hard to like Maria."`
 `"......Which means...`
 `...that she didn't really like her.`
 ` .........I'll bet she had some strong thoughts about Maria, standing in the way of her getting remarried..."`
@@ -144,11 +144,11 @@
 `"............That's just it...`
 ` ......When you put it that way, those four really do seem suspicious.`
 ` .........But."`
-`"...{i:That's no goddamn good}.`
-` Yeah, {i:it's no goddamn good at all}..."`
-`"No good? ...What is?"`
+`"...{i:It's all useless}.`
+` Aah, {i:it's all useless}..."`
+`"Useless? ...What is?"`
 `"Right.`
-` .........It might not be worth anything anymore, but let me flip over the chessboard again.`
+` .........It might not be worth anything anymore, but let me spin the chessboard around again.`
 ` ...What I mean is, if one of those four really is the culprit, it makes no sense."`
 `"...........................That's right...`
 ` ......Wasn't setting that letter openly on the table the same as confessing that one of them was the culprit?"`

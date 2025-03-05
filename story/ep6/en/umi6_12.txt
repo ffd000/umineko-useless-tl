@@ -484,7 +484,7 @@
 ` {p:1:Acknowledged}.`
 ` However, this only applies to the current point in time.`
 ` It's possible that some later development in the game will cause more people to enter."`
-`"Repetition requested.`
+`"Repeat it.`
 ` "Krauss, Rudolf, Hideyoshi, and Gohda are not culprits"."`
 `"........................"`
 `Battler put his finger on his chin, deep in thought.`

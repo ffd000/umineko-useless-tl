@@ -63,7 +63,7 @@
 `Seemingly, some cliff face or other had become home to a huge seagull colony, and so this island was always full of them.`
 `Since those seagulls didn't come to greet us, I felt a bit lonely.`
 `"What's wrong, Battler‐kun?"`
-`"Oh, Auntie Rosa.`
+`"Oh, Aunt Rosa.`
 ` ...Nah, it's nothing really—I was just saying I can't hear the seagulls, so it kinda feels a bit lonely."`
 `"Oh, you're right.`
 ` They're always so lively, but I can't see hide nor hair of one today."`
@@ -147,7 +147,7 @@
 ` Keep on playing with her like you did just now.`
 ` Just choose the jokes carefully though, alright?`
 ` *giggle*."`
-`Auntie Rosa winked at me, giggling a little.`
+`Aunt Rosa winked at me, giggling a little.`
 `A real mother, I thought to myself, who's happy that Maria looks like she's having fun.`
 `"Come {i:on}, Rosa.`
 ` And you brats too, what the hell're you doing, get a move on!"`
@@ -565,7 +565,7 @@
 ` Keep it a secret from your mom, alright?"`
 `"Uu!`
 ` Secret!"`
-`Her mother, Auntie Rosa, was right behind her, but Maria still answered, striking the air with her fists clenched tight.`
+`Her mother, Aunt Rosa, was right behind her, but Maria still answered, striking the air with her fists clenched tight.`
 `After our parents put the luggage in the rooms, they gathered again in the corridor.`
 `"So, brats, what're you gonna do?`
 ` Are you cousins just gonna stay here and chat?"`

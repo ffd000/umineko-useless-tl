@@ -10,7 +10,7 @@
 ` And I'm sure I even got into a scuffle with it!`
 ` And yet, ......I almost feel like it was all an illusion..."`
 `"...I see.`
-` ......So that's why you couldn't go into the details in front of Auntie Rosa."`
+` ......So that's why you couldn't go into the details in front of Aunt Rosa."`
 `"......If you had actually told her what you just told me, then it would have created even bigger problems.`
 ` ...Yes, I now understand that Genji‐san handled it all in a remarkably composed fashion."`
 `"...............If only I had the power to explain it."`
@@ -221,7 +221,7 @@
 `{n}But that decision would be made very soon.`
 `.........No one could interfere with the tumbling roulette ball...`
 `The door to the parlor was not only locked, but blocked with a barricade made of sofas and the like.`
-`So Auntie Rosa seemed to suspect that if a suspicious person appeared, it would be by breaking the window.`
+`So Aunt Rosa seemed to suspect that if a suspicious person appeared, it would be by breaking the window.`
 `Sitting on a one‐person sofa, her back to the door, she continued to hold onto her gun.`
 `I didn't know what was what anymore, and so, my body and mind worn out, I was just playing with Maria however she wanted.`
 `In Maria's words,`
@@ -322,7 +322,7 @@
 `.........I can't understand this witch called {f:5:Beatrice}.`
 `She must be committing this chain of murders with some goal in mind,`
 ` ......so why would she deliberately expose the conditions for her own defeat?`
-`......No matter how I flip over the chessboard and think from my opponent's perspective, ......I can't understand why she would give up if this riddle was solved.`
+`......No matter how I spin the chessboard around and think from my opponent's perspective, ......I can't understand why she would give up if this riddle was solved.`
 `Isn't it almost as though {f:5:Beatrice}...doesn't care whether she wins or loses?`
 ` It's natural that chessboard reasoning wouldn't work if you played chess against an opponent like this...`
 `...I don't understand, I don't understand.`
@@ -343,25 +343,25 @@
 ` We thought we were thinking, ...but we were actually thinking only of our greedy selves.`
 `In the end, chessboard theory is a technique of thinking where you project yourself on your opponent.`
 ` ......So greedy people look inside their opponents and see their greedy selves...`
-`I looked vaguely at Auntie Rosa.`
+`I looked vaguely at Aunt Rosa.`
 `She was probably tired from being under all this tension the whole time.`
 `{n}She wasn't sleeping, but she was continually staring vaguely at some point off in space.`
-`Auntie Rosa had proclaimed that she couldn't trust anyone who had not been killed.`
-`......Auntie Rosa's chessboard thinking......saw herself inside her opponent.`
-`...In other words, Auntie Rosa...`
+`Aunt Rosa had proclaimed that she couldn't trust anyone who had not been killed.`
+`......Aunt Rosa's chessboard thinking......saw herself inside her opponent.`
+`...In other words, Aunt Rosa...`
 `...might be an isolated woman, unable to trust anyone and unable to let her guard down.`
 `...Long ago, I think I heard a bit about it from my dad.`
-`{n}Auntie Rosa had originally been a very obedient child.`
+`{n}Aunt Rosa had originally been a very obedient child.`
 `......But because her age was so far separated from her other siblings,`
 ` and because her confrontational siblings had often made conflicting demands of her,`
 ` she had been going through psychological hardship ever since she was young.`
 `Apparently, when she had taken the side of one sibling, often another gave her a hard time for it.`
-`Certainly Auntie Rosa had said many things today that could be taken as abusive language.`
+`Certainly Aunt Rosa had said many things today that could be taken as abusive language.`
 ` .........But those were words that had been engraved into her vocabulary because they had been showered upon her as well.`
-`The many abusive words that she had spoken......were also the same abuse that Auntie Rosa had been showered with in the past...`
-`...Now that I think about it, I have the feeling that her style of speech today has had occasional traces of Uncle Krauss and Auntie Eva in it.`
+`The many abusive words that she had spoken......were also the same abuse that Aunt Rosa had been showered with in the past...`
+`...Now that I think about it, I have the feeling that her style of speech today has had occasional traces of Uncle Krauss and Aunt Eva in it.`
 `......I'd just assumed the similarity came from being siblings, ...but maybe that wasn't the case...`
-`For the first time, I was able to sympathize from my heart with Auntie Rosa, who I had come to think of as being only gentle...`
+`For the first time, I was able to sympathize from my heart with Aunt Rosa, who I had come to think of as being only gentle...`
 `Then, what about Maria...?`
 `{n}Maria had been claiming something for a while.`
 `If we could solve the riddle that the witch had presented to us, the ritual would be halted and we would definitely be saved.`
@@ -586,7 +586,7 @@
 `Shannon claimed that because of her woman's sense.`
 ` But in the corner by the bed, there was only an incense burner, a half‐read novel, and a pair of glasses.`
 `But the dresser was elegant and had many drawers, and it would be understandable if she had kept some of her valuables there.`
-`"Auntie Natsuhi, I'm sorry...!!"`
+`"Aunt Natsuhi, I'm sorry...!!"`
 `He began to violently open each one of the drawers.`
 `{n}He had to hurry.`
 `He couldn't actually hear footsteps, ...but he had the feeling that the witch was approaching...`
@@ -815,9 +815,9 @@
 `"......With that, our eternal vows were completed!`
 ` No matter how you torture us with your wicked magic and your malice, you cannot disgrace that for all eternity!!"`
 `"......Ha!`
-` Don't speak as a poet like it's so neat and clean!!`
-` Love is lust it can't be talked about with only pretty words like in a shoujo manga.`
-` Men are flies and maggots that get caught in your scent and gather around you.`
+` Don't speak in cheap ideals, like some poet!!`
+` Love is lust, totally meaningless unless you're sleeping together.`
+` Men are mere flies and maggots that get drawn to your female scent and crowd around you.`
 ` Do you still not understand that at your aaa{-}a{-}a{-}a{-}a{-}a{-}a{-}a{-}a{-}aage?"`
 `"You'll despair, when you get even one glimpse of the black‐as‐tar lust of that glasses man behind you,`
 ` you'll be devastated speechless no words no reaction no expression no goddamn good at all Shannoo{-}o{-}o{-}o{-}o{-}oonnn{-}n{-}n{-}n{-}n{-}n{-}n{-}n{-}n{-}n{-}n{-}n{-}nnnnn???`

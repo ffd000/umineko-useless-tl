@@ -24,7 +24,7 @@
 ` or Kanon‐kun, who has gone missing!`
 ` Was it a man or a woman?!`
 ` You should be able to tell me at least that much, right?!"`
-`"Auntie Rosa, calm down a bit...!`
+`"Aunt Rosa, calm down a bit...!`
 ` Anyone would be confused if two people were taken out right in front of them!`
 ` Gohda‐san, Genji‐san.`
 ` There's no need to rush.`
@@ -37,7 +37,7 @@
 `{n}But even so, they spoke awkwardly.`
 `They admitted that they had definitely seen the crime with their own two eyes.`
 `{n}But when asked to explain what they had seen, their mouths went suddenly shut.`
-`I could understand why Auntie Rosa was irritated and losing her patience...`
+`I could understand why Aunt Rosa was irritated and losing her patience...`
 `"...Shannon.`
 ` Did you see it?`
 ` When Doctor Nanjo was attacked."`
@@ -94,7 +94,7 @@
 ` I......can only say the same thing as well......"`
 `"..........................."`
 `...If we interpreted what they were saying favorably,`
-` ......it meant that Auntie Rosa's conclusion had been correct from the beginning.`
+` ......it meant that Aunt Rosa's conclusion had been correct from the beginning.`
 `Kanon‐kun had appeared from the back door in the kitchen with a serious injury.`
 `{n}Then he had been taken to the servant room and cared for.`
 `......Then, something terrifying had happened.`
@@ -105,21 +105,21 @@
 `So had Kanon‐kun indeed used some trick to escape that room while it was locked?!`
 ` No, that doesn't matter anymore.`
 `The real problem is that Doctor Nanjo and Kumasawa‐san were killed.`
-`Auntie Rosa had claimed that Kanon‐kun was behind this from the very beginning.`
+`Aunt Rosa had claimed that Kanon‐kun was behind this from the very beginning.`
 `No matter how confused they became and no matter how much they tried to deny it, ...they were halfway saying that it was the truth.`
 `......But even so, for some reason, I felt like their awkwardness couldn't be explained just by confusion...`
 `......What had they seen?`
 `Like they said, had they really {i:seen something unexplainable with words}...?`
-`Auntie Rosa, having decided that she wouldn't be able to get any more out of them, concluded her questioning,`
+`Aunt Rosa, having decided that she wouldn't be able to get any more out of them, concluded her questioning,`
 ` and said that she wanted to check the two bodies.`
 `I was also interested in that.`
 `Even if these people didn't have a clue what was going on in their confusion,`
 ` ...if those of us who hadn't been at the scene calmly looked at the bodies, we might find something.`
-`.........But it was a little surprising that Auntie Rosa was also concerned about the bodies, just like I was.`
+`.........But it was a little surprising that Aunt Rosa was also concerned about the bodies, just like I was.`
 `Even at this point, I still wanted to expose the culprit and the truth myself, if we could find any clues.`
-`But Auntie Rosa should have been different.`
-` ......Hadn't Auntie Rosa's plan given a higher priority to staying safe than to finding the culprit?`
-`I couldn't really see why Auntie Rosa wanted to check the bodies so badly that she would deliberately leave our fort in the parlor.`
+`But Aunt Rosa should have been different.`
+` ......Hadn't Aunt Rosa's plan given a higher priority to staying safe than to finding the culprit?`
+`I couldn't really see why Aunt Rosa wanted to check the bodies so badly that she would deliberately leave our fort in the parlor.`
 `"We will all go to the servant room together.`
 ` If we all move together, it'll be safe.`
 ` Maria, stop that scribbling now!"`
@@ -129,7 +129,7 @@
 ` Uu..."`
 `"{f:5:Beatrice}'s problem?`
 ` What's that? Tell me too."`
-`"...Auntie Rosa, are you...umm...bringing Maria‐chan too?"`
+`"...Aunt Rosa, are you...umm...bringing Maria‐chan too?"`
 `It seemed that George‐aniki had some resistance to bringing Maria to the bloody crime scene.`
 `...But taking into consideration the fact that Maria would be left alone here, it would surely be much safer if we took Maria with us.`
 `......In the end, it was just Aniki's irresponsible humanism.`
@@ -155,7 +155,7 @@
 `...We shook, wondering what horrible new situation had arisen to fluster them for a second time.`
 `"What happened?`
 ` What is it?"`
-`Auntie Rosa also shuddered, raised her gun high, and searched for whatever it was that had them shaken.`
+`Aunt Rosa also shuddered, raised her gun high, and searched for whatever it was that had them shaken.`
 `......But she couldn't find it.`
 ` ...Which wasn't surprising.`
 `{n}...They were shaken {i:because} they couldn't find it.`
@@ -197,7 +197,7 @@
 `That's right.`
 ` Back then, it definitely had been Doctor Nanjo who searched through Jessica's clothes and found the master key...!`
 `So, if someone had the opportunity to search Doctor Nanjo's corpse, it would have been easy for them to take the master key back...`
-`Auntie Rosa searched under the bed and in the locker.`
+`Aunt Rosa searched under the bed and in the locker.`
 `...By now, I also understood what that meant.`
 `{n}If you assume that there had been two culprits, it could be easily explained.`
 `The first person was Kanon‐kun, or maybe an impostor that looked like him.`
@@ -247,7 +247,7 @@
 `"Please believe us, Rosa‐sama...!!`
 ` The two bodies were certainly lying here!`
 ` The bright‐red blood on the floor is theirs...!!"`
-`Auntie Rosa began to search through various objects around the room, her back to Gohda‐san as he cried out in supplication.`
+`Aunt Rosa began to search through various objects around the room, her back to Gohda‐san as he cried out in supplication.`
 `......Eventually, she found something, and for a while, stopped moving.`
 `"Rosa‐sama, we definitely aren't lying...!!`
 ` The two bodies were definitely here!!"`
@@ -309,9 +309,9 @@
 `"But you can't repeat that no one was hiding in this room!`
 ` ......However, that alone won't break open the door of a locked room...`
 ` Aaah, damn it, damn it!!`
-` It's no good, no good, no goddamn good at all...!"`
+` It's useless, it's useless, it's all useless...!"`
 `"*cackle*cackle*!`
-` What happened to that flipping over the chessboard thing that you're so proud of...?`
+` What happened to that spinning the chessboard around thing that you're so proud of...?`
 ` Please, announce your boastful strange theory."`
 `"...............Flip over...the chessboard.`
 ` ............What would I do if I were the culprit?`
@@ -329,7 +329,7 @@
 `...That's it.`
 ` This isn't a question, it's an answer......`
 `"Beato.`
-` ......Before my repetition request, I want to check the {i:definition of these hidden doors} that you're talking about."`
+` ......Before I ask you to repeat anything, I want to check the {i:definition of these hidden doors} that you're talking about."`
 `"What have you thought of?`
 ` Very well, I'll explain.`
 ` A hidden door refers to an entrance or exit that cannot be recognized by those who do not know of it.`
@@ -362,23 +362,23 @@
 ` ......in this very moment, we've actually gotten the culprit in checkmate!!`
 `"I've finally started to see it.`
 ` ......Take this, Beato!!"`
-`"Repetition requested!`
+`"Repeat it!`
 ` "There is no one in this room other than us"!`
-` By us, I mean me, George‐aniki, Maria, Auntie Rosa, Genji‐san, Gohda‐san, and Shannon‐chan, alright?!`
+` By us, I mean me, George‐aniki, Maria, Aunt Rosa, Genji‐san, Gohda‐san, and Shannon‐chan, alright?!`
 ` Well?!! You can't say it, can you?!"`
 `".........Hoh......`
 ` .........Hoh......!"`
 `"I'll bet I hit you where it hurts!!`
 ` If you decline, then say you decline, damn it!!`
 ` Here comes the next one!!`
-` Repetition requested!!"`
+` Repeat it!!"`
 `I don't know how they're hiding in this room.`
 `But if that's a fact, then this also resolves the second locked room, Jessica's room, at the same time!!`
 `I've finally caught her by the tail!`
 `{n}With this, I can explain everything!`
 `{n}Witches don't exist, I don't have to doubt anyone!!`
-`Alright, starting now, I'll flip it over!`
-` The next thing I'll request she repeat is—`
+`Alright, starting now, I'll spin it around!`
+` The next thing I'll have her repeat is—`
 `"`
 `{p:1:No one exists in this room except your group}.`
 ` {p:1:"Your group" refers to Battler, George, Maria, Rosa, Genji, Gohda, and Shannon}."`
@@ -449,7 +449,7 @@
 ` ......I'm never gonna accept thaaaaaaaat!!"`
 `"Hey, Battler?`
 ` Sorry for bullying you too much.`
-` I'll "flip over the chessboard" from my side.`
+` I'll "spin the chessboard around" from my side.`
 ` I'll teach your side the best move in your place.`
 ` Want to heeeeeaar??"`
 `"Screw you, I don't wanna hear, I don't wanna hear!!"`
@@ -516,14 +516,14 @@
 ` ...And now we have the letter from {f:5:Beatrice}, where she was kind enough to confess that she carried the corpses off.`
 ` ......That's what it is."`
 `"I've had enough of this farce!!"`
-`As Auntie Rosa yelled this, she looked over at everyone with a harsh expression.`
+`As Aunt Rosa yelled this, she looked over at everyone with a harsh expression.`
 `"Fa‐`
 `......farce?`
 ` ......What do you mean...?!"`
 `"I said it in Jessica‐chan's room.`
 ` ......You can't trust anyone but yourself and those whose corpses have been found."`
 `"And since we cannot find the corpses, there's no reason we should accept that those two were killed."`
-`"......P‐please wait, Auntie Rosa.`
+`"......P‐please wait, Aunt Rosa.`
 ` What do you mean by that...?!"`
 `"Doctor Nanjo and Kumasawa‐san aren't dead, they're alive!`
 ` They made it seem like they were killed, and are hiding somewhere in this mansion.`
@@ -557,7 +557,7 @@
 ` .........How could you...`
 ` .........It's too......`
 `cruel......"`
-`"......A‐Auntie Rosa!!`
+`"......A‐Aunt Rosa!!`
 ` That's horrible!!`
 ` A murder occurred in this room!`
 ` Then the culprit carried the corpses away!`
@@ -601,7 +601,7 @@
 ` ......it would be impossible to prove their innocence...`
 `......But, .........that couldn't be done!!`
 `They only have one chance to prove their innocence.`
-`......That can only happen when they meet with the culprit, become corpses, and are reunited with Auntie Rosa.`
+`......That can only happen when they meet with the culprit, become corpses, and are reunited with Aunt Rosa.`
 `That's messed up!!`
 ` Innocent if they die, guilty as long as they live, almost like a witch's trial!`
 `...Oh, right, the enemy's a witch.`
@@ -626,14 +626,14 @@
 `"...............You two."`
 `Genji‐san looked at Gohda‐san and Shannon‐chan.`
 `......The two of them nodded, and set their own master keys onto the table.`
-`Auntie Rosa lay the two master keys that had come out of the envelope on top.`
+`Aunt Rosa lay the two master keys that had come out of the envelope on top.`
 `With that, all five master keys were gathered in this place.`
 `In other words, this was proof that all of the servants' service until today had been negated,`
 ` and even the final honor that they should have been permitted had been stripped from them...`
 `"Maria, give me that handbag."`
 `"......Uu!!`
 ` Give it baaack!!"`
-`Auntie Rosa snatched Maria's handbag, tossed all the master keys in there noisily, then lifted one out and held it up for all to see.`
+`Aunt Rosa snatched Maria's handbag, tossed all the master keys in there noisily, then lifted one out and held it up for all to see.`
 `She was announcing that she had all of the master keys.`
 `"A‐.........are you satisfied now, Aunt Rosa?`
 ` ......Now the only master keys are the ones you are holding yourself.`
@@ -647,7 +647,7 @@
 ` Ahahahahahahahahaha, hah‐hah‐hah‐hah‐hah‐hah‐ha!"`
 `".........Kihihihihi."`
 `Then, Maria, who had looked like a spectator off by herself, sneered at her mother.`
-`...Auntie Rosa reacted nervously to that laugh, and turned around.`
+`...Aunt Rosa reacted nervously to that laugh, and turned around.`
 `"......Keys don't matter.`
 ` ......{f:5:Beatrice} can open doors with magic.`
 ` She doesn't need keys.`
@@ -660,7 +660,7 @@
 `......No, that's not it.`
 `...I was on my knees, and hugging Maria's head.`
 `{n}......I was......crying.`
-`"Just...stop it already, Auntie Rosa......`
+`"Just...stop it already, Aunt Rosa......`
 ` ...Maria was...right......"`
 `"......Wha‐...what are you talking about......?"`
 `".........Maria...`
@@ -739,7 +739,7 @@
 ` ......When the performance ends, and the curtain closes,`
 ` ......we will surely be able to grasp hands together again."`
 `"......When the seagulls...cry."`
-`Auntie Rosa nodded in response...`
+`Aunt Rosa nodded in response...`
 `Genji‐san turned on his heels.`
 `{n}He left the servant room.`
 `Gohda‐san's face was still streaked with tears,`
@@ -779,7 +779,7 @@
 ` I will decide, by myself...`
 `who I'll spend the night with."`
 `"A‐.........Aniki......"`
-`"Battler‐kun, stay with Auntie Rosa in the parlor.`
+`"Battler‐kun, stay with Aunt Rosa in the parlor.`
 ` I'm sure that's safest.`
 ` ......Compared to that, I think being outside the parlor isn't as safe.`
 ` ......So I can't leave her in a place like that alone."`
@@ -813,9 +813,9 @@
 `"Yes...`
 ` ............Thank you very much."`
 `George‐aniki and Shannon‐chan left the servant room together.`
-`.........Now, only Maria, Auntie Rosa and I were left in this disgusting, blood‐stained room.`
+`.........Now, only Maria, Aunt Rosa and I were left in this disgusting, blood‐stained room.`
 `Until Genji‐san disappeared—until Gohda‐san disappeared—until George‐aniki and Shannon‐chan disappeared—we stood there, in a daze...`
-`After their presence and their footsteps had disappeared completely, Auntie Rosa giggled at them, as though she had just remembered something pleasant.`
+`After their presence and their footsteps had disappeared completely, Aunt Rosa giggled at them, as though she had just remembered something pleasant.`
 `".........You can't trust them at all.`
 ` Goddamn furniture."`
 `That one sentence...`
@@ -844,9 +844,9 @@
 `"Uwaaaaaaaaaaaaaaaaaaaaaaaaaaaa!!!`
 ` Stop it already stop it already...!!"`
 `"Please, {f:5:Beatrice}, show yourself right now,`
-` and tell Auntie Rosa in red that "there are only five master keys"!!`
+` and tell Aunt Rosa in red that "there are only five master keys"!!`
 ` Please, I beg you, this can only be proved by devils, a witch like you could prove it!"`
-`"Please, Beato, show yourself here and tell Auntie Rosa...`
+`"Please, Beato, show yourself here and tell Aunt Rosa...`
 `that those are all of the master keys, and that there's no need to suspect anyone anymore...!!!"`
 `"`
 `{p:1:There are only five master keys}.`

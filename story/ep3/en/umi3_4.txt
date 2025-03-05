@@ -56,7 +56,7 @@
 ` You always find at least one person with a fragile alibi.`
 ` ......I could probably continue to deny the witch forever if I just used that person as a sacrifice."`
 `"However, I will steadfastly refuse to do that!!`
-` Yeah, that's no good, that's no goddamn good at all!`
+` Aah, it's useless, it's all useless!`
 ` Every one of those 18 people is either a parent, a relative or a cousin to me!`
 ` And those reliable servants, who are sometimes serious and sometimes funny.`
 ` I won't let myself use any one of them as a sacrifice!!"`
@@ -127,7 +127,7 @@
 `That was because, in response to Beato's professions that witches do exist,`
 ` I physically could not offer any proof that "witches don't exist".`
 `That is why I have been subjected to this nonsense that witches exist, and why I have been unable to counterattack.`
-`And that's why I'll flip over the chessboard right now!`
+`And that's why I'll spin the chessboard around right now!`
 `If I can't disprove that witches exist, then that means,`
 ` if I suggest that a 19th human exists, you can't disprove that either.`
 `In other words, the enigmatic mistress in question is craftily hiding herself, so it's perfectly natural that you can never find her no matter how hard you look.`
@@ -195,7 +195,7 @@
 `"......Ronove, I will make this move.`
 ` Do not get in the way of my fun."`
 `"So you've finally shown up, you guffawing witch.`
-` I see you still have that undignified laugh.`
+` I see you're laughing like a freak just as usual.`
 ` ......This guy was talking behind your back just now, telling me about how your laughing lacks class.`
 ` Right?"`
 `"I am offended.`
@@ -337,7 +337,7 @@
 `"*cackle*cackle*!`
 ` However, by using "Hempel's Raven", the contrapositive of that proposition would change it as follows."`
 `"Essentially, take this "All humans except me are foolish", and to use your style of phrase,`
-` flip over the chessboard, and you merely need prove that "not foolish = me".`
+` spin the chessboard around, and you merely need prove that "not foolish = me".`
 ` ......And what do you think that means?"`
 `"*cackle*cackle*!`
 ` As soon as I know the fact that "I am wise",`
@@ -455,7 +455,7 @@
 `"Sorry, but I've been waiting for you to take out that blood‐red treasured sword.`
 ` ......Let's see, what will you proclaim in red this time?"`
 `"You aren't going to say "the culprit was one of the 18", are you?`
-` Let me warn you, that would be self‐destruction, remember?`
+` Be careful, that would be self‐destruction, remember?`
 ` That would be the same as throwing away your own witch theory yourself.`
 ` A complete resignation."`
 `That's right.`
@@ -571,7 +571,7 @@
 ` If I don't hear that, I guess I just won't get the sense that we've started..."`
 `The first move was mine......`
 `"Here I come, Beato."`
-`"Repetition requested.`
+`"Repeat it.`
 ` ......‘There are only 18 people on this island’."`
 `"....................."`
 `"...If I hear you say this in red, I will have no choice but to doubt one of the 18.`
@@ -580,7 +580,7 @@
 ` There's no way that any of those 18 could commit such brutal murders...!!"`
 `"....................."`
 `"I'll say it again.`
-` Repetition requested!`
+` Repeat it!`
 ` "There are only 18 people on this island"."`
 `"..............................`
 ` .........I decline.`
@@ -595,7 +595,7 @@
 `She hadn't sliced me up with red by using that move, which should have been as good as forking a rook and the king...!`
 `......This was a big sign of my advantage.`
 `That's right.`
-` The culprit isn't one of the 18 people.`
+` The culprit isn't one of the 18.`
 `{n}I won't doubt anyone...!`
 `And since the culprit isn't a witch either,`
 ` .........it means that a 19th person exists on this island.`
@@ -612,7 +612,7 @@
 ` ......*cackle*cackle*cackle*cackle*cackle*cackle*!"`
 `For a while, {f:5:Beatrice} continued to laugh unpleasantly, gloating or maybe spiteful.`
 `"...Are you ready? I'll keep going.`
-` ...Again, repetition requested."`
+` ...Again, repeat it."`
 `"‘There are at least 19 people on this island’!"`
 `".............................."`
 `{f:5:Beatrice} fell silent once again.`
@@ -670,7 +670,7 @@
 `That her red treasured sword can't easily be used without considerable resolve...!`
 `"...What's wrong.`
 ` I'll say it again.`
-` ......Repetition requested!"`
+` ......Repeat it!"`
 `"‘There are at least 19 people on this island’!"`
 `"........................`
 ` ......Hmh.`
@@ -683,7 +683,7 @@
 ` Which means that, from now on,`
 ` I can create as many fictional character Xs outside of the 18 as I want...?"`
 `"Do as you wish.`
-` ...I have declined your repetition.`
+` ...I have declined to repeat what you have told me.`
 ` Isn't that enough for now?`
 ` ......The reason I declined was...`
 `......`
@@ -700,7 +700,7 @@
 `"That's right.`
 ` ...As I fight, I always have to keep in mind when you might turn everything over with those red words.`
 ` It's some pretty serious pressure."`
-`"......And there are times when having a repetition declined makes things harder for me.`
+`"......And there are times when refusing to repeat after me makes things harder.`
 ` ...Those times, I can't tell whether you can't repeat because my guess was right,`
 ` or whether you're just misleading me and letting me think whatever I want."`
 `"...In that sense, yes, I see.`
@@ -728,7 +728,7 @@
 ` I believe that a little stimulation such as that makes for a good medicine every once in a while."`
 `"...This butler of yours sure has a vicious tongue..."`
 `"Isn't that so?`
-` Sometimes he enrages even me."`
+` Sometimes he ticks me off as well."`
 `"My, my, how incredibly rude of me."`
 `"Well then, Milady, Battler‐sama.`
 ` Would you care for some more black tea?`

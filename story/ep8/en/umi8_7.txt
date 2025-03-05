@@ -71,10 +71,10 @@
 ` That's why we got a puzzle that was too hard for me."`
 `"Nnggggggggggghhhh...!!`
 ` S‐......sorry, Ange‐chan..."`
-`Auntie Eva put her hands together in apology.`
+`Aunt Eva put her hands together in apology.`
 `It was just too hard, and I didn't have a clue......`
 `".........Correct."`
-`"Awesome, Auntie Eva!`
+`"Awesome, Aunt Eva!`
 ` Why?!`
 ` Why is it 78 coins?!`
 ` If platinum is better than gold, then why does gold get more coins?!"`
@@ -82,9 +82,9 @@
 ` Copper is 29, silver is 47, and gold is 79.`
 ` And, by the way, platinum is 78.`
 ` So, the platinum prize gets you 78 gold coins."`
-`"A‐......Auntie Eva, you're incredible!!"`
-`Dad once told me that Auntie Eva was an enthusiastic studier, and really, really smart even back when she was in school.`
-`Even George onii‐chan, her son, is smart, so Auntie Eva must really be incredible.`
+`"A‐......Aunt Eva, you're incredible!!"`
+`Dad once told me that Aunt Eva was an enthusiastic studier, and really, really smart even back when she was in school.`
+`Even George onii‐chan, her son, is smart, so Aunt Eva must really be incredible.`
 `"Still, that was a pretty nasty riddle to choose.`
 ` You should have at least given one that Ange‐chan could understand."`
 `"You did give me permission to show her the hardest one I've got."`
@@ -163,7 +163,7 @@
 `"Yes, that's right.`
 ` Have you figured it out now, Ange‐sama and Kanon‐kun?"`
 `"I'm confused.`
-` What is it, Auntie Eva?`
+` What is it, Aunt Eva?`
 ` Tell me!"`
 `"Everything in the "W" group is sweet, right?`
 ` So, what about the "A" group?`
@@ -200,7 +200,7 @@
 ` So the answer for lemonade is "O"!"`
 `"Nice job.`
 ` You got it right, Eva‐sama and Ange‐sama."`
-`"Auntie Eva, you're so awesome!!"`
+`"Aunt Eva, you're so awesome!!"`
 `"We had to work together to solve that one.`
 ` It's a team effort."`
 `"And here is my medal.`
@@ -217,7 +217,7 @@
 `"Careful, you'll get cavities.`
 ` But if you ever come to my house to play, I'd be more than willing to share."`
 `"Yay!!`
-` I love you, Auntie Eva!!"`
+` I love you, Aunt Eva!!"`
 `In the end, Kanon caved under the threat of "I" cooking...`
 `and was forced to apologize to Shannon...`
 `"That's all for our puzzles.`
@@ -367,9 +367,9 @@
 `"So, it's finally my turn.`
 ` Kihihihihi, you took so long on Mama's easy puzzle that I got a little worried.`
 ` There's no way you'll ever solve this one, no way!"`
-`"I've got Auntie Eva with me, and we'll solve it together!"`
+`"I've got Aunt Eva with me, and we'll solve it together!"`
 `"Kihihihihihi, impossible, impossible, impossible!`
-` Even Auntie Eva won't solve this one!`
+` Even Aunt Eva won't solve this one!`
 ` Wolves and Sheep puzzles are incredibly hard...!"`
 `From her handbag,`
 ` Maria pulled out a "Wolves and Sheep Puzzle Book" that was worn‐out, well‐used, and had a majestic feel to it like a grimoire.`
@@ -433,14 +433,14 @@
 `"Maria!`
 ` Show some manners!"`
 `I'd thought so hard before getting that answer, but Maria onee‐chan just burst out laughing.`
-`The laughter broke off when Auntie Rosa hit her, but then she was grinning again.`
+`The laughter broke off when Aunt Rosa hit her, but then she was grinning again.`
 `"I don't get it at all. Just how hard was this one...?"`
 `"Only about 20 picarats, I guess?`
 ` There are lots of other puzzles in this book that are {i:actually} hard!"`
 `I don't know what a pica‐thing is,`
 ` but apparently, even this puzzle doesn't count as a hard one for Maria onee‐chan...`
 `I hung my head dejectedly.`
-`Maria onee‐chan kept on laughing until Auntie Rosa smacked her again.`
+`Maria onee‐chan kept on laughing until Aunt Rosa smacked her again.`
 `"This really is a nasty problem. Can it really be solved?`
 ` Is there some trick to it, like throwing things into the river and letting them drift to the other side without using the boat, or making the cow eat the vegetables so that they can be carried as one passenger,`
 ` or some other trick like that...?"`
@@ -467,17 +467,17 @@
 ` Then, he crosses with the shepherd in the third move."`
 `"But what about the cow and the sheep?!`
 ` What about the meat and the vegetables?!"`
-`"But Auntie Eva, it said to take every person across, right?`
+`"But Aunt Eva, it said to take every person across, right?`
 ` Cows aren't people."`
 `"Huh? Ah..........."`
-`As Auntie Eva's mouth flopped open, Auntie Rosa started applauding.`
+`As Aunt Eva's mouth flopped open, Aunt Rosa started applauding.`
 ` After clicking her tongue, Maria onee‐chan joined in.`
 `"That's right.`
 ` The question just asks how many moves it would take to move each person across.`
 ` The animals and luggage never had anything to do with it."`
 `"They only got it because you kept saying "every person" over and over again, Mama.`
 ` Uu!"`
-`Auntie Rosa had probably said it so much as a sort of hint.`
+`Aunt Rosa had probably said it so much as a sort of hint.`
 ` Without that, even I wouldn't have figured it out.`
 `"Come on.`
 ` I was totally taken in.`
@@ -598,8 +598,8 @@
 `".........I don't really get it.`
 ` I want some more hints."`
 `"That's all for my hint.`
-` If you want more, try talking to Auntie Eva."`
-`"Auntie Eva!"`
+` If you want more, try talking to Aunt Eva."`
+`"Aunt Eva!"`
 `"Rika is the key.`
 ` Rika says that Miyoko is a liar.`
 ` So, if Miyoko is speaking the truth then Rika is a liar, and if Miyoko is lying, then Rika is speaking the truth.`
@@ -657,7 +657,7 @@
 ` Okay, I've got it."`
 `"You really do whatever Eva nee‐san tells you."`
 `"Yeah.`
-` Auntie Eva is nice and smart, and I like her.`
+` Aunt Eva is nice and smart, and I like her.`
 ` So I do what she tells me!"`
 `"We'll need to ask her for a hand next time we try to make Ange eat eggplant and bell peppers."`
 `"*giggle*giggle*......"`
@@ -665,7 +665,7 @@
 ` That's wrong."`
 `"Huh?!`
 ` I got it wrong? I got it wrong?!"`
-`"Later on, try thinking it over with Auntie Eva.`
+`"Later on, try thinking it over with Aunt Eva.`
 ` I'm sure you'll figure it out soon."`
 `"Think about it.`
 ` Miyoko speaks the truth, right?`
@@ -693,7 +693,7 @@
 `"That's all for our puzzles."`
 `"Listen up, Ange.`
 ` Life will lead you through countless puzzles.`
-` ......Auntie Eva is here to help you now, so it's okay to rely on her.`
+` ......Aunt Eva is here to help you now, so it's okay to rely on her.`
 ` However, you have to solve most problems in life by yourself.`
 ` When that happens, you must remember the advice you've gotten from those who have helped you in the past."`
 `"Okay.`
@@ -901,7 +901,7 @@
 `"Hints?`
 ` Huh......??"`
 `I'm completely lost.`
-`How were Auntie Eva's questions just now hints...?`
+`How were Aunt Eva's questions just now hints...?`
 `"Sorry.`
 ` That's wrong."`
 `"What?!`
@@ -924,7 +924,7 @@
 `......Probability is hard.`
 `Didn't Onii‐chan once say that people who don't get probability should never go gambling?`
 `......I guess I'll never gamble for the rest of my life...`
-`Auntie Eva nodded and patted my head encouragingly...`
+`Aunt Eva nodded and patted my head encouragingly...`
 `"Oh.`
 ` .........The odds are better for the blue box!"`
 `"Hmmm.`
@@ -967,8 +967,8 @@
 ` I'm sure you'll like it when you get into high school and college.`
 ` Go and enjoy studying it all you can."`
 `My little head was already filled to the brim.`
-`Bewildered, I had to beg Auntie Eva for an explanation.`
-`Auntie Eva wore a bitter smile too.`
+`Bewildered, I had to beg Aunt Eva for an explanation.`
+`Aunt Eva wore a bitter smile too.`
 ` I'll bet she doesn't really get it herself.`
 `As we felt a sense of connection through this failure, we happily grasped the medals we had wrangled out of them......`
 `"Ange‐chan,`
@@ -976,7 +976,7 @@
 `".........?`
 ` What is it, George onii‐chan?"`
 `George onii‐chan and Jessica onee‐chan were calling to me from the window.`
-`Auntie Eva was talking with Mom and the others, and since it looked like they'd be a while, I went over to George onii‐chan and Jessica onee‐chan.`
+`Aunt Eva was talking with Mom and the others, and since it looked like they'd be a while, I went over to George onii‐chan and Jessica onee‐chan.`
 `"What?"`
 `"Looks like the quiz tournament is almost over."`
 `"Yeah.`
@@ -1199,7 +1199,7 @@
 ` ......Do you remember......the truth...?"`
 `Ange breathed softly in her sleep.`
 `Who knows......if those words truly reached her...`
-`"Auntie Eva."`
+`"Aunt Eva."`
 `"........................"`
 `"......Take care of her."`
 `"You.........really think......that I deserve to become her mother......?"`
@@ -1211,16 +1211,16 @@
 ` ............Ange, listen carefully."`
 `Battler grasped Ange's hand, then took Eva's hand and joined the two hands together...`
 `"......We know that a tragic fate led to a future where the two of you hurt each other.`
-` ......It was a very sad thing for you......and just as sad for Auntie Eva.`
+` ......It was a very sad thing for you......and just as sad for Aunt Eva.`
 ` .........It wasn't fair on you that you were asked to open your heart to her.`
-` And it wasn't fair on Auntie Eva that she was asked to endure her own sadness for your sake."`
+` And it wasn't fair on Aunt Eva that she was asked to endure her own sadness for your sake."`
 `".........Neither of you...`
 `is at fault."`
 `"Even so, .....we have no right to tell you to forgive her.`
 ` ......So, we won't.`
 ` .........Just try to understand.`
 ` It doesn't matter how long it takes, how far into the future it happens.`
-` ......Try to understand Auntie Eva.`
+` ......Try to understand Aunt Eva.`
 ` And, every once in a while, .........remember us."`
 `"And don't forget about me.`
 ` Every once in a while, remember this merry, cheerful, attractive paragon of a woman, and chant my name in praise three times every day."`

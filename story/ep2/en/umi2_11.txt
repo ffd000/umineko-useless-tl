@@ -160,7 +160,7 @@
 `"......Yeah, something like that."`
 `"So, the chapel.`
 ` ......They went to all the trouble of calling them out to the chapel before killing them...`
-` ............Auntie Rosa,`
+` ............Aunt Rosa,`
 ` does this chapel have some special meaning...?"`
 `"What do you mean, ......special meaning?"`
 `"Well, umm,`
@@ -255,7 +255,7 @@
 ` ......Kihihi{0}hi{0}hi{0}hi{0}hi{0}hi{0}hi{0}hi{0}hi{0}hi{0}hi{0}hi{0}hi{0}hihihi.`
 ` Ouch."`
 `"Niiiice, you can shut up now.`
-` Auntie Rosa, you were sending Maria to English classes?`
+` Aunt Rosa, you were sending Maria to English classes?`
 ` I guess it's true, you have to start learning English when you're young."`
 `".........The forbidden chapel.`
 ` ......Whether or not the witch {f:5:Beatrice} really was a witch, she's whispered to have actually existed several decades ago,`
@@ -297,8 +297,8 @@
 ` ...............Wait, .........what on Earth?"`
 `"Wh‐what do you mean "what on Earth"..."`
 `I thought all I'd done was mess around because I didn't like the way the atmosphere had turned all sappy.`
-` ......But Auntie Rosa had suddenly jumped on me, with a really serious face.`
-`Auntie Rosa's face grew increasingly pale.`
+` ......But Aunt Rosa had suddenly jumped on me, with a really serious face.`
+`Aunt Rosa's face grew increasingly pale.`
 ` ...She looked at the magic circle on the door, then at her hand, back and forth, back and forth.`
 `"Wh‐......what seems to be the matter, Rosa‐sama...?"`
 `"Hey, Gohda‐san!`
@@ -337,7 +337,7 @@
 ` It was locked!!`
 ` I unlocked it!!`
 ` Definitely!!"`
-`Auntie Rosa kept closing the chapel door, locking it, pulling on it to check the lock, and opening it again.`
+`Aunt Rosa kept closing the chapel door, locking it, pulling on it to check the lock, and opening it again.`
 `Her face was becoming pale again...`
 `"Until I took the key out of Maria's envelope and opened this door,`
 ` it was definitely locked!!`
@@ -347,7 +347,7 @@
 `"But then that's......strange......!"`
 `"Yes, it is.`
 ` .........Maria received the only key from a woman calling herself a witch midday yesterday.`
-` In other words, from midday yesterday until this morning, when Auntie Rosa unlocked the door, this chapel was a locked room."`
+` In other words, from midday yesterday until this morning, when Aunt Rosa unlocked the door, this chapel was a locked room."`
 `".........How did they get those six in here, and then how did they kill them?!"`
 `We had been confused by the six deaths.`
 ` We'd thought that we had figured something out after hearing about that weird magic circle and the history of the chapel.`
@@ -562,7 +562,7 @@
 `"And then you shall kiss my shoes!`
 ` There's no greater joy than forcing a man like you to lick my shoes, *cackle*cackle*cackle*cackle*kakaka{0}ka{0}ka{0}ka{0}ka{0}ka{0}kakaka!!"`
 `.........Damn iiiiiiiiit...`
-` It's no good, no good, no good...`
+` It's useless, useless, useless...`
 `{n}So I can't win against the witch...?!`
 `This isn't chess at all—I've just been made to take the losing side in a chess problem...!`
 ` Is quibbling about details and getting a draw the best I can do...?`
@@ -574,7 +574,7 @@
 ` Ushiromiya Battleeeeeeeeeeer...????"`
 `Damn iiiiiiiiiiiit, what should I do, what?!!`
 ` I can see it, I can see myself facing checkmate...!!`
-`Aaaaaaaaah, it's no good, it's no good, all of my hard‐fought moves are nothing more than desperately moving my king, running away from check.`
+`Aaaaaaaaah, it's useless, it's useless, all of my hard‐fought moves are nothing more than desperately moving my king, running away from check.`
 ` ......No matter how many times I move, I can't escape from being checked.`
 ` So even without waiting for the next several moves, I can see mate in my future!!`
 ` Aaaaaaaaaaaaaaaaaaaaahhh, damn iiiiiiiiiiiiiiiiiiiit.........!!`
@@ -582,11 +582,11 @@
 `.................................`
 `......Don't give up, Ushiromiya Battler.`
 `{n}If I can see myself getting closed in upon...`
-`......Then if I flip over the chessboard......I can anticipate the next move, right...?`
+`......Then if I spin the chessboard around......I can anticipate the next move, right...?`
 `Kyrie‐san told me...`
 ` When considering something, the closer you get to the very, very end, ......the easier it becomes to anticipate.`
-`Flip it over.`
-`{n}......Flip over...the chessboard...!!`
+`Spin it around.`
+`{n}......Spin...the chessboard around...!!`
 `"......................................................"`
 `"......What's wrong?`
 ` You've gone silent all of a sudden.`
@@ -612,8 +612,8 @@
 ` ............It all comes down to this."`
 `"Try it."`
 `"I've spent the whole time focused on how they entered the locked room of the chapel...`
-` .........That way of thinking was no good."`
-`"......Yeah, it's no good, it's no goddamn good at all.`
+` .........That way of thinking was useless."`
+`"......Yeah, it's useless, it's all useless.`
 ` ......Flip over the chessboard."`
 `".........That's right.`
 ` The direction of my thinking was backwards.`
@@ -657,7 +657,7 @@
 ` ......Midday yesterday, you gave Maria an envelope with a key inside.`
 ` And you told her that she mustn't open it.`
 ` .........Maria probably realized that there was a key inside."`
-`"And because later on, Auntie Rosa used what was inside the envelope to open the door to the chapel,`
+`"And because later on, Aunt Rosa used what was inside the envelope to open the door to the chapel,`
 ` {i:we thought that was the key to the chapel}.`
 ` This is the suspicious part!"`
 `"........................So is this what you are trying to say?`
@@ -675,7 +675,7 @@
 ` ...{p:1:The key to the chapel truly was the object inside the envelope I gave Maria}."`
 `"I'll chase you.`
 ` ......Can you repeat it in red?`
-` ......‘That envelope was completely under Maria's supervision until Auntie Rosa opened it’."`
+` ......‘That envelope was completely under Maria's supervision until Aunt Rosa opened it’."`
 `".........................................."`
 `"...If it's impossible, then state that you decline.`
 ` Check."`
@@ -696,7 +696,7 @@
 ` I don't hurt women.`
 ` {i:I don't betray a woman's expectations}!"`
 `".........Repeat it for me in red—say it if you can.`
-` "No one was able to touch Maria's handbag until Auntie Rosa took out the envelope"."`
+` "No one was able to touch Maria's handbag until Aunt Rosa took out the envelope"."`
 `"........................I will also......decline this.`
 ` ...I won't explain the reason."`
 `"That's wrong.`
@@ -706,25 +706,25 @@
 `".................................kh..."`
 `"If you can't do it, then I'll explain for you.`
 ` .........The key to the chapel really was in the envelope that you handed to Maria.`
-` ...Then Maria put it in her handbag, and the next morning, Auntie Rosa took it out and opened the lock."`
+` ...Then Maria put it in her handbag, and the next morning, Aunt Rosa took it out and opened the lock."`
 `"............However!`
 ` Maria didn't have the handbag under her complete supervision!`
 ` There's no need for magic.`
 ` It's a locked room trick that's possible for a human!"`
 `"The {y:0:Human}{n:0:human} culprit handed Maria the key,`
-` and by making Auntie Rosa use it the next morning, they created the illusion that there was a locked room during that time."`
+` and by making Aunt Rosa use it the next morning, they created the illusion that there was a locked room during that time."`
 `"You can't deny the possibility that during that time, the culprit took the key from Maria's handbag, used it,`
 ` and returned it to the handbag by morning!!"`
 `"Can you say it in red?!"`
-`"Repetition requested—say it if you can!!`
+`"Repeat it—say it if you can!!`
 ` It's check again!!!"`
 `"H‐......hold on.`
 ` I'll remove the check...`
 ` ...The envelope with the key in it should have been sealed with wax...!`
 ` Rosa took it from an unopened envelope—"`
 `"Really! Let's hear it, then!!"`
-`"Repetition requested!!`
-` "The envelope handed over midday yesterday and the envelope that Auntie Rosa opened are the same thing"."`
+`"Repeat it!!`
+` "The envelope handed over midday yesterday and the envelope that Aunt Rosa opened are the same thing"."`
 `"Th‐that I can repeat.`
 ` {p:1:The envelope I handed over to Maria and the one Rosa opened are the same thing}!!"`
 `"......Haah...!`
@@ -741,9 +741,9 @@
 `"...kh.....................kuuuuuuu........."`
 `"This time, it's all over, Golden Witch.`
 ` It's a real checkmate.`
-` ......I'll ask one more time, repetition requested!!`
+` ......I'll ask one more time, repeat it!!`
 ` Say it if you can!"`
-`"‘The key to the chapel inside the envelope Maria received wasn't used even once until Auntie Rosa opened the envelope’!!"`
+`"‘The key to the chapel inside the envelope Maria received wasn't used even once until Aunt Rosa opened the envelope’!!"`
 `"..................h...`
 `............kh...`
 `...............how...`
@@ -753,13 +753,13 @@
 `......could I.........`
 `to a lowly human.........!!"`
 `"I'll keep on saying it, {f:5:Beatrice}!!!"`
-`"Repetition requested!!`
-` "The key to the chapel inside the envelope Maria received wasn't used even once until Auntie Rosa opened the envelope"!!"`
+`"Repeat it!!`
+` "The key to the chapel inside the envelope Maria received wasn't used even once until Aunt Rosa opened the envelope"!!"`
 `"......u...ku......ooooooooooooooooooooooooooohhh!!!"`
 `"If you're gonna yell, then make it words—<resign>, right?!`
 ` It's settled!!`
 ` This is the truth."`
-`"Before Auntie Rosa obtained Maria's key this morning, at one point, it passed into someone else's hands."`
+`"Before Aunt Rosa obtained Maria's key this morning, at one point, it passed into someone else's hands."`
 `"Then they used it, resealed it, and returned it to Maria's handbag, making it look like it hadn't been used!"`
 `"This is a trick with a cheap loophole: the assumption that the key wasn't used because the sealing wax wasn't broken!!"`
 `"Checkmate!!`

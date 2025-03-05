@@ -890,11 +890,11 @@
 ` what a foolish tale."`
 `"Good.`
 ` Erika, is there anything you wish to confirm?"`
-`"Repetition requested.`
+`"Repeat it.`
 ` "The one who rescued Battler was, without a doubt, Kanon.""`
 `"Very well.`
 ` {p:1:The one who rescued Battler was, without a doubt, Kanon}."`
-`"Repetition requested.`
+`"Repeat it.`
 ` "Battler and Kanon are different people.""`
 `"Very well.`
 ` {p:1:Battler and Kanon are different people}."`
@@ -1155,16 +1155,16 @@
 `In that case, I'll crush all possibilities!`
 `{n}I'll crush them all with repetition requests!!`
 `This final duel......has already begun, even though we haven't pulled our triggers yet...!!`
-`"Repetition requested.`
+`"Repeat it.`
 ` "At the time Battler was rescued, only Kanon entered the guest room.""`
 `"I acknowledge it.`
 ` {p:1:At the time Battler was rescued, only Kanon entered the guest room}.`
 ` I believe that was the whole point..."`
-`"Repetition requested.`
+`"Repeat it.`
 ` "From the time I entered the room to the time of the logic error, Battler, Kanon, and I were the only ones who entered or exited the room.""`
 `"{p:1:I acknowledge it.`
 ` From the time you entered the room to the time of the logic error, you, Battler, and Kanon were the only ones who went in or out of the guest room}."`
-`"Repetition requested.`
+`"Repeat it.`
 ` "This refers to three people.""`
 `"{p:1:I acknowledge it.`
 ` It refers to three people: you, Battler, and Kanon}."`
@@ -1178,7 +1178,7 @@
 ` Only you and Kanon entered, and only Battler left.`
 ` It has already been said in red that every name has just one person that it belongs to, and no one can go by a name that is not theirs.`
 ` Therefore, for each of the names "Erika", "Battler", and "Kanon", only that single person can go by that name}."`
-`"Repetition requested.`
+`"Repeat it.`
 ` "I am not the rescuer.""`
 `"{p:1:Of course}!`
 ` You are the detective, are you not?`
@@ -1203,10 +1203,10 @@
 `......There's nothing to doubt.`
 `There's no room for anyone but Kanon to be involved.`
 `......At least, so far!`
-`"Repetition requested.`
+`"Repeat it.`
 ` "The definition of "going in or out" is "crossing the boundary between the guest room and the area outside it.""`
 `"{p:1:I acknowledge it}."`
-`"Repetition requested.`
+`"Repeat it.`
 ` "The phrase "guest room" includes all of:`
 ` the bedroom,`
 ` the bathroom,`
@@ -1218,7 +1218,7 @@
 `"{p:1:I also recognize it as such.`
 ` Furthermore, you have already confirmed with the red truth that two of those sections, the bedroom and the bathroom,`
 ` had no one hiding in them}."`
-`"Repetition requested.`
+`"Repeat it.`
 ` "There is someone in the closet.""`
 `"I decline."`
 `"Why's that?!`

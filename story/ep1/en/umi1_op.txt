@@ -105,7 +105,7 @@
 ` You must leave behind your regrets so that they can be resolved even if you are unable to do so yourself.`
 ` ......That is the purpose of a will."`
 `When Nanjo tried to gently pat Kinzo's shoulder, the dying man flew into a sudden rage and batted away Nanjo's hand.`
-`"That is no good, no good, no good!!"`
+`"It's useless, useless, useless!!"`
 `"It must be done while I still live! At the moment of my death, my soul will be devoured by the demons of the contract and wiped out of existence!`
 ` For me, there will be no peace or another world after death!`
 ` That's why everything must be done before I go!!`
@@ -236,7 +236,7 @@
 ` ...*giggle* You must tell your aunt all about it later.`
 ` After all, George never comes to me with anything of the sort.`
 ` Heheheh..."`
-`This is my aunt and George‐aniki's mother, Auntie Eva ({p:0:絵羽}).`
+`This is my aunt and George‐aniki's mother, Aunt Eva ({p:0:絵羽}).`
 `She's my dad's older sister.`
 `{n}She and Uncle Hideyoshi are a pair of jokers, and they've always teased me back as far as I can remember.`
 `This sometimes made them a bit hard to get along with when I was small.`
@@ -307,7 +307,7 @@
 ` Gyaah, let goooo!!"`
 `......This old bastard is my dad.`
 `{n}I think I'm pretty tall, but Dad's about the same height.`
-`It's probably no surprise that Auntie Eva started talking about Dad's blood when she saw my height.`
+`It's probably no surprise that Aunt Eva started talking about Dad's blood when she saw my height.`
 `By the way, my height isn't the only thing I got from him.`
 `{n}It seems having weird names runs in the family.`
 `Dad's full name is written {p:0:右代宮 留弗夫}.`
@@ -316,7 +316,7 @@
 `{n}That mess of characters is pronounced "Rudolf".`
 `Haha...he must hate Grandfather for giving him that name.`
 `Still, that's no reason to pass that weird naming tradition onto me.`
-`As the old bastard twisted my ear all over the place, Auntie Eva snuck up behind him and grabbed his ear.`
+`As the old bastard twisted my ear all over the place, Aunt Eva snuck up behind him and grabbed his ear.`
 `"Hey, Rudolf?`
 ` Don't take your frustrations out on your kid."`
 `"Gyaah, that hurts, Aneki..."`
@@ -334,10 +334,10 @@
 `"...Hmm~?!`
 ` Who are you calling "unsold"?"`
 `After taking two or three steps back,`
-` Auntie Eva unleashed one of her beautiful high reverse roundhouse kicks, which stopped just a centimeter away from the tip of Dad's nose.`
-`After starting out with Tai‐chi‐chuan for her figure, Auntie Eva had then developed an interest in the Chinese martial arts.`
+` Aunt Eva unleashed one of her beautiful high reverse roundhouse kicks, which stopped just a centimeter away from the tip of Dad's nose.`
+`After starting out with Tai‐chi‐chuan for her figure, Aunt Eva had then developed an interest in the Chinese martial arts.`
 ` After that, she went through karate, taekwondo, capoeira, ...and what is it she's learning now, again?`
-`...Well, anyway, they say a woman's weapons are in her lower body, and that's literally true for Auntie Eva.`
+`...Well, anyway, they say a woman's weapons are in her lower body, and that's literally true for Aunt Eva.`
 `"Rudo~lf?`
 ` Did you know that a single direct blow to the side of the head like that would knock you unconscious?`
 ` Not so long ago, I accidentally connected in a practice match, and my opponent was out cold."`
@@ -374,7 +374,7 @@
 `"Thank you very much, Hideyoshi nii‐san.`
 ` I'm always in your debt..."`
 `...And once the conversation suddenly veered off in that direction, we kids didn't have any chance of butting in.`
-`For now, I'm just happy that Auntie Eva gave Dad his just deserts for tugging on my ear.`
+`For now, I'm just happy that Aunt Eva gave Dad his just deserts for tugging on my ear.`
 `"Looks like we're still waiting for the weather report."`
 `George‐aniki pointed at the counter.`
 `{n}The "Pending Weather Clearance" sign was still stuck next to the scheduled departure time for the flight we were scheduled to board.`
@@ -384,7 +384,7 @@
 `From down here on the ground, it just looks cloudy, not windy.`
 `...Well, I guess it's different up where the planes fly.`
 `"The weather's a bit uncertain today."`
-`Auntie Eva was looking at a TV in the lounge.`
+`Aunt Eva was looking at a TV in the lounge.`
 `{n}The weather forecast was being broadcast, informing us that a typhoon was approaching the Kanto region.`
 `"A typhoon again?`
 ` ......I guess we're doomed to these, with the family conference being in October every year.`
@@ -410,7 +410,7 @@
 `"Are you aware?`
 ` Stopping a kick just a hair's breadth away is a very high‐level technique."`
 `"Sheesh, women your age should be more proper than that!"`
-`Dad and Auntie Eva's argument looks no different from a couple of brats bickering...`
+`Dad and Aunt Eva's argument looks no different from a couple of brats bickering...`
 `"I expect that's because, although they normally act as mothers and fathers,`
 ` they turn right back into kids again when they meet their old siblings at these family conferences."`
 `"You're the one who looks like a real adult, analyzing it all calmly.`
@@ -443,7 +443,7 @@
 `"......hm?! Ohh~!"`
 `Right then, Uncle Hideyoshi shouted out loudly.`
 `{n}Uncle's a really nice person on the whole, but he does have a problem controlling the volume of his voice.`
-`When I looked over, I saw that he was greeting Auntie Rosa, who had come late.`
+`When I looked over, I saw that he was greeting Aunt Rosa, who had come late.`
 `"Ohoooooooooh!!!`
 ` If it isn't Rosa‐san!`
 ` Maria‐chan, long time no see!!"`
@@ -544,7 +544,7 @@
 ` Battler!"`
 `"Maria!`
 ` You mustn't address him without honorifics—call him Battler onii‐chan...!"`
-`"It's cool, Auntie Rosa.`
+`"It's cool, Aunt Rosa.`
 ` I don't sweat the small stuff.`
 ` Right, Maria?!`
 ` We're buddies on a first‐name basis, us two, aren't we?!"`
@@ -564,7 +564,7 @@
 `{n}The third character looks like a cross, which is pretty cool.`
 `Her feelings don't usually show up on her face, so it can be difficult to know just what she's thinking, but that's just how she looks on the outside.`
 `{n}On the inside, she's just a sweet, normal girl.`
-`Then there's Maria's mother, Auntie Rosa.`
+`Then there's Maria's mother, Aunt Rosa.`
 `{n}She's my dad's younger sister.`
 `Rosa is written {p:0:楼座}.`
 ` ...Here's a name that's totally not Japanese.`
@@ -574,9 +574,9 @@
 `{n}Just why is Grandfather so obsessed with this?`
 `Because of him, even us grandchildren have to put up with this weird naming sense.`
 `{n}It's even more annoying since Grandfather's own name is perfectly normal.`
-`Anyway, there's one thing about Auntie Rosa that's a relief compared to the other family members.`
-`The old bastard and Auntie Eva have this annoying urge to tease and mock people all the time,`
-` but even though she shares their blood, Auntie Rosa isn't like that at all.`
+`Anyway, there's one thing about Aunt Rosa that's a relief compared to the other family members.`
+`The old bastard and Aunt Eva have this annoying urge to tease and mock people all the time,`
+` but even though she shares their blood, Aunt Rosa isn't like that at all.`
 `She has the most common sense among all the siblings.`
 `Like Uncle Hideyoshi, she's a kind aunt who'll always be on the kids' side.`
 `......However, possibly because she's more strict as a parent, she's not liberal with handing out spending money like Uncle Hideyoshi is.`

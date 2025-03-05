@@ -171,9 +171,9 @@
 ` ...{f:5:Beatrice}."`
 `"Sh‐she's not even using "sama" for {f:5:Beatrice}‐sama..."`
 `"Enough.`
-` Do you know who this person is?`
-` ......{f:5:Beatrice} was originally this person's name.`
-` I merely inherited that name from her.`
+` Do you know who this is?`
+` ......The name {f:5:Beatrice} itself is hers.`
+` I merely inherited it from her.`
 ` ......This person is my master.`
 ` The Predecessor Lady {f:5:Beatrice}."`
 `"The Predecessor...`
@@ -318,7 +318,7 @@
 `...It was too large for even a giant's hand.`
 `It was a divinely beautiful spear of the gods, so massive that it gave the illusion that the tower which had fallen had turned into a spear of the same size.`
 ` A spear of certain victory that no one could escape.`
-`"It looks like your twin towers are useless.`
+`"Looks like your twin towers won't help you now.`
 ` How foolish that you blocked off your means of escape on both sides.`
 ` You can't defend against even a single spear!"`
 `When she snapped her fingers in command,`
@@ -630,7 +630,7 @@
 ` Some teenage brat has a whole bunch of some strange special abilities, and there's all these kabooms and badooms with the fate of the world at risk!"`
 `"You looove that too, don't you?!`
 ` I know, don't hide it, you love it, right, hiihyahhyahhyah!!`
-` That thing that you love just displayed itself a little before your eyes, that's all, riiiiight?"`
+` Hasn't the thing you love just been displayed before your very eyes?"`
 `"Why do you believe it in manga and anime, but you won't believe in meeeeeeeeee??`
 ` Believe, believe, believe it!`
 ` You can't argue back, not after you've been shown something like this, riiiiiiiiiiiiight?"`

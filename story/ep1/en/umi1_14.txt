@@ -48,9 +48,9 @@
 `"......That's interesting.`
 ` Just a few hours ago, I seem to remember everyone making a fuss over how to get out of a room without using the door."`
 `Back then, everyone had been making a fuss over how Grandfather had disappeared from his room.`
-`Because of the receipt that Auntie Eva had stuck in the door on a whim, it was revealed that the door had remained sealed,`
+`Because of the receipt that Aunt Eva had stuck in the door on a whim, it was revealed that the door had remained sealed,`
 ` and since Aunt Natsuhi had been the only person to enter or exit during that time, she had come under suspicion.`
-`Auntie Eva had proposed a theory about how Aunt Natsuhi might have thrown Grandfather out the window,`
+`Aunt Eva had proposed a theory about how Aunt Natsuhi might have thrown Grandfather out the window,`
 ` and left by the door herself.`
 `But this door is much simpler.`
 `It was sealed from the inside by the door chain.`
@@ -81,7 +81,7 @@
 ` The culprit could knock on the door to make them peer out before attacking them, or...`
 ` Wait, ...is that naive...?"`
 `"Yeah, it is.`
-` .........If Auntie Eva's body had been lying right next to the door, then it might have been possible."`
+` .........If Aunt Eva's body had been lying right next to the door, then it might have been possible."`
 `"But she was on the bed in the center of the room!`
 ` And Uncle Hideyoshi was even in the bathroom.`
 ` Looking from the crack in the door, you couldn't even see them, and you couldn't reach them with your hands either.`
@@ -102,7 +102,7 @@
 `"Sure, thanks for granting it.`
 ` That was an expression of my gratitude, and a free lesson in not laughing at times like this.`
 ` More importantly, tell me.`
-` There was more mysterious graffiti on the door to Auntie Eva and Uncle Hideyoshi's room.`
+` There was more mysterious graffiti on the door to Aunt Eva and Uncle Hideyoshi's room.`
 ` Was that another magic circle?!"`
 `"......Kihihihihihihihi.`
 ` It has an especially memorable and characteristic design, so I'd hoped you'd at least know that one.`
@@ -318,12 +318,12 @@
 ` ............Battler‐kun......?"`
 `Battler put his head against the wall, ...and scratched at it with his fingernails as he cried...`
 `".........Shit, ......shit, shit...!!`
-` Auntie Eva and Uncle Hideyoshi!`
+` Aunt Eva and Uncle Hideyoshi!`
 ` And now Kanon‐kun too?!!!`
 ` You killed six whole people!!`
 ` And that wasn't enough, so you killed three more!!"`
 `"Fuck you, fuck youuuuuuu!!`
-` Auntie Eva and Uncle Hideyoshi were always fun and kind to us...!!`
+` Aunt Eva and Uncle Hideyoshi were always fun and kind to us...!!`
 ` I just met Kanon‐kun yesterday, but I'm sure I'd have gotten along fine with him!`
 ` Why did you kill them?!!"`
 `"Why, why...?!!!`
@@ -363,11 +363,11 @@
 `...Stains from Kanon‐kun's blood remained on the floor.`
 `Judging by the large amount of blood lost and the ruthless shape of the weapon that had fallen unceremoniously to the ground,`
 ` ......I figured that Doctor Nanjo's treatment would probably end in vain...`
-`That weapon was doubtlessly the same type that had been stuck in Auntie Eva and Uncle Hideyoshi's foreheads.`
+`That weapon was doubtlessly the same type that had been stuck in Aunt Eva and Uncle Hideyoshi's foreheads.`
 `......But wait, isn't the demonic design on the handle a little different...?`
 `There seemed to be some small differences in that part.`
 ` Still, as far as their overall shape was concerned, the weapons were all of the same type.`
-`Though it had seemed brutal, we'd left the weapons stuck into Auntie Eva and Uncle Hideyoshi to preserve the crime scene.`
+`Though it had seemed brutal, we'd left the weapons stuck into Aunt Eva and Uncle Hideyoshi to preserve the crime scene.`
 `...So this was the first time I was able to have a perfect view of the entire weapon.`
 `Indeed, the weapon was not bladed like a knife, but shaped like an icepick,`
 ` ...or rather, a thin stake.`
@@ -433,7 +433,7 @@
 `This is beside the point, but it's fairly common in mystery novels for a corpse to be burned to hide whose body it is.`
 `......But it looks like in Grandfather's case, just being toasted wasn't enough to hide the proof of his identity...`
 `And......Grandfather's body was not simply burnt.`
-`......Just like Auntie Eva and Uncle Hideyoshi, ...and Kanon‐kun too, who had been stabbed in his chest,`
+`......Just like Aunt Eva and Uncle Hideyoshi, ...and Kanon‐kun too, who had been stabbed in his chest,`
 ` he had one of those "demon's icepicks"...stuck into his forehead......!`
 `"............The "Head's Ring" is not on his finger."`
 `"...So everything is as the letter last night said.`
@@ -456,12 +456,12 @@
 `After this latest crime, can we now be sure that a 19th person exists?`
 `{n}They haven't shown themselves once, and yet they're trying to tout their existence.`
 `Along with Kyrie‐san's chessboard theory, I've been using this contradiction to deny the existence of a 19th person.`
-`...By flipping over the chessboard once more,`
+`...By spinning the chessboard around once more,`
 ` the very fact that this crime makes it perfectly obvious that a 19th person exists...`
 `means that the existence of the 19th person is even less possible.`
 ` As long as that 19th person doesn't show themselves in front of us...!`
 `......If the culprit could get Grandfather out through the door sealed by the receipt,`
-` if they could kill Auntie Eva and Uncle Hideyoshi from the other side of a door sealed by a chain,`
+` if they could kill Aunt Eva and Uncle Hideyoshi from the other side of a door sealed by a chain,`
 ` ......then is it possible for them to even create a fictional 19th person through strange tricks and devices...?!?!`
 `If we still want to believe that the culprit is among us,`
 ` ......then the list of suspects is very short.`
@@ -536,5 +536,5 @@
 `......She's simply overjoyed at being made {f:5:Beatrice}'s messenger, and certainly is not our 19th person.`
 ` ..................I think.`
 `That's right,`
-` I wonder what's written in the letter we picked up in Auntie Eva and Uncle Hideyoshi's room...`
+` I wonder what's written in the letter we picked up in Aunt Eva and Uncle Hideyoshi's room...`
 ` Aunt Natsuhi should still have it with her...`

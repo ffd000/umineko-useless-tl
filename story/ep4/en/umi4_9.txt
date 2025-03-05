@@ -333,7 +333,7 @@
 ` ......Ah.`
 ` Hello?`
 ` Hello?`
-` Is this Auntie Rosa Co., Ltd.?"`
+` Is this Aunt Rosa Co., Ltd.?"`
 `"This is the Komatsugawa Police Department police box in front of Senbonzakura Station.`
 ` Is President...umm, {c:86EF9C:Udaikan}...no, sorry, President Ushiromiya‐san available?`
 ` ............Yes.`

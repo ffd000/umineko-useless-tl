@@ -62,7 +62,7 @@
 `...And over there......were a great many figures.`
 `{n}Everyone was there, talking together and smiling.`
 `"G‐............guys........."`
-`There was Dad and Kyrie‐san, Uncle Krauss, Aunt Natsuhi and Auntie Rosa, and of course, even Auntie Eva and Uncle Hideyoshi.`
+`There was Dad and Kyrie‐san, Uncle Krauss, Aunt Natsuhi and Aunt Rosa, and of course, even Aunt Eva and Uncle Hideyoshi.`
 `......George‐aniki, Jessica, Maria, ...wait, wait, even Shannon‐chan, Kanon‐kun, Gohda‐san and Kumasawa‐san are here.`
 `Everyone, everyone was at the party, clapping their hands and celebrating our return...`
 `"Wh‐...why...?`
@@ -128,7 +128,7 @@
 ` Let her at least choose the person she likes."`
 `"I forbid it, I forbid it, aaa{0}a{0}a{0}a{0}a{0}aaahhh, Jessicaaaaaaaaa!"`
 `"Mine has gone awry toooooo, ohhhhh, Geooooooooorge!"`
-`...As Aunt Natsuhi and Auntie Eva hugged each other, they cried tears of regret for their darling children.`
+`...As Aunt Natsuhi and Aunt Eva hugged each other, they cried tears of regret for their darling children.`
 `......Even though they had always been at odds.`
 ` ...It was a very bizarre scene.`
 `"......It isn't really a problem, right?`
@@ -342,7 +342,7 @@
 `".............................."`
 `"......Hi......hihhihahhahhahaaaHAAaHAHHH!!"`
 `"Sorrrrry, Battleerrr, I am that kind of persooooooooooon!!`
-` Aah, it's no good, I can't keep this up, it looks like sentimental sob stories don't match well with meeeeeeeeeee!!`
+` Aah, it's useless, I can't keep this up, it looks like sentimental sob stories don't match well with meeeeeeeeeee!!`
 ` Master, with all your strength, if you please!!`
 ` That was such a plain role to play, and I got so bored!"`
 `"I don't know who you are, woman!!`
@@ -455,7 +455,7 @@
 ` I'll welcome you fully...!!`
 ` Along with Battler, I'll play with you nicely, break you, kill you, crush you, turn you to ash, mix you with bread dough and bake you until you're fluffy!!`
 ` Fuhha{0}ha{0}ha{0}ha{0}ha{0}ha{0}ha{0}ha{0}ha{0}ha{0}haaa{0}a{0}a{0}a{0}a{0}aaaahh!!"`
-`".........Ohhhh, that's no good, no good at all!`
+`".........Ohhhh, it's useless, it's all useless!`
 ` You'll never be able to do that!`
 ` Rokkenjima, in the year 1986.`
 ` ...I will expose everything that happened then to the light of day!"`

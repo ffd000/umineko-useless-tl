@@ -86,7 +86,7 @@
 ` You will too, right, Battler‐kun?`
 ` The more people, the better...!"`
 `"S‐sure!!`
-` Auntie Eva, we're coming even if you tell us not to."`
+` Aunt Eva, we're coming even if you tell us not to."`
 `"...I, I'm coming too...!`
 ` I'll be damned if I'm gonna be the only one hiding where it's safe...!"`
 `"Jessica, you must not go outside!!`
@@ -132,7 +132,7 @@
 `"...................................."`
 `"Hey, can't you hear me?`
 ` ...Please, declare it in red.`
-` This is a repetition request.`
+` Repeat it.`
 ` "Rudolf, Kyrie, and Hideyoshi are dead"."`
 `"...............My apologies.`
 ` Allow me to decline from repeating that."`
@@ -307,7 +307,7 @@
 ` preference for cruelty.`
 ` .........I absolutely cannot forgive this aspect of you."`
 `"........................m...mm......"`
-`"When Auntie Rosa was repeatedly killed in horrible ways,`
+`"When Aunt Rosa was repeatedly killed in horrible ways,`
 ` ......you said, "she'll be brought back to life in the end, so it doesn't matter how she kills her",`
 ` ...or something like that, I hear.`
 ` {f:5:Virgilia} told me."`

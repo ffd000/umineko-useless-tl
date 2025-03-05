@@ -19,7 +19,7 @@
 ` Kihhihi{0}hi{0}hihihi...!"`
 `"......There's something wrong with you.`
 ` ......How can you sit there saying such incomprehensible crap in a situation like this...?!"`
-`"............Didn't Auntie Kyrie just tell you, Battler...?`
+`"............Didn't Aunt Kyrie just tell you, Battler...?`
 ` ......Didn't she tell you...`
 `to believe...`
 `...in the witch?"`
@@ -775,7 +775,7 @@
 `"Say it in red!!`
 ` Can you say in red that if I hadn't come back, this screwed‐up murder case wouldn't have occurred?!`
 ` ......There's no way you can, because you're the culprit behind everything!!"`
-`"Repetition requested!!`
+`"Repeat it!!`
 ` "If Ushiromiya Battler hadn't returned to Rokkenjima, the crime wouldn't have occurred".`
 ` Go on, say it if you think you can...!!"`
 `"......Can't do it, can you?`
@@ -1164,7 +1164,7 @@
 ` ......I'd thought her to be the calm, collected type, so her expression surprised me.`
 `"......Well then, Battler.`
 ` I shall have you repeat in red."`
-`"Y‐you're giving me a repetition request?`
+`"Y‐you're telling me to repeat something?`
 ` Heheh... Damn you, stealing my signature move.`
 ` ...But can I do the red truth too?`
 ` How...?"`
@@ -1198,7 +1198,7 @@
 `{p:1:And I opened this game in order to fight Ushiromiya Kinzo's grandchild, Ushiromiya Battler}.`
 `"......I know that.`
 ` So what?"`
-`"Repetition requested.`
+`"Repeat it.`
 ` .........‘Ushiromiya Battler's mother is Ushiromiya Asumu’."`
 `"Whaa?!`
 ` ...Why's Mom's name popping up all of a sudden......?"`
@@ -1255,7 +1255,7 @@
 ` The blue is used to proclaim a theory for the opponent to deny.`
 ` They are then burdened with the responsibility of denying that in red, and if they do not, then it is victory.`
 ` .........Then let me begin."`
-`{p:2:Due to the previous repetition request, and the refusal to repeat,}`
+`{p:2:Due to my previous demand to repeat and your subsequent refusal,}`
 ` {p:2:I proclaim that you are not qualified to be my opponent}.`
 `{p:2:After all,}`
 ` {p:2:{f:5:Beatrice} opened this game in order to fight with "Ushiromiya Kinzo's grandchild, Ushiromiya Battler"}.`

@@ -479,7 +479,7 @@
 ` ......So I'll declare it too.`
 ` {p:1:Ushiromiya Battler is not Ushiromiya Asumu's son}."`
 `".........Hmph, ......in that case, he is not qualified to be the opponent in my game, is he..."`
-`"Repetition request for {f:5:Beatrice}.`
+`"{f:5:Beatrice}, repeat it.`
 ` "Ushiromiya Battler is not Ushiromiya Kinzo's grandchild"."`
 `".............................."`
 `As Beato wrinkled her forehead,`

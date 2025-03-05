@@ -1079,4 +1079,4 @@
 `"What a coincidence.`
 ` I feel the same."`
 `"{p:1:I killed you inside a perfect locked room, with windows, doors, and all other methods of entry or exit blocked}!!"`
-`"Okay, I'll play along with your game. Repetition requested!!!"`
+`"Okay, I'll play along with your game. Repeat it!!!"`

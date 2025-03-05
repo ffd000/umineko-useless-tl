@@ -386,7 +386,7 @@
 ` ...Go summon that bodyguard you rely on so much."`
 `Beato glanced at where Dlanor sat on the second‐floor balcony.`
 `{n}......However, Dlanor just stared back with those usual expressionless eyes.`
-`"Repetition requested.`
+`"Repeat it.`
 ` "We have absolute proof of Gohda and Kumasawa's alibis"."`
 `"Decline repetition.`
 ` .........Why give a hint to an enemy?`
@@ -596,7 +596,7 @@
 `"Yes, that's right.`
 ` Between {nobr:1 a.m.} and {nobr:3 a.m},`
 ` Doctor Nanjo, Gohda‐san, and I were relaxing in the lounge.`
-` ......Repetition requested, my master!"`
+` ......Repeat it, my master!"`
 `"I'll respond.`
 ` {p:1:From {nobr:1 a.m.} to {nobr:3 a.m.}, the trio of Erika, Nanjo, and Gohda...`
 `spent their time in the lounge on the first floor of the guesthouse}."`
@@ -636,7 +636,7 @@
 ` So, from midnight until {nobr:3 a.m.} when you went to bed, you were with Nanjo the whole time?`
 ` That means Nanjo's alibi is the most rock solid of them all."`
 `"Yes, that is indeed the case!`
-` Repetition requested, my master...!"`
+` Repeat it, my master...!"`
 `"I'll respond.`
 ` {p:1:After 24:00, Erika was with Nanjo the whole time until {nobr:3 a.m}}."`
 `At midnight, the crime in the cousins' room still hadn't occurred.`
@@ -1694,7 +1694,7 @@
 `"{p:1:Due to the above, the seals are guaranteed to be {f:5:perfect}.`
 ` Miss Erika's seals were not broken by anyone, and deception is {f:5:impossible}}!!"`
 `"{p:2:I'll acknowledge Erika's seals...!`
-` However, Auntie Eva's seal on Genji‐san's room should be different}!!"`
+` However, Aunt Eva's seal on Genji‐san's room should be different}!!"`
 `"{p:1:Eva's seal was of the same type as Miss Erika's.`
 ` That is because this method of sealing was one that Miss Erika and Eva conceived of together after {f:5:dinner}}."`
 `"{p:2:Erika fished through the chemicals in Grandfather's room saying she'd use them for forensic testing, right?!`
@@ -1705,7 +1705,7 @@
 `"For your attention: I beg to inform you of the following.`
 ` {p:1:There were no suspicious marks on any of the seals}...!"`
 `"This proves that there was no tampering done to any of the seals.`
-` Repetition requested!!"`
+` Repeat it!!"`
 `"Yes, gladly.`
 ` {p:1:All of Erika and Eva's seals...`
 `were not tampered with in any way that hindered their ability to act as seals, such as being scraped off}."`
@@ -1769,8 +1769,8 @@
 ` There were no small gaps or carelessness or times when she looked away for even a second}."`
 `"For your attention: I beg to inform you of the following.`
 ` {p:1:Therefore, during their entire meeting in the lounge, only Rosa went up to the second floor}!"`
-`"{p:2:But was that really Auntie Rosa herself?!`
-` There's a possibility that someone disguised themselves as Auntie Rosa!!`
+`"{p:2:But was that really Aunt Rosa herself?!`
+` There's a possibility that someone disguised themselves as Aunt Rosa!!`
 ` Or maybe she was actually holding a large suitcase with someone hiding inside it}!"`
 `"{p:1:Knox's 10th: It is forbidden for a character to disguise themselves as another without any {f:5:clues}!`
 ` There was no foreshadowing suggesting that someone might be disguised as Rosa!`

@@ -415,7 +415,7 @@
 ` If I was told "witches exist" in red, I'd have to give up from the start."`
 `"I am pleased that you understand.`
 ` I believe we might be able to work together if you ask a question of a different form."`
-`"......Can you respond to the repetition request she dodged?`
+`"......Can you help me with that line she dodged when I told her to repeat it?`
 ` About the number of people on this island."`
 `"If Milady held back on the request, then of course I cannot respond.`
 ` As Milady's furniture, I am unable to act too forward."`
@@ -467,7 +467,7 @@
 `Ronove laughed indiscreetly.`
 `Somehow, I didn't like his phrasing, so I didn't feel like laughing along with him.`
 `"......That's right.`
-` Auntie Rosa said it.`
+` Aunt Rosa said it.`
 ` ......‘{f:5:Beatrice} is dead’?`
 ` "I killed her"?`
 ` What does that mean...?"`
@@ -742,7 +742,7 @@
 `...After all,`
 ` if she could refer to my fearsome father that way, she must be a witch with incredible power.`
 `After staring at me curiously, she beckoned me to come over to her.`
-`And I obeyed, although filled with belated trepidation.`
+`Frightened as I was, I obeyed.`
 `{n}......After all, I thought I really might be turned into a frog.`
 `...And the closer and closer I got, the stronger that fear became.`
 `After all, ...I said it several times already, but,`
@@ -1157,14 +1157,14 @@
 ` .........Even though you appeared as the 19th person,`
 ` ......you say you died......?"`
 `"Don't mess with me, that can't be...!`
-` Auntie Rosa was a kid, and she was panicking.`
+` Aunt Rosa was a kid, and she was panicking.`
 ` It's not like there was a doctor.`
 ` She probably made a mistake, thinking you were dead, and you probably, umm, ......were in a state of apparent death, or something, but actually alive.`
 ` Right?!"`
 `It can't be.`
 ` She's obviously alive.`
 `{n}Otherwise, she wouldn't be here in front of me, right...?!`
-`...The kid‐aged Auntie Rosa was shaking {f:5:Beatrice}'s body, crying.`
+`...The kid‐aged Aunt Rosa was shaking {f:5:Beatrice}'s body, crying.`
 `I too stared into that face,`
 ` ...............but her eyes were still open, and it really was a corpse.`
 `...I wanted to brush it off with something vague like a state of apparent death,`
@@ -1181,8 +1181,8 @@
 `She'd been confined by Grandfather in a hidden mansion the whole time.`
 `And then to avenge herself, she planned out her revenge,`
 ` ......and would go on to commit a number of atrocious murders!`
-`Auntie Rosa probably just mistakenly thought that she was dead.`
-` But she was really alive, and as soon as Auntie Rosa left, she miraculously started breathing again.`
+`Aunt Rosa probably just mistakenly thought that she was dead.`
+` But she was really alive, and as soon as Aunt Rosa left, she miraculously started breathing again.`
 `......And then she somehow lived until today, and would open the curtain on the scene of her revenge.`
 `Otherwise, the facts don't fit together!!`
 `"......I won't let you trick me so easily.`
@@ -1373,8 +1373,8 @@
 ` Aren't you the 19th person?!"`
 `"That is true, I most surely am the 19th person.`
 ` *cackle*cackle*cackle*!`
-` But it's no good, I'm afraid...?`
-` It's no goddamn good at all!!"`
+` But it's useless, I'm afraid...?`
+` It's all useless!!"`
 `"`
 `{p:1:There are no more than 18 humans on this Rokkenjima}!"`
 `"Wha, ...............what did you saaaaaaay......`

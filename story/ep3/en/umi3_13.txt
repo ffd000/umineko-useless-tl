@@ -97,7 +97,7 @@
 ` Don't worry."`
 `"............So you argue that even though you toyed with their death so much, it's all okay because the corpse is clean...`
 ` I definitely won't forgive you.`
-` ...All of that brutal treatment you gave Auntie Rosa,`
+` ...All of that brutal treatment you gave Aunt Rosa,`
 ` I'll never forget it, and I'll never forgive you for it..."`
 `"...L‐like I said, that wasn't me......`
 ` ...I think I gave them a much more peaceful death than the way she treated them..."`
@@ -108,7 +108,7 @@
 ` One of them probably killed those two."`
 `"...Or it could also be an accidental death.`
 ` Like Maria was having a tantrum,`
-` and when Auntie Rosa tried to stop her crying, she misjudged how much power she was using and accidentally killed her.`
+` and when Aunt Rosa tried to stop her crying, she misjudged how much power she was using and accidentally killed her.`
 ` Then, in her consternation, she slipped and fell, landed on the fence, and unluckily, died."`
 `"......How's that?`
 ` That way there's no need for a witch or magic."`
@@ -193,7 +193,7 @@
 ` That wasn't me—"`
 `"That's not it.`
 ` That's not what I'm talking about!`
-` ......You watched Auntie Rosa being killed horribly over and over,`
+` ......You watched Aunt Rosa being killed horribly over and over,`
 ` and you sneered at it like it was an interesting show."`
 `.........When I saw that, I was deeply disappointed.`
 `When I realized that your decision to kill them in a slightly better way this time had been nothing more than a little whim,`
@@ -202,7 +202,7 @@
 `You weren't just acting as cruel as you could to bully me.`
 `...You truly, genuinely enjoy cruelty.`
 `Your character lets you enjoy it.`
-`You saw Auntie Rosa being brutally killed over and over, and said, isn't this fun?`
+`You saw Aunt Rosa being brutally killed over and over, and said, isn't this fun?`
 `That wasn't sarcasm, you enjoyed it from the bottom of your heart,`
 ` wanted to share that feeling with me, and said, isn't this fun?`
 `......In that instant, I despaired, and I realized the truth.`
@@ -252,7 +252,7 @@
 `an idiot."`
 `".........That's true.`
 ` An idiot, and honest."`
-`"That idiot watched with me as Auntie Rosa was horribly killed,`
+`"That idiot watched with me as Aunt Rosa was horribly killed,`
 ` and turned around with a huge smile on her face."`
 `"......She really believed that she could laugh with me at that cruel show.`
 ` ...She really believed that I could sympathize with that emotion..."`
@@ -279,8 +279,8 @@
 `"I wouldn't have it any other way.`
 ` Unlike Milady, I do not get agitated."`
 `"......I've already made my move.`
-` If we suppose that Auntie Rosa is the culprit and died in an accident, I can deny the witch.`
-` ......I don't want to suspect Auntie Rosa, but for now I'll deliberately assume that it was her, just to beat the hell out of Beato."`
+` If we suppose that Aunt Rosa is the culprit and died in an accident, I can deny the witch.`
+` ......I don't want to suspect Aunt Rosa, but for now I'll deliberately assume that it was her, just to beat the hell out of Beato."`
 `"I will deny it with red.`
 ` {p:1:Rosa's and Maria's deaths were homicides}."`
 `"Alright.`
@@ -392,7 +392,7 @@
 `"Eva and I were together.`
 ` I can guarantee that."`
 `"Me, George‐aniki, and Jessica were together too.`
-` ......When Auntie Rosa yelled at us to go back upstairs,`
+` ......When Aunt Rosa yelled at us to go back upstairs,`
 ` we turned right around and went back to the cousins' room with our tails between our legs."`
 `"......Back then,`
 ` ...if we hadn't let Maria go..."`

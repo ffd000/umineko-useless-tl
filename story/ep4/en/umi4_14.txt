@@ -388,7 +388,7 @@
 `......This kind of description occurred in multiple places,`
 ` making it possible to guess that the witch called {f:5:Beatrice} had quite a fickle character and loved a random thrill......`
 `A fickle person is very hard to deal with.`
-` I can't flip over the chessboard......to find out what that witch from twelve years ago was planning.`
+` I can't spin the chessboard around......to find out what that witch from twelve years ago was planning.`
 `As Ange thought these things over, her gaze wandered from place to place.`
 `Then, she suddenly showed interest in the wall.`
 `{n}There, a number of framed photographs were hung.`

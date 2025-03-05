@@ -103,7 +103,7 @@
 `"Shhh!`
 ` Your voice is too loud!`
 ` ...They are actually keeping it secret for now, apparently, alright?`
-` It'd be better if nobody heard about it, especially Auntie Eva."`
+` It'd be better if nobody heard about it, especially Aunt Eva."`
 `"I, I see...`
 ` Love with a servant..."`
 `"...Y‐yeah, but, since when?`
@@ -205,8 +205,8 @@
 ` So judging by her reaction, I'm probably right on.`
 `I don't think of the Ushiromiya family as a noble family, but...two people in love with servants...`
 ` I'd never have dreamed that two pairs of Romeo and Juliet would be right next to me...`
-`Auntie Eva will probably become an obstacle to George‐aniki and Shannon‐chan's love.`
-`If Auntie Eva learns that the partner of her only son, the apple of her eye, is {i:Shannon‐chan},`
+`Aunt Eva will probably become an obstacle to George‐aniki and Shannon‐chan's love.`
+`If Aunt Eva learns that the partner of her only son, the apple of her eye, is {i:Shannon‐chan},`
 ` she'll probably scream at her with cries of wretched servant, homewrecker, and so forth.`
 `And a relationship between Jessica and Kanon‐kun would probably be just as full of difficulties.`
 `{n}Aunt Natsuhi also seemed the type to be strict about that kind of thing.`
@@ -826,13 +826,13 @@
 ` I'll believe too.`
 ` We can be happy."`
 `"Uu!`
-` Auntie Kyrie, thank you!!"`
+` Aunt Kyrie, thank you!!"`
 `"Battler and Jessica onee‐chan, you believe too!`
 ` {f:5:Beatrice} is always saying that magic won't have any power if you don't believe.`
 ` Uu!"`
 `Kyrie‐san rose from her seat quietly, went over to Maria, and crouched down so that their eyes met.`
 `"......Uu.`
-` You believed, Auntie Kyrie.`
+` You believed, Aunt Kyrie.`
 ` Now, Battler and Jessica onee‐chan have to believe."`
 `"They're both strong people.`
 ` They'll feel better soon and do that for you."`

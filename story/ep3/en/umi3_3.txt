@@ -10,7 +10,7 @@
 `If Grandfather knew that someone was stealing his name, then considering his character, he would probably be mad with rage.`
 `But even though Grandfather now knew the contents of that letter, he had coolly ignored it.`
 `In this case, did that count as a silent yes?`
-`Auntie Eva and Dad had been trying to interpret the letter in their favor, their greed clearly visible.`
+`Aunt Eva and Dad had been trying to interpret the letter in their favor, their greed clearly visible.`
 `It wouldn't have mattered so much if that was all, but the adults had then started focusing on Maria, who had received the letter.`
 ` They kept pounding her with questions about who had given her that letter.`
 `Maria repeated over and over again that she had gotten it from {f:5:Beatrice}, but there was no way a mysterious person like that could be mixed in with the others on this island.`
@@ -485,7 +485,7 @@
 ` and would then snatch it up before they did solve it...?`
 ` That was a very reasonable guess.`
 `"............No,`
-` if you flip over the chessboard, there might be a pretty good chance that they actually do have the gold."`
+` if you spin the chessboard around, there might be a pretty good chance that they actually do have the gold."`
 `"How can you be so certain?"`
 `"...Wait, Aneki.`
 ` ......Kyrie, please keep talking.`
@@ -626,7 +626,7 @@
 `If this was a declaration of victory, {f:5:Beatrice} would only have to display the gold openly, and state that she would buy the family headship.`
 `And yet, even at this late stage, she was explicitly telling the siblings to try to solve the epitaph.`
 ` Why had she set up this "new game", where she agreed to hand over the all of the gold and the right to succeed the head to the person who solved the epitaph?`
-`Kyrie tried flipping over the chessboard several times.`
+`Kyrie tried spinning the chessboard around several times.`
 `{n}...Searching for the best strategy that might have guided {f:5:Beatrice} to this line of thinking.`
 `...In the end, ...she reached a single conclusion.`
 `"...............Arrogance,`

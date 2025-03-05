@@ -624,7 +624,7 @@
 ` Not yet,`
 ` .........not yeeeeeeeet!!"`
 `"Continuing on to the third game.`
-` The six linked locked rooms, the murders of Auntie Rosa and Maria, the deaths of Dad and the others in the hall, and the murders of Uncle Krauss and Aunt Natsuhi...`
+` The six linked locked rooms, the murders of Aunt Rosa and Maria, the deaths of Dad and the others in the hall, and the murders of Uncle Krauss and Aunt Natsuhi...`
 `all of them`
 ` {p:2:can be explained if we suppose that Aunt Eva was the culprit}."`
 `"This argument was already won back then.`
@@ -698,9 +698,9 @@
 `"Then I'll counter with this.`
 ` {p:1:Kinzo's life or death status is the same at the start of each of the four games}.`
 ` {p:1:The setup was not different for the fourth game alone}...!"`
-`"Repetition requested.`
+`"Repeat it.`
 ` "Kinzo was alive at the start time of every game"!"`
-`"Decline repetition.`
+`"I refuse to repeat it.`
 ` I won't answer, Battler.`
 ` I will not respond with the red truth you desire...!"`
 `"......Damn it......old man, you're standing in my way...!!`
@@ -743,7 +743,7 @@
 ` {p:2:Therefore, they didn't actually ‘mistake Kinzo by sight’}!!`
 ` {p:2:As long as the preceding theory is not disproven, nothing can change the fact that you're dead}!!!"`
 `"This is the final blow.`
-` Old geezer, this repetition request is for you.`
+` Old geezer, I demand that you repeat it.`
 ` "Not one person present had multiple, differing names"!!"`
 `"I... I...can...not............!!`
 ` Gah, gwoooooooooooooooooooragghgghghh!!"`
@@ -1020,7 +1020,7 @@
 `......However, the blue wedge that had pierced her foot in the very beginning did not disappear.`
 `"You haven't pulled it out yet.`
 ` You haven't pulled out the blue truth of the 18th person X...!!"`
-`"I will respond to one of your repetition requests.`
+`"I will respond one thing you told me to repeat.`
 ` As you reasoned,`
 ` {p:1:Kinzo is already dead at the starting time for all games}!"`
 `"However, in that case, all I need to do is take one person out!!`
@@ -1072,11 +1072,11 @@
 ` {p:1:In short, no kind of human or dead person on the island could have killed Kanon}!"`
 `"{p:2:If no one could kill him, then he might have been the one to kill}!!`
 ` {p:2:Meaning Kanon‐kun might have killed himself}."`
-`"Repetition requested!`
+`"Repeat it!`
 ` "Kanon‐kun did not commit suicide"!"`
 `"{p:1:Kanon did not commit suicide}."`
 `"One more."`
-`"Repetition requested, "Kanon‐kun's death was a homicide"."`
+`"Repeat it, "Kanon‐kun's death was a homicide"."`
 `"I decline to repeat."`
 `"That refusal still admits the possibility of a homicide, but you've already declared in red that no one could have killed him.`
 ` In other words, it wasn't a homicide.`

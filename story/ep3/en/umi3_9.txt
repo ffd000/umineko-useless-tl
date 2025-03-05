@@ -14,12 +14,12 @@
 ` I was beginning to feel like this was just a little unreal.`
 `......I want to think this is some kind of bad dream...`
 ` My cheap escapism kept telling me that was true, over and over.`
-`Maria had gone back to sleep in the sofa Auntie Rosa was sitting in.`
+`Maria had gone back to sleep in the sofa Aunt Rosa was sitting in.`
 `...Rather than her having nerves of steel, she probably genuinely hadn't had enough sleep.`
 `The adults were grasping members of Grandfather's collection...`
 `of short‐barrel rifles.`
 `...Apparently a remnant from the period when he was obsessed by westerns, there were four identical guns altogether.`
-`Those had been split up between the four siblings: Uncle Krauss, Auntie Eva, my dad, and Auntie Rosa.`
+`Those had been split up between the four siblings: Uncle Krauss, Aunt Eva, my dad, and Aunt Rosa.`
 `Paper boxes filled with bullets lay on the table, and the siblings were silently loading their guns.`
 `".........It's a little scary.`
 ` Even as I stand here touching this,`
@@ -193,7 +193,7 @@
 `"The first body discovered was Shannon's.`
 ` She was found in the parlor on the first floor of the mansion.`
 ` The door and windows were locked, and a locked room was established."`
-`"......Clarification request for Beato.`
+`"......Beato, I need some details.`
 ` Reconfirm the definition of a locked room."`
 `"Mmhm.`
 ` The term "locked room" refers to a room where the inside and the outside of the room are completely isolated from all travel between them.`
@@ -229,7 +229,7 @@
 `"Yes."`
 `".........Shannon's body was in possession of one master key.`
 ` The relatives who discovered her collected this."`
-`"Repetition request for Beato.`
+`"Beato, repeat it.`
 ` How many master keys this time?"`
 `"...Hmph. The same as last time.`
 ` {p:1:There are five, one for each servant}."`
@@ -347,12 +347,12 @@
 `...muu!"`
 `{f:5:Beatrice} puffed out her cheeks, as though saying "I don't know why, but I don't like it!"`
 `"Because the police have not yet arrived at the scene, the human side's ability to prove things is limited.`
-` For a strict confirmation of death, I recommend a repetition request."`
-`"Alright, that's where I'll strike, repetition requested!!"`
+` For a strict confirmation of death, I recommend you ask her to repeat it."`
+`"Alright, that's where I'll strike, repeat it!!"`
 `"‘The six victims are all dead’!!"`
-`"......Milady, you have a repetition request waiting, you know?"`
+`"......Milady, you have been asked to repeat something, you know?"`
 `"Hey, enough lazing around!!`
-` Do you decline the repetition?!`
+` Do you refuse to repeat it?!`
 ` This is where our battle starts!!"`
 `"Wha?!`
 ` Owowowowoow!!`
@@ -366,7 +366,7 @@
 `"*cackle*!`
 ` I won't go easy on you anymore, come at me how you like.`
 ` I'll slice them slantwise one after another!"`
-`"And again, repetition requested!`
+`"Then repeat it!`
 ` No one is hiding in any of the six rooms!`
 ` Show me that you can deny the existence of people we aren't aware of!"`
 `"I'll respond."`
@@ -379,7 +379,7 @@
 ` There's already nothing a human could do.`
 ` Obediently kneel and observe as I control the locks at will with my wonderful magic, alriiiiiiight?"`
 `"Quit babbling.`
-` And another repetition request.`
+` Repeat this too.`
 ` "The six deaths were instant"!"`
 `"Instant death?`
 ` Hoh, what do you mean by that?"`
@@ -502,13 +502,13 @@
 ` Show me what you've got!!"`
 `"Right!!`
 ` Now that even traps have been defeated, at a glance, this looks like a perfect locked‐room murder.`
-` ......And that's why this is where I'll flip over the chessboard!!"`
+` ......And that's why this is where I'll spin the chessboard around!!"`
 `"...Here it is, your special technique!`
 ` What exactly are you going to flip over, and how?!`
 ` Try showing meeeeeeeeeeee!!"`
 `"Yeah, I'll show you!!`
 ` It's not about thinking how to kill six people inside locked rooms from the outside!"`
-`"Yeah, that's no good, no good, no goddamn good at all!`
+`"Aaah, it's useless, it's useless, it's all useless!`
 ` That's right, it's not about how to kill from the outside.`
 ` It's about how they died inside the room and created a locked room!"`
 `"......That's it, this is the answer!!`
@@ -546,11 +546,11 @@
 `"Ku......kuuuuuuu......!!"`
 `"You have no duty to hold back here.`
 ` You should check whether suicide was not the cause of death for any of them.`
-` I recommend requesting a repetition."`
+` I recommend that you have that child repeat it in red."`
 `"Right!!`
 ` But suicide is a naive word that won't corner her!!`
 ` Beato, this is the end!!"`
-`"Repetition requested!!`
+`"Repeat it!!`
 ` "The six deaths were all homicides"!!"`
 `".....................That is painful."`
 `"Uguu...!!`
@@ -581,7 +581,7 @@
 ` I am also frantic this time, you see?`
 ` I don't have much leeway.`
 ` Don't pay it any mind..."`
-`"......The repetition you requested has been modified.`
+`"......The line you asked that child to repeat has been altered.`
 ` Do not be fooled."`
 `"..................kuuuuuuuuuuuuuuuuuu..."`
 `"Pu ku ku ku...`

@@ -620,7 +620,7 @@
 `...That alone was a truth she could definitely understand...`
 `"............What......is all this?`
 ` Of course, I'm not going to swallow this story, ...but what on Earth does it mean?!"`
-`"Auntie Eva is the new {f:5:Beatrice}?`
+`"Aunt Eva is the new {f:5:Beatrice}?`
 ` Are you saying she's become a witch?`
 ` ......What the hell...!!"`
 `"I am also surprised.`
@@ -635,17 +635,17 @@
 `"Yes, here I am..."`
 `"What does this farce mean?!`
 ` Even if this depiction of strange witches showing up one after another is some of her bullshit...!`
-` ......Isn't this like Auntie Eva has become a witch?!"`
+` ......Isn't this like Aunt Eva has become a witch?!"`
 `"Calm yourself.`
 ` She has simply received the title of "Golden Witch", and might call herself that in the future.`
 ` ......This succession ceremony is, without doubt, nothing more than that performed according to that child's "interpretation".`
 ` Don't fall for the same move again."`
 `"Th‐...that's right...`
 ` That whole grand ceremony was all phony.`
-` But it's at least a fact that Auntie Eva solved the riddle of the epitaph.`
+` But it's at least a fact that Aunt Eva solved the riddle of the epitaph.`
 ` ......And at the same time, that means that she inherited the Ushiromiya family headship."`
 `"......And by obtaining ten tons of gold,`
-` ......it means that Auntie Eva might as well call herself the "Golden Witch"...is that it...?`
+` ......it means that Aunt Eva might as well call herself the "Golden Witch"...is that it...?`
 ` Damn, making things as complicated as ever...!!"`
 `"...Dear me.`
 ` Is a boorish {y:0:Human}{n:0:human} unable to comprehend the grandeur of this ceremony?`
@@ -655,7 +655,7 @@
 `"Damn it...`
 ` Don't look at me like you feel sorry for me...`
 ` .........Still, for the time being, there's something I need to check."`
-`"And that's regarding this younger version of Auntie Eva,`
+`"And that's regarding this younger version of Aunt Eva,`
 ` ...in other words, the definition of this new {f:5:Beatrice}.`
 ` ......What the heck {i:is} she?!"`
 `"Even if I tell of it, you will just persist in your disbelief in magic and witches, will you not?`
@@ -665,7 +665,7 @@
 ` Then, then how should I interpret this...?!"`
 `"For now, grasping it as a visualization of a different being inside Ushiromiya Eva may not be a hindrance, I believe."`
 `"...Of course, you cannot blindly accept it, but it is probably appropriate for you to think that way now."`
-`"............In, in other words, I should think of Auntie Eva and her as the same person?`
+`"............In, in other words, I should think of Aunt Eva and her as the same person?`
 ` ......Damn, ...this is starting to feel bad..."`
 `"With that being the case, from now on, my name is not {f:5:Beatrice}.`
 ` Because I have passed it on to Ushiromiya Eva."`
@@ -689,7 +689,7 @@
 ` ...that I like it even less.`
 ` ......What is she thinking of?`
 ` That Beato........."`
-`Over there, Auntie Eva,`
+`Over there, Aunt Eva,`
 ` who had the figure of her younger days and who now possessed the name {f:5:Beatrice}, had a long line forming of witches wishing to bless her.`
 `It was like a witch's coronation.`
 `Countless gold butterflies flapped their wings, directing this fantastical, gold‐sparkling space.`
@@ -704,14 +704,14 @@
 `......However, as I watched that innocent smile,`
 ` ...it made me feel like I wanted to celebrate her, just for now.`
 `The moment when a strong effort is successful and rewarded is always beautiful.`
-`Auntie Eva, who had always yearned to succeed the head, and had worked hard since she was young without being rewarded,`
+`Aunt Eva, who had always yearned to succeed the head, and had worked hard since she was young without being rewarded,`
 ` ......had spectacularly taken hold of the chance given to her by the riddle of the epitaph, ...and had finally gained that position.`
 `How divine is the smile of a person whose childhood dreams have been granted?`
 `I definitely won't accept witches.`
 `{n}But, ......Battler put his hands together, making a small sound.`
 `Clap. Clap.`
 `......It didn't reach her ears, ...but it did celebrate her.`
-`".........Congratulations, Auntie Eva."`
+`".........Congratulations, Aunt Eva."`
 `You solved the riddle of the epitaph masterfully, and before anyone else.`
 `{n}It's your victory without any complaints.`
 `............I won't accept all that about the Golden Witch and so on, but I will accept you as the new head of the Ushiromiya family, and I will celebrate you honestly.`
@@ -720,7 +720,7 @@
 `...It was a slightly odd scene.`
 ` Because Battler and Beato, who opposed each other, were standing next to one another, applauding for the same person.`
 `"I'm not clapping for a witch.`
-` ...I'm clapping for all of Auntie Eva's efforts up until now."`
+` ...I'm clapping for all of Aunt Eva's efforts up until now."`
 `"I am too.`
 ` I am offering Eva my sincere congratulations in applause for the tremendous accomplishment of solving that epitaph."`
 `".........Hmm.`

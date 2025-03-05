@@ -1,5 +1,5 @@
 `The strange letter that the witch had entrusted Maria with had wiped all memories of dinner from our minds.`
-`Maria had been repeatedly barraged with questions by Auntie Rosa and the other parents,`
+`Maria had been repeatedly barraged with questions by Aunt Rosa and the other parents,`
 ` and was now in the worst of tempers because no one would believe her.`
 ` Even when we kids tried to talk to her, she would just ignore us.`
 `Our parents were all stirred up over the gold, firing back and forth about the distribution of the assets, and completely forgetting that we children were even there.`
@@ -172,7 +172,7 @@
 `"......Yes.`
 ` Battler‐kun, your way of reasoning isn't bad.`
 ` In the current situation, there's not enough information to either accept that a 19th person exists or deny it.`
-` ......But if you flip over the chessboard and think of it that way, we can be nearly sure that the existence of a 19th person is impossible."`
+` ......But if you spin the chessboard around and think of it that way, we can be nearly sure that the existence of a 19th person is impossible."`
 `"Flip over the chessboard" was one of Kyrie‐san's favorite phrases.`
 `{n}...I had also been influenced by those words, and used them myself from time to time.`
 `When you get stuck trying to find a move in chess or shogi, by flipping the board over and looking at everything from your opponent's standpoint, you can often see a strategy that would give you the upper hand.`
@@ -202,7 +202,7 @@
 `"............She appeared in front of Maria, trying to give us the impression that a 19th person existed, and yet,`
 ` she still hasn't appeared before us and is hiding somewhere at this very moment.`
 ` The contradiction between these.`
-` ......Keep it in mind, and flip over the chessboard."`
+` ......Keep it in mind, and spin the chessboard around."`
 `"In other words, the question is: why would a person want to give the impression that {f:5:Beatrice} exists as a 19th person?"`
 `"......If this person wanted to hide, then they wouldn't have made their presence known.`
 ` And if they wanted to show themselves, they wouldn't have used the roundabout approach of entrusting someone with a letter.`
@@ -699,9 +699,9 @@
 `"Second that.`
 ` Feels like they're telling us kids to mind our own business and stay out of their way.`
 ` Let's do that, like good little boys and girls."`
-`After we discussed that, Auntie Rosa came into the parlor.`
+`After we discussed that, Aunt Rosa came into the parlor.`
 `She was looking all over restlessly, probably trying to find Maria.`
-`"Auntie Rosa, if you're looking for Maria, she's over there on the sofa."`
+`"Aunt Rosa, if you're looking for Maria, she's over there on the sofa."`
 `"Thank you.`
 ` My, she's out cold.`
 ` ......We must move her to a bed."`
@@ -722,7 +722,7 @@
 ` We'll need everyone together."`
 `"That's right.`
 ` Battler, weren't you the one who hit it off with Maria when you were messing around earlier?"`
-`As we said this, Auntie Rosa smiled, looking truly happy.`
+`As we said this, Aunt Rosa smiled, looking truly happy.`
 `"Thank you, everyone.`
 ` ......It looks like our meeting will last until very late.`
 ` So, I'm sorry for the burden, but I'll have to leave Maria in your hands."`
@@ -736,7 +736,7 @@
 `Maria's body was much lighter than it looked.`
 `{n}George‐aniki picked her up and pulled her over his back.`
 `It was raining hard outside, and Aniki couldn't hold an umbrella and carry Maria at the same time.`
-`It looked like Auntie Rosa would come with us as far as the guesthouse to help out.`
+`It looked like Aunt Rosa would come with us as far as the guesthouse to help out.`
 `However, when she heard Uncle Krauss's voice call out to her, she had no choice but to return.`
 `"......Oh dear.`
 ` I have to go back."`
@@ -760,7 +760,7 @@
 ` In that case, goodnight, Auntie."`
 `"Then I will see them over there and return here."`
 `"Yes, please..."`
-`Auntie Rosa saw us off.`
+`Aunt Rosa saw us off.`
 `".........Maria.`
 ` ......I'm sorry for everything..."`
 `Rosa's mumbling voice didn't reach the person in question, nor anyone else, but disappeared beneath the sound of the rain...`

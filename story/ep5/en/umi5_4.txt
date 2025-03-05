@@ -384,7 +384,7 @@
 `{p:1:the detective isn't the culprit}’ has been proclaimed in red, so you don't need to consider the exception.`
 ` I hate word games, so I'll say it in red too.`
 ` {p:1:Furudo Erika is not the culprit}."`
-`"Repetition requested.`
+`"Repeat it.`
 ` ......‘Furudo Erika had no influence on any of Beato's games before now’."`
 `"Sure, I'll respond.`
 ` {p:1:Furudo Erika had no influence on any of Beato's games before now}.`
@@ -432,8 +432,8 @@
 `Gohda‐san immediately started showing off,`
 ` and Kanon‐kun was being unsociable, wearing his usual blank expression.`
 `There was Dad and Kyrie‐san.`
-` Auntie Eva and Uncle Hideyoshi.`
-` Auntie Rosa and Maria.`
+` Aunt Eva and Uncle Hideyoshi.`
+` Aunt Rosa and Maria.`
 ` And Doctor Nanjo.`
 `And on either side of me...`
 `George‐aniki,`

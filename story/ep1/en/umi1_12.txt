@@ -472,9 +472,9 @@
 ` ...Although to accept it completely requires the tolerance of a parent."`
 `"......Aniki, I can't believe you aren't married...`
 ` You sound like you've already raised kids through middle school.`
-` .........Then, I wonder if Auntie Rosa also knew much about Maria's dual personality."`
+` .........Then, I wonder if Aunt Rosa also knew much about Maria's dual personality."`
 `"She knew.`
-` .........Just between us, Auntie Rosa couldn't friggin' stand it.`
+` .........Just between us, Aunt Rosa couldn't friggin' stand it.`
 ` She said it was creepy, and it was just making Maria more and more separated from the rest of the class."`
 `"So any time Maria started talking about the occult or laughing like a witch, she'd slap her.`
 ` ...And it looks like Maria stopped talking that way in front of her."`
@@ -500,7 +500,7 @@
 `None of them had denied what Maria said.`
 `.........They had silently accepted that {f:5:Beatrice} "exists".`
 `I was starting to feel a little uneasy...`
-`Auntie Eva had claimed that no 19th person exists,`
+`Aunt Eva had claimed that no 19th person exists,`
 ` saying that someone within the family had committed the crime in connection with their messy quarrel.`
 `On the other hand, Aunt Natsuhi had claimed that the culprit was hiding somewhere outside the mansion.`
 `That meant that she was denying that the crime had been committed by one of us, and accepting that a 19th person exists.`
@@ -597,7 +597,7 @@
 ` It's natural for things that old to get their fair share of ghost and occult stories.`
 ` Like the seven mysteries at a school."`
 `"...............So here...`
-`is where we "flip over the chessboard"."`
+`is where we "spin the chessboard around"."`
 `"Huh?"`
 `".........Basically, on this island, there's a rule that {f:5:Beatrice} can be blamed for anything that couldn't have been done by humans.`
 ` Anything that the humans can't do.`
@@ -615,7 +615,7 @@
 ` After all, the crime took place after midnight while it was still dark, right?`
 ` People were talking together until midnight, some people had the night shift, and some people had returned to their rooms and were sleeping."`
 `"...Everyone's alibi is really vague, and there's plenty of room to suspect that the crime was committed by one of us.`
-` George‐aniki, Auntie Eva probably told you too, right?`
+` George‐aniki, Aunt Eva probably told you too, right?`
 ` That there's a good chance that one of us is the culprit?"`
 `"...mh......yes.`
 ` ...I guess."`
@@ -769,7 +769,7 @@
 ` ...So Father is being confined somewhere,`
 ` and being threatened that if he doesn't tell them the location of the gold, we will be killed off one by one?"`
 `"I struggle to understand what you find interesting about that...!"`
-`Aunt Natsuhi threatened her, but Auntie Eva just smiled calmly.`
+`Aunt Natsuhi threatened her, but Aunt Eva just smiled calmly.`
 `"......Since we still haven't seen him after all this time, I think that it's almost certain that Grandfather has gotten caught up in the crime.`
 ` When you think about that, you can't just ignore Battler‐kun's theory, right...?"`
 `"Stay quiet, George.`
@@ -781,7 +781,7 @@
 `".........Come to think of it, I've been holding the key to his study the whole time, haven't I.`
 ` Genji, let me return this to you."`
 `Aunt Natsuhi pulled out the gold key and handed it to Genji‐san...`
-`Looking at the key, Auntie Eva giggled...`
+`Looking at the key, Aunt Eva giggled...`
 `"...Hey, Genji‐san.`
 ` I'm sure the police will inspect Father's room thoroughly anyway.`
 ` ...It doesn't matter what you hide, it will just be exposed anyway.`
@@ -810,7 +810,7 @@
 ` If there is one, it would be better if you said it."`
 `"...If there isn't, then someone is going to be very much driven into a corner in a second.`
 ` ......If I'm given that there is a hidden door, then my argument comes to nothing."`
-`Auntie Eva didn't specify which person was about to be driven into a corner,`
+`Aunt Eva didn't specify which person was about to be driven into a corner,`
 ` ...but following the flow of the conversation, I had to feel that she was referring to Aunt Natsuhi.`
 `"......Mother, ...what are you talking about?"`
 `"George, stay quiet for a while.`
@@ -836,8 +836,8 @@
 ` Then are you ready?`
 ` Let me begin.`
 ` It's really simple."`
-`Everyone tilted their head doubtfully, wondering what Auntie Eva was so proudly starting to talk about.`
-`...Auntie Eva laughed triumphantly, as though she were about to reveal a secret that only she knew.`
+`Everyone tilted their head doubtfully, wondering what Aunt Eva was so proudly starting to talk about.`
+`...Aunt Eva laughed triumphantly, as though she were about to reveal a secret that only she knew.`
 `"Natsuhi nee‐san was the last person to spot Father, right?`
 ` ...I forget the exact time, but I think it was a little before nine in the morning."`
 `"......Nee‐san, do you remember?`
@@ -857,12 +857,12 @@
 `"......I do seem to remember picking up some trash.`
 ` What does that have to do with...?"`
 `"I got that receipt when I bought some candy at a store in the airport."`
-`Auntie Eva pulled a small bag of candy out of her handbag.`
+`Aunt Eva pulled a small bag of candy out of her handbag.`
 `"...Aah, the receipt from when you bought that candy?`
 ` ...But, Mother, what does that receipt have to do with anything...?"`
 `"George, stay quiet and listen for just a little longer..."`
 `Uncle Hideyoshi's expression was a little strict.`
-`{n}...Somehow, it seemed that he understood what Auntie Eva was getting at.`
+`{n}...Somehow, it seemed that he understood what Aunt Eva was getting at.`
 `"It was really just on a whim, you see?`
 ` It wasn't out of any foresight,`
 ` and I certainly wasn't planning on setting a trap for you or anything."`
@@ -871,7 +871,7 @@
 ` At that time, I stuck this into the door to the study."`
 `"......So, what does that mean?`
 ` Does it mean that, until Aunt Natsuhi picked up that receipt, no one had opened the door...?"`
-`"W‐wait a second, Auntie Eva...!`
+`"W‐wait a second, Aunt Eva...!`
 ` Sticking a receipt in would be obvious!`
 ` It's possible that, when Grandfather opened the door, he noticed it, found it interesting, and stuck it back in the door..."`
 `Jessica hurriedly argued back.`
@@ -919,19 +919,19 @@
 `"Jessica!`
 ` I keep telling you to watch your language!"`
 `All at once, everything became confused...`
-`From across the parlor table, Auntie Eva and Aunt Natsuhi confronted each other,`
+`From across the parlor table, Aunt Eva and Aunt Natsuhi confronted each other,`
 ` while George‐aniki confronted Jessica...`
 ` ......What the hell is going on...?!!`
 `"Remember, it's only up until last night that we have multiple people saying they saw him.`
 ` But the only one who claims that they saw Father since this morning is Natsuhi nee‐san."`
 `"......And then there's that strange fact we learned from the receipt.`
 ` ...So, how can we connect these points together...?"`
-`Auntie Eva urged everyone to work their imaginations...`
+`Aunt Eva urged everyone to work their imaginations...`
 `......Sure, that receipt could become an important point.`
 `{n}...But I didn't know what other point I could draw a line towards...!`
-`The answer Auntie Eva was hoping for...`
+`The answer Aunt Eva was hoping for...`
 `......was that Aunt Natsuhi had lied to make it seem as if Grandfather had been in that room this morning.`
-`And Auntie Eva's mere whim had exposed that......??`
+`And Aunt Eva's mere whim had exposed that......??`
 `"That makes no friggin' sense!!`
 ` Why the hell would Mom lie?!!`
 ` She has no friggin' reason to!!"`
@@ -952,7 +952,7 @@
 `...And, she moved the body to some location, and disguised it to make it seem like he had just been killed there.`
 `......And then she could stay with everyone else to prepare an alibi.`
 `......And then, she could say "I heard someone screaming!"`
-` or something and dash over there, and become the first to find the body along with everyone else... Is that what Auntie Eva's saying......?`
+` or something and dash over there, and become the first to find the body along with everyone else... Is that what Aunt Eva's saying......?`
 `"How preposterous.`
 ` Detective novels are nothing more than indulgent entertainment!`
 ` You can only think of such an indiscreet idea because you read them all the time!"`
@@ -998,7 +998,7 @@
 ` Do it, just try to obscure the truth with violence...!!"`
 `"Y‐......youuu!!!!"`
 `It wasn't like Aunt Natsuhi had been actually holding that gun at the ready and threatening anyone.`
-`{n}But after she was told to by Auntie Eva, she did hold it at the ready!`
+`{n}But after she was told to by Aunt Eva, she did hold it at the ready!`
 `...Unsurprisingly, once things got to this stage, Jessica and Genji‐san tried to stop her.`
 `"...Madam, please, calm yourself......!"`
 `"Mom, you aren't lying!`
@@ -1055,12 +1055,12 @@
 `...............Hmm.`
 ` ...Looks like everyone else has said their piece.`
 `"Ihihihi.`
-` ...No good. {i:No goddamn good at all},`
-` Auntie Eva."`
-`"...Wh‐...what do you mean "no good", Battler..."`
+` ...It's useless. {i:It's all useless},`
+` Aunt Eva."`
+`"...Wh‐...what do you mean "useless", Battler..."`
 `Jessica looked up at me, hanging on to my every word.`
-`{n}Auntie Eva's expression was composed as always.`
-`"......No good at all, you say? What is?`
+`{n}Aunt Eva's expression was composed as always.`
+`"......It's all useless, you say? What is?`
 ` Battler‐kun.`
 ` Tell me."`
 `"You can only see this from one angle—that's why you're convinced that it has to be Aunt Natsuhi.`
@@ -1081,8 +1081,8 @@
 `"From the first time she visited that study,`
 ` and until the second time when we visited it together, the study was a perfect locked room, and when the seal was broken on the locked room, he was already missing!`
 ` If this doesn't prove that she was the culprit, what kind of trick could they have used?!"`
-`"Like I said, Auntie Eva, only 65 points.`
-` So, let's try "flipping over the chessboard", shall we?`
+`"Like I said, Aunt Eva, only 65 points.`
+` So, let's try "spinning the chessboard around", shall we?`
 ` It's not about how they managed to make Grandfather disappear from the outside.`
 ` Think about how Grandfather disappeared from the inside."`
 `"The door had the receipt stuck in it, so it couldn't have been used.`
@@ -1097,7 +1097,7 @@
 `"Grandfather's study isn't any ordinary study, right?`
 ` According to Genji‐san, there's a toilet and a kitchen and even a bedroom, almost like a little house.`
 ` ......If he hid under the bed, for example, he could trick the two of you into thinking he'd disappeared, right?"`
-`"Auntie Eva, even you didn't check that carefully, did you?`
+`"Aunt Eva, even you didn't check that carefully, did you?`
 ` And then the two of you went back down the stairs, thinking that he wasn't there."`
 `"At that time, the receipt was already gone!`
 ` In other words, if Grandfather was hiding in his room the whole time when it was a locked room,`
@@ -1113,15 +1113,15 @@
 `"And the thing that I like least,`
 ` is how you pressure Aunt Natsuhi to explain it, and then argue that if she doesn't, she must be guilty!`
 ` If that passes as logic, then why don't you let me......"`
-`"...flip over the chessboard one more time!!"`
-`"Auntie Eva, according to your argument,`
+`"...spin the chessboard around one more time!!"`
+`"Aunt Eva, according to your argument,`
 ` ......you must explain to us here and now why you and Uncle Hideyoshi couldn't have killed those six last night and then casually returned to the guesthouse...!"`
 `"You've been trying to force Aunt Natsuhi to explain.`
 ` I'm sure you can prove your own innocence, right?!`
-` Auntie Eva, who's had all of Grandfather's wealth suddenly dropped right into her hands!!"`
+` Aunt Eva, who's had all of Grandfather's wealth suddenly dropped right into her hands!!"`
 `"Th‐that's right, you're pretty damn suspicious yourself, aren't you!!`
 ` If you say Mom's suspicious 'cause she was the last person to see him,`
-` then what about you, Auntie Eva, who was the last person to see Dad and the rest?!!`
+` then what about you, Aunt Eva, who was the last person to see Dad and the rest?!!`
 ` Just like Battler said, prove that you two weren't the ones that killed them!!"`
 `".........Mother, I also think that your reasoning was a little overeager.`
 ` ......I'm sure that the receipt was an important hint."`
@@ -1186,7 +1186,7 @@
 `".........I won't deny that.`
 ` Even one day would be too long to let the bastard who pulled this detestable bullshit go."`
 `"......But that doesn't mean that I want to doubt one of the 18.`
-` Even though I said what I said earlier, I don't even want to doubt you, Auntie Eva.`
+` Even though I said what I said earlier, I don't even want to doubt you, Aunt Eva.`
 ` ...To me, you're an awesome aunt who's always mischievous and entertaining."`
 `"......I don't want to trade insults with an aunt like that.`
 ` Not a single person here wants to do that.`
@@ -1213,7 +1213,7 @@
 ` And try thinking deeply about what this means, okay...?"`
 `"....................."`
 `"...................................."`
-`Auntie Eva and Uncle Hideyoshi stood up.`
+`Aunt Eva and Uncle Hideyoshi stood up.`
 `{n}It looked like they planned on leaving the parlor.`
 `"In the end, it's pointless for us to continue playing detectives.`
 ` After all, the police will reveal everything in the end anyway."`
@@ -1262,7 +1262,7 @@
 ` ...If his code tells him not to leave this room, then it's up to him.`
 ` Let him do what he wants..."`
 `"...Father..."`
-`Auntie Eva and Uncle Hideyoshi left.`
+`Aunt Eva and Uncle Hideyoshi left.`
 `{n}The only voice that called after them was the sound of the rain.`
 `The parlor was being buried beneath the savage atmosphere...`
 `{n}When I looked at the clock, I was surprised to find that it was already evening.`

@@ -533,7 +533,7 @@
 `This move would draw out Battler's king and drag it to the guillotine!`
 `"Die, Battler."`
 `The piece for the chain lock was slammed down on the square of Battler's king's throat.`
-`"Repetition requested.`
+`"Repeat it.`
 ` "The lock created by the chain is currently intact"."`
 `"....................................!"`
 `Battler's face contorted.`

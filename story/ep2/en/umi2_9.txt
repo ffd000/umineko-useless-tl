@@ -386,9 +386,9 @@
 ` Give it baaaack!!`
 ` Wau‐aau‐auu!!"`
 `"Perplexing.`
-` ...Battler‐kun, are you sure it was Auntie Rosa?"`
+` ...Battler‐kun, are you sure it was Aunt Rosa?"`
 `"......Well, I was half‐asleep so I'm not too confident.`
-` But I get the feeling that, at dawn, Auntie Rosa came in and fished around in Maria's handbag."`
+` But I get the feeling that, at dawn, Aunt Rosa came in and fished around in Maria's handbag."`
 `"...I was just half‐asleep, and assumed that there was a tube of toothpaste or something in Maria's handbag."`
 `"Why would there be a tube of toothpaste in Maria's handbag?`
 ` I'd bet my ass you dreamed the whole thing."`
@@ -551,7 +551,7 @@
 `{n}......However, he felt a hot blaze ignite in both his eyes.`
 `"Whoever the bastard is who pulled this detestable bullshit, I'll make him pay back his debt completely!!`
 ` So this isn't the time to cry, think about what you're gonna do!!"`
-`"Aaaah, this is no good, it's no goddamn good at all!!`
+`"Aaaah, this is useless, it's all useless!!`
 ` If you have enough spare time to cry, then think!`
 ` This is not the time to be working your lacrimal glands!!"`
 `Rather than pure hatred, maybe it was more of an evasive hatred to blot out his sadness.`
@@ -629,7 +629,7 @@
 `......Or is the culprit the witch from the Legend of the Gold, like Maria says?!`
 `Even if Jessica hadn't let her short temper get the better of her, in this situation, the visitor was probably the most suspicious.`
 `But we mustn't jump to conclusions just like that.`
-`{n}Yeah, that's no good, no good, no goddamn good at all...!!`
+`{n}Aaah, it's useless, it's useless, it's all useless...!!`
 `I smacked my face with both hands again, cooling off my brain before it overheated.`
 ` Even though it might have been a waste of effort.`
 `"......This is.........one of Grandfather's envelopes."`

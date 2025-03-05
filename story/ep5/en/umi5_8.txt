@@ -646,7 +646,7 @@
 `{n}The large drops of rain pounded against it mercilessly.........`
 `Technically, they had called an end to the family conference at {nobr:1 a.m.},`
 ` but the post‐match scuffles were still dragging on.`
-`I was really jealous of Auntie Rosa, who managed to slip out of there at that time.`
+`I was really jealous of Aunt Rosa, who managed to slip out of there at that time.`
 `She cleverly got away by saying that she'd check on Maria, who might have been staying up too late.`
 `Thanks to Dad constantly involving me, I missed my chance to escape,`
 ` ...and they made me stick around until now, ......{nobr:3 a.m.}...`
@@ -695,7 +695,7 @@
 ` It's merely the trivial knowledge of Furudo Erika."`
 `Erika posed by picking up the hem of her skirt.`
 `She was lounging on the sofa with her feet up, so it didn't look remotely elegant.`
-`"......Where's Auntie Rosa?"`
+`"......Where's Aunt Rosa?"`
 `"She returned around 1 a.m., but she went straight upstairs to sleep."`
 `That was probably the right choice...`
 `{n}She'd been going along with that conference for so long.`
