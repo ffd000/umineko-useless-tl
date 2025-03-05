@@ -1,5 +1,4 @@
-Umineko Scripting
-=================
+The 'useless TL' is a translation edit of umineko bringing back the iconic catchphrases, uncensoring, and improving some re-translated lines. Only for english.
 
 [![Build Status](../../workflows/CI/badge.svg)](../../actions)
 
