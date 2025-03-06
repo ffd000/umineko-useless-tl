@@ -493,14 +493,14 @@
 `It was said that these ultimate weapons were packed with 1.55 tons of explosives...`
 `and capable of sinking any kind of warship with a single blast.`
 `To strengthen homeland defense,`
-` the Navy drafted a plan to build a string of hidden bases from Hachijojima to Yokosuka, all to house submarines loaded with special attack weapons.`
-`"I knew that there was a base constructed on Hachijojima.`
+` the Navy drafted a plan to build a string of hidden bases from Hachijojima to Yokosuka, all to house submarines loaded with Kaiten torpedoes.`
+`"I knew that there was a Kaiten base constructed on Hachijojima.`
 ` To think there was one on Rokkenjima too......"`
 `"Just what sort of fool decided it would be a good idea to plant a base on this desolate island, I have no idea.`
 ` ......To better preserve its secrecy?`
 ` Hmph, ridiculous.`
 ` ......I could never understand what the higher‐ups were thinking, and I didn't particularly care."`
-`These truly were ultimate weapons, able to take down large warships in a single strike.`
+`The Kaiten truly was an ultimate weapon, able to take down large warships in a single strike.`
 `It was hoped that the presence of submarines capable of loading these weapons in the waters just off of Japan would allow for a powerful sea ambush as a final line of defense.`
 `So, to aid in the establishment of a base with absolute secrecy, the uninhabited island Rokkenjima was raised as a possible candidate.`
 `An investigation of the island resulted in the discovery of a large cave in the cliffs,`
@@ -515,7 +515,7 @@
 ` How truly laughable.`
 ` What's the point in having a submarine base if there aren't any submarines left?`
 ` If there's one thing that never changes, it's politicians and their meaningless projects."`
-`The base on Hachijojima was actually outfitted with those weapons and became a base for direct attacks,`
+`The base on Hachijojima was actually outfitted with Kaiten torpedoes and became a base for direct attacks,`
 ` but Rokkenjima was never supplied with any.`
 `Not only that, they cancelled the construction work entirely,`
 ` leaving only a crew of minimal size stationed on the island, waiting for orders from above that never came.`

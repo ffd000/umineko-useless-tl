@@ -33,17 +33,17 @@
 ` ......I shall excuse myself if I am disturbing you."`
 `"...Wait, wait, excusing yourself without even telling me what you wanted would actually just be creepy.`
 ` ...What do you want?`
-` ...Please, let me do as I wish, at least in the very end."`
-`".........Battler‐sama, is it truly your wish...`
-`to spend the little time you have left in such an indolent fashion?"`
+` ...Are you gonna tell me that drinking alcohol is forbidden for minors? I'll just die anyway.` ...Please, let me do as I wish, at least in the very end."`
+`".........Battler‐sama, do you love alcohol so much...`
+`that would spend the little time you have left drinking?"`
 `Those words...stung...`
-`{n}......Of course it wasn't.`
+`{n}......Of course not.`
 `"...............................`
-` What can I do at this point?`
-` ......I'm ready to die at any time..."`
+` I just...can't cope if I don't drink.`
+` ......I can't even taste the alcohol at all......"`
 `"......You are just like the Master.`
 ` Indeed, you inherited the Master's blood strongly...."`
-`"You mean to tell me that Grandfather, that larger‐than‐life man, was actually willing to die at any moment...?`
+`"You mean to tell me that Grandfather, that larger‐than‐life man, was drinking to drown his sorrows the whole time...?`
 ` First I've heard of that."`
 `".........The Master's life,`
 ` ......after a number of sad incidents,`

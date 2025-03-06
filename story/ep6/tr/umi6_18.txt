@@ -966,7 +966,7 @@
 `However, though that word "everyone" seems perfect,`
 ` ......something's fishy!`
 `The exact definition of that phrase "everyone else"...`
-`is "all people whose names I did not mention directly".`
+`is "all humans whose names I did not mention directly".`
 `In other words, there are exceptions!`
 `For example,`
 ` ......it's been confirmed that Hideyoshi and George were in the next room over.`
@@ -1605,4 +1605,4 @@
 ` the 18th human on Rokkenjima}!!!"`
 `"............Sorry, but..."`
 `"{p:1:Even if you join us all—}"`
-`""{p:1:That's only 17}.""`
+`""{p:1:That's only 17 humans.}""`

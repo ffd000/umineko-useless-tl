@@ -1605,4 +1605,4 @@
 `the 18th human on Rokkenjima}!!!" `
 `"...Sorry, but..." `
 `"{p:1:Even if you do join us-}" `
-`""{p:1:That makes 17 humans.}"" `
+`""{p:1:That makes 17}."" `
