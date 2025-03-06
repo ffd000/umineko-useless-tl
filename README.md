@@ -1,5 +1,4 @@
-Umineko Scripting
-=================
+This is a translation edit for umineko bringing back the iconic catchphrases, decensoring the text, and fixing some awkwardly translated stuff.
 
 [![Build Status](../../workflows/CI/badge.svg)](../../actions)
 
