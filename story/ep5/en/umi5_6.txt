@@ -289,8 +289,8 @@
 `"......I see.`
 ` You really thought such a gimmick would fool me...`
 ` ...The mistake "you all" made was welcoming me onto the island in the first place.`
-` .........All it takes is the presence of that epitaph,`
-` and a deduction like this becomes trivial for Furudo Erika.`
+` .........Simply by the presence of that epitaph,`
+` this level of reasoning is possible for Furudo Erika.`
 ` ......Your thoughts, ladies and gentlemen?"`
 `As she said this to the mechanism she had exposed, she grinned at it.`
 `That smile had a bit of triumph on it, but it was more fully characterized by the small bit of unpleasant disdain it contained.`
@@ -539,6 +539,6 @@
 `......She must have been predicting the uproar the relatives would soon bring about.`
 `To her,`
 ` ......imagining that was much sweeter than 20 billion yen in gold......`
-`"......All it takes is the presence of that epitaph,`
-` and a deduction like this becomes trivial for Furudo Erika.`
+`"......Simply by the presence of that epitaph,`
+` this level of reasoning is possible for Furudo Erika.`
 ` ......Your thoughts, ladies and gentlemen?"`

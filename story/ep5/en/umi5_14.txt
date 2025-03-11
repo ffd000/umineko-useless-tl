@@ -1416,8 +1416,8 @@
 `the red of sadness...`
 `and truth.`
 `"That is all.`
-` ......All it takes is the presence of this crime,`
-` and a deduction like this becomes trivial for Furudo Erika.`
+` ......Just because the crime exists as it does,`
+` this level of reasoning is possible for Furudo Erika.`
 ` ......Your thoughts, ladies and gentlemen...?"`
 `{f:5:Lambdadelta}...clapped.`
 `Then, a little later than expected, {f:5:Bernkastel} began to clap as well, looking satisfied.`
