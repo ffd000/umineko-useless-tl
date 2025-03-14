@@ -242,8 +242,8 @@
 `a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a`
 `a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}aaah...!!!"`
 `Gapupogyugukigukiboryu.`
-`By now the rose garden was a garden of roses and gold.`
-` A gold‐colored garden where gold butterflies, gold fairies, gold lizards rampaged and flew about wildly.`
+`By now the rose garden was one of roses and gold.`
+` A gold‐colored garden where gold butterflies, fairies, lizards rampaged and flew about wildly.`
 `"Maria, hurry!!`
 ` Run!!`
 ` Hurry hurry hurry hurry!!"`

@@ -408,14 +408,14 @@
 `"When explaining my magical murders with human tricks, you can make declarations in blue.`
 ` I will be under obligation to counter your blue with the red by the end of the game."`
 `"Blue......`
-` ......So basically, I'll speak my repetition requests in blue...?"`
+` ......So basically, I'll speak in blue when I tell you to repeat things...?"`
 `"Not exactly.`
-` It was possible to use repetition requests for anything, no matter how trivial.`
+` You could tell me to repeat anything, no matter how trivial.`
 ` But the blue is a little more restrictive.`
 ` It is only valid if it denies witches on its own."`
 `"..........................."`
 `It's starting to get confusing, ...but it's more or less something like this.`
-`Let's take one of the repetition requests I made during a past mystery as an example.`
+`Let's take one of the past mysteries where I asked her to repeat something as an example.`
 `{n}"The number of master keys is five".`
 `It had been claimed that there were only five master keys, so I made this request to confirm that the number really was five.`
 `But since that by itself doesn't deny the witch, I can't say it in blue.`
