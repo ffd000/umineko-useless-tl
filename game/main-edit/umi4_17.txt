@@ -1,0 +1,4886 @@
+*umi4_17
+;惨劇の原因
+log_reset
+mov $name_chapter_r_click,r_click_chapters_4_17
+mov $name_chapter_save, "4_17"
+new_chapter date_scenario_4_17,scenario_4_17
+gstc 287
+textoff
+waits 167
+meplay 1,13,70
+meplay 2,5,70
+rain_load s0_11
+rain_load s0_7
+rain_params s0_11,400,800,0
+rain_params s0_7,400,500,0
+textoff
+waits 167
+lbg s0_3,"g_o1ar"
+flush 26
+wait 2000
+textoff
+waits 167
+lbg s0_3,"g_o1cr"
+flush 22
+wait 2000
+csp_slot s0_11
+csp_slot s0_7
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+vol_me 1,40,1000
+vol_me 2,40,1000
+wait 1000
+rain_load s0_11
+z_order_override s0_11,s0_1
+rain_params s0_11,500,300,0
+textoff
+waits 167
+lbg s0_1,"g2f_r1ar_bg"
+lbg s0_3,"g2f_r1ar"
+lss s0_9,"mar","a22_odoroki1" ;1
+flush 22
+bgmplay 38,80,0
+msgwnd_mar
+*d28900
+d [lv 0*"13"*"40401255"]`"......I don't know why you're angry, Battler."`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_1,"g2f_r1ar_bg"
+lbg s0_3,"g2f_r1ar"
+lss s0_8,"but","b22_odoroki1" ;1
+aspt2 xpos,s0_8,-370
+flush 24
+msgwnd_but
+*d28901
+d [lv 0*"10"*"40100425"]`"You {i:should?!}`[@][lv 0*"10"*"40100426"]` Everyone was killed, goddammit!!`[@][lv 0*"10"*"40100427"]` By that goddamned old fart!`[@][lv 0*"10"*"40100428"]` Saying something incomprehensible about {f:5:Beatrice}'s resurrection ritual or something!!"`[\]
+lss s0_10,"mar","a22_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_mar
+*d28902
+d [lv 0*"13"*"40401256"]`"Then, that means, thirteen people have been offered as sacrifices,`[@][lv 0*"13"*"40401257"]` ......and {f:5:Beatrice} will have revived already, you know?"`[\]
+lss s0_8,"but","b11_majime4" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d28903
+d [lv 0*"10"*"40100429"]`"Yeah, that's perfect!!`[@][lv 0*"10"*"40100430"]` I'll take {f:5:Beatrice} too and kill them both!!"`[\]
+lss s0_10,"mar","a11_niyari1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_mar
+*d28904
+d [lv 0*"13"*"40401258"]`"............We survived the ritual.`[@][lv 0*"13"*"40401259"]` So we'll receive an invitation to the Golden Land from {f:5:Beatrice}, you see......?"`[\]
+lss s0_10,"mar","a22_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d28905
+d [lv 0*"13"*"40401260"]`"All wishes are granted there.`[@][lv 0*"13"*"40401261"]` If you're suffering because your family was killed, then you just have to bring them back to life.`[@][lv 0*"13"*"40401262"]` ......That's what I plan to do.`[@][lv 0*"13"*"40401263"]` I'm going to revive my really nice real mama, the one that isn't possessed by the black witch."`[\]
+lss s0_10,"mar","a22_akuwarai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d28906
+d [lv 0*"13"*"40401264"]`"......So Mama will always be with me from now on.`[@][lv 0*"13"*"40401265"]` .........There won't be any more overtime or working on days off.`[@][lv 0*"13"*"40401266"]` ...She'll always be with me, and think only of me, kihhihihi, and she'll fight all the time against fearsome enemies for me.`[@][lv 0*"13"*"40401267"]` Kihhihi{0}hi{0}hihihi...!"`[\]
+lss s0_8,"but","b22_niramu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d28907
+d [lv 0*"10"*"40100431"]`"......There's something wrong with you.`[@][lv 0*"10"*"40100432"]` ......How can you sit there saying such incomprehensible crap in a situation like this...?!"`[\]
+lss s0_10,"mar","a22_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_mar
+*d28908
+d [lv 0*"13"*"40401268"]`"............Didn't Aunt Kyrie just tell you, Battler...?`[@][lv 0*"13"*"40401269"]` ......Didn't she tell you...`[|][lv 0*"13"*"40401270"]`to believe...`[|][lv 0*"13"*"40401271"]`...in the witch?"`[\]
+lss s0_8,"but","b11_majime2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d28909
+d2 [lv 0*"10"*"40100433"]`".....................Sh‐shit.`[@][lv 0*"10"*"40100434"]` This isn't the time to get in an argument with you...!!`[@][#][*][lv 0*"10"*"40100435"]` Forget "hostages", at this point, there's no one left alive at all!`[@][lv 0*"10"*"40100436"]` This dumb‐as‐hell, screwed‐up ritual game is done now...!!"`[\]
+wait_on_d 0
+lss s0_8,"but","b22_odoroki1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_8,"but","b11_komaru2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d28910
+d [lv 0*"10"*"40100437"]`"From here on, I'm doing what {i:I} want.`[@][lv 0*"10"*"40100438"]` Someone might still be alive.`[@][lv 0*"10"*"40100439"]` Or someone might be hiding!`[@][lv 0*"10"*"40100440"]` I'll search every nook and cranny of this place, find them, and beat the shit out of them!!"`[\]
+csp_slot s0_8
+flush 10,167
+seplay 1,15,71
+msgwnd_non
+*d28911
+d `In a rage, Battler grabbed his hat‐stand spear and flew out of the room.`[\]
+*d28912
+d `Maria watched him go, looking bored...`[\]
+lss s0_10,"mar","a22_akuwarai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_mar
+*d28913
+d [lv 0*"13"*"40401272"]`".........But {f:5:Beatrice} would grant your wishes soon anyway.`[@][lv 0*"13"*"40401273"]` ......Stupid Battler.`[@][lv 0*"13"*"40401274"]` ......Kihhihihihi."`[\]
+vol_bgm -1,1000
+meplay 3,22,100
+msgwnd_non
+*d28914
+d `Then, the phone rang out again......`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_9,"mar","a22_niyari1" ;1
+flush 10,167
+*d28915
+d `Maria stood up, and grabbed the receiver.`[\]
+vol_me 3,-1,1000
+seplay 1,53,71
+lss s0_9,"mar","a22_odoroki1" ;1
+flush 10,167
+msgwnd_mar
+*d28916
+d2 [lv 0*"13"*"40401275"]`"Uu.`[@][lv 0*"13"*"40401276"]` Hello.`[@][lv 0*"13"*"40401277"]` ......Uu?`[@][#][*][lv 0*"13"*"40401278"]` Uu!!!"`[\]
+wait_on_d 0
+lss s0_9,"mar","a22_warai2" ;1
+flush 10,167
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_9
+csp_slot s0_1
+lbg s0_3,"black"
+flush 24
+textoff
+waits 167
+lbg s0_3,"g1f_p1c"
+lss s0_9,"but","b22_niramu1" ;1
+flush 24
+lss s0_9,"but","b11_majime4" ;1
+flush 10,167
+msgwnd_non
+*d28917
+d `Of course, the sound of the phone also reached Battler's ears as he was about to dash out of the guesthouse.`[\]
+vol_me 1,-1,1000
+vol_me 2,-1,1000
+seplay 1,16,71
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 64
+*d28918
+d `With a violent forcefulness, he turned around and dashed into the cousins' room...`[\]
+bgmplay 36,71,0
+textoff
+waits 167
+lbg s0_1,"g2f_r1ar_bg"
+lbg s0_3,"g2f_r1ar"
+lss s0_8,"but","b11_majime4" ;1
+aspt2 xpos,s0_8,-370
+flush 64
+msgwnd_but
+*d28919
+d [lv 0*"10"*"40100441"]`"M‐Maria......!`[@][lv 0*"10"*"40100442"]` The phone call, ......who's it from...?!"`[\]
+msgwnd_non
+*d28920
+d `With a terrifying look on his face, Battler yelled at Maria, who was on the phone.`[\]
+*d28921
+d `You couldn't blame him......`[@]` Right now, the only humans left alive on the island were himself, Maria, Gohda, and Kumasawa.`[\]
+*d28922
+d `But there was no way those two could call when they were locked up in the gardening storehouse.`[\]
+*d28923
+d `......Which meant.........there was only one person.`[@]`{n}It had to be Kinzo.`[\]
+textoff
+waits 167
+csp_slot s0_8
+lbg s0_1,"g2f_r1ar_bg"
+lbg s0_3,"g2f_r1ar"
+lss s0_10,"mar","a22_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 24
+*d28924
+d `As she happily chatted with the person on the other end of the phone, Maria slowly turned to face Battler.`[\]
+lss s0_10,"mar","a22_akuwarai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d28925
+d `.........And, with an unsettling expression on her face, she laughed with a "kihihi{0}hi{0}hi{0}hi{0}hi{0}hihihi".`[@]`{n}......It felt almost as though the person on the other end of the line was chatting about Battler.`[\]
+lss s0_8,"but","b22_nayamu4" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d28926
+d [lv 0*"10"*"40100443"]`"Maria...who's on the phone?`[@][lv 0*"10"*"40100444"]` ......Grandfather......?!"`[\]
+msgwnd_non
+*d28927
+d `Battler couldn't imagine that this was the case.`[\]
+*d28928
+d `...After all, it was inconceivable that Maria would be having such a friendly talk with Kinzo,`[@]` ......chatting to him about Battler with that eerie smile on her face.`[\]
+*d28929
+d `Just what kind of person could be on the phone.........who could make Maria chat with a smile like that?`[\]
+*d28930
+d `.........At that time, in the back of his mind, the words Kyrie had spoken to him drifted up.`[\]
+*d28931
+d `Even if a witch does appear, there is no need to doubt it.`[@]`{n}......Just.........believe in its existence......`[\]
+lss s0_10,"mar","a22_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_mar
+*d28932
+d2 [lv 0*"13"*"40401279"]`"Yep.`[@][lv 0*"13"*"40401280"]` Battler just came back.`[@][lv 0*"13"*"40401281"]` He sure is hasty.`[@][#][*][lv 0*"13"*"40401282"]` Kihi{0}hi{0}hi{0}hi{0}hi{0}hi{0}hi{0}hihihi......"`[\]
+wait_on_d 0
+lss s0_10,"mar","a22_akuwarai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_8,"but","b22_odoroki1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d28933
+d [lv 0*"10"*"40100445"]`"Maria!!`[@][lv 0*"10"*"40100446"]` Who's on the phone?!`[@][lv 0*"10"*"40100447"]` Who?!?!"`[\]
+lss s0_10,"mar","a22_niyari1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_mar
+*d28934
+d2 [lv 0*"13"*"40401283"]`"......Hand it over?`[@][lv 0*"13"*"40401284"]` Sure.`[@][#][*][lv 0*"13"*"40401285"]` ............Here, Battler."`[\]
+wait_on_d 0
+csp_slot s0_10
+flush 10,167
+lss s0_9,"mar","a22_warai1" ;1
+flush 10,167
+d_continue
+wait_on_d -1
+meplay 1,16,50
+msgwnd_non
+*d28935
+d `After getting the consent of the person on the other end, she held the receiver out to Battler...`[\]
+lss s0_8,"but","b11_majime5" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d28936
+d [lv 0*"10"*"40100448"]`"..................uh."`[\]
+lss s0_9,"mar","a22_niyari1" ;1
+flush 10,167
+msgwnd_mar
+*d28937
+d [lv 0*"13"*"40401286"]`"Here."`[\]
+msgwnd_non
+*d28938
+d `Maria held the receiver out for him to take, ......as though it was perfectly normal.`[\]
+*d28939
+d `Battler felt just a little bit of hesitation towards taking the receiver.`[\]
+*d28940
+d `......Because, .........by acknowledging the existence of the person at the other end,`[@]` .........he would have no choice but to admit it.`[\]
+textoff
+waits 167
+lbg s0_26,"black"
+flush 22
+*d28941
+d `.........Kyrie had said it.`[\]
+*d28942
+d `......There is no longer...`[!w500]`...any need...`[!w667]`...to doubt their existence...`[\]
+textoff
+waits 167
+vol_bgm 70,1000
+vol_me 1,0,1000
+wait 1000
+textoff
+waits 167
+csp_slot s0_26
+flush 22
+lss s0_8,"but","b22_odoroki1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d28943
+d `Battler took the receiver.`[\]
+csp_slot s0_9
+flush 10,167
+*d28944
+d `After he did so, Maria briskly headed for the door.`[\]
+*d28945
+d `Battler, who was slightly fearful about finding out for sure who was at the other end of the receiver,`[@]` questioned Maria before taking the call.`[\]
+lss s0_8,"but","b22_odoroki2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d28946
+d [lv 0*"10"*"40100449"]`"H‐hey!`[@][lv 0*"10"*"40100450"]` Where are you going...?!"`[\]
+lss s0_10,"mar","a22_akuwarai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_mar
+*d28947
+d [lv 0*"13"*"40401287"]`"To where my test is.`[@][lv 0*"13"*"40401288"]` ......I wonder who the Ushiromiya family head will be, you or me.`[@][lv 0*"13"*"40401289"]` Kihihi{0}hi{0}hi{0}hi{0}hi{0}hi{0}hi{0}hi{0}hi{0}hihi."`[\]
+lss s0_8,"but","b11_kuyasigaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d28948
+d [lv 0*"10"*"40100451"]`".........D‐don't go!!`[@][lv 0*"10"*"40100452"]` You'll be killed!!"`[\]
+lss s0_10,"mar","a22_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_mar
+*d28949
+d2 [lv 0*"13"*"40401290"]`"No I won't.`[@][lv 0*"13"*"40401291"]` The ritual's already over.`[@][lv 0*"13"*"40401292"]` ...And even if I am, I'll be revived.`[@][#][*][lv 0*"13"*"40401293"]` ......Whether one of us becomes the head or not, we're already invited to the Golden Land.`[@][lv 0*"13"*"40401294"]` See you."`[\]
+wait_on_d 0
+lss s0_10,"mar","a22_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_10
+flush 10,167
+wait 500
+seplay 1,15,71
+waits 167
+lss s0_8,"but","b22_odoroki1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d28950
+d [lv 0*"10"*"40100453"]`"Wait!!`[@][lv 0*"10"*"40100454"]` Maria...!!!"`[\]
+msgwnd_non
+*d28951
+d `Battler stretched his hand out to Maria's back as she left,`[@]` ......but the cord of the receiver that he was gripping held him back like a chain.`[\]
+lss s0_8,"but","b22_niramu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d28952
+d `......He readied himself.`[@]` ...Battler put the receiver to his ear......`[\]
+textoff
+waits 167
+meplay 2,12,0
+vol_bgm 0,3000
+vol_me 2,50,3000
+wait 3000
+lss s0_8,"but","b11_nayamu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d28953
+d [lv 0*"10"*"40100455"]`"...............He‐......hello......?"`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_1
+lbg s0_3,"black"
+flush 2
+wait 1000
+vol_mix_fade 1000
+vol_bgm -1,1000
+wait 1000
+seplay 1,2,100
+bgmplay 104,71,0
+seplay 2,37,100
+seplay 3,37,100
+msgwnd_bea
+*d28954
+d [lv 0*"27"*"40700460"]`"<Congratulaatioooooooons>!!`[@][lv 0*"27"*"40700461"]` <And I'm fi~ne>!!`[@][lv 0*"27"*"40700462"]` <And yoo{-}o{-}o{-}o{-}o{-}o{-}o{-}o{-}oouuuuu>?!`[@][lv 0*"27"*"40700463"]` Aaa{0}a{0}ah{0}h{0}h{0}hyah{0}hyah{0}hyah{0}hyaaaaa!!!"`[\]
+msgwnd_non
+*d28955
+d `Screwed up, mocking English filled his ears.`[@]`{n}......It was the voice of a woman he didn't know.`[\]
+*d28956
+d `......Who—`[@]`the inside of his head was starting to freeze up—`[@]`............who............`[\]
+msgwnd_bea
+*d28957
+d2 [lv 0*"27"*"40700464"]`"What do you mean "who", Ushiromiya Battleeeeer...?`[@][lv 0*"27"*"40700465"]` The answer, normally, is <ye~s, I'm fine>!`[@][lv 0*"27"*"40700466"]` Is it not??`[@][lv 0*"27"*"40700467"]` That takes me back...you must have done that one in middle school, right?`[@][lv 0*"27"*"40700468"]` That thing you do in pairs!`[@][#][*][lv 0*"27"*"40700469"]` Uhhya{0}hya{0}hya{0}hya{0}hya{0}hyaaaaahh!!!"`[\]
+wait_on_d 0
+seplay 1,37,100
+d_continue
+wait_on_d -1
+textoff
+waits 167
+lbg s0_1,"g2f_r1ar_bg"
+lbg s0_3,"g2f_r1ar"
+lss s0_9,"but","b22_odoroki2" ;1
+flush 26
+msgwnd_but
+*d28958
+d2 [lv 0*"10"*"40100456"]`"Y‐...you're insane......`[@][#][*][lv 0*"10"*"40100457"]` Who are you?!!`[@][lv 0*"10"*"40100458"]` Answer me!!!"`[\]
+wait_on_d 0
+lss s0_9,"but","b11_majime4" ;1
+flush 10,167
+d_continue
+wait_on_d -1
+msgwnd_bea
+*d28959
+d [lv 0*"27"*"40700470"]`"Say it in Engliiish.`[@][lv 0*"27"*"40700471"]` Isn't that your specialtyyyyy?"`[\]
+lss s0_9,"but","b11_nayamu3" ;1
+flush 10,167
+msgwnd_but
+*d28960
+d2 [lv 0*"10"*"40100459"]`"......Qui‐quit messing with me......`[@][#][*][lv 0*"10"*"40100460"]` Who are you?!!`[@][lv 0*"10"*"40100461"]` That crazy old bastard's underling?!"`[\]
+wait_on_d 0
+lss s0_9,"but","b22_sakebu1" ;1
+flush 10,167
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_9
+csp_slot s0_1
+lbg s0_3,"black"
+flush 22
+msgwnd_bea
+*d28961
+d [lv 0*"27"*"40700472"]`"‘Underling’ is a cruel description.`[@][lv 0*"27"*"40700473"]` Go the other way and try "captive".`[@][lv 0*"27"*"40700474"]` ......I have Kinzo captive!`[@][lv 0*"27"*"40700475"]` Ri~~ght?`[@][lv 0*"27"*"40700476"]` Wahha{0}ha{0}ha{0}ha{0}ha{0}ha{0}hahaha..."`[\]
+msgwnd_non
+*d28962
+d `That last laugh didn't sound like it was aimed at Battler.`[\]
+*d28963
+d `......It was almost as though Kinzo was right next to the phone, cackling as well...`[\]
+msgwnd_but
+*d28964
+d [lv 0*"10"*"40100462"]`"......S‐......say your goddamned name!!`[@][lv 0*"10"*"40100463"]` Who are you?!`[@][lv 0*"10"*"40100464"]` Who?!!!"`[\]
+textoff
+waits 167
+textoff
+waits 167
+lbg s0_26,"white"
+flush 1
+seplay 1,2,100
+seplay 2,1006,100
+seplay 3,2,100
+textoff
+waits 167
+lbg s0_1,"mlib_1br_bg"
+lbg s0_3,"mlib_1br"
+lss s0_9,"bea","b11_akuwarai2" ;1
+textoff
+waits 167
+csp_slot s0_26
+flush 2
+msgwnd_bea
+*d28965
+d [lv 0*"27"*"40700477"]`"Try and guess, you could win a invite to Hawaii!`[@][lv 0*"27"*"40700478"]` Ahhyah{0}hyah{0}hhyaaaah!!`[@][lv 0*"27"*"40700479"]` Fffinally.`[@][lv 0*"27"*"40700480"]` FINALLY!!`[@][lv 0*"27"*"40700481"]` Mmmmmmm, it was soooo looo{-}o{-}o{-}o{-}ong, the days leading up to today were reee{-}e{-}eeally long...!!"`[\]
+*d28966
+d2 [lv 0*"27"*"40700482"]`"I seriously waited a thousand years, you know?? For this day to arrive!!`[@][#][*][lv 0*"27"*"40700483"]` And here it is, all thanks to you,`[@][lv 0*"27"*"40700484"]` my BIG resurrection!!`[@][lv 0*"27"*"40700485"]` <Thank you>, Kinzo!`[@][lv 0*"27"*"40700486"]` Just this once,`[@][lv 0*"27"*"40700487"]` I'll let you have that last takeback of yo~urs!!!"`[\]
+wait_on_d 0
+lss s0_9,"bea","b22_akuwarai2" ;1
+flush 10,167
+d_continue
+wait_on_d -1
+textoff
+waits 167
+seplay 1,37,100
+wait 1000
+lss s0_10,"kin","a11_warai2" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_kin
+*d28967
+d [lv 0*"01"*"41500496"]`"......Hell's bells, do you have to be in this much of a good mood?`[@][lv 0*"01"*"41500497"]` Can't you act a little more ladylike?"`[\]
+textoff
+waits 167
+csp_slot s0_9
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 25
+meplay 1,5,70
+textoff
+waits 167
+lbg s0_3,"mlib_1e"
+flush 22
+msgwnd_non
+*d28968
+d `Kinzo and {f:5:Beatrice} sat facing each other over the chessboard on the reception table.`[\]
+*d28969
+d `Also on the table were expensive cheeses and the like to go with drinks.`[@]`{n}And there was a line of several empty wine bottles.`[\]
+*d28970
+d `As {f:5:Beatrice} rolled around in her sofa in an unseemly way,`[@]` she held a wine glass in one hand, in a good mood,`[@]` ......and probably, completely drunk.`[\]
+textoff
+waits 167
+lbg s0_1,"mlib_1cr_bg"
+lbg s0_3,"mlib_1cr"
+lss s0_10,"bea","b33_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 26
+lss s0_10,"bea","b11_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d28971
+d [lv 0*"27"*"40700488"]`"I'm in the {i:best} mood today, so I'm feeling crazy generous!!`[@][lv 0*"27"*"40700489"]` Hey, hey, Kinzo, don't use Chateau Petrus as a decoration!`[@][lv 0*"27"*"40700490"]` Hooooly shit, it's a 1947?!"`[\]
+*d28972
+d [lv 0*"27"*"40700491"]`"If you don't open it today, just when are you gonna open it?!`[@][lv 0*"27"*"40700492"]` Let's slosh it all over each other for fun!`[@][lv 0*"27"*"40700493"]` Then let's whack each other with the empty bottle!`[@][lv 0*"27"*"40700494"]` Uhhyah{0}hyah{0}hyahhya!!"`[\]
+lss s0_8,"kin","a11_warai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_kin
+*d28973
+d [lv 0*"01"*"41500498"]`"Hahhaha, that would be entertaining.`[@][lv 0*"01"*"41500499"]` You are a little too excited.`[@][lv 0*"01"*"41500500"]` You're cutting loose too much."`[\]
+lss s0_10,"bea","b23_akuwarai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d28974
+d2 [lv 0*"27"*"40700495"]`"And what about youuuuuu?!`[@][lv 0*"27"*"40700496"]` Aren't you happy to be reunited with meee?`[@][#][*][lv 0*"27"*"40700497"]` Aaah, it's the living world! The earthly world!!`[@][lv 0*"27"*"40700498"]` Long live my flesh!!"`[\]
+wait_on_d 0
+lss s0_10,"bea","b11_akuwarai3" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+textoff
+waits 167
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 25
+meplay 2,13,70
+csp_slot s0_11
+rain_load s0_11
+rain_load s0_7
+rain_params s0_11,400,800,0
+rain_params s0_7,400,500,0
+textoff
+waits 167
+lbg s0_3,"g_o1cr"
+flush 24
+wait 2000
+csp_slot s0_7
+csp_slot s0_11
+rain_load s0_11
+z_order_override s0_11,s0_1
+rain_params s0_11,500,300,0
+textoff
+waits 167
+lbg s0_1,"g2f_r1ar_bg"
+lbg s0_3,"g2f_r1ar"
+lss s0_9,"but","b22_niramu1" ;1
+flush 23
+msgwnd_but
+*d28975
+d [lv 0*"10"*"40100465"]`"......What......are you going on about.........?`[@][lv 0*"10"*"40100466"]` ...Are you saying that you're......B‐{f:5:Beatrice} or something...?"`[\]
+vol_me 2,-1,1000
+seplay 1,37,100
+seplay 2,37,100
+seplay 3,2,100
+textoff
+waits 167
+csp_slot s0_9
+csp_slot s0_1
+lbg s0_3,"white"
+flush 1
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+meplay 2,16,50
+msgwnd_bea
+*d28976
+d [lv 0*"27"*"40700499"]`"<Ye~eeeeeeeeeeeeeeess, I aaaaaaaaaamm>!!`[@][lv 0*"27"*"40700500"]` Thanks to Kinzo's thirteen‐person murder ritual, I've finally been resurrected...!!`[@][lv 0*"27"*"40700501"]` It's nice having a mouth, it's nice having a tongue!`[@][lv 0*"27"*"40700502"]` How fun it is to be able to talk to you like this!"`[\]
+*d28977
+d2 [lv 0*"27"*"40700503"]`"Come to think of it, even though we've hurled insults at each other over and over again,`[@][lv 0*"27"*"40700504"]` this is the first time we've had a conversation like this on the board during the game, isn't it?`[@][#][*][lv 0*"27"*"40700505"]` How very fresh!!"`[\]
+wait_on_d 0
+seplay 1,37,100
+d_continue
+wait_on_d -1
+*d28978
+d2 [lv 0*"27"*"40700506"]`"Oh, did you hear that pop sound?!`[@][lv 0*"27"*"40700507"]` He {i:opened} it, the maniac actually went and opened that vintage wine that's expensive as shit!!`[@][lv 0*"27"*"40700508"]` Do you know how much a single bottle of that stuff {i:costs}?!`[@][lv 0*"27"*"40700509"]` As much as a whole ten‐kilogram ingot, isn't that craaaaaazy?!?!`[@][#][*][lv 0*"27"*"40700510"]` Hiiiii‐hah‐hah‐hah‐hah‐hah!!"`[\]
+wait_on_d 0
+seplay 1,37,100
+d_continue
+wait_on_d -1
+textoff
+waits 167
+lbg s0_1,"g2f_r1ar_bg"
+lbg s0_3,"g2f_r1ar"
+lss s0_10,"but","b11_kuyasigaru1" ;1
+aspt2 xpos,s0_10,370
+flush 26
+vol_me 2,-1,1000
+msgwnd_but
+*d28979
+d [lv 0*"10"*"40100467"]`"C‐cut the crap...!!`[@][lv 0*"10"*"40100468"]` {f:5:Beatrice} my ass...!!`[@][lv 0*"10"*"40100469"]` You say you're the Golden Witch?!`[@][lv 0*"10"*"40100470"]` That's enough!!"`[\]
+lss s0_10,"but","b22_odoroki1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d28980
+d [lv 0*"10"*"40100471"]`"Where the hell are you?!`[@][lv 0*"10"*"40100472"]` Is that damn old fart with you as well?!`[@][lv 0*"10"*"40100473"]` I'll beat the shit out of both of you!!`[@][lv 0*"10"*"40100474"]` Where are you right now?!`[@][lv 0*"10"*"40100475"]` Answer me!!"`[\]
+msgwnd_bea
+*d28981
+d [lv 0*"27"*"40700511"]`"Ohhh, so you want to meeeet me?`[@][lv 0*"27"*"40700512"]` Uhhihihihi, sure is tough being a popular woman!`[@][lv 0*"27"*"40700513"]` But please, don't try to chat me up when Kinzo's around, okaay?`[@][lv 0*"27"*"40700514"]` The guy's a bad egg, he gets seriously jealous, see?"`[\]
+*d28982
+d2 [lv 0*"27"*"40700515"]`".........But when Kinzo isn't around and we're all alone, I'll love you all you want in secret, alright...?`[@][#][*][lv 0*"27"*"40700516"]` Uhyaaahya{0}hhya{0}hhya{0}hhya{0}hhya{0}a{0}a{0}a{0}kkya{0}kkya{0}kkyakkya!!!"`[\]
+wait_on_d 0
+seplay 1,37,100
+seplay 2,37,100
+d_continue
+wait_on_d -1
+lss s0_10,"but","b22_niramu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_but
+*d28983
+d [lv 0*"10"*"40100476"]`"Y‐you're insane........."`[\]
+textoff
+waits 167
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 22
+vol_me 1,-1,1000
+seplay 1,2,100
+textoff
+waits 167
+lbg s0_3,"white"
+flush 1
+textoff
+waits 167
+lbg s0_1,"mlib_1cr_bg"
+lbg s0_3,"mlib_1cr"
+lss s0_10,"bea","b33_futeki1" ;1
+aspt2 xpos,s0_10,370
+flush 22
+msgwnd_bea
+*d28984
+d [lv 0*"27"*"40700517"]`"Kinzoo, I've changed my mind.`[@][lv 0*"27"*"40700518"]` I won't do Maria's test.`[@][lv 0*"27"*"40700519"]` You go."`[\]
+lss s0_8,"kin","a11_warai2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_kin
+*d28985
+d [lv 0*"01"*"41500501"]`"How fickle.`[@][lv 0*"01"*"41500502"]` Then you are saying that you will do Battler's test?"`[\]
+lss s0_10,"bea","b11_akuwarai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d28986
+d [lv 0*"27"*"40700520"]`"Nothing wrong with that, ri~ght?!`[@][lv 0*"27"*"40700521"]` That guy's so much like a younger you, y'know? It makes my heart race."`[\]
+lss s0_10,"bea","b21_akuwarai5" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d28987
+d2 [lv 0*"27"*"40700522"]`"Don't worry, I'm not gonna cheat on yooooou.`[@][lv 0*"27"*"40700523"]` I'll only be alone with him this one time.`[@][lv 0*"27"*"40700524"]` ......I'm always alone with you, riiight...?`[@][lv 0*"27"*"40700525"]` But no more tying me up twenty‐four hours a day, alright?`[@][#][*][lv 0*"27"*"40700526"]` Kuhhyahha{0}hha{0}ha{0}ha{0}hahaha...!!!"`[\]
+wait_on_d 0
+seplay 1,37,100
+d_continue
+wait_on_d -1
+textoff
+waits 167
+seplay 2,27,100
+wait 500
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"white"
+flush 1
+textoff
+waits 167
+lbg s0_3,"black"
+flush 2
+meplay 1,13,70
+meplay 2,5,70
+*d28988
+d [lv 0*"27"*"40700527"]`"So there you have it, Battlerr!`[@][lv 0*"27"*"40700528"]` I, the Golden Witch {f:5:Beatrice}, will be running your test myself!`[@][lv 0*"27"*"40700529"]` As for the place...let me see.`[@][lv 0*"27"*"40700530"]` At the front entrance to this mansion!"`[\]
+*d28989
+d [lv 0*"27"*"40700531"]`"Battlerr, this headship test, you've seriously gotta full‐ass this one, okaay?`[@][lv 0*"27"*"40700532"]` ......I mean, Kinzo's practically dead on his feet.`[@][lv 0*"27"*"40700533"]` If you become the next head, you'll be the new owner of everything on this island."`[\]
+*d28990
+d [lv 0*"27"*"40700534"]`"......I wouldn't mind letting you have me all to yourself, you know......?`[@][lv 0*"27"*"40700535"]` Just like Kinzo did, ......control me, okay......?`[@][lv 0*"27"*"40700536"]` Kuhhihi{0}hi{0}hi{0}hi{0}hi{0}hihi, uhhya{0}hha{0}hha{0}ha{0}ha{0}ha{0}ha{0}haha!"`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_1,"g2f_r1ar_bg"
+lbg s0_3,"g2f_r1ar"
+lss s0_8,"but","b11_majime2" ;1
+aspt2 xpos,s0_8,-370
+flush 26
+msgwnd_but
+*d28991
+d2 [lv 0*"10"*"40100477"]`"Th‐the front entrance of the mansion......`[@][lv 0*"10"*"40100478"]` Perfect...!!`[@][#][*][lv 0*"10"*"40100479"]` Listen to me, you stinking drunk!!`[@][lv 0*"10"*"40100480"]` I'll sober you up.`[@][lv 0*"10"*"40100481"]` And I've got some {i:hot punch} waiting to help you through your hangover!!`[@][lv 0*"10"*"40100482"]` Just you wait!!"`[\]
+wait_on_d 0
+lss s0_8,"but","b22_niramu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+seplay 1,12,71
+seplay 2,2,100
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_1
+lbg s0_3,"black"
+flush 1
+msgwnd_non
+*d28992
+d `Battler impulsively slammed the receiver down.`[@]`{n}There was no need to talk through a receiver anymore.`[\]
+*d28993
+d `......I'll meet her face to face and settle this!!`[\]
+textoff
+waits 167
+vol_bgm 0,3000
+vol_me 2,0,3000
+wait 3000
+csp_slot s0_11
+rain_load s0_11
+rain_load s0_7
+rain_params s0_11,400,800,0
+rain_params s0_7,400,500,0
+textoff
+waits 167
+lbg s0_3,"g_o1ar"
+flush 1
+seplay 3,16,71
+meplay 2,5,70
+*d28994
+d `I took the spear I'd made by taking apart the hat stand,`[@]` and went outside without even an umbrella.`[\]
+*d28995
+d `......It's hard to imagine that the young woman calling herself {f:5:Beatrice} will be waiting for me alone.`[\]
+bgmplay 28,85,0
+*d28996
+d `...I should probably assume that she'll be waiting with those supporting troops that Gohda‐san and Kumasawa‐san told us about.`[\]
+*d28997
+d `Going alone would be too reckless...`[\]
+textoff
+waits 167
+csp_slot s0_11
+csp_slot s0_7
+textoff
+waits 167
+lbg s0_3,"black"
+flush 24
+rain_load s0_11
+rain_load s0_7
+rain_params s0_11,400,800,0
+rain_params s0_7,400,500,0
+textoff
+waits 167
+lbg s0_3,"rose_1an"
+flush 24
+wait 2000
+csp_slot s0_11
+csp_slot s0_7
+textoff
+waits 167
+lbg s0_3,"black"
+flush 24
+rain_load s0_11
+rain_load s0_7
+rain_params s0_11,400,800,0
+rain_params s0_7,400,500,0
+textoff
+waits 167
+lbg s0_3,"warehous_o1an"
+lss s0_10,"but","b11_komaru2" ;1
+aspt2 xpos,s0_10,370
+aspt2 darken_r,s0_10,156
+aspt2 darken_g,s0_10,156
+aspt2 darken_b,s0_10,160
+flush 24
+msgwnd_but
+*d28998
+d [lv 0*"10"*"40100483"]`"Gohda‐san, Kumasawa‐san...!`[@][lv 0*"10"*"40100484"]` It's me, it's Battler...!"`[\]
+msgwnd_non
+*d28999
+d `I headed for the gardening storehouse first.`[@]`{n}I need all the help I can get.`[\]
+*d29000
+d `Gohda‐san's a burly man, so I can probably count on him to add some extra brawn.`[@]`{n}Kumasawa‐san's knowledge and familiarity with the area as a senior servant might prove to be a huge weapon.`[\]
+*d29001
+d `Both of them have master keys, and they know more about the mansion than I do.`[@]` ......They're pretty reliable allies.`[\]
+*d29002
+d `As I banged on the shutter and called out for them to open it, I remembered that there was nothing they could do from the inside.`[\]
+*d29003
+d `I would have to get the key back from them and open the shutter myself.`[\]
+csp_slot s0_11
+csp_slot s0_7
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"black"
+flush 24
+*d29004
+d `I went around to the side, knocked on the small latticed window there, and opened it up.`[\]
+msgwnd_but
+*d29005
+d [lv 0*"10"*"40100485"]`"Gohda‐san, Kumasawa baa‐chan...!`[@][lv 0*"10"*"40100486"]` It's Battler...!!`[@][lv 0*"10"*"40100487"]` Hey, come on, get up...............h...ey........."`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 1
+vol_bgm 0,2000
+vol_me 1,50,2000
+vol_me 2,0,2000
+wait 2000
+vol_bgm -1,1000
+textoff
+waits 167
+lbg s0_3,"warehous_i1e"
+flush 6
+meplay 2,16,50
+msgwnd_non
+*d29006
+d `The scene in the shed, lit by a dim lightbulb, .........was all too......bizarre......`[\]
+msgwnd_but
+*d29007
+d [lv 0*"10"*"40100488"]`"......Gohda...`[|][lv 0*"10"*"40100489"]`sa...n......`[@][lv 0*"10"*"40100490"]` ......Kumasawa......sa...`[|][lv 0*"10"*"40100491"]`......n........."`[\]
+msgwnd_non
+*d29008
+d2 `From a low ceiling beam...`[!w500]`......hung two thick ropes,`[@]` ......and at the ends,`[!w417]` ......Gohda‐san and Kumasawa‐san...`[#][*][!w667]`.........were hanging...by their necks.....`[\]
+wait_on_d 0
+seplay 1,45,85
+d_continue
+wait_on_d -1
+bgmplay 39,71,0
+textoff
+waits 167
+lbg s0_3,"g0403"
+flush 26
+*d29009
+d `It was dim, and I was looking through a narrow gap between all the various pieces of equipment strewn about, so I couldn't make out any more detail than that.`[\]
+*d29010
+d `......But when they showed not even a tremor after I called out to them,`[@]` and because of the way the loops around their necks seemed to carry the full weight of their bodies, I could sense no trace of life from them......`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+vol_bgm 70,1000
+vol_me 2,70,1000
+wait 1000
+msgwnd_but
+*d29011
+d [lv 0*"10"*"40100492"]`"You've got to be............kidding me......right............?`[@][lv 0*"10"*"40100493"]` ......Why........."`[\]
+msgwnd_non
+*d29012
+d `The shutter is still closed.`[\]
+*d29013
+d `......And there's only a single key, which I'm sure Gohda‐san took possession of.`[\]
+*d29014
+d `So how did the culprit......open the shutter and kill the two of them inside......?`[\]
+meplay 3,17,70
+textoff
+waits 167
+lbg s0_3,"different_spiral_1a"
+flush 28
+*d29015
+d `No wait, they weren't necessarily killed...`[@]`{n}If this is a suicide......`[\]
+*d29016
+d `......That way, this locked room makes sense, but I don't know why the two of them would hang themselves...!!`[\]
+*d29017
+d `Feebly, ...I slumped down on the spot.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 25
+vol_me 3,-1,1000
+seplay 3,13,71
+*d29018
+d `Now, the only humans alive on this island...`[!w500]`...are me, Maria,`[!w583]` ......and my old bastard's old bastard.`[\]
+*d29019
+d `.........No, there's also that nutso woman calling herself {f:5:Beatrice}...`[\]
+*d29020
+d `Maria's been acting like she's on the witch's side from the beginning.`[@]`{n}And Gramps is the very person who revived the witch.`[@]`{n}Plus there's the witch herself.`[\]
+*d29021
+d `......What the hell... .........Then, it's just as though...`[@]`.........I'm the only one on this island............`[\]
+textoff
+waits 167
+vol_me 1,70,1000
+wait 1000
+rain_load s0_11
+rain_load s0_7
+rain_params s0_11,400,800,0
+rain_params s0_7,400,500,0
+textoff
+waits 167
+lbg s0_3,"warehous_o1an"
+lss s0_9,"but","b11_kuyasigaru1" ;1
+aspt2 darken_r,s0_9,156
+aspt2 darken_g,s0_9,156
+aspt2 darken_b,s0_9,160
+flush 22
+*d29022
+d `Using my pole as a cane, I feebly rose to my feet.`[\]
+*d29023
+d `......Damn, I can't do it like this...`[@]`{n}I've got to avenge...everyone......`[\]
+lss s0_9,"but","b22_naku2" ;1
+aspt2 darken_r,s0_9,156
+aspt2 darken_g,s0_9,156
+aspt2 darken_b,s0_9,160
+flush 10,167
+msgwnd_but
+*d29024
+d [lv 0*"10"*"40100494"]`"Damn iiiiiiiit...... This is no good...`[@][lv 0*"10"*"40100495"]` Yeah, it's no good, it's no goddamn good at all...`[@][lv 0*"10"*"40100496"]` Damn iiiiiiiiiiiiitt........."`[\]
+msgwnd_non
+*d29025
+d `I got the crying out of the way while I could...`[@]` So that all my weak emotions would be squeezed out with my tears...`[\]
+csp_slot s0_11
+csp_slot s0_7
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 22
+rain_load s0_11
+rain_load s0_7
+rain_params s0_11,400,800,0
+rain_params s0_7,400,500,0
+textoff
+waits 167
+lbg s0_3,"rose_g1ar"
+flush 2
+*d29026
+d `Then, ......I straightened up, and gazed into the darkness in the direction of the mansion.`[\]
+*d29027
+d `.........At the entrance to the mansion, the witch is waiting.`[\]
+*d29028
+d `I'll go, ......and settle this.`[\]
+*d29029
+d `I'll find the source of this weird, blood‐soaked night, ......and crush her with my own hands...!`[\]
+textoff
+waits 167
+csp_slot s0_11
+csp_slot s0_7
+textoff
+waits 167
+lbg s0_3,"black"
+flush 4
+vol_bgm -1,3000
+wait 3000
+rain_load s0_11
+rain_load s0_7
+rain_params s0_11,400,800,0
+rain_params s0_7,400,500,0
+textoff
+waits 167
+lbg s0_3,"rose_1an"
+flush 4
+wait 2000
+textoff
+waits 167
+lbg s0_3,"garden_1cn"
+flush 4
+*d29030
+d `Amidst the pouring rain, ......I walked through the rose garden without an umbrella, letting myself get soaked.`[\]
+csp_slot s0_11
+csp_slot s0_7
+textoff
+waits 167
+lbg s0_3,"black"
+flush 24
+*d29031
+d `......I could see the arbor in the distance.`[\]
+*d29032
+d `According to Jessica, it seemed that George‐aniki had also been killed...`[\]
+*d29033
+d `Well, by this point, there's no need to worry about the lives of any hostages.`[@]`{n}......I left the path, aiming for the arbor.`[\]
+textoff
+waits 167
+bgmplay 38,71,0
+vol_bgm 70,1000
+vol_me 1,40,1000
+vol_me 2,40,1000
+wait 1000
+*d29034
+d2 `Then,`[@]` ............I saw George‐aniki's weather‐beaten corpse...`[#][*][\]
+wait_on_d 0
+gstc 288
+seplay 9,1061,71
+d_continue
+wait_on_d -1
+rain_load s0_11
+rain_load s0_7
+rain_params s0_11,400,800,0
+rain_params s0_7,400,500,0
+textoff
+waits 167
+lbg s0_3,"garden_1an"
+lss s0_10,"but","b11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+aspt2 darken_r,s0_10,156
+aspt2 darken_g,s0_10,156
+aspt2 darken_b,s0_10,160
+flush 6
+msgwnd_but
+*d29035
+d [lv 0*"10"*"40100497"]`"...............Aniki......`[@][lv 0*"10"*"40100498"]` ............Shit............"`[\]
+csp_slot s0_11
+csp_slot s0_7
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"g0402"
+flush 22
+msgwnd_non
+*d29036
+d `The corpse was in front of the arbor.`[\]
+*d29037
+d `If he could have died under the arbor, he would at least have been spared being beaten down upon by the rain...`[\]
+*d29038
+d `There was a gaping hole in Aniki's forehead, as though he had been shot with a gun.`[\]
+*d29039
+d `Perhaps because the rain had washed everything away, his face wasn't covered with blood, ......and so he looked almost like he was sleeping.`[\]
+*d29040
+d `...However, the deep red his clothes were stained still provided the evidence that a large amount of blood had flowed out...`[\]
+*d29041
+d `How happy I'd be if he were sleeping, or else pretending to be dead...`[\]
+*d29042
+d `......But Aniki's eyes remained open, even though the rain sprayed against them.`[\]
+*d29043
+d `......And......the hole in his forehead was, without a hint of a joke,`[!w500]` ......the real thing...`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+*d29044
+d `There had been a faint chance...`[@]`that Gohda‐san and Kumasawa‐san hanging by their necks in the gardening shed could have been a bad joke.`[\]
+*d29045
+d `But that naive possibility had now been completely denied.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+vol_me 1,70,1000
+vol_me 2,70,1000
+wait 1000
+rain_load s0_11
+rain_load s0_7
+rain_params s0_11,400,800,0
+rain_params s0_7,400,500,0
+textoff
+waits 167
+lbg s0_3,"garden_1an"
+lss s0_9,"but","b11_kuyasigaru1" ;1
+aspt2 darken_r,s0_9,156
+aspt2 darken_g,s0_9,156
+aspt2 darken_b,s0_9,160
+flush 6
+*d29046
+d `And, as I looked at this corpse, I became completely sure.`[\]
+*d29047
+d `Just as Gohda‐san had once said.`[@]` ......The enemy came to take lives as though these lives were pieces on a chess board.`[\]
+lss s0_9,"but","b22_naku1" ;1
+aspt2 darken_r,s0_9,156
+aspt2 darken_g,s0_9,156
+aspt2 darken_b,s0_9,160
+flush 10,167
+msgwnd_but
+*d29048
+d [lv 0*"10"*"40100499"]`".........Yeah, ......there's no mistake.`[@][lv 0*"10"*"40100500"]` ......It seems that old geezer and the witch...`[|][lv 0*"10"*"40100501"]`......really don't view our lives as anything more than that......"`[\]
+msgwnd_non
+*d29049
+d `...That damn witch, when she was on the phone...`[@]`{n}She talked about us like we were "on the game board"......`[\]
+lss s0_9,"but","b22_naku2" ;1
+aspt2 darken_r,s0_9,156
+aspt2 darken_g,s0_9,156
+aspt2 darken_b,s0_9,160
+flush 10,167
+msgwnd_but
+*d29050
+d [lv 0*"10"*"40100502"]`"...Perfect......`[@][lv 0*"10"*"40100503"]` ......Right, she thinks this is a game, huh......`[@][lv 0*"10"*"40100504"]` Then, ...in the same way you killed everyone like it was a game,`[|][lv 0*"10"*"40100505"]` .........it's alright if I kill all of you like it's a game as well, right......?"`[\]
+lss s0_9,"but","a21_naku1" ;1
+aspt2 darken_r,s0_9,156
+aspt2 darken_g,s0_9,156
+aspt2 darken_b,s0_9,160
+flush 10,167
+*d29051
+d [lv 0*"10"*"40100506"]`"............Just you wait......`[@][lv 0*"10"*"40100507"]` ......{f:5:Beatrice}........."`[\]
+csp_slot s0_11
+csp_slot s0_7
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 4
+vol_bgm -1,2000
+wait 2000
+meplay 3,16,50
+wait 1000
+seplay 1,27,100
+wait 100
+seplay 2,27,100
+wait 333
+textoff
+waits 167
+lbg s0_3,"white"
+flush 1
+rain_load s0_11
+rain_load s0_7
+rain_params s0_11,400,800,0
+rain_params s0_7,400,500,0
+textoff
+waits 167
+lbg s0_3,"m_o1an"
+flush 22
+msgwnd_non
+*d29052
+d `The lightning caused the mansion's vast shadow to emerge.`[\]
+*d29053
+d `......Finally, ......the mansion.`[\]
+*d29054
+d `As the massive shape came into view, there was no silhouette of any person.`[@]`{n}It seemed that there weren't any underlings waiting for me in a pack, or anything like that.`[\]
+*d29055
+d `.........According to Kyrie‐san, there were a large number of attendants with goat heads.`[\]
+*d29056
+d `At least for now, I couldn't sense...`[@]`any large group like that hiding and staring at me...`[\]
+*d29057
+d `What's this......?`[@]`{n}Beneath the roof of the entrance,`[!w500]` .........there's something set down.`[\]
+textoff
+waits 167
+lbg s0_3,"m_o1an"
+lss s0_10,"but","b11_niramu4" ;1
+aspt2 xpos,s0_10,370
+aspt2 darken_r,s0_10,156
+aspt2 darken_g,s0_10,156
+aspt2 darken_b,s0_10,160
+flush 22
+msgwnd_but
+*d29058
+d [lv 0*"10"*"40100508"]`"......What is this?`[@][lv 0*"10"*"40100509"]` .........A...box?"`[\]
+csp_slot s0_11
+csp_slot s0_7
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"black"
+flush 26
+msgwnd_non
+*d29059
+d `It looked like the kind of small box that girls often keep trinkets in.`[\]
+*d29060
+d `......Or maybe it was the same kind of extravagant cigar case you'd find in a reception room.`[\]
+*d29061
+d `Either way, it didn't look like something that belonged here...`[@]`{n}It clearly looked......as though I was being told to open it.`[\]
+*d29062
+d `But the thought of doing what they wanted me to do was somehow irritating.`[@]`{n}......However, it didn't look like we'd get anywhere if I didn't open it.`[\]
+*d29063
+d `Could it be that it's set up with some trap to make it explode when opened......?`[\]
+*d29064
+d `While thinking things like that, and forgetting even to go under the overhang,`[@]` I continued to glare at the box as the rain beat down upon me.`[\]
+textoff
+waits 167
+seplay 3,71,90
+seplay 1,27,100
+waits 167
+seplay 2,27,100
+textoff
+waits 167
+lbg s0_3,"white"
+flush 1
+rain_load s0_11
+rain_load s0_7
+rain_params s0_11,400,800,0
+rain_params s0_7,400,500,0
+textoff
+waits 167
+lbg s0_3,"m_o1an"
+flush 42
+*d29065
+d `Then, .........mixed in with the thunder, was some kind of......music?`[@]` ...It sounded like something like that.`[\]
+*d29066
+d `......It was the tone of the big clock in the hall announcing midnight.`[\]
+*d29067
+d `It was also the sound that announced that the crazy day of October 4th had finally ended,`[@]` ......and that the much more incredibly crazy day of October 5th had begun.`[\]
+*d29068
+d `That sound quietened, ............and I could hear an eerie laugh coming out of nowhere......`[\]
+*d29069
+d `I got the feeling that the voice was coming from the heavens, ......and I looked up at the sky.`[\]
+vol_me 1,40,2000
+vol_me 2,40,2000
+vol_me 3,40,2000
+textoff
+waits 167
+spriteset_enable 1
+aspritesetpt xpos,1,0
+mask_set msk1,msk_cutyl,1
+seplay 2,27,50
+textoff
+waits 167
+lbg s1_1,"white"
+lbg s1_3,"white"
+csp_slot s1_1
+flush 10,167
+lbg s1_3,"c_e0406_a"
+flush 2
+*d29070
+d `......And there.........was a woman I had never seen before.`[@]`{n}No, it's not true that I've never seen her before.`[@]`{n}......I saw her once today.`[\]
+*d29071
+d `Yes, in the portrait inside the mansion......`[\]
+*d29072
+d `The clothes were different, ......but that face was just like the witch of the portrait......`[\]
+*d29073
+d `Aaah, who am I kidding... I already know who this person is...!!`[\]
+textoff
+waits 167
+vol_mix_fade 1000
+wait 1000
+seplay 1,2,100
+bgmplay 61,90,0
+csp -11
+csp msk1
+csp_slot s0_11
+csp_slot s0_7
+textoff
+waits 167
+lbg s0_3,"white"
+flush 10,167
+textoff
+waits 167
+lbg s0_3,"e0406"
+flush 10,2000
+wait 1000
+spriteset_enable 2
+rain_load s2_11
+rain_params s2_11,400,1000,-100
+aspritesetpt xpos,2,1920
+mask_set msk1,msk_cutyr,2
+lbg s2_3,"c_e0406_c"
+flush 10,17
+aspritesetpt xpos,2,0,333,1
+spritesetptwait xpos,2
+msgwnd_but
+*d29074
+d [lv 0*"10"*"40100510"]`"......S‐......so you are {f:5:Beatrice}!!!"`[\]
+textoff
+waits 167
+spriteset_enable 1
+aspritesetpt xpos,1,0
+mask_set msk2,msk_cutyl,1
+seplay 1,2,100
+textoff
+waits 167
+lbg s1_1,"white"
+lbg s1_3,"white"
+csp_slot s1_1
+flush 10,167
+lbg s1_3,"c_e0406_b"
+flush 2
+msgwnd_bea
+*d29075
+d [lv 0*"27"*"40700537"]`"Yooohooooooooo, Battleeeeeeeeeeeeer...!!"`[\]
+msgwnd_non
+*d29076
+d `Leaning over the second floor balcony, ......and waving cheerily from under her umbrella,`[@]` ......was, without a doubt, ......the witch of the portrait, ...{f:5:Beatrice}.........!!`[\]
+*d29077
+d `Was the plan for the boss to watch on from above as her goat underlings torture me to death...?!`[\]
+*d29078
+d `I adjusted my grip on the spear,`[@]` and, imagining goats creeping out of the surrounding shadows and the entrance and surrounding me, I raised my guard in all directions...`[\]
+msgwnd_bea
+*d29079
+d [lv 0*"27"*"40700538"]`"Ahhaha, be at ease, there's no one here but you and me, see?`[@][lv 0*"27"*"40700539"]` There is no goat furniture, there are no demon butlers; Master is not here, nor my close demon friend."`[\]
+*d29080
+d [lv 0*"27"*"40700540"]`"And there are none of the gold butterflies that help compose my physical form, there are no magic circles, and no summoners in attendance!!`[@][lv 0*"27"*"40700541"]` ......Do you know what this means?"`[\]
+textoff
+waits 167
+lbg s2_3,"c_e0406_d"
+seplay 1,11,71
+flush 10,17
+agpt quakeycycle,33
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+msgwnd_but
+*d29081
+d [lv 0*"10"*"40100511"]`"Not a clue.`[@][lv 0*"10"*"40100512"]` Quit babbling..."`[\]
+meplay 1,12,50
+msgwnd_bea
+*d29082
+d [lv 0*"27"*"40700542"]`"I have in fact met you several times even in this world.`[@][lv 0*"27"*"40700543"]` Almost as though brushing past one another, meeting only for a moment.`[@][lv 0*"27"*"40700544"]` ......As you know, this world of {y:0:Human}{n:0:human}s is filled with a toxin just by your existence and your doubting of me."`[\]
+textoff
+waits 167
+textoff
+waits 167
+lbg s0_3,"chess1"
+flush 10,17
+meplay 2,16,50
+aspritesetpt xpos,1,-1920,500,1
+aspritesetpt xpos,2,1920,500,1
+spritesetptwait xpos,2
+*d29083
+d [lv 0*"27"*"40700545"]`"Almost like solid ramparts strengthening the defense around you, the king!`[@][lv 0*"27"*"40700546"]` And through multiple games,`[@][lv 0*"27"*"40700547"]` I advanced my pieces one by one, splitting you apart, and cornering you, undermining your ramparts bit by bit."`[\]
+*d29084
+d [lv 0*"27"*"40700548"]`"Then, finally, once I opened a tiny crack, I sent a bishop in, so that it could approach right up next to you.`[@][lv 0*"27"*"40700549"]` .........But as you know, bishops are pieces with blind spots."`[\]
+*d29085
+d [lv 0*"27"*"40700550"]`"As long as you stay on the black squares, a black bishop can exert massive influence upon you,`[@][lv 0*"27"*"40700551"]` but if you escape just one step to a white square, then even if I close in right next to you, I will not be able to touch you."`[\]
+*d29086
+d [lv 0*"27"*"40700552"]`"That is why I have progressed through these games by sending in various pieces so that you cannot stay on a white square,`[@][lv 0*"27"*"40700553"]` forcing you out in front of me, the one who controls the black squares next to you."`[\]
+*d29087
+d [lv 0*"27"*"40700554"]`"Howeeever!!"`[\]
+textoff
+waits 167
+spriteset_enable 3
+aspritesetpt xpos,3,0
+aspritesetpt alpha,3,0
+textoff
+waits 167
+lbg s3_1,"white"
+lbg s3_3,"white"
+csp_slot s3_1
+flush 10,17
+seplay 1,27,85
+aspritesetpt alpha,3,255,167
+spritesetptwait alpha,3
+wait 500
+aspritesetpt alpha,3,0,1000
+spritesetptwait alpha,3
+wait 17
+csp -13
+aspritesetpt xpos,2,0,500,1
+aspritesetpt xpos,1,0,500,1
+spritesetptwait xpos,1
+wait 17
+*d29088
+d [lv 0*"27"*"40700555"]`"There are now holes opened all over your ramparts,`[@][lv 0*"27"*"40700556"]` and I was at last able to send in, not a bishop, but a full queen!!`[@][lv 0*"27"*"40700557"]` Do you know what kind of piece a queen is?"`[\]
+textoff
+waits 167
+lbg s2_3,"c_e0406_c"
+flush 10,500
+msgwnd_but
+*d29089
+d [lv 0*"10"*"40100513"]`"A rook plus a bishop.`[@][lv 0*"10"*"40100514"]` ......Is this what you're trying to say?`[|][lv 0*"10"*"40100515"]` ...Now, you not only control the black squares that are the witch illusions, but have also become able to encroach upon the white squares of the human world at will...?!"`[\]
+textoff
+waits 167
+spriteset_enable 3
+aspritesetpt xpos,3,0
+aspritesetpt alpha,3,0
+textoff
+waits 167
+lbg s3_1,"white"
+lbg s3_3,"white"
+csp_slot s3_1
+flush 10,17
+seplay 1,2,100
+seplay 2,27,90
+aspritesetpt alpha,3,255,167
+spritesetptwait alpha,3
+wait 500
+aspritesetpt alpha,3,0,1000
+spritesetptwait alpha,3
+wait 17
+csp -13
+msgwnd_bea
+*d29090
+d [lv 0*"27"*"40700558"]`"That is correct!!`[@][lv 0*"27"*"40700559"]` Where there exist the gold butterflies that are my minions, you have been labeling those squares as witch illusions,`[@][lv 0*"27"*"40700560"]` denying them under the hypothesis that they are observerless nonreality, am I right...?`[@][lv 0*"27"*"40700561"]` *cackle*cackle*, I am well aware......!!"`[\]
+*d29091
+d [lv 0*"27"*"40700562"]`"For that very reason, I have at last descended thus upon the squares of white!!`[@][lv 0*"27"*"40700563"]` Worry not, I'll call plenty of gold butterflies, goats, demons, and witches later on!`[@][lv 0*"27"*"40700564"]` If you wish, I will invite you to my Golden Land!!"`[\]
+*d29092
+d [lv 0*"27"*"40700565"]`"There, I will grant you any wish that you desire...!!`[@][lv 0*"27"*"40700566"]` Wahha{0}ha{0}ha{0}ha{0}ha{0}ha{0}ha{0}ha{0}ha{0}ha{0}hahaha...!!"`[\]
+textoff
+waits 167
+lbg s2_3,"c_e0406_f"
+flush 10,500
+msgwnd_but
+*d29093
+d [lv 0*"10"*"40100516"]`"......It's starting to look like someone knocked an ink bottle over the chessboard of this island."`[\]
+msgwnd_bea
+*d29094
+d [lv 0*"27"*"40700567"]`"I see, that too is a pleasant description...!`[@][lv 0*"27"*"40700568"]` *cackle*cackle*, soon, you will be covered in that ink as well.`[@][lv 0*"27"*"40700569"]` Before long, you will become dyed pitch‐black, and surely become a black king...!`[@][lv 0*"27"*"40700570"]` At this point, you are a pitiful existence drowning in a sea of ink, are you not?"`[\]
+textoff
+waits 167
+lbg s2_3,"c_e0406_d"
+flush 10,500
+msgwnd_but
+*d29095
+d [lv 0*"10"*"40100517"]`"No, I'm not.`[@][lv 0*"10"*"40100518"]` I'll admit that the island has been stained completely black from your ink bottle,`[@][lv 0*"10"*"40100519"]` ......but there's still a white square left."`[\]
+msgwnd_bea
+*d29096
+d [lv 0*"27"*"40700571"]`"Hoh, and where...?!!"`[\]
+textoff
+waits 167
+lbg s2_3,"c_e0406_c"
+flush 10,500
+msgwnd_but
+*d29097
+d [lv 0*"10"*"40100520"]`"Right under my feet.`[@][lv 0*"10"*"40100521"]` .........Your magic ink may try to cover the entire island, but it can't cover the ground my feet are standing on.`[@][lv 0*"10"*"40100522"]` ...Even if this island seems to be stained pitch‐black at a glance, I am me.`[@][lv 0*"10"*"40100523"]` I am here, with my feet firmly planted on a white square!!"`[\]
+textoff
+waits 167
+vol_mix_fade 1000
+vol_bgm -1,1000
+wait 1000
+seplay 1,2,100
+csp_slot s2_11
+csp -12
+csp msk1
+csp -11
+csp msk2
+textoff
+waits 167
+lbg s0_3,"black"
+flush 1
+meplay 1,13,0
+vol_me 1,50,2000
+wait 2000
+rain_load s0_11
+rain_load s0_7
+rain_params s0_11,400,800,0
+rain_params s0_7,400,500,0
+textoff
+waits 167
+lbg s0_3,"m_o1an"
+flush 2
+msgwnd_non
+*d29098
+d `It's strange...`[@]` Until a second ago, I was trembling all over.`[\]
+*d29099
+d `......But now that she's appeared openly right before my eyes like this, my terror has actually lessened.`[\]
+meplay 2,16,50
+*d29100
+d `It's funny.`[@]` Ghosts are most terrifying when you can only sense them.`[\]
+*d29101
+d `When you can see them, and they have a face you can plant your fist into, there's nothing scary about it...!!`[\]
+csp_slot s0_11
+csp_slot s0_7
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+*d29102
+d `......However, she is definitely not a funny or a friendly person.`[\]
+*d29103
+d `......She can kill me instantly while rolling around giggling, just by snapping a finger.`[\]
+*d29104
+d `Whether we interpret the result of her snapping her fingers as magic flying at me or underlings showing up to shoot me, it doesn't matter.`[\]
+textoff
+waits 167
+seplay 1,27,100
+wait 500
+textoff
+waits 167
+lbg s0_3,"white"
+flush 1
+textoff
+waits 167
+lbg s0_3,"e0406"
+flush 2
+bgmplay 28,71,0
+*d29105
+d `......In any case, whether this is fantasy or mystery,`[@]` that queen is in a position where she can kill me just by snapping her fingers......!`[\]
+*d29106
+d `...I see, ......so this is the meaning...`[!w500]`......of the queen of this island,`[@]` ...who reigns over both the white and black squares......?!`[\]
+textoff
+waits 167
+spriteset_enable 1
+aspritesetpt xpos,1,-1920
+mask_set msk1,msk_cutyl,1
+lbg s1_3,"c_e0406_a"
+flush 10,17
+aspritesetpt xpos,1,0,333,1
+spritesetptwait xpos,1
+msgwnd_bea
+*d29107
+d [lv 0*"27"*"40700572"]`"Now then.`[@][lv 0*"27"*"40700573"]` It might be interesting to wait until you catch a cold in all that rain, but it's about time to move to the matter at hand.`[@][lv 0*"27"*"40700574"]` .........I am sure that you can tell there is a box there?`[@][lv 0*"27"*"40700575"]` Your test is inside of it."`[\]
+textoff
+waits 167
+spriteset_enable 2
+aspritesetpt xpos,2,1920
+mask_set msk2,msk_cutyr,2
+rain_load s2_11
+rain_params s2_11,400,1000,-100
+lbg s2_3,"c_e0406_d"
+flush 10,17
+aspritesetpt xpos,2,0,333,1
+spritesetptwait xpos,2
+msgwnd_but
+*d29108
+d [lv 0*"10"*"40100524"]`"Hold it.`[@][lv 0*"10"*"40100525"]` ......After all that's happened, I'm not interested in some stupid game about who'll be the next head."`[\]
+textoff
+waits 167
+lbg s2_3,"c_e0406_f"
+flush 10,500
+*d29109
+d [lv 0*"10"*"40100526"]`"My game is to take you and the old man, ......and all the rest of you guys who killed everyone, and give every one of you a full‐on punch to the face."`[\]
+textoff
+waits 167
+seplay 1,20,71
+seplay 2,27,71
+lbg s2_3,"c_e0406_c"
+flush 10,17
+agpt quakexcycle,50
+agpt quakexamp,30
+agpt quakexamp,0,500,1
+rumble 63,500
+gptwait quakexamp
+spriteset_enable 3
+aspritesetpt xpos,3,0
+aspritesetpt alpha,3,0
+textoff
+waits 167
+lbg s3_1,"white"
+lbg s3_3,"white"
+csp_slot s3_1
+flush 10,17
+seplay 3,2,100
+aspritesetpt alpha,3,255,167
+spritesetptwait alpha,3
+wait 500
+aspritesetpt alpha,3,0,1000
+spritesetptwait alpha,3
+wait 17
+csp -13
+wait 1000
+textoff
+waits 167
+lbg s1_3,"c_e0406_b"
+flush 10,500
+msgwnd_bea
+*d29110
+d [lv 0*"27"*"40700576"]`"Hoh.`[@][lv 0*"27"*"40700577"]` So you will fly through the sky up to my balcony?`[@][lv 0*"27"*"40700578"]` Very good, very good, *cackle*!`[@][lv 0*"27"*"40700579"]` Come on then, up you come already, come on come on, up up!"`[\]
+textoff
+waits 167
+lbg s2_3,"c_e0406_d"
+flush 10,500
+msgwnd_but
+*d29111
+d2 [lv 0*"10"*"40100528"]`"......Damn you, acting like you're hot shit just 'cause you're in a completely safe place...`[@][#][*][lv 0*"10"*"40100529"]` I'm coming up there right now, so you better be prepared!!"`[\]
+wait_on_d 0
+lbg s2_3,"c_e0406_c"
+seplay 1,11,71
+flush 10,17
+agpt quakeycycle,50
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+d_continue
+wait_on_d -1
+textoff
+waits 167
+textoff
+waits 167
+lbg s0_3,"black"
+flush 10,17
+seplay 3,21,71
+aspritesetpt xpos,1,-1920,500,1
+aspritesetpt xpos,2,1920,500,1
+spritesetptwait xpos,2
+csp -12
+csp msk2
+csp -11
+csp msk1
+msgwnd_bea
+*d29112
+d [lv 0*"27"*"40700580"]`"Aah, no, no, no.`[@][lv 0*"27"*"40700581"]` It's all locked up.`[@][lv 0*"27"*"40700582"]` Of course, the shutters are down for all the windows as well.`[@][lv 0*"27"*"40700583"]` My castle isn't so fragile that a single knight like you could break in!"`[\]
+seplay 1,32,71
+msgwnd_non
+*d29113
+d `I tried the front door anyway just in case, ......but, yup, it really was locked.`[@]`{n}When I looked around, I noticed that indeed the shutters were closed on the windows.`[\]
+*d29114
+d `......Normally, they wouldn't be.`[\]
+textoff
+waits 167
+vol_bgm -1,2000
+wait 2000
+textoff
+waits 167
+lbg s0_3,"e0406"
+flush 26
+msgwnd_but
+*d29115
+d [lv 0*"10"*"40100530"]`"......Tch.`[@][lv 0*"10"*"40100531"]` Looks like you prepare for everything.`[@][lv 0*"10"*"40100532"]` ......Where's the key?!"`[\]
+msgwnd_non
+*d29116
+d `Gohda‐san and Kumasawa‐san probably have master keys, but they're in the locked room of the gardening storehouse.`[\]
+*d29117
+d `......I can only give up for now...!`[\]
+seplay 1,21,71
+msgwnd_but
+*d29118
+d [lv 0*"10"*"40100533"]`"Damn......`[@][lv 0*"10"*"40100534"]` ......Guess she's no fool herself."`[\]
+msgwnd_bea
+*d29119
+d [lv 0*"27"*"40700584"]`"Are you really so dying to be right by my siiiide?`[@][lv 0*"27"*"40700585"]` Alright, if you pass your test with flying colors, why don't I grant you an audience?`[@][lv 0*"27"*"40700586"]` If you pass, then you will be the successor, and my new master after Kinzo."`[\]
+*d29120
+d [lv 0*"27"*"40700587"]`"......My body and soul will be yours to do with as you will.`[@][lv 0*"27"*"40700588"]` Because I am ultimately the Ushiromiya family's furniture!`[@][lv 0*"27"*"40700589"]` Ah‐hah‐hah‐hah‐hah‐hah!!"`[\]
+msgwnd_but
+*d29121
+d [lv 0*"10"*"40100535"]`"............Well,`[@][lv 0*"10"*"40100536"]` it looks like you want to make me take this test no matter what.`[@][lv 0*"10"*"40100537"]` ......Alright.`[@][lv 0*"10"*"40100538"]` I'm game.`[@][lv 0*"10"*"40100539"]` ...If I pass, my first prize will be a punch to your face."`[\]
+msgwnd_bea
+*d29122
+d [lv 0*"27"*"40700590"]`"Scary, scaary...`[@][lv 0*"27"*"40700591"]` But it's not like I mind being controlled by violence, you see?`[@][lv 0*"27"*"40700592"]` {i:Grab}...onto my head!`[@][lv 0*"27"*"40700593"]` Make my face twist in pain, violate me in the same way a hawk tears apart and scratches at its prey with its talons...!!"`[\]
+*d29123
+d2 [lv 0*"27"*"40700594"]`"Aaah, remind me of Kinzo in his younger days once more...!!`[@][lv 0*"27"*"40700595"]` That single time in my thousand‐year life!`[@][lv 0*"27"*"40700596"]` Remind me of that day I was taught the joy of being controlled, of submitting and being reduced to furnituuuuuuuure!!`[@][#][*][lv 0*"27"*"40700597"]` Uhyaaa{0}hhya{0}hhya{0}hhya{0}hhya!!"`[\]
+wait_on_d 0
+seplay 1,37,100
+d_continue
+wait_on_d -1
+msgwnd_but
+*d29124
+d [lv 0*"10"*"40100540"]`"......You damn drunk, we aren't getting anywhere."`[\]
+msgwnd_non
+*d29125
+d `Ignoring the stupidly smiling witch, I picked up the box.`[\]
+msgwnd_bea
+*d29126
+d [lv 0*"27"*"40700598"]`"Yes.`[@][lv 0*"27"*"40700599"]` Open it.`[@][lv 0*"27"*"40700600"]` Inside is a letter.`[@][lv 0*"27"*"40700601"]` Read it."`[\]
+msgwnd_but
+*d29127
+d [lv 0*"10"*"40100541"]`"........................"`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 26
+msgwnd_non
+*d29128
+d `I opened it.`[@]` ......There was a faint smell of cigarettes.`[@]`{n}Apparently, it really had originally been a cigar case.`[@]`{n}But there were no cigarettes or cigars inside.`[\]
+textoff
+waits 167
+vol_me 1,0,1000
+vol_me 2,0,1000
+wait 1000
+vol_mix_fade 1000
+wait 1000
+textoff
+waits 167
+lbg s0_3,"letter1"
+flush 2
+bgmplay 49,71,0
+*d29129
+d `Instead, there was a Western envelope with the One‐winged Eagle crest.`[@]`{n}And when I opened that too, ......there was a letter inside.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+meplay 1,12,50
+textoff
+waits 167
+lbg s0_3,"e0406"
+flush 25
+*d29130
+d `I looked up at the witch.`[@]` She was grinning down at me.`[\]
+*d29131
+d `......It seemed she was waiting in anticipation to see what kind of reaction I'd have to the contents.`[\]
+*d29132
+d `......Dammit, I'll show her.`[@]` Its contents were like this...`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+set_window_simple 80
+seplay 3,21,71
+*d29133
+d `{a:c:{e:070:Among the three mentioned below.`[@]`{n}In order to gain two, sacrifice one.`[@]`{n}{n}1. Your life`[@]`{n}2. __'s life`[@]`{n}3. Everyone else's lives`[@]`{n}{n}If you do not choose one, all of the above will be lost.}}`[\]
+set_name_window_non
+meplay 2,5,50
+textoff
+waits 167
+lbg s0_3,"e0406"
+flush 25
+msgwnd_but
+*d29134
+d [lv 0*"10"*"40100542"]`".........The heck is this?`[@][lv 0*"10"*"40100543"]` Some pretty creepy stuff's written here.`[@][lv 0*"10"*"40100544"]` And most importantly, the second one is blank, so I don't even know whose life."`[\]
+msgwnd_bea
+*d29135
+d [lv 0*"27"*"40700602"]`"Mm.`[@][lv 0*"27"*"40700603"]` That second one is where you put the name of the one that person loves the most.`[@][lv 0*"27"*"40700604"]` For Jessica's test, it was Kanon's name, and for George's test it was Shannon's name."`[\]
+*d29136
+d [lv 0*"27"*"40700605"]`"......Since they had obvious feelings for certain people, I was able to write those names in beforehand,`[@][lv 0*"27"*"40700606"]` but I don't know who you have feelings for.`[@][lv 0*"27"*"40700607"]` So I didn't know whose name to write, and left it blank."`[\]
+msgwnd_but
+*d29137
+d [lv 0*"10"*"40100545"]`"That's perfect.`[@][lv 0*"10"*"40100546"]` I love you, {f:5:Beatrice}.`[@][lv 0*"10"*"40100547"]` I'll stick your name in here.`[@][lv 0*"10"*"40100548"]` So my choice is going to be number two.`[@][lv 0*"10"*"40100549"]` Is that alright?"`[\]
+msgwnd_bea
+*d29138
+d [lv 0*"27"*"40700608"]`"Hey, hey, quit joking, quit joking.`[@][lv 0*"27"*"40700609"]` Come onnn, please, Battler.`[@][lv 0*"27"*"40700610"]` Tell me the name of the person you have feelings for.`[@][lv 0*"27"*"40700611"]` If you don't, then this won't be a test, right?"`[\]
+msgwnd_but
+*d29139
+d [lv 0*"10"*"40100550"]`"Too bad.`[@][lv 0*"10"*"40100551"]` I don't have any woman in particular.`[@][lv 0*"10"*"40100552"]` Even if I did, why the hell would I tell you?"`[\]
+msgwnd_bea
+*d29140
+d [lv 0*"27"*"40700612"]`"In that case, this test will not work for you.`[@][lv 0*"27"*"40700613"]` Hmmm, what a shame, what a shame.`[@][lv 0*"27"*"40700614"]` And I was really wondering what kind of woman was your cup of tea!`[@][lv 0*"27"*"40700615"]` *cackle*cackle*!"`[\]
+msgwnd_but
+*d29141
+d [lv 0*"10"*"40100553"]`".........What if I said I like young, flat‐chested girls with long, black hair.`[@][lv 0*"10"*"40100554"]` You don't match in a single area, do you?"`[\]
+seplay 1,37,100
+msgwnd_bea
+*d29142
+d [lv 0*"27"*"40700616"]`"Lies, you breast sommelier!`[@][lv 0*"27"*"40700617"]` You prefer a blonde bombshell with a <dynamite body>, don't you?!`[@][lv 0*"27"*"40700618"]` I am precisely the embodiment of your ideal, *cackle*cackle*!"`[\]
+msgwnd_but
+*d29143
+d [lv 0*"10"*"40100555"]`"If guessing your three sizes is the test to become the successor, I'll take it gladly."`[\]
+msgwnd_bea
+*d29144
+d [lv 0*"27"*"40700619"]`"Ah, yes.`[@][lv 0*"27"*"40700620"]` This was the test to choose the successor.`[@][lv 0*"27"*"40700621"]` Chatting with you is so much fun that I've been getting a bit off topic."`[\]
+textoff
+waits 167
+vol_bgm -1,2000
+wait 2000
+textoff
+waits 167
+spriteset_enable 1
+aspritesetpt xpos,1,0
+mask_set msk1,msk_cutyl,1
+textoff
+waits 167
+lbg s1_1,"white"
+lbg s1_3,"white"
+csp_slot s1_1
+flush 10,167
+lbg s1_3,"c_e0406_a"
+flush 10,1000
+*d29145
+d [lv 0*"27"*"40700622"]`"......Then let us begin the headship test.`[@][lv 0*"27"*"40700623"]` I will question you to see whether you are qualified to be the next Ushiromiya family head.`[@][lv 0*"27"*"40700624"]` Answer with care."`[\]
+seplay 3,27,40
+msgwnd_non
+*d29146
+d `The witch, who had been joking around like she was drunk until a second ago, suddenly regained her gravitas.`[\]
+*d29147
+d `......She looked as though she truly had stepped out of that imposing portrait...`[\]
+textoff
+waits 167
+csp -11
+csp msk1
+textoff
+waits 167
+lbg s0_3,"black"
+flush 2
+wait 1000
+bgmplay 1,80,0
+vol_me 1,-1,1000
+vol_me 2,-1,1000
+lss s0_12,"bea","b11_nayamu1" ;1
+aspt2 xpos,s0_12,500
+aspt2 ypos,s0_12,800
+z_order_override2 s0_12,s0_3
+aspt2 scalex,s0_12,200
+aspt2 scaley,s0_12,200
+flush 24
+msgwnd_bea
+*d29148
+d [lv 0*"27"*"40700625"]`".........I am the Ushiromiya family alchemist, the Golden Witch and the Endless Witch, {f:5:Beatrice}."`[\]
+lss s0_12,"bea","b11_fuman3" ;1
+aspt2 xpos,s0_12,500
+aspt2 ypos,s0_12,800
+z_order_override2 s0_12,s0_3
+aspt2 scalex,s0_12,200
+aspt2 scaley,s0_12,200
+flush 80
+*d29149
+d [lv 0*"27"*"40700626"]`"......Do you have the qualifications to inherit the Ushiromiya family headship and all of my gold—`[@][lv 0*"27"*"40700627"]`that is what I will test.`[@][lv 0*"27"*"40700628"]` .........State your name."`[\]
+lss s0_13,"but","b22_nayamu4" ;1
+aspt2 xpos,s0_13,-500
+aspt2 ypos,s0_13,900
+z_order_override2 s0_13,s0_3
+aspt2 scalex,s0_13,200
+aspt2 scaley,s0_13,200
+flush 23
+msgwnd_but
+*d29150
+d [lv 0*"10"*"40100556"]`"............Ushiromiya...Battler."`[\]
+msgwnd_non
+*d29151
+d `Under that majestic gaze, unimaginable from her manner a short while ago,`[@]` I answered without any hesitation.`[\]
+*d29152
+d `......She truly was......yes, indeed,`[@]` ......in the truest sense, she was that worthy of calling herself the queen of this island.`[\]
+lss s0_12,"bea","b11_majime1" ;1
+aspt2 xpos,s0_12,500
+aspt2 ypos,s0_12,800
+z_order_override2 s0_12,s0_3
+aspt2 scalex,s0_12,200
+aspt2 scaley,s0_12,200
+flush 80
+msgwnd_bea
+*d29153
+d [lv 0*"27"*"40700629"]`"Very good, Ushiromiya Battler.`[@][lv 0*"27"*"40700630"]` .........However, you have thrown away that Ushiromiya name for the past six years, have you not...?`[@][lv 0*"27"*"40700631"]` Why is that...?"`[\]
+lss s0_13,"but","b11_nayamu1" ;1
+aspt2 xpos,s0_13,-500
+aspt2 ypos,s0_13,900
+z_order_override2 s0_13,s0_3
+aspt2 scalex,s0_13,200
+aspt2 scaley,s0_13,200
+flush 80
+msgwnd_but
+*d29154
+d [lv 0*"10"*"40100557"]`".........mgh............`[@][lv 0*"10"*"40100558"]` ......Because I'd had enough of my dad, the old bastard."`[\]
+lss s0_12,"bea","b11_majime4" ;1
+aspt2 xpos,s0_12,500
+aspt2 ypos,s0_12,800
+z_order_override2 s0_12,s0_3
+aspt2 scalex,s0_12,200
+aspt2 scaley,s0_12,200
+flush 80
+msgwnd_bea
+*d29155
+d [lv 0*"27"*"40700632"]`"I know.`[@][lv 0*"27"*"40700633"]` It was because you felt your father's remarriage disgraced the death of your mother, whom you loved and respected, yes...?"`[\]
+lss s0_12,"bea","b11_majime2" ;1
+aspt2 xpos,s0_12,500
+aspt2 ypos,s0_12,800
+z_order_override2 s0_12,s0_3
+aspt2 scalex,s0_12,200
+aspt2 scaley,s0_12,200
+flush 80
+*d29156
+d [lv 0*"27"*"40700634"]`"I see, you have no blood relation to your new mother whatsoever.`[@][lv 0*"27"*"40700635"]` It is not as though I cannot understand why you would feel unable to accept that mother.`[@][lv 0*"27"*"40700636"]` ......However, no matter who your father remarries with, that does not change the fact that his blood runs in your veins, correct?"`[\]
+lss s0_13,"but","b11_majime4" ;1
+aspt2 xpos,s0_13,-500
+aspt2 ypos,s0_13,900
+z_order_override2 s0_13,s0_3
+aspt2 scalex,s0_13,200
+aspt2 scaley,s0_13,200
+flush 80
+meplay 1,5,50
+msgwnd_but
+*d29157
+d [lv 0*"10"*"40100559"]`".........What's your point?"`[\]
+lss s0_12,"bea","b11_nayamu1" ;1
+aspt2 xpos,s0_12,500
+aspt2 ypos,s0_12,800
+z_order_override2 s0_12,s0_3
+aspt2 scalex,s0_12,200
+aspt2 scaley,s0_12,200
+flush 80
+msgwnd_bea
+*d29158
+d [lv 0*"27"*"40700637"]`"I can, to an extent, understand the childishness which led you to oppose your father's remarriage out of a desire to have him all to yourself."`[\]
+lss s0_12,"bea","b11_majime4" ;1
+aspt2 xpos,s0_12,500
+aspt2 ypos,s0_12,800
+z_order_override2 s0_12,s0_3
+aspt2 scalex,s0_12,200
+aspt2 scaley,s0_12,200
+flush 80
+*d29159
+d [lv 0*"27"*"40700638"]`"However, was throwing away the Ushiromiya name as a means of resistance not a disgrace to your family and blood?"`[\]
+*d29160
+d [lv 0*"27"*"40700639"]`".........You were born and raised Ushiromiya, were you not?`[@][lv 0*"27"*"40700640"]` Do you think you were qualified to forget that debt and throw away the Ushiromiya name?"`[\]
+lss s0_13,"but","b11_majime2" ;1
+aspt2 xpos,s0_13,-500
+aspt2 ypos,s0_13,900
+z_order_override2 s0_13,s0_3
+aspt2 scalex,s0_13,200
+aspt2 scaley,s0_13,200
+flush 80
+msgwnd_but
+*d29161
+d [lv 0*"10"*"40100560"]`"......It has nothing to do with you.`[@][lv 0*"10"*"40100561"]` This is between me and Dad...!"`[\]
+lss s0_12,"bea","b11_majime1" ;1
+aspt2 xpos,s0_12,500
+aspt2 ypos,s0_12,800
+z_order_override2 s0_12,s0_3
+aspt2 scalex,s0_12,200
+aspt2 scaley,s0_12,200
+flush 80
+msgwnd_bea
+*d29162
+d [lv 0*"27"*"40700641"]`"The Ushiromiya name does not belong to you and your father alone.`[@][lv 0*"27"*"40700642"]` You are a child who simply rebelled, unable to forgive the fact that your father was to be stolen away by an unknown woman.`[@][lv 0*"27"*"40700643"]` ......Those six years during which you forsook the Ushiromiya register were a significantly long period where you dragged the Ushiromiya name through the mud.`[@][lv 0*"27"*"40700644"]` Know the depths of your sinfulness."`[\]
+lss s0_13,"but","b11_niramu4" ;1
+aspt2 xpos,s0_13,-500
+aspt2 ypos,s0_13,900
+z_order_override2 s0_13,s0_3
+aspt2 scalex,s0_13,200
+aspt2 scaley,s0_13,200
+flush 80
+msgwnd_but
+*d29163
+d [lv 0*"10"*"40100562"]`"..................Well, sorry I'm so childish..."`[\]
+lss s0_12,"bea","b11_nayamu1" ;1
+aspt2 xpos,s0_12,500
+aspt2 ypos,s0_12,800
+z_order_override2 s0_12,s0_3
+aspt2 scalex,s0_12,200
+aspt2 scaley,s0_12,200
+flush 80
+msgwnd_bea
+*d29164
+d [lv 0*"27"*"40700645"]`"However.`[@][lv 0*"27"*"40700646"]` Even though it was prompted by the deaths of your grandparents, I do commend you for returning to the Ushiromiya register.`[@][lv 0*"27"*"40700647"]` Accordingly, I shall give you a chance to purify yourself of that sin.`[@][lv 0*"27"*"40700648"]` Now is the time to atone for your sin of six years ago."`[\]
+textoff
+waits 167
+lss s0_12,"bea","b11_majime4" ;1
+aspt2 xpos,s0_12,500
+aspt2 ypos,s0_12,800
+z_order_override2 s0_12,s0_3
+aspt2 scalex,s0_12,200
+aspt2 scaley,s0_12,200
+flush 80
+meplay 2,16,50
+*d29165
+d [lv 0*"27"*"40700649"]`"Come, try to remember, remember your own sin.`[@][lv 0*"27"*"40700650"]` Remember it, confess, and repent.`[@][lv 0*"27"*"40700651"]` ............That shall be my test for you."`[\]
+textoff
+waits 167
+seplay 1,27,71
+wait 500
+textoff
+waits 167
+csp_slot s0_12
+csp_slot s0_13
+lbg s0_3,"white"
+flush 1
+textoff
+waits 167
+lbg s0_3,"black"
+flush 2
+meplay 3,12,0
+vol_bgm 0,3000
+vol_me 1,0,3000
+vol_me 3,50,3000
+wait 3000
+vol_bgm -1,1000
+msgwnd_non
+*d29166
+d `......At that moment, a massive thunderclap rang out, making my mind go blank.`[\]
+msgwnd_but
+*d29167
+d [lv 0*"10"*"40100563"]`"..............................`[@][lv 0*"10"*"40100564"]` ......Repent? ...What?`[@][lv 0*"10"*"40100565"]` .........Are you trying to tell me to apologize?"`[\]
+msgwnd_bea
+*d29168
+d [lv 0*"27"*"40700652"]`".........The test has already begun.`[@][lv 0*"27"*"40700653"]` You may think as you wish."`[\]
+msgwnd_non
+*d29169
+d `There were no signs from the witch's expression that she was sneering at a person unable to answer the tough question thrust upon them.`[@]`{n}......She was earnestly asking something of him, and he could even feel a quiet determination.`[\]
+*d29170
+d `Even as the rain beat upon him, Battler could not shift his eyes from her gaze.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+meplay 1,5,0
+vol_me 1,70,1000
+vol_me 2,70,1000
+vol_me 3,70,1000
+wait 1000
+rain_load s0_11
+rain_load s0_7
+rain_params s0_11,400,800,0
+rain_params s0_7,400,500,0
+textoff
+waits 167
+lbg s0_3,"m_o1an"
+flush 26
+*d29171
+d `......The witch threw her umbrella away.`[@]`{n}She abandoned herself to the falling rain.`[\]
+*d29172
+d `So that the rain would fall on her until Battler answered that question.`[\]
+*d29173
+d `......She had chosen to join him, allowing the rain to beat down on her as well, until he reached an answer.`[\]
+*d29174
+d `For some reason, Battler could tell that.`[@]`{n}......But, even so, ......he didn't understand.`[\]
+lss s0_8,"but","b11_nayamu1" ;1
+aspt2 xpos,s0_8,-370
+aspt2 darken_r,s0_8,156
+aspt2 darken_g,s0_8,156
+aspt2 darken_b,s0_8,160
+flush 10,167
+msgwnd_but
+*d29175
+d [lv 0*"10"*"40100566"]`"W‐......well, ...uh.`[@][lv 0*"10"*"40100567"]` ......I mean, you're right, I do think I was being childish...`[@][lv 0*"10"*"40100568"]` All things considered, just 'cause Dad got remarried, that doesn't wipe out what I owe him for raising me."`[\]
+*d29176
+d [lv 0*"10"*"40100569"]`"......I hear Dad always kept on sending money over for my living expenses,`[@][lv 0*"10"*"40100570"]` ......and he even said he wanted to be involved in my school events.`[@][lv 0*"10"*"40100571"]` .........The only reason he couldn't come is......I told Grandma and Grandpa not to let him come no matter what......"`[\]
+textoff
+waits 167
+lbg s0_26,"black"
+flush 22
+msgwnd_bea
+*d29177
+d [lv 0*"27"*"40700654"]`"......................................."`[\]
+textoff
+waits 167
+csp_slot s0_26
+flush 22
+lss s0_8,"but","b22_odoroki2" ;1
+aspt2 xpos,s0_8,-370
+aspt2 darken_r,s0_8,156
+aspt2 darken_g,s0_8,156
+aspt2 darken_b,s0_8,160
+flush 10,167
+msgwnd_but
+*d29178
+d [lv 0*"10"*"40100572"]`"......A‐and yeah, ......if you want to just be blunt and say I was being childish and rebellious, I can't argue with that.`[@][lv 0*"10"*"40100573"]` .........But you know, ...in that case,`[@][lv 0*"10"*"40100574"]` ......Mom, ......Ushiromiya Asumu, who's gonna set things right for her...?!`[@][lv 0*"10"*"40100575"]` Mom was so devoted to our family, and did the very best she could...!"`[\]
+lss s0_8,"but","b22_kuyasigaru1" ;1
+aspt2 xpos,s0_8,-370
+aspt2 darken_r,s0_8,156
+aspt2 darken_g,s0_8,156
+aspt2 darken_b,s0_8,160
+flush 10,167
+*d29179
+d [lv 0*"10"*"40100576"]`"But Dad was cheating with Kyrie‐san.`[@][lv 0*"10"*"40100577"]` He even got her pregnant with Ange...!`[@][lv 0*"10"*"40100578"]` And then the moment she was born, he rushed them both into his register."`[\]
+lss s0_8,"but","b22_odoroki1" ;1
+aspt2 xpos,s0_8,-370
+aspt2 darken_r,s0_8,156
+aspt2 darken_g,s0_8,156
+aspt2 darken_b,s0_8,160
+flush 10,167
+*d29180
+d [lv 0*"10"*"40100579"]`"......What is that if not a betrayal of Mom?!`[@][lv 0*"10"*"40100580"]` Who's gonna set things...`[@][lv 0*"10"*"40100581"]`right...`[@][lv 0*"10"*"40100582"]`for her?!!"`[\]
+*d29181
+d [lv 0*"10"*"40100583"]`"......But what you're saying is also right.`[@][lv 0*"10"*"40100584"]` Even though the cheating was a fact, I still owed him for raising me."`[\]
+lss s0_8,"but","b11_majime4" ;1
+aspt2 xpos,s0_8,-370
+aspt2 darken_r,s0_8,156
+aspt2 darken_g,s0_8,156
+aspt2 darken_b,s0_8,160
+flush 10,167
+*d29182
+d [lv 0*"10"*"40100585"]`"So I thought I'd cancel those two things out and leave the family, what's the problem with that?!!`[@][lv 0*"10"*"40100586"]` That's right, I had the right, ......no, the duty to wallop Dad in Mom's place, didn't I?!"`[\]
+lss s0_8,"but","b22_odoroki1" ;1
+aspt2 xpos,s0_8,-370
+aspt2 darken_r,s0_8,156
+aspt2 darken_g,s0_8,156
+aspt2 darken_b,s0_8,160
+flush 10,167
+*d29183
+d [lv 0*"10"*"40100587"]`"I let him get away without that!`[@][lv 0*"10"*"40100588"]` I left without saying anything, as though I hadn't been there in the first place!!`[@][lv 0*"10"*"40100589"]` And Dad forgot about me and started a new family with Kyrie‐san and Ange!`[@][lv 0*"10"*"40100590"]` That settles everything, doesn't it?!!"`[\]
+csp_slot s0_11
+csp_slot s0_7
+textoff
+waits 167
+csp_slot s0_8
+lbg s0_3,"black"
+flush 22
+msgwnd_non
+*d29184
+d `But six years passed after that.`[@]` ......Time healed the anger.`[\]
+textoff
+waits 167
+bgmplay 25,71,0
+vol_me 1,-1,1000
+vol_me 2,-1,1000
+vol_me 3,-1,1000
+wait 1000
+textoff
+waits 167
+lbg s0_3,"gdin_1ad2"
+color_mod2 sepia,s0_3
+lss s0_10,"kir","a11_warai2" ;1
+aspt2 xpos,s0_10,370
+color_mod2 sepia,s0_10
+flush 22
+*d29185
+d `Kyrie‐san understood my anger as well,`[@]` and she tried hard to interact with me despite that, and soften my heart.`[\]
+*d29186
+d `Ange didn't know anything about the situation,`[@]` and she adored me, believing that I was her real big brother who just lived in a separate house.`[\]
+lss s0_8,"rud","a11_warai1" ;1
+aspt2 xpos,s0_8,-370
+color_mod2 sepia,s0_8
+flush 10,167
+*d29187
+d `......As for Dad, he was acting like nothing had happened, and told me I could come home any time I wanted.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 2
+meplay 1,12,50
+rain_load s0_11
+rain_load s0_7
+rain_params s0_11,400,800,0
+rain_params s0_7,400,500,0
+textoff
+waits 167
+lbg s0_3,"m_o1an"
+flush 22
+msgwnd_but
+*d29188
+d [lv 0*"10"*"40100591"]`"It started to feel more and more stupid keeping it all going!!`[@][lv 0*"10"*"40100592"]` I thought it was about time for me to cool my head as well.`[@][lv 0*"10"*"40100593"]` So I said to Dad that if he apologized, I'd call it water under the bridge.`[@][lv 0*"10"*"40100594"]` On the day of Grandpa's funeral."`[\]
+*d29189
+d [lv 0*"10"*"40100595"]`"And that guy, he actually put both his hands on the floor and apologized...!!`[@][lv 0*"10"*"40100596"]` I couldn't believe how pathetic he looked...!"`[\]
+*d29190
+d [lv 0*"10"*"40100597"]`"My dad, who was all about looking cool, actually bowed his goddamn head to me...!`[@][lv 0*"10"*"40100598"]` ......When I saw that, it felt like it'd be stupid to keep it up any longer."`[\]
+*d29191
+d [lv 0*"10"*"40100599"]`"I'm sure Mom would've thought the same thing!`[@][lv 0*"10"*"40100600"]` Every time Dad and I fought, Mom would always laugh and mediate for us.`[@][lv 0*"10"*"40100601"]` "Oh, that silly thing is what you were fighting over?"`[@][lv 0*"10"*"40100602"]` she'd say.`[@][lv 0*"10"*"40100603"]` ......I could feel Mom saying that and laughing...!!"`[\]
+*d29192
+d [lv 0*"10"*"40100604"]`"That's why,`[|][lv 0*"10"*"40100605"]` ......while I couldn't bring myself to say "I forgive you",`[|][lv 0*"10"*"40100606"]` .........I thought it might be alright to start over again from zero.`[@][lv 0*"10"*"40100607"]` So I decided to wind everything back to how it was six years ago.`[@][lv 0*"10"*"40100608"]` .........And I returned to the Ushiromiya family register...!!`[@][lv 0*"10"*"40100609"]` I'd cried, raged, and stressed over it for a whole six years!"`[\]
+*d29193
+d [lv 0*"10"*"40100610"]`"It might have been the same for Dad, and maybe even for my dead mom.`[@][lv 0*"10"*"40100611"]` Maybe Kyrie‐san and Ange too.`[@][lv 0*"10"*"40100612"]` ......So we went back to zero, and I returned to being Ushiromiya Battler!!!`[@][lv 0*"10"*"40100613"]` That's my immediate family's problem,`[|][lv 0*"10"*"40100614"]` ......and has nothing the hell to do with the Ushiromiya family!!"`[\]
+*d29194
+d [lv 0*"10"*"40100615"]`"You aren't qualified to judge that to be a sin, and I have no duty to show repentance to you!`[@][lv 0*"10"*"40100616"]` If there was anyone I should have done that for, you've already killed them!!"`[\]
+*d29195
+d [lv 0*"10"*"40100617"]`"So I won't apologize for anything!`[@][lv 0*"10"*"40100618"]` I won't repent!!!`[@][lv 0*"10"*"40100619"]` That is my answer for this test!!!"`[\]
+csp_slot s0_11
+csp_slot s0_7
+textoff
+waits 167
+lbg s0_3,"black"
+flush 2
+vol_bgm -1,3000
+wait 3000
+meplay 2,5,50
+msgwnd_bea
+*d29196
+d [lv 0*"27"*"40700655"]`"..........................................`[@][lv 0*"27"*"40700656"]` ......Is that all...?"`[\]
+msgwnd_but
+*d29197
+d [lv 0*"10"*"40100620"]`"What.........?`[@][lv 0*"10"*"40100621"]` .................."`[\]
+msgwnd_non
+*d29198
+d `I had pretty much fully responded to her provocation,`[@]` and I was sure that I'd vented out all the stuff that I'd been keeping inside my chest, stuff I hadn't wanted to show anyone.`[\]
+*d29199
+d `That was what the witch had supposedly been hoping for, too.`[@]` ......And yet, the witch's blank expression didn't change in the slightest.`[\]
+*d29200
+d `I had been sure she would start cackling and guffawing,`[@]` sneering at my childish, foolish, and shameful past.`[\]
+*d29201
+d `But to the contrary, I could feel a sense of shock about her,`[@]` ......something you could almost call disappointment.`[\]
+rain_load s0_11
+rain_load s0_7
+rain_params s0_11,400,800,0
+rain_params s0_7,400,500,0
+textoff
+waits 167
+lbg s0_3,"m_o1an"
+lss s0_10,"but","b11_niramu4" ;1
+aspt2 xpos,s0_10,370
+aspt2 darken_r,s0_10,156
+aspt2 darken_g,s0_10,156
+aspt2 darken_b,s0_10,160
+flush 22
+msgwnd_but
+*d29202
+d [lv 0*"10"*"40100622"]`".........What do you mean "is that all", ......I've confessed everything inside me!`[@][lv 0*"10"*"40100623"]` What aren't you happy about?"`[\]
+textoff
+waits 167
+spriteset_enable 1
+aspritesetpt xpos,1,-800
+rain_load s1_11
+rain_load s1_7
+rain_params s1_11,400,800,0
+rain_params s1_7,400,500,0
+lbg s1_3,"m_o1anc"
+aspt2 xpos,s1_3,250
+lss s1_8,"bea","b11_nayamu1" ;1
+aspt2 xpos,s1_8,-370
+aspt2 darken_r,s1_8,156
+aspt2 darken_g,s1_8,156
+aspt2 darken_b,s1_8,160
+lbg s1_17,"m_o1anc_sak"
+aspt2 xpos,s1_17,250
+mask_set msk1,msk_cut,1
+flush2 10,1000
+aspritesetpt xpos,1,-100,1000
+spritesetptwait xpos,1
+msgwnd_bea
+*d29203
+d [lv 0*"27"*"40700657"]`"The atonement for your sins is still insufficient."`[\]
+lss s0_10,"but","b22_nayamu4" ;1
+aspt2 xpos,s0_10,370
+aspt2 darken_r,s0_10,156
+aspt2 darken_g,s0_10,156
+aspt2 darken_b,s0_10,160
+flush 10,167
+msgwnd_but
+*d29204
+d [lv 0*"10"*"40100624"]`"Atonement?`[@][lv 0*"10"*"40100625"]` ......What the hell, are you asking me to prostrate myself right here and apologize like Dad did...?!"`[\]
+lss s1_8,"bea","b11_fuman3" ;1
+aspt2 xpos,s1_8,-370
+aspt2 darken_r,s1_8,156
+aspt2 darken_g,s1_8,156
+aspt2 darken_b,s1_8,160
+flush 10,167
+msgwnd_bea
+*d29205
+d [lv 0*"27"*"40700658"]`"............No.`[@][lv 0*"27"*"40700659"]` I have no interest in the home affairs of your immediate family.`[@][lv 0*"27"*"40700660"]` Where are we?`[@][lv 0*"27"*"40700661"]` Rokkenjima.`[@][lv 0*"27"*"40700662"]` The main residence of the Ushiromiya head family.`[@][lv 0*"27"*"40700663"]` ......Isn't there a sin you should remember, fitting for this place......?"`[\]
+textoff
+waits 167
+bgmplay 95,71,0
+vol_me 1,-1,1000
+vol_me 2,-1,1000
+wait 1000
+lss s0_10,"but","b11_niramu4" ;1
+aspt2 xpos,s0_10,370
+aspt2 darken_r,s0_10,156
+aspt2 darken_g,s0_10,156
+aspt2 darken_b,s0_10,160
+flush 10,167
+msgwnd_but
+*d29206
+d [lv 0*"10"*"40100626"]`"............Are you......saying that I have...another sin......?"`[\]
+lss s1_8,"bea","b11_majime1" ;1
+aspt2 xpos,s1_8,-370
+aspt2 darken_r,s1_8,156
+aspt2 darken_g,s1_8,156
+aspt2 darken_b,s1_8,160
+flush 10,167
+msgwnd_bea
+*d29207
+d [lv 0*"27"*"40700664"]`"......Remember, Ushiromiya Battler.`[@][lv 0*"27"*"40700665"]` .........And it is your inability to remember which is your sin.`[@][lv 0*"27"*"40700666"]` For that reason, I shall forgive you.`[@][lv 0*"27"*"40700667"]` If you can remember, I shall forgive you.`[@][lv 0*"27"*"40700668"]` .........Remembering that is my test of atonement for you."`[\]
+msgwnd_but
+*d29208
+d [lv 0*"10"*"40100627"]`".........That's......a lot easier said than done......"`[\]
+csp -11
+csp msk1
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"ep4_meta_1"
+flush 1
+seplay 1,56,71
+textoff
+waits 167
+rain_pause s0_11
+rain_pause s0_7
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+flush 10,367
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+flush 28
+lss s0_23,"bea","a11_nayamu1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+meplay 1,16,40
+msgwnd_bea
+*d29209
+d [lv 0*"27"*"40700669"]`"............Remember.`[@][lv 0*"27"*"40700670"]` ......That is why it is a sin."`[\]
+lss s0_25,"but","b22_nayamu4" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_but
+*d29210
+d [lv 0*"10"*"40100628"]`"...Sorry, Beato.`[@][lv 0*"10"*"40100629"]` ......I have absolutely no memory of it."`[\]
+lss s0_25,"but","b22_odoroki1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+*d29211
+d [lv 0*"10"*"40100630"]`"......You make it seem like I caused you trouble six years ago or something,`[@][lv 0*"10"*"40100631"]` but unless I'm mistaken, this family conference is the first time we met.`[@][lv 0*"10"*"40100632"]` It's true that your legend did exist six years ago,`[@][lv 0*"10"*"40100633"]` but I'm pretty confident that we didn't know each other back then."`[\]
+lss s0_23,"bea","a11_majime4" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_bea
+*d29212
+d [lv 0*"27"*"40700671"]`"......Naturally.`[@][lv 0*"27"*"40700672"]` On the Rokkenjima of six years ago, I was not yet manifested."`[\]
+lss s0_25,"but","b11_komaru2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_but
+*d29213
+d [lv 0*"10"*"40100634"]`"Then what kind of sin are you saying I have?`[@][lv 0*"10"*"40100635"]` ......Are you saying......I've sinned against you somehow...?"`[\]
+lss s0_23,"bea","a11_majime1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_bea
+*d29214
+d [lv 0*"27"*"40700673"]`"Do not make me repeat myself.`[@][lv 0*"27"*"40700674"]` I was not manifested six years ago.`[@][lv 0*"27"*"40700675"]` For us to have been acquainted would be an impossibility.`[@][lv 0*"27"*"40700676"]` In the world you represent, it was as though I did not even exist."`[\]
+msgwnd_non
+*d29215
+d `......Beato's cold eyes......felt as though they were accusing me of some kind of sin.`[\]
+*d29216
+d `It felt, on the face of it, as though she was still holding a grudge for some way I'd treated her, and was criticizing me for it.`[\]
+*d29217
+d `However, ......I obviously couldn't remember doing anything like that to her, and Beato had said so herself.`[\]
+*d29218
+d `There was no link between us six years ago.`[\]
+seplay 3,21,71
+*d29219
+d `{p:1:Six years ago, no person called {f:5:Beatrice} existed for me}.`[\]
+lss s0_25,"but","b22_niramu1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_but
+*d29220
+d [lv 0*"10"*"40100636"]`".........At least give me a hint.`[@][lv 0*"10"*"40100637"]` ......Does this sin or whatever...have something to do with...`[|][lv 0*"10"*"40100638"]`...you and me......?"`[\]
+lss s0_23,"bea","a11_majime4" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_bea
+*d29221
+d2 [lv 0*"27"*"40700677"]`"I had no connection to you six years ago.`[@][lv 0*"27"*"40700678"]` Remove me from your thoughts already.`[@][#][*][lv 0*"27"*"40700679"]` ......Why...do you think it is a sin against {i:me}?"`[\]
+wait_on_d 0
+lss s0_23,"bea","a11_nayamu1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_25,"but","b22_nayamu4" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_but
+*d29222
+d [lv 0*"10"*"40100639"]`".........Your......eyes."`[\]
+lss s0_23,"bea","a11_futeki2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_bea
+*d29223
+d [lv 0*"27"*"40700680"]`"Eyes...?`[@][lv 0*"27"*"40700681"]` ............Hoh."`[\]
+lss s0_25,"but","b11_niramu4" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_but
+*d29224
+d [lv 0*"10"*"40100640"]`"Your eyes, they're......whispering at me to apologize.`[@][lv 0*"10"*"40100641"]` ......But I had no connection with you six years ago, and even you admitted that."`[\]
+lss s0_25,"but","b11_majime5" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+*d29225
+d [lv 0*"10"*"40100642"]`"............Is it true?`[@][lv 0*"10"*"40100643"]` ......Is it really not a problem between me and you......?"`[\]
+lss s0_23,"bea","a11_majime4" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_bea
+*d29226
+d [lv 0*"27"*"40700682"]`".........I already said it wasn't.`[@][lv 0*"27"*"40700683"]` No problem between me and you has anything to do with this."`[\]
+lss s0_25,"but","b22_niramu1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_but
+*d29227
+d2 [lv 0*"10"*"40100644"]`"But still, ......your eyes are telling me differently.`[@][lv 0*"10"*"40100645"]` ............So I don't even have a clue.`[@][#][*][lv 0*"10"*"40100646"]` .........Can you say it in red?`[@][lv 0*"10"*"40100647"]` Can you declare that the sin you're telling me to remember isn't something between you and me?"`[\]
+wait_on_d 0
+lss s0_25,"but","b11_majime4" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_23,"bea","a11_fuman3" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_bea
+*d29228
+d [lv 0*"27"*"40700684"]`"...........................`[@][lv 0*"27"*"40700685"]` ......Very well."`[\]
+seplay 1,59,71
+set_window_simple 80
+msgwnd_non
+*d29229
+d `{p:1:The sin I am now demanding that you remember is not between Ushiromiya Battler and {f:5:Beatrice}}.`[\]
+set_name_window_non
+lss s0_25,"but","b11_niramu4" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_but
+*d29230
+d [lv 0*"10"*"40100648"]`".........Then why are you looking at me with those eyes......?"`[\]
+lss s0_23,"bea","a11_majime1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_bea
+*d29231
+d [lv 0*"27"*"40700686"]`"I do not know.`[@][lv 0*"27"*"40700687"]` .........I am simply gazing at you blankly.`[@][lv 0*"27"*"40700688"]` If it feels that way to you,`[|][lv 0*"27"*"40700689"]` ......perhaps that is because there is something that makes you feel that way."`[\]
+lss s0_25,"but","b22_odoroki1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_but
+*d29232
+d [lv 0*"10"*"40100649"]`"........................`[@][lv 0*"10"*"40100650"]` .........What the hell kind of sin have I got?"`[\]
+lss s0_23,"bea","a11_majime2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_bea
+*d29233
+d2 [lv 0*"27"*"40700690"][#][*]`"{p:1:Ushiromiya Battler has a sin}."`[\]
+wait_on_d 0
+seplay 1,59,71
+d_continue
+wait_on_d -1
+lss s0_25,"but","b11_majime2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_but
+*d29234
+d [lv 0*"10"*"40100651"]`"......I said what kind, dammit.`[@][lv 0*"10"*"40100652"]` It's probably just some stupid sin, like hitting someone or tricking someone."`[\]
+lss s0_23,"bea","a11_majime1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_bea
+*d29235
+d2 [lv 0*"27"*"40700691"][#][*]`"{p:1:Because of your sin, people die}."`[\]
+wait_on_d 0
+seplay 2,59,71
+d_continue
+wait_on_d -1
+lss s0_25,"but","b23_odoroki2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_but
+*d29236
+d2 [lv 0*"10"*"40100653"]`"L‐liar...!`[@][lv 0*"10"*"40100654"]` I've never killed anyone...!!`[@][#][*][lv 0*"10"*"40100655"]` Say it, then!`[@][lv 0*"10"*"40100656"]` Who did I kill?!`[@][lv 0*"10"*"40100657"]` When? Who? How?!"`[\]
+wait_on_d 0
+lss s0_25,"but","b22_odoroki1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_23,"bea","a11_nayamu1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_bea
+*d29237
+d2 [lv 0*"27"*"40700692"][#][*]`"{p:1:Due to your sin, a great many humans on this island die}.`[@][lv 0*"27"*"40700693"][#][*]` {p:1:None will escape, all will die}."`[\]
+wait_on_d 0
+seplay 1,59,71
+d_continue
+wait_on_d 1
+seplay 2,59,71
+d_continue
+wait_on_d -1
+lss s0_25,"but","b23_odoroki2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_but
+*d29238
+d [lv 0*"10"*"40100658"]`"Wh‐.........whaaaaat?!?!`[@][lv 0*"10"*"40100659"]` Wh‐what the hell are you going on about?!`[@][lv 0*"10"*"40100660"]` Are you saying {i:I} killed everyone?!`[@][lv 0*"10"*"40100661"]` I'm a killer?!"`[\]
+lss s0_23,"bea","a11_majime1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_bea
+*d29239
+d [lv 0*"27"*"40700694"]`"You do not carry it out directly.`[@][lv 0*"27"*"40700695"]` .........However, because you committed a sin, the cogs of fate were sent astray, spun a full six years, and due to the deviation that resulted,`[@][lv 0*"27"*"40700696"]` ......tonight, this many lives are lost."`[\]
+seplay 3,21,71
+*d29240
+d [lv 0*"27"*"40700697"]`"{i:You are one of the causes of this tragedy}."`[\]
+textoff
+waits 167
+vol_mix_fade 1000
+vol_bgm -1,1000
+wait 1000
+seplay 1,27,100
+wait 500
+lbg s0_17,"white"
+z_order_override2 s0_17,s0_26
+flush 1
+csp_slot s0_17
+flush 42
+lss s0_25,"but","b11_kuyasigaru1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+bgmplay 19,71,0
+meplay 1,5,70
+msgwnd_but
+*d29241
+d [lv 0*"10"*"40100662"]`"......Oh, ......come the fuck on!!`[@][lv 0*"10"*"40100663"]` {i:I'm} the cause?!`[@][lv 0*"10"*"40100664"]` Then what?!`[@][lv 0*"10"*"40100665"]` Are you saying thirteen people died because {i:I} abandoned the Ushiromiya register six years ago?!`[@][lv 0*"10"*"40100666"]` Are you saying thirteen people died because {i:I} came back to the Ushiromiya family after six years?!"`[\]
+csp_slot s0_25
+csp_slot s0_23
+flush 10,167
+seplay 2,12,71
+lss s0_24,"but","b22_sakebu1" ;1
+flush 10,167
+agpt quakeycycle,50
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+*d29242
+d [lv 0*"10"*"40100667"]`"Give me a fucking break!!!`[@][lv 0*"10"*"40100668"]` For these six years, I've been the man furthest from the Ushiromiya family!`[@][lv 0*"10"*"40100669"]` What influence could {i:I} have had on {i:anything} and how?!"`[\]
+lss s0_24,"but","b11_kuyasigaru1" ;1
+flush 10,167
+*d29243
+d [lv 0*"10"*"40100670"]`"It's not like I came to the family conference because I wanted to!`[@][lv 0*"10"*"40100671"]` I'd patched things up with the family after six years, so to like, draw a line under that whole period,`[@][lv 0*"10"*"40100672"]` I came to Rokkenjima reluctantly...!!`[@][lv 0*"10"*"40100673"]` It's not like I had some duty to come here today!"`[\]
+lss s0_24,"but","b22_odoroki1" ;1
+flush 10,167
+*d29244
+d [lv 0*"10"*"40100674"]`"I came back, and because of that a tragedy occurred?`[@][lv 0*"10"*"40100675"]` Then what?!`[@][lv 0*"10"*"40100676"]` You're saying that if I hadn't come back, no one would've had to die?!"`[\]
+*d29245
+d [lv 0*"10"*"40100677"]`"Say it in red!!`[@][lv 0*"10"*"40100678"]` Can you say in red that if I hadn't come back, this screwed‐up murder case wouldn't have occurred?!`[@][lv 0*"10"*"40100679"]` ......There's no way you can, because you're the culprit behind everything!!"`[\]
+csp_slot s0_24
+flush 10,167
+seplay 1,2,100
+lss s0_23,"but","b25_kuyasigaru1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+agpt quakeycycle,50
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+*d29246
+d [lv 0*"10"*"40100680"]`"Repeat it!!`[@][lv 0*"10"*"40100681"]` "If Ushiromiya Battler hadn't returned to Rokkenjima, the crime wouldn't have occurred".`[@][lv 0*"10"*"40100682"]` Go on, say it if you think you can...!!"`[\]
+*d29247
+d [lv 0*"10"*"40100683"]`"......Can't do it, can you?`[@][lv 0*"10"*"40100684"]` There's no way in hell you can, the culprit is you, not me!!`[@][lv 0*"10"*"40100685"]` Don't you dare try to push the blame for this onto meeeeeeee!!!"`[\]
+lss s0_25,"bea","a11_majime4" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_bea
+*d29248
+d [lv 0*"27"*"40700698"]`"......................................."`[\]
+csp_slot s0_25
+csp_slot s0_23
+flush 10,167
+lss s0_24,"but","b25_kuyasigaru1" ;1
+flush 10,167
+msgwnd_but
+*d29249
+d2 [lv 0*"10"*"40100686"]`"......Answer, in red!!`[@][lv 0*"10"*"40100687"]` I said repeat it...!!`[@][lv 0*"10"*"40100688"]` You can't!`[@][lv 0*"10"*"40100689"]` My existence has nothing to do with the crime.`[@][#][*][lv 0*"10"*"40100690"]` Stop messing with my heeeaaaad!!!"`[\]
+wait_on_d 0
+lss s0_24,"but","b22_sakebu1" ;1
+flush 10,167
+d_continue
+wait_on_d -1
+vol_bgm -1,1000
+csp_slot s0_24
+seplay 1,1006,100
+seplay 2,2,100
+textoff
+waits 167
+lbg s0_26,"white"
+flush 1
+csp_slot s0_21
+csp_slot s0_22
+rain_resume s0_11
+rain_resume s0_7
+meplay 2,13,70
+textoff
+waits 167
+csp_slot s0_26
+textoff
+waits 167
+lbg s0_3,"m_o1an"
+flush 2
+msgwnd_non
+*d29250
+d `I began to remember that the raindrops pounding down were cold.`[\]
+*d29251
+d `......The rain earlier had just hurt,`[@]` ......but now I felt a tormenting cold from those raindrops......`[\]
+textoff
+waits 167
+spriteset_enable 1
+aspritesetpt xpos,1,-800
+rain_load s1_11
+rain_load s1_7
+rain_params s1_11,400,800,0
+rain_params s1_7,400,500,0
+lbg s1_3,"m_o1anc"
+aspt2 xpos,s1_3,250
+lss s1_8,"bea","b11_fuman3" ;1
+aspt2 xpos,s1_8,-370
+aspt2 darken_r,s1_8,156
+aspt2 darken_g,s1_8,156
+aspt2 darken_b,s1_8,160
+lbg s1_17,"m_o1anc_sak"
+aspt2 xpos,s1_17,250
+mask_set msk1,msk_cut,1
+flush2 10,1000
+aspritesetpt xpos,1,-100,1000
+spritesetptwait xpos,1
+msgwnd_bea
+*d29252
+d [lv 0*"27"*"40700699"]`".................................`[@][lv 0*"27"*"40700700"]` ......Is there nothing that you remember?"`[\]
+lss s0_10,"but","b11_nayamu3" ;1
+aspt2 xpos,s0_10,550
+aspt2 darken_r,s0_10,156
+aspt2 darken_g,s0_10,156
+aspt2 darken_b,s0_10,160
+flush 10,167
+msgwnd_but
+*d29253
+d [lv 0*"10"*"40100691"]`".........Sorry,`[@][lv 0*"10"*"40100692"]` but I don't have a goddamn clue."`[\]
+lss s1_8,"bea","b11_fuman1" ;1
+aspt2 xpos,s1_8,-370
+aspt2 darken_r,s1_8,156
+aspt2 darken_g,s1_8,156
+aspt2 darken_b,s1_8,160
+flush 10,167
+msgwnd_bea
+*d29254
+d [lv 0*"27"*"40700701"]`".............................."`[\]
+lss s0_10,"but","b11_nayamu3" ;1
+aspt2 xpos,s0_10,550
+aspt2 darken_r,s0_10,156
+aspt2 darken_g,s0_10,156
+aspt2 darken_b,s0_10,160
+flush 10,167
+msgwnd_but
+*d29255
+d [lv 0*"10"*"40100693"]`"......Look.`[@][lv 0*"10"*"40100694"]` ......I'm starting to get a little pissed off.`[@][lv 0*"10"*"40100695"]` ......If there's something you wanna say, then say it.`[@][lv 0*"10"*"40100696"]` If you have a grudge against me, you just have to come out and say it.`[@][lv 0*"10"*"40100697"]` ......Don't be nasty about it and demand for me to remember."`[\]
+msgwnd_bea
+*d29256
+d [lv 0*"27"*"40700702"]`"............I'll ask one more time.`[@][lv 0*"27"*"40700703"]` ......Can you not remember any sin?"`[\]
+seplay 3,21,71
+lss s0_10,"but","b25_odoroki1" ;1
+aspt2 xpos,s0_10,550
+aspt2 darken_r,s0_10,156
+aspt2 darken_g,s0_10,156
+aspt2 darken_b,s0_10,160
+flush 10,167
+msgwnd_but
+*d29257
+d [lv 0*"10"*"40100698"]`"No!!`[@][lv 0*"10"*"40100699"]` I can't remember a goddamn thing...!!"`[\]
+csp -11
+csp msk1
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"ep4_meta_2"
+flush 1
+textoff
+waits 167
+vol_mix_fade 2000
+wait 2000
+textoff
+waits 167
+rain_pause s0_11
+rain_pause s0_7
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+flush 2
+wait 1000
+bgmplay 76,71,0
+lss s0_23,"bea","b11_fuman3" ;1
+aspt2 xpos,s0_23,370
+flush 2
+msgwnd_bea
+*d29258
+d [lv 0*"27"*"40700704"]`".........So...`[|][lv 0*"27"*"40700705"]`...he says that he can remember...nothing."`[\]
+lips_sprite s0_23_b
+set_window_simple 80
+*d29259
+d [lv 0*"27"*"40700706"]`With this, are your regrets at an end......?`[\]
+set_name_window_non
+lss s0_23,"bea","b11_fuman2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_bea
+*d29260
+d [lv 0*"27"*"40700707"]`"...........................`[@][lv 0*"27"*"40700708"]` ...............m...m..."`[\]
+lips_sprite s0_23_b
+set_window_simple 80
+*d29261
+d [lv 0*"27"*"40700709"]`Even a hopelessly long shot will be a source of regret if not attempted.`[@]`......That will do.`[|][lv 0*"27"*"40700710"]`The attempt itself has meaning.`[@]`".........That may be true.`[|][lv 0*"27"*"40700711"]` ...In that case, this is...`[\]
+set_name_window_non
+lss s0_23,"bea","b11_majime1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_bea
+*d29262
+d [lv 0*"27"*"40700712"]`the end of my regrets, and my game."`[@][lv 0*"27"*"40700713"]`What will you do...?`[@][lv 0*"27"*"40700714"]`"...Who knows.`[\]
+lips_sprite s0_23_b
+set_window_simple 80
+*d29263
+d [lv 0*"27"*"40700715"]` .........I'm not interested at all anymore.`[\]
+set_name_window_non
+lss s0_23,"bea","b11_fuman2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_bea
+*d29264
+d [lv 0*"27"*"40700716"]` ......Sorry, but I wish to leave the game board now."`[@][lv 0*"27"*"40700717"]`..............................`[@][lv 0*"27"*"40700718"]` ......I see.`[\]
+lips_sprite s0_23_b
+set_window_simple 80
+*d29265
+d [lv 0*"27"*"40700719"]` ......I understand.`[@]`"I will take over for the rest of the game.`[|][lv 0*"27"*"40700720"]` .........You may rest."`[@][lv 0*"27"*"40700720_1"]`"......Mm.`[\]
+set_name_window_non
+textoff
+waits 167
+seplay 1,52,71
+lss s0_25,"bea","a11_majime1" ;1
+aspt2 xpos,s0_25,-370
+aspt2 breakup,s0_25,1000
+aspt2 alpha,s0_25,0
+flush 1
+aspt2 breakup,s0_25,0,2000
+aspt2 alpha,s0_25,255,2000
+sptwait2 breakup,s0_25
+msgwnd_bea
+*d29266
+d [lv 0*"27"*"40700721"]` ..............."`[@][lv 0*"27"*"40700722"]`"All that remains, I will finish.`[\]
+lips_sprite s0_25_b
+lss s0_23,"bea","b11_fuman3" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+*d29267
+d [lv 0*"27"*"40700723"]` .........You may forget everything and bury your head in your pillow.`[@][lv 0*"27"*"40700724"]` A feather futon should gently protect you from everything."`[\]
+lips_sprite s0_23_b
+lss s0_25,"bea","a11_nayamu1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+*d29268
+d [lv 0*"27"*"40700725"]`".........Finish up the rest for me, ......please."`[@][lv 0*"27"*"40700726"]`"Leave it to me.`[@][lv 0*"27"*"40700727"]` ......Leave everything else to me, and sleep."`[\]
+lips_sprite s0_25_b
+lss s0_23,"bea","b11_fuman2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+*d29269
+d [lv 0*"27"*"40700728"]`The witch who had questioned Battler hid herself,`[\]
+lips_sprite s0_23_b
+lss s0_25,"bea","a11_majime1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+*d29270
+d [lv 0*"27"*"40700729"]` and the other witch, who had appeared from behind, remained.`[@][lv 0*"27"*"40700730"]`She was certainly identical, the same witch,`[\]
+textoff
+waits 167
+seplay 1,52,71
+aspt2 breakup,s0_23,0
+aspt2 breakup,s0_23,1000,2000
+aspt2 alpha,s0_23,0,2000
+sptwait2 breakup,s0_23
+csp_slot s0_23
+flush 1 ;flush2: NO frames
+msgwnd_non
+*d29271
+d ` .........but her expression was somehow indifferent and ice‐cold,`[@]` ......a far cry from the one before, who, though apparently drunk, had at least been in high spirits.`[\]
+*d29272
+d `"...............Hey!!`[@]` Are you listening?!`[@]` That's enough for that test thing, right?!`[\]
+textoff
+waits 167
+csp_slot s0_21
+csp_slot s0_25
+rain_resume s0_11
+rain_resume s0_7
+flush 8
+spriteset_enable 2
+rain_load s2_11
+rain_load s2_7
+rain_params s2_11,400,800,0
+rain_params s2_7,400,500,0
+textoff
+waits 167
+lbg s2_3,"ep4_meta_2"
+flush 1
+spriteset_enable 1
+rain_load s1_11
+rain_load s1_7
+rain_params s1_11,400,800,0
+rain_params s1_7,400,500,0
+lbg s1_3,"m_o1anc"
+aspt2 xpos,s1_3,250
+lss s1_8,"bea","b11_fuman3" ;1
+aspt2 xpos,s1_8,-370
+aspt2 darken_r,s1_8,156
+aspt2 darken_g,s1_8,156
+aspt2 darken_b,s1_8,160
+lbg s1_17,"m_o1anc_sak"
+aspt2 xpos,s1_17,250
+mask_set msk1,msk_cut,1
+aspritesetpt xpos,1,-100
+flush 1 ;flush2: NO frames
+textoff
+waits 167
+lbg s0_3,"m_o1an"
+lss s0_10,"but","b25_odoroki1" ;1
+aspt2 xpos,s0_10,550
+aspt2 darken_r,s0_10,156
+aspt2 darken_g,s0_10,156
+aspt2 darken_b,s0_10,160
+flush 1 ;flush2: NO frames
+csp -12
+meplay 1,12,50
+lss s0_10,"but","b11_majime4" ;1
+aspt2 xpos,s0_10,550
+aspt2 darken_r,s0_10,156
+aspt2 darken_g,s0_10,156
+aspt2 darken_b,s0_10,160
+flush 10,167
+msgwnd_but
+*d29273
+d [lv 0*"10"*"40100700"]` I don't give a crap whether I passed or failed!`[@][lv 0*"10"*"40100701"]` The only thing that's gonna help the way I'm feeling is bashing you in the face!!`[@][lv 0*"10"*"40100702"]` Get the hell down here!!`[@][lv 0*"10"*"40100703"]` Or else open up this door...!!"`[@][lv 0*"10"*"40100704"]`The witch said nothing back.`[@][lv 0*"10"*"40100705"]`Her eyes were as ice‐cold as Battler's shoulders.`[@][lv 0*"10"*"40100706"]`......She was clearly a different person from the one who had first appeared on that balcony.`[\]
+msgwnd_non
+*d29274
+d `The witch looked hard into my eyes, ......and gave two small shakes of the head.`[\]
+*d29275
+d `Even without words, I was able to gather that she was expressing some kind of disappointment...`[\]
+*d29276
+d `Without saying anything, the witch turned on her heels.`[\]
+*d29277
+d `After that, only Battler remained, the cold rain still beating down on him.........`[\]
+*d29278
+d `The study was in the middle of a lively party.`[\]
+textoff
+waits 167
+csp -11
+csp msk1
+flush 2
+*d29279
+d `It seemed that Gaap was making fun of {f:5:Virgilia}, teasing her over some stupid triviality.`[\]
+*d29280
+d `...They were spitting "Lialialia", "Gapgapgap" at each other.`[\]
+textoff
+waits 167
+csp_slot s0_11
+csp_slot s0_7
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"black"
+flush 5
+meplay 2,16,0
+vol_bgm 0,3000
+vol_me 2,50,3000
+wait 3000
+rain_load s0_11
+z_order_override s0_11,s0_1
+rain_params s0_11,500,300,0
+textoff
+waits 167
+lbg s0_1,"m2f_p1cr_bg"
+lbg s0_3,"m2f_p1cr"
+flush 6
+wait 2000
+seplay 1,17,71
+textoff
+waits 167
+csp_slot s0_1
+lbg s0_3,"white"
+flush 10
+seplay 2,54,71
+bgmplay 70,71,0
+textoff
+waits 167
+lbg s0_1,"mlib_1ar_bg"
+lbg s0_3,"mlib_1ar"
+spriteset_enable 1
+textoff
+waits 167
+lbg s1_3,"white"
+aspritesetpt breakup,1,0
+flush 1
+aspritesetpt breakup,1,1000,3000
+spritesetptwait breakup,1
+reset_set 1
+csp -11
+flush 1
+gstc 289
+*d29281
+d `Kinzo and Ronove had opened a new bottle and were enjoying the show.`[\]
+textoff
+waits 167
+lbg s0_1,"mlib_1cr_bg"
+lbg s0_3,"mlib_1cr"
+lss s0_8,"gap","a12_warai2" ;1
+aspt2 xpos,s0_8,-370
+lss s0_10,"wal","a14_komaru1" ;1
+aspt2 xpos,s0_10,370
+flush 24
+*d29282
+d `"Oh, you're back.`[\]
+lss s0_8,"gap","a12_warai3" ;1
+aspt2 xpos,s0_8,-370
+lss s0_10,"wal","a14_odoroki1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d29283
+d ` How were the results of Battler's test?!"`[\]
+*d29284
+d `"Maria's test got passing marks with no complaints, I'll have you know?`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_1,"mlib_1br_bg"
+lbg s0_3,"mlib_1br"
+lss s0_9,"kin","a11_akuwarai1" ;1
+flush 23
+msgwnd_kin
+*d29285
+d [lv 0*"01"*"41500503"]` I've long held her in contempt as a worthless little urchin,`[@][lv 0*"01"*"41500504"]` but lo and behold, surprise surprise, {nobr:my oh} {nobr:my oh} {nobr:my oh} my, not bad, not bad, not bad indeed!`[\]
+lss s0_9,"kin","a21_akuwarai2" ;1
+flush 10,167
+*d29286
+d [lv 0*"01"*"41500505"]` Wa‐hah‐hah‐hah‐hah‐hah!!"`[@][lv 0*"01"*"41500506"]`It seemed like Kinzo was dead drunk.`[@][lv 0*"01"*"41500507"]`{n}He laughed towards Beato with the same level of excitation as the time they'd left for the tests.`[@][lv 0*"01"*"41500508"]`...However, Ronove and {f:5:Virgilia} instantly noticed the change in her enthusiasm.`[\]
+msgwnd_non
+*d29287
+d `Gaap also froze her expression and went silent.`[@]`"Wahhahahahahahhahha, what is it, {f:5:Beatrice}, my beloved witch?`[\]
+textoff
+waits 167
+vol_bgm -1,1000
+wait 1000
+*d29288
+d ` Not enough to drink? Not enough on the side?`[\]
+*d29289
+d ` Let's go out in the pouring rain and roast a cow whole, oohhh, not a bad idea!"`[\]
+lss s0_9,"kin","a11_akuwarai1" ;1
+flush 10,167
+msgwnd_kin
+*d29290
+d [lv 0*"01"*"41500509"]`"Ronove, make the preparations right away!`[@][lv 0*"01"*"41500510"]` {f:5:Beatrice}, let's leave the results of Battler's test for later.`[@][lv 0*"01"*"41500511"]` Why don't we have a toast with spare ribs first, uwa‐hah‐hah‐hah‐hah‐hah!!"`[\]
+lss s0_9,"kin","a23_akuwarai2" ;1
+flush 10,167
+*d29291
+d [lv 0*"01"*"41500512"]`"..................Roast yourself whole."`[@][lv 0*"01"*"41500513"]`"‐ha‐hah‐hah‐hah,`[@][lv 0*"01"*"41500514"]` ......what?"`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"mlib_1e"
+flush 22
+msgwnd_bea
+*d29292
+d [lv 0*"27"*"40700731"]`As Kinzo doubled over laughing in a great mood, the witch who had spoken bluntly passed him coldly by.`[\]
+msgwnd_kin
+*d29293
+d [lv 0*"01"*"41500515"]`......Then, behind the witch's back,`[|][lv 0*"01"*"41500516"]` .........the old summoner's body suddenly went up in flames...`[\]
+msgwnd_non
+*d29294
+d `"Gyuoaaaaooaahhh!!!!`[\]
+*d29295
+d ` Gwohh, gah, ......gyah.........w...h...y............?!"`[!w500]`While spitting crimson flames from his eyes, mouth, nose...every hole on his body, Kinzo rolled around.`[\]
+set_saving off
+textoff
+waits 167
+vol_me 1,-1,1000
+vol_me 2,-1,1000
+seplay 1,2,100
+meplay 4,1166,100
+meplay 5,1155,100
+anim s0_17,"no64",0
+flush 1
+msgwnd_kin
+*d29296
+d [nj][lv 0*"01"*"41500517"]`......Even though it was a terrible hellfire, it didn't burn anything except Kinzo.`[@][lv 0*"01"*"41500518"]`Kinzo didn't have a clue what was going on.`[\]
+msgwnd_non
+*d29297
+d [nj]`......He rolled around, unable to understand why {f:5:Beatrice}, who had been in such a good mood,`[\]
+*d29298
+d [nj]` had suddenly turned so cold......`[\]
+textoff
+waits 167
+csp_slot s0_1
+lbg s0_3,"black"
+flush 22
+vol_me 4,-1,1000
+vol_me 5,-1,1000
+bgmplay 17,71,0
+*d29299
+d [nj]`The dancing silhouettes of witches and demons created by that massive rolling torch...`[\]
+*d29300
+d [nj]`looked like a group of excited spectators around a burning at the stake.`[@]`However, the eyes of the demons watching over it were indifferent......`[\]
+*d29301
+d [nj]`When Kinzo finally stopped moving, the fire disappeared, leaving a pitch‐black corpse.`[@]`The inside of the room was commanded by the stillness of the sound of the rain......`[\]
+*d29302
+d [nj]`"......What has happened, Milady?"`[\]
+textoff
+waits 167
+csp_slot s0_17
+seplay 1,55,71
+csp_slot s0_11
+rain_load s0_11
+z_order_override s0_11,s0_1
+rain_params s0_11,500,300,0
+textoff
+waits 167
+lbg s0_1,"mlib_1br_bg"
+lbg s0_3,"mlib_1br"
+flush 2
+set_saving on
+*d29303
+d `"It has lost its thrill.`[\]
+*d29304
+d ` .........Clean up those bothersome cinders."`[\]
+meplay 1,13,50
+lss s0_10,"ron","a11_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ron
+*d29305
+d [lv 0*"31"*"43100272"]`{f:5:Beatrice}'s expression......was unbelievably apathetic.`[\]
+lss s0_8,"bea","a11_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_bea
+*d29306
+d [lv 0*"27"*"40700732"]`...There was an iciness there that told the others that they risked the same fate as Kinzo if they annoyed her.`[@][lv 0*"27"*"40700733"]`"............Y‐yes.`[\]
+msgwnd_non
+*d29307
+d ` I will do it..."`[\]
+*d29308
+d `Gaap made a jet‐black pitfall swallow up Kinzo's cinders.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_1,"mlib_1cr_bg"
+lbg s0_3,"mlib_1cr"
+lss s0_10,"gap","a11_defo2a" ;1
+aspt2 xpos,s0_10,370
+flush 24
+msgwnd_gap
+*d29309
+d [lv 0*"32"*"43700346"]`...If she hadn't carried that out quickly, Gaap might also have been burned.`[@][lv 0*"32"*"43700347"]` You could feel that thirst for blood.`[\]
+seplay 3,56,71
+lss s0_10,"gap","a15_defo2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_non
+*d29310
+d `No, a thirst for blood probably isn't the best way to describe it.`[\]
+*d29311
+d `......Just like humans don't have any particular emotion when they step on an ant while walking.`[@]`......That was how much, unconsciously and mercilessly, Beato was now filled with a brutal emptiness that wouldn't hesitate to bury a passerby...`[\]
+*d29312
+d `"......Wh‐what is it, Beato?"`[\]
+*d29313
+d `"I don't want to answer.`[\]
+*d29314
+d ` ...............No, I can't even be bothered to answer any more."`[\]
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_1,"mlib_1ar_bg"
+lbg s0_3,"mlib_1ar"
+lss s0_8,"wal","a11_fuman1" ;1
+aspt2 xpos,s0_8,-550
+flush 23
+msgwnd_wal
+*d29315
+d [lv 0*"30"*"43200201"]`".........What is it? This isn't like you.`[\]
+lss s0_10,"bea","a12_fuman1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_bea
+*d29316
+d [lv 0*"27"*"40700734"]` ......Did something happen?`[@][lv 0*"27"*"40700735"]` Did Battler say someth—"`[\]
+csp_slot s0_8
+flush 10,167
+lss s0_25,"gap","a11_defo2a" ;1
+aspt2 xpos,s0_25,-550
+flush 10,167
+msgwnd_gap
+*d29317
+d [lv 0*"32"*"43700348"]`".........k...g...gyhh—"`[@][lv 0*"32"*"43700349"]`{f:5:Beatrice} hadn't even responded.`[@][lv 0*"32"*"43700350"]` It seemed that she had even ignored it.`[\]
+textoff
+waits 167
+meplay 2,28,80
+seplay 1,57,70
+seplay 2,1006,40
+seplay 3,1006,40
+lbg s0_17,"white"
+z_order_override2 s0_17,s0_26
+flush 1
+csp_slot s0_17
+csp_slot s0_25
+lss s0_12,"gap","a11_ikari1a" ;1
+aspt2 xpos,s0_12,-550
+aspt2 alpha,s0_12,150
+flush 42
+*d29318
+d [lv 0*"32"*"43700351"]`But there was a change in Gaap.`[\]
+msgwnd_non
+*d29319
+d `From her feet, a crackling, cracking sound rose, like thin ice breaking,`[@]` ......and in an instant, turned Gaap into a glass sculpture.`[\]
+*d29320
+d `"G‐......Gaap..."`[\]
+*d29321
+d `"............Disappear for a while.`[@]` I'm in a very bad mood."`[\]
+lss s0_9,"wal","a11_komaru1" ;1
+flush 10,167
+msgwnd_wal
+*d29322
+d [lv 0*"30"*"43200202"]`{f:5:Beatrice} spoke in a truly cold voice,`[\]
+lss s0_10,"bea","a12_majime1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+vol_me 2,-1,1000
+msgwnd_bea
+*d29323
+d [lv 0*"27"*"40700736"]` ......which froze the heart just to hear it.`[@][lv 0*"27"*"40700737"]`"......Certainly.`[\]
+msgwnd_non
+*d29324
+d ` In that case, please allow us to retire.`[@]` .........If you need anything, call at any time."`[\]
+csp_slot s0_12
+textoff
+waits 167
+csp_slot s0_9
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 24
+textoff
+waits 167
+lbg s0_1,"mlib_1cr_bg"
+lbg s0_3,"mlib_1cr"
+lss s0_9,"ron","a11_odoroki2" ;1
+flush 24
+lss s0_9,"ron","a11_odoroki1" ;1
+flush 10,167
+msgwnd_ron
+*d29325
+d [lv 0*"31"*"43100273"]`After a single bow, Ronove turned into a cloud of gold butterflies, and hid himself.`[@][lv 0*"31"*"43100274"]`{f:5:Virgilia} turned Gaap from a sculpture into a group of gold butterflies,`[@][lv 0*"31"*"43100275"]` and then turned into a cloud of them herself, which mixed in with the others and disappeared.`[\]
+textoff
+waits 167
+seplay 1,52,71
+aspt2 breakup,s0_9,0
+aspt2 breakup,s0_9,1000,2000
+aspt2 alpha,s0_9,0,2000
+sptwait2 breakup,s0_9
+csp_slot s0_9
+flush 1 ;flush2: NO frames
+msgwnd_non
+*d29326
+d `............In the study made untidy by drinking,`[\]
+textoff
+waits 167
+textoff
+waits 167
+lbg s0_1,"mlib_1ar_bg"
+lbg s0_3,"mlib_1ar"
+lss s0_12,"gap","a11_ikari1a" ;1
+aspt2 xpos,s0_12,-550
+aspt2 alpha,s0_12,150
+lss s0_10,"wal","a11_komaru1" ;1
+aspt2 xpos,s0_10,370
+flush 23
+lss s0_10,"wal","a11_komaru2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+seplay 1,52,71
+aspt2 breakup,s0_12,0
+aspt2 breakup,s0_12,1000,2000
+aspt2 alpha,s0_12,0,2000
+sptwait2 breakup,s0_12
+csp_slot s0_12
+flush 1 ;flush2: NO frames
+seplay 2,52,71
+aspt2 breakup,s0_10,0
+aspt2 breakup,s0_10,1000,2000
+aspt2 alpha,s0_10,0,2000
+sptwait2 breakup,s0_10
+csp_slot s0_10
+flush 1 ;flush2: NO frames
+*d29327
+d ` ......{f:5:Beatrice} stood still, alone.`[@]`Since the time she had returned, her expression hadn't changed in the slightest...`[\]
+textoff
+waits 167
+csp_slot s0_1
+lbg s0_3,"black"
+flush 24
+meplay 2,11,0
+vol_bgm 70,2000
+vol_me 1,0,2000
+vol_me 2,90,2000
+wait 2000
+textoff
+waits 167
+lbg s0_1,"mlib_1br_bg"
+lbg s0_3,"mlib_1br"
+lss s0_9,"bea","a12_fuman1" ;1
+flush 24
+*d29328
+d `......However, when she saw the fallen empty wine bottles and scattered cheese plates,`[@]` her brow furrowed, and she looked a bit displeased.`[\]
+*d29329
+d `And when she whispered "disappear", in that instant, the room flashed, and was tidy again, as though nothing had ever happened.`[\]
+*d29330
+d `The reception chairs were neatly arranged, and there was no wine or cheese.`[@]`{n}There were no stains where things had been spilled, nor was there any scattered trash.`[\]
+lss s0_9,"bea","a12_fuman3" ;1
+flush 10,167
+*d29331
+d `......To the contrary, even the air had frozen over,`[\]
+textoff
+waits 167
+textoff
+waits 167
+csp_slot s0_9
+csp_slot s0_1
+lbg s0_3,"white"
+flush 22
+seplay 1,52,71
+textoff
+waits 167
+lbg s0_3,"mlib_1e"
+spriteset_enable 1
+textoff
+waits 167
+lbg s1_3,"white"
+aspritesetpt breakup,1,0
+flush 1
+aspritesetpt breakup,1,1000,3000
+spritesetptwait breakup,1
+reset_set 1
+csp -11
+flush 1
+*d29332
+d ` and, enough to make one doubt whether so many noisy people really had been in this room until just moments ago,`[@]` .........the study had returned to total silence.`[\]
+*d29333
+d `.........In that silent, ......frigid study where even the air had frozen,`[@]` {f:5:Beatrice} stood still...`[@]`Then, she called him in a mutter.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_1,"mlib_1cr_bg"
+lbg s0_3,"mlib_1cr"
+lss s0_10,"bea","a12_fuman1" ;1
+aspt2 xpos,s0_10,370
+flush 22
+*d29334
+d `"..................Battler.`[@]` Are you there?"`[\]
+*d29335
+d `"......I've been here for a while.`[\]
+lss s0_10,"bea","a12_fuman3" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d29336
+d [lv 0*"27"*"40700738"]` .........What the hell's going on with you?`[@][lv 0*"27"*"40700739"]` You've been acting strange."`[\]
+vol_me 1,-1,1000
+vol_me 2,-1,1000
+seplay 1,56,71
+textoff
+waits 167
+rain_pause s0_11
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+flush 10,367
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+flush 28
+lips_sprite s0_10_b
+lss s0_25,"but","b22_nayamu4" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_but
+*d29337
+d [lv 0*"10"*"40100707"]`"Do I seem strange?`[@][lv 0*"10"*"40100708"]` My apologies."`[@][lv 0*"10"*"40100709"]`"............Even though you were having such a good time drinking with that damn old fart, you suddenly burned him up,`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_23,"bea","a11_nayamu1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_bea
+*d29338
+d [lv 0*"27"*"40700740"]` and your demoness friend is a glass sculpture.`[@][lv 0*"27"*"40700741"]` ......Even your demon butler and your master got a "disappear and get the hell out".`[\]
+lss s0_25,"but","b11_komaru2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_but
+*d29339
+d [lv 0*"10"*"40100710"]` ......Just how fickle and selfish are you?"`[@][lv 0*"10"*"40100711"]`"Battler. I'm done."`[@][lv 0*"10"*"40100712"]`"With what?"`[@][lv 0*"10"*"40100713"]`"............I've had enough, now."`[\]
+textoff
+waits 167
+lss s0_23,"bea","a11_fuman3" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+vol_mix_fade 1000
+vol_bgm -1,1000
+wait 1000
+msgwnd_bea
+*d29340
+d [lv 0*"27"*"40700742"]`"Wha?`[\]
+lss s0_25,"but","b22_oyaa1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_but
+*d29341
+d [lv 0*"10"*"40100714"]` .........Well, uh, you were the one who cooked up this game.`[\]
+lss s0_23,"bea","a11_majime1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+bgmplay 66,71,0
+msgwnd_bea
+*d29342
+d [lv 0*"27"*"40700743"]` Heh, if you've had enough, that's great for me.`[\]
+lss s0_25,"but","b23_odoroki2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_but
+*d29343
+d2 [lv 0*"10"*"40100715"]` So basically, you're resigning?"`[@][lv 0*"10"*"40100716"]`"I am not resigning.`[@][#][*][lv 0*"10"*"40100717"]` I am just ending it.`[@][lv 0*"10"*"40100718"]` No, I won't even end it.`[\]
+wait_on_d 0
+lss s0_25,"but","b11_komaru2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_23,"bea","a11_nayamu1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_bea
+*d29344
+d [lv 0*"27"*"40700744"]` The game will simply be abandoned for all eternity."`[@][lv 0*"27"*"40700745"]`"Pretty sure they call that resigning.`[@][lv 0*"27"*"40700746"]` ......Man, the words "got tired of it and threw it away" fit you perfectly."`[@][lv 0*"27"*"40700747"]`"Precisely.`[\]
+lss s0_25,"but","b11_futeki1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_but
+*d29345
+d [lv 0*"10"*"40100719"]` I am tired of it and am throwing it away.`[@][lv 0*"10"*"40100720"]` I don't care about the rest.`[\]
+lss s0_23,"bea","a11_fuman3" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_bea
+*d29346
+d2 [lv 0*"27"*"40700748"]` It can remain abandoned and gather dust as much as it likes."`[@][lv 0*"27"*"40700749"]`"........................`[@][#][*][lv 0*"27"*"40700750"]` ......What's up with you?`[@][lv 0*"27"*"40700751"]` You've been kinda hard to deal with since a short while ago."`[\]
+wait_on_d 0
+lss s0_23,"bea","a11_fuman1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_25,"but","b11_nayamu1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_but
+*d29347
+d [lv 0*"10"*"40100721"]`"......Are you still sour over that baffling test?`[@][lv 0*"10"*"40100722"]` If you've got something against me, all you have to do is say it clearly."`[@][lv 0*"10"*"40100723"]`"You said in red that it has nothing to do with you, but that's got to be a play on words, right?`[\]
+lss s0_25,"but","b11_majime2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+*d29348
+d [lv 0*"10"*"40100724"]` It's written all over your face.`[@][lv 0*"10"*"40100725"]` You have a grudge against me."`[\]
+*d29349
+d [lv 0*"10"*"40100726"]`"How many times will I have to say I have no grudge against you before you'll understand?`[@][lv 0*"10"*"40100727"]` At the time you left your sin behind, I did not exist."`[@][lv 0*"10"*"40100728"]`As Beato spoke with an irritated expression, her face twisted to look even more displeased.`[\]
+lss s0_23,"bea","a11_komaru1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_bea
+*d29350
+d [lv 0*"27"*"40700752"]`Fickle.`[@][lv 0*"27"*"40700753"]` Inconsistent.`[\]
+msgwnd_non
+*d29351
+d ` Moody.`[\]
+*d29352
+d ` Temperamental.`[@]` ......Selfish and simple‐minded and cruel.`[@]`But even so, she had never shown an expression as strange as this even once before now...`[@]`"............Well, you were the one who instigated this game.`[@]` I'm a bit let down that it won't get resolved, but feel free to invite me again sometime if you feel like it.`[\]
+*d29353
+d ` But when that time comes, allow me to politely decline, alright?`[\]
+lss s0_25,"but","b11_futeki1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_but
+*d29354
+d2 [lv 0*"10"*"40100729"]` Heheheh."`[@][lv 0*"10"*"40100730"]`He intentionally spoke in a teasing kind of tone, but Beato showed no reaction.`[@][#][*][lv 0*"10"*"40100731"]`......Battler hung his head and clicked his tongue...`[@][lv 0*"10"*"40100732"]`"I've circled around October 4th and 5th over and over again, but it looks like I'm finally going to be free of all that now.`[\]
+wait_on_d 0
+lss s0_25,"but","b11_nayamu2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+d_continue
+wait_on_d -1
+msgwnd_non
+*d29355
+d ` ......This way, the boat will come tomorrow."`[\]
+*d29356
+d `"...That's right, then the seagulls will return to the harbor.`[\]
+lss s0_25,"but","b11_futeki1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_but
+*d29357
+d [lv 0*"10"*"40100733"]` ......I'll finally be able to hear Rokkenjima's signature "nyaa nyaa" cries.`[@][lv 0*"10"*"40100734"]` After all, when I came to the island, they weren't there at all, maybe because of the weather."`[\]
+lss s0_25,"but","b11_defo2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+*d29358
+d [lv 0*"10"*"40100735"]`".........‘When the seagulls cry, everything will end’, basically.`[@][lv 0*"10"*"40100736"]` ......Done and done, all over, the end.`[@][lv 0*"10"*"40100737"]` Man, what a relief."`[\]
+lss s0_25,"but","b11_defo1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+*d29359
+d [lv 0*"10"*"40100738"]`".........Exactly what is it that you're misunderstanding?"`[@][lv 0*"10"*"40100739"]`"Hm?`[@][lv 0*"10"*"40100740"]` What do you mean what?"`[\]
+lss s0_23,"bea","a11_fuman1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+meplay 1,16,40
+msgwnd_bea
+*d29360
+d [lv 0*"27"*"40700754"]`".........I said that nothing would end.`[\]
+lss s0_25,"but","b22_oyaa1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_but
+*d29361
+d [lv 0*"10"*"40100741"]` With this, everything will be abandoned.`[@][lv 0*"10"*"40100742"]` The game will be forgotten, and the pieces on the board will be left where they lie.`[\]
+lss s0_23,"bea","a11_fuman3" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_bea
+*d29362
+d [lv 0*"27"*"40700755"]` There will be no advancing, no retreating, no taking or being taken.`[@][lv 0*"27"*"40700756"]` No victory, no defeat, not even a tie.`[@][lv 0*"27"*"40700757"]` Just abandoned."`[@][lv 0*"27"*"40700758"]`"............Doesn't that mean it's over?"`[@][lv 0*"27"*"40700759"]`"Wrong.`[@][lv 0*"27"*"40700760"]` On my turn, the game will stop for all eternity.`[\]
+lss s0_25,"but","b11_defo2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_but
+*d29363
+d [lv 0*"10"*"40100743"]` Your turn will not come.`[\]
+lss s0_23,"bea","a11_majime2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_bea
+*d29364
+d [lv 0*"27"*"40700761"]` So there will be no victory, nor defeat, nor a tie."`[@][lv 0*"27"*"40700762"]`".........In the past, I could not allow you to do that to me.`[@][lv 0*"27"*"40700763"]` That was because I had the goal of victory against you.`[@][lv 0*"27"*"40700764"]` However, I have lost interest in that.`[\]
+lss s0_23,"bea","a11_nayamu1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+*d29365
+d [lv 0*"27"*"40700765"]` So there is no longer any point in me making any further moves."`[@][lv 0*"27"*"40700766"]`"............What do you mean by...my turn won't come...?"`[@][lv 0*"27"*"40700767"]`I'd thought that Beato getting tired of the game meant I'd be released, and I'd be able to escape Rokkenjima.`[@][lv 0*"27"*"40700768"]`But for some reason, the meaning of Beato's repeated words about the difference between abandoning the game and settling it...`[\]
+lss s0_25,"but","b11_nayamu1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_but
+*d29366
+d [lv 0*"10"*"40100744"]`...was starting to bother me...`[\]
+msgwnd_non
+*d29367
+d `.........Just what has she been saying, ...and why the bad mood......?`[\]
+*d29368
+d `Suddenly, I heard a voice from behind me.`[@]`When I turned around, ......there was someone I thought I might, or might not, remember from somewhere...`[\]
+*d29369
+d `......A mysterious girl, with no light in her eyes, was standing there.`[\]
+textoff
+waits 167
+seplay 1,22,71
+lbg s0_17,"white"
+z_order_override2 s0_17,s0_26
+flush 22
+csp_slot s0_21
+csp_slot s0_22
+csp_slot s0_25
+csp_slot s0_23
+rain_resume s0_11
+seplay 2,52,71
+csp_slot s0_17
+textoff
+waits 167
+lbg s0_3,"g1f_s1ap"
+lss s0_10,"bea","a11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+lss s0_8,"but","b11_nayamu1" ;1
+aspt2 xpos,s0_8,-370
+spriteset_enable 1
+textoff
+waits 167
+lbg s1_3,"white"
+aspritesetpt breakup,1,0
+flush 1
+aspritesetpt breakup,1,1000,3000
+spritesetptwait breakup,1
+reset_set 1
+csp -11
+flush 1
+*d29370
+d `".........What she means is something like this.`[\]
+*d29371
+d ` ......Putting the lid back on this game, leaving the pieces as they are.`[\]
+*d29372
+d ` Without ending, the game will be locked away for all eternity."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 24
+vol_mix_fade 1000
+vol_bgm -1,1000
+wait 1000
+textoff
+waits 167
+lbg s0_3,"g1f_s1ap"
+lss s0_9,"ber","a11_defo2" ;1
+flush 24
+bgmplay 49,71,0
+msgwnd_ber
+*d29373
+d [lv 0*"28"*"42100063"]`"The only way for you to return to your original world is to win against Beato.`[@][lv 0*"28"*"42100064"]` .........So Beato abandoning the game would mean...`[@][lv 0*"28"*"42100065"]` ......Get it?"`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"g1f_s1bp"
+flush 23
+seplay 1,57,71
+textoff
+waits 167
+lbg s0_3,"white"
+flush 1
+textoff
+waits 167
+lbg s0_3,"g1f_s1bp"
+lss s0_10,"lam","a11_akuwarai3" ;1
+aspt2 xpos,s0_10,370
+flush 22
+msgwnd_lam
+*d29374
+d [lv 0*"29"*"42200181"]`Suddenly, in another place, there was a girl wearing a bright pink dress.`[@][lv 0*"29"*"42200182"]`......I had a feeling I'd met her somewhere too, but I couldn't remember.`[@][lv 0*"29"*"42200183"]`More important was the meaning of the words she said.`[\]
+msgwnd_non
+*d29375
+d `{n}......The game being abandoned means......huh?`[\]
+*d29376
+d `".........That's all there is to it.`[\]
+*d29377
+d ` No match can reach its conclusion without two opposing sides.`[@]` .........It means that you'll never be able to win and escape this world for all eternity."`[\]
+textoff
+waits 167
+seplay 1,52,71
+lss s0_8,"ber","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+aspt2 breakup,s0_8,1000
+aspt2 alpha,s0_8,0
+flush 1
+aspt2 breakup,s0_8,0,2000
+aspt2 alpha,s0_8,255,2000
+sptwait2 breakup,s0_8
+msgwnd_ber
+*d29378
+d [lv 0*"28"*"42100066"]`"In the end, ......it's kinda like taking the key to the cage that you're locked in,`[@][lv 0*"28"*"42100067"]` fastening it to the collar of a pigeon or something and letting it fly, I guess."`[@][lv 0*"28"*"42100068"]`"............This isn't funny, Beato.`[\]
+lss s0_10,"lam","a12_futeki2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_lam
+*d29379
+d [lv 0*"29"*"42200184"]` We didn't come all the way here to watch a boring game like this.`[@][lv 0*"29"*"42200185"]` Just wrapping it up here? You have to be kidding me."`[\]
+lss s0_10,"lam","a11_futeki1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d29380
+d [lv 0*"29"*"42200186"]`".........I'm with Lambda.`[@][lv 0*"29"*"42200187"]` I came here to make Battler win, and to make you thrash about in defeat.`[@][lv 0*"29"*"42200188"]` I still haven't achieved that goal.`[\]
+lss s0_8,"ber","a11_defo2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ber
+*d29381
+d [lv 0*"28"*"42100069"]` ......I couldn't bear for the game to be abandoned here, for you to just run away on me."`[@][lv 0*"28"*"42100070"]`"I acknowledge that the way the curtain has fallen on this game has made for a disappointing end for you ladies.`[@][lv 0*"28"*"42100071"]` ......However, I, the host of this tea party, am after all fickle.`[@][lv 0*"28"*"42100072"]` Once the fun is gone, I know no way of entertaining.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"g1f_s1ap"
+lss s0_9,"bea","a11_nayamu1" ;1
+flush 23
+msgwnd_bea
+*d29382
+d2 [lv 0*"27"*"40700769"]` ......I believe that to be what makes me the witch I am in the first place.`[@][#][*][lv 0*"27"*"40700770"]` There should be no problems with this...?"`[@][lv 0*"27"*"40700771"]`"..............................`[@][lv 0*"27"*"40700772"]` ......True.`[@][lv 0*"27"*"40700773"]` I won't go against your creed."`[\]
+wait_on_d 0
+lss s0_9,"bea","a11_majime1" ;1
+flush 10,167
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"g1f_s1ap"
+lss s0_10,"ber","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 24
+msgwnd_ber
+*d29383
+d [lv 0*"28"*"42100073"]`"I won't stand for this...`[@][lv 0*"28"*"42100074"]` ......Don't you dare, how much do you think I've supported you...`[@][lv 0*"28"*"42100075"]` All that preparation, and you want me just to pack it all in now?`[\]
+seplay 1,57,71
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"white"
+flush 1
+textoff
+waits 167
+lbg s0_3,"g1f_s1ap"
+lss s0_10,"ber","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+lss s0_8,"lam","a11_odoroki1" ;1
+aspt2 xpos,s0_8,-370
+flush 22
+msgwnd_lam
+*d29384
+d2 [lv 0*"29"*"42200189"]` I don't think so...!!"`[@][lv 0*"29"*"42200190"]`"I am saying that I have tired of it.`[@][#][*][lv 0*"29"*"42200191"]` Nothing more, nothing less."`[@][lv 0*"29"*"42200192"]`"That's not happening...`[\]
+wait_on_d 0
+lss s0_8,"lam","a11_futeki1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"g1f_s1bp"
+lss s0_8,"bea","a11_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 23
+msgwnd_bea
+*d29385
+d [lv 0*"27"*"40700773_b"]` You're going to continue this game.`[@][lv 0*"27"*"40700773_c"]` You want to win against Battler, right?`[\]
+seplay 1,57,71
+textoff
+waits 167
+lbg s0_26,"white"
+flush 1
+textoff
+waits 167
+csp_slot s0_26
+lss s0_10,"lam","a11_akuwarai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_lam
+*d29386
+d2 [lv 0*"29"*"42200193"]` You want to win and make him submit, right?!`[@][lv 0*"29"*"42200194"]` You're almost there!`[@][lv 0*"29"*"42200195"]` Isn't she~?!"`[@][#][*][lv 0*"29"*"42200196"]`".........D‐don't turn to me for agreement.`[@][lv 0*"29"*"42200197"]` ......That said, I do have an opinion too.`[@][lv 0*"29"*"42200198"]` If you'll let me say it."`[\]
+wait_on_d 0
+lss s0_10,"lam","a12_akuwarai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"g1f_s1ap"
+lss s0_8,"but","b22_odoroki2" ;1
+aspt2 xpos,s0_8,-370
+flush 23
+msgwnd_but
+*d29387
+d2 [lv 0*"10"*"40100745"]`"............What."`[@][#][*][lv 0*"10"*"40100746"]`"You brought this fight to my door.`[@][lv 0*"10"*"40100747"]` I'm prepared to settle this fight one way or the other.`[\]
+wait_on_d 0
+lss s0_8,"but","b11_majime2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_10,"bea","a11_fuman1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d29388
+d [lv 0*"27"*"40700774"]` ......I've come close to surrendering many times,`[\]
+lss s0_8,"but","b11_niramu4" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d29389
+d [lv 0*"10"*"40100748"]` but I've never had any intention of escaping part‐way through, leaving the match undecided."`[@][lv 0*"10"*"40100749"]`"......As long as I'm here, showing the will to fight,`[@][lv 0*"10"*"40100750"]` ......don't you go running away, {f:5:Beatrice}."`[@][lv 0*"10"*"40100751"]`"............I agree.`[\]
+lss s0_8,"but","b11_majime4" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d29390
+d [lv 0*"10"*"40100752"]` Getting Battler involved and then leaving without giving him victory or defeat is just beyond irresponsible."`[@][lv 0*"10"*"40100753"]`Suddenly, even Gretel was there.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+flush 10,167
+wait 1000
+lss s0_8,"enj","a13_fuman2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d29391
+d [lv 0*"11"*"42001511"]`{n}......And everyone was criticizing Beato for being irresponsible.`[@][lv 0*"11"*"42001512"]`"Hoh.`[\]
+msgwnd_non
+*d29392
+d ` .........It seems that the greatest reason I am being called irresponsible is that Battler will be stuck as an opponent."`[@]`".........In that case, Battler.`[\]
+textoff
+waits 167
+csp_slot s0_8
+lbg s0_3,"black"
+flush 23
+textoff
+waits 167
+lbg s0_3,"g1f_s1bp"
+lss s0_9,"bea","a11_majime2" ;1
+flush 23
+msgwnd_bea
+*d29393
+d [lv 0*"27"*"40700775"]` Will you step down from being an opponent, as I shall?`[@][lv 0*"27"*"40700776"]` That way, there will be nothing to criticize me for."`[\]
+lss s0_9,"bea","a11_futeki2" ;1
+flush 10,167
+*d29394
+d [lv 0*"27"*"40700777"]`"If I step down, will I be able to leave Rokkenjima...?"`[@][lv 0*"27"*"40700778"]`"Of course not.`[@][lv 0*"27"*"40700779"]` Just be covered in dust and let it pile up on your shoulders."`[\]
+csp_slot s0_9
+flush 10,167
+lss s0_10,"but","b11_komaru1" ;1
+aspt2 xpos,s0_10,370
+lss s0_8,"bea","a11_futeki2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d29395
+d [lv 0*"10"*"40100754"]`".........Stop being so stupid.`[\]
+lss s0_8,"bea","a11_fukigen1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_bea
+*d29396
+d [lv 0*"27"*"40700780"]` Just how irresponsible are you?`[@][lv 0*"27"*"40700781"]` You've killed all this many people.`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_10,"enj","a33_fuman1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d29397
+d [lv 0*"11"*"42001513"]` On top of that, using your witch's power, you've done it over and over.`[@][lv 0*"11"*"42001514"]` In gruesome ways!`[@][lv 0*"11"*"42001515"]` .........There's no way I can allow you to escape without taking responsibility...!"`[@][lv 0*"11"*"42001516"]`"Responsibility.`[@][lv 0*"11"*"42001517"]` ......Hoh, what is it I should do to take this so‐called responsibility?"`[@][lv 0*"11"*"42001518"]`"Fight until a resolution is reached.`[\]
+lss s0_8,"bea","a11_defo2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_bea
+*d29398
+d [lv 0*"27"*"40700782"]` Battler will sit in the chair across from you, never giving up, and fighting until he beats you.`[@][lv 0*"27"*"40700783"]` So you too fight until you're defeated.`[\]
+lss s0_10,"enj","a31_ikari1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d29399
+d [lv 0*"11"*"42001519"]` If you don't want that to happen, then try and defeat him...!!"`[@][lv 0*"11"*"42001520"]`"I won't let you...leave everything unresolved and abandon Battler in this chair,`[@][lv 0*"11"*"42001521"]` ......lock him up forevermore and never let him return...`[@][lv 0*"11"*"42001522"]` .........I won't let you......!!"`[\]
+lss s0_10,"enj","a31_komaru5" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d29400
+d [lv 0*"11"*"42001523"]`"......Gretel."`[|][lv 0*"11"*"42001524"]`To be perfectly honest,`[|][lv 0*"11"*"42001525"]` I didn't really understand from what standpoint Gretel was trying to save me.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"g1f_s1ap"
+lss s0_8,"but","b22_odoroki1" ;1
+aspt2 xpos,s0_8,-370
+flush 24
+msgwnd_but
+*d29401
+d [lv 0*"10"*"40100755"]`......But in her words,`[\]
+msgwnd_non
+*d29402
+d ` I could feel a strong determination to save me from this crazy game world no matter what.`[@]`So, I also responded to that.`[\]
+*d29403
+d `"Beato.`[@]` Face this way."`[\]
+*d29404
+d `"....................."`[\]
+lss s0_8,"but","b22_nayamu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d29405
+d [lv 0*"10"*"40100756"]`"I am here.`[@][lv 0*"10"*"40100757"]` Across from you, in the rival's seat.`[\]
+lss s0_10,"bea","a11_fuman1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d29406
+d [lv 0*"27"*"40700784"]` ......Get it?`[\]
+lss s0_8,"but","b11_komaru2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d29407
+d [lv 0*"10"*"40100758"]` As long as I continue to sit here,`[@][lv 0*"10"*"40100759"]` I won't permit you to escape.`[@][lv 0*"10"*"40100760"]` ......So don't run away. Fight."`[@][lv 0*"10"*"40100761"]`"You started this fight, dammit.`[@][lv 0*"10"*"40100762"]` All the crap you've pulled, again and again and again, the total shitshow you've turned this whole thing into!`[@][lv 0*"10"*"40100763"]` And now after all this time you think I can let you end it because you're {i:tired} of it?!!"`[\]
+lss s0_8,"but","b11_majime4" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d29408
+d [lv 0*"10"*"40100764"]`"I am your opponent!!`[@][lv 0*"10"*"40100765"]` As long as I'm here,`[@][lv 0*"10"*"40100766"]` there's no way I'm letting you escape!!"`[\]
+*d29409
+d [lv 0*"10"*"40100767"]`"Are you listening, you goddamn Witch of Irresponsibility?!`[@][lv 0*"10"*"40100768"]` Why don't you say some{-}thiii{-}i{-}i{-}i{-}i{-}i{-}i{-}i{-}i{-}i{-}i{-}ing!!!"`[@][lv 0*"10"*"40100769"]`After I yelled at her, ......Beato went silent for a while.`[\]
+lss s0_8,"but","b11_kuyasigaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d29410
+d2 [lv 0*"10"*"40100770"]`Whether my words had reached her, or whether she was thinking about something completely different...I couldn't tell.`[@][#][*][lv 0*"10"*"40100771"]`But for a while, she was silent,`[\]
+wait_on_d 0
+lss s0_8,"but","b22_niramu4" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+msgwnd_non
+*d29411
+d ` ......gazing at me with an expression I could read no emotion from,`[\]
+*d29412
+d ` ......and when she realized that I noticed, she averted her gaze.`[\]
+*d29413
+d2 `Then she turned her back to me, ......and said this...`[@]`"So you ladies say that......since Battler will not quit as my opponent, you cannot accept my abandonment of this game."`[@][#][*]`"............In that case, I shall ask...`[\]
+wait_on_d 0
+lss s0_10,"bea","a11_fukigen3" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+csp_slot s0_10
+flush 10,167
+*d29414
+d `whether the man over there was qualified to be my opponent in the first place."`[\]
+textoff
+waits 167
+csp_slot s0_8
+lbg s0_3,"black"
+flush 23
+meplay 1,5,0
+vol_bgm 0,1000
+vol_me 1,50,1000
+wait 1000
+vol_bgm -1,1000
+textoff
+waits 167
+lbg s0_3,"g1f_s1bp"
+lss s0_8,"bea","a11_nayamu1" ;1
+aspt2 xpos,s0_8,-550
+flush 23
+msgwnd_bea
+*d29415
+d [lv 0*"27"*"40700785"]`".........Qualified?"`[\]
+lss s0_8,"bea","a11_majime1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+*d29416
+d [lv 0*"27"*"40700786"]`"...Probably has something to do with that test or whatever just now."`[@][lv 0*"27"*"40700787"]`"...............What are you planning to do...?"`[\]
+lss s0_10,"enj","a11_majime1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_enj
+*d29417
+d [lv 0*"11"*"42001526"]`"...Y‐...you aren't gonna—"`[\]
+lss s0_9,"but","b22_niramu1" ;1
+flush 10,167
+msgwnd_but
+*d29418
+d [lv 0*"10"*"40100772"]`"I will now question you to determine whether or not you are qualified to be my opponent."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_3,"g1f_s1ap"
+lss s0_10,"ber","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 23
+msgwnd_ber
+*d29419
+d [lv 0*"28"*"42100078"]`".........Listen, now, Battler.`[\]
+lss s0_8,"lam","a11_odoroki1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_lam
+*d29420
+d [lv 0*"29"*"42200199"]` If those qualifications are acknowledged, I will stay in my seat and continue the game.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"g1f_s1ap"
+lss s0_9,"bea","a11_nayamu1" ;1
+flush 24
+msgwnd_bea
+*d29421
+d [lv 0*"27"*"40700788"]` And I shall promise to fight for all eternity until the outcome is decided."`[\]
+lss s0_9,"bea","a11_akuwarai1" ;1
+flush 10,167
+*d29422
+d [lv 0*"27"*"40700789"]`"Heh!`[@][lv 0*"27"*"40700790"]` I was ready for that from the beginning."`[@][lv 0*"27"*"40700791"]`"............However,`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"g1f_s1bp"
+lss s0_8,"but","b34_futeki1" ;1
+aspt2 xpos,s0_8,-370
+flush 23
+msgwnd_but
+*d29423
+d [lv 0*"10"*"40100773"]` if you are not qualified,`[@][lv 0*"10"*"40100774"]` ......you will disappear.`[\]
+lss s0_10,"bea","a11_defo2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d29424
+d2 [lv 0*"27"*"40700792"]` If the opponent disappears, there is no game.`[@][lv 0*"27"*"40700793"]` I can leave this place openly.`[@][lv 0*"27"*"40700794"]` .........Are you ladies satisfied?`[@][lv 0*"27"*"40700795"]` I will not permit interruptions."`[@][lv 0*"27"*"40700796"]`"..............................`[@][#][*][lv 0*"27"*"40700797"]` ......Go ahead, do as you like."`[@][lv 0*"27"*"40700798"]`"......B‐...Battler...`[\]
+wait_on_d 0
+lss s0_10,"bea","a11_futeki2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"g1f_s1ap"
+lss s0_10,"ber","a11_defo1" ;1
+aspt2 xpos,s0_10,550
+flush 23
+msgwnd_ber
+*d29425
+d2 [lv 0*"28"*"42100079"]` You......make sure you answer well..."`[@][#][*][lv 0*"28"*"42100080"]`"The very reason I'm here is because I'm qualified, right?`[\]
+wait_on_d 0
+lss s0_10,"ber","a11_defo2" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_8,"lam","a11_odoroki1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_lam
+*d29426
+d [lv 0*"29"*"42200200"]` Heh, there's nothing to be scared of...!"`[@][lv 0*"29"*"42200201"]`".....................`[\]
+lss s0_24,"but","b11_nayamu2" ;1
+flush 10,167
+msgwnd_but
+*d29427
+d [lv 0*"10"*"40100775"]` .........Y‐......you couldn't be......"`[@][lv 0*"10"*"40100776"]`Gretel grew suddenly pale.`[\]
+csp_slot s0_24
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 24
+textoff
+waits 167
+lbg s0_3,"g1f_s1ap"
+lss s0_10,"enj","b12_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 24
+lss s0_10,"enj","b12_komaru2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d29428
+d [lv 0*"11"*"42001527"]` ......I'd thought her to be the calm, collected type, so her expression surprised me.`[@][lv 0*"11"*"42001528"]`"......Well then, Battler.`[\]
+msgwnd_non
+*d29429
+d ` I shall have you repeat in red."`[@]`"Y‐you're telling me to repeat something?`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_9,"bea","a11_nayamu1" ;1
+flush 10,167
+msgwnd_bea
+*d29430
+d [lv 0*"27"*"40700799"]` Heheh... Damn you, stealing my signature move.`[@][lv 0*"27"*"40700800"]` ...But can I do the red truth too?`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"g1f_s1bp"
+lss s0_10,"but","b22_odoroki2" ;1
+aspt2 xpos,s0_10,550
+flush 24
+msgwnd_but
+*d29431
+d2 [lv 0*"10"*"40100777"]` How...?"`[@][#][*][lv 0*"10"*"40100778"]`"............Ju‐just will it to be so and you can do it.`[@][lv 0*"10"*"40100779"]` It's easy."`[@][lv 0*"10"*"40100780"]`"{p:1:My name is Ushiromiya Battler}.`[\]
+wait_on_d 0
+lss s0_10,"but","b11_komaru1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_8,"lam","a11_odoroki1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_lam
+*d29432
+d [lv 0*"29"*"42200202"]` ......Wh‐......whoa, pretty cool."`[@][lv 0*"29"*"42200203"]`"Stop it!!`[\]
+lss s0_10,"but","b11_aseru1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_but
+*d29433
+d2 [lv 0*"10"*"40100781"][#][*]` I know what you're after...!!`[@][#][*][lv 0*"10"*"40100782"]` But don't do it!`[\]
+wait_on_d 0
+seplay 1,59,71
+d_continue
+wait_on_d 1
+lss s0_10,"but","b11_warai1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+d_continue
+wait_on_d -1
+textoff
+waits 167
+lss s0_9,"enj","a33_komaru5" ;1
+flush 10,167
+vol_mix_fade 1000
+wait 1000
+msgwnd_enj
+*d29434
+d2 [lv 0*"11"*"42001529"]` He's......!!"`[@][#][*][lv 0*"11"*"42001530"]`When Gretel yelled, Beato glared at her.`[@][lv 0*"11"*"42001531"]`{n}Then, her form was wiped away in an instant.`[@][lv 0*"11"*"42001532"]`"Shut up.`[\]
+wait_on_d 0
+bgmplay 77,71,0
+d_continue
+wait_on_d -1
+msgwnd_non
+*d29435
+d ` You leave your seat for a while.`[@]` You too, ladies.`[\]
+textoff
+waits 167
+seplay 1,57,100
+seplay 2,1006,100
+seplay 3,1006,100
+textoff
+waits 167
+lbg s0_26,"white"
+flush 1
+csp_slot s0_9
+textoff
+waits 167
+csp_slot s0_26
+flush 22
+wait 1000
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"g1f_s1ap"
+lss s0_8,"bea","a11_fuman1" ;1
+aspt2 xpos,s0_8,-370
+flush 23
+msgwnd_bea
+*d29436
+d [lv 0*"27"*"40700801"]` If you are going to interfere, I will not hold back."`[@][lv 0*"27"*"40700802"]`"...............We won't get in the way.`[@][lv 0*"27"*"40700803"]` Go ahead, do as you like."`[@][lv 0*"27"*"40700804"]`"B‐Bern, this is bad!!`[\]
+textoff
+waits 167
+csp_slot s0_8
+lbg s0_3,"g1f_s1ap"
+lss s0_10,"ber","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 24
+msgwnd_ber
+*d29437
+d [lv 0*"28"*"42100081"]` She's trying to erase him, she's trying to erase Battler!!"`[@][lv 0*"28"*"42100082"]`"......What......?`[\]
+lss s0_8,"lam","a11_odoroki1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_lam
+*d29438
+d [lv 0*"29"*"42200204"]` What is it she's......scheming here......?"`[@][lv 0*"29"*"42200205"]`"Well then, I shall question your qualifications.`[\]
+csp_slot s0_8
+csp_slot s0_10
+flush 10,167
+lss s0_9,"but","b11_nayamu1" ;1
+flush 10,167
+msgwnd_but
+*d29439
+d [lv 0*"10"*"40100783"]` ............Interesting.`[@][lv 0*"10"*"40100784"]` Attack and defense are reversed from a normal game.`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"g1f_s1bp"
+lss s0_9,"bea","a11_majime1" ;1
+flush 23
+msgwnd_bea
+*d29440
+d2 [lv 0*"27"*"40700805"]` This is a very precious experience, coming at the very, very end.`[@][#][*][lv 0*"27"*"40700806"]` .........Ready? First listen carefully.`[@][lv 0*"27"*"40700807"]` I will speak with the red first."`[@][lv 0*"27"*"40700808"]`{p:1:I am the Golden Witch, {f:5:Beatrice}}.`[@][#][*][lv 0*"27"*"40700809"]`{p:1:And I opened this game in order to fight Ushiromiya Kinzo's grandchild, Ushiromiya Battler}.`[@][lv 0*"27"*"40700810"]`"......I know that.`[\]
+wait_on_d 0
+lss s0_9,"bea","a11_futeki2" ;1
+flush 10,167
+d_continue
+wait_on_d 1
+lss s0_9,"bea","a11_akuwarai1" ;1
+flush 10,167
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 22
+set_window_simple 80
+*d29441
+d2 [lv 0*"27"*"40700810_1"][#][*]` So what?"`[@]`"Repeat it.`[|][lv 0*"27"*"40700810_2"][#][*]` .........‘Ushiromiya Battler's mother is Ushiromiya Asumu’."`[\]
+wait_on_d 0
+seplay 1,59,71
+d_continue
+wait_on_d 1
+seplay 2,59,71
+d_continue
+wait_on_d -1
+set_name_window_non
+textoff
+waits 167
+lbg s0_3,"g1f_s1ap"
+lss s0_8,"but","b11_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 26
+lss s0_8,"but","b11_majime5" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d29442
+d [lv 0*"10"*"40100785"]`"Whaa?!`[@][lv 0*"10"*"40100786"]` ...Why's Mom's name popping up all of a sudden......?"`[\]
+lss s0_10,"bea","a11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d29443
+d [lv 0*"27"*"40700811"]`"I do not require chatter.`[@][lv 0*"27"*"40700812"]` Just repeat it in red."`[\]
+lss s0_8,"but","b22_odoroki2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d29444
+d [lv 0*"10"*"40100787"]`Beato urged me with the same indifferent tone.`[@][lv 0*"10"*"40100788"]`......But I don't have a clue what she's trying to do.`[\]
+lss s0_10,"bea","a11_majime4" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d29445
+d [lv 0*"27"*"40700813"]`{n}......I've done absolutely nothing wrong that I'd hate to be confronted with, and there's nothing that I'm hiding.`[@][lv 0*"27"*"40700814"]`There's nothing she could demand for me to repeat that would cause me any trouble.`[\]
+msgwnd_non
+*d29446
+d `{n}......So, why something like this...?`[\]
+*d29447
+d `"Sure, I'll repeat it.`[@]` {p:1:Ushiromiya Battler's mother is Ushiromiya Asumu}.`[\]
+*d29448
+d ` ......The red sure is convenient.`[@]` No need to bother myself with bringing a copy of the family register."`[\]
+lss s0_8,"but","b11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d29449
+d2 [lv 0*"10"*"40100789"]`"I do not require chatter.`[@][lv 0*"10"*"40100790"][#][*]` I will continue.`[@][#][*][lv 0*"10"*"40100791"]` "Your name is Ushiromiya Battler"."`[@][lv 0*"10"*"40100792"]`"......Sure.`[\]
+wait_on_d 0
+seplay 1,59,71
+d_continue
+wait_on_d 1
+lss s0_8,"but","b11_warai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_10,"bea","a11_majime4" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d29450
+d [lv 0*"27"*"40700815"]` {p:1:My name is Ushiromiya Battler}."`[@][lv 0*"27"*"40700816"]`"It was from Ushiromiya Asumu that Ushiromiya Battler was born."`[@][lv 0*"27"*"40700817"]`"{p:1:It was from Ushiromiya Asumu that Ushiromiya Battler was born}."`[\]
+lss s0_8,"but","b11_futeki1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d29451
+d2 [lv 0*"10"*"40100793"]`"It was from Ushiromiya Asumu that you were born."`[@][lv 0*"10"*"40100794"][#][*]`"{p:1:It was from Ushiromiya}...`[\]
+wait_on_d 0
+seplay 2,59,71
+d_continue
+wait_on_d -1
+lss s0_10,"bea","a11_majime4" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d29452
+d [lv 0*"27"*"40700818"]`{m:-5:—}—...`[\]
+lss s0_8,"but","b11_defo2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d29453
+d2 [lv 0*"10"*"40100795"][#][*]`...hhnguh...`[\]
+wait_on_d 0
+seplay 1,59,71
+d_continue
+wait_on_d -1
+lss s0_10,"bea","a11_majime2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d29454
+d [lv 0*"27"*"40700819"]`...{nobr:{m:-5:——}—}?!`[\]
+lss s0_8,"but","b11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d29455
+d2 [lv 0*"10"*"40100796"][#][*]` {nobr:{m:-5:——}—}?!?!"`[|][lv 0*"10"*"40100797"][#][*]`All of a sudden, my throat closed...`[|][lv 0*"10"*"40100798"]`{n}I was suddenly assaulted by a shortness of breath that felt as if I had been choked.`[|][lv 0*"10"*"40100799"]`Wh‐.........what's going on......?`[@][lv 0*"10"*"40100800"]` O‐......one more time......`[\]
+wait_on_d 0
+seplay 2,59,71
+d_continue
+wait_on_d 1
+seplay 2,57,71
+lss s0_8,"but","b11_kuyasigaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+meplay 1,17,70
+msgwnd_non
+*d29456
+d `"It was from Ushiromiya Asumu that I was born...`[@]` ...Dammit...`[\]
+*d29457
+d ` It was from Ushiromiya Asumu that I was born..."`[@]`"............Wh‐what the hell?`[\]
+lss s0_8,"but","b11_nayamu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+seplay 1,57,71
+msgwnd_but
+*d29458
+d2 [lv 0*"10"*"40100801"]` Even though I was doing it so easily a second ago, I suddenly stopped being able to get the red to work...!"`[@][lv 0*"10"*"40100802"]`"........................Do you decline to repeat it?"`[|][lv 0*"10"*"40100803"][#][*]`"I'm not declining...!!`[\]
+wait_on_d 0
+seplay 2,57,71
+d_continue
+wait_on_d -1
+lss s0_8,"but","b11_komaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d29459
+d [lv 0*"10"*"40100804"]` It's not working for some reason...!!`[@][lv 0*"10"*"40100805"]` It was from Ushiromiya Asumu that I was born...!!`[\]
+lss s0_10,"bea","a11_majime4" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+meplay 2,19,90
+msgwnd_bea
+*d29460
+d [lv 0*"27"*"40700820"]` Why?!`[\]
+lss s0_8,"but","b22_odoroki2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d29461
+d2 [lv 0*"10"*"40100806"]` Dammit, why can't I use the red?!`[@][lv 0*"10"*"40100807"]` What the hell?!?!"`[@][#][*][lv 0*"10"*"40100808"]`"..................tch..."`[@][lv 0*"10"*"40100809"]`"..........................."`[@][lv 0*"10"*"40100810"]`My Mom is Ushiromiya Asumu!`[@][lv 0*"10"*"40100811"]`{n}Why can't I say that fact in red?!`[\]
+wait_on_d 0
+lss s0_8,"but","b11_kuyasigaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+seplay 1,57,71
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"g1f_s1bp"
+lss s0_10,"lam","a11_odoroki1" ;1
+aspt2 xpos,s0_10,370
+flush 24
+msgwnd_lam
+*d29462
+d [lv 0*"29"*"42200206"]`{n}What's going on...?!`[\]
+lss s0_8,"ber","a11_defo2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ber
+*d29463
+d [lv 0*"28"*"42100083"]` Th‐this is......gghh—!!`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 22
+msgwnd_non
+*d29464
+d `"If you try to forcefully speak red that cannot be spoken, you will choke.`[@]` There is no need to strain yourself.`[@]` .........Allow me to use the aforementioned fact to press you in blue."`[@]`"......Do you remember?`[\]
+textoff
+waits 167
+lbg s0_3,"g1f_s1bp"
+lss s0_9,"bea","a11_futeki2" ;1
+flush 23
+msgwnd_bea
+*d29465
+d [lv 0*"27"*"40700821"]` The blue is used to proclaim a theory for the opponent to deny.`[@][lv 0*"27"*"40700822"]` They are then burdened with the responsibility of denying that in red, and if they do not, then it is victory.`[@][lv 0*"27"*"40700823"]` .........Then let me begin."`[\]
+lss s0_9,"bea","a11_majime2" ;1
+flush 10,167
+*d29466
+d [lv 0*"27"*"40700824"]`{p:2:Due to my previous demand to repeat and your subsequent refusal,}`[@][lv 0*"27"*"40700825"]` {p:2:I proclaim that you are not qualified to be my opponent}.`[@][lv 0*"27"*"40700826"]`{p:2:After all,}`[@][lv 0*"27"*"40700827"]` {p:2:{f:5:Beatrice} opened this game in order to fight with "Ushiromiya Kinzo's grandchild, Ushiromiya Battler"}.`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 22
+seplay 1,1006,100
+anim s0_17,"no37",1
+blend_mode add,s0_17
+flush 1
+waitvideo
+csp_slot s0_17
+flush 1
+textoff
+waits 167
+lbg s0_3,"black"
+flush 1
+seplay 2,2,100
+set_window_simple 80
+*d29467
+d2 [lv 0*"27"*"40700828"]`{p:2:This gave you the responsibility, as my opponent,}`[@][lv 0*"27"*"40700829"][#][*]` {p:2:to declare in red that you are "Ushiromiya Kinzo's grandchild, Ushiromiya Battler"}.`[\]
+wait_on_d 0
+seplay 1,2,100
+d_continue
+wait_on_d -1
+seplay 1,2,100
+*d29468
+d2 [lv 0*"27"*"40700830"]`{p:2:You declined to repeat that}.`[@][lv 0*"27"*"40700831"][#][*]`{p:2:This means the loss of your qualifications}.`[\]
+wait_on_d 0
+seplay 1,2,100
+d_continue
+wait_on_d -1
+seplay 1,2,100
+*d29469
+d2 [lv 0*"27"*"40700832"]`"......D‐......deny something about that in red...`[@][#][*][lv 0*"27"*"40700833"]` ...Quickly!!"`[\]
+wait_on_d 0
+seplay 2,2,100
+d_continue
+wait_on_d -1
+seplay 1,2,100
+*d29470
+d2 [lv 0*"27"*"40700834"]`"S‐sure...`[@]` I,`[#][*][lv 0*"27"*"40700835"]` {p:1:I am Ushiromiya Battler}...!`[\]
+wait_on_d 0
+seplay 2,2,100
+d_continue
+wait_on_d -1
+set_name_window_non
+anim s0_17,"no32",1
+blend_mode add,s0_17
+flush 1
+textoff
+waits 167
+seplay 3,66,100
+waits 167
+seplay 1,2,100
+waits 167
+seplay 2,2,100
+waits 167
+seplay 1,2,100
+waits 167
+seplay 2,2,100
+waits 167
+seplay 1,2,100
+waits 167
+seplay 2,2,100
+waits 167
+seplay 1,1006,100
+seplay 2,2,100
+wait 100
+waitvideo
+csp_slot s0_17
+flush 1
+textoff
+waits 167
+lbg s0_3,"black"
+flush 1
+vol_me 1,-1,1000
+vol_me 2,-1,1000
+seplay 1,1006,100
+seplay 2,2,100
+seplay 3,57,100
+textoff
+waits 167
+lbg s0_3,"white"
+flush 1
+textoff
+waits 167
+lbg s0_3,"black"
+flush 2
+textoff
+waits 167
+lbg s0_3,"g1f_s1ap"
+lss s0_10,"lam","a11_odoroki1" ;1
+aspt2 xpos,s0_10,370
+flush 23
+msgwnd_lam
+*d29471
+d [lv 0*"29"*"42200207"]` Given that I'm able to repeat that in red, that should mean that I'm your opponent!!"`[@][lv 0*"29"*"42200208"]`"It may be a fact that you have the name Ushiromiya Battler.`[\]
+lss s0_8,"but","b22_odoroki1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d29472
+d2 [lv 0*"10"*"40100812"]` However...`[@][#][*][lv 0*"10"*"40100813"]` {p:2:People's names are not exclusive}.`[|][lv 0*"10"*"40100814"][#][*]` {p:2:It is possible for multiple humans to have the name Ushiromiya Battler}."`[@][lv 0*"10"*"40100815"]`"`[\]
+wait_on_d 0
+lss s0_8,"but","b11_kuyasigaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d 1
+seplay 1,59,71
+d_continue
+wait_on_d -1
+csp_slot s0_10
+flush 10,167
+lss s0_10,"bea","a11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d29473
+d2 [lv 0*"27"*"40700836"]`{p:2:What it comes down to is this}.`[@][#][*][lv 0*"27"*"40700837"]` ......{p:2:You are a different person with the same first and last names as Ushiromiya Asumu's son, Ushiromiya Battler}."`[|][lv 0*"27"*"40700838"][#][*]`"Wh‐......what......?!!`[@][lv 0*"27"*"40700839"][#][*]` Don't be so stupiiiiiiiiid!!`[\]
+wait_on_d 0
+lss s0_10,"bea","a11_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d 1
+seplay 1,2,100
+d_continue
+wait_on_d 2
+seplay 1,2,100
+d_continue
+wait_on_d -1
+lss s0_10,"bea","a11_akuwarai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d29474
+d2 [lv 0*"27"*"40700840"]` I'm Mom's kid!!`[#][*]` Ushiromiya Asumu's kid!!"`[@][lv 0*"27"*"40700841"][#][*]`"`[\]
+wait_on_d 0
+seplay 1,2,100
+d_continue
+wait_on_d 1
+seplay 1,2,100
+d_continue
+wait_on_d -1
+lss s0_8,"but","b22_sakebu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d29475
+d [lv 0*"10"*"40100816"]`{p:1:It was from Ushiro}miya Asumu that...`[@][lv 0*"10"*"40100817"]`—...`[@][lv 0*"10"*"40100818"]`hkkhk—`[@][lv 0*"10"*"40100819"]`......nn'g'g'gkkhh......!!!`[\]
+lss s0_8,"but","b22_kuyasigaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+seplay 1,59,71
+*d29476
+d2 [lv 0*"10"*"40100820"]` ............*gasp*!"`[#][*]`"Shit!!`[|][lv 0*"10"*"40100822"]` Why?!`[|][lv 0*"10"*"40100823"]` Why can't I say that I was born from my mom?!`[|][lv 0*"10"*"40100824"]` How could something so stupid be true?!"`[@][lv 0*"10"*"40100825"]`"No need to suffer.`[\]
+wait_on_d 0
+seplay 1,57,71
+d_continue
+wait_on_d -1
+lss s0_8,"but","b22_naku1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d29477
+d [lv 0*"10"*"40100826"]` I will not toy with you.`[@][lv 0*"10"*"40100827"]` ......This is checkmate.`[@][lv 0*"10"*"40100828"]` {p:1:You are not Ushiromiya Asumu's son}."`[@][lv 0*"10"*"40100829"]`...............Wha—...............`[\]
+lss s0_10,"bea","a11_futeki2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d29478
+d2 [lv 0*"27"*"40700842"]`"You're.........`[@][lv 0*"27"*"40700843"]`kidding......me..............."`[@][#][*][lv 0*"27"*"40700844"]`"Who are you?`[@][lv 0*"27"*"40700845"][#][*]` What person calling themselves Ushiromiya Battler?"`[\]
+wait_on_d 0
+lss s0_10,"bea","a11_majime2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d 1
+seplay 1,59,71
+d_continue
+wait_on_d -1
+meplay 1,16,50
+msgwnd_non
+*d29479
+d `"W‐...wait a second...`[\]
+lss s0_8,"but","b22_odoroki2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d29480
+d [lv 0*"10"*"40100830"]` ......I am...Ushiromiya Battler......`[|][lv 0*"10"*"40100831"]` It was from Ushiromiya Asumu that I was born, and I'm Mom and Dad's son...!"`[\]
+lss s0_10,"bea","a11_majime4" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d29481
+d [lv 0*"27"*"40700846"]`"No.`[@][lv 0*"27"*"40700847"]` There is no way that you are the Ushiromiya Battler with qualifications as my opponent.`[\]
+lss s0_8,"but","b22_kuyasigaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d29482
+d [lv 0*"10"*"40100832"]` And as proof..."`[@][lv 0*"10"*"40100833"]`"Proof?!"`[@][lv 0*"10"*"40100834"]`"You do not know of that sin six years ago."`[\]
+lss s0_10,"bea","a11_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d29483
+d [lv 0*"27"*"40700848"]`".........Uh,`[@][lv 0*"27"*"40700849"]` .........th‐that's............"`[@][lv 0*"27"*"40700850"]`"No, if you were the true Ushiromiya Battler, you would not commit a sin.`[\]
+lss s0_8,"but","b22_odoroki2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d29484
+d [lv 0*"10"*"40100835"]` But consequently, a sin did occur, a span of six years became a blank space,`[\]
+lss s0_10,"bea","a11_futeki2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d29485
+d [lv 0*"27"*"40700851"]` and a man who knew nothing of that time appeared on Rokkenjima calling himself Ushiromiya Battler.`[\]
+lss s0_8,"but","b11_kuyasigaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d29486
+d [lv 0*"10"*"40100836"]` ............The truth of it all...goes like this."`[|][lv 0*"10"*"40100837"]`Six years ago, ......the true Ushiromiya Battler, qualified to be my opponent, was already dead.`[\]
+lss s0_10,"bea","a11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d29487
+d [lv 0*"27"*"40700852"]`You were involved in a plot by Rudolf having something to do with distribution of the inheritance...`[@][lv 0*"27"*"40700853"]`a body double set up in Ushiromiya Battler's place.`[@][lv 0*"27"*"40700854"]`"I, ......I've never heard anything so stupid.........`[@][lv 0*"27"*"40700855"]` .........That's......just......absurd............"`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 25
+meplay 1,5,50
+msgwnd_non
+*d29488
+d `"......B‐Battler......!`[\]
+*d29489
+d ` Get ahold of yourself...!!"`[@]`"...........................Well.`[\]
+seplay 3,21,90
+textoff
+waits 167
+lbg s0_3,"g1f_s1bp"
+lss s0_24,"but","b22_kuyasigaru1" ;1
+flush 22
+msgwnd_but
+*d29490
+d2 [lv 0*"10"*"40100838"]` ...If he can't counter back, there's nothing more to do.`[@][#][*][lv 0*"10"*"40100839"]` ...Battler did not possess the qualifications.`[\]
+wait_on_d 0
+lss s0_24,"but","b22_naku2" ;1
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_10,"lam","a11_odoroki1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_lam
+*d29491
+d [lv 0*"29"*"42200209"]` That's how it is."`[@][lv 0*"29"*"42200210"]`"A‐are you okay with that, Bern?!`[\]
+lss s0_8,"ber","a11_defo2" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_ber
+*d29492
+d2 [lv 0*"28"*"42100084"]` If you accept that, you'll lose too, you know?!"`[@][lv 0*"28"*"42100085"]`"Uh, and you'll win.`[@][#][*][lv 0*"28"*"42100086"]` ......Why are you taking Battler's side......?"`[@][lv 0*"28"*"42100087"]`"Mgh, ............mghhh..."`[\]
+wait_on_d 0
+lss s0_8,"ber","a11_defo1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_10,"lam","a11_odoroki2" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_lam
+*d29493
+d [lv 0*"29"*"42200211"]`"How disappointing, Battler.`[@][lv 0*"29"*"42200212"]` .........It really is disappointing that you didn't have the qualifications to be {f:5:Beatrice}'s opponent.`[\]
+lss s0_8,"ber","a11_defo2" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_ber
+*d29494
+d [lv 0*"28"*"42100088"]` I was careless myself.`[@][lv 0*"28"*"42100089"]` I can't believe I bet on an unqualified piece.`[\]
+lss s0_10,"lam","a11_odoroki1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_lam
+*d29495
+d [lv 0*"29"*"42200213"]` ............You've defeated me utterly, {f:5:Beatrice}."`[\]
+csp_slot s0_8
+lss s0_25,"ber","a11_defo2" ;1
+aspt2 xpos,s0_25,-550
+flush 10,167
+msgwnd_ber
+*d29496
+d2 [lv 0*"28"*"42100090"]`"......There is no victory or defeat.`[@][lv 0*"28"*"42100091"]` The opponent will simply disappear.`[@][#][*][lv 0*"28"*"42100092"]` Perhaps I should say that he was never there in the first place."`[@][lv 0*"28"*"42100093"]`"But then......who.........am I......?`[@][lv 0*"28"*"42100094"]` Am I......not Mom and Dad's kid......?!"`[\]
+wait_on_d 0
+lss s0_25,"ber","a11_defo1" ;1
+aspt2 xpos,s0_25,-550
+flush 10,167
+d_continue
+wait_on_d -1
+csp_slot s0_25
+csp_slot s0_24
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"g1f_s1ap"
+lss s0_10,"bea","a11_majime1" ;1
+aspt2 xpos,s0_10,550
+flush 24
+msgwnd_bea
+*d29497
+d [lv 0*"27"*"40700856"]`"Who am I...... What am I......?`[@][lv 0*"27"*"40700857"]` ............If I'm not Mom's kid, ......then what, are you saying I'm some total stranger's kid with no relation to them at all?!"`[@][lv 0*"27"*"40700858"]`"If that is the case, it would mean that you do not share Kinzo's blood.`[\]
+lss s0_25,"but","b22_odoroki2" ;1
+aspt2 xpos,s0_25,-550
+flush 10,167
+msgwnd_but
+*d29498
+d [lv 0*"10"*"40100840"]` Either way, you are not qualified to compete in this game."`[@][lv 0*"10"*"40100841"]`"...............Absurd.........`[\]
+lss s0_25,"but","b11_kuyasigaru1" ;1
+aspt2 xpos,s0_25,-550
+flush 10,167
+*d29499
+d [lv 0*"10"*"40100842"]`.........absurd..............."`[@][lv 0*"10"*"40100843"]`"Enough.`[\]
+lss s0_10,"bea","a11_majime4" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_bea
+*d29500
+d [lv 0*"27"*"40700859"]` ......I was slightly aware that you might not be Ushiromiya Battler in the first place.`[@][lv 0*"27"*"40700860"]` ......So, I had to question you.`[\]
+lss s0_25,"but","b22_naku1" ;1
+aspt2 xpos,s0_25,-550
+flush 10,167
+msgwnd_but
+*d29501
+d [lv 0*"10"*"40100844"]` I had to ask about something the real Battler would have known."`[|][lv 0*"10"*"40100845"]`"............What a shame.`[\]
+lss s0_10,"bea","a12_nayamu1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_bea
+*d29502
+d [lv 0*"27"*"40700861"]` I even bet on the one in a quadrillion chance of a miracle,`[@][lv 0*"27"*"40700862"]` that you might really be Ushiromiya Battler.`[@][lv 0*"27"*"40700863"]` However, it looks like you're a different person with the same first and last names after all."`[@][lv 0*"27"*"40700864"]`"............kh.........uuunghhh............"`[\]
+lss s0_10,"bea","a12_fukigen1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+*d29503
+d [lv 0*"27"*"40700865"]`Bit by bit, Battler's form......began to be clouded in darkness...`[@][lv 0*"27"*"40700866"]`No, maybe it was the other way around.`[@][lv 0*"27"*"40700867"]` ......The whole world was becoming clouded in darkness, leaving only Battler behind...`[@][lv 0*"27"*"40700868"]`Battler was down on all fours, hanging his head and repeatedly questioning himself.`[\]
+lbg s0_17,"black"
+z_order_override2 s0_17,s0_11
+aspt2 alpha,s0_17,50
+flush 2
+msgwnd_but
+*d29504
+d [lv 0*"10"*"40100846"]`......However, he would never be given an answer......`[\]
+msgwnd_non
+*d29505
+d `In the world stained with darkness, Beato spoke something, and {f:5:Lambdadelta} ran up to Battler yelling something very quickly,`[\]
+lbg s0_17,"black"
+z_order_override2 s0_17,s0_11
+aspt2 alpha,s0_17,100
+flush 22
+*d29506
+d ` but it already seemed very far away, and it didn't reach his ears...`[@]`............Then he,`[\]
+lbg s0_17,"black"
+z_order_override2 s0_17,s0_11
+aspt2 alpha,s0_17,150
+flush 22
+*d29507
+d ` .........not knowing who "he" was,`[\]
+*d29508
+d ` ............erased...`[\]
+lbg s0_17,"black"
+z_order_override2 s0_17,s0_11
+aspt2 alpha,s0_17,180
+lss s0_10,"bea","a12_nayamu1" ;1
+aspt2 xpos,s0_10,550
+flush 22
+wait 1000
+lss s0_9,"lam","a11_odoroki1" ;1
+flush 10,167
+*d29509
+d `himself............`[@]`"BATTLEEEEEEEEEEER......!! ......nn...gh........."`[\]
+csp_slot s0_9
+csp_slot s0_10
+csp_slot s0_25
+csp_slot s0_17
+textoff
+waits 167
+lbg s0_3,"black"
+flush 2
+*d29510
+d2 `"Now the opponent has disappeared.`[!w500]` ......Well then, if you would excuse me.`[!w667]` And ladies, you should prepare for your journey.`[!w417]` No more festivities are prepared for in my territory.`[#][*][\]
+wait_on_d 0
+gstc 290
+d_continue
+wait_on_d -1
+textoff
+waits 167
+vol_mix_fade 5000
+vol_bgm -1,5000
+wait 5000
+wait 2000
+meplay 1,5,40
+textoff
+waits 167
+rain_pause s0_11
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+textoff
+waits 167
+lbg s0_1,"mlib_1ar_bg"
+lbg s0_3,"mlib_1ar"
+lss s0_23,"bea","a12_nayamu1" ;1
+aspt2 xpos,s0_23,550
+lss s0_24,"lam","a11_odoroki2" ;1
+flush 22
+lss s0_24,"lam","a11_odoroki1" ;1
+flush 10,167
+msgwnd_lam
+*d29511
+d [lv 0*"29"*"42200214"]` It was good seeing you.`[\]
+lss s0_23,"bea","a12_fuman3" ;1
+aspt2 xpos,s0_23,550
+flush 10,167
+msgwnd_bea
+*d29512
+d [lv 0*"27"*"40700869"]` ......Goodbye."`[@][lv 0*"27"*"40700870"]`Without saying anything more,`[@][lv 0*"27"*"40700871"]` Beato clouded her own form in darkness as well, and disappeared......`[@][lv 0*"27"*"40700872"]`"A‐.........are you......alright with this?!`[@][lv 0*"27"*"40700873"]` Battler......d‐disappeared, you know?!`[@][lv 0*"27"*"40700874"]` Someone who hates losing as much as you do is okay with this?!"`[\]
+textoff
+waits 167
+seplay 1,52,71
+aspt2 breakup,s0_23,0
+aspt2 breakup,s0_23,1000,2000
+aspt2 alpha,s0_23,0,2000
+sptwait2 breakup,s0_23
+csp_slot s0_23
+flush 1 ;flush2: NO frames
+msgwnd_non
+*d29513
+d `"..................Weren't you betting on my defeat?`[@]` Then you should be over the moon.`[\]
+csp_slot s0_24
+flush 10,167
+lss s0_23,"lam","a11_odoroki1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_lam
+*d29514
+d [lv 0*"29"*"42200215"]` Congrats, Lambda.`[@][lv 0*"29"*"42200216"]` Well then, let's meet again in some other world, okay?"`[@][lv 0*"29"*"42200217"]`"That said, there are endless fragment worlds out there.`[\]
+lss s0_25,"ber","a11_defo1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_ber
+*d29515
+d [lv 0*"28"*"42100095"]` The probability of us having some connection again somewhere is probably truly less than one in a quadrillion.`[@][lv 0*"28"*"42100096"]` ............Alright, it was fun.`[@][lv 0*"28"*"42100097"]` Bye‐bye."`[@][lv 0*"28"*"42100098"]`"Ah, ...wait up, Bern...!!!"`[\]
+lss s0_25,"ber","a11_defo2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+*d29516
+d [lv 0*"28"*"42100099"]`Chasing after {f:5:Bernkastel}, who had disappeared first, {f:5:Lambdadelta} disappeared as well...`[@][lv 0*"28"*"42100100"]`Then, after everyone had disappeared, .........there was no one left in the study.`[@][lv 0*"28"*"42100101"]`It returned to silence, almost as though no one had been there from the beginning.`[@][lv 0*"28"*"42100102"]`{n}......No one was here in the first place.`[\]
+textoff
+waits 167
+seplay 1,52,71
+aspt2 breakup,s0_25,0
+aspt2 breakup,s0_25,1000,2000
+aspt2 alpha,s0_25,0,2000
+sptwait2 breakup,s0_25
+csp_slot s0_25
+flush 1 ;flush2: NO frames
+csp_slot s0_23
+flush 10,167
+msgwnd_lam
+*d29517
+d [lv 0*"29"*"42200218"]`The silent study told of that wordlessly, and the sound of the wind and rain began to fill the room bit by bit......`[\]
+seplay 1,57,71
+textoff
+waits 167
+lbg s0_26,"white"
+flush 1
+textoff
+waits 167
+csp_slot s0_26
+csp_slot s0_21
+csp_slot s0_22
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+flush 22
+msgwnd_non
+*d29518
+d `In a world where everything had sunk into darkness, Beato questioned herself.`[\]
+*d29519
+d `"......The fact is............from the very beginning, magic should only have been used within Mariage Sorcière."`[\]
+textoff
+waits 167
+meplay 2,12,40
+csp_slot s0_21
+csp_slot s0_22
+rain_resume s0_11
+flush 42
+*d29520
+d `"............Yes.`[@]` ...I thought that too,`[\]
+*d29521
+d ` ......when Ange happened."`[\]
+textoff
+waits 167
+csp_slot s0_1
+lbg s0_3,"black"
+flush 42
+vol_mix_fade 3000
+wait 3000
+wait 2000
+gstc 291
+*d29522
+d `"The witches' alliance began with you and me.`[\]
+textoff
+waits 167
+lss s0_10,"bea","a12_fuman2" ;1
+aspt2 xpos,s0_10,370
+flush 2
+bgmplay 75,71,0
+msgwnd_bea
+*d29523
+d [lv 0*"27"*"40700875"]` Just two people.`[\]
+textoff
+waits 167
+lss s0_8,"mar","b11_niyari1" ;1
+aspt2 xpos,s0_8,-370
+flush 2
+msgwnd_mar
+*d29524
+d [lv 0*"13"*"40401295"]` ......Mixing in other people was the first mistake..."`[@][lv 0*"13"*"40401296"]`".........It was just so much fun.`[|][lv 0*"13"*"40401297"]` ...That's why we wanted to add other people close to us into that circle.`[\]
+lss s0_10,"bea","a12_fuman3" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d29525
+d [lv 0*"27"*"40700876"]` And in that way, we wished for the witches' alliance to grow forever larger,`[@][lv 0*"27"*"40700877"]` so everyone could have fun using magic together, and all become happy."`[@][lv 0*"27"*"40700878"]`"But.........in the end, you and I were the only ones able to understand magic."`[\]
+lss s0_8,"mar","b11_warai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_mar
+*d29526
+d2 [lv 0*"13"*"40401298"]`"We're......the only two witches in this world, brought together by a miracle.`[@][lv 0*"13"*"40401299"]` .........As long as I have you, Beato, I don't need anyone else anymore."`[@][#][*][lv 0*"13"*"40401300"]`"............Nor I.`[@][lv 0*"13"*"40401301"]` As long as you are here, I no longer need anyone else."`[\]
+wait_on_d 0
+lss s0_8,"mar","b11_akuwarai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_10,"bea","a12_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d29527
+d [lv 0*"27"*"40700879"]`"In the very first moment that Mariage Sorcière was formed,`[\]
+lss s0_8,"mar","b11_niyari1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_mar
+*d29528
+d2 [lv 0*"13"*"40401302"]` ......it was already complete."`[@][#][*][lv 0*"13"*"40401303"]`"...............That is...so.`[\]
+wait_on_d 0
+lss s0_8,"mar","b11_warai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_10,"bea","a12_hanbeso1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d29529
+d [lv 0*"27"*"40700880"]` That is truly so......"`[@][lv 0*"27"*"40700881"]`It was a witches' alliance to make everyone happy together, with magic.`[\]
+lss s0_8,"mar","b11_niyari1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_mar
+*d29530
+d [lv 0*"13"*"40401304"]`{n}......I wonder when it got this screwed up?`[|][lv 0*"13"*"40401305"]`What was I trying to do when I started this game?`[\]
+lss s0_10,"bea","a12_hanbeso1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d29531
+d [lv 0*"27"*"40700882"]`{n}......I can't really remember even that.`[@][lv 0*"27"*"40700883"]`No, I may remember,`[\]
+seplay 1,22,71
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"white"
+flush 42
+meplay 1,5,40
+lbg s0_5,"butterfly_4sp1"
+textoff
+waits 167
+lbg s0_3,"rose_2ap"
+spriteset_enable 1
+textoff
+waits 167
+lbg s1_3,"white"
+aspritesetpt breakup,1,0
+flush 1
+aspritesetpt breakup,1,1000,3000
+spritesetptwait breakup,1
+reset_set 1
+csp -11
+flush 1
+msgwnd_non
+*d29532
+d ` ...but that's a feeling I now wish to throw away to the far side of oblivion.`[@]`".........It's alright.`[\]
+*d29533
+d ` Let's just forget everything, okay?`[@]` Our little two‐person Mariage Sorcière.`[\]
+*d29534
+d ` ......We'll accept each other.`[@]` And no one will be able to hurt us.`[\]
+csp_slot s0_5
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+msgwnd_mar
+*d29535
+d [lv 0*"13"*"40401306"]` So we won't be hurt anymore. We won't cry."`[@][lv 0*"13"*"40401307"]`"Let's forget everything.`[@][lv 0*"13"*"40401308"]` ............Okay, Beato?`[@][lv 0*"13"*"40401309"]` ......We...are eternal......"`[@][lv 0*"13"*"40401310"]`"..............................Maria......`[@][lv 0*"13"*"40401311"]` ............uuuuuuuu, .........uuuuuuuuuuuuu...!!"`[\]
+*d29536
+d [lv 0*"13"*"40401312"]` ............uuuuuuuu, .........uuuuuuuuuuuuu...!!"`[@][lv 0*"13"*"40401313"]` ............uuuuuuuu, .........uuuuuuuuuuuuu...!!"`[@][lv 0*"13"*"40401314"]` ............uuuuuuuu, .........uuuuuuuuuuuuu...!!"`[\]
+msgwnd_bea
+*d29537
+d [lv 0*"27"*"40700884"]` ............uuuuuuuu, .........uuuuuuuuuuuuu...!!"`[@][lv 0*"27"*"40700885"]` ............uuuuuuuu, .........uuuuuuuuuuuuu...!!"`[\]
+textoff
+waits 167
+vol_bgm -1,5000
+wait 5000
+break_glass
+wait 500
+lbg s0_29,"black"
+flush 10,500
+csp_slot s0_29
+wait 83
+ch_done flag_scenario_4_17

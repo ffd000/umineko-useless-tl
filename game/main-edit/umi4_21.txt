@@ -1,0 +1,836 @@
+*ura_teatime_4
+log_reset
+mov $name_chapter_r_click,r_click_chapters_4_ura
+mov $name_chapter_save, "4_ura"
+new_ura 4
+gstc 325
+flush 10,167
+textoff
+waits 167
+vol_mix_fade 1000
+wait 1000
+textoff
+waits 167
+lbg s0_3,"different_spiral_1a"
+flush 8
+wait 1000
+seplay 1,22,71
+anim s0_17,"no83",1
+flush 1
+waitvideo
+lbg s0_17,"no83_0051"
+flush 1
+waits 167
+csp_slot s0_17
+flush 11
+seplay 2,52,71
+textoff
+waits 167
+lbg s0_3,"black"
+show_whirl
+bgmplay 110,40,0
+textoff
+waits 167
+lbg s0_3,"unknown01"
+show_whirl
+wait 4000
+textoff
+waits 167
+lbg s0_3,"white"
+show_whirl
+wait 1000
+textoff
+waits 167
+lbg s0_3,"sub_r1ap"
+flush 6
+*d32456
+d `Scattered over the big bed were cute jellybeans of various colors,`[@]` and chocolate coins.`[\]
+textoff
+waits 167
+lbg s0_3,"sub_r1bp"
+flush 5
+*d32457
+d `A fork was stuck into the shortcake peeking out of a gift box,`[@]` and there were decanters with drinks of various colors lined up on the side table.`[\]
+*d32458
+d `But the venomous color of the drink poured into the glass matched none of the decanters.`[\]
+*d32459
+d `Someone had probably been playing around, mixing them together.`[\]
+*d32460
+d `The taste aside, that was a lot of fun to do.`[\]
+*d32461
+d `On top of the fluffy bed were several colorful, big pillows stuffed with dreams.`[\]
+textoff
+waits 167
+lbg s0_3,"white"
+flush 9
+vol_bgm 80,1000
+wait 1000
+textoff
+waits 167
+lbg s0_3,"e0902"
+flush 22
+*d32462
+d `And on this big bed that looked like something out of a child's dream world,`[@]` {f:5:Bernkastel} lay face down,`[@]` and {f:5:Lambdadelta} lay face up, hugging a pillow and relaxing......`[\]
+textoff
+waits 167
+seplay 1,47,71
+wait 500
+seplay 1,13,71
+agpt quakeycycle,33
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+msgwnd_lam
+*d32463
+d [lv 0*"29"*"92200224"]`"Ahahhahahhahhah, this one was a real rush, wasn't it?`[@][lv 0*"29"*"92200225"]` I got re~ally anxious when Beato said she'd stop the game."`[\]
+seplay 1,48,71
+seplay 1,13,71
+agpt quakeycycle,33
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+msgwnd_ber
+*d32464
+d [lv 0*"28"*"92100259"]`".....................What a rude witch, to start a game of this scale and try to end it by throwing it away."`[\]
+msgwnd_lam
+*d32465
+d [lv 0*"29"*"92200226"]`"Wasn't Ange a good piece?`[@][lv 0*"29"*"92200227"]` After Beato ran for it, Ange dragged her back and made her resume the game.`[@][lv 0*"29"*"92200228"]` It's too bad that she gave Battler a bit too much enthusiasm, though."`[\]
+textoff
+waits 167
+seplay 1,47,71
+wait 500
+seplay 1,13,71
+agpt quakeycycle,33
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+msgwnd_ber
+*d32466
+d [lv 0*"28"*"92100260"]`"..................Because she knew Battler is weak against emotions."`[\]
+msgwnd_lam
+*d32467
+d [lv 0*"29"*"92200229"]`"No kidding.`[@][lv 0*"29"*"92200230"]` He looked like he might even go easy on his enemy Beato."`[\]
+msgwnd_ber
+*d32468
+d [lv 0*"28"*"92100261"]`"............Based on the previous game, I was uneasy that he might start to feel compassion for Beato, and take the game in an odd direction.`[@][lv 0*"28"*"92100262"]` .........Ange was a trump card to get Battler back on track if and when he mistook his goal."`[\]
+*d32469
+d [lv 0*"28"*"92100263"]`".........In truth, I wanted to have her support him a bit more before playing her out.`[@][lv 0*"28"*"92100264"]` She really did play and discard herself straight away.`[@][lv 0*"28"*"92100265"]` What a waste for a piece that required so much preparation."`[\]
+textoff
+waits 167
+seplay 1,48,71
+wait 333
+seplay 1,13,71
+agpt quakeycycle,33
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+msgwnd_lam
+*d32470
+d [lv 0*"29"*"92200231"]`"Ehheheheh!`[@][lv 0*"29"*"92200232"]` I'm so~ glad I shackled her with the rule about not giving her name!`[@][lv 0*"29"*"92200233"]` If I hadn't set that up, the brother‐sister tag team would have swallowed Beato up and won in the blink of an eye."`[\]
+msgwnd_ber
+*d32471
+d [lv 0*"28"*"92100266"]`"............I thought it was my chance to apply a lot of pressure at once,`[@][lv 0*"28"*"92100267"]` but you were watching her so closely that I couldn't make the best use of her.`[@][lv 0*"28"*"92100268"]` ......Aaah, what a waste that piece was."`[\]
+seplay 1,47,71
+seplay 1,13,71
+agpt quakeycycle,33
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+msgwnd_lam
+*d32472
+d [lv 0*"29"*"92200234"]`"Well, yeah? That piece was super OP, I needed her out of there, like, yesterday.`[@][lv 0*"29"*"92200235"]` Well, in the end, she did a good job of preventing the game from being suspended, I guess, and that helps me out too.`[@][lv 0*"29"*"92200236"]` Her actions ended up matching both of our interests, so in that sense, she really was a wonderful piece."`[\]
+msgwnd_ber
+*d32473
+d [lv 0*"28"*"92100269"]`"..................She was an innocent kid like Battler, so it was easy to get her to do as I said.`[@][lv 0*"28"*"92100270"]` .........An idiot or an impulsive type, one of those two is always best for a piece.`[@][lv 0*"28"*"92100271"]` ......Aaah, that piece really could have been so much more."`[\]
+msgwnd_lam
+*d32474
+d [lv 0*"29"*"92200237"]`"And now she's mincemeat!`[@][lv 0*"29"*"92200238"]` Hey, let's make hamburgers out of that later on{p:0:☆}`[@][lv 0*"29"*"92200239"]` Oh wait, didn't you like gyoza more?`[@][lv 0*"29"*"92200240"]` I wonder what little sister tastes like, *giggle*, so funny!"`[\]
+textoff
+waits 167
+seplay 1,48,71
+wait 333
+seplay 1,13,71
+agpt quakeycycle,33
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+msgwnd_ber
+*d32475
+d [lv 0*"28"*"92100272"]`"..................Is it really alright for you to be so relaxed?`[@][lv 0*"28"*"92100273"]` Battler got fired up thanks to Ange.`[@][lv 0*"28"*"92100274"]` He started going after Beato like a madman, and now, the game has taken a big turn to my advantage, I'd say...?`[@][lv 0*"28"*"92100275"]` In fact, didn't Battler just solve almost all of the mysteries so far?"`[\]
+textoff
+waits 167
+seplay 1,48,71
+wait 500
+textoff
+waits 167
+lbg s0_3,"sub_r1ap"
+flush 1
+seplay 1,13,71
+agpt quakeycycle,33
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+vol_bgm -1,1000
+msgwnd_lam
+*d32476
+d2 [lv 0*"29"*"92200241"]`"Huuh?`[@][#][*][lv 0*"29"*"92200242"]` Not even clo~se!`[@][lv 0*"29"*"92200243"]` Almost all of Battler's blue truth is wrong!`[@][lv 0*"29"*"92200244"]` Beato's wishy‐washy red is full of holes.`[@][lv 0*"29"*"92200245"]` Anyone with half a brain could slip through it easily just by rattling off some random BS."`[\]
+wait_on_d 0
+seplay 2,37,71
+meplay 1,16,50
+d_continue
+wait_on_d -1
+*d32477
+d [lv 0*"29"*"92200246"]`"......Ahhh, that really ticked me off.`[@][lv 0*"29"*"92200247"]` If that had been me, I'd have made sure to cut down every one of those things with the red."`[\]
+lss s0_9,"ber","a11_defo1" ;1
+flush 10,167
+msgwnd_ber
+*d32478
+d [lv 0*"28"*"92100276"]`"............Oh, really?`[@][lv 0*"28"*"92100277"]` I was under the impression that those were all the correct answers.`[@][lv 0*"28"*"92100278"]` ......Well, of course, I did have my suspicions about all that stuff to do with swallowing small bombs."`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 22
+vol_me 1,-1,1000
+bgmplay 96,80,0
+textoff
+waits 167
+lbg s0_3,"rose_3apr"
+color_mod2 s0_3,#ffffff
+lss s0_9,"bea","a11_majime1" ;1
+color_mod2 s0_9,#ffffff
+flush 2
+msgwnd_lam
+*d32479
+d2 [lv 0*"29"*"92200248"]`"And Battler's blue truths, not all of them were even valid.`[@][lv 0*"29"*"92200249"]` ......Beato stated clearly that, within the first game, she`[|][lv 0*"29"*"92200250"][#][*]` {p:1:guarantees the identities of all unidentified corpses}!`[@][lv 0*"29"*"92200251"]` That breaks Battler's reasoning about the culprit of the Eva/Hideyoshi locked‐room murder being someone who used a fake corpse."`[\]
+wait_on_d 0
+seplay 1,59,71
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 2
+textoff
+waits 167
+lbg s0_3,"sub_r1bp"
+flush 22
+seplay 1,47,71
+lss s0_9,"lam","a11_futeki3" ;1
+flush 10,167
+seplay 2,13,71
+agpt quakeycycle,33
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+*d32480
+d2 [lv 0*"29"*"92200252"]`"Next, he said that Kanon's death in the boiler room was probably an accident, but...*giggle*!`[@][lv 0*"29"*"92200253"]` What kind of accident could end up with him driving a stake into his own chest?`[@][#][*][lv 0*"29"*"92200254"]` How dumb is that?`[@][lv 0*"29"*"92200255"]` I'll slice it with that red treasured sword or whatever."`[\]
+wait_on_d 0
+lss s0_9,"lam","a11_akuwarai5" ;1
+flush 10,167
+d_continue
+wait_on_d -1
+textoff
+waits 167
+lbg s0_17,"black"
+anim s0_26,"no10",1
+blend_mode add,s0_26
+flush 1
+seplay 1,58,100
+seplay 2,1006,100
+waitvideo
+csp_slot s0_26
+csp_slot s0_17
+flush 1
+*d32481
+d2 [lv 0*"29"*"92200256"][#][*]`"{p:1:Kanon did not die in an accident}!`[@][lv 0*"29"*"92200257"]` For the next one, the murders of the three including Genji in the parlor, the thought that it was a simultaneous murder where they shot each other in a clockwise pattern at the same time is laughable.`[@][lv 0*"29"*"92200258"][#][*]` {p:1:Genji, Kumasawa, and Nanjo were not killers}!"`[\]
+wait_on_d 0
+seplay 1,59,71
+d_continue
+wait_on_d 1
+seplay 2,59,71
+d_continue
+wait_on_d -1
+lss s0_9,"lam","a11_futeki3" ;1
+flush 10,167
+*d32482
+d2 [lv 0*"29"*"92200259"]`"The final trap X for Natsuhi's murder is really dumb, too.`[@][lv 0*"29"*"92200260"][#][*]` {p:1:The thing that shot Natsuhi wasn't a trap, it was a real shooting murder with a gun raised and trigger pulled}!`[@][lv 0*"29"*"92200261"]` *giggle*, my condolences...!"`[\]
+wait_on_d 0
+seplay 1,59,71
+d_continue
+wait_on_d -1
+seplay 1,20,71
+wait 333
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 23
+seplay 1,13,71
+textoff
+waits 167
+lbg s0_3,"sub_r1bp"
+lss s0_10,"ber","a11_defo2" ;1
+aspt2 xpos,s0_10,370
+flush 23
+msgwnd_ber
+*d32483
+d [lv 0*"28"*"92100279"]`"......Stop that.`[@][lv 0*"28"*"92100280"]` You mustn't say something like that in red.`[@][lv 0*"28"*"92100281"]` That kid's trying to make it so that she killed Natsuhi by bouncing Natsuhi's bullet back at her with magic."`[\]
+lss s0_8,"lam","a11_akuwarai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_lam
+*d32484
+d [lv 0*"29"*"92200262"]`"Oh‐hoh‐hoh‐ho, oopsie, you're right, I forgot...!`[@][lv 0*"29"*"92200263"]` Even his blue truths for the second game were too naive."`[\]
+textoff
+waits 167
+lbg s0_17,"black"
+anim s0_26,"no09",1
+blend_mode add,s0_26
+flush 1
+seplay 1,57,100
+seplay 2,1006,100
+waitvideo
+csp_slot s0_26
+csp_slot s0_17
+flush 1
+*d32485
+d2 [lv 0*"29"*"92200264"]`"`[#][*]`{p:1:When the six were murdered in the chapel, the culprit was inside the chapel}!`[@][lv 0*"29"*"92200265"]` That guy tries to explain every little thing with trap X.`[@][lv 0*"29"*"92200266"]` What the heck is trap X, some weird mystery novel cliché?"`[\]
+wait_on_d 0
+seplay 3,59,71
+d_continue
+wait_on_d -1
+lss s0_8,"lam","a11_futeki1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d32486
+d2 [lv 0*"29"*"92200267"]`"And in the incident where Nanjo and Kumasawa were killed in the servant room, it's ludicrous to say that someone inherited Kanon's name.`[@][lv 0*"29"*"92200268"][#][*]` {p:1:The only one who can go by the name of Kanon is the person himself}!`[@][lv 0*"29"*"92200269"][#][*]` {p:1:No other human can adopt that name}!"`[\]
+wait_on_d 0
+seplay 1,59,71
+d_continue
+wait_on_d 1
+seplay 2,59,71
+d_continue
+wait_on_d -1
+seplay 1,48,71
+csp_slot s0_8
+flush 10,167
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"black"
+flush 26
+seplay 1,20,71
+wait 150
+seplay 2,20,75
+wait 150
+seplay 3,20,80
+wait 150
+seplay 1,20,85
+wait 150
+seplay 2,20,90
+waits 167
+textoff
+waits 167
+lbg s0_3,"sub_r1bp"
+flush 80
+lss s0_10,"lam","a11_futeki3" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+seplay 1,13,71
+agpt quakeycycle,50
+agpt quakeyamp,30
+agpt quakeyamp,0,667,1
+rumble 63,500
+gptwait quakeyamp
+*d32487
+d [lv 0*"29"*"92200270"]`"And that theory about borrowing the master key from Rosa for Natsuhi's room is also worthless!"`[\]
+textoff
+waits 167
+lbg s0_17,"black"
+anim s0_26,"no42",1
+blend_mode add,s0_26
+flush 1
+seplay 1,57,100
+seplay 2,1006,100
+waitvideo
+csp_slot s0_26
+csp_slot s0_17
+flush 1
+lss s0_10,"lam","a11_akuwarai5" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d32488
+d2 [lv 0*"29"*"92200271"][#][*]`"{p:1:After the master keys came into Rosa's control, never did any of them leave her hands}!`[@][lv 0*"29"*"92200272"][#][*]` {p:1:Except for the time when she lent one to Battler to unlock Natsuhi's room}.`[@][lv 0*"29"*"92200273"]` I could go on, but this is enough just for a quick look, I guess?"`[\]
+wait_on_d 0
+seplay 3,59,71
+d_continue
+wait_on_d 1
+seplay 1,59,71
+d_continue
+wait_on_d -1
+lss s0_8,"ber","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ber
+*d32489
+d [lv 0*"28"*"92100281_1"]`"............A quick look? You've just denied Battler's blue truth for the first and second games across the board.`[@][lv 0*"28"*"92100281_2"]` .........My, my, what a thing.`[@][lv 0*"28"*"92100281_3"]` Battler would faint if he heard that."`[\]
+lss s0_10,"lam","a11_akuwarai4" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_lam
+*d32490
+d [lv 0*"29"*"92200277"]`"......See?`[@][lv 0*"29"*"92200278"]` Beato wasn't cornered at all.`[@][lv 0*"29"*"92200279"]` .........I always thought she was a pretty good actress."`[\]
+*d32491
+d [lv 0*"29"*"92200280"]`"I'm sure the plan is to make it look like she got cornered this game,`[@][lv 0*"29"*"92200281"]` and then sometime next game, swish!, she'll slice it in half with a single red stroke and make Battler's eyes pop out."`[\]
+lss s0_10,"lam","a11_akuwarai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d32492
+d [lv 0*"29"*"92200282"]`"*giggle*, and then I'm sure she'll say it with a huge grin on her face.`[@][lv 0*"29"*"92200283"]` "A witch is never in trouble~"!`[@][lv 0*"29"*"92200284"]` Pff, *giggle*giggle*giggle*!!"`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"sub_r1ap"
+flush 25
+msgwnd_ber
+*d32493
+d [lv 0*"28"*"92100282"]`"...............Then that whole tragic feeling as though Beato was getting cornered was all an act?"`[\]
+seplay 1,37,90
+msgwnd_lam
+*d32494
+d [lv 0*"29"*"92200285"]`"Obviously?!`[@][lv 0*"29"*"92200286"]` She really is a great actress!`[@][lv 0*"29"*"92200287"]` Even though she wasn't cornered at all, it felt like a last‐episode climax to put everyone else to shame!"`[\]
+*d32495
+d [lv 0*"29"*"92200288"]`"She's totally the winner for best supporting actress this year!!`[@][lv 0*"29"*"92200289"]` Oh, but of course I'm the sta~r!`[@][lv 0*"29"*"92200290"]` Or it could be you, Be~rn!"`[\]
+textoff
+waits 167
+lbg s0_3,"sub_r1bp"
+flush 22
+lss s0_10,"ber","a11_defo2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ber
+*d32496
+d [lv 0*"28"*"92100283"]`"............At the end, she said things like "kill me" and laid out a big riddle.`[@][lv 0*"28"*"92100284"]` Wasn't that her last stand, with Beato to be finished for good if that riddle was solved?"`[\]
+lss s0_8,"lam","a11_futeki2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_lam
+*d32497
+d [lv 0*"29"*"92200291"]`"*giggle*giggle*...!`[@][lv 0*"29"*"92200292"]` No way, you were tricked too, Bern?"`[\]
+*d32498
+d [lv 0*"29"*"92200293"]`"That wasn't even close to a last stand!`[@][lv 0*"29"*"92200294"]` Beato still has some hellishly brutal moves she's keeping hidden.`[@][lv 0*"29"*"92200295"]` ......When she stuck out both arms to give the final riddle, did you notice how she brought her right arm back down?"`[\]
+lss s0_10,"ber","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ber
+*d32499
+d [lv 0*"28"*"92100285"]`"......Ah, now that you mention it.`[@][lv 0*"28"*"92100286"]` .........So that's what that meant."`[\]
+lss s0_8,"lam","a11_akuwarai4" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_lam
+*d32500
+d [lv 0*"29"*"92200296"]`"Sure is!`[@][lv 0*"29"*"92200297"]` She still had plenty of hidden moves left!`[@][lv 0*"29"*"92200298"]` And none of the mysteries have been solved...!"`[\]
+*d32501
+d [lv 0*"29"*"92200299"]`"That tension, as though she'd been completely seen through and it was like "Tune in next time for the final episode!"`[@][lv 0*"29"*"92200300"]` She truly is a genius at acting.`[@][lv 0*"29"*"92200301"]` Ahh, I can't wait to see her knock Battler back down to rock bottom!"`[\]
+lss s0_8,"lam","a11_futeki3" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d32502
+d [lv 0*"29"*"92200302"]`"She's really taken to that "North Wind and the Sun Strategy" from the last game, I think!`[@][lv 0*"29"*"92200303"]` I bet Battler will sympathize with Beato again and fall for it completely...!`[@][lv 0*"29"*"92200304"]` A woman's single tear can trick a man, after all—now that's value, don't you think?!!"`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"sub_r1ap"
+flush 25
+msgwnd_ber
+*d32503
+d [lv 0*"28"*"92100287"]`"...............I wonder if Battler will get caught by that move again.`[@][lv 0*"28"*"92100288"]` I must do my part too, and light a fire under Battler to never feel sympathy for her again.`[@][lv 0*"28"*"92100289"]` ......Although Ange's mincemeat seems to have done that pretty well for the time being."`[\]
+msgwnd_lam
+*d32504
+d [lv 0*"29"*"92200305"]`"A power‐up from an Ange‐flavored hamburger?`[@][lv 0*"29"*"92200306"]` Oh‐hoho{0}ho{0}ho{0}ho{0}hoho!`[@][lv 0*"29"*"92200307"]` Of course, I won't be beaten either.`[@][lv 0*"29"*"92200308"]` I'll be giving Beato my full support so she can make enough of a comeback to compete with Battler."`[\]
+*d32505
+d [lv 0*"29"*"92200309"]`"......She won't lose. Beato.`[@][lv 0*"29"*"92200310"]` I mean, I've threatened her with a wonderful penalty if she does{p:0:♪}"`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+meplay 1,5,0
+vol_bgm 0,1000
+vol_me 1,40,1000
+wait 1000
+textoff
+waits 167
+lbg s0_3,"sub_r1bp"
+lss s0_9,"ber","a11_defo1" ;1
+flush 22
+msgwnd_ber
+*d32506
+d [lv 0*"28"*"92100290"]`"..................Your penalties are genuinely no joke, so you should go a little easy."`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"sub_r1bp"
+flush 23
+lss s0_10,"lam","a11_akuwarai5" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_lam
+*d32507
+d [lv 0*"29"*"92200311"]`"I've decided what to do next time I get to give you a penalty, Bern.`[@][lv 0*"29"*"92200312"]` Wanna hear? Wanna hear?"`[\]
+lss s0_8,"ber","a11_defo2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ber
+*d32508
+d [lv 0*"28"*"92100291"]`"No."`[\]
+textoff
+waits 167
+vol_mix_fade 1000
+vol_bgm -1,1000
+wait 1000
+bgmplay 110,71,0
+lss s0_10,"lam","a11_odoroki2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_lam
+*d32509
+d2 [lv 0*"29"*"92200313"]`"Come o~~n, listen{p:0:☆}`[@][#][*][lv 0*"29"*"92200314"]` Okay, here we go, here we go.`[@][lv 0*"29"*"92200315"]` I'll lock you in a wonderful, wonderful castle."`[\]
+wait_on_d 0
+lss s0_10,"lam","a11_akuwarai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+*d32510
+d [lv 0*"29"*"92200316"]`"The castle will be surrounded by pure white castle walls, {nobr:12 km} to a side.`[@][lv 0*"29"*"92200317"]` With a height of {nobr:10 m}.`[@][lv 0*"29"*"92200318"]` No magic and no cheating allowed!`[@][lv 0*"29"*"92200319"]` That's really not something you can jump over, right?"`[\]
+lss s0_8,"ber","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ber
+*d32511
+d2 [lv 0*"28"*"92100292"]`"1,440,000,000 m³?`[@][#][*][lv 0*"28"*"92100293"]` .........You can stop there, I already know what you're going to say."`[\]
+wait_on_d 0
+lss s0_8,"ber","a11_defo2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"sub_r1bp"
+flush 22
+seplay 1,48,71
+wait 333
+lss s0_9,"lam","a11_akuwarai1" ;1
+flush 10,167
+seplay 1,11,71
+agpt quakeycycle,33
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+msgwnd_lam
+*d32512
+d [lv 0*"29"*"92200320"]`"Eheheheheh!`[@][lv 0*"29"*"92200321"]` And that place will start getting buried with gems, one every day!`[@][lv 0*"29"*"92200322"]` And I'll lock you in it until the castle walls are packed with them, and you've been buried to death with gems.`[@][lv 0*"29"*"92200323"]` Isn't that a wonderful, romantic penalty?"`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"sub_r1bp"
+lss s0_8,"ber","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 23
+msgwnd_ber
+*d32513
+d [lv 0*"28"*"92100294"]`"..................I'll let you multiply the length of the walls by five if you make the height one‐tenth its current height, and you can even shut me in it right now."`[\]
+seplay 1,47,71
+lss s0_10,"lam","a11_odoroki1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+agpt quakeycycle,33
+agpt quakeyamp,30
+agpt quakeyamp,0,167,1
+rumble 63,500
+gptwait quakeyamp
+msgwnd_lam
+*d32514
+d2 [lv 0*"29"*"92200324"]`"Really?!`[@][lv 0*"29"*"92200325"]` That would make it {nobr:3,600,000,000 m³}, you know?!`[@][lv 0*"29"*"92200326"]` The penalty would take more than twice as long!`[@][#][*][lv 0*"29"*"92200327"]` Aaahh, you'll be my prisoner for such a long time?!`[@][lv 0*"29"*"92200328"]` I love you Bern, I really love yo~u{p:0:♪}"`[#][*][\]
+wait_on_d 0
+seplay 1,48,71
+csp_slot s0_10
+flush 10,167
+lss s0_9,"lam","a11_futeki3" ;1
+flush 10,167
+d_continue
+wait_on_d 1
+seplay 1,47,71
+agpt quakeycycle,50
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+seplay 2,48,71
+agpt quakexcycle,50
+agpt quakexamp,30
+agpt quakexamp,0,500,1
+rumble 63,500
+gptwait quakexamp
+d_continue
+wait_on_d -1
+msgwnd_non
+*d32515
+d `{f:5:Lambdadelta} playfully clung to {f:5:Bernkastel}, who yawned, looking bored, as she stroked {f:5:Lambdadelta} under the chin as though playing with a cat...`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+lbg s0_3,"sub_r1bp"
+flush 22
+lss s0_9,"lam","a11_futeki2" ;1
+flush 10,167
+msgwnd_lam
+*d32516
+d [lv 0*"29"*"92200329"]`"So you're betting on Battler to win.`[@][lv 0*"29"*"92200330"]` And I'm betting on the two of them getting draws forever.`[@][lv 0*"29"*"92200331"]` ............Isn't anyone going to bet on Beato to win?"`[\]
+lss s0_10,"ber","a11_defo2" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_ber
+*d32517
+d [lv 0*"28"*"92100295"]`".....................It won't be me.`[@][lv 0*"28"*"92100296"]` Her chances of winning are zero."`[\]
+lss s0_9,"lam","a11_akuwarai1" ;1
+flush 10,167
+msgwnd_lam
+*d32518
+d2 [lv 0*"29"*"92200332"]`"Oh‐hoh‐hoh‐ho!`[@][lv 0*"29"*"92200333"]` It must hurt to be told by the Witch of Miracles that there's zero chance of a miracle!`[@][lv 0*"29"*"92200334"]` I wouldn't bet on her either, of course.`[@][#][*][lv 0*"29"*"92200335"]` For certain!"`[\]
+wait_on_d 0
+lss s0_9,"lam","a11_akuwarai5" ;1
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_10,"ber","a11_defo1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_ber
+*d32519
+d [lv 0*"28"*"92100297"]`".........It must hurt to be told by the Witch of Certainty that it's certainly no good, as well."`[\]
+seplay 1,37,70
+textoff
+waits 167
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_3,"sub_r1bp"
+flush 22
+seplay 2,37,85
+msgwnd_non
+*d32520
+d `Unusually for them, they giggled together...`[\]
+msgwnd_lam
+*d32521
+d [lv 0*"29"*"92200336"]`"I wonder what kind of conclusion this game's gonna have...?"`[\]
+msgwnd_ber
+*d32522
+d [lv 0*"28"*"92100298"]`"...............Now that, at least, we can't predict.`[@][lv 0*"28"*"92100299"]` ...That's why it's fun, after all."`[\]
+msgwnd_lam
+*d32523
+d [lv 0*"29"*"92200337"]`"I won't allow any more escaping or suspending the game.`[@][lv 0*"29"*"92200338"]` I'll make them continue the game for certain, and I won't let them run away...!`[@][lv 0*"29"*"92200339"]` I can't even imagine how things are gonna unfold now,`[@][lv 0*"29"*"92200340"]` but I do know one way it's certainly not going to end."`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+msgwnd_ber
+*d32524
+d [lv 0*"28"*"92100300"]`"..................At the very least, we know it won't end with Beato's victory."`[\]
+textoff
+waits 167
+lbg s0_3,"sub_r1bp"
+flush 26
+seplay 1,47,71
+lss s0_8,"lam","a11_akuwarai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_lam
+*d32525
+d [lv 0*"29"*"92200341"]`"I mean, think about it.`[@][lv 0*"29"*"92200342"]` Neither you nor I...`[@][lv 0*"29"*"92200343"]`are betting on Beato to come out the winner!`[@][lv 0*"29"*"92200344"]` Which means, if it looks like Beato is gonna win, she'll be making enemies of both of us Great Witches...!"`[\]
+lss s0_10,"ber","a11_defo2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ber
+*d32526
+d [lv 0*"28"*"92100301"]`".........Pretty much.`[@][lv 0*"28"*"92100302"]` Our powers are most in balance only when things are somewhere between a draw and Battler's advantage.`[@][lv 0*"28"*"92100303"]` If it tips too much in Beato's favor, both of us will align along the same vector, and drag Beato back."`[\]
+lss s0_8,"lam","a11_akuwarai5" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_lam
+*d32527
+d2 [lv 0*"29"*"92200345"]`"So the instant Beato finds herself on top, ......she'll have both of us as enemies to deal with.`[@][#][*][lv 0*"29"*"92200346"]` .........Ehheheheheh!`[@][lv 0*"29"*"92200347"]` A common front with Bern, sounds fu~~n{p:0:♪}"`[\]
+wait_on_d 0
+lss s0_8,"lam","a11_akuwarai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_10,"ber","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ber
+*d32528
+d [lv 0*"28"*"92100304"]`".........Thanks.`[@][lv 0*"28"*"92100305"]` ......But I'm not taking a konpeitou candy bath with you."`[\]
+lss s0_8,"lam","a11_akuwarai2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_lam
+*d32529
+d [lv 0*"29"*"92200348"]`"Aaa~w, but I thought we could take a konpeitou shower together,`[@][lv 0*"29"*"92200349"]` while I cover you all over with melted marshmallows..."`[\]
+lss s0_10,"ber","a11_defo2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ber
+*d32530
+d [lv 0*"28"*"92100306"]`".........That poor girl.`[@][lv 0*"28"*"92100307"]` She's a living toy, a doll that you caught so that you could play with me."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 22
+msgwnd_lam
+*d32531
+d [lv 0*"29"*"92200350"]`"I'm good at playing with dolls.`[@][lv 0*"29"*"92200351"]` ......I really can play with them well, you know?`[@][lv 0*"29"*"92200352"]` I'm proud of being able to get hundreds of years of playtime out of a single toy without getting tired of it."`[\]
+msgwnd_ber
+*d32532
+d [lv 0*"28"*"92100308"]`"............You're her ally at some times, and oppose her at others,`[@][lv 0*"28"*"92100309"]` toying with her forever.`[@][lv 0*"28"*"92100310"]` ......I feel sorry for her. That kid is our doll, now."`[\]
+textoff
+waits 167
+vol_mix_fade 2000
+vol_bgm -1,2000
+wait 2000
+textoff
+waits 167
+lbg s0_3,"sub_r1bp"
+flush 22
+meplay 1,16,50
+lss s0_9,"lam","a11_akuwarai3" ;1
+flush 10,167
+seplay 1,13,71
+agpt quakeycycle,33
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+msgwnd_lam
+*d32533
+d [lv 0*"29"*"92200353"]`"Ehheheh, that's right, that kid is our doll.`[@][lv 0*"29"*"92200354"]` No end is prepared for her except the ones the two of us wish for."`[\]
+*d32534
+d [lv 0*"29"*"92200355"]`"So I can say for sure that this can only end with either an eternal draw because of me,`[@][lv 0*"29"*"92200356"]` or Beato being defeated and destroyed because of you.`[@][lv 0*"29"*"92200357"]` ............Heheh, ...as far as this game ending with Beato's victory goes..."`[\]
+lss s0_10,"ber","a11_defo1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_ber
+*d32535
+d [lv 0*"28"*"92100311"]`"...............I will proclaim it as the Witch of Miracles."`[\]
+lss s0_9,"lam","a11_akuwarai1" ;1
+flush 10,167
+msgwnd_lam
+*d32536
+d [lv 0*"29"*"92200358"]`"Then I'll proclaim it as the Witch of Certainty."`[\]
+textoff
+waits 167
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_3,"sub_r1bp"
+flush 22
+vol_mix_fade 1000
+wait 1000
+msgwnd_non
+*d32537
+d [lv 0*"99"*"awase0031"]`""Beato certainly cannot win.`[@][lv 0*"99"*"awase0032"]` And there will be absolutely no miracles.""`[\]
+skip_off
+bgmplay 41,100,1
+seplay 1,37,71
+waittimer 500
+*d32538
+d2 [lv 0*"99"*"awase0033"][ak][text_speed_t 5]`""Ahhahahahahahahahahahahaha......!!""`[*][\]
+waittimer 7450
+d_continue
+wait_on_d -1
+textoff
+waits 167
+waittimer 7950
+textoff
+waits 167
+lbg s0_26,"white"
+flush 1
+textoff
+waits 167
+csp_slot s0_26
+seplay 1,36,100
+seplay 2,37,100
+seplay 3,2,100
+textoff
+waits 167
+lbg s0_3,"sub_r1bp"
+lss s0_12,"ber","a24_akuwarai1" ;1
+aspt2 xpos,s0_12,-400
+aspt2 ypos,s0_12,500
+aspt2 scalex,s0_12,200
+aspt2 scaley,s0_12,200
+lss s0_13,"lam","b21_akuwarai6" ;1
+aspt2 xpos,s0_13,550
+aspt2 ypos,s0_13,250
+aspt2 scalex,s0_13,200
+aspt2 scaley,s0_13,200
+flush 2
+waittimer 9617
+textoff
+waits 167
+textoff
+waits 167
+csp_slot s0_12
+csp_slot s0_13
+lbg s0_3,"black"
+flush 2
+waittimer 10950
+moreram 2048
+lbg2 s0_3,"end_4b"
+drop_cache "end_4b"
+aspt2 scaley,s0_3,200
+aspt2 ypos,s0_3,27406
+flush 1
+waittimer 11450
+textoff
+aspt2 ypos,s0_3,540,232777
+aspt2 ypos,s0_3,0,7773,1
+sptwait2 ypos,s0_3
+wait 8000
+vol_mix_fade 1000
+vol_bgm -1,1000
+wait 1000
+seplay 1,2,100
+seplay 2,1006,100
+seplay 3,1006,100
+textoff
+waits 167
+lbg s0_3,"white"
+flush 1
+textoff
+waits 167
+lbg s0_3,"black"
+flush 18,4000,msk_1
+skip_on
+ch_done flag_scenario_4_ura
+*ura_4_end
+goto *end_game

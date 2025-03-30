@@ -1,0 +1,964 @@
+*ura_teatime_2
+log_reset
+mov $name_chapter_r_click,r_click_chapters_2_ura
+mov $name_chapter_save, "2_ura"
+new_ura 2
+gstt 15
+gstc 318
+flush 10,167
+textoff
+waits 167
+vol_mix_fade 1000
+wait 1000
+textoff
+waits 167
+lbg s0_3,"black"
+flush 2
+wait 1000
+textoff
+waits 167
+lbg s0_3,"different_spiral_1a"
+flush 2
+wait 3000
+textoff
+waits 167
+lbg s0_3,"different_space_1a"
+flush 2
+bgmplay 40,0,0
+vol_bgm 70
+wait 50
+seplay 1,52,71
+lss s0_10,"bea","a11_akuwarai1" ;1
+aspt2 xpos,s0_10,370
+aspt2 breakup,s0_10,1000
+aspt2 alpha,s0_10,0
+flush 1
+aspt2 breakup,s0_10,0,2000
+aspt2 alpha,s0_10,255,2000
+sptwait2 breakup,s0_10
+gstc 319
+msgwnd_bea
+*d32095
+d [lv 0*"27"*"90700281"]`"Well then.`[@][lv 0*"27"*"90700282"]` ...Did you enjoy it?`[@][lv 0*"27"*"90700283"]` Our game just now."`[\]
+textoff
+waits 167
+seplay 1,52,71
+lss s0_8,"ber","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+aspt2 breakupdir,s0_8,1
+aspt2 breakup,s0_8,1000
+aspt2 alpha,s0_8,0
+flush 1
+aspt2 breakup,s0_8,0,2000
+aspt2 alpha,s0_8,255,2000
+sptwait2 breakup,s0_8
+msgwnd_ber
+*d32096
+d [lv 0*"28"*"92100082"]`"......A game that one‐sided goes beyond captivating and becomes boring."`[\]
+lss s0_10,"bea","a23_defo2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d32097
+d [lv 0*"27"*"90700284"]`"*cackle*cackle*. My, my, a harsh critic as always.`[@][lv 0*"27"*"90700285"]` ......And I was so certain that even Lady {f:5:Bernkastel}, who has no love for boredom,`[|][lv 0*"27"*"90700286"]` would surely be satisfied by this compelling development... How remorseless."`[\]
+lss s0_8,"ber","a11_defo2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ber
+*d32098
+d [lv 0*"28"*"92100083"]`"...Well, I'll accept that it was compelling.`[@][lv 0*"28"*"92100084"]` ...However, it was horrible as a fair game.`[@][lv 0*"28"*"92100085"]` You need the conditions to be a little more even, or—"`[\]
+lss s0_10,"bea","a13_futeki2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d32099
+d [lv 0*"27"*"90700287"]`"......Am I about to be told there's no way to win?`[@][lv 0*"27"*"90700288"]` By Lady {f:5:Bernkastel}?`[@][lv 0*"27"*"90700289"]` ......*cackle*cackle*."`[\]
+lss s0_8,"ber","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ber
+*d32100
+d [lv 0*"28"*"92100086"]`"..................I wonder what you mean by that, Beato."`[\]
+textoff
+waits 167
+lss s0_10,"bea","a13_futeki1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+seplay 1,22,71
+anim s0_5,"no83",1
+flush 1
+waitvideo
+lbg s0_5,"no83_0051"
+flush 1
+msgwnd_bea
+*d32101
+d [lv 0*"27"*"90700290"]`"There's no need to play ignorant.`[@][lv 0*"27"*"90700291"]` I already know.`[@][lv 0*"27"*"90700292"]` ...That you {i:aren't a bystander}."`[\]
+lss s0_8,"ber","a11_defo2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+lips_sprite s0_8_b
+msgwnd_ber
+*d32102
+d [lv 0*"28"*"92100087"]`"................................."`[\]
+lips_sprite s0_8_b,"ber"
+lss s0_10,"bea","a13_futeki2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d32103
+d [lv 0*"27"*"90700293"]`"You thought you were hiding it?`[@][lv 0*"27"*"90700294"]` How insolent, to travel all that way, and come into territory that isn't yours, just to bet against me.`[@][lv 0*"27"*"90700295"]` You came here planning to watch my game from the sidelines, while having a large stake placed in my defeat.`[@][lv 0*"27"*"90700296"]` I've guessed right, haven't I...?"`[\]
+lss s0_8,"ber","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ber
+*d32104
+d [lv 0*"28"*"92100088"]`"...........................`[@][lv 0*"28"*"92100089"]` And if so?"`[\]
+lss s0_10,"bea","a13_futeki1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d32105
+d [lv 0*"27"*"90700297"]`"......*cackle*cackle*!`[@][lv 0*"27"*"90700298"]` Truly interesting!"`[\]
+lss s0_10,"bea","a13_akuwarai3" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d32106
+d [lv 0*"27"*"90700299"]`"That I should be granted a chance to fight against Lady {f:5:Bernkastel}, the strongest of witches who defeated Lady {f:5:Lambdadelta}, is truly a pleasure!!"`[\]
+lss s0_8,"ber","a11_defo2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ber
+*d32107
+d [lv 0*"28"*"92100090"]`"......Yes.`[@][lv 0*"28"*"92100091"]` It is pleasing me too.`[@][lv 0*"28"*"92100092"]` After all, I came all this way just because I wanted to see you brimming with that confidence, only to fall apart and lose."`[\]
+lss s0_10,"bea","a11_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d32108
+d [lv 0*"27"*"90700300"]`"What an honest person.`[@][lv 0*"27"*"90700301"]` *cackle*cackle*!!"`[\]
+lss s0_10,"bea","a11_futeki1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d32109
+d [lv 0*"27"*"90700302"]`"Incidentally, if the contest between me and the great Lady {f:5:Bernkastel}...`[@][lv 0*"27"*"90700303"]`were not to have at least one observer, what a tremendous shame that would be."`[\]
+lss s0_8,"ber","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ber
+*d32110
+d [lv 0*"28"*"92100093"]`".................................`[@][lv 0*"28"*"92100094"]` ...You called her, didn't you.`[@][lv 0*"28"*"92100095"]` That child."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+csp_slot s0_5
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+vol_mix_fade 2000
+vol_bgm -1,2000
+wait 2000
+wait 1000
+textoff
+waits 167
+lbg s0_3,"different_space_1c"
+flush 24
+wait 2000
+seplay 1,57,90
+lbg s0_17,"white"
+z_order_override2 s0_17,s0_11
+flush 1
+lss s0_9,"lam","a11_akuwarai3" ;1
+csp_slot s0_17
+flush 42
+wait 2000
+lss s0_9,"lam","a11_akuwarai4" ;1
+flush 10,167
+bgmplay 55,71,0
+msgwnd_lam
+*d32111
+d [lv 0*"29"*"92200001"]`"Hoh‐hoh‐hoh‐hoh‐ho!`[@][lv 0*"29"*"92200002"]` I found you, I finally found you, {f:5:Bernkastel}!!"`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"different_space_1a"
+flush 23
+lss s0_8,"ber","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ber
+*d32112
+d [lv 0*"28"*"92100096"]`"............How are you, Lambda?`[@][lv 0*"28"*"92100097"]` Looks like you also have time to kill.`[@][lv 0*"28"*"92100098"]` ...I wonder if it's fate that we who share no love for boredom should run into each other again...?"`[\]
+textoff
+waits 167
+seplay 1,57,90
+lbg s0_17,"white"
+z_order_override2 s0_17,s0_11
+flush 1
+lss s0_10,"lam","a11_akuwarai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+csp_slot s0_17
+flush 22
+msgwnd_lam
+*d32113
+d [lv 0*"29"*"92200003"]`"Such a dumb kid.`[@][lv 0*"29"*"92200004"]` Why can't you realize that the only reason you won against me was because of a little luck and a not‐so‐great matchup?`[@][lv 0*"29"*"92200005"]` That made you so snobby, and now you're even picking a fight with {f:5:Beatrice}? Shouldn't you learn your place?"`[\]
+lss s0_10,"lam","a11_akuwarai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d32114
+d [lv 0*"29"*"92200006"]`"*giggle*, {f:5:Beatrice} is strong, you know.`[@][lv 0*"29"*"92200007"]` And she's more brutal than I am.`[@][lv 0*"29"*"92200008"]` Just a teensy bit!"`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_9,"lam","a11_odoroki1" ;1
+flush 10,167
+*d32115
+d2 [lv 0*"29"*"92200009"]`"Oh and also, don't just shorten someone's name to Lambda!"`[#][*][\]
+wait_on_d 0
+seplay 1,48,71
+agpt quakexcycle,50
+agpt quakexamp,30
+agpt quakexamp,0,500,1
+rumble 63,500
+gptwait quakexamp
+d_continue
+wait_on_d -1
+textoff
+waits 167
+lss s0_8,"ber","a11_defo2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+wait 1000
+seplay 3,52,71
+aspt2 breakupdir,s0_8,1
+aspt2 breakup,s0_8,0
+aspt2 breakup,s0_8,1000,2000
+aspt2 alpha,s0_8,0,2000
+sptwait2 breakup,s0_8
+csp_slot s0_8
+flush 1 ;flush2: NO frames
+msgwnd_ber
+*d32116
+d [lv 0*"28"*"92100099"]`".........You're a fool too, Beato.`[@][lv 0*"28"*"92100100"]` This kid won't make exceptions for your game, she'll turn everything into a preposterous farce."`[\]
+textoff
+waits 167
+seplay 1,52,71
+lss s0_10,"bea","a13_defo2" ;1
+aspt2 xpos,s0_10,550
+aspt2 breakup,s0_10,1000
+aspt2 alpha,s0_10,0
+flush 1
+aspt2 breakup,s0_10,0,2000
+aspt2 alpha,s0_10,255,2000
+sptwait2 breakup,s0_10
+gstc 320
+seplay 9,1060,71
+msgwnd_bea
+*d32117
+d [lv 0*"27"*"90700304"]`"I didn't bring Lady {f:5:Lambdadelta} here solely to watch from the sidelines."`[\]
+lss s0_10,"bea","a13_futeki2" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+*d32118
+d [lv 0*"27"*"90700305"]`"After I informed her that you were betting against me, she said that she would bet against you."`[\]
+textoff
+waits 167
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_3,"different_space_1a"
+flush 22
+seplay 1,52,71
+lss s0_10,"ber","a11_defo2" ;1
+aspt2 xpos,s0_10,550
+aspt2 breakup,s0_10,1000
+aspt2 alpha,s0_10,0
+flush 1
+aspt2 breakup,s0_10,0,2000
+aspt2 alpha,s0_10,255,2000
+sptwait2 breakup,s0_10
+msgwnd_ber
+*d32119
+d [lv 0*"28"*"92100101"]`"..............................You're still holding a grudge, aren't you."`[\]
+textoff
+waits 167
+seplay 1,57,90
+lbg s0_17,"white"
+z_order_override2 s0_17,s0_11
+flush 1
+lss s0_8,"lam","a11_akuwarai3" ;1
+aspt2 xpos,s0_8,-550
+csp_slot s0_17
+flush 22
+msgwnd_lam
+*d32120
+d [lv 0*"29"*"92200010"]`"Hoh‐hoh‐hoh‐ho!!`[@][lv 0*"29"*"92200011"]` 'Cause I'm the strongest witch in the universe.`[@][lv 0*"29"*"92200012"]` But I lost to you so I'm not the strongest!"`[\]
+lss s0_8,"lam","a11_odoroki1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+*d32121
+d [lv 0*"29"*"92200013"]`"So I'm taking the side of anyone who's against youuuu!!"`[\]
+textoff
+waits 167
+seplay 1,22,71
+anim s0_5,"no83",1
+flush 1
+waitvideo
+lbg s0_5,"no83_0051"
+flush 1
+seplay 2,52,71
+lss s0_9,"bea","a12_akuwarai1" ;1
+aspt2 breakupdir,s0_9,1
+aspt2 breakup,s0_9,1000
+aspt2 alpha,s0_9,0
+flush 1
+aspt2 breakup,s0_9,0,2000
+aspt2 alpha,s0_9,255,2000
+sptwait2 breakup,s0_9
+msgwnd_bea
+*d32122
+d [lv 0*"27"*"90700306"]`"*cackle*cackle*!`[@][lv 0*"27"*"90700307"]` There you have it.`[@][lv 0*"27"*"90700308"]` With the great Lady {f:5:Bernkastel} as our opponent, this may not even count as a handicap, but it will be suitable for entertainment."`[\]
+textoff
+waits 167
+seplay 3,52,71
+aspt2 breakup,s0_10,0
+aspt2 breakup,s0_10,1000,2000
+aspt2 alpha,s0_10,0,2000
+sptwait2 breakup,s0_10
+csp_slot s0_10
+flush 1 ;flush2: NO frames
+msgwnd_ber
+*d32123
+d [lv 0*"28"*"92100102"]`"...............Do as you like.`[@][lv 0*"28"*"92100103"]` ...Now that the cat's out of the bag, I'm going to get serious."`[\]
+lss s0_9,"bea","a12_warai2" ;1
+flush 10,167
+msgwnd_bea
+*d32124
+d [lv 0*"27"*"90700309"]`"That would be suitable.`[@][lv 0*"27"*"90700310"]` "Leniency" has never featured in my dictionary.`[@][lv 0*"27"*"90700311"]` *cackle*cackle*cackle*cackle*cackle*!`[@][lv 0*"27"*"90700312"]` Lady {f:5:Lambdadelta}, let us enjoy our valuable new relationship."`[\]
+lss s0_8,"lam","a11_akuwarai4" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_lam
+*d32125
+d [lv 0*"29"*"92200014"]`"Yes, I'll be counting on you, Lady {f:5:Beatrice}!`[@][lv 0*"29"*"92200015"]` This girl really put me through the wringer.`[@][lv 0*"29"*"92200016"]` I'm not gonna be happy until the two of us have smushed her up and paid her back double!!"`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_5
+textoff
+waits 167
+lbg s0_3,"black"
+flush 23
+textoff
+waits 167
+lbg s0_3,"different_space_1a"
+flush 23
+seplay 1,52,71
+lss s0_8,"ber","a11_defo2" ;1
+aspt2 xpos,s0_8,-550
+aspt2 breakupdir,s0_8,1
+aspt2 breakup,s0_8,1000
+aspt2 alpha,s0_8,0
+flush 1
+aspt2 breakup,s0_8,0,2000
+aspt2 alpha,s0_8,255,2000
+sptwait2 breakup,s0_8
+msgwnd_ber
+*d32126
+d [lv 0*"28"*"92100104"]`"............I look forward to it, Lambda.`[@][lv 0*"28"*"92100105"]` And Beato.`[@][lv 0*"28"*"92100106"]` ...No matter who wins or who loses, this will be a very meaningful battle for us."`[\]
+textoff
+waits 167
+seplay 1,57,90
+lbg s0_17,"white"
+z_order_override2 s0_17,s0_11
+flush 1
+lss s0_9,"lam","a11_akuwarai1" ;1
+csp_slot s0_17
+flush 22
+msgwnd_lam
+*d32127
+d [lv 0*"29"*"92200017"]`"That's right.`[@][lv 0*"29"*"92200018"]` Of course, I'm not gonna lose easy, but this is more important than winning and losing."`[\]
+textoff
+waits 167
+seplay 2,22,71
+anim s0_5,"no83",1
+flush 1
+waitvideo
+lbg s0_5,"no83_0051"
+flush 1
+seplay 3,52,71
+lss s0_10,"bea","a13_defo2" ;1
+aspt2 xpos,s0_10,550
+aspt2 breakup,s0_10,1000
+aspt2 alpha,s0_10,0
+flush 1
+aspt2 breakup,s0_10,0,2000
+aspt2 alpha,s0_10,255,2000
+sptwait2 breakup,s0_10
+msgwnd_bea
+*d32128
+d [lv 0*"27"*"90700313"]`"After all, we have no love for boredom."`[\]
+textoff
+waits 167
+seplay 1,37,100
+wait 500
+seplay 2,37,90
+msgwnd_non
+*d32129
+d `The three witches giggled, cackled, and guffawed.`[\]
+textoff
+waits 167
+csp_slot s0_5
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_3,"different_space_1a"
+flush 22
+seplay 1,52,71
+lss s0_9,"ber","a11_defo1" ;1
+aspt2 breakupdir,s0_9,1
+aspt2 breakup,s0_9,1000
+aspt2 alpha,s0_9,0
+flush 1
+aspt2 breakup,s0_9,0,2000
+aspt2 alpha,s0_9,255,2000
+sptwait2 breakup,s0_9
+msgwnd_ber
+*d32130
+d [lv 0*"28"*"92100107"]`"......That's right.`[@][lv 0*"28"*"92100108"]` I should thank you, Beato.`[@][lv 0*"28"*"92100109"]` It looks like I can finally escape boredom.`[@][lv 0*"28"*"92100110"]` Do your best to entertain me.`[@][lv 0*"28"*"92100111"]` Together with {f:5:Lambdadelta}."`[\]
+seplay 2,22,71
+lbg s0_5,"no83_0051"
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"different_space_1a"
+lss s0_10,"bea","a12_futeki1" ;1
+aspt2 xpos,s0_10,370
+flush 24
+msgwnd_bea
+*d32131
+d [lv 0*"27"*"90700314"]`"I shall do just that.`[@][lv 0*"27"*"90700315"]` *cackle*cackle*...!!"`[\]
+textoff
+waits 167
+seplay 1,57,90
+lbg s0_17,"white"
+z_order_override2 s0_17,s0_11
+flush 1
+lss s0_8,"lam","a11_akuwarai4" ;1
+aspt2 xpos,s0_8,-370
+csp_slot s0_17
+flush 22
+msgwnd_lam
+*d32132
+d [lv 0*"29"*"92200019"]`"That's that, Beato, so let's start a strategy meeting right now!`[@][lv 0*"29"*"92200020"]` I know all of this girl's weak points, and I'm gonna teach you all of them!"`[\]
+lss s0_10,"bea","a13_futeki2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d32133
+d [lv 0*"27"*"90700316"]`"And yet, Lady {f:5:Lambdadelta}, you were defeated by her, I note... *cackle*cackle*...!"`[\]
+lss s0_8,"lam","a11_odoroki1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_lam
+*d32134
+d2 [lv 0*"29"*"92200021"]`"Urrrrrrrrgggh, I won't tell you, I won't tell you!`[@][#][*][lv 0*"29"*"92200022"]` Tsuun!"`[\]
+wait_on_d 0
+seplay 1,48,71
+d_continue
+wait_on_d -1
+textoff
+waits 167
+seplay 1,57,90
+lbg s0_17,"white"
+z_order_override2 s0_17,s0_11
+flush 1
+csp_slot s0_8
+csp_slot s0_17
+flush 22
+seplay 2,22,71
+anim s0_5,"no85",1
+flush 1
+waitvideo
+csp_slot s0_5
+flush 1
+lss s0_10,"bea","a11_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d32135
+d2 [lv 0*"27"*"90700317"]`"*cackle*cackle* hahhahahahahahaha!`[#][*][@][lv 0*"27"*"90700318"]` ...She never bores, that Lady {f:5:Lambdadelta}."`[\]
+wait_on_d 0
+seplay 3,37,100
+agpt quakeycycle,50
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+d_continue
+wait_on_d -1
+textoff
+waits 167
+seplay 1,52,71
+lss s0_8,"ber","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+aspt2 breakupdir,s0_8,1
+aspt2 breakup,s0_8,1000
+aspt2 alpha,s0_8,0
+flush 1
+aspt2 breakup,s0_8,0,2000
+aspt2 alpha,s0_8,255,2000
+sptwait2 breakup,s0_8
+msgwnd_ber
+*d32136
+d [lv 0*"28"*"92100112"]`"............She doesn't, does she?`[@][lv 0*"28"*"92100113"]` Take care of her.`[@][lv 0*"28"*"92100114"]` She might not look it, but she gets lonely."`[\]
+lss s0_10,"bea","a11_futeki2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d32137
+d [lv 0*"27"*"90700319"]`"I see.`[@][lv 0*"27"*"90700320"]` So she's one of those newfangled whatchamacallits.`[@][lv 0*"27"*"90700321"]` *cackle*, as expected from Lady {f:5:Lambdadelta}.`[@][lv 0*"27"*"90700322"]` Quite cutting edge.`[@][lv 0*"27"*"90700323"]` *cackle*cackle*cackle*cackle*."`[\]
+lss s0_8,"ber","a11_defo2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ber
+*d32138
+d [lv 0*"28"*"92100115"]`"Go already.`[@][lv 0*"28"*"92100116"]` That child's waiting for you to chase after her."`[\]
+lss s0_10,"bea","a11_defo2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d32139
+d [lv 0*"27"*"90700324"]`"......Then, if you'll excuse me."`[\]
+lss s0_10,"bea","a31_akuwarai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d32140
+d [lv 0*"27"*"90700325"]`"See you next game.`[@][lv 0*"27"*"90700326"]` *cackle*cackle*cackle*cackle*cackle*!"`[\]
+textoff
+waits 167
+seplay 3,52,71
+aspt2 breakup,s0_10,0
+aspt2 breakup,s0_10,1000,3000
+aspt2 alpha,s0_10,0,3000
+sptwait2 breakup,s0_10
+csp_slot s0_10
+flush 1 ;flush2: NO frames
+vol_mix_fade 3000
+vol_bgm -1,3000
+wait 3000
+wait 1000
+meplay 1,5,40
+lss s0_8,"ber","a11_defo2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ber
+*d32141
+d [lv 0*"28"*"92100117"]`......I'm sorry.`[@][lv 0*"28"*"92100118"]` A troublesome one came, but don't mind her.`[\]
+*d32142
+d [lv 0*"28"*"92100119"]`More importantly,`[|][lv 0*"28"*"92100120"]` .........things sure got ugly.`[\]
+*d32143
+d [lv 0*"28"*"92100121"]`I thought I had experienced some particularly gruesome ends in my game with Lambda,`[|][lv 0*"28"*"92100122"]` .........but this time, ......it's exceptionally horrible.`[\]
+*d32144
+d [lv 0*"28"*"92100123"]`...It isn't as though I don't understand your desire to hug your knees and close your heart.`[\]
+textoff
+waits 167
+csp_slot s0_8
+lbg s0_3,"different_spiral_1a"
+flush 22
+*d32145
+d [lv 0*"28"*"92100124"]`If you meet that end several more times,`[@][lv 0*"28"*"92100125"]` your heart will be killed within a hundred years.`[\]
+textoff
+waits 167
+vol_mix_fade 1000
+wait 1000
+bgmplay 59,71,0
+*d32146
+d [lv 0*"28"*"92100126"]`......Beato saw through me, so I'll confess.`[\]
+*d32147
+d [lv 0*"28"*"92100127"]`You are now just like I was in the past, when I was imprisoned inside Lambda's world.`[\]
+*d32148
+d [lv 0*"28"*"92100128"]`Shut inside a labyrinth of cruel fate, tormented at the whims of a witch.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+*d32149
+d [lv 0*"28"*"92100129"]`...I am a witch who was born from there.`[\]
+*d32150
+d [lv 0*"28"*"92100130"]`......So maybe I'm like an older sister to you.`[@]` So I decided that I'd lend you my power.`[|][lv 0*"28"*"92100131"]`However,`[\]
+*d32151
+d [lv 0*"28"*"92100132"]` ............even compared to my fate,`[|][lv 0*"28"*"92100133"]` ......yours is...truly brutal.`[|][lv 0*"28"*"92100134"]`Not only do I sympathize with you, I'm almost brought to tears by your tragic fate.`[\]
+*d32152
+d [lv 0*"28"*"92100135"]`But please, don't lose heart.`[\]
+textoff
+waits 167
+lbg s0_3,"different_space_1a"
+flush 22
+seplay 1,52,71
+lss s0_9,"ber","a11_defo2" ;1
+;z_order_override2 s0_9,s0_99
+aspt2 breakupdir,s0_9,1
+aspt2 breakup,s0_9,1000
+aspt2 alpha,s0_9,0
+flush 1
+aspt2 breakup,s0_9,0,2000
+aspt2 alpha,s0_9,255,2000
+sptwait2 breakup,s0_9
+*d32153
+d [lv 0*"28"*"92100136"]`Please don't submit to Beato, no matter what.`[@]`Certainly, that child's game is quite unfair.`[|][lv 0*"28"*"92100137"]`I took a glimpse of the game board, and the tricks are so mean and cunning,`[\]
+*d32154
+d [lv 0*"28"*"92100138"]` and the scenic tricks are filthy to a degree that probably far surpasses that of {f:5:Lambdadelta}'s game board.`[\]
+*d32155
+d [lv 0*"28"*"92100139"]`And what's even more frightening is that when that child moves a piece, it's not like she always makes the best possible move.`[@][lv 0*"28"*"92100140"]`This is where she is very different from Lambda.`[\]
+lss s0_9,"ber","a11_defo1" ;1
+flush 10,167
+*d32156
+d [lv 0*"28"*"92100141"]`Lambda always uses an overpowering number of pieces and makes the best possible move, in order to win.`[\]
+*d32157
+d [lv 0*"28"*"92100142"]`But Beato sometimes intentionally eases up when she moves her pieces.`[@]`This is unfortunate for us, trying to seek out our opponent's strategy by looking at her moves,`[|][lv 0*"28"*"92100143"]` because it creates a formidable amount of noise in our information.`[\]
+*d32158
+d [lv 0*"28"*"92100144"]`This disorder could be troublesome.`[\]
+*d32159
+d [lv 0*"28"*"92100145"]`......However, as in chess,`[@][lv 0*"28"*"92100146"]` a player might be able to create some noise for their opponent with a useless move, but they would still miss out on a more valuable move.`[\]
+*d32160
+d [lv 0*"28"*"92100147"]`In other words, it's not like your opportunities to take advantage of it are zero.`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 25
+textoff
+waits 167
+lbg s0_3,"chess1"
+flush 22
+*d32161
+d [lv 0*"28"*"92100148"]`Although you may not be able to believe it, this game was also like that.`[@][lv 0*"28"*"92100149"]`......Even though those developments looked so overpowering,`[\]
+*d32162
+d [lv 0*"28"*"92100150"]` ...there actually were weak points.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+*d32163
+d [lv 0*"28"*"92100151"]`It looks almost as if she wants us to take advantage of them.`[\]
+*d32164
+d [lv 0*"28"*"92100152"]`......Although, I don't know if it's a trap or if she's testing us.`[|][lv 0*"28"*"92100153"]`Anyway, don't surrender.`[\]
+*d32165
+d [lv 0*"28"*"92100154"]`Don't stop thinking.`[\]
+*d32166
+d [lv 0*"28"*"92100155"]`Don't deny any possibility.`[\]
+textoff
+waits 167
+lbg s0_3,"different_space_1a"
+lss s0_10,"ber","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 22
+*d32167
+d [lv 0*"28"*"92100156"]`As long as you continue to hold the will to fight, Beato will not win.`[@]`Defense is crucial during a witch's battle, you know?`[|][lv 0*"28"*"92100157"]`Rather than trying to win, try not to lose.`[@]`...If you lose when you accept her, then you definitely must not accept her.`[|][lv 0*"28"*"92100158"]`......Making you accept witches.`[\]
+*d32168
+d [lv 0*"28"*"92100159"]`There is no longer any doubt that this is one of {f:5:Beatrice}'s victory conditions.`[\]
+*d32169
+d [lv 0*"28"*"92100160"]`Now that I have announced that I am your ally, I too will make an effort to lend you as much of my power as I can.`[@]`Make an effort yourself as well.`[|][lv 0*"28"*"92100161"]`If you're still hugging your knees, quickly stand back up.`[\]
+*d32170
+d [lv 0*"28"*"92100162"]`......Umm, in times like this, what did I use to say again?`[\]
+*d32171
+d [lv 0*"28"*"92100163"]`.........Umm, uh,`[@]` .........Fi‐`[|][lv 0*"28"*"92100164"]`...fight,`[\]
+lss s0_10,"ber","a11_defo2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d32172
+d [lv 0*"28"*"92100165"]` yea~h.`[\]
+*d32173
+d [lv 0*"28"*"92100166"]` Mii,`[\]
+*d32174
+d [lv 0*"28"*"92100167"]` nipah~{p:0:☆}`[\]
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"black"
+flush 25
+*d32175
+d [lv 0*"28"*"92100168"]`..................It's so embarrassing, doing this.`[\]
+*d32176
+d2 [lv 0*"28"*"92100169"]`......I've done this much for you, so hurry and stand back up.`[@]`"...Ah, there you are.`[|][lv 0*"28"*"92100170"]` Did Bern shrink off somewhere?`[|][lv 0*"28"*"92100171"]` *giggle*, could she be any more lame?"`[|][lv 0*"28"*"92100172"]`Anywho.`[@][lv 0*"28"*"92100173"]`The pieces Bern chooses are crummy as usual, huh.`[#][*][|][lv 0*"28"*"92100174"]`It's the same with chess, right?`[\]
+wait_on_d 0
+seplay 3,38,100
+d_continue
+wait_on_d -1
+textoff
+waits 167
+lbg s0_3,"different_space_1a"
+lss s0_9,"ber","a11_defo1" ;1
+flush 26
+*d32177
+d [lv 0*"28"*"92100175"]`If all your pieces were pawns, you'd have zero chance to win, right?`[\]
+*d32178
+d [lv 0*"28"*"92100176"]`If all your pieces were rooks and bishops, no way you'd lose.`[\]
+textoff
+waits 167
+seplay 1,52,71
+aspt2 breakup,s0_9,0
+aspt2 breakup,s0_9,1000,3000
+aspt2 alpha,s0_9,0,3000
+sptwait2 breakup,s0_9
+csp_slot s0_9
+flush 1 ;flush2: NO frames
+vol_mix_fade 3000
+vol_bgm -1,3000
+wait 3000
+wait 1000
+seplay 1,57,90
+lbg s0_17,"white"
+z_order_override2 s0_17,s0_11
+flush 1
+lss s0_8,"lam","a11_akuwarai3" ;1
+aspt2 xpos,s0_8,-370
+csp_slot s0_17
+flush 2
+lss s0_8,"lam","a11_akuwarai4" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+bgmplay 19,71,0
+msgwnd_lam
+*d32179
+d [lv 0*"29"*"92200023"]`......W‐well, last time, I felt just a little pity and said that she could start her pieces anywhere she wants,`[@][lv 0*"29"*"92200024"]` and then that idiot Bern totally didn't pick up on my compassion and started with aaall of her pawns promoted on the eighth rank!!`[@][lv 0*"29"*"92200025"]`What's up with that, that wasn't a loss or anything!!`[\]
+textoff
+waits 167
+csp_slot s0_8
+lbg s0_3,"different_space_1a"
+flush 22
+seplay 1,57,90
+lbg s0_17,"white"
+z_order_override2 s0_17,s0_11
+flush 1
+lss s0_9,"lam","a11_akuwarai3" ;1
+csp_slot s0_17
+flush 22
+*d32180
+d [lv 0*"29"*"92200026"]` Aaah, just remembering that makes me queasy.`[@]`So, see, I'm gonna be ruffled until I see Bern's stupid speechless face.`[|][lv 0*"29"*"92200027"]`So it's like, seeing you in this state as Bern's piece, that makes me feel just awesome!`[\]
+lss s0_9,"lam","a11_akuwarai2" ;1
+flush 10,167
+*d32181
+d [lv 0*"29"*"92200028"]`Plus, believe it or not, that girl really hates to lose,`[@]` so I bet she's definitely grinding her teeth in frustration right about now, crying like a baby,`[|][lv 0*"29"*"92200029"]` she's so lame, *giggle*, hohhh‐hoh‐hoh‐hoh‐hoh‐ho!`[@]`C'mon, laugh with me, oh‐hoh‐hoh‐hoh‐ho!`[|][lv 0*"29"*"92200030"]`............Wait a sec.`[\]
+lss s0_9,"lam","a11_odoroki1" ;1
+flush 10,167
+*d32182
+d2 [lv 0*"29"*"92200031"]`Are you still hugging your knees?`[@][lv 0*"29"*"92200032"]`You're already like this just because Beato got a little serious?`[#][*][\]
+wait_on_d 0
+seplay 1,48,71
+agpt quakeycycle,50
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+d_continue
+wait_on_d -1
+*d32183
+d [lv 0*"29"*"92200033"]`Could you be any more pathetic?`[@][lv 0*"29"*"92200034"]`You're so pathetic, I'll help you just a little bit.`[\]
+lss s0_9,"lam","a11_akuwarai1" ;1
+flush 10,167
+*d32184
+d [lv 0*"29"*"92200035"]`I, the great Lady {f:5:Lambdadelta}, the Witch of Certainty and the strongest in the universe,`[\]
+*d32185
+d [lv 0*"29"*"92200036"]` will bring your hopeless chances of winning just a teensy bit closer to certainty.`[\]
+seplay 1,37,71
+lss s0_9,"lam","a11_akuwarai3" ;1
+flush 10,167
+*d32186
+d [lv 0*"29"*"92200037"]` You better thank me.`[@][lv 0*"29"*"92200038"]`You know, {f:5:Beatrice} may really be a cruel and powerful witch, but she's no match for me.`[@][lv 0*"29"*"92200039"]`Why?`[\]
+lss s0_9,"lam","a11_akuwarai1" ;1
+flush 10,167
+*d32187
+d [lv 0*"29"*"92200040"]` 'Cause she's soft.`[\]
+textoff
+waits 167
+wait 2000
+lss s0_9,"lam","a11_odoroki1" ;1
+flush 10,167
+*d32188
+d [lv 0*"29"*"92200041"]`That kid will make the board so she can win with just a few more moves, but she deliberately won't finish you off.`[@]`She'll do stuff like take worthless pieces, or put way too many pieces on the board to make things even more one‐sided.`[|][lv 0*"29"*"92200042"]`The point is, she's got this bad habit of playing around when she thinks she's going to win.`[\]
+*d32189
+d [lv 0*"29"*"92200043"]`Almost all the various attacks that are painful for you and Bern...`[\]
+*d32190
+d [lv 0*"29"*"92200044"]`look like a total waste and overkill to me.`[\]
+lss s0_9,"lam","a11_akuwarai4" ;1
+flush 10,167
+*d32191
+d [lv 0*"29"*"92200045"]`...Basically, that's her weakness, and it's also your chance.`[\]
+*d32192
+d [lv 0*"29"*"92200046"]` See?`[@][lv 0*"29"*"92200047"]` She isn't an opponent to be afraid of, right?`[@][lv 0*"29"*"92200048"]`She sometimes mistakes the means for the end.`[\]
+textoff
+waits 167
+seplay 1,57,90
+lbg s0_17,"white"
+z_order_override2 s0_17,s0_11
+flush 1
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"different_spiral_1a"
+csp_slot s0_17
+flush 22
+meplay 1,16,40
+*d32193
+d [lv 0*"29"*"92200049"]`And she has too much bad fun.`[\]
+*d32194
+d [lv 0*"29"*"92200050"]`As a result, she makes and even exposes her own weak points.`[@][lv 0*"29"*"92200051"]`It's impossible for a strongest‐ever witch like me to understand why she acts so relaxed.`[\]
+*d32195
+d [lv 0*"29"*"92200052"]`Lowering her own chances of winning.`[\]
+*d32196
+d [lv 0*"29"*"92200053"]`.........But, well.`[\]
+*d32197
+d [lv 0*"29"*"92200054"]`That's why the type of witch like Bern who reads her opponent and dodges their moves has a really bad matchup with her.`[\]
+vol_me 1,-1,1000
+textoff
+waits 167
+lbg s0_3,"different_space_1a"
+flush 22
+seplay 1,57,90
+lbg s0_17,"white"
+z_order_override2 s0_17,s0_11
+flush 1
+lss s0_10,"lam","a11_akuwarai3" ;1
+aspt2 xpos,s0_10,370
+csp_slot s0_17
+flush 22
+*d32198
+d [lv 0*"29"*"92200055"]` 'Cause reading her doesn't work.`[@][lv 0*"29"*"92200056"]`...It's probably really easy for Bern to read and handle an obedient and honest type like me.`[\]
+*d32199
+d [lv 0*"29"*"92200057"]` That makes me so mad!`[@][lv 0*"29"*"92200058"]`...Well, still, a super‐firepower type like me can easily go head‐on against a light, wide‐range barrage type like {f:5:Beatrice},`[@][lv 0*"29"*"92200059"]` so I guess it's kinda like rock‐paper‐scissors.`[\]
+lss s0_10,"lam","a11_akuwarai4" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d32200
+d [lv 0*"29"*"92200060"]`If I'm paper, Beato's rock.`[@]`I guess Bern would be scissors.`[|][lv 0*"29"*"92200061"]`Weeelll, maybe none of that matters anyway.`[@]`Sure, my paper loses to Bern's scissors,`[|][lv 0*"29"*"92200062"]` but if it was the way more awesome super‐paper, which is as thick as wood, it could even beat scissors, right?!`[\]
+*d32201
+d [lv 0*"29"*"92200063"]`In other words, I, Lady {f:5:Lambdadelta},`[\]
+*d32202
+d [lv 0*"29"*"92200064"]` am super‐paper, and super‐thick!`[\]
+lss s0_10,"lam","a11_akuwarai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d32203
+d [lv 0*"29"*"92200065"]` Hoh‐hoh‐hoh‐ho!`[\]
+*d32204
+d [lv 0*"29"*"92200066"]`It looks like the color's come back to your face a little.`[@][lv 0*"29"*"92200067"]`That Beato, she's having fun torturing some piece called Rosa.`[\]
+*d32205
+d [lv 0*"29"*"92200068"]`At a glance, you'd think she has really nasty hobbies, right?`[@][lv 0*"29"*"92200069"]` Wrong, though!`[\]
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"different_space_1a"
+flush 22
+seplay 1,57,90
+lbg s0_17,"white"
+z_order_override2 s0_17,s0_11
+flush 1
+lss s0_8,"lam","a11_akuwarai4" ;1
+aspt2 xpos,s0_8,-370
+csp_slot s0_17
+flush 22
+*d32206
+d [lv 0*"29"*"92200070"]`......She's just killing time, hoping you'll get up and come back.`[@][lv 0*"29"*"92200071"]`It's a move to fire up your righteous indignation by doing something to make you hate her on purpose.`[\]
+lss s0_8,"lam","a11_akuwarai2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d32207
+d [lv 0*"29"*"92200072"]`Ah man, I hate kids like that!`[@]`Well then, I'll go back.`[|][lv 0*"29"*"92200073"]`Ah!`[@]` Don't you tell anyone that I helped you out just a teensy bit!`[|][lv 0*"29"*"92200074"]`I mean, it's not like I helped you because I wanted to save you, okay?!`[\]
+lss s0_8,"lam","a11_akuwarai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d32208
+d [lv 0*"29"*"92200075"]`I, the strongest witch in the universe, had my seat as the strongest stolen when I lost to Bern!`[@][lv 0*"29"*"92200076"]`So it's like, I have to take that seat back from Bern,`[\]
+*d32209
+d2 [lv 0*"29"*"92200077"]` but if Bern loses to Beato here, then the position of the strongest will be moved to Beato this time, right?!`[|][lv 0*"29"*"92200078"][#][*]`...Well, it'd be easier to steal it back from Beato, so who cares really, but that won't satisfy me, you know what I mean?!`[@]`I'm gonna be the one to defeat Bern!`[|][lv 0*"29"*"92200079"]`And I'll take back my position as the strongest!`[\]
+wait_on_d 0
+seplay 1,48,71
+d_continue
+wait_on_d -1
+textoff
+waits 167
+seplay 1,37,100
+wait 2000
+textoff
+waits 167
+csp_slot s0_8
+lbg s0_3,"black"
+flush 25
+textoff
+waits 167
+lbg s0_3,"different_space_1c"
+flush 22
+seplay 2,57,90
+lbg s0_17,"white"
+z_order_override2 s0_17,s0_11
+flush 1
+lss s0_9,"lam","a11_akuwarai4" ;1
+csp_slot s0_17
+flush 22
+*d32210
+d [lv 0*"29"*"92200080"]`It's not like I'm really helping you, okay?!`[@]`I won't forgive you if you make Bern cry!`[|][lv 0*"29"*"92200081"]`I won't forgive you if you make Bern cry!`[\]
+lss s0_9,"lam","a11_akuwarai3" ;1
+flush 10,167
+*d32211
+d [lv 0*"29"*"92200082"]`I won't forgive you if you make Bern cry!`[@]`I won't forgive you if you make Bern cry!`[|][lv 0*"29"*"92200083"]`I won't forgive you if you make Bern cry!`[\]
+*d32212
+d [lv 0*"29"*"92200084"]`I won't forgive you if you make Bern cry!`[\]
+*d32213
+d [lv 0*"29"*"92200085"]`I won't forgive you if you make Bern cry!`[\]
+*d32214
+d [lv 0*"29"*"92200086"]`I won't forgive you if you make Bern cry!`[\]
+lss s0_9,"lam","a11_akuwarai1" ;1
+flush 10,167
+*d32215
+d [lv 0*"29"*"92200087"]`I won't forgive you if you make Bern cry!`[\]
+lss s0_9,"lam","a11_odoroki1" ;1
+flush 10,167
+*d32216
+d [lv 0*"29"*"92200088"]`I won't forgive you if you make Bern cry!`[@][lv 0*"29"*"92200089"]`I won't forgive you if you make Bern cry!`[\]
+*d32217
+d [lv 0*"29"*"92200090"]`I won't forgive you if you make Bern cry!`[\]
+*d32218
+d [lv 0*"29"*"92200091"]`I won't forgive you if you make Bern cry!`[\]
+*d32219
+d [lv 0*"29"*"92200092"]`I won't forgive you if you make Bern cry!`[@][lv 0*"29"*"92200093"]`I won't forgive you if you make Bern cry!`[\]
+lss s0_9,"lam","a11_akuwarai1" ;1
+flush 10,167
+*d32220
+d [lv 0*"29"*"92200094"]`I won't forgive you if you make Bern cry!`[\]
+lss s0_9,"lam","a11_akuwarai4" ;1
+flush 10,167
+*d32221
+d [lv 0*"29"*"92200095"]`I won't forgive you if you make Bern cry!`[@]`I won't forgive you if you make Bern cry!`[|][lv 0*"29"*"92200096"]`I won't forgive you if you make Bern cry!`[\]
+lss s0_9,"lam","a11_odoroki1" ;1
+flush 10,167
+*d32222
+d [lv 0*"29"*"92200097"]`I won't forgive you if you make Bern cry!`[@]`I won't forgive you if you make Bern cry!`[|][lv 0*"29"*"92200098"]`I won't forgive you if you make Bern cry!`[\]
+textoff
+waits 167
+seplay 1,57,90
+lbg s0_17,"white"
+z_order_override2 s0_17,s0_11
+flush 1
+csp_slot s0_9
+csp_slot s0_17
+flush 2
+wait 3000
+textoff
+waits 167
+lbg s0_3,"black"
+flush 18,3000,msk_1
+vol_mix_fade 6000
+vol_bgm -1,6000
+wait 6000
+wait 3000
+vol_mix_fade 1000
+wait 1000
+ch_done flag_scenario_2_ura
+*ura_2_end
+goto *end_game
+

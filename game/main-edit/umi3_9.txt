@@ -1,0 +1,2770 @@
+*umi3_9
+;10/5（日）7:00 前哨戦
+log_reset
+mov $name_chapter_r_click,r_click_chapters_3_9
+mov $name_chapter_save, "3_09"
+new_chapter date_scenario_3_9,scenario_3_9
+gstc 145
+textoff
+waits 167
+meplay 1,13,70
+meplay 2,5,70
+rain_load s0_11
+rain_load s0_7
+rain_params s0_11,400,800,0
+rain_params s0_7,400,500,0
+textoff
+waits 167
+lbg s0_3,"rose_g1a"
+flush 6
+wait 2000
+textoff
+waits 167
+lbg s0_3,"g_o1a"
+flush 4
+wait 2000
+csp_slot s0_11
+csp_slot s0_7
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+vol_me 1,50
+vol_me 2,40
+rain_load s0_11
+z_order_override s0_11,s0_1
+rain_params s0_11,500,300,0
+textoff
+waits 167
+lbg s0_3,"g1f_p1c"
+flush 4
+wait 2000
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+vol_mix_fade 3000
+vol_bgm -1,3000
+wait 3000
+bgmplay 38,71,0
+*d17256
+d `......The adults' motivations aside...`[@]`{n}At least for us kids,`[@]` these were supposed to be a fun couple of days where we cousins deepened our friendship.`[\]
+*d17257
+d `However, when we woke up, there was an unbelievably cruel reality waiting for us...`[\]
+msgwnd_jes
+*d17258
+d [lv 0*"04"*"30200097"]`"............hic, ......hic......!"`[\]
+msgwnd_geo
+*d17259
+d [lv 0*"07"*"30300051"]`"................................."`[\]
+msgwnd_non
+*d17260
+d `George‐aniki and Jessica were crying over Shannon‐chan and Kanon‐kun's deaths.`[\]
+meplay 1,13,50
+textoff
+waits 167
+lbg s0_1,"glob_1a_bg"
+lbg s0_3,"glob_1a"
+flush 2
+*d17261
+d `......Right now, everyone who was alive was gathered in the lobby on the first floor of the guesthouse.`[@]` And there were 12 of us.`[\]
+*d17262
+d `...Unbelievable, right?`[@]`{n}There were 18 up until yesterday.`[@]`{n}...And in one night, a third of that number had lost their lives...`[\]
+textoff
+waits 167
+csp_slot s0_1
+lbg s0_3,"black"
+flush 22
+*d17263
+d `My agitation had finally settled down, and, along with my lack of sleep from being woken up so early in the morning,`[@]` I was beginning to feel like this was just a little unreal.`[\]
+*d17264
+d `......I want to think this is some kind of bad dream...`[@]` My cheap escapism kept telling me that was true, over and over.`[\]
+textoff
+waits 167
+lbg s0_1,"glob_1d_bg"
+lbg s0_3,"glob_1d"
+flush 4
+*d17265
+d `Maria had gone back to sleep in the sofa Aunt Rosa was sitting in.`[\]
+*d17266
+d `...Rather than her having nerves of steel, she probably genuinely hadn't had enough sleep.`[\]
+textoff
+waits 167
+lbg s0_1,"glob_1a_bg"
+lbg s0_3,"glob_1a"
+lss s0_10,"rud","a14_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 23
+*d17267
+d `The adults were grasping members of Grandfather's collection...`[@]`of short‐barrel rifles.`[\]
+*d17268
+d `...Apparently a remnant from the period when he was obsessed by westerns, there were four identical guns altogether.`[\]
+*d17269
+d `Those had been split up between the four siblings: Uncle Krauss, Aunt Eva, my dad, and Aunt Rosa.`[\]
+*d17270
+d `Paper boxes filled with bullets lay on the table, and the siblings were silently loading their guns.`[\]
+seplay 1,43,40
+lss s0_10,"rud","a11_akuwarai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_rud
+*d17271
+d [lv 0*"08"*"31200219"]`".........It's a little scary.`[@][lv 0*"08"*"31200220"]` Even as I stand here touching this,`[@][lv 0*"08"*"31200221"]` I get the feeling Dad's about to yell "Don't touch that!" and hit me."`[\]
+lss s0_8,"cla","a15_akuwarai2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_cla
+*d17272
+d [lv 0*"02"*"30800190"]`"Then aren't you lucky.`[@][lv 0*"02"*"30800191"]` ...No matter how much you touch it, you won't be hit again."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_1,"glob_1d_bg"
+lbg s0_3,"glob_1d"
+lss s0_10,"ros","a14_komaru3" ;1
+aspt2 xpos,s0_10,370
+flush 24
+msgwnd_ros
+*d17273
+d [lv 0*"12"*"31400198_1"]`"............I can't believe it.`[@][lv 0*"12"*"31400198_2"]` ...That Father...`[|][lv 0*"12"*"31400198_3"]`.........would meet this kind of end..."`[\]
+lss s0_8,"nan","a1_komaru3" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_nan
+*d17274
+d [lv 0*"19"*"31900013"]`"I did think that when it came to Kinzo‐san, he would probably not die normally in his bed,`[@][lv 0*"19"*"31900014"]` ......but even so, ......it is too horrible..."`[\]
+csp_slot s0_8
+csp_slot s0_10
+flush 10,167
+lss s0_10,"eva","b24_akire2" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_eva
+*d17275
+d [lv 0*"05"*"31000316"]`"Hey.`[@][lv 0*"05"*"31000317"]` I wonder if that really is Father...?`[@][lv 0*"05"*"31000318"]` I'm suspecting that it might be a different person's corpse as a substitute to trick us..."`[\]
+lss s0_8,"nat","a43_zutuu1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_nat
+*d17276
+d [lv 0*"03"*"30900076"]`"......No, without a doubt, that is Father.`[@][lv 0*"03"*"30900077"]` You saw his toes, right?`[@][lv 0*"03"*"30900078"]` In general society, there aren't many humans with six toes on both feet."`[\]
+lss s0_9,"kir","a11_nayamu1" ;1
+flush 10,167
+msgwnd_kir
+*d17277
+d [lv 0*"09"*"31300159"]`"But, ............we can't say that there are none.`[@][lv 0*"09"*"31300160"]` I've heard that polydactyly isn't a rare disease.`[@][lv 0*"09"*"31300161"]` He was a man who liked big tricks, right?`[@][lv 0*"09"*"31300162"]` ......He might have prepared a body from somewhere that had the same number of toes on both feet."`[\]
+lss s0_8,"nat","a32_odoroki2" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_nat
+*d17278
+d [lv 0*"03"*"30900079"]`"Preposterous.`[@][lv 0*"03"*"30900080"]` What would possess him to do something like that...?!"`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_10,"hid","a11_majime1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_hid
+*d17279
+d [lv 0*"06"*"31100203"]`"......I'd agree if it was a normal person.`[@][lv 0*"06"*"31100204"]` ...But this is Father we're talkin' about.`[@][lv 0*"06"*"31100205"]` You can't say for sure that what Kyrie‐san says is nonsense."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_1,"glob_1a_bg"
+lbg s0_3,"glob_1a"
+flush 23
+lss s0_10,"rud","a11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_rud
+*d17280
+d2 [lv 0*"08"*"31200222"]`"............They say it's difficult to confirm the identity of a burnt corpse.`[@][#][*][lv 0*"08"*"31200223"]` However, there should be various ways to examine him from his teeth and his bone structure.`[@][lv 0*"08"*"31200224"]` If the police investigated, they'd be bound to know whose body it was in an instant."`[\]
+wait_on_d 0
+lss s0_10,"rud","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_8,"cla","a11_komaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_cla
+*d17281
+d [lv 0*"02"*"30800192"]`"The problem is that before the police, we need a telephone engineer."`[\]
+lss s0_10,"ros","a11_komaru1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ros
+*d17282
+d [lv 0*"12"*"31400199"]`"......The boat probably won't come in this typhoon.`[@][lv 0*"12"*"31400200"]` ...So, will it come tomorrow?"`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 25
+textoff
+waits 167
+lbg s0_1,"glob_1d_bg"
+lbg s0_3,"glob_1d"
+flush 22
+msgwnd_nat
+*d17283
+d [lv 0*"03"*"30900081"]`"I expect that the boat will come again at nine o'clock tomorrow.`[@][lv 0*"03"*"30900082"]` Then, I believe we will be able to contact the police."`[\]
+msgwnd_eva
+*d17284
+d [lv 0*"05"*"31000319"]`"......Both us,`[@][lv 0*"05"*"31000320"]` and the culprit...`[@][lv 0*"05"*"31000321"]`have been imprisoned on this island, then, until the typhoon passes."`[\]
+textoff
+waits 167
+csp_slot s0_1
+lbg s0_3,"black"
+flush 22
+vol_mix_fade 3000
+vol_bgm -1,3000
+wait 3000
+bgmplay 39,71,0
+msgwnd_non
+*d17285
+d `.........Just from our parents' conversation, you could probably figure out the general gist, but let's explain the situation anyway.`[\]
+*d17286
+d `First, early that morning.`[\]
+gstc 146
+seplay 9,1061,70
+*d17287
+d `In various places throughout the mansion, a total of six corpses, of Grandfather and all the servants, had been found one after another.`[\]
+textoff
+waits 167
+lbg s0_3,"mboi_1a"
+flush 6
+*d17288
+d `First, Grandfather had been fed to the flames in the boiler room, and was completely burnt.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 25
+textoff
+waits 167
+lbg s0_3,"magicsquare_sun7"
+flush 8
+*d17289
+d `The servants were found dead, each locked in one of the various rooms throughout the mansion onto which magic circles had been drawn.`[\]
+textoff
+waits 167
+lbg s0_3,"blood_1b"
+flush 22
+*d17290
+d `The cause of death for the servants was uncertain,`[@]` but according to Doctor Nanjo's diagnosis, there was a high likelihood that they had been stabbed by something like a spear,`[@]` ......or possibly shot by a gun.`[\]
+*d17291
+d `That was why the adults had started arming themselves with the rifles.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+*d17292
+d `And what made the situation even more chaotic was that the telephone lines were out of order.`[@]` It was unknown whether lightning had caused them to break down or whether the culprit had destroyed them.`[\]
+*d17293
+d `In any case, contact with the outside was broken off, and we couldn't contact the police.`[\]
+meplay 1,13,50
+csp_slot s0_11
+rain_load s0_11
+rain_load s0_7
+rain_params s0_11,400,800,0
+rain_params s0_7,400,500,0
+textoff
+waits 167
+lbg s0_3,"g_o1a"
+flush 22
+*d17294
+d `So until tomorrow morning, when the typhoon would pass and the boat would come,`[@]` we would have to protect ourselves.`[\]
+*d17295
+d `After all, Rokkenjima was now isolated by the typhoon.`[@]` And just like how we were stuck on the island, so was the culprit.`[\]
+csp_slot s0_11
+csp_slot s0_7
+textoff
+waits 167
+lbg s0_3,"black"
+flush 25
+vol_me 1,-1,1000
+rain_load s0_11
+z_order_override s0_11,s0_1
+rain_params s0_11,500,300,0
+textoff
+waits 167
+lbg s0_3,"mdin_1fr"
+color_mod2 s0_3,#ffffff
+flush 26
+*d17296
+d `It seemed that the adults had stayed up the whole night, spending the whole time holding the family conference in the mansion's dining hall.`[@]` And even so, this crime had occurred in the mansion.`[\]
+*d17297
+d `......So right when the adults had been getting worked into a frenzy over money,`[@]` the murderer had been killing under the same roof...`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+rain_pause s0_11
+textoff
+waits 167
+lbg s0_1,"m1f_p2br_bg"
+lbg s0_3,"m1f_p2br"
+color_mod2 s0_1,#ffffff
+color_mod2 s0_3,#ffffff
+flush 26
+*d17298
+d `Aunt Natsuhi said that they were strict on locking the doors and windows at night.`[@]`{n}And yet, some suspicious person had entered the mansion.`[\]
+*d17299
+d `...The adults had decided that the inside of the mansion was too large to be safe,`[@]` so they had pulled out the guns and moved to the guesthouse, where we had been.`[\]
+textoff
+waits 167
+csp_slot s0_1
+lbg s0_3,"black"
+flush 22
+rain_resume s0_11
+textoff
+waits 167
+lbg s0_1,"glob_1d_bg"
+lbg s0_3,"glob_1d"
+flush 22
+meplay 1,5,50
+*d17300
+d `.........Which brings us to the present.`[\]
+lss s0_9,"geo","a21_naki2" ;1
+lss s0_8,"jes","a11_naki1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+*d17301
+d `George‐aniki and us others begged to see Shannon‐chan's body,`[@]` but the adults refused point blank, saying that we must not until the police arrive.`[\]
+*d17302
+d `That wasn't just because they had sealed all the rooms to preserve the scene.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_1
+lbg s0_3,"black"
+flush 22
+*d17303
+d `...After all, the culprit who had killed six people had wandered about that mansion.`[\]
+*d17304
+d `To the Ushiromiya family right now, the mansion which should have been their home...`[@]`was like a danger zone that an unknown murderer had entered...`[\]
+*d17305
+d `It makes sense, I mean, the mansion is vast.`[@]` There are plenty of blind spots and dark places, and it's just too vast to guarantee absolute safety with this number of people.`[\]
+vol_me 1,-1,1000
+meplay 1,13,50
+csp_slot s0_11
+rain_load s0_11
+rain_load s0_7
+rain_params s0_11,400,800,0
+rain_params s0_7,400,500,0
+textoff
+waits 167
+lbg s0_3,"g_o1a"
+flush 26
+*d17306
+d `In contrast, the guesthouse is a much smaller building than the mansion.`[\]
+*d17307
+d `Two stories tall.`[@]` Number of rooms...about ten?`[@]`{n}......Apparently, it had originally been constructed to serve as a boarding house for when the island was to be turned into a resort.`[\]
+*d17308
+d `So it's easy to grasp the entire structure, and easy to guarantee safety.`[@]`{n}That makes it a good place to hole up in.`[\]
+csp_slot s0_11
+csp_slot s0_7
+textoff
+waits 167
+lbg s0_3,"black"
+flush 25
+*d17309
+d `......And.`[@]` There's an extremely high likelihood that this mass murder of six people is a "game".`[\]
+*d17310
+d `Because the culprit had proclaimed that in a letter.`[\]
+meplay 2,16,50
+textoff
+waits 167
+lbg s0_3,"letter1"
+flush 6
+*d17311
+d `I heard that a Western‐style envelope with the family crest, just like the one Maria claimed to have received from {f:5:Beatrice} yesterday,`[@]` had been found in the boiler room where Grandfather's corpse had been discovered.`[\]
+*d17312
+d `This was what the letter said:`[\]
+gstc 147
+seplay 9,1060,70
+gstt 10
+set_window_simple 80
+*d17313
+d `{e:070:So that there will be no misunderstandings.`[@]`{n}The game I seek is whether or not you can solve the riddle of the epitaph,`[@]` not whether or not you can catch me.`[@]`{n}{n}If you do not solve the riddle of the epitaph, the pitiful sacrifices will further increase in number.`[@]`{n}It would be more wise to spend your time solving the epitaph than searching for me.`[@]`{n}{n}If no one can solve the riddle of the epitaph, no one will survive.}`[\]
+*d17314
+d `{e:070:If a person appears with skill enough to solve the riddle of the epitaph, I will give them all the gold of the Golden Land,`[@]` the Ushiromiya family headship, and all of my power.`[@]`{n}{n}I was the one who succeeded the Ushiromiya family headship from Kinzo‐sama.`[@]`{n}And I look forward to seeing who will receive the headship from me.`[@]`{n}{n}{nobreak:{m:-3:—}—}{f:5:Beatrice} the Golden.}`[\]
+set_name_window_non
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+*d17315
+d `...This riddle of the epitaph was...that thing.`[\]
+textoff
+waits 167
+lbg s0_3,"mhal_2cr"
+flush 22
+seplay 1,21,71
+*d17316
+d `That strange epitaph written in the same place as the portrait of the witch, displayed in the hall of the mansion.`[\]
+*d17317
+d `Grandfather was the one who ordered that it be written,`[@]` and the person who solved it would, supposedly, be given the family headship or the hidden gold or something like that.`[\]
+*d17318
+d `Ever since it was first displayed there several years ago, all the relatives, despite making fun of it in the open,`[@]` had been secretly been challenging that riddle in private.`[\]
+*d17319
+d `However, up until today, no one had solved it.`[@]` We had once again been told to solve that unintelligible riddle, and this time, we had been threatened that if we didn't solve it, we would all be killed.`[\]
+*d17320
+d `......If this wasn't a "game", what would you call it...`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 25
+meplay 2,14,50
+rain_load s0_11
+rain_load s0_7
+rain_params s0_11,400,800,0
+rain_params s0_7,400,500,0
+textoff
+waits 167
+lbg s0_3,"rose_g1a"
+flush 22
+*d17321
+d `The bold opinion that we should search the premises for the culprit did come up once.`[\]
+*d17322
+d `However, there was a good chance they were armed, and there wasn't necessarily only one of them.`[\]
+*d17323
+d `And, ...while they might have been able to kill more than six people, they had {i:stopped at six}.`[\]
+*d17324
+d `In the end, the opinion that we should avoid carelessly antagonizing the culprit,`[@]` and hole up in a safe place while we waited for the police to arrive, won out...`[\]
+csp_slot s0_11
+csp_slot s0_7
+textoff
+waits 167
+lbg s0_3,"black"
+flush 24
+meplay 3,16,0
+meplay 4,11,0
+vol_bgm 0,5000
+vol_me 1,0,5000
+vol_me 2,0,5000
+vol_me 3,50,5000
+vol_me 4,70,5000
+wait 5000
+rain_load s0_11
+z_order_override s0_11,s0_1
+rain_params s0_11,500,300,0
+textoff
+waits 167
+lbg s0_1,"glob_1a_bg"
+lbg s0_3,"glob_1a"
+flush 4
+*d17325
+d `After the adults had carefully checked that the doors and windows in the guesthouse were locked, they set up camp in the lobby.`[\]
+*d17326
+d `And as they fingered their guns to distract themselves from the tension,`[@]` their expressions showed that they were already fatigued from this long day, which had still barely begun...`[\]
+textoff
+waits 167
+lbg s0_1,"glob_1d_bg"
+lbg s0_3,"glob_1d"
+lss s0_9,"but","b11_nayamu1" ;1
+flush 24
+*d17327
+d `There was nothing that I could do.`[\]
+*d17328
+d `Now, all I could do was be taught how to use a gun,`[@]` to prepare for the off‐chance that...something would happen which {i:led to an excess of guns}......`[\]
+textoff
+waits 167
+csp_slot s0_9
+csp_slot s0_1
+lbg s0_3,"black"
+flush 25
+textoff
+waits 167
+lbg s0_1,"glob_1a_bg"
+lbg s0_3,"glob_1a"
+flush 22
+*d17329
+d `......That's the way.`[@]` Just obediently stay there, {i:me and the rest of you}.`[\]
+gstc 148
+textoff
+waits 167
+csp_slot s0_1
+lbg s0_3,"black"
+flush 22
+vol_mix_fade 1000
+vol_bgm -1,1000
+wait 1000
+seplay 1,56,71
+textoff
+waits 167
+rain_pause s0_11
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+flush 10,367
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+flush 28
+lss s0_23,"but","b11_komaru2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+bgmplay 52,71,0
+msgwnd_but
+*d17330
+d [lv 0*"10"*"30100827"]`"...............Six people in the beginning again.`[@][lv 0*"10"*"30100828"]` And this time it's Grandfather and all of the servants put together."`[\]
+lss s0_25,"wal","a11_fuman1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_wal
+*d17331
+d [lv 0*"30"*"33200268"]`"Most likely,`[@][lv 0*"30"*"33200269"]` that child has carefully studied your moves from the last game.`[@][lv 0*"30"*"33200270"]` And she placed the highest priority upon taking the pieces which she guessed you were most likely to first suspect."`[\]
+lss s0_23,"but","b22_oyaa1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_but
+*d17332
+d [lv 0*"10"*"30100829"]`"......That makes sense.`[@][lv 0*"10"*"30100830"]` ...Both last time, and the time before that,`[@][lv 0*"10"*"30100831"]` the servants who know everything about the mansion and who walk around with master keys were always highest on the list of suspicious people."`[\]
+lss s0_23,"but","b11_nayamu1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+*d17333
+d [lv 0*"10"*"30100832"]`"......A good example in the last game is Jessica's locked room.`[@][lv 0*"10"*"30100833"]` If I had only accepted that a servant was the culprit, that wouldn't even have been a locked room."`[\]
+lss s0_25,"wal","a11_ikari1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_wal
+*d17334
+d [lv 0*"30"*"33200271"]`"Therefore,`[@][lv 0*"30"*"33200272"]` ......that child went straight for them.`[@][lv 0*"30"*"33200273"]` She probably immediately went to block the way of escape that you would ultimately retreat into."`[\]
+lss s0_23,"but","b22_niramu1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_but
+*d17335
+d [lv 0*"10"*"30100834"]`"Beato already proclaimed in red that there are no more than 18 people on this island.`[@][lv 0*"10"*"30100835"]` ...So basically,`[|][lv 0*"10"*"30100836"]` .........{i:she's saying "give it up"}.`[@][lv 0*"10"*"30100837"]` ......Now I have to suspect one of the 18."`[\]
+lss s0_25,"wal","a11_fuman1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_wal
+*d17336
+d [lv 0*"30"*"33200274"]`"......That child will probably come at you by stealing the pieces for the 18, and descending as a 19th person who shouldn't exist,`[@][lv 0*"30"*"33200275"]` thereby making you accept that she is a witch."`[\]
+*d17337
+d [lv 0*"30"*"33200276"]`"......That is because now that her intimidation strategy of trying to force you to submit by showing you magic has failed,`[@][lv 0*"30"*"33200277"]` she can only make a frontal attack."`[\]
+lss s0_23,"but","a21_niramu1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_but
+*d17338
+d [lv 0*"10"*"30100838"]`"......Perfect.`[@][lv 0*"10"*"30100839"]` Bluffing won't work anymore."`[\]
+lss s0_25,"wal","a11_ikari1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_wal
+*d17339
+d [lv 0*"30"*"33200278"]`"Be careful.`[@][lv 0*"30"*"33200279"]` Deception is a witch's strongest point.`[@][lv 0*"30"*"33200280"]` ...No matter what that child says or shows you,`[@][lv 0*"30"*"33200281"]` it definitely won't threaten the truth that you believe in.`[@][lv 0*"30"*"33200282"]` Don't forget that."`[\]
+lss s0_23,"but","b11_defo1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_but
+*d17340
+d2 [lv 0*"10"*"30100840"]`".........Sure.`[@][lv 0*"10"*"30100841"]` I'll be damned if the same moves are going to work on me over and over.`[@][#][*][lv 0*"10"*"30100842"]` .........Get out here, {f:5:Beatrice}.`[@][lv 0*"10"*"30100843"]` Let's get started!!!"`[\]
+wait_on_d 0
+vol_mix_fade 0
+vol_bgm -1
+d_continue
+wait_on_d -1
+seplay 1,1006,100
+seplay 2,2,71
+bgmplay 47,71,0
+textoff
+waits 167
+csp_slot s0_25
+csp_slot s0_23
+lbg s0_3,"white"
+csp_slot s0_21
+csp_slot s0_22
+rain_resume s0_11
+flush 1
+textoff
+waits 167
+lbg s0_3,"g1f_s1bp"
+lss s0_10,"bea","a11_akuwarai1" ;1
+aspt2 xpos,s0_10,370
+flush 2
+lss s0_10,"bea","a11_futeki1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d17341
+d [lv 0*"27"*"30701160"]`"I am already seated at the match table.`[@][lv 0*"27"*"30701161"]` My turn, too, is already complete."`[\]
+lss s0_8,"ron","a11_warai2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ron
+*d17342
+d [lv 0*"31"*"33100356"]`"......Imagine that Madam would turn out to be our enemy.`[@][lv 0*"31"*"33100357"]` How unfortunate, Milady.`[@][lv 0*"31"*"33100358"]` ...Our moves will be read thoroughly."`[\]
+lss s0_10,"bea","a11_futeki2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d17343
+d [lv 0*"27"*"30701162"]`"That is no problem.`[@][lv 0*"27"*"30701163"]` Master's moves are all outdated classics.`[@][lv 0*"27"*"30701164_b"]` There is nothing to fear."`[\]
+csp_slot s0_8
+flush 10,167
+lss s0_8,"wal","a11_warai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_wal
+*d17344
+d [lv 0*"30"*"33200283"]`"...What moves can you make beyond the classics I taught you?`[@][lv 0*"30"*"33200284"]` I am looking forward to seeing, {f:5:Beatrice}."`[\]
+lss s0_10,"bea","a21_akuwarai5" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d17345
+d [lv 0*"27"*"30701165"]`"......*cackle*cackle*cackle*cackle*.`[@][lv 0*"27"*"30701166"]` Is that alright, Battleerr?`[@][lv 0*"27"*"30701167"]` If a person who denies witches such as yourself accepts a witch as a strategist..."`[\]
+csp_slot s0_8
+flush 10,167
+lss s0_8,"but","b22_oyaa1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d17346
+d2 [lv 0*"10"*"30100844"]`"That stupid provocation is useless.`[@][lv 0*"10"*"30100845"]` This person is my advisor, no, my second.`[@][#][*][lv 0*"10"*"30100846"]` That doesn't change one bit that this is a fistfight between you and me."`[\]
+wait_on_d 0
+lss s0_8,"but","b22_odoroki1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"g1f_s1ap"
+lss s0_9,"bea","a31_warai1" ;1
+flush 23
+msgwnd_bea
+*d17347
+d2 [lv 0*"27"*"30701168"]`"I understand.`[@][lv 0*"27"*"30701169"]` ......You're so wobbly that you probably need training wheels on your bicycle.`[@][lv 0*"27"*"30701170"]` Do as you like.`[@][#][*][lv 0*"27"*"30701171"]` Come, begin!!`[@][lv 0*"27"*"30701172"]` It is your turn!"`[\]
+wait_on_d 0
+lss s0_9,"bea","a11_akuwarai3" ;1
+flush 10,167
+d_continue
+wait_on_d -1
+seplay 1,2,100
+vol_bgm -1,1000
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 1
+bgmplay 68,71,0
+seplay 2,56,71
+textoff
+waits 167
+rain_pause s0_11
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+flush 10,367
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+flush 28
+lss s0_23,"but","b22_niramu1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_but
+*d17348
+d [lv 0*"10"*"30100847"]`"Let's begin with the reconstruction of the crime scene.`[@][lv 0*"10"*"30100848"]` ......{f:5:Virgilia}, if you please!"`[\]
+csp_slot s0_23
+flush 10,167
+seplay 1,52,71
+lss s0_25,"wal","a11_defo1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+textoff
+waits 167
+csp_slot s0_25
+lbg s0_1,"m1f_s1a_bg"
+lbg s0_3,"m1f_s1a"
+lss s0_25,"wal","a11_defo1" ;1
+aspt2 xpos,s0_25,-370
+flush 28
+msgwnd_wal
+*d17349
+d [lv 0*"30"*"33200285"]`"The first body discovered was Shannon's.`[@][lv 0*"30"*"33200286"]` She was found in the parlor on the first floor of the mansion.`[@][lv 0*"30"*"33200287"]` The door and windows were locked, and a locked room was established."`[\]
+lss s0_23,"but","b11_majime1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_but
+*d17350
+d [lv 0*"10"*"30100849"]`"......Beato, I need some details.`[@][lv 0*"10"*"30100850"]` Reconfirm the definition of a locked room."`[\]
+csp_slot s0_25
+flush 10,167
+lss s0_25,"bea","a11_defo1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_bea
+*d17351
+d [lv 0*"27"*"30701173"]`"Mmhm.`[@][lv 0*"27"*"30701174"]` The term "locked room" refers to a room where the inside and the outside of the room are completely isolated from all travel between them.`[@][lv 0*"27"*"30701175"]` Of course, no form of intrusion or escape, nor even any interference is possible.`[@][lv 0*"27"*"30701176"]` That is comprehensive, including a denial of hidden doors, as well as all margin for interference from the outside."`[\]
+lss s0_25,"bea","a11_futeki1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+*d17352
+d2 [lv 0*"27"*"30701177"]`"......Henceforth, this definition will be referred to as:`[|][lv 0*"27"*"30701178"][#][*]` "{f:5:Beatrice}'s locked‐room definition"!"`[\]
+wait_on_d 0
+seplay 1,2,100
+d_continue
+wait_on_d -1
+lss s0_23,"but","b11_komaru2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_but
+*d17353
+d [lv 0*"10"*"30100851"]`"Confirming specifics.`[@][lv 0*"10"*"30100852"]` ......Define "margin for interference from the outside"."`[\]
+lss s0_25,"bea","a11_akuwarai5" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_bea
+*d17354
+d [lv 0*"27"*"30701179"]`"It refers to all types of direct interference from the outside, such as using a fishing line or a long, thin rod.`[@][lv 0*"27"*"30701180"]` In other words, you are to conclude that there is not even any gap in the doors or windows by which to use such tricks."`[\]
+lss s0_23,"but","b11_futeki1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_but
+*d17355
+d [lv 0*"10"*"30100853"]`"I wonder about that?`[@][lv 0*"10"*"30100854"]` Even if there wasn't a gap, you should be able to interfere with radio waves, like with a remote control, right?"`[\]
+lss s0_25,"bea","a31_warai1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_bea
+*d17356
+d [lv 0*"27"*"30701181"]`"Very well.`[@][lv 0*"27"*"30701182"]` I add to this definition that it is impossible for radio waves and related methods of remote control to interfere."`[\]
+lss s0_23,"but","b22_niramu1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_but
+*d17357
+d [lv 0*"10"*"30100855"]`"There's also an extension telephone in the parlor.`[@][lv 0*"10"*"30100856"]` A device linked with that wouldn't count as remote control, right?!"`[\]
+lss s0_25,"bea","a11_futeki2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_bea
+*d17358
+d2 [lv 0*"27"*"30701183"]`"The phones are already out of order, damn you.`[@][#][*][lv 0*"27"*"30701184"]` ...Ugh, this is a pain.`[@][lv 0*"27"*"30701185"]` I'll include that too.`[@][lv 0*"27"*"30701186"]` All direct and indirect methods of interfering from the outside of the room to the inside of the locked room are impossible."`[\]
+wait_on_d 0
+lss s0_25,"bea","a11_nayamu1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+d_continue
+wait_on_d -1
+csp_slot s0_25
+csp_slot s0_23
+textoff
+waits 167
+lbg s0_3,"m_door2"
+flush 22
+msgwnd_but
+*d17359
+d [lv 0*"10"*"30100857"]`"What about a voice or a knock?`[@][lv 0*"10"*"30100858"]` Those should be able to interfere from the outside without entering the room, right?"`[\]
+msgwnd_bea
+*d17360
+d [lv 0*"27"*"30701187"]`".........Even though it is a locked room, it probably isn't impossible for someone to knock or call out.`[@][lv 0*"27"*"30701188"]` Whether the room allows for human communication with the outside or not, it does not go against the definition of a locked room."`[\]
+csp_slot s0_21
+csp_slot s0_22
+rain_resume s0_11
+textoff
+waits 167
+lbg s0_3,"g1f_s1ap"
+flush 26
+lss s0_8,"but","b22_niramu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d17361
+d [lv 0*"10"*"30100859"]`"In other words, you can't define it so that even methods of communication are interrupted?"`[\]
+lss s0_10,"ron","a11_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ron
+*d17362
+d [lv 0*"31"*"33100359"]`"That is the case."`[\]
+lss s0_8,"but","b11_komaru2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d17363
+d [lv 0*"10"*"30100860"]`"Understood.`[@][lv 0*"10"*"30100861"]` .........So, Shannon‐chan's parlor satisfies "{f:5:Beatrice}'s locked‐room definition"?"`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_10,"bea","a11_defo2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d17364
+d [lv 0*"27"*"30701189"]`"That is correct."`[\]
+lss s0_8,"but","b11_defo2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d17365
+d [lv 0*"10"*"30100862"]`".........Locked‐room definition understood.`[@][lv 0*"10"*"30100863"]` Continue, {f:5:Virgilia}."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 23
+seplay 1,52,71
+textoff
+waits 167
+rain_pause s0_11
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+textoff
+waits 167
+lbg s0_3,"blood_1b"
+lss s0_23,"wal","a11_defo1" ;1
+aspt2 xpos,s0_23,370
+flush 24
+msgwnd_wal
+*d17366
+d [lv 0*"30"*"33200288"]`"Yes."`[\]
+textoff
+waits 167
+csp_slot s0_23
+lbg s0_3,"key2"
+lss s0_23,"wal","a11_defo1" ;1
+aspt2 xpos,s0_23,370
+flush 22
+*d17367
+d [lv 0*"30"*"33200289"]`".........Shannon's body was in possession of one master key.`[@][lv 0*"30"*"33200290"]` The relatives who discovered her collected this."`[\]
+lss s0_25,"but","b22_oyaa1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_but
+*d17368
+d [lv 0*"10"*"30100864"]`"Beato, repeat it.`[@][lv 0*"10"*"30100865"]` How many master keys this time?"`[\]
+csp_slot s0_23
+flush 10,167
+lss s0_23,"bea","a11_akuwarai1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_bea
+*d17369
+d2 [lv 0*"27"*"30701190"]`"...Hmph. The same as last time.`[@][lv 0*"27"*"30701191"][#][*]` {p:1:There are five, one for each servant}."`[\]
+wait_on_d 0
+seplay 1,59,71
+d_continue
+wait_on_d -1
+lss s0_25,"but","b11_komaru2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_but
+*d17370
+d [lv 0*"10"*"30100866"]`"Which means this still isn't a locked room.`[@][lv 0*"10"*"30100867"]` There are still four master keys left.`[@][lv 0*"10"*"30100868"]` It just means that after Shannon‐chan was murdered, one of the other four keys locked it."`[\]
+csp_slot s0_23
+flush 10,167
+lss s0_23,"ron","a11_defo1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_ron
+*d17371
+d [lv 0*"31"*"33100360"]`"That is correct.`[@][lv 0*"31"*"33100361"]` .........And, it wasn't only a master key that was found."`[\]
+csp_slot s0_25
+csp_slot s0_23
+flush 10,167
+lss s0_23,"wal","a11_defo1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_wal
+*d17372
+d [lv 0*"30"*"33200291"]`"Yes."`[\]
+textoff
+waits 167
+csp_slot s0_23
+lbg s0_3,"letter1"
+lss s0_23,"wal","a11_defo1" ;1
+aspt2 xpos,s0_23,370
+flush 22
+*d17373
+d [lv 0*"30"*"33200292"]`"......Alongside the body, there was a Western envelope with the family crest.`[@][lv 0*"30"*"33200293"]` Instead of a letter, the key to the second‐floor guest room was inside it."`[\]
+lss s0_25,"but","b11_majime1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_but
+*d17374
+d [lv 0*"10"*"30100869"]`"......The key to the second‐floor guest room...`[@][lv 0*"10"*"30100870"]` Am I fine to define that as the only key other than the master keys that can open the door to the second‐floor guest room?"`[\]
+csp_slot s0_21
+csp_slot s0_22
+csp_slot s0_25
+csp_slot s0_23
+rain_resume s0_11
+textoff
+waits 167
+lbg s0_3,"g1f_s1bp"
+lss s0_10,"bea","a11_defo2" ;1
+aspt2 xpos,s0_10,370
+flush 24
+msgwnd_bea
+*d17375
+d [lv 0*"27"*"30701192"]`"Indeed. There is no problem.`[@][lv 0*"27"*"30701193"]` And, unlike the master keys, there is only one."`[\]
+lss s0_8,"ron","a11_akuwarai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ron
+*d17376
+d [lv 0*"31"*"33100362"]`"In other words, in order to unlock a specific room, in addition to the five master keys,`[@][lv 0*"31"*"33100363"]` there is only one other key."`[\]
+textoff
+waits 167
+rain_pause s0_11
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+lips_sprite s0_8_b
+lips_sprite s0_10_b
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 24
+lss s0_23,"but","b22_niramu1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_but
+*d17377
+d [lv 0*"10"*"30100871"]`"......In other words, this is a message telling them to go to the second‐floor guest room next?`[@][lv 0*"10"*"30100872"]` So the adults moved to the second‐floor guest room?"`[\]
+csp_slot s0_23
+flush 10,167
+lss s0_25,"wal","a11_majime1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_wal
+*d17378
+d [lv 0*"30"*"33200294"]`"Yes."`[\]
+textoff
+waits 167
+csp_slot s0_25
+lbg s0_3,"m_door2"
+lss s0_25,"wal","a11_majime1" ;1
+aspt2 xpos,s0_25,-370
+flush 28
+*d17379
+d [lv 0*"30"*"33200295"]`"The door to the second‐floor guest room was also locked, and a magic circle was drawn on it.`[@][lv 0*"30"*"33200296"]` ......The relatives unlocked it with the key they had found near Shannon's body."`[\]
+textoff
+waits 167
+csp_slot s0_25
+lbg s0_1,"m2f_r4a_bg"
+lbg s0_3,"m2f_r4a"
+lss s0_25,"wal","a11_majime1" ;1
+aspt2 xpos,s0_25,-370
+flush 22
+*d17380
+d [lv 0*"30"*"33200297"]`"Inside the room, Kumasawa's body was discovered.`[@][lv 0*"30"*"33200298"]` The room was a locked room.`[@][lv 0*"30"*"33200299"]` That definition is based upon "{f:5:Beatrice}'s locked‐room definition"."`[\]
+textoff
+waits 167
+csp_slot s0_25
+lbg s0_3,"key2"
+lss s0_25,"wal","a11_majime1" ;1
+aspt2 xpos,s0_25,-370
+flush 22
+*d17381
+d [lv 0*"30"*"33200300"]`".........Kumasawa was in possession of one master key.`[@][lv 0*"30"*"33200301"]` The relatives collected this."`[\]
+textoff
+waits 167
+csp_slot s0_25
+lbg s0_3,"letter1"
+lss s0_25,"wal","a11_majime1" ;1
+aspt2 xpos,s0_25,-370
+flush 22
+*d17382
+d [lv 0*"30"*"33200302"]`"And like Shannon, there was a Western envelope discovered alongside her.`[@][lv 0*"30"*"33200303"]` Inside was the key to the third‐floor servants' quarters.`[@][lv 0*"30"*"33200304"]` The relatives moved to the third‐floor servants' quarters."`[\]
+textoff
+waits 167
+csp_slot s0_25
+lbg s0_3,"m_door1"
+lss s0_25,"wal","a11_majime1" ;1
+aspt2 xpos,s0_25,-370
+lss s0_23,"but","b22_oyaa1" ;1
+aspt2 xpos,s0_23,370
+flush 23
+msgwnd_but
+*d17383
+d [lv 0*"10"*"30100873"]`"And there was a magic circle on the door to the third‐floor servants' quarters, and that door was locked?"`[\]
+lss s0_25,"wal","a11_defo1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_wal
+*d17384
+d [lv 0*"30"*"33200305"]`"Yes."`[\]
+textoff
+waits 167
+csp_slot s0_25
+csp_slot s0_23
+lbg s0_3,"blood_1b"
+lss s0_23,"but","b22_oyaa1" ;1
+aspt2 xpos,s0_23,370
+lss s0_25,"wal","a11_defo1" ;1
+aspt2 xpos,s0_25,-370
+flush 22
+*d17385
+d [lv 0*"30"*"33200306"]`"Inside the room, Gohda's body was discovered.`[@][lv 0*"30"*"33200307"]` The room was a locked room.`[@][lv 0*"30"*"33200308"]` Based on "{f:5:Beatrice}'s locked‐room definition"."`[\]
+textoff
+waits 167
+csp_slot s0_25
+csp_slot s0_23
+lbg s0_3,"key2"
+lss s0_23,"but","b22_oyaa1" ;1
+aspt2 xpos,s0_23,370
+lss s0_25,"wal","a11_defo1" ;1
+aspt2 xpos,s0_25,-370
+flush 22
+*d17386
+d [lv 0*"30"*"33200309"]`"Gohda was in possession of one master key.`[@][lv 0*"30"*"33200310"]` The relatives collected this."`[\]
+textoff
+waits 167
+csp_slot s0_25
+csp_slot s0_23
+lbg s0_3,"letter1"
+lss s0_23,"but","b22_oyaa1" ;1
+aspt2 xpos,s0_23,370
+lss s0_25,"wal","a11_defo1" ;1
+aspt2 xpos,s0_25,-370
+flush 22
+*d17387
+d [lv 0*"30"*"33200311"]`"And just as before, a Western envelope with a family seal was discovered.`[@][lv 0*"30"*"33200312"]` Inside was the key to the second‐floor VIP room.`[@][lv 0*"30"*"33200313"]` The relatives moved to the second‐floor VIP room."`[\]
+csp_slot s0_21
+csp_slot s0_22
+csp_slot s0_25
+csp_slot s0_23
+rain_resume s0_11
+textoff
+waits 167
+lbg s0_3,"g1f_s1bp"
+lss s0_10,"but","b22_niramu1" ;1
+aspt2 xpos,s0_10,370
+flush 24
+msgwnd_but
+*d17388
+d [lv 0*"10"*"30100874"]`".........What is all of this...?`[@][lv 0*"10"*"30100875"]` What the hell are you planning...?"`[\]
+lss s0_8,"bea","a31_akuwarai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_bea
+*d17389
+d [lv 0*"27"*"30701194"]`"*cackle*cackle*.`[@][lv 0*"27"*"30701195"]` It isn't something worth glaring at me over, is it?`[@][lv 0*"27"*"30701196"]` It is a locked room, but there are still several master keys that can open it, correct?`[@][lv 0*"27"*"30701197"]` And I have even been dutiful enough to present you with the keys particular to each room in addition to the master keys."`[\]
+lss s0_10,"but","b11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_but
+*d17390
+d2 [lv 0*"10"*"30100876"]`"......I don't like how this is going.`[@][#][*][lv 0*"10"*"30100877"]` ......But I'm starting to see how things will turn out.`[@][lv 0*"10"*"30100878"]` So it continues like this for all six people?"`[\]
+wait_on_d 0
+lss s0_10,"but","b22_niramu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+textoff
+waits 167
+rain_pause s0_11
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+lips_sprite s0_8_b
+lips_sprite s0_10_b
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_1,"mvip_1a_bg"
+lbg s0_3,"mvip_1a"
+lss s0_23,"wal","a11_majime1" ;1
+aspt2 xpos,s0_23,370
+flush 22
+lss s0_23,"wal","a11_fuman1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_wal
+*d17391
+d [lv 0*"30"*"33200314"]`"Yes, that is correct.`[@][lv 0*"30"*"33200315"]` Inside the second‐floor VIP room, Genji's body was discovered."`[\]
+textoff
+waits 167
+csp_slot s0_23
+lbg s0_3,"key2"
+lss s0_23,"wal","a11_fuman1" ;1
+aspt2 xpos,s0_23,370
+flush 22
+*d17392
+d [lv 0*"30"*"33200316"]`"One master key was collected.`[@][lv 0*"30"*"33200317"]` The key to the underground boiler room was discovered."`[\]
+textoff
+waits 167
+csp_slot s0_23
+lbg s0_3,"black"
+lss s0_23,"wal","a11_fuman1" ;1
+aspt2 xpos,s0_23,370
+flush 22
+textoff
+waits 167
+csp_slot s0_23
+lbg s0_3,"mboi_1c"
+lss s0_23,"wal","a11_fuman1" ;1
+aspt2 xpos,s0_23,370
+flush 22
+*d17393
+d [lv 0*"30"*"33200318"]`"They moved to the underground boiler room.`[@][lv 0*"30"*"33200319"]` Inside the underground boiler room, Kinzo's body was discovered."`[\]
+textoff
+waits 167
+csp_slot s0_23
+lbg s0_3,"key1"
+lss s0_23,"wal","a11_fuman1" ;1
+aspt2 xpos,s0_23,370
+flush 22
+*d17394
+d [lv 0*"30"*"33200320"]`"The key to the chapel was discovered."`[\]
+textoff
+waits 167
+csp_slot s0_23
+lbg s0_3,"black"
+lss s0_23,"wal","a11_fuman1" ;1
+aspt2 xpos,s0_23,370
+flush 24
+csp_slot s0_11
+rain_load s0_11
+rain_load s0_7
+rain_params s0_11,400,800,0
+rain_params s0_7,400,500,0
+textoff
+waits 167
+rain_pause s0_11
+rain_pause s0_7
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+textoff
+waits 167
+csp_slot s0_23
+lbg s0_3,"cha_o1a"
+lss s0_23,"wal","a11_fuman1" ;1
+aspt2 xpos,s0_23,370
+flush 24
+*d17395
+d [lv 0*"30"*"33200321"]`"They moved to the chapel."`[\]
+csp_slot s0_7
+csp_slot s0_11
+rain_load s0_11
+z_order_override s0_11,s0_1
+rain_params s0_11,500,300,0
+textoff
+waits 167
+rain_pause s0_11
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+textoff
+waits 167
+csp_slot s0_23
+lbg s0_1,"cha_i1a_bg"
+lbg s0_3,"cha_i1a"
+lss s0_23,"wal","a11_fuman1" ;1
+aspt2 xpos,s0_23,370
+flush 22
+*d17396
+d [lv 0*"30"*"33200322"]`"Inside the chapel, Kanon's body was discovered.`[@][lv 0*"30"*"33200323"]` One master key was collected.`[@][lv 0*"30"*"33200324"]` The key to the first‐floor parlor was discovered.`[@][lv 0*"30"*"33200325"]` ......With this, our reconstruction of how all six bodies were discovered is complete."`[\]
+lss s0_25,"ron","a11_warai2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_ron
+*d17397
+d [lv 0*"31"*"33100364"]`"A supplement.`[@][lv 0*"31"*"33100365"]` Along with the key to the chapel, a letter was enclosed in the Western envelope found near Kinzo's body.`[@][lv 0*"31"*"33100366"]` The contents of the letter were as you saw.`[@][lv 0*"31"*"33100367"]` It further urged the relatives to solve the epitaph's riddle."`[\]
+csp_slot s0_21
+csp_slot s0_22
+csp_slot s0_25
+csp_slot s0_23
+rain_resume s0_11
+textoff
+waits 167
+lbg s0_3,"g1f_s1ap"
+lss s0_10,"but","b22_niramu1" ;1
+aspt2 xpos,s0_10,370
+flush 24
+msgwnd_but
+*d17398
+d [lv 0*"10"*"30100879"]`".........In that case...`[@][lv 0*"10"*"30100880"]` ...What's going on?`[@][lv 0*"10"*"30100881"]` If the last place, where Kanon‐kun was, had the key to the very first room, the parlor, where Shannon‐chan was...`[@][lv 0*"10"*"30100882"]` That makes six locked rooms, all tied together, right?"`[\]
+seplay 1,2,71
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"map10"
+flush 1
+msgwnd_bea
+*d17399
+d [lv 0*"27"*"30701198"]`"That is correct!`[@][lv 0*"27"*"30701199"]` The six locked rooms are all tied together.`[@][lv 0*"27"*"30701200"]` The keys to unlock each are all shut up inside the next room."`[\]
+*d17400
+d [lv 0*"27"*"30701201"]`"In other words, the six locked rooms form one massive locked room,`[@][lv 0*"27"*"30701202"]` and all of the master keys as well as the individual room keys are shut up inside it...!"`[\]
+lss s0_8,"bea","a21_akuwarai2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d17401
+d2 [lv 0*"27"*"30701203"]`"`[#][*]`{p:1:Furthermore, all of the doors and windows in the six rooms are normal}.`[@][lv 0*"27"*"30701204"][#][*]` {p:1:No device exists which can lock them without a key, such as an auto‐lock}.`[@][lv 0*"27"*"30701205"]` *cackle*cackle*, what do you think, it's beautiful, isn't iiiiiiiiiiiit??? Uhhyahhyahhyaaahh!"`[#][*][\]
+wait_on_d 0
+seplay 2,59,71
+d_continue
+wait_on_d 1
+seplay 2,59,71
+d_continue
+wait_on_d 2
+seplay 1,37,71
+d_continue
+wait_on_d -1
+lss s0_10,"ron","a11_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ron
+*d17402
+d [lv 0*"31"*"33100368"]`"As I said, Milady, that is not dignified."`[\]
+msgwnd_non
+*d17403
+d `When Ronove rebuked her, Beato stuck her tongue at him shamelessly.`[\]
+lss s0_8,"bea","a11_warai2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_bea
+*d17404
+d [lv 0*"27"*"30701206"]`"Uhihihi, sorry, sorry.`[@][lv 0*"27"*"30701207"]` I just get in such a good mood playing with Battler."`[\]
+lss s0_8,"bea","a31_akuwarai5" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d17405
+d [lv 0*"27"*"30701208"]`"*cackle*, so, Battlerr?`[@][lv 0*"27"*"30701209"]` What is your move going to be?`[@][lv 0*"27"*"30701210"]` If you can't think of anything in particular, I can show you how I made the goats carry the bodies,`[@][lv 0*"27"*"30701211"]` and sealed all of the rooms with magic, if you waaaaant?"`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"g1f_s1bp"
+lss s0_9,"but","b11_komaru2" ;1
+flush 24
+msgwnd_but
+*d17406
+d [lv 0*"10"*"30100883"]`"Do what you want.`[@][lv 0*"10"*"30100884"]` I'll listen respectfully to this "magic theory" that you assert.`[@][lv 0*"10"*"30100885"]` However, I can assert my "human theory", which is completely different from your claim,`[@][lv 0*"10"*"30100886"]` without any interference from your claim whatsoever."`[\]
+lss s0_9,"but","b25_odoroki1" ;1
+flush 10,167
+seplay 1,2,71
+*d17407
+d [lv 0*"10"*"30100887"]`"So, in other words!`[@][lv 0*"10"*"30100888"]` There's no need for me to listen to your bullshit!!`[@][lv 0*"10"*"30100889"]` Go wave your magic staff or whatever as much as you like and act out how you lock the door with your seven‐colored magic.`[@][lv 0*"10"*"30100890"]` And before long, I'm sure there'll be people along to stand beside you, advertising their snake oil and all‐purpose kitchen knives!"`[\]
+lss s0_9,"but","b22_majime1" ;1
+flush 10,167
+meplay 1,17,60
+*d17408
+d [lv 0*"10"*"30100891"]`"{f:5:Virgilia}, reconstruct the crime scene!`[@][lv 0*"10"*"30100892"]` I'll search for a weakness!!`[@][lv 0*"10"*"30100893"]` Were they all definitely dead?`[@][lv 0*"10"*"30100894"]` If one of them is just playing dead, this isn't a locked room at all!"`[\]
+textoff
+waits 167
+rain_pause s0_11
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+lips_sprite s0_9_b
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_1,"m1f_s1a_bg"
+lbg s0_3,"m1f_s1a"
+lss s0_23,"wal","a11_majime1" ;1
+aspt2 xpos,s0_23,370
+lss s0_9,"nan","a1_majime1" ;1
+flush 22
+lss s0_23,"wal","a11_defo1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_wal
+*d17409
+d [lv 0*"30"*"33200326"]`"Nanjo checked that all of them were dead.`[@][lv 0*"30"*"33200327"]` However, due to the "Devil's Proof", it is impossible to deny the possibility of a wrong diagnosis.`[@][lv 0*"30"*"33200328"]` ......In other words, she cannot make the likelihood that Nanjo overlooked the fact that they were alive equal to zero."`[\]
+lss s0_25,"but","b11_defo1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_but
+*d17410
+d [lv 0*"10"*"30100895"]`"Here it is, that "Devil's Proof".`[@][lv 0*"10"*"30100896"]` But there exists a sword which can carve that up...!"`[\]
+csp_slot s0_21
+csp_slot s0_22
+csp_slot s0_25
+csp_slot s0_23
+rain_resume s0_11
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"g1f_s1ap"
+lss s0_10,"bea","a11_fukigen2" ;1
+aspt2 xpos,s0_10,370
+flush 24
+vol_me 1,-1,1000
+msgwnd_bea
+*d17411
+d [lv 0*"27"*"30701212"]`"Wh‐what are those people doing?`[@][lv 0*"27"*"30701213"]` ......Looks like they're having a good time leaving me out of the discussion.`[@][lv 0*"27"*"30701214"]` I am their opponent, right...?`[@][lv 0*"27"*"30701215"]` They could pay attention to me at least a little..."`[\]
+lss s0_8,"ron","a11_warai2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ron
+*d17412
+d [lv 0*"31"*"33100369"]`"By nature, communication with the opponent is not necessary in order to compete in chess."`[\]
+lss s0_8,"ron","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d17413
+d [lv 0*"31"*"33100370"]`"......You spoke in riddles when you communicated outside your moves, Milady.`[@][lv 0*"31"*"33100371"]` ...Perhaps it has come to this because he does not want to be led astray."`[\]
+lss s0_10,"bea","a11_nayamu2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d17414
+d [lv 0*"27"*"30701216"]`"...............muu.`[@][lv 0*"27"*"30701217"]` ......For some reason, I can't accept it."`[\]
+lss s0_8,"ron","a11_akuwarai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ron
+*d17415
+d [lv 0*"31"*"33100372"]`"You are challenging him to a chess match, are you not, Milady?"`[\]
+lss s0_10,"bea","a11_fukigen2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d17416
+d [lv 0*"27"*"30701218"]`"That's true, but...`[@][lv 0*"27"*"30701219"]`...muu!"`[\]
+msgwnd_non
+*d17417
+d `{f:5:Beatrice} puffed out her cheeks, as though saying "I don't know why, but I don't like it!"`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 24
+textoff
+waits 167
+rain_pause s0_11
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+textoff
+waits 167
+lbg s0_1,"m1f_s1a_bg"
+lbg s0_3,"m1f_s1a"
+lss s0_25,"wal","a11_defo1" ;1
+aspt2 xpos,s0_25,-370
+flush 24
+msgwnd_wal
+*d17418
+d [lv 0*"30"*"33200329"]`"Because the police have not yet arrived at the scene, the human side's ability to prove things is limited.`[@][lv 0*"30"*"33200330"]` For a strict confirmation of death, I recommend you ask her to repeat it."`[\]
+lss s0_23,"but","b11_majime1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_but
+*d17419
+d [lv 0*"10"*"30100897"]`"Alright, that's where I'll strike, repeat it!!"`[\]
+seplay 1,2,71
+lss s0_23,"but","b25_futeki3" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+*d17420
+d [lv 0*"10"*"30100898"]`"‘The six victims are all dead’!!"`[\]
+csp_slot s0_21
+csp_slot s0_22
+csp_slot s0_25
+csp_slot s0_23
+rain_resume s0_11
+textoff
+waits 167
+lbg s0_3,"g1f_s1bp"
+lss s0_10,"bea","a11_nayamu2" ;1
+aspt2 xpos,s0_10,370
+lss s0_8,"ron","a11_warai1" ;1
+aspt2 xpos,s0_8,-370
+flush 23
+msgwnd_ron
+*d17421
+d [lv 0*"31"*"33100373"]`"......Milady, you have been asked to repeat something, you know?"`[\]
+csp_slot s0_8
+flush 10,167
+lss s0_8,"but","b22_odoroki1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d17422
+d [lv 0*"10"*"30100899"]`"Hey, enough lazing around!!`[@][lv 0*"10"*"30100900"]` Do you refuse to repeat it?!`[@][lv 0*"10"*"30100901"]` This is where our battle starts!!"`[\]
+seplay 1,48,71
+lss s0_10,"bea","a11_odoroki2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d17423
+d2 [lv 0*"27"*"30701220"]`"Wha?!`[@][lv 0*"27"*"30701221"]` Owowowowoow!!`[#][*][@][#][*][lv 0*"27"*"30701222"]` *cackle*cackle*, sorry, sorry, that's fine, I'll respond."`[\]
+wait_on_d 0
+agpt quakeycycle,50
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+d_continue
+wait_on_d 1
+lss s0_10,"bea","a11_futeki1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+textoff
+waits 167
+seplay 1,56,71
+vol_bgm -1,1000
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 22
+anim s0_17,"no10",1
+blend_mode add,s0_17
+flush 1
+seplay 2,57,100
+waitvideo
+csp_slot s0_17
+flush 1
+wait 500
+textoff
+waits 167
+lbg s0_3,"g1f_s1bp"
+lss s0_8,"but","b22_odoroki1" ;1
+aspt2 xpos,s0_8,-370
+lss s0_10,"bea","a11_iiwake1" ;1
+aspt2 xpos,s0_10,370
+flush 22
+bgmplay 69,80,0
+*d17424
+d2 [lv 0*"27"*"30701223"]`"`[#][*]`{p:1:Kinzo, Genji, Shannon, Kanon, Gohda, and Kumasawa—these six are all dead}!"`[\]
+wait_on_d 0
+seplay 2,59,71
+d_continue
+wait_on_d -1
+lss s0_8,"but","b11_aseru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d17425
+d2 [lv 0*"10"*"30100902"]`"Why are you so out of it?`[@][#][*][lv 0*"10"*"30100903"]` ...Alright.`[@][lv 0*"10"*"30100904"]` So I've drawn one out of you.`[@][lv 0*"10"*"30100905"]` That classic where they're pretending to be dead is the first to be denied."`[\]
+wait_on_d 0
+lss s0_8,"but","b11_nayamu2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_10,"bea","a11_futeki1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d17426
+d [lv 0*"27"*"30701224"]`"*cackle*!`[@][lv 0*"27"*"30701225"]` I won't go easy on you anymore, come at me how you like.`[@][lv 0*"27"*"30701226"]` I'll slice them slantwise one after another!"`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"g1f_s1ap"
+lss s0_9,"but","b24_futeki1" ;1
+flush 23
+msgwnd_but
+*d17427
+d2 [lv 0*"10"*"30100906"]`"Then repeat it!`[@][#][*][lv 0*"10"*"30100907"]` No one is hiding in any of the six rooms!`[@][lv 0*"10"*"30100908"]` Show me that you can deny the existence of people we aren't aware of!"`[\]
+wait_on_d 0
+seplay 1,2,100
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"g1f_s1ap"
+lss s0_10,"bea","a11_defo2" ;1
+aspt2 xpos,s0_10,370
+flush 24
+msgwnd_bea
+*d17428
+d [lv 0*"27"*"30701227"]`"I'll respond."`[\]
+textoff
+waits 167
+seplay 1,56,71
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"black"
+flush 1
+waits 167
+anim s0_17,"no10",1
+blend_mode add,s0_17
+flush 1
+seplay 2,57,100
+waitvideo
+csp_slot s0_17
+flush 1
+textoff
+waits 167
+lbg s0_3,"g1f_s1ap"
+lss s0_10,"bea","a11_futeki1" ;1
+aspt2 xpos,s0_10,370
+flush 22
+*d17429
+d2 [lv 0*"27"*"30701228"]`"`[#][*]`{p:1:There is no one hiding in the six rooms}!"`[\]
+wait_on_d 0
+seplay 2,59,71
+d_continue
+wait_on_d -1
+lss s0_8,"but","b11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d17430
+d [lv 0*"10"*"30100909"]`"Alright.`[@][lv 0*"10"*"30100910"]` Now I'm sure that it's only the six of them canned in there.`[@][lv 0*"10"*"30100911"]` And they aren't pretending to be dead."`[\]
+lss s0_10,"bea","a21_akuwarai5" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d17431
+d [lv 0*"27"*"30701229"]`"......What will you do, what will you dooo?`[@][lv 0*"27"*"30701230"]` There's already nothing a human could do.`[@][lv 0*"27"*"30701231"]` Obediently kneel and observe as I control the locks at will with my wonderful magic, alriiiiiiight?"`[\]
+lss s0_8,"but","b11_niramu2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d17432
+d2 [lv 0*"10"*"30100912"]`"Quit babbling.`[@][lv 0*"10"*"30100913"]` Repeat this too.`[@][#][*][lv 0*"10"*"30100914"]` "The six deaths were instant"!"`[\]
+wait_on_d 0
+seplay 1,2,100
+d_continue
+wait_on_d -1
+lss s0_10,"bea","a31_akuwarai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d17433
+d [lv 0*"27"*"30701232"]`"Instant death?`[@][lv 0*"27"*"30701233"]` Hoh, what do you mean by that?"`[\]
+textoff
+waits 167
+rain_pause s0_11
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+lips_sprite s0_8_b
+lips_sprite s0_10_b
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"blood_2e"
+lss s0_25,"wal","a11_majime1" ;1
+aspt2 xpos,s0_25,-370
+flush 24
+lss s0_25,"wal","a11_ikari1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_wal
+*d17434
+d [lv 0*"30"*"33200331"]`"......It means there is a possibility that a single victim on the verge of death managed to escape into the room,`[@][lv 0*"30"*"33200332"]` and after locking it from the inside to create a locked room, they passed away."`[\]
+lss s0_23,"ron","a11_akuwarai1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_ron
+*d17435
+d [lv 0*"31"*"33100374"]`"...Hm.`[@][lv 0*"31"*"33100375"]` A classic locked‐room murder.`[@][lv 0*"31"*"33100376"]` In the case that the victim is dealt a fatal wound, and is doomed to die at some later time,`[@][lv 0*"31"*"33100377"]` it is possible for the victim to hole up inside a room to escape the murderer,`[@][lv 0*"31"*"33100378"]` and then die after locking it, in which case a locked room could be constructed unexpectedly."`[\]
+lss s0_25,"wal","a11_fuman1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_wal
+*d17436
+d [lv 0*"30"*"33200333"]`"In order to deny that possibility,`[@][lv 0*"30"*"33200334"]` you will need to proclaim that "the six died instantly" with the red truth."`[\]
+csp_slot s0_21
+csp_slot s0_22
+csp_slot s0_25
+csp_slot s0_23
+rain_resume s0_11
+textoff
+waits 167
+lbg s0_3,"g1f_s1ap"
+lss s0_9,"bea","a31_warai1" ;1
+flush 23
+msgwnd_bea
+*d17437
+d [lv 0*"27"*"30701234"]`"*cackle*cackle*!`[@][lv 0*"27"*"30701235"]` Very well, very well, I'll slay you with my red treasured sword!"`[\]
+textoff
+waits 167
+seplay 1,56,71
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 1
+waits 167
+anim s0_17,"no09",1
+blend_mode add,s0_17
+flush 1
+seplay 2,57,100
+waitvideo
+csp_slot s0_17
+flush 1
+textoff
+waits 167
+lbg s0_3,"g1f_s1ap"
+lss s0_9,"bea","a11_futeki1" ;1
+flush 22
+*d17438
+d2 [lv 0*"27"*"30701236"]`"`[#][*]`{p:1:The six died instantly}!`[@][lv 0*"27"*"30701237"]` By instant death, I mean that as soon as they were attacked, they became incapable of action."`[\]
+wait_on_d 0
+seplay 2,59,71
+d_continue
+wait_on_d -1
+lss s0_9,"bea","a11_futeki2" ;1
+flush 10,167
+*d17439
+d [lv 0*"27"*"30701238"]`"Well, death in its full meaning may have taken several seconds or even minutes.`[@][lv 0*"27"*"30701239"]` But in any event, it was completely impossible for them to take any action of their own will.`[@][lv 0*"27"*"30701240"]` In that sense, I can state that they died instantly!"`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"g1f_s1bp"
+flush 23
+lss s0_10,"but","b11_futeki1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_but
+*d17440
+d2 [lv 0*"10"*"30100915"]`"...Everything up until now has just been checking for a classic locked room.`[@][lv 0*"10"*"30100916"]` My showdown with you over the locked rooms starts now, alright...?`[@][#][*][lv 0*"10"*"30100917"]` If the culprit isn't on the inside, they are on the outside.`[@][lv 0*"10"*"30100918"]` So they somehow killed them from outside the rooms."`[\]
+wait_on_d 0
+lss s0_10,"but","b11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_8,"bea","a11_akuwarai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_bea
+*d17441
+d [lv 0*"27"*"30701241"]`"*cackle*cackle*!`[@][lv 0*"27"*"30701242"]` Have you lost your mind?`[@][lv 0*"27"*"30701243"]` Isn't it true that "a locked room = murder is impossible from the outside"?!`[@][lv 0*"27"*"30701244"]` Therefore, it's impossible for it to be anything other than a magical murder!"`[\]
+lss s0_10,"but","b11_futeki1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_but
+*d17442
+d2 [lv 0*"10"*"30100919"]`"No, that's wrong.`[@][#][*][lv 0*"10"*"30100920"]` The right thing to say is "a murder really happened = it isn't a locked room"!`[@][lv 0*"10"*"30100921"]` No matter how much you speak in riddles, this definitely isn't a locked room!`[@][#][*][lv 0*"10"*"30100922"]` It's a sham that only looks like a locked room!"`[\]
+wait_on_d 0
+lss s0_10,"but","b22_odoroki1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d 1
+seplay 1,2,100
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"g1f_s1ap"
+flush 24
+lss s0_10,"ron","a11_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ron
+*d17443
+d2 [lv 0*"31"*"33100379"]`"However, Battler‐sama.`[@][lv 0*"31"*"33100380"][#][*]` {p:1:Only the victims are inside the rooms,}`[@][lv 0*"31"*"33100381"][#][*]` {p:1:and no other people exist inside the rooms}.`[@][#][*][lv 0*"31"*"33100382"]` And by Milady's locked‐room definition,`[@][lv 0*"31"*"33100383"]` remote murders from outside the room have been clearly denied, have they not?"`[\]
+wait_on_d 0
+seplay 2,59,71
+d_continue
+wait_on_d 1
+seplay 2,59,71
+d_continue
+wait_on_d 2
+lss s0_10,"ron","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_8,"but","b11_komaru2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d17444
+d2 [lv 0*"10"*"30100923"]`"Wait.`[@][lv 0*"10"*"30100924"]` The definition of remote murders is vast, right?`[@][#][*][lv 0*"10"*"30100925"]` Sure, there's stuff like pulling a fishing line from outside the room and strangling the victim inside the room,`[@][lv 0*"10"*"30100926"]` but that's not all there is."`[\]
+wait_on_d 0
+lss s0_8,"but","b11_futeki1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_8,"but","b22_odoroki1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d17445
+d2 [lv 0*"10"*"30100927"]`"For example......`[|][lv 0*"10"*"30100928"][#][*]`a trap would make for an excellent remote murder!"`[\]
+wait_on_d 0
+seplay 1,2,100
+d_continue
+wait_on_d -1
+csp_slot s0_10
+flush 10,167
+lss s0_10,"bea","a11_akuwarai5" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d17446
+d [lv 0*"27"*"30701245"]`"A traap?`[@][lv 0*"27"*"30701246"]` Hoh, what is that?!"`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 24
+textoff
+waits 167
+lbg s0_3,"m_door1"
+color_mod2 s0_3,#ffffff
+flush 22
+msgwnd_but
+*d17447
+d2 [lv 0*"10"*"30100929"]`"Just as an example, let's say they were instructed to enter previously decided rooms,`[@][lv 0*"10"*"30100930"]` and lock the doors from the inside to create a locked room themselves.`[@][lv 0*"10"*"30100931"]` A trap is set up in those rooms that they don't know about,`[@][lv 0*"10"*"30100932"]` and they are killed by that.`[@][#][*][lv 0*"10"*"30100933"]` ......How's that?! Now there is no contradiction!"`[\]
+wait_on_d 0
+seplay 1,2,100
+d_continue
+wait_on_d -1
+textoff
+waits 167
+lbg s0_3,"g1f_s1ap"
+flush 23
+lss s0_10,"wal","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_wal
+*d17448
+d [lv 0*"30"*"33200335"]`"......There is no problem.`[@][lv 0*"30"*"33200336"]` It corresponds to the existing state."`[\]
+lss s0_8,"ron","a11_warai2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ron
+*d17449
+d [lv 0*"31"*"33100384"]`"...There is no problem on our side either.`[@][lv 0*"31"*"33100385"]` It does not conflict with Milady's locked‐room definition."`[\]
+csp_slot s0_8
+csp_slot s0_10
+flush 10,167
+lss s0_8,"bea","a21_akuwarai2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+seplay 1,37,71
+msgwnd_bea
+*d17450
+d [lv 0*"27"*"30701247"]`"Kuhhahhahahahahahahahaha?!`[@][lv 0*"27"*"30701248"]` What's with that stupid reasoning?!`[@][lv 0*"27"*"30701249"]` Nothing suspicious was found in any of the rooms, you know?"`[\]
+lss s0_8,"bea","a11_akuwarai3" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d17451
+d [lv 0*"27"*"30701250"]`"What form did that trap have?!`[@][lv 0*"27"*"30701251"]` Where was it hidden and how did it operate?!`[@][lv 0*"27"*"30701252"]` Explain that for all six people, in the parlor, the guest room, the servants' quarters, the VIP room, the boiler room, and the chapel.`[@][lv 0*"27"*"30701253"]` Well? You can't, can you?!?!"`[\]
+csp_slot s0_8
+flush 10,167
+lss s0_10,"but","b25_odoroki1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+seplay 1,2,100
+msgwnd_but
+*d17452
+d2 [lv 0*"10"*"30100934"]`"Decline refutation!!`[#][*][@][lv 0*"10"*"30100935"]` There is no need for me to explain that!!`[@][lv 0*"10"*"30100936"]` And even so, it doesn't damage my claim!!"`[\]
+wait_on_d 0
+agpt quakeycycle,67
+agpt quakeyamp,30
+agpt quakeyamp,0,667,1
+rumble 63,500
+gptwait quakeyamp
+d_continue
+wait_on_d -1
+lss s0_8,"bea","a11_fukigen1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_bea
+*d17453
+d [lv 0*"27"*"30701254"]`"Wh‐what did you saaaaaaaaayy...?!?!"`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_10,"wal","a11_ikari1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_wal
+*d17454
+d2 [lv 0*"30"*"33200337"]`"{f:5:Beatrice}, it is a "Devil's Proof".`[@][#][*][lv 0*"30"*"33200338"]` The fact that he cannot explain the form of the trap...`[@][#][*][lv 0*"30"*"33200339"]`does not in itself disprove that there was a trap!"`[\]
+wait_on_d 0
+lss s0_10,"wal","a11_fuman1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d 1
+seplay 1,2,100
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"g1f_s1ap"
+lss s0_10,"ron","a11_odoroki1" ;1
+aspt2 xpos,s0_10,370
+flush 23
+msgwnd_ron
+*d17455
+d [lv 0*"31"*"33100386"]`"............Well done.`[@][lv 0*"31"*"33100387"]` While overbearing, a wonderful move."`[\]
+lss s0_8,"bea","a11_aseru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_bea
+*d17456
+d [lv 0*"27"*"30701255"]`"...Kh!!!`[@][lv 0*"27"*"30701256"]` This guy is getting completely used to this......!!"`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"g1f_s1bp"
+lss s0_10,"but","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 24
+seplay 1,57,100
+msgwnd_but
+*d17457
+d [lv 0*"10"*"30100937"]`"Check.`[@][lv 0*"10"*"30100938"]` It is possible to establish this locked‐room murder via a murder trap X that they couldn't find."`[\]
+lss s0_8,"bea","a11_fukigen1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_bea
+*d17458
+d [lv 0*"27"*"30701257"]`"......I‐I'll kill that check with the red truth!!"`[\]
+textoff
+waits 167
+seplay 1,56,71
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 1
+waits 167
+textoff
+waits 167
+lbg s0_3,"black"
+anim s0_17,"no09",1
+blend_mode add,s0_17
+flush 1
+seplay 2,57,100
+waitvideo
+csp_slot s0_17
+textoff
+waits 167
+lbg s0_3,"g1f_s1ap"
+lss s0_10,"but","b11_defo1" ;1
+aspt2 xpos,s0_10,370
+lss s0_8,"bea","a11_fukigen1" ;1
+aspt2 xpos,s0_8,-370
+flush 22
+*d17459
+d2 [lv 0*"27"*"30701258"]`"`[#][*]`{p:1:The six were not killed by traps}!"`[\]
+wait_on_d 0
+seplay 2,59,71
+d_continue
+wait_on_d -1
+lss s0_10,"but","b11_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_but
+*d17460
+d [lv 0*"10"*"30100939"]`"The definition of trap?!"`[\]
+lss s0_8,"bea","a11_odoroki2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_bea
+*d17461
+d [lv 0*"27"*"30701259"]`"Oh...`[|][lv 0*"27"*"30701260"]`umm...`[|][lv 0*"27"*"30701261"]`one of those!`[@][lv 0*"27"*"30701262"]` Something that activates when a victim gets caught in it by their own actions."`[\]
+lss s0_8,"bea","a11_iiwake1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d17462
+d [lv 0*"27"*"30701263"]`"Aaah... That's not all!`[@][lv 0*"27"*"30701264"]` Stuff that activates by remote control or by a timer,`[@][lv 0*"27"*"30701265"]` ......everything like that is also included!"`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_10,"ron","a23_akuwarai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ron
+*d17463
+d [lv 0*"31"*"33100388"]`"Pu ku ku...`[@][lv 0*"31"*"33100389"]` All devices that can carry out a murder without the direct participation of the person who set it up.`[@][lv 0*"31"*"33100390"]` I believe that definition may be appropriate."`[\]
+csp_slot s0_8
+csp_slot s0_10
+flush 10,167
+lss s0_9,"bea","a11_aseru1" ;1
+flush 10,167
+seplay 1,2,100
+msgwnd_bea
+*d17464
+d2 [lv 0*"27"*"30701266"]`"H‐how's that?!`[@][lv 0*"27"*"30701267"]` I've struck back!!`[@][#][*][lv 0*"27"*"30701268"]` As though I could let a human defeat this locked room!!"`[\]
+wait_on_d 0
+lss s0_9,"bea","a11_komaru1" ;1
+flush 10,167
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"g1f_s1ap"
+lss s0_10,"but","b11_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 23
+msgwnd_but
+*d17465
+d2 [lv 0*"10"*"30100940"]`"..................`[@][#][*][lv 0*"10"*"30100941"]` ............You're also frantic, trying to win, huh."`[\]
+wait_on_d 0
+lss s0_10,"but","b11_defo2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_8,"bea","a11_aseru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_bea
+*d17466
+d [lv 0*"27"*"30701269"]`"...Whaat...?!`[@][lv 0*"27"*"30701270"]` What do you mean...?"`[\]
+lss s0_10,"but","b22_oyaa1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_but
+*d17467
+d [lv 0*"10"*"30100942"]`"......You're also frantically fighting to make me accept that you exist.`[@][lv 0*"10"*"30100943"]` Until now, I thought that I was just being toyed around with one‐sidedly by you."`[\]
+lss s0_10,"but","b11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d17468
+d [lv 0*"10"*"30100944"]`"...But that was actually wrong.`[@][lv 0*"10"*"30100945"]` You're also frantically resisting my comeback, fighting to show that you exist...!`[@][lv 0*"10"*"30100946"]` Now,`[|][lv 0*"10"*"30100947"]` ...I finally really feel that's true."`[\]
+msgwnd_non
+*d17469
+d `This isn't torture inflicted on me about whether I'll submit or not.`[\]
+csp_slot s0_8
+csp_slot s0_10
+flush 10,167
+lss s0_10,"but","b25_odoroki1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+seplay 1,2,100
+msgwnd_but
+*d17470
+d2 [lv 0*"10"*"30100948"]`"This is a fight between you and me on an even footing!!"`[#][*][\]
+wait_on_d 0
+agpt quakeycycle,67
+agpt quakeyamp,30
+agpt quakeyamp,0,667,1
+rumble 63,500
+gptwait quakeyamp
+d_continue
+wait_on_d -1
+lss s0_10,"but","b11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d17471
+d [lv 0*"10"*"30100949"]`"......Alright, it's starting to get interesting, isn't it?`[@][lv 0*"10"*"30100950"]` Six people died in locked rooms, and no one else was inside.`[@][lv 0*"10"*"30100951"]` And there was no meddling from the outside, and also no traps.`[@][lv 0*"10"*"30100952"]` If I was still how I used to be, I would probably think this had to be the work of magic."`[\]
+lss s0_10,"but","b11_nayamu2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d17472
+d [lv 0*"10"*"30100953"]`"......And if you had acted out some strange magic right about now, I'd probably even have surrendered.`[@][lv 0*"10"*"30100954"]` .........It's that favorite strategy of yours."`[\]
+lss s0_10,"but","b11_niramu2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d17473
+d [lv 0*"10"*"30100955"]`"...You completely intercept all of my moves, and in the moment that I've tried everything and fallen to my knees,`[@][lv 0*"10"*"30100956"]` when my heart's defensive power is at its weakest, you show off some strange magic and take the game all at once!!"`[\]
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"black"
+flush 24
+textoff
+waits 167
+lbg s0_3,"g1f_s1ap"
+lss s0_8,"ron","a11_warai2" ;1
+aspt2 xpos,s0_8,-370
+lss s0_10,"wal","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 24
+lss s0_10,"wal","a11_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_wal
+*d17474
+d [lv 0*"30"*"33200340"]`".........She has always had a short temper.`[@][lv 0*"30"*"33200341"]` She still has that bad habit of rushing things when victory is in sight."`[\]
+lss s0_8,"ron","a13_warai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ron
+*d17475
+d [lv 0*"31"*"33100391"]`"Pu ku ku.`[@][lv 0*"31"*"33100392"]` Because Milady cannot stand putting things off."`[\]
+csp_slot s0_8
+csp_slot s0_10
+flush 10,167
+lss s0_9,"bea","a11_komaru1" ;1
+flush 10,167
+seplay 1,1006,100
+msgwnd_bea
+*d17476
+d2 [lv 0*"27"*"30701271"]`"Heeey, shut up, shut up!!"`[#][*][\]
+wait_on_d 0
+agpt quakexcycle,50
+agpt quakexamp,30
+agpt quakexamp,0,500,1
+rumble 63,500
+gptwait quakexamp
+d_continue
+wait_on_d -1
+lss s0_9,"bea","a11_aseru1" ;1
+flush 10,167
+*d17477
+d [lv 0*"27"*"30701272"]`"It is your turn, Battler!`[@][lv 0*"27"*"30701273"]` The "trap piece" that you advanced, I have cut down with red!`[@][lv 0*"27"*"30701274"]` What will you send out next?`[@][lv 0*"27"*"30701275"]` Show me what you've got!!"`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"g1f_s1bp"
+lss s0_10,"but","b22_odoroki1" ;1
+aspt2 xpos,s0_10,370
+flush 63
+msgwnd_but
+*d17478
+d2 [lv 0*"10"*"30100957"]`"Right!!`[#][*][@][lv 0*"10"*"30100958"]` Now that even traps have been defeated, at a glance, this looks like a perfect locked‐room murder.`[@][#][*][lv 0*"10"*"30100959"]` ......And that's why this is where I'll spin the chessboard around!!"`[\]
+wait_on_d 0
+seplay 1,2,100
+agpt quakeycycle,50
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+d_continue
+wait_on_d 1
+lss s0_10,"but","a21_odoroki1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_8,"bea","a11_fukigen1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_bea
+*d17479
+d [lv 0*"27"*"30701276"]`"...Here it is, your special technique!`[@][lv 0*"27"*"30701277"]` What exactly are you going to flip over, and how?!`[@][lv 0*"27"*"30701278"]` Try showing meeeeeeeeeeee!!"`[\]
+lss s0_10,"but","b11_nayamu2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_but
+*d17480
+d [lv 0*"10"*"30100960"]`"Yeah, I'll show you!!`[@][lv 0*"10"*"30100961"]` It's not about thinking how to kill six people inside locked rooms from the outside!"`[\]
+lss s0_10,"but","b22_kuyasigaru1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d17481
+d [lv 0*"10"*"30100962"]`"Aaah, it's useless, it's useless, it's all useless!`[@][lv 0*"10"*"30100963"]` That's right, it's not about how to kill from the outside.`[@][lv 0*"10"*"30100964"]` It's about how they died inside the room and created a locked room!"`[\]
+csp_slot s0_8
+csp_slot s0_10
+flush 10,167
+textoff
+waits 167
+lbg s0_26,"white"
+flush 1
+textoff
+waits 167
+csp_slot s0_26
+lss s0_10,"but","b25_odoroki1" ;1
+aspt2 xpos,s0_10,370
+flush 22
+seplay 1,2,100
+seplay 2,21,71
+*d17482
+d [lv 0*"10"*"30100965"]`"......That's it, this is the answer!!`[@][lv 0*"10"*"30100966"]` If you assume that one of the six victims was the culprit,`[@][lv 0*"10"*"30100967"]` this locked room can be explained extremely easily!"`[\]
+lss s0_8,"bea","a21_odoroki1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_bea
+*d17483
+d2 [lv 0*"27"*"30701279"]`"Wh‐whaaaaaaat?!`[@][#][*][lv 0*"27"*"30701280"]` No way!`[@][lv 0*"27"*"30701281"]` I believe I clearly said in red that the six of them were dead......!!"`[\]
+wait_on_d 0
+lss s0_8,"bea","a11_komaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_10,"but","b25_niramu2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_but
+*d17484
+d [lv 0*"10"*"30100968"]`"Six people did die.`[@][lv 0*"10"*"30100969"]` Five were victims who were killed.`[@][lv 0*"10"*"30100970"]` If you assume that the other person committed suicide, you can destroy this locked room!!"`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"g1f_s1ap"
+flush 24
+lss s0_10,"ron","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ron
+*d17485
+d [lv 0*"31"*"33100393"]`"......Certainly.`[@][lv 0*"31"*"33100394"]` If the culprit locked themselves in the final locked room,`[@][lv 0*"31"*"33100395"]` and threw away their own life, this locked‐room chain would be established."`[\]
+lss s0_8,"wal","a11_fuman1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+seplay 1,2,71
+msgwnd_wal
+*d17486
+d [lv 0*"30"*"33200342"]`"The culprit's suicide.`[@][lv 0*"30"*"33200343"]` ...Normally, it is an unthinkable move,`[|][lv 0*"30"*"33200344"]` but the argument that it doesn't exist because it is unthinkable,`[|][lv 0*"30"*"33200345"]` doesn't exist.`[@][lv 0*"30"*"33200346"]` ......And he has no responsibility to demonstrate a motive.`[@][lv 0*"30"*"33200347"]` A truly powerful move, which can only be used in a chess match against a witch...!"`[\]
+lss s0_10,"ron","a11_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ron
+*d17487
+d [lv 0*"31"*"33100396"]`"......Well, you cannot say for certain that there is no motive.`[@][lv 0*"31"*"33100397"]` ...For example, Kinzo had been pronounced as having only a short time left to live.`[@][lv 0*"31"*"33100398"]` The motive of using his own death as a message, not being afraid to lose his short remaining life,`[@][lv 0*"31"*"33100399"]` ...may not be impossible to attach."`[\]
+lss s0_10,"ron","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d17488
+d [lv 0*"31"*"33100400"]`".........Milady.`[@][lv 0*"31"*"33100401"]` It is our turn."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"g1f_s1bp"
+lss s0_8,"bea","a11_fukigen1" ;1
+aspt2 xpos,s0_8,-370
+flush 23
+meplay 1,17,60
+msgwnd_bea
+*d17489
+d [lv 0*"27"*"30701282"]`"H‐...hmm!`[@][lv 0*"27"*"30701283"]` To imagine that you would even trample on the dignity of the dead to create a culprit...!`[@][lv 0*"27"*"30701284"]` What a heartless, cold‐blooded man...!"`[\]
+lss s0_10,"but","b11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_but
+*d17490
+d2 [lv 0*"10"*"30100971"]`"Setting up the dead as the culprit.`[@][lv 0*"10"*"30100972"]` ...This move is worse than inhuman, and it's one you used to attack Kanon‐kun in the last game.`[@][#][*][lv 0*"10"*"30100973"]` ......I'm taking a shot back at you with this move,`[@][lv 0*"10"*"30100974"]` as a tribute to Kanon‐kun for that time, even though the games are different."`[\]
+wait_on_d 0
+lss s0_10,"but","b22_niramu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_10,"but","b22_odoroki1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+seplay 1,2,100
+seplay 2,27,71
+*d17491
+d [lv 0*"10"*"30100975"]`"Just now, I have freed that Kanon‐kun from his regrets!!"`[\]
+lss s0_8,"bea","a11_aseru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_bea
+*d17492
+d2 [lv 0*"27"*"30701285"]`"Ku......kuuuuuuu......!!"`[#][*][\]
+wait_on_d 0
+agpt quakeycycle,50
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 23
+textoff
+waits 167
+lbg s0_3,"g1f_s1ap"
+flush 23
+lss s0_8,"wal","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_wal
+*d17493
+d2 [lv 0*"30"*"33200348"]`"You have no duty to hold back here.`[@][#][*][lv 0*"30"*"33200349"]` You should check whether suicide was not the cause of death for any of them.`[@][lv 0*"30"*"33200350"]` I recommend that you have that child repeat it in red."`[\]
+wait_on_d 0
+lss s0_8,"wal","a11_ikari1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_10,"but","b11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_but
+*d17494
+d [lv 0*"10"*"30100976"]`"Right!!`[@][lv 0*"10"*"30100977"]` But suicide is a naive word that won't corner her!!`[@][lv 0*"10"*"30100978"]` Beato, this is the end!!"`[\]
+textoff
+waits 167
+vol_me 1,-1,1000
+seplay 1,2,100
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"white"
+flush 1
+textoff
+waits 167
+lbg s0_3,"g1f_s1ap"
+lss s0_8,"wal","a11_ikari1" ;1
+aspt2 xpos,s0_8,-370
+lbg s0_26,"c_e0103_wall"
+lbg s0_27,"c_e0103_a"
+aspt2 xpos,s0_27,960
+aspt2 alpha,s0_27,0
+flush 10,167
+agpt onionalpha,192
+gptwait onionalpha
+aspt2 alpha,s0_27,255,250
+aspt2 xpos,s0_27,0,250
+sptwait2 xpos,s0_27
+agpt onionalpha,0
+gptwait onionalpha
+agpt quakeycycle,83
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+*d17495
+d [lv 0*"10"*"30100979"]`"Repeat it!!`[@][lv 0*"10"*"30100980"]` "The six deaths were all homicides"!!"`[\]
+msgwnd_ron
+*d17496
+d [lv 0*"31"*"33100402"]`".....................That is painful."`[\]
+textoff
+waits 167
+spriteset_enable 1
+aspritesetpt xpos,1,-1920
+mask_set msk1,msk_cuta,1
+textoff
+waits 167
+lbg s1_3,"g1f_s1ap"
+lss s1_8,"bea","a11_aseru1" ;1
+aspt2 xpos,s1_8,-370
+flush 1 ;flush2: 1 frames
+aspritesetpt xpos,1,-192,500
+spritesetptwait xpos,1
+wait 17
+msgwnd_bea
+*d17497
+d [lv 0*"27"*"30701286"]`"Uguu...!!`[@][lv 0*"27"*"30701287"]` ........................kh...ooohh...!"`[\]
+textoff
+waits 167
+seplay 1,20,100
+aspritesetpt alpha,1,0,167
+aspritesetpt xpos,1,-1920,167,2
+spritesetptwait xpos,1
+wait 17
+lbg s0_27,"c_e0103_b"
+flush 10,17
+agpt quakeycycle,83
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+msgwnd_but
+*d17498
+d2 [lv 0*"10"*"30100981"]`"Hmmmm?`[@][lv 0*"10"*"30100982"]` What's wrong, six people were killed, right?!`[@][lv 0*"10"*"30100983"]` I'm just checking the simplest premise we had at the very beginning, aren't I?`[@][#][*][lv 0*"10"*"30100984"]` Can't you repeat it?!"`[\]
+wait_on_d 0
+lbg s0_27,"c_e0103_a"
+flush 10,167
+d_continue
+wait_on_d -1
+textoff
+waits 167
+aspritesetpt xpos,1,-1920
+aspritesetpt alpha,1,255
+lss s1_8,"bea","a11_iiwake1" ;1
+aspt2 xpos,s1_8,-370
+flush 10,17
+aspritesetpt xpos,1,-192,500
+spritesetptwait xpos,1
+wait 17
+msgwnd_bea
+*d17499
+d [lv 0*"27"*"30701288"]`"I......I decline to repeat.`[@][lv 0*"27"*"30701289"]` ...Th‐there's no reason in particular."`[\]
+textoff
+waits 167
+seplay 1,20,100
+aspritesetpt alpha,1,0,167
+aspritesetpt xpos,1,-1920,167,2
+spritesetptwait xpos,1
+wait 17
+csp -11
+csp msk1
+lbg s0_27,"c_e0103_b"
+flush 10,17
+agpt quakeycycle,83
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+msgwnd_but
+*d17500
+d [lv 0*"10"*"30100985"]`"Refusing to repeat this is the same as resigning, you know?!"`[\]
+textoff
+waits 167
+csp_slot s0_26
+csp_slot s0_27
+seplay 1,2,100
+seplay 2,2,100
+textoff
+waits 167
+csp_slot s0_8
+lbg s0_3,"white"
+flush 1
+textoff
+waits 167
+lbg s0_3,"g1f_s1ap"
+lss s0_10,"but","b25_odoroki1" ;1
+aspt2 xpos,s0_10,370
+flush 22
+*d17501
+d [lv 0*"10"*"30100986"]`"Checkmate!!`[@][lv 0*"10"*"30100987"]` One of the six was the culprit, and they carried out a suicide after constructing the locked room!`[@][lv 0*"10"*"30100988"]` We're done!!"`[\]
+lss s0_8,"bea","a11_aseru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_bea
+*d17502
+d2 [lv 0*"27"*"30701290"]`"...W‐wait!`[@][lv 0*"27"*"30701291"]` No, umm, ......I'll say it, I'll say it!`[@][lv 0*"27"*"30701292"]` I'll use the red like you want!`[@][lv 0*"27"*"30701293"][#][*]` {p:1:None of the six committed suicide}!"`[\]
+wait_on_d 0
+seplay 3,59,71
+d_continue
+wait_on_d -1
+lss s0_8,"bea","a11_fukigen1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d17503
+d [lv 0*"27"*"30701294"]`"How's that?!`[@][lv 0*"27"*"30701295"]` Are you satisfied...?!`[@][lv 0*"27"*"30701296"]` *cackle*cackle*, kakkakakakaka!`[@][lv 0*"27"*"30701297"]` I've struck back, I've struck back!!!"`[\]
+lss s0_10,"but","b22_niramu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_but
+*d17504
+d [lv 0*"10"*"30100989"]`"Heh,`[|][lv 0*"10"*"30100990"]` ......what the hell, so you can say it...`[@][lv 0*"10"*"30100991"]` ...But isn't that weird?`[@][lv 0*"10"*"30100992"]` Why are you so panicked...?"`[\]
+lss s0_8,"bea","a11_iiwake1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_bea
+*d17505
+d [lv 0*"27"*"30701298"]`"......I‐i‐it's your imagination.`[@][lv 0*"27"*"30701299"]` I am also frantic this time, you see?`[@][lv 0*"27"*"30701300"]` I don't have much leeway.`[@][lv 0*"27"*"30701301"]` Don't pay it any mind..."`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_10,"wal","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_wal
+*d17506
+d [lv 0*"30"*"33200351"]`"......The line you asked that child to repeat has been altered.`[@][lv 0*"30"*"33200352"]` Do not be fooled."`[\]
+lss s0_8,"bea","a11_aseru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_bea
+*d17507
+d [lv 0*"27"*"30701302"]`"..................kuuuuuuuuuuuuuuuuuu..."`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_10,"ron","a23_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ron
+*d17508
+d [lv 0*"31"*"33100403"]`"Pu ku ku ku...`[@][lv 0*"31"*"33100404"]` It seems it was useless, Milady."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"g1f_s1ap"
+lss s0_9,"but","b22_odoroki2" ;1
+flush 23
+msgwnd_but
+*d17509
+d2 [lv 0*"10"*"30100993"]`"Th‐that's right!`[#][*][@][lv 0*"10"*"30100994"]` She didn't say "the six deaths were all homicides".`[@][lv 0*"10"*"30100995"]` She changed it to "none of the six committed suicide"!`[@][lv 0*"10"*"30100996"]` Which means that one or more of the people was not killed by someone else and didn't commit suicide."`[\]
+wait_on_d 0
+agpt quakexcycle,50
+agpt quakexamp,30
+agpt quakexamp,0,500,1
+rumble 63,500
+gptwait quakexamp
+d_continue
+wait_on_d -1
+lss s0_9,"but","b11_kuyasigaru1" ;1
+flush 10,167
+*d17510
+d2 [lv 0*"10"*"30100997"]`".........Aaaaaaaahhh,`[|][lv 0*"10"*"30100998"]` I've got it, I've got it!!`[@][#][*][lv 0*"10"*"30100999"]` This is the truth!"`[\]
+wait_on_d 0
+lss s0_9,"but","b22_odoroki1" ;1
+flush 10,167
+seplay 1,2,100
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_3,"map10b"
+flush 22
+*d17511
+d [lv 0*"10"*"30101000"]`"After culprit X, who lurks among the six, murdered the other five, they constructed a locked room.`[@][lv 0*"10"*"30101001"]` ......Then they planned to escape from or hide in that room by some method."`[\]
+seplay 1,2,100
+seplay 2,1006,100
+seplay 3,27,71
+textoff
+waits 167
+lbg s0_3,"white"
+flush 1
+textoff
+waits 167
+lbg s0_3,"map10c"
+flush 2
+*d17512
+d2 [lv 0*"10"*"30101002"]`"However, {i:there was an accident}!!`[@][lv 0*"10"*"30101003"]` The culprit died from an accident that even they hadn't expected, and constructed a locked room that even they hadn't desired!!`[@][#][*][lv 0*"10"*"30101004"]` Now it's over, {f:5:Beatrice}!!`[@][lv 0*"10"*"30101005"]` Checkmate!!!"`[\]
+wait_on_d 0
+seplay 1,2,100
+d_continue
+wait_on_d -1
+textoff
+waits 167
+lbg s0_3,"black"
+flush 24
+textoff
+waits 167
+lbg s0_3,"g1f_s1bp"
+lss s0_10,"bea","a11_odoroki1" ;1
+aspt2 xpos,s0_10,550
+flush 24
+lss s0_10,"bea","a11_komaru1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_bea
+*d17513
+d2 [lv 0*"27"*"30701303"]`"D......damn iiiit!!`[#][*][@][lv 0*"27"*"30701304"]` Did you think I would be cornered by something like that!!`[@][lv 0*"27"*"30701305"]` I would never scream my resignation over something like that!!"`[\]
+wait_on_d 0
+agpt quakeycycle,83
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+d_continue
+wait_on_d -1
+lss s0_10,"bea","a11_aseru1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+*d17514
+d [lv 0*"27"*"30701306"]`"I'll slice up that foolish checkmate with my red treasured sword over and over again!!`[@][lv 0*"27"*"30701307"]` Among the six, there were n—"`[\]
+lss s0_9,"ron","a11_warai2" ;1
+lss s0_10,"bea","a11_odoroki1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+seplay 3,48,71
+agpt quakexcycle,50
+agpt quakexamp,30
+agpt quakexamp,0,500,1
+rumble 63,500
+gptwait quakexamp
+*d17515
+d [lv 0*"27"*"30701308"]`"Mgmf?!`[@][lv 0*"27"*"30701309"]` Fugagaga, wha are you ooing, fugafuga!"`[\]
+lss s0_9,"ron","a11_defo1" ;1
+flush 10,167
+msgwnd_ron
+*d17516
+d [lv 0*"31"*"33100405"]`"My apologies.`[@][lv 0*"31"*"33100406"]` Our side requests some time to strategize.`[@][lv 0*"31"*"33100407"]` Please allow us a brief postponement."`[\]
+textoff
+waits 167
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_3,"g1f_s1ap"
+lss s0_10,"wal","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 23
+msgwnd_wal
+*d17517
+d [lv 0*"30"*"33200353"]`"......It is a just request.`[@][lv 0*"30"*"33200354"]` I believe there should be no problem."`[\]
+lss s0_8,"but","b11_defo2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d17518
+d [lv 0*"10"*"30101006"]`"Sure!! I'll allow that!`[@][lv 0*"10"*"30101007"]` I've been given those a lot lately.`[@][lv 0*"10"*"30101008"]` This time it's your turn to use it...!!"`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"g1f_s1ap"
+lss s0_9,"ron","a11_warai2" ;1
+flush 26
+msgwnd_ron
+*d17519
+d [lv 0*"31"*"33100408"]`"Thank you very much.`[@][lv 0*"31"*"33100409"]` Come, Milady, ......this way.`[@][lv 0*"31"*"33100410"]` And let us quietly count to one hundred inside our heads."`[\]
+csp_slot s0_9
+flush 10,167
+msgwnd_bea
+*d17520
+d2 [lv 0*"27"*"30701310"]`"Fugafugafuga!!`[#][*][@][lv 0*"27"*"30701311"]` Hunoheh, huhnoheee!!`[#][*][@][lv 0*"27"*"30701312"]` Fugaa!"`[#][*][\]
+wait_on_d 0
+seplay 1,47,71
+agpt quakexcycle,67
+agpt quakexamp,30
+agpt quakexamp,0,500,1
+rumble 63,500
+gptwait quakexamp
+d_continue
+wait_on_d 1
+seplay 2,48,71
+agpt quakeycycle,50
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+d_continue
+wait_on_d 2
+seplay 3,47,71
+agpt quakexcycle,83
+agpt quakexamp,30
+agpt quakexamp,0,667,1
+rumble 63,500
+gptwait quakexamp
+d_continue
+wait_on_d -1
+msgwnd_non
+*d17521
+d `As Beato grew thoroughly panicked and agitated, Ronove had quickly covered her mouth with his hand, and suspended the game.`[\]
+*d17522
+d `He then pulled Beato away in the name of a strategy conference...`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 2
+meplay 1,5,0
+vol_bgm 0,4000
+vol_me 1,40,4000
+wait 4000
+vol_bgm -1,1000
+textoff
+waits 167
+lbg s0_3,"g1f_s1ap"
+flush 23
+lss s0_10,"but","b24_niramu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_but
+*d17523
+d [lv 0*"10"*"30101009"]`"......Damn.`[@][lv 0*"10"*"30101010"]` Curse that demon butler.`[@][lv 0*"10"*"30101011"]` When Beato got all hot, that was an ideal chance to corner her..."`[\]
+msgwnd_non
+*d17524
+d `Beato normally behaves elegantly, but she actually has a really short temper and gets mad easily.`[\]
+*d17525
+d `......Her normal intelligence falls silent when she starts getting agitated.`[\]
+lss s0_8,"wal","a11_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_wal
+*d17526
+d [lv 0*"30"*"33200355"]`"Ronove is composed.`[@][lv 0*"30"*"33200356"]` ...He probably gave that child some time to cool her head.`[@][lv 0*"30"*"33200357"]` ......That child was stubbornly trying to remove your check,`[@][lv 0*"30"*"33200358"]` and was going to easily let several large pieces go.`[@][lv 0*"30"*"33200359"]` ...After all, the first twilight is only a skirmish.`[@][lv 0*"30"*"33200360"]` ......That child mistook her timing."`[\]
+lss s0_10,"but","b23_oyaa1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_but
+*d17527
+d [lv 0*"10"*"30101012"]`"......So, what does it mean?`[@][lv 0*"10"*"30101013"]` Did I create a checkmate, or didn't I?"`[\]
+lss s0_8,"wal","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_wal
+*d17528
+d [lv 0*"30"*"33200361"]`"That child was going to proclaim it in red.`[@][lv 0*"30"*"33200362"]` It probably wouldn't have become checkmate yet.`[@][lv 0*"30"*"33200363"]` ......But, I imagine,`[@][lv 0*"30"*"33200364"]` that child will proclaim her resignation once she has cooled her head."`[\]
+lss s0_10,"but","b11_futeki1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_but
+*d17529
+d [lv 0*"10"*"30101014"]`"...Surely not.`[@][lv 0*"10"*"30101015"]` Even though she hates losing...?"`[\]
+lss s0_8,"wal","a11_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_wal
+*d17530
+d [lv 0*"30"*"33200365"]`"Yes.`[@][lv 0*"30"*"33200366"]` In a losing battle, it is essential to withdraw your troops as soon as possible to try to minimize your losses.`[@][lv 0*"30"*"33200367"]` ......The difficult part is measuring whether it is a losing battle or not.`[@][lv 0*"30"*"33200368"]` ...It seems that that child's butler calmly made that decision."`[\]
+lss s0_10,"but","b11_nayamu2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_but
+*d17531
+d [lv 0*"10"*"30101016"]`"......Oh well.`[@][lv 0*"10"*"30101017"]` In other words, she got away with only a second to spare.`[@][lv 0*"10"*"30101018"]` ......Looks like...`[@][lv 0*"10"*"30101019"]`I won't be getting checkmate and delivering the final blow so easily."`[\]
+lss s0_8,"wal","a11_warai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_wal
+*d17532
+d [lv 0*"30"*"33200369"]`"However, you should measure this as your victory.`[@][lv 0*"30"*"33200370"]` They seem to have just barely prevented a large loss,`[@][lv 0*"30"*"33200371"]` but without a doubt, you dealt considerable damage.`[@][lv 0*"30"*"33200372"]` ......I am sure you were able to understand well the depths of that wound by watching the way she panicked."`[\]
+lss s0_10,"but","b11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_but
+*d17533
+d [lv 0*"10"*"30101020"]`"Seriously.`[@][lv 0*"10"*"30101021"]` Ihihihi, it feels like she'd start crying if I bullied her any more than this."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 2
+wait 2000
+textoff
+waits 167
+lbg s0_3,"g1f_s1ap"
+lss s0_10,"bea","a11_fukigen3" ;1
+aspt2 xpos,s0_10,370
+lss s0_8,"ron","a11_defo2" ;1
+aspt2 xpos,s0_8,-370
+flush 4
+msgwnd_non
+*d17534
+d `As we talked, Ronove returned with Beato, who wore a meek expression.`[\]
+*d17535
+d `...She didn't have the same bold smile as usual, but it looked like the blood wasn't rushing to her head anymore.`[\]
+csp_slot s0_8
+flush 10,167
+lss s0_8,"but","b11_defo2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d17536
+d [lv 0*"10"*"30101022"]`".........Hey.`[@][lv 0*"10"*"30101023"]` It's your turn.`[@][lv 0*"10"*"30101024"]` Did you decide your next move?"`[\]
+textoff
+waits 167
+lss s0_10,"bea","a11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+vol_mix_fade 1000
+wait 1000
+bgmplay 66,71,0
+msgwnd_bea
+*d17537
+d [lv 0*"27"*"30701313"]`"I resign.`[@][lv 0*"27"*"30701314"]` ......For now, I will let you have your victory."`[\]
+msgwnd_non
+*d17538
+d `Beato told me that frankly.`[@]`{n}It seemed as though she had taken a far‐sighted view, as though saying "if you want to laugh, then laugh".`[\]
+*d17539
+d `......It was a bit of a buzzkill, and I lost my desire to attack her further.`[\]
+lss s0_8,"but","b11_futeki1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d17540
+d [lv 0*"10"*"30101025"]`"Well, now that you've resigned, in the end,`[@][lv 0*"10"*"30101026"]` all that means is that we're even, since my theory and yours can't deny each other.`[@][lv 0*"10"*"30101027"]` I'll treat it more like a tie than a loss."`[\]
+lss s0_10,"bea","a11_komaru1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d17541
+d [lv 0*"27"*"30701315"]`"......I don't need your disgusting compassion.`[@][lv 0*"27"*"30701316"]` I say that this time, it is my loss.`[@][lv 0*"27"*"30701317"]` ...When you find a dog drenched with rain, are you inclined to whack it with a stick or something?"`[\]
+lss s0_8,"but","b11_nayamu2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d17542
+d [lv 0*"10"*"30101028"]`"Nope.`[@][lv 0*"10"*"30101029"]` Unlike you."`[\]
+lss s0_10,"bea","a11_fukigen2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d17543
+d [lv 0*"27"*"30701318"]`".............................."`[\]
+msgwnd_non
+*d17544
+d `Even though she ridiculed me horribly when I showed signs of defeat, she was so pathetic when it was her turn.`[\]
+*d17545
+d `I thought of her as a pretty unfair person, but I decided to act with dignity as a winner and accepted it.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 5
+*d17546
+d `......Beato had resigned.`[@]`{n}That was the only result of the first twilight.`[\]
+textoff
+waits 167
+lbg s0_3,"map10c"
+flush 5
+*d17547
+d `{f:5:Beatrice} couldn't counter my move of "one of the six was the culprit,`[@]` and that person died in an accident".`[\]
+*d17548
+d `...No, she probably could have countered it, but because of some strategic decision, she had given up.`[\]
+*d17549
+d `I felt less like I had won, and more like she had escaped me one step from victory...`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 2
+meplay 1,16,0
+vol_bgm 0,3000
+vol_me 1,50,3000
+wait 3000
+textoff
+waits 167
+lbg s0_3,"chess1"
+flush 2
+*d17550
+d `In chess against witches, it is possible to battle onward solely using pieces called X which don't need explanation.`[\]
+*d17551
+d `Thanks to the "Devil's Proof", I can create as many strange fictions as I want, and use them to fight in the argument.`[\]
+*d17552
+d `...But that's only within the context of chess with a witch.`[@]`{n}......In our human world, such an abstract story can't explain anything.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 5
+textoff
+waits 167
+lbg s0_3,"map10"
+flush 2
+*d17553
+d `The first twilight today was a chain of six locked rooms.`[@]`{n}...It certainly may be possible for a human.`[\]
+*d17554
+d `Beato hadn't been able to completely deny everything.`[\]
+*d17555
+d `However, I don't have a clue who committed the crime,`[@]` why, and how they actually did it...`[\]
+*d17556
+d `I shouldn't say this having won,`[@]` ......but I get the feeling that I would have felt less muddled...`[@]`if I had just been told right out by {f:5:Beatrice} that it was completely impossible for a human.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 42
+*d17557
+d `Although I hide behind these abstract pieces called X,`[@]`{n}............I couldn't deny that some kind of unthinkable,`[@]` creepy intention had definitely pervaded this mansion...`[\]
+textoff
+waits 167
+wait 2000
+break_glass
+wait 500
+display_clock 1470,740,80,540,540,0,0
+wait 1667
+flush 10,500
+wait 83
+ch_done flag_scenario_3_9

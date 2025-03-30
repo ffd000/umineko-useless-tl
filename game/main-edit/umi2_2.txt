@@ -1,0 +1,1874 @@
+*umi2_2
+;素晴らしき理想の世界
+log_reset
+mov $name_chapter_r_click,r_click_chapters_2_2
+mov $name_chapter_save, "2_02"
+new_chapter date_scenario_2_2,scenario_2_2
+gstc 33
+vol_mix_fade 1000
+vol_bgm -1,1000
+wait 1000
+bgmplay 12,71,0
+textoff
+waits 167
+lbg s0_3,"m_o1an"
+flush 2
+wait 3000
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_1,"mjes_1ar_bg"
+lbg s0_3,"mjes_1ar"
+flush 3
+lss s0_9,"jes","a11_odoroki1" ;1
+flush 10,167
+msgwnd_jes
+*d7898
+d [lv 0*"04"*"20200079"]`"Eeeeeeeeeh?!`[@][lv 0*"04"*"20200080"]` What do you mean "separate rooms"?!`[@][lv 0*"04"*"20200081"]` Then, Shannon, you and George nii‐san stayed in different rooms on purpose?!"`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_1,"mjes_1ar_bg"
+lbg s0_3,"mjes_1ar"
+lss s0_10,"sha","a11_odoroki2" ;1
+aspt2 xpos,s0_10,370
+flush 24
+msgwnd_sha
+*d7899
+d [lv 0*"15"*"20500258"]`"Ye‐......yes...`[@][lv 0*"15"*"20500259"]` umm, ......was it that strange a thing to do......?"`[\]
+msgwnd_non
+*d7900
+d `Since Jessica's cheeks had been stuffed with chocolate‐coated chinsukou biscuit that Shannon had brought as a souvenir from Okinawa,`[@]` it all flew out at Shannon when Jessica cried out...`[\]
+lss s0_8,"jes","b21_tohoho1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_jes
+*d7901
+d [lv 0*"04"*"20200082"]`"...Sha‐Shannon, why did you even go on a trip up to Okinawa then...?`[@][lv 0*"04"*"20200083"]` And even alone with George nii‐san!"`[\]
+lss s0_10,"sha","a11_hajirai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_sha
+*d7902
+d [lv 0*"15"*"20500260"]`"That's because... I mean... Since there's a very big aquarium in Okinawa, I was invited to go and...`[@][lv 0*"15"*"20500261"]`I...like fish and stuff..."`[\]
+lss s0_8,"jes","a11_ikari1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_jes
+*d7903
+d [lv 0*"04"*"20200084"]`"No, I mean, like...!!`[@][lv 0*"04"*"20200085"]` This is a young couple going on an overnight trip, right?!`[@][lv 0*"04"*"20200086"]` And you're saying there weren't even any hugs and kisses?!`[@][lv 0*"04"*"20200087"]` To say nothing of the fact that the guy and girl were staying in different rooms!!"`[\]
+lss s0_10,"sha","a11_hajirai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_sha
+*d7904
+d [lv 0*"15"*"20500262"]`"As for ki‐kisses, no comment.`[@][lv 0*"15"*"20500263"]` ...ah, but we did hug, though...?`[@][lv 0*"15"*"20500264"]` George‐san's chest was warm..."`[\]
+lss s0_8,"jes","b21_buu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_jes
+*d7905
+d [lv 0*"04"*"20200088"]`"That's not the point!!`[@][lv 0*"04"*"20200089"]` Aah, geez!`[@][lv 0*"04"*"20200090"]` Why do couples like this exist?!`[@][lv 0*"04"*"20200091"]` Aaah, geez!!`[@][lv 0*"04"*"20200092"]` It's so damn irritating!"`[\]
+msgwnd_non
+*d7906
+d `From Shannon's perspective, a lot of things had happened and it seemed to have been a very happy trip,`[@]` but it looked like the missed opportunity had left Jessica feeling greatly unfulfilled.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 5
+wait 1000
+textoff
+waits 167
+lbg s0_1,"mjes_1cr_bg"
+lbg s0_3,"mjes_1cr"
+flush 22
+*d7907
+d `For a while, Jessica chewed on her souvenir,`[@]` writhing on her bed as she complained about their romance.`[\]
+*d7908
+d `Shannon and George had chosen to go to Okinawa because there was a huge aquarium there.`[\]
+*d7909
+d `That was because their first meeting had revolved around an aquarium.`[\]
+*d7910
+d `Since they had started at an aquarium, having their first overnight trip also be to an aquarium must have held some commemorative value.`[\]
+lss s0_10,"jes","a23_buu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_jes
+*d7911
+d [lv 0*"04"*"20200093"]`"This was your special commemorative trip, your turning point!`[@][lv 0*"04"*"20200094"]` Your first overnight trip!!`[@][lv 0*"04"*"20200095"]` Shouldn't there have been all kinds of progress?!"`[\]
+lss s0_10,"jes","b21_tohoho1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d7912
+d2 [lv 0*"04"*"20200096"]`"And yet!`[@][lv 0*"04"*"20200097"]` Separate rooms for the guy and girl?!`[@][lv 0*"04"*"20200098"]` A couple taking two single rooms?!`[@][#][*][lv 0*"04"*"20200099"]` Aah, geez, really, what's wrong with you?!"`[\]
+wait_on_d 0
+csp_slot s0_10
+flush 10,167
+seplay 1,13,71
+agpt quakeycycle,67
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+d_continue
+wait_on_d -1
+lss s0_8,"sha","a11_hajirai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_sha
+*d7913
+d [lv 0*"15"*"20500265"]`"...Err, umm, ......but we're both single...`[@][lv 0*"15"*"20500266"]` ...George‐san says that respecting boundaries is good manners between men and women......."`[\]
+lss s0_10,"jes","a11_ikari1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_jes
+*d7914
+d [lv 0*"04"*"20200100"]`"For hell's sake, this overnight trip was so you could overcome that, wasn't it?!`[@][lv 0*"04"*"20200101"]` You're not at the stage of mere hugs and kisses any more!"`[\]
+lss s0_8,"sha","a11_odoroki2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_sha
+*d7915
+d [lv 0*"15"*"20500267"]`"Mi‐Milady, I don't know what you mean by that, but...`[@][lv 0*"15"*"20500268"]` Geor‐...George‐sama was a real gentleman with me until the end."`[\]
+lss s0_8,"sha","a12_hajirai2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d7916
+d [lv 0*"15"*"20500269"]`"That is, I mean,`[|][lv 0*"15"*"20500270"]` ......I also...`[|][lv 0*"15"*"20500271"]`wondered if those things would happen, you know,`[|][lv 0*"15"*"20500272"]` ...but we, we may be going out, but...`[|][lv 0*"15"*"20500273"]`I mean, it, it's not as if we are married or anything..."`[\]
+lss s0_8,"sha","a11_hajirai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d7917
+d [lv 0*"15"*"20500274"]`"The kind of things you seem to be expecting, Milady,`[|][lv 0*"15"*"20500275"]` ......I mean, we must do so only after we properly make a vow in front of God, and, umm,`[|][lv 0*"15"*"20500276"]` ......ww...we mustn't...`[|][lv 0*"15"*"20500277"]` au."`[\]
+msgwnd_non
+*d7918
+d `Shannon's face was bright red.`[@]`{n}She was restlessly fidgeting, making a circle with both hands, then a chain link, continually intertwining, separating and making heart shapes with them.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_1,"mjes_1ar_bg"
+lbg s0_3,"mjes_1ar"
+flush 26
+*d7919
+d `Apparently, the dramatic progress Jessica had looked forward to hadn't happened,`[@]` but it seemed that it had been a very important experience for Shannon in her own way.`[\]
+*d7920
+d `...So in the end, no matter how much Jessica envied Shannon or made fun of her, it didn't change the fact that Shannon had a huge lead on her.`[\]
+msgwnd_jes
+*d7921
+d2 [lv 0*"04"*"20200102"]`"Aah, I want a boyfriend toooo!!`[#][*][@][lv 0*"04"*"20200103"]` I can't believe you beat me to it!!`[#][*][@][lv 0*"04"*"20200104"]` We promised we'd get boyfriends at the same time but you snuck ahead and beat meeee,`[|][lv 0*"04"*"20200105"]` aarrrrrrgh!"`[#][*][\]
+wait_on_d 0
+seplay 1,6,71
+agpt quakeycycle,50
+agpt quakeyamp,30
+agpt quakeyamp,0,333,1
+rumble 63,500
+gptwait quakeyamp
+d_continue
+wait_on_d 1
+seplay 1,7,71
+agpt quakeycycle,83
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+d_continue
+wait_on_d 2
+seplay 1,12,71
+agpt quakeycycle,50
+agpt quakeyamp,30
+agpt quakeyamp,0,333,1
+rumble 63,500
+gptwait quakeyamp
+seplay 2,13,71
+agpt quakeycycle,83
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+d_continue
+wait_on_d -1
+textoff
+waits 167
+lbg s0_1,"mjes_1cr_bg"
+lbg s0_3,"mjes_1cr"
+flush 23
+lss s0_10,"sha","a12_hajirai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_sha
+*d7922
+d [lv 0*"15"*"20500278"]`"U‐umm...`[@][lv 0*"15"*"20500279"]` Milady, you are a wonderful person, so I'm sure you'll find someone even more wonderful than I did, before long..."`[\]
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_1,"mjes_1ar_bg"
+lbg s0_3,"mjes_1ar"
+lss s0_8,"jes","a11_ikari1" ;1
+aspt2 xpos,s0_8,-370
+flush 24
+msgwnd_jes
+*d7923
+d2 [lv 0*"04"*"20200106"]`"Don't try to console me!!`[@][lv 0*"04"*"20200107"]` Shannon, you traitor, get outta here, you suuuuck!!`[@][#][*][lv 0*"04"*"20200108"]` *cough*cough*, *cough*cough*cough*!!"`[\]
+wait_on_d 0
+lss s0_8,"jes","a11_ikari2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+msgwnd_non
+*d7924
+d `Jessica threw several cushions at her.`[@]`{n}But midway, she had an asthma attack and started to cough pretty badly.`[\]
+textoff
+waits 167
+csp_slot s0_8
+lbg s0_1,"mjes_1cr_bg"
+lbg s0_3,"mjes_1cr"
+flush 23
+*d7925
+d `Shannon hurriedly ran over to her and took a look on top of the nearby side table.`[\]
+*d7926
+d `An adorable basket was placed there, and inside of it was Jessica's inhaler.`[\]
+*d7927
+d `Shannon picked it up and handed it over to Jessica.`[\]
+textoff
+waits 167
+csp_slot s0_1
+lbg s0_3,"black"
+flush 22
+*d7928
+d `Jessica's asthma attacks always came suddenly.`[@]` Because of this, she had to carry this medicine around with her at all times.`[\]
+textoff
+waits 167
+lbg s0_3,"mjes_1e"
+flush 2
+*d7929
+d `She breathed in the medicine, and after some time spent holding back her coughing, her asthma finally settled down.`[\]
+*d7930
+d `Shannon thought this a good chance to leave, bowed courteously, and made to exit the room...`[\]
+textoff
+waits 167
+vol_mix_fade 2000
+vol_bgm -1,2000
+wait 2000
+*d7931
+d `As she did, one more small cushion came flying and hit Shannon on the head.`[\]
+textoff
+waits 167
+lbg s0_1,"mjes_1ar_bg"
+lbg s0_3,"mjes_1ar"
+flush 24
+bgmplay 10,71,0
+*d7932
+d `She looked around, and saw that Jessica was on the verge of crying, half of her face buried in her last and favorite cushion.`[@]` That face was red and meek...`[\]
+lss s0_8,"sha","a11_komaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_sha
+*d7933
+d [lv 0*"15"*"20500280"]`"......Mi‐Milady......?"`[\]
+lss s0_10,"jes","a23_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_jes
+*d7934
+d [lv 0*"04"*"20200109"]`"Sha‐......Shannon...`[@][lv 0*"04"*"20200110"]` ...Be honest with me...`[@][lv 0*"04"*"20200111"]` .........Is my...`[@][lv 0*"04"*"20200112"]`.........hairdo and stuff...strange...?"`[\]
+lss s0_8,"sha","a21_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_sha
+*d7935
+d [lv 0*"15"*"20500281"]`"What are you saying...`[@][lv 0*"15"*"20500282"]` I think that your hair is very beautiful."`[\]
+lss s0_10,"jes","b22_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_jes
+*d7936
+d [lv 0*"04"*"20200113"]`"Then, ...then then, are my eyes strange, or maybe my nose?`[@][lv 0*"04"*"20200114"]` ...Or is it the way I talk after all......?`[@][lv 0*"04"*"20200115"]` Is that why I can't get a boyfriend......?"`[\]
+lss s0_8,"sha","a11_tokui1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_sha
+*d7937
+d [lv 0*"15"*"20500283"]`"Of course not.`[@][lv 0*"15"*"20500284"]` Milady, you are wonderful enough as you are.`[@][lv 0*"15"*"20500285"]` And I think that your charm will keep on increasing more and more."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 25
+msgwnd_jes
+*d7938
+d [lv 0*"04"*"20200116"]`"......But, it's only me who can't get a boyfriend...`[@][lv 0*"04"*"20200117"]` Saku and Hina managed to find one, but I can't, I'm the only one......`[@][lv 0*"04"*"20200118"]` Is it because I don't have any charm after all......?`[@][lv 0*"04"*"20200119"]` You know, everyone's gonna be bringing their boyfriend along to the cultural festival......"`[\]
+*d7939
+d [lv 0*"04"*"20200120"]`"I was so sure I'd have a boyfriend by then, I've been grandstanding about it...`[@][lv 0*"04"*"20200121"]` .........But I can't get a boyfriend to save my life.`[@][lv 0*"04"*"20200122"]` I'm the only one, the only one......."`[\]
+msgwnd_non
+*d7940
+d `Before she realized it, Jessica was shedding huge tears.`[\]
+*d7941
+d `Jessica hadn't really planned on crying, and of course, she felt like supporting Shannon's progress in love as a friend.`[\]
+*d7942
+d `...However, as she had made fun of Shannon, her true feelings had suddenly gotten mixed in, and the tears had just poured out on their own...`[\]
+textoff
+waits 167
+lbg s0_3,"mjes_1e"
+flush 22
+*d7943
+d `...Shannon understood Jessica's innocent and easily injured heart.`[\]
+*d7944
+d `Jessica's usual rough style of speech...`[@]`was all just an attempt to protect her own easily injured heart.`[\]
+*d7945
+d `......As a daughter and successor to the Ushiromiya family, and as a girl isolated on Rokkenjima, the only person she could expose her true feelings to was Shannon.`[\]
+*d7946
+d `Shannon understood that.`[@]`{n}So, ...she strongly regretted feeling a little too self‐satisfied.`[\]
+textoff
+waits 167
+lbg s0_1,"mjes_1ar_bg"
+lbg s0_3,"mjes_1ar"
+lss s0_9,"jes","b33_naku2" ;1
+flush 23
+msgwnd_jes
+*d7947
+d [lv 0*"04"*"20200123"]`"...S‐.........sorry...`[@][lv 0*"04"*"20200124"]` Crying like this, I'm weird.`[@][lv 0*"04"*"20200125"]` Sorry......*sniffle*."`[\]
+lss s0_10,"sha","a11_defo1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_sha
+*d7948
+d [lv 0*"15"*"20500286"]`"You are a wonderful person, Milady.`[@][lv 0*"15"*"20500287"]` There is no way that a nice man won't appear for you..."`[\]
+lss s0_9,"jes","a23_aisowarai1" ;1
+flush 10,167
+msgwnd_jes
+*d7949
+d [lv 0*"04"*"20200126"]`".........Sha‐Shannon, it's about time for you, right?`[@][lv 0*"04"*"20200127"]` If you don't go soon, Genji‐san and Mom are gonna yell at you.`[@][lv 0*"04"*"20200128"]` I'm totally fine, so get going...!`[@][lv 0*"04"*"20200129"]` Heheh, sorry for crying like this.`[@][lv 0*"04"*"20200130"]` ......I'm such a moron."`[\]
+textoff
+waits 167
+csp_slot s0_9
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 23
+msgwnd_non
+*d7950
+d `Jessica faced away as if to show she wasn't looking for attention,`[@]` and waved her hand as though to drive Shannon away.`[\]
+*d7951
+d `Shannon took that as a sign that she didn't want to be badgered any more,`[@]` bowed her head, and left the room...`[\]
+textoff
+waits 167
+wait 3000
+textoff
+waits 167
+lbg s0_1,"mjes_1ar_bg"
+lbg s0_3,"mjes_1ar"
+flush 4
+*d7952
+d `When her footsteps disappeared into the distance, Jessica lay down on her bed, still hugging the cushion.`[\]
+*d7953
+d `...Her expression was still a little meek, with tears in her eyes,`[@]` ...but for the first time in a long time, she had a very, very quiet and honest conversation with her heart.`[\]
+textoff
+waits 167
+csp_slot s0_1
+lbg s0_3,"black"
+flush 5
+msgwnd_jes
+*d7954
+d [lv 0*"04"*"20200131"]`"I also...`[|][lv 0*"04"*"20200132"]`.........want to fall...`[|][lv 0*"04"*"20200133"]`in love..."`[\]
+gstc 34
+textoff
+waits 167
+textoff
+waits 167
+lbg s0_3,"m_o1an"
+flush 2
+vol_mix_fade 3000
+vol_bgm -1,3000
+wait 3000
+wait 2000
+textoff
+waits 167
+lbg s0_3,"m_o1a2"
+flush 2
+wait 2000
+textoff
+waits 167
+lbg s0_3,"white"
+flush 9
+textoff
+waits 167
+lbg s0_3,"rose_g1bf"
+flush 22
+wait 2000
+textoff
+waits 167
+lbg s0_3,"white"
+flush 23
+textoff
+waits 167
+lbg s0_3,"garden_1af"
+flush 23
+bgmplay 7,71,0
+msgwnd_non
+*d7955
+d `As Shannon watered the flower beds in the garden in high spirits, she sensed someone's presence.`[\]
+*d7956
+d `She turned around, thinking that if one of the family had come to visit, she must greet them,`[@]` ......and what she saw was that witch.`[\]
+textoff
+waits 167
+lbg s0_3,"rose_1af"
+lss s0_8,"sha","a11_odoroki2" ;1
+aspt2 xpos,s0_8,-370
+flush 23
+msgwnd_sha
+*d7957
+d [lv 0*"15"*"20500288"]`"B‐......{f:5:Beatrice}‐sama........."`[\]
+lss s0_10,"bea","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d7958
+d [lv 0*"27"*"20700175"]`"It's been quite some time.`[@][lv 0*"27"*"20700176"]` How are you?`[@][lv 0*"27"*"20700177"]` Has your relationship with your special person progressed since last time?"`[\]
+msgwnd_non
+*d7959
+d `As {f:5:Beatrice} sat on the rose arch, she happily blew on her pipe.`[\]
+*d7960
+d `Sitting in a place like that would crush the roses,`[@]` and it might have been dangerous if you fell off the arch, ...but after all, this was a witch.`[\]
+*d7961
+d `That was surely an unnecessary concern.`[\]
+lss s0_8,"sha","a11_hajirai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_sha
+*d7962
+d [lv 0*"15"*"20500289"]`"...Ye‐yes.`[@][lv 0*"15"*"20500290"]` Thanks to you, ...it's going smoothly."`[\]
+lss s0_10,"bea","a11_defo2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d7963
+d [lv 0*"27"*"20700178"]`"Naturally; my magic is instantaneous.`[@][lv 0*"27"*"20700179"]` ...You may even be feeling as if your meeting was a predetermined fate.`[@][lv 0*"27"*"20700180"]` But that isn't correct; don't think for a moment this has anything to do with fate."`[\]
+lss s0_8,"sha","a11_komaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_sha
+*d7964
+d [lv 0*"15"*"20500291"]`"......I, ......I understand that."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 25
+msgwnd_non
+*d7965
+d `The witch was calling attention to something.`[@]` Two things, actually.`[\]
+*d7966
+d `That originally, her relationship with George had been completely impossible.`[@]`{n}......And that her magic power was so great, it could manipulate that fate.`[\]
+*d7967
+d `Shannon had become swept up in these sweet days, and had started to fall under the illusion that all fate was revolving around her.`[\]
+*d7968
+d `...But the witch's words made her remember.`[\]
+*d7969
+d `Her relationship with George had originally been impossible,`[@]` .........no, might also be impossible in the future as well...`[\]
+textoff
+waits 167
+lbg s0_3,"rose_1af"
+lss s0_8,"bea","a31_warai1" ;1
+aspt2 xpos,s0_8,-370
+flush 26
+msgwnd_bea
+*d7970
+d2 [lv 0*"27"*"20700181"]`"...*cackle*cackle*, sorry, sorry.`[@][#][*][lv 0*"27"*"20700182"]` It's just like a doctor.`[@][lv 0*"27"*"20700183"]` Even though you rely on them when you worry about your health, after you're healed, you forget even to thank them.`[@][lv 0*"27"*"20700184"]` ......Witches have never known thanks, so I couldn't help acting a little rudely.`[@][lv 0*"27"*"20700185"]` Forgive me."`[\]
+wait_on_d 0
+lss s0_8,"bea","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_10,"sha","a11_fuman1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_sha
+*d7971
+d [lv 0*"15"*"20500292"]`".........I have never forgotten my feelings of gratitude.`[@][lv 0*"15"*"20500293"]` ...I was able to achieve happiness thanks to your power, {f:5:Beatrice}‐sama.`[@][lv 0*"15"*"20500294"]` ......And without that power, George‐sama and I would have had no fate together.`[@][lv 0*"15"*"20500295"]` ...I have never forgotten that."`[\]
+lss s0_8,"bea","a11_warai2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_bea
+*d7972
+d [lv 0*"27"*"20700186"]`"Sorry, sorry.`[@][lv 0*"27"*"20700187"]` This was not my intent; I didn't come here to bully you.`[@][lv 0*"27"*"20700188"]` Talking rudely is just my personality.`[@][lv 0*"27"*"20700189"]` Do forgive me."`[\]
+lss s0_8,"bea","a11_defo2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d7973
+d [lv 0*"27"*"20700190"]`"...More importantly, I heard it through the grapevine...!`[@][lv 0*"27"*"20700191"]` You two went on a little private trip.`[@][lv 0*"27"*"20700192"]` I'm sure it was quite fun."`[\]
+lss s0_10,"sha","a12_hajirai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_sha
+*d7974
+d [lv 0*"15"*"20500296"]`"Y‐yes!`[@][lv 0*"15"*"20500297"]` It was very, umm, ...fun."`[\]
+msgwnd_non
+*d7975
+d `Shannon's face suddenly grew bright.`[@]`{n}The witch laughed lightly, as though that transformation was worth money.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"white"
+flush 22
+textoff
+waits 167
+lbg s0_3,"sky_1a"
+flush 22
+msgwnd_bea
+*d7976
+d [lv 0*"27"*"20700193"]`"Already the person of your thoughts is no longer an object of one‐sided love.`[@][lv 0*"27"*"20700194"]` You are a pair of lovers now.`[@][lv 0*"27"*"20700195"]` ......To a pair filled with love, that alone is all they need in the world.`[@][lv 0*"27"*"20700196"]` A wonderful, ideal world, so to speak?`[@][lv 0*"27"*"20700197"]` Huhuhuhuhu!`[@][lv 0*"27"*"20700198"]` Even witches would be jealous."`[\]
+msgwnd_non
+*d7977
+d `{f:5:Beatrice} laughed pleasantly.`[@]`{n}That smile was without a trace of malice, making her look as though she blessed the lovers' secret meeting from the bottom of her heart.`[\]
+*d7978
+d `After that day, {f:5:Beatrice} had shown herself before Shannon every once in a while.`[\]
+*d7979
+d `Even now, Shannon still thought of her as a creepy being.`[\]
+*d7980
+d `...However, she was also hugely indebted to this person for bestowing the magic that had given her the relationship she had with George.`[\]
+*d7981
+d `So Shannon was trying with all her might not to be surprised or scared.`[\]
+textoff
+waits 167
+lbg s0_3,"rose_1af"
+lss s0_10,"sha","a11_tokui1" ;1
+aspt2 xpos,s0_10,370
+flush 22
+msgwnd_sha
+*d7982
+d2 [lv 0*"15"*"20500298"]`"Oh, ...oh, yes.`[@][#][*][lv 0*"15"*"20500299"]` ......Umm, {f:5:Beatrice}‐sama.`[@][lv 0*"15"*"20500300"]` I bought some confectionery as a souvenir from our trip.`[@][lv 0*"15"*"20500301"]` ...Would you, umm, ......like some?"`[\]
+wait_on_d 0
+lss s0_10,"sha","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_8,"bea","a11_majime2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_bea
+*d7983
+d [lv 0*"27"*"20700199"]`"Hoh???`[@][lv 0*"27"*"20700200"]` A souvenir for a witch.........?"`[\]
+msgwnd_non
+*d7984
+d `It seemed that even the witch who boasted of living for one thousand years hadn't been able to predict that she would receive a souvenir from a pair of sweet lovers.`[\]
+*d7985
+d `When she saw that surprised expression, Shannon thought of the witch as a friend for the first time.`[\]
+gstc 35
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"white"
+flush 3
+textoff
+waits 167
+lbg s0_3,"sky_1a"
+flush 2
+vol_mix_fade 2000
+vol_bgm -1,2000
+wait 2000
+textoff
+waits 167
+lbg s0_3,"white"
+flush 2
+meplay 1,2,71
+textoff
+waits 167
+lbg s0_3,"beach_2af"
+flush 22
+lss s0_10,"bea","a11_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+bgmplay 8,71,0
+msgwnd_bea
+*d7986
+d [lv 0*"27"*"20700201"]`"Hohoh, Oriental cookies made from wheat flour and lard.`[@][lv 0*"27"*"20700202"]` To wrap that in chocolate in the Western fashion is truly a blending of Japanese and Western style—the Silk Road of confectionery."`[\]
+lss s0_10,"bea","a11_fukigen2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d7987
+d [lv 0*"27"*"20700203"]`".........What?`[@][lv 0*"27"*"20700204"]` What's so funny?"`[\]
+lss s0_8,"sha","a21_warai2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_sha
+*d7988
+d [lv 0*"15"*"20500302"]`"N‐...nothing.`[@][lv 0*"15"*"20500303"]` My apologies."`[\]
+msgwnd_non
+*d7989
+d `This mysterious witch, who surely held a terrifying power,`[@]` was chomping down on the treats one after another, making a sound like a squirrel stuffing walnuts into its mouth.`[@]` After a while, Shannon couldn't conceal her laughter.`[\]
+lss s0_10,"bea","a31_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d7990
+d [lv 0*"27"*"20700205"]`"Hmm, a fine treat.`[@][lv 0*"27"*"20700206"]` ......I should serve you some Dolce Vita from Nero one of these days.`[@][lv 0*"27"*"20700207"]` Roses are the symbol of eternal love.`[@][lv 0*"27"*"20700208"]` I believe a rose dolce would be appropriate for you now."`[\]
+msgwnd_non
+*d7991
+d `The witch was in a great mood, having enjoyed the modern treats to the full.`[\]
+lss s0_8,"sha","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_sha
+*d7992
+d [lv 0*"15"*"20500304"]`"Umm, .........here.`[@][lv 0*"15"*"20500305"]` I truly can't thank you enough.`[@][lv 0*"15"*"20500306"]` I believe you have done more than enough for me already, so I'm returning this."`[\]
+msgwnd_non
+*d7993
+d `The thing that Shannon had softly set on the table was a gold‐colored butterfly brooch.`[\]
+lss s0_10,"bea","a11_defo2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d7994
+d [lv 0*"27"*"20700209"]`"There is no need to return it.`[@][lv 0*"27"*"20700210"]` If you continue holding that, your relationship should remain firm in perpetuity."`[\]
+lss s0_8,"sha","a11_warai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_sha
+*d7995
+d [lv 0*"15"*"20500307"]`"......I may have been given the chance to meet him through the power of magic.`[@][lv 0*"15"*"20500308"]` But I think the effort that will make that encounter eternal should come from the two of us cooperating together."`[\]
+lss s0_10,"bea","a31_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d7996
+d [lv 0*"27"*"20700211"]`"Hmm.`[@][lv 0*"27"*"20700212"]` ......So love, too, is like a rose.`[@][lv 0*"27"*"20700213"]` Too much fertilizer causes the roots to rot.`[@][lv 0*"27"*"20700214"]` Some flowers cannot be raised without hard work.`[@][lv 0*"27"*"20700215"]` In that case, do as you wish.`[@][lv 0*"27"*"20700216"]` You may keep it in a box, rather than on your person.`[@][lv 0*"27"*"20700217"]` That is my goodwill, given to you.`[@][lv 0*"27"*"20700218"]` It would not please me to have it returned."`[\]
+lss s0_8,"sha","a11_hajirai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_sha
+*d7997
+d [lv 0*"15"*"20500309"]`"Ah, ......my, my apologies...!`[@][lv 0*"15"*"20500310"]` That's not what I..."`[\]
+csp_slot s0_8
+csp_slot s0_10
+flush 10,167
+lss s0_9,"bea","a11_defo1" ;1
+flush 10,167
+msgwnd_bea
+*d7998
+d [lv 0*"27"*"20700219"]`"*cackle*cackle*.`[@][lv 0*"27"*"20700220"]` No harm has been done.`[@][lv 0*"27"*"20700221"]` That brooch is already yours.`[@][lv 0*"27"*"20700222"]` If you treasure that as proof of our friendship, that would comfort me a little."`[\]
+lss s0_9,"bea","a11_defo2" ;1
+flush 10,167
+*d7999
+d [lv 0*"27"*"20700223"]`"You may hold on to it, and gain its benefits.`[@][lv 0*"27"*"20700224"]` You may also keep it in a box.`[@][lv 0*"27"*"20700225"]` If you wish, you are even free to give it to another who is worrying about love.`[@][lv 0*"27"*"20700226"]` ......But you should regard it as important.`[@][lv 0*"27"*"20700227"]` It would certainly pain my heart if you did not take care of it."`[\]
+msgwnd_non
+*d8000
+d `According to {f:5:Beatrice}, she had appeared several times in the past in response to a person's summons so that she could give them an item imbued with some kind of magical power.`[\]
+*d8001
+d `...However, most of them, after they used that power to resolve their worries,`[@]` would quickly come to think of that power as creepy, and, forgetting their feelings of thanks, they would throw away the items they had been given with disgust.`[\]
+lss s0_9,"bea","a11_akuwarai1" ;1
+flush 10,167
+msgwnd_bea
+*d8002
+d [lv 0*"27"*"20700228"]`"Which is why I haven't often received thanks for my good will.`[@][lv 0*"27"*"20700229"]` ......Let's see, is this the first time?`[@][lv 0*"27"*"20700230"]` *cackle*cackle*cackle*cackle*."`[\]
+msgwnd_non
+*d8003
+d `The witch laughed heartily, but it looked like a sad laugh to Shannon's eyes.`[\]
+*d8004
+d `She herself had been like that in the past—no, maybe she was still like that now.`[\]
+*d8005
+d `{f:5:Beatrice} was definitely a witch, with a strange and terrifying power.`[\]
+*d8006
+d `Most likely, no one would go along with her if they could help it.`[\]
+*d8007
+d `And even though on occasion they had relied on her strange power, it had undoubtedly resulted in fear more often than gratitude.`[\]
+*d8008
+d `.........It must have deeply hurt the witch when that repeated over and over.`[\]
+*d8009
+d `From the moment that she realized this,`[@]` ...Shannon decided to stop being frightened of {f:5:Beatrice}.`[\]
+*d8010
+d `That had surely tormented her for over a thousand years...`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"white"
+flush 25
+textoff
+waits 167
+lbg s0_3,"sky_1a"
+flush 22
+vol_me 1,-1,1000
+*d8011
+d `Maybe she really liked the treats.`[@]` {f:5:Beatrice}, who normally spoke abusively, praised the black tea that Shannon served her, and looked to be in remarkably high spirits.`[\]
+*d8012
+d `On such terms, the witch and the servant grew animated talking about the trip with George.`[\]
+meplay 1,5,50
+*d8013
+d `Shannon didn't know much about {f:5:Beatrice}.`[\]
+*d8014
+d `First off, she was a ghost‐like being who appeared in unexpected places at unexpected times.`[@]`{n}And it seemed that not everyone could perceive that she was there.`[\]
+*d8015
+d `It seemed that each person had something called a wavelength, and that there was a great amount of individual variation in people's ability to perceive the witch.`[\]
+*d8016
+d `Only Shannon and Kanon could interact with her enough to exchange words like this.`[\]
+*d8017
+d `...There were a few people who could sense her presence, but most people couldn't even feel that much.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 25
+*d8018
+d `From what {f:5:Beatrice} said, Krauss and his wife in particular had zero magical talent.`[@]` And no matter how much she followed them around, they would never notice her.`[\]
+vol_me 1,-1,1000
+*d8019
+d `Previously, when Shannon had messed up and Natsuhi had gotten really mad at her, {f:5:Beatrice} had started playing around, hitting Natsuhi on the head with her pipe.`[\]
+*d8020
+d `...Indeed, Natsuhi seems completely oblivious.`[@]`{n}But Shannon, watching that, had burst out laughing without thinking, and had gotten scolded even more.`[\]
+textoff
+waits 167
+lbg s0_3,"white"
+flush 22
+textoff
+waits 167
+lbg s0_3,"beach_2af"
+lss s0_10,"sha","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 26
+msgwnd_sha
+*d8021
+d [lv 0*"15"*"20500311"]`"Then, ......what about the Master?`[@][lv 0*"15"*"20500312"]` I hear that he has been doing research in magic, so I'm sure he would be able to notice you, {f:5:Beatrice}‐sama."`[\]
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"sky_1a"
+flush 5
+msgwnd_bea
+*d8022
+d [lv 0*"27"*"20700231"]`"............Kinzo is the same.`[@][lv 0*"27"*"20700232"]` There is no one with a more pitiful lack of magical talent.`[@][lv 0*"27"*"20700233"]` ...It's the blood.`[@][lv 0*"27"*"20700234"]` He has so little talent, he is worthy of sympathy."`[\]
+msgwnd_sha
+*d8023
+d [lv 0*"15"*"20500313"]`"..................?"`[\]
+msgwnd_non
+*d8024
+d `As soon as they started talking about Kinzo, it felt like the atmosphere around {f:5:Beatrice} changed.`[\]
+*d8025
+d `She had spoken about Krauss and the rest's lack of magic talent as though she looked down on them, but she spoke of Kinzo in a different way.`[\]
+*d8026
+d `Anyone connected to the Ushiromiya family would know about Kinzo's Legend of the Gold.`[@]`{n}...According to the legend, Kinzo had summoned the witch {f:5:Beatrice}, and had been conferred gold.`[\]
+*d8027
+d `...In short, that implied she had some kind of relationship with Kinzo.`[\]
+textoff
+waits 167
+lbg s0_3,"beach_2af"
+lss s0_10,"bea","a13_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 26
+meplay 1,2,71
+msgwnd_bea
+*d8028
+d [lv 0*"27"*"20700235"]`"So, you see, ......he attained that level despite not having a single scrap of talent.`[@][lv 0*"27"*"20700236"]` ...It was through frenzied solitary study that he reached the tier of mage."`[\]
+lss s0_8,"sha","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_sha
+*d8029
+d [lv 0*"15"*"20500314"]`"That's.........something really incredible, right......?"`[\]
+lss s0_10,"bea","a13_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d8030
+d [lv 0*"27"*"20700237"]`"......Mmhm."`[\]
+msgwnd_non
+*d8031
+d `The witch, who usually looked down on people, was unexpectedly praising someone.`[\]
+*d8032
+d `...While she lambasted Kinzo, calling him talentless, she praised his efforts.`[\]
+lss s0_8,"sha","a11_tokui1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_sha
+*d8033
+d [lv 0*"15"*"20500315"]`"And then, .........the Master summoned you with the power of magic......"`[\]
+lss s0_10,"bea","a13_futeki2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d8034
+d [lv 0*"27"*"20700238"]`"Mmhm.`[@][lv 0*"27"*"20700239"]` ......Well, I only answered the summons on a whim.`[@][lv 0*"27"*"20700240"]` In this period where magic has long been denied, there I saw a being, without a scrap of talent, giving it his all.`[@][lv 0*"27"*"20700241"]` It was just my luck that I'd decide to come and laugh at him.`[@][lv 0*"27"*"20700242"]` *cackle*cackle*cackle*."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 22
+vol_me 1,-1,2000
+wait 2000
+msgwnd_non
+*d8035
+d `The words "just my luck"...showed that this had been a disaster for her.`[\]
+*d8036
+d `Shannon hesitated over whether it would be alright to encourage her to continue, but {f:5:Beatrice} continued on her own, ignoring Shannon.`[\]
+textoff
+waits 167
+vol_mix_fade 1000
+vol_bgm -1,1000
+wait 1000
+textoff
+waits 167
+lbg s0_1,"mlib_1b_bg"
+lbg s0_3,"mlib_1b"
+color_mod2 s0_1,#ffffff
+color_mod2 s0_3,#ffffff
+flush 22
+bgmplay 25,71,0
+msgwnd_bea
+*d8037
+d [lv 0*"27"*"20700243"]`"The format and rules were all there, at least.`[@][lv 0*"27"*"20700244"]` He'd mixed up a few of the procedures, but, well, in deference to his enthusiasm, I generously responded to his contract.`[@][lv 0*"27"*"20700245"]` ......And I gave him a mountain of gold."`[\]
+msgwnd_sha
+*d8038
+d [lv 0*"15"*"20500316"]`"Then the Master...used that gold and succeeded in business, and grew his wealth into what it is today."`[\]
+textoff
+waits 167
+csp_slot s0_1
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_3,"gold1"
+color_mod2 s0_3,#ffffff
+flush 22
+msgwnd_bea
+*d8039
+d [lv 0*"27"*"20700246"]`"Mm. His talent in magic was nothing, but it seems he had talent in business and gambling.`[@][lv 0*"27"*"20700247"]` ...Or was it because of his bravery and madness to stake everything on irrational bets?`[@][lv 0*"27"*"20700248"]` ......Madness sometimes brings about magic.`[@][lv 0*"27"*"20700249"]` Yes, if I look at it that way, maybe I can't really say that Kinzo had absolutely no magical talent.`[@][lv 0*"27"*"20700250"]` *cackle*cackle*..."`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_3,"beach_1af"
+flush 22
+meplay 1,2,71
+msgwnd_non
+*d8040
+d `Shannon felt like she was daydreaming.`[\]
+*d8041
+d `While everyone in the Ushiromiya family knew of the story that Kinzo had delved into sorcery, summoned a witch, and been given gold, in actuality, it was all rambling that no one believed in.`[\]
+*d8042
+d `And now the witch herself was telling her that it was true...`[@]`{n}Shannon felt a little flustered at this insane secret that only she knew.`[\]
+textoff
+waits 167
+lbg s0_3,"beach_2af"
+lss s0_10,"bea","a13_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 23
+msgwnd_bea
+*d8043
+d [lv 0*"27"*"20700251"]`"Then Kinzo, who had obtained a vast fortune, satisfied his every dream that could be granted in the human world.`[@][lv 0*"27"*"20700252"]` .........And finally, he sought the truth of the world."`[\]
+lss s0_8,"sha","a11_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_sha
+*d8044
+d [lv 0*"15"*"20500317"]`"The truth...of the world?"`[\]
+lss s0_10,"bea","a13_futeki2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d8045
+d [lv 0*"27"*"20700253"]`"...The single element that makes up the world.`[@][lv 0*"27"*"20700254"]` Kinzo, who had achieved everything one can obtain in the human world, wanted that, the final desire humans seek."`[\]
+msgwnd_non
+*d8046
+d `The single element.`[@]` .........She felt like she had heard the witch say those words before.`[\]
+*d8047
+d `When {f:5:Beatrice} saw Shannon trying to remember what that was, she smiled awkwardly, waving her hand and saying there was no need to remember.`[\]
+lss s0_10,"bea","a13_defo2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d8048
+d [lv 0*"27"*"20700255"]`"......I underestimated Kinzo a trifle.`[@][lv 0*"27"*"20700256"]` I truly hadn't thought that he would display such power."`[\]
+lss s0_10,"bea","a33_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d8049
+d [lv 0*"27"*"20700257"]`"......And thanks to that, I'm in this state.`[@][lv 0*"27"*"20700258"]` I've been sewn in place on this island for several decades now, without even a friend to drink tea with.`[@][lv 0*"27"*"20700259"]` ...My voice reaches none I call out to, and I cannot go anywhere.`[@][lv 0*"27"*"20700260"]` Such boring decades."`[\]
+msgwnd_non
+*d8050
+d `As she laughed in self‐derision, she tapped her teacup with her finger.`[@]` It made the clear sound of porcelain.`[\]
+*d8051
+d `...Shannon didn't know whether the word "self‐derision" was really an accurate expression to describe the look on the witch's face.`[\]
+*d8052
+d `Shannon didn't understand everything, but she could more or less figure out the situation.`[@]`{n}...And it was surely a topic that she should not press the witch on lightly, unless the witch started talking about it herself.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"sky_1a"
+flush 6
+vol_me 1,-1,1000
+*d8053
+d `To sum up everything she had said up until now...`[\]
+*d8054
+d `{f:5:Beatrice}, who had been summoned by Kinzo's magic, could not leave this island for some reason.`[@]` And she had lost her power and her form, living her days in boredom.`[\]
+*d8055
+d `During that time, her words had reached Shannon, who never forgot to strongly respect the witch.`[@]` And she had made Shannon help her to regain her power, even if only a little bit of it.`[\]
+*d8056
+d `...As a result, she had become able to drink tea with Shannon like this...`[\]
+textoff
+waits 167
+vol_mix_fade 2000
+vol_bgm -1,2000
+wait 2000
+meplay 1,2,71
+textoff
+waits 167
+lbg s0_3,"beach_1af"
+flush 6
+lss s0_10,"sha","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_sha
+*d8057
+d [lv 0*"15"*"20500318"]`"......{f:5:Beatrice}‐sama, what in the world was that mirror you told me to break?"`[\]
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"beach_2af"
+lss s0_8,"bea","a31_warai1" ;1
+aspt2 xpos,s0_8,-370
+flush 26
+msgwnd_bea
+*d8058
+d2 [lv 0*"27"*"20700261"]`"Aaah, that topic.`[@][#][*][lv 0*"27"*"20700262"]` .........It seems that a lot of things happened on the islands around this area, in the distant past.`[@][lv 0*"27"*"20700263"]` Bad things gathered due to that, attracting bad distortions.`[@][lv 0*"27"*"20700264"]` It seems that a traveling Eastern mage or someone built a shrine for the repose of souls and sealed them in there."`[\]
+wait_on_d 0
+lss s0_8,"bea","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_8,"bea","a11_akuwarai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d8059
+d [lv 0*"27"*"20700265"]`"...That in itself had nothing to do with me, but unfortunately the foundation of that magical power was different.`[@][lv 0*"27"*"20700266"]` It created a strong interference with my own magic, and was extremely bothersome."`[\]
+lss s0_10,"sha","a11_odoroki1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_sha
+*d8060
+d [lv 0*"15"*"20500319"]`"Is that how it was...?`[@][lv 0*"15"*"20500320"]` I just assumed that it had been sealing you, {f:5:Beatrice}‐sama..."`[\]
+lss s0_8,"bea","a31_warai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_bea
+*d8061
+d [lv 0*"27"*"20700267"]`"I was not its target.`[@][lv 0*"27"*"20700268"]` But it was a divine mirror.`[@][lv 0*"27"*"20700269"]` As a result, my power was sealed away."`[\]
+lss s0_8,"bea","a21_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d8062
+d [lv 0*"27"*"20700270"]`"......If I were to use food as an example, maybe it would go something like this.`[@][lv 0*"27"*"20700271"]` Let's say that I have ordered some Western cuisine, which is being made in the kitchen.`[@][lv 0*"27"*"20700272"]` However, when it comes time for it to be served, the seating is in the Japanese style, and Japanese tableware has been laid out."`[\]
+*d8063
+d [lv 0*"27"*"20700273"]`"So the kitchen is unable to take out the plate which would be out of place, and no matter how long I wait, my Western food won't arrive—something like that."`[\]
+lss s0_8,"bea","a11_defo2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d8064
+d [lv 0*"27"*"20700274"]`"So I had you destroy that Japanese‐style seating, and return the area to a blank slate for a time.`[@][lv 0*"27"*"20700275"]` Thanks to that, the meal I had ordered was finally delivered, and my power came back, you could say.`[@][lv 0*"27"*"20700276"]` However, so far, only the aperitif has arrived."`[\]
+*d8065
+d [lv 0*"27"*"20700277"]`"It will still be quite some time before the main dish.`[@][lv 0*"27"*"20700278"]` As I am now, I'm even more faint than a fairy in a shoe store."`[\]
+textoff
+waits 167
+lss s0_10,"sha","a21_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+vol_mix_fade 1000
+wait 1000
+bgmplay 2,71,0
+msgwnd_sha
+*d8066
+d [lv 0*"15"*"20500321"]`".........pf...`[|][lv 0*"15"*"20500322"]`...ahahahahahahaha."`[\]
+lss s0_8,"bea","a11_fukigen2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_bea
+*d8067
+d [lv 0*"27"*"20700279"]`"Mh.`[@][lv 0*"27"*"20700280"]` What's so funny?"`[\]
+lss s0_10,"sha","a11_tokui1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_sha
+*d8068
+d [lv 0*"15"*"20500323"]`"Nothing...`[@][lv 0*"15"*"20500324"]` I was just thinking witches' analogies are so interesting.`[@][lv 0*"15"*"20500325"]` I never thought you could use food as an analogy to talk about magic."`[\]
+lss s0_8,"bea","a33_fukigen3" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_bea
+*d8069
+d [lv 0*"27"*"20700281"]`"I had thought it to be a skillful description, if I do say so myself, and I certainly did not imagine it would be laughed at.`[@][lv 0*"27"*"20700282"]` I feel a little offended."`[\]
+msgwnd_non
+*d8070
+d `A slightly sulky expression rose to the witch's face.`[@]`{n}...It would not have been a strange expression at all to see appear on the face of two friends as they enjoyed their tea.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 25
+textoff
+waits 167
+lbg s0_3,"sky_1b"
+flush 22
+msgwnd_bea
+*d8071
+d [lv 0*"27"*"20700283"]`"......Although I may not look it, I was known for doing extremely brutal things in the past.`[@][lv 0*"27"*"20700284"]` ...I've gotten soft.`[@][lv 0*"27"*"20700285"]` Now I can even have a foolish discussion while drinking tea with a human."`[\]
+msgwnd_non
+*d8072
+d `She was probably talking to herself.`[@]`{n}As {f:5:Beatrice} gazed at the sea birds tracing the horizon, she put her tea to her lips again.`[\]
+msgwnd_bea
+*d8073
+d [lv 0*"27"*"20700286"]`"...The clouds have come out.`[@][lv 0*"27"*"20700287"]` When the ocean loses its brilliance, it's nothing more than a gray puddle."`[\]
+msgwnd_sha
+*d8074
+d [lv 0*"15"*"20500326"]`"You think so?`[@][lv 0*"15"*"20500327"]` ......I think the ocean is a beautiful deep blue, even if it gets cloudy."`[\]
+textoff
+waits 167
+lbg s0_3,"beach_2a"
+lss s0_10,"bea","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 26
+msgwnd_bea
+*d8075
+d [lv 0*"27"*"20700288"]`"............Hmph."`[\]
+msgwnd_non
+*d8076
+d `Maybe the witch had noticed the deep meaning behind Shannon's words.`[\]
+*d8077
+d `...She laughed lightly and set down her empty teacup.`[\]
+lss s0_10,"bea","a31_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d8078
+d [lv 0*"27"*"20700289"]`"......It seems that those things buried in your eyes aren't black pebbles anymore.`[@][lv 0*"27"*"20700290"]` So?`[@][lv 0*"27"*"20700291"]` ......Do you understand the feeling of furniture being reborn as a human?"`[\]
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"beach_2a"
+lss s0_8,"sha","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 23
+msgwnd_sha
+*d8079
+d2 [lv 0*"15"*"20500328"]`"...............Yes.`[@][#][*][lv 0*"15"*"20500329"]` ...I didn't know that the world was this kind."`[\]
+wait_on_d 0
+lss s0_8,"sha","a21_warai2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+msgwnd_non
+*d8080
+d `Since her relationship with George had begun, Shannon's face had grown brighter more often.`[\]
+textoff
+waits 167
+csp_slot s0_8
+lbg s0_3,"black"
+flush 22
+*d8081
+d `Her smile had made everything go smoothly, and had even changed her luck.`[\]
+*d8082
+d `......Shannon made fewer mistakes in her work than she had before, and the family members' opinion of her was starting to change slightly.`[\]
+textoff
+waits 167
+lbg s0_3,"mdin_1ar"
+flush 22
+*d8083
+d `Just the other day, Krauss, who rarely exchanged words with her, had suddenly started talking to her, surprising her.`[\]
+lss s0_10,"cla","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_cla
+*d8084
+d [lv 0*"02"*"20800017"]`"You've been making a good smile more often lately, haven't you?`[@][lv 0*"02"*"20800018"]` Has something good happened?"`[\]
+lss s0_8,"sha","a12_hajirai3" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_sha
+*d8085
+d [lv 0*"15"*"20500330"]`"N‐no...`[@][lv 0*"15"*"20500331"]` But......every day is fun, yes."`[\]
+lss s0_10,"cla","a14_akuwarai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_cla
+*d8086
+d [lv 0*"02"*"20800019"]`"Hmph.`[@][lv 0*"02"*"20800020"]` Isn't that good to hear.`[@][lv 0*"02"*"20800021"]` Coffee is obviously more delicious if it's poured with a smile.`[@][lv 0*"02"*"20800022"]` ......Could I ask for another cup, with that smile again?"`[\]
+lss s0_8,"sha","a11_warai2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_sha
+*d8087
+d [lv 0*"15"*"20500332"]`"Ye‐......yes!"`[\]
+msgwnd_non
+*d8088
+d `That had become a chance for Shannon to gain confidence in herself.`[\]
+*d8089
+d `Of course, it didn't go beyond her own heart, and it wasn't so big a change that everyone could see it.`[\]
+*d8090
+d `...But she had begun to change, bit by bit.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 25
+*d8091
+d `Shannon understood it clearly.`[@]` To know love was to gain a soul.`[@]` ...And therefore, to be born again from furniture to a human.`[\]
+*d8092
+d `There was absolutely nothing mistaken in {f:5:Beatrice}'s words.`[@]`{n}......By knowing love, Shannon had learned what it was to be human.`[\]
+textoff
+waits 167
+lbg s0_3,"white"
+flush 22
+textoff
+waits 167
+lbg s0_3,"beach_2a"
+lss s0_8,"bea","a31_warai1" ;1
+aspt2 xpos,s0_8,-370
+lss s0_10,"sha","a11_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 26
+lss s0_8,"bea","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+meplay 1,2,71
+msgwnd_bea
+*d8093
+d [lv 0*"27"*"20700292"]`"......These have been unusual snacks.`[@][lv 0*"27"*"20700293"]` It was time well spent.`[@][lv 0*"27"*"20700294"]` It's probably about time for you to return to your work.`[@][lv 0*"27"*"20700295"]` Let us end our tea party now."`[\]
+lss s0_8,"bea","a31_akuwarai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d8094
+d [lv 0*"27"*"20700296"]`"......After all, it seems there are some who dislike your drinking tea with me, you see?"`[\]
+lss s0_10,"sha","a11_odoroki2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+vol_bgm -1,1000
+msgwnd_sha
+*d8095
+d [lv 0*"15"*"20500333"]`"Huh?"`[\]
+lss s0_8,"bea","a11_futeki1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_non
+*d8096
+d `The witch gripped a teaspoon and flipped it with her fingers, sending it up in the air.`[\]
+textoff
+waits 167
+vol_mix_fade 1000
+wait 1000
+textoff
+waits 167
+seplay 1,5,71
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"white"
+flush 1
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+wait 1000
+seplay 2,20,71
+textoff
+waits 167
+lbg s0_3,"beach_1a"
+flush 1
+seplay 1,13,71
+agpt quakeycycle,67
+agpt quakeyamp,30
+agpt quakeyamp,0,333,1
+rumble 63,500
+gptwait quakeyamp
+*d8097
+d `...Then, it was flicked by the fingers of some invisible person in empty space, and flew straight into a bush close nearby.`[\]
+lss s0_9,"kan","b32_nayamu1" ;1
+flush 10,167
+meplay 1,2,71
+*d8098
+d `The bush moved violently, and Kanon came out.`[@]`{n}......It seemed that he had been there for some time, and had been watching their tea party.`[\]
+*d8099
+d `The spoon was gripped in his hand.`[@]`{n}...If he had not been able to catch it by reflex, it might have hit him hard in the forehead and caused him to start oozing blood.`[\]
+lss s0_9,"kan","a11_komaru1" ;1
+flush 10,167
+msgwnd_kan
+*d8100
+d [lv 0*"16"*"20600030"]`"..........................."`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"beach_2a"
+flush 24
+lss s0_8,"bea","a11_defo2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_bea
+*d8101
+d [lv 0*"27"*"20700297"]`"Calm yourself.`[@][lv 0*"27"*"20700298"]` Our tea party is over now, Kanon."`[\]
+lss s0_10,"sha","a11_odoroki2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_sha
+*d8102
+d [lv 0*"15"*"20500334"]`"How long were you there?`[@][lv 0*"15"*"20500335"]` If you had called to us, I'd have poured you some tea too..."`[\]
+lss s0_8,"bea","a31_akuwarai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_bea
+*d8103
+d [lv 0*"27"*"20700299"]`"I imagine that you didn't want to interrupt a pair of women talking, right?`[@][lv 0*"27"*"20700300"]` *cackle*cackle*!"`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_10,"kan","a11_defo2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_kan
+*d8104
+d [lv 0*"16"*"20600031"]`".................."`[\]
+msgwnd_non
+*d8105
+d `Kanon kept silent, but it seemed that there was a slightly hostile look in his eyes.`[\]
+*d8106
+d `...On the outside, he acted respectfully.`[@]` But unlike Shannon, Kanon did not trust the witch.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_3,"beach_2a"
+flush 22
+seplay 1,22,71
+*d8107
+d ` {f:5:Beatrice} rapped the table with her pipe, and the tea set turned into gold butterflies, which flew upwards in unison.`[\]
+*d8108
+d `They scattered in every direction, and the cleanup was already done.`[\]
+lss s0_10,"bea","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d8109
+d [lv 0*"27"*"20700301"]`"It was fun, Shannon.`[@][lv 0*"27"*"20700302"]` ...Let us meet again if the chance arises.`[@][lv 0*"27"*"20700303"]` ......My magical power is still quite lacking.`[@][lv 0*"27"*"20700304"]` It's tiring even to show myself."`[\]
+lss s0_8,"kan","a11_komaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_kan
+*d8110
+d [lv 0*"16"*"20600032"]`"......If it tires you that much, never appear again."`[\]
+msgwnd_non
+*d8111
+d `Kanon had said it in a small voice, but it seemed the witch had heard it perfectly.`[\]
+*d8112
+d `She giggled, but did not reply.`[\]
+csp_slot s0_8
+csp_slot s0_10
+flush 10,167
+lss s0_9,"bea","a31_warai1" ;1
+flush 10,167
+msgwnd_bea
+*d8113
+d2 [lv 0*"27"*"20700305"]`"Shannon.`[@][lv 0*"27"*"20700306"]` Tell me more about George at our next tea party.`[@][lv 0*"27"*"20700307"]` There are no snacks sweeter than a person's love life.`[@][lv 0*"27"*"20700308"]` *cackle*cackle*cackle*.`[@][#][*][lv 0*"27"*"20700309"]` I bid you farewell."`[\]
+wait_on_d 0
+lss s0_9,"bea","a24_defo1" ;1
+flush 10,167
+d_continue
+wait_on_d -1
+textoff
+waits 167
+seplay 2,52,71
+aspt2 breakup,s0_9,0
+aspt2 breakup,s0_9,1000,3000
+aspt2 alpha,s0_9,0,3000
+sptwait2 breakup,s0_9
+csp_slot s0_9
+flush 1 ;flush2: NO frames
+msgwnd_non
+*d8114
+d `{f:5:Beatrice}'s body also became gold butterflies, which scattered in all directions and disappeared.`[\]
+*d8115
+d `...It was a very fantastical and beautiful scene, like a blizzard of gold leaf.`[\]
+*d8116
+d `For a while, Shannon quietly watched the witch's exit...`[@]`{n}Kanon approached her from behind, and spoke with a very different expression on his face than his sister's.`[\]
+textoff
+waits 167
+lbg s0_3,"beach_2a"
+lss s0_10,"kan","a13_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 24
+msgwnd_kan
+*d8117
+d [lv 0*"16"*"20600033"]`".........Nee‐san, didn't I tell you that you shouldn't hang around with her?"`[\]
+lss s0_8,"sha","a11_fuman1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_sha
+*d8118
+d [lv 0*"15"*"20500336"]`"{f:5:Beatrice}‐sama isn't that bad of a person.`[@][lv 0*"15"*"20500337"]` ...Yes, she might be a little strange, but—"`[\]
+lss s0_10,"kan","a11_komaru1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_kan
+*d8119
+d [lv 0*"16"*"20600034"]`"The fact that only we can see her is suspicious enough...`[@][lv 0*"16"*"20600035"]` She isn't human.`[@][lv 0*"16"*"20600036"]` Who knows what she's planning."`[\]
+lss s0_8,"sha","a11_komaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_sha
+*d8120
+d [lv 0*"15"*"20500338"]`"Kanon‐kun, I think that's a little rude."`[\]
+msgwnd_non
+*d8121
+d `Shannon spoke seriously, which was unusual for her.`[@]`{n}...To Kanon, who knew her well, it must have seemed extremely serious.`[\]
+lss s0_10,"kan","a11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d8122
+d `Kanon showed almost excessive surprise at Shannon's style of speech, and remained silent.`[\]
+lss s0_8,"sha","a11_fuman1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_sha
+*d8123
+d [lv 0*"15"*"20500339"]`"It's true that {f:5:Beatrice}‐sama is different from humans.`[@][lv 0*"15"*"20500340"]` She has a terrifying power, so I think she is to be feared and respected.`[@][lv 0*"15"*"20500341"]` ...But I think it's really rude to loathe her just for the single reason that she's different from a human."`[\]
+lss s0_10,"kan","a11_defo2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_kan
+*d8124
+d2 [lv 0*"16"*"20600037"]`"............I know what you're trying to say, Nee‐san.`[@][lv 0*"16"*"20600038"]` ...You've changed since she gave you that brooch.`[@][#][*][lv 0*"16"*"20600039"]` It's like you're the witch's prisoner.`[@][lv 0*"16"*"20600040"]` She mediated your relationship with George‐sama, and now you're indebted to her."`[\]
+wait_on_d 0
+lss s0_10,"kan","a11_komaru1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_8,"sha","a11_komaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_sha
+*d8125
+d [lv 0*"15"*"20500342"]`"...Don't say things like that."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+flush 10,167
+lss s0_9,"kan","a11_odoroki1" ;1
+flush 10,167
+vol_mix_fade 1000
+wait 1000
+bgmplay 9,71,0
+msgwnd_kan
+*d8126
+d2 [lv 0*"16"*"20600041"]`"She isn't human.`[@][lv 0*"16"*"20600042"]` We don't know what she's thinking.`[@][lv 0*"16"*"20600043"]` You mustn't trust her.`[@][#][*][lv 0*"16"*"20600044"]` .........And we aren't humans either,`[@][lv 0*"16"*"20600045"]` Nee‐san."`[\]
+wait_on_d 0
+lss s0_9,"kan","a11_majime1" ;1
+flush 10,167
+d_continue
+wait_on_d -1
+msgwnd_non
+*d8127
+d `Kanon's words became more serious.`[@]` ...Those words probably gouged at Shannon's heart.`[@]` Shannon bit her lower lip and hung her head.`[\]
+lss s0_9,"kan","a13_komaru1" ;1
+flush 10,167
+msgwnd_kan
+*d8128
+d [lv 0*"16"*"20600046"]`"We are furniture.`[@][lv 0*"16"*"20600047"]` ...Even if we receive names and are treated as humans, that won't change how we were born."`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 22
+msgwnd_non
+*d8129
+d `You are no longer furniture...`[\]
+*d8130
+d `Those words {f:5:Beatrice} had given her, which had made her happiest of all, floated through Shannon's mind...`[\]
+textoff
+waits 167
+lbg s0_3,"beach_1a"
+lss s0_10,"sha","a11_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 26
+msgwnd_sha
+*d8131
+d [lv 0*"15"*"20500343"]`"I am not...`[|][lv 0*"15"*"20500344"]`......furniture."`[\]
+lss s0_8,"kan","a11_defo2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_kan
+*d8132
+d [lv 0*"16"*"20600048"]`"No, you are.`[@][lv 0*"16"*"20600049"]` We are less than human.`[@][lv 0*"16"*"20600050"]` ......Nee‐san, you're acting like you've forgotten that, ...and you're just pretending to be human.`[@][lv 0*"16"*"20600051"]` You should understand that yourself."`[\]
+lss s0_10,"sha","a11_odoroki1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_sha
+*d8133
+d [lv 0*"15"*"20500345"]`"I'm......not furniture.`[@][lv 0*"15"*"20500346"]` ...I'm human...!"`[\]
+lss s0_8,"kan","a11_nayamu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_kan
+*d8134
+d [lv 0*"16"*"20600052"]`"No, you aren't human.`[@][lv 0*"16"*"20600053"]` From the beginning, we have been unqualified to love or be loved."`[\]
+msgwnd_non
+*d8135
+d `It seemed that Kanon's criticisms had shifted focus from Shannon's interactions with the witch.`[\]
+*d8136
+d `...Shannon also noticed that quickly.`[\]
+csp_slot s0_8
+csp_slot s0_10
+flush 10,167
+lss s0_9,"kan","a11_komaru1" ;1
+flush 10,167
+msgwnd_kan
+*d8137
+d [lv 0*"16"*"20600054"]`"I heard from Milady.`[@][lv 0*"16"*"20600055"]` Seriously, what were you thinking?`[@][lv 0*"16"*"20600056_b"]` I can't believe that you would go on a trip with George‐sama...!`[@][lv 0*"16"*"20600057"]` You've forgotten your place as furniture.`[@][lv 0*"16"*"20600058"]` You've just been tempted by that witch, and mistakenly believe that you became human!"`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"beach_1a"
+lss s0_10,"sha","a11_fuman1" ;1
+aspt2 xpos,s0_10,370
+flush 24
+msgwnd_sha
+*d8138
+d [lv 0*"15"*"20500347"]`"Listen, Kanon‐kun.`[@][lv 0*"15"*"20500348"]` ............We certainly are furniture.`[@][lv 0*"15"*"20500349"]` Lesser beings, inferior to humans."`[\]
+lss s0_10,"sha","a11_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d8139
+d [lv 0*"15"*"20500350"]`"...But if we were to gain the missing remainder...`[@][lv 0*"15"*"20500351"]`...wouldn't that mean we'd have become human?"`[\]
+lss s0_8,"kan","a11_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_kan
+*d8140
+d [lv 0*"16"*"20600059"]`"......That couldn't happen."`[\]
+lss s0_10,"sha","a11_tokui1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_sha
+*d8141
+d [lv 0*"15"*"20500352"]`"No, it could.`[@][lv 0*"15"*"20500353"]` If we can gain that, we won't be furniture.`[@][lv 0*"15"*"20500354"]` We can become human."`[\]
+lss s0_8,"kan","b32_nayamu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_kan
+*d8142
+d [lv 0*"16"*"20600060"]`"..................`[@][lv 0*"16"*"20600061"]` .........Ridiculous.`[@][lv 0*"16"*"20600062"]` ...As if we......could."`[\]
+msgwnd_non
+*d8143
+d `Kanon spat that out, ...but weakly, and turned away.`[\]
+*d8144
+d `That was probably...resignation.`[@]` ......The baptism of days upon days of suffering being furniture had firmly sealed his heart...`[\]
+lss s0_10,"sha","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_sha
+*d8145
+d [lv 0*"15"*"20500355"]`"...You can too, Kanon‐kun.`[@][lv 0*"15"*"20500356"]` ......You can become a normal human."`[\]
+lss s0_8,"kan","a11_defo2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_kan
+*d8146
+d [lv 0*"16"*"20600063"]`"...........................`[@][lv 0*"16"*"20600064"]` Stop it, that's the witch talking."`[\]
+lss s0_10,"sha","a11_tokui1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_sha
+*d8147
+d [lv 0*"15"*"20500357"]`"That's right.`[@][lv 0*"15"*"20500358"]` {f:5:Beatrice}‐sama taught me.`[@][lv 0*"15"*"20500359"]` ......By gaining the single element of the world, we can become human."`[\]
+lss s0_10,"sha","a11_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d8148
+d [lv 0*"15"*"20500360"]`"No—nobody's human without that.`[@][lv 0*"15"*"20500361"]` ......That's why people spend their entire lives trying to gain that single element."`[\]
+lss s0_8,"kan","a11_komaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_kan
+*d8149
+d [lv 0*"16"*"20600065"]`"I have no idea what you're talking about, Nee‐san.`[@][lv 0*"16"*"20600066"]` I don't want to listen to rambling."`[\]
+lss s0_10,"sha","a11_tokui1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_sha
+*d8150
+d [lv 0*"15"*"20500362"]`"Then I'll teach you in a way you can understand.`[@][lv 0*"15"*"20500363"]` .........Look, see what I'm pointing at?"`[\]
+lss s0_8,"kan","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_kan
+*d8151
+d [lv 0*"16"*"20600067"]`"......?"`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"white"
+flush 22
+textoff
+waits 167
+lbg s0_3,"sky_1b"
+flush 22
+meplay 1,2,71
+msgwnd_non
+*d8152
+d `Shannon pointed straight at the sea, at the horizon.`[\]
+*d8153
+d `Kanon didn't understand what she was actually pointing at, and couldn't do anything except look between the horizon and Shannon's expression, which looked like it was posing a riddle.`[\]
+msgwnd_sha
+*d8154
+d [lv 0*"15"*"20500364"]`"The ocean.`[@][lv 0*"15"*"20500365"]` ......Kanon‐kun, what color does the ocean look to you?"`[\]
+msgwnd_non
+*d8155
+d `It was an all too simple question.`[\]
+*d8156
+d `Kanon tried to guess the meaning behind that question for a while,`[@]` but since he couldn't think of anything, he gave his answer straightforwardly.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 25
+msgwnd_kan
+*d8157
+d [lv 0*"16"*"20600068"]`"...It's an uninspiring dark gray.`[@][lv 0*"16"*"20600069"]` So what?"`[\]
+msgwnd_non
+*d8158
+d `Objectively speaking, the sea, laid out beneath a cloudy sky, could probably be described best by Kanon's words.`[\]
+*d8159
+d `......But as Shannon closed her eyes and smiled, she shook her head slightly.`[\]
+textoff
+waits 167
+lbg s0_3,"beach_2a"
+lss s0_10,"sha","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 22
+msgwnd_sha
+*d8160
+d [lv 0*"15"*"20500366"]`"It looks deep blue to me."`[\]
+lss s0_8,"kan","a11_defo2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_kan
+*d8161
+d [lv 0*"16"*"20600070"]`"......Is that what you mean?`[@][lv 0*"16"*"20600071"]` Like {c:86EF9C:using the word {ruby:blue:"{i:ao}"} for a green traffic light}?"`[gstg 2][\]
+lss s0_10,"sha","a11_tokui1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_sha
+*d8162
+d [lv 0*"15"*"20500367"]`"No.`[@][lv 0*"15"*"20500368"]` ......The ocean is deep blue.`[@][lv 0*"15"*"20500369"]` If I can see that, and you can't,`[@][lv 0*"15"*"20500370"]` ...then...that's exactly the reason..."`[\]
+msgwnd_non
+*d8163
+d `Kanon bit his lower lip and was silent for a while.`[\]
+lss s0_8,"kan","a13_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_kan
+*d8164
+d [lv 0*"16"*"20600072"]`"........................`[@][lv 0*"16"*"20600073"]` .........I.........can't see it."`[\]
+lss s0_10,"sha","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_sha
+*d8165
+d [lv 0*"15"*"20500371"]`"Kanon‐kun,`[@][lv 0*"15"*"20500372"]` ......stick out your hand?"`[\]
+msgwnd_non
+*d8166
+d `As Kanon stood bewildered, unable to understand what she was saying, she took his arm, and opened the palm of his hand.`[\]
+*d8167
+d `Shannon softly set something there.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 25
+*d8168
+d `It was that magic brooch, which she had received from {f:5:Beatrice}.`[@]`{n}The magic charm, shaped like a gold butterfly, which could fulfill love.`[\]
+msgwnd_kan
+*d8169
+d [lv 0*"16"*"20600074"]`"This is...`[|][lv 0*"16"*"20600075"]`.........her......"`[\]
+msgwnd_sha
+*d8170
+d [lv 0*"15"*"20500373"]`"No, this is mine.`[@][lv 0*"15"*"20500374"]` ...So think of it as me and treat it with respect, okay?"`[\]
+msgwnd_kan
+*d8171
+d [lv 0*"16"*"20600076"]`"....................."`[\]
+textoff
+waits 167
+lbg s0_3,"sky_1b"
+flush 26
+msgwnd_non
+*d8172
+d `After being told that, he couldn't just throw it away.`[@]`{n}Kanon didn't know what he should do, and he stood there confused for a while, the brooch still on the palm of his hand.`[\]
+*d8173
+d `Shannon put the palm of her hand on top of Kanon's, and the brooch was warmed by both of their hands.`[\]
+msgwnd_sha
+*d8174
+d [lv 0*"15"*"20500375"]`"This charm holds true magical power.`[@][lv 0*"15"*"20500376"]` ......I'm sure that it will teach you an important emotion, Kanon‐kun."`[\]
+msgwnd_kan
+*d8175
+d [lv 0*"16"*"20600077"]`"...There is nothing her magic can teach me."`[\]
+msgwnd_sha
+*d8176
+d [lv 0*"15"*"20500377"]`"No, there is.`[@][lv 0*"15"*"20500378"]` ......So wear it.`[@][lv 0*"15"*"20500379"]` If that's embarrassing, I hear it's okay if you just hide it in your pocket."`[\]
+msgwnd_kan
+*d8177
+d [lv 0*"16"*"20600078"]`"............Ridiculous...`[@][lv 0*"16"*"20600079"]` As if I'd be led astray by her magic."`[\]
+msgwnd_non
+*d8178
+d `Even as he said that, Kanon couldn't be cold‐hearted towards something Shannon was pressing on him.`[\]
+*d8179
+d `In the end, Kanon agreed reluctantly to take it,`[@]` saying he'd prove that he wouldn't surrender to the witch's power.`[@]` Shannon smiled and nodded back.`[\]
+textoff
+waits 167
+lbg s0_3,"beach_2a"
+lss s0_10,"sha","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 26
+msgwnd_sha
+*d8180
+d [lv 0*"15"*"20500380"]`"I'm sure you can learn something important from it.`[@][lv 0*"15"*"20500381"]` ......And I'm sure you can become human.`[@][lv 0*"15"*"20500382"]` And when you do, I'm sure that this ocean will look a beautiful blue to you as well."`[\]
+lss s0_8,"kan","a11_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_kan
+*d8181
+d [lv 0*"16"*"20600080"]`"...Gray is gray no matter how many times you look."`[\]
+lss s0_10,"sha","a21_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+vol_me 1,-1,1000
+msgwnd_sha
+*d8182
+d [lv 0*"15"*"20500383"]`"That's wrong, Kanon‐kun.`[@][lv 0*"15"*"20500384"]` ......It only looks like that because you have no{0}{nobreak:{m:-5:——}—}."`[\]
+lss s0_8,"kan","a13_defo2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_kan
+*d8183
+d [lv 0*"16"*"20600081"]`"Huh...?"`[\]
+msgwnd_non
+*d8184
+d `Because of the howling wind, he hadn't been able to catch the critical part of what she'd just said.`[\]
+csp_slot s0_8
+csp_slot s0_10
+flush 10,167
+lss s0_9,"sha","a11_warai1" ;1
+flush 10,167
+*d8185
+d `So Shannon said it once more.`[\]
+*d8186
+d `...The single element of the world.`[@]` She spoke once more of a world full of that element, where the sea was deep blue.`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 22
+msgwnd_sha
+*d8187
+d [lv 0*"15"*"20500385"]`"I'm sure you'll be able to see a deep blue ocean.`[@][lv 0*"15"*"20500386"]` After all—"`[\]
+set_window_simple 80
+msgwnd_non
+*d8188
+d `{a:c:Without love, it cannot be {y:1:‘seen’}{n:1:seen}.}`[\]
+set_name_window_non
+gstc 36
+textoff
+waits 167
+vol_mix_fade 3000
+vol_bgm -1,3000
+wait 3000
+textoff
+waits 167
+lbg s0_3,"white"
+flush 2
+textoff
+waits 167
+lbg s0_3,"rose_g1ac"
+flush 6
+wait 2000
+textoff
+waits 167
+lbg s0_3,"white"
+flush 23
+bgmplay 1,71,0
+textoff
+waits 167
+lbg s0_3,"rose_1ac"
+lss s0_8,"kin","a11_fumu1" ;1
+aspt2 xpos,s0_8,-370
+flush 23
+msgwnd_kin
+*d8189
+d [lv 0*"01"*"21500001"]`".........Who is there?"`[\]
+lss s0_10,"kan","a12_defo2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_kan
+*d8190
+d [lv 0*"16"*"20600082"]`"......It is Kanon, my lord."`[\]
+msgwnd_non
+*d8191
+d `It was rare for Kinzo to leave his study.`[@]`{n}......However, that in itself didn't mean his noble research had been suspended.`[\]
+*d8192
+d `He may have left the study for a change of mood,`[@]` but the thoughts filling his head were no different from those he had inside the study.`[\]
+*d8193
+d `So Kanon knew that no matter what the time, speaking to Kinzo when he didn't want to be spoken to would always be a disturbance to his research.`[\]
+lss s0_8,"kin","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_kin
+*d8194
+d [lv 0*"01"*"21500002"]`"The weather is heavy.`[@][lv 0*"01"*"21500003"]` Will it get worse?"`[\]
+lss s0_10,"kan","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_kan
+*d8195
+d [lv 0*"16"*"20600083"]`"Yes.`[@][lv 0*"16"*"20600084"]` According to the weather report, it could rain at any time.`[@][lv 0*"16"*"20600085"]` ......Shall I bring you an umbrella, my lord?"`[\]
+lss s0_8,"kin","a11_fukigen1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_kin
+*d8196
+d [lv 0*"01"*"21500004"]`"That won't be necessary.`[@][lv 0*"01"*"21500005"]` ......You should leave me alone for a while.`[@][lv 0*"01"*"21500006"]` If my children ask, say that you do not know where I am.`[@][lv 0*"01"*"21500007"]` I am busy on a journey through my own thoughts."`[\]
+lss s0_10,"kan","a12_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_kan
+*d8197
+d [lv 0*"16"*"20600086"]`"......Certainly.`[@][lv 0*"16"*"20600087"]` Then, if you would excuse me."`[\]
+lss s0_8,"kin","a11_fumu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+csp_slot s0_10
+flush 10,167
+msgwnd_non
+*d8198
+d `During the time that Kanon bowed to him, Kinzo had already returned to his own world, and had forgotten that Kanon was there.`[\]
+*d8199
+d `And once again, he began rambling to himself.`[@]`{n}Amidst those words, ...the name of that witch was repeated many times.`[\]
+textoff
+waits 167
+csp_slot s0_8
+lbg s0_3,"black"
+flush 2
+meplay 1,16,71
+msgwnd_kin
+*d8200
+d [lv 0*"01"*"21500008"]`"......Ooohh, {f:5:Beatrice}...`[@][lv 0*"01"*"21500009"]` My hand does not reach your smile...`[@][lv 0*"01"*"21500010"]` What should I do to revive you—what should I do so that you smile at me once again...?`[@][lv 0*"01"*"21500011"]` ......What is lacking?`[@][lv 0*"01"*"21500012"]` My research? My materials? A catalyst?`[@][lv 0*"01"*"21500013"]` Or is it magical power or luck or an oracle...?!"`[\]
+*d8201
+d [lv 0*"01"*"21500014"]`"Ooohhh, {f:5:Beatrice}, what must I do to see your face one more time...?`[@][lv 0*"01"*"21500015"]` Ooooooooohhhhhhh......"`[\]
+textoff
+waits 167
+lbg s0_3,"rose_1ac"
+lss s0_10,"kin","a23_naku1" ;1
+aspt2 xpos,s0_10,370
+flush 24
+msgwnd_non
+*d8202
+d `As Kanon listened to his master's weeping voice over his shoulder, he turned around just once.`[\]
+*d8203
+d `When he did,`[!w583]` ............right behind his isolated old master,`[!w667]` ......was the silhouette of a person that shouldn't have been there.`[\]
+textoff
+waits 167
+lss s0_8,"bea","a11_fuman3" ;1
+aspt2 xpos,s0_8,-370
+flush 2
+vol_me 1,-1,1000
+*d8204
+d `It was......the witch.`[\]
+*d8205
+d `At once, Kanon, thinking that the witch must be plotting to do Kinzo some harm,`[@]` quickly ran back to Kinzo, trying to become a shield himself.`[\]
+*d8206
+d `But when he saw the expression on the witch's face,`[!w583]` ...that emotion of his vanished.`[\]
+*d8207
+d `Because {f:5:Beatrice}'s expression was one of...`[!w500]`...sorrow,`[!w500]` ......or maybe pity.`[\]
+lss s0_8,"bea","a11_nayamu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_bea
+*d8208
+d [lv 0*"27"*"20700310"]`"You fool, Kinzo......`[@][lv 0*"27"*"20700311"]` ......I am right here, can you not {y:1:‘see’}{n:1:see} me?"`[\]
+msgwnd_non
+*d8209
+d `Right behind Kinzo, as he repeated the witch's name over and over, desiring to be reunited with her more than anything else, was the witch herself.`[\]
+*d8210
+d `And yet, Kinzo couldn't notice a thing.`[@]`{n}......Even when {f:5:Beatrice} tried to rest her hand on his shoulder, he didn't notice a thing.`[\]
+lss s0_10,"kin","a11_naku2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+meplay 1,5,71
+msgwnd_kin
+*d8211
+d [lv 0*"01"*"21500016"]`"...Why, why does my hand not reach {f:5:Beatrice}'s smile?!`[@][lv 0*"01"*"21500017"]` Is it the phase of the moon,`[@][lv 0*"01"*"21500018"]` the period of the comets,`[@][lv 0*"01"*"21500019"]` the alignment of the planets?!`[@][lv 0*"01"*"21500020"]` What is lacking, what, what?!!"`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 25
+msgwnd_bea
+*d8212
+d [lv 0*"27"*"20700312"]`".........It's useless, Kinzo.`[@][lv 0*"27"*"20700313"]` ...Without love,`[|][lv 0*"27"*"20700314"]` it cannot be {y:1:‘seen’}{n:1:seen}."`[\]
+textoff
+waits 167
+wait 2000
+msgwnd_non
+*d8213
+d `Kanon took the brooch he had received from Shannon out of his pocket.`[\]
+*d8214
+d `......Could he learn something that would enable him, too, to {y:1:‘see’}{n:1:see} what he currently could not?`[\]
+msgwnd_kan
+*d8215
+d [lv 0*"16"*"20600088"]`".................................`[@][lv 0*"16"*"20600089"]` Without love, it cannot be {y:1:‘seen’}{n:1:seen}."`[\]
+textoff
+waits 167
+wait 2000
+textoff
+waits 167
+lbg s0_3,"rose_1a"
+flush 22
+msgwnd_non
+*d8216
+d `He looked at Kinzo's back once more.`[@]`{n}......The witch was no longer there.`[\]
+break_glass
+wait 500
+lbg s0_29,"black"
+flush 10,500
+csp_slot s0_29
+wait 83
+vol_mix_fade 1000
+vol_bgm -1,1000
+wait 1000
+wait 2000
+ch_done flag_scenario_2_2

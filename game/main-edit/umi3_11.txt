@@ -1,0 +1,2281 @@
+*umi3_11
+;10/5（日）10:00 戴冠式
+log_reset
+mov $name_chapter_r_click,r_click_chapters_3_11
+mov $name_chapter_save, "3_11"
+new_chapter date_scenario_3_11,scenario_3_11
+gstc 152
+textoff
+waits 167
+meplay 1,13,70
+meplay 2,14,70
+rain_load s0_11
+rain_load s0_7
+rain_params s0_11,400,800,0
+rain_params s0_7,400,500,0
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+wait 3000
+seplay 1,27,71
+textoff
+waits 167
+lbg s0_3,"white"
+flush 1
+textoff
+waits 167
+lbg s0_3,"black"
+flush 2
+msgwnd_eva
+*d17870
+d [lv 0*"05"*"31000464"]`".........This way?`[@][lv 0*"05"*"31000465"]` ......That means go this way, right............?`[@][lv 0*"05"*"31000466"]` They are......inviting me to go this way, after all........."`[\]
+textoff
+waits 167
+csp_slot s0_11
+csp_slot s0_7
+flush 1
+vol_mix_fade 1000
+vol_bgm -1,1000
+wait 1000
+seplay 2,33,90
+msgwnd_non
+*d17871
+d `......!!!`[\]
+*d17872
+d `My heart leapt.`[@]` ...Because there, ............gaping wide, ......was the opened mouth of eerie darkness.`[\]
+meplay 1,16,70
+msgwnd_eva
+*d17873
+d [lv 0*"05"*"31000467"]`"Wh‐.........what is this...`[@][lv 0*"05"*"31000468"]` What is this......?!"`[\]
+seplay 3,21,70
+msgwnd_non
+*d17874
+d `When I strained my eyes, peering into the darkness, I saw something that looked like a light switch.`[@]` ......In addition, there was a switch with open and close written on it.`[\]
+seplay 1,22,50
+textoff
+waits 167
+lbg s0_3,"sub_sta1a"
+flush 8
+*d17875
+d `I resolutely pushed the switch for the lights,`[!w500]` and rough lights almost like you'd find in a coal mine or something flickered on sporadically,`[@]` making a staircase that stretched underground come hazily into vision...`[\]
+*d17876
+d `It was creepy how it now looked even more gloomy with the lights turned on.`[\]
+*d17877
+d `Other than the light switch, there was also a switch with open and close written on it.`[\]
+*d17878
+d `...I could probably open and close it with this, but if I was unlucky enough to find that the open part was broken,`[@]` I might be closed up in this creepy underground area for all eternity...`[\]
+*d17879
+d `So for the time being, I didn't touch the open/close switch,`[@]` ......and as I readied my gun again, I slowly went down the stairs.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 5
+meplay 2,26,0
+vol_me 1,0,3000
+vol_me 2,80,3000
+wait 3000
+vol_me 1,-1,1000
+*d17880
+d `Because the ceiling was very high, it didn't feel cramped.`[@]`{n}On the contrary, it felt as though a cool breeze was blowing upwards, and I even sensed a spiritual presence from the eeriness of it...`[\]
+*d17881
+d `With my gun at the ready, and carefully staring forwards, ......I continued descending the stairs......`[\]
+meplay 1,27,80
+textoff
+waits 167
+lbg s0_3,"sub_sta1a"
+flush 6
+*d17882
+d `The walls, the stairs, the lights, ...all of them were very old‐fashioned.`[@]`{n}...It may be beyond doubt that this had been made at the same time that the mansion had been constructed on this island.`[\]
+*d17883
+d `There were cracks in the ceiling, and water clung to the walls, constantly dripping down.`[\]
+*d17884
+d `That water fell into a gutter that had been set up alongside the stairs, then quickly and silently flowed into the underground darkness.`[@]` It was as though it was telling me to go faster...`[\]
+*d17885
+d `The staircase turned back on itself a number of times.`[@]` It was hard to tell how far underground I'd gone, but I thought it to be much deeper than one floor.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_3,"sub_d1a"
+flush 2
+*d17886
+d `And eventually, ............a rough, metal door showed itself.`[\]
+*d17887
+d `And there, characters had been written in a dark red paint.`[@]`{n}...They had probably been written a long time ago.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+seplay 1,67,100
+set_window_simple 80
+*d17888
+d `— {p:1:On the tenth twilight, the journey ends, and you shall reach the Home of the Gold.}`[\]
+set_name_window_non
+*d17889
+d `My heart, which was already about to explode, jumped about even more as soon as I read those deep‐red characters...`[\]
+meplay 3,16,50
+*d17890
+d `There's no mistake...`[@]` This is the last stop.`[@]`{n}.........Father's......Golden Land...!!`[\]
+textoff
+waits 167
+lbg s0_3,"sub_d1a"
+flush 26
+*d17891
+d `I calmed my throbbing heart, somehow regained my composure, and readied the gun again.`[\]
+*d17892
+d `...But since, in the end, I couldn't open the door with my gun held in both hands...`[@]`......I lowered the gun, carefully erased my breath, and opened the door......`[\]
+seplay 1,18,71
+textoff
+waits 167
+lbg s0_3,"white"
+flush 10
+vol_mix_fade 1000
+wait 1000
+textoff
+waits 167
+lbg s0_3,"sub_r1a"
+flush 2
+bgmplay 56,71,0
+msgwnd_eva
+*d17893
+d [lv 0*"05"*"31000469"]`"..................I‐......isn't this......inside the......?!"`[\]
+msgwnd_non
+*d17894
+d `My first impression when I saw the room...`[@]`...was to question whether it might have been connected to one of the rooms in the mansion.`[\]
+*d17895
+d `Yes, this place had exactly the same atmosphere about it as the forbidden VIP room on the second floor.`[\]
+*d17896
+d `But this was underground, so there were no windows.`[@]`{n}There was only the solemn light of a grand chandelier.`[\]
+*d17897
+d `But the quality of the interior, dimly lit by the faint light,`[@]` was more than enough to take your breath away.`[\]
+textoff
+waits 167
+lbg s0_3,"sub_r1b"
+flush 6
+*d17898
+d `A bed with a canopy, and a rocking chair that looked like it would be very comfortable to sit in.`[@]` An extravagant sofa and carpet.`[\]
+*d17899
+d `The room was like a dream every girl yearns for at least once...`[\]
+*d17900
+d `And yet, since it was an underground hidden room with no windows,`[@]` it actually felt more like it could be the hidden house of a witch.`[\]
+*d17901
+d `I had never swallowed the legend of {f:5:Beatrice}, witch of the forest.`[\]
+*d17902
+d `However, ......if you were shown this room,`[@]` ......it certainly would become hard to doubt that she actually had existed,`[@]` and had lived in here.`[\]
+lss s0_10,"eva","b24_komaru1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_eva
+*d17903
+d [lv 0*"05"*"31000470"]`".........Is someone...`[|][lv 0*"05"*"31000471"]`..................there...?"`[\]
+msgwnd_non
+*d17904
+d `Although I was dumbfounded by this room, I cautiously,`[@]` ...no, timidly kept my gun raised, and searched the interior.`[\]
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"black"
+flush 22
+*d17905
+d `And......in the center of the room, I found it.`[\]
+textoff
+waits 167
+vol_mix_fade 1000
+vol_bgm -1,1000
+wait 1000
+seplay 1,45,90
+textoff
+waits 167
+lbg s0_3,"gold2"
+flush 42
+msgwnd_eva
+*d17906
+d [lv 0*"05"*"31000472"]`"...............Eee—..............."`[\]
+msgwnd_non
+*d17907
+d `My gasp came out strangely, as though a bunny was being choked.`[\]
+bgmplay 72,71,0
+*d17908
+d `...I mean, ......after finding something like this,`[@]` ...no one would have any words other than that stupid voice...`[\]
+msgwnd_eva
+*d17909
+d [lv 0*"05"*"31000473"]`"It's here......`[@][lv 0*"05"*"31000474"]` ......I‐......it's really here.........`[@][lv 0*"05"*"31000475"]` ......Father's......gold......!!"`[\]
+msgwnd_non
+*d17910
+d `On the opposite side of the canopy bed, it was piled up in a massive heap...`[@]` A mountain, a mountain of gold ingots!!`[\]
+*d17911
+d `Of course, they weren't piled up carelessly in a way that would damage the dignity of this room.`[\]
+*d17912
+d `A beautiful scarlet satin weave was laid on the mountain of gold,`[@]` creating a beautiful three‐colored mix between the red, the gold, and the black of the deep darkness...`[\]
+*d17913
+d `It was as though, when the witch slept on this bed,`[@]` the gold would be a respectful chamberlain waiting on her.`[\]
+*d17914
+d `Nobly, refinedly, gracefully, beautifully.`[@]`{n}It was piled there with an imposing and yet ceremonious air...`[\]
+*d17915
+d `I tried to grab a single gold ingot and was surprised at its weight.`[@]`{n}......It was probably about ten kilograms.`[\]
+*d17916
+d `......Just this one ingot would easily be worth ten million without a doubt.`[\]
+*d17917
+d `The Ushiromiya family crest, the One‐winged Eagle, was lightly imprinted on it.`[\]
+*d17918
+d `It was hard to tell whether it had worn away, or whether the impression had been made carelessly in the first place,`[@]` but it was certainly the crest of the One‐winged Eagle.`[\]
+*d17919
+d `Just how many ingots are piled up here?`[\]
+*d17920
+d `Just by roughly multiplying both sides, and multiplying that by the height, it must surely come to over several hundred.`[\]
+*d17921
+d `My mind's already blank... I can't calculate it properly.`[@]`{n}......Even a conservative count would put it easily above a billion yen.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 25
+meplay 1,16,0
+vol_bgm 90,3000
+vol_me 1,60,3000
+wait 3000
+textoff
+waits 167
+lbg s0_3,"sub_r1b"
+flush 26
+msgwnd_eva
+*d17922
+d2 [lv 0*"05"*"31000476"]`"Well, of course... Of course it would be...`[@][lv 0*"05"*"31000477"]` ...I mean, it's ten tons of gold...`[@][lv 0*"05"*"31000478"]` At the current value, it's more than 20 billion yen of gold...`[@][lv 0*"05"*"31000479"]` I, ...I found it, ......before anyone else, .........I found it!!`[@][lv 0*"05"*"31000480"]` Ahaha, wahaha{0}ha{0}ha{0}hahaha, ahah‐hah‐hah‐hah‐hahaha{0}ha{0}ha{0}ha{0}hahaha!!"`[#][*][\]
+wait_on_d 0
+agpt quakeycycle,83
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+d_continue
+wait_on_d -1
+textoff
+waits 167
+lbg s0_3,"sub_r1a"
+flush 2
+msgwnd_non
+*d17923
+d `In front of the mountain of gold, I spread my arms and looked up at the ceiling.`[@]`{n}A laugh without a trace of dignity flowed out from my entire body.`[\]
+*d17924
+d `I had no intention at all of laughing in such a weird way,`[@]` ...but I just, I just couldn't hold back the happy feeling that flowed throughout my entire body.`[\]
+*d17925
+d `......That older brother of mine probably wouldn't accept his loss just because I had found this gold.`[\]
+*d17926
+d `...But from now on, there would be no changing the fact that I had been the one to find the gold...!`[\]
+*d17927
+d `To steal the headship of the family, I would still probably need some subtle tactics.`[\]
+*d17928
+d `But after everything I've gone through until now, that's a completely trivial problem.`[\]
+*d17929
+d `Even if I lose out on the inheritance of the Ushiromiya family and everything...`[@]`{n}...this 20 billion yen's worth of gold is now mine and mine alone!!`[\]
+seplay 1,2,100
+meplay 2,5,70
+textoff
+waits 167
+lbg s0_3,"white"
+flush 1
+textoff
+waits 167
+lbg s0_3,"gold2"
+flush 2
+msgwnd_eva
+*d17930
+d [lv 0*"05"*"31000481"]`"Hahahaha, a‐hah‐hah‐hah‐hah‐ha!!`[@][lv 0*"05"*"31000482"]` There was a time when I thought of money as such a worthless thing.`[@][lv 0*"05"*"31000483"]` I thought, there are so many things in this world that you can't buy with money."`[\]
+*d17931
+d [lv 0*"05"*"31000484"]`"...But now I understand that that's just a lie!`[@][lv 0*"05"*"31000485"]` It was just an excuse that have‐nots make for themselves!!"`[\]
+seplay 1,2,100
+textoff
+waits 167
+lbg s0_3,"white"
+flush 1
+textoff
+waits 167
+lbg s0_3,"gold2"
+flush 2
+*d17932
+d [lv 0*"05"*"31000486"]`"With this mountain of gold before me, I've finally realized something so obvious...!!`[@][lv 0*"05"*"31000487"]` I can give birth to all the happiness in this world by melting this gold!`[@][lv 0*"05"*"31000488"]` With this money, my husband's company is fine now.`[@][lv 0*"05"*"31000489"]` We will always be happy as a family.`[@][lv 0*"05"*"31000490"]` And I can even leave a vast amount of money to George...!!"`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+*d17933
+d [lv 0*"05"*"31000491"]`"The rest of the relatives will eventually be ruined and disappear.`[@][lv 0*"05"*"31000492"]` At that time, George will use this gold, and revive the Ushiromiya family's lost honor,`[@][lv 0*"05"*"31000493"]` just like Father did...!!`[@][lv 0*"05"*"31000494"]` There will be no room for anyone to argue then.`[@][lv 0*"05"*"31000495"]` ......George is the true successor of the Ushiromiya family!!"`[\]
+seplay 1,27,71
+textoff
+waits 167
+lbg s0_3,"white"
+flush 1
+textoff
+waits 167
+lbg s0_3,"sub_r1b"
+flush 2
+msgwnd_non
+*d17934
+d `It happened!!!`[@]` My wish was granted!!`[\]
+*d17935
+d `That dream I have wished for ever since I was born into this world as Ushiromiya Eva, has been granted completely in this very moment...!!`[\]
+*d17936
+d `My husband and I will be happy for all eternity.`[@]` And I can also give my only son, George, eternal happiness!!`[\]
+*d17937
+d `There's no way I'll waste it on foolish pleasures!!`[@]`{n}My older brother has chewed up the Ushiromiya family, but George and I will revive it!`[\]
+*d17938
+d `And that means that we truly have succeeded the headship of the Ushiromiya family!!`[\]
+textoff
+waits 167
+lbg s0_3,"gold2"
+flush 6
+msgwnd_eva
+*d17939
+d [lv 0*"05"*"31000496"]`"I succeeded...`[@][lv 0*"05"*"31000497"]` I did it, ...honey......George...`[@][lv 0*"05"*"31000498"]` ......I, ......your mother......finally succeeded...`[@][lv 0*"05"*"31000499"]` ......After this, we won't be threatened by anyone...`[@][lv 0*"05"*"31000500"]` Uuuhhu, uuuuUUuuuUUugghhuhuu!!"`[\]
+msgwnd_non
+*d17940
+d `That's right, after this, never again will we be smothered by sad nights.`[\]
+seplay 1,56,71
+lss s0_23,"ev2","b11_hohoemi1" ;1
+aspt2 xpos,s0_23,370
+textoff
+waits 167
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+flush 22
+lss s0_23,"ev2","b11_hohoemi2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+*d17941
+d [lv 0*"34"*"33300129"]`Congratulations, me.`[@]`Congratulations, Ushiromiya Eva.`[|][lv 0*"34"*"33300130"]`......Right here, right now, the sad half of our life has had its heart's desires granted.`[\]
+*d17942
+d [lv 0*"34"*"33300131"]`"It's all thanks to you...`[\]
+msgwnd_eva
+*d17943
+d [lv 0*"05"*"31000501"]` I was blessed with this chance because of your magic.`[@][lv 0*"05"*"31000502"]` Because of that chance, I was able to make it here...!"`[@][lv 0*"05"*"31000503"]`...Thank you.`[\]
+lss s0_23,"ev2","b11_hohoemi1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_non
+*d17944
+d [lv 0*"34"*"33300132"]` But my magic couldn't have been granted if we both didn't believe in each other.`[@][lv 0*"34"*"33300133"]`So it isn't just the power of my magic.`[\]
+lss s0_23,"ev2","b11_warai1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+*d17945
+d [lv 0*"34"*"33300134"]`This is our victory.`[@]`So, congratulations,`[|][lv 0*"34"*"33300135"]` "us".`[\]
+lss s0_23,"ev2","b11_warai2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+*d17946
+d [lv 0*"34"*"33300136"]`"Thank you, me...`[@][lv 0*"34"*"33300136_1"]` Thank you, Ushiromiya Eva...`[\]
+textoff
+waits 167
+csp_slot s0_23
+lbg s0_3,"gold2"
+csp_slot s0_21
+flush 42
+msgwnd_eva
+*d17947
+d [lv 0*"05"*"31000504"]` ......I'm so glad I didn't give in before now.`[@][lv 0*"05"*"31000505"]` I'm so glad I didn't drown in sorrow and forget to keep struggling..."`[@][lv 0*"05"*"31000506"]`".........No, this is my magic.`[@][lv 0*"05"*"31000507"]` Our magic!`[\]
+*d17948
+d [lv 0*"05"*"31000508"]` Your magic was the real thing.`[@][lv 0*"05"*"31000509"]` {f:5:Beatrice} the witch of the forest is nothing more than an illusion.`[@][lv 0*"05"*"31000510"]` {i:You} are the real witch, who can use real magic.`[@][lv 0*"05"*"31000511"]` ......That's right.`[@][lv 0*"05"*"31000512"]` Right now, {i:you} are the Golden Witch, {f:5:Beatrice}!!"`[@][lv 0*"05"*"31000513"]`Eva decided to leave that place for the time being.`[@][lv 0*"05"*"31000514"]`{n}And when she climbed the stairs again, trying to leave this secret place...`[\]
+textoff
+waits 167
+vol_bgm 100,1000
+vol_me 1,90,1000
+vol_me 2,90,1000
+wait 1000
+textoff
+waits 167
+lbg s0_3,"black"
+flush 42
+vol_mix_fade 2000
+vol_bgm -1,2000
+wait 2000
+wait 2000
+meplay 1,27,70
+wait 2000
+msgwnd_non
+*d17949
+d `......She saw a creepy, swaying human shadow blocking her path, and her dreamlike state was blown away.`[@]`".....................Who's there?!"`[\]
+seplay 3,67,71
+*d17950
+d `For an instant, ...she believed that the true master of this room, the real {f:5:Beatrice}, had appeared.`[\]
+textoff
+waits 167
+lbg s0_3,"sub_sta1a"
+lbg s0_26,"c_e0903_wall"
+aspt2 xpos,s0_26,1920
+lbg s0_27,"c_e0903_b"
+aspt2 xpos,s0_27,1920
+flush 10,17
+agpt onionalpha,192
+gptwait onionalpha
+seplay 1,30,71
+aspt2 xpos,s0_26,0,500
+aspt2 xpos,s0_27,0,500
+sptwait2 xpos,s0_27
+agpt onionalpha,0
+gptwait onionalpha
+msgwnd_eva
+*d17951
+d2 [lv 0*"05"*"31000515"]`It seemed that the other person was also holding a gun.`[#][*][\]
+wait_on_d 0
+agpt quakeycycle,50
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+d_continue
+wait_on_d -1
+csp_slot s0_26
+csp_slot s0_27
+textoff
+waits 167
+lbg s0_3,"black"
+flush 2
+msgwnd_non
+*d17952
+d `{n}The two of them were pointing guns at each other.`[\]
+seplay 1,26,71
+*d17953
+d `And eventually, they each realized who the other was...`[@]`".........Rosa.........?"`[\]
+*d17954
+d `"...Nee‐san...`[\]
+textoff
+waits 167
+lbg s0_3,"sub_sta1a"
+lss s0_10,"eva","b24_ikari2" ;1
+aspt2 xpos,s0_10,370
+flush 2
+msgwnd_eva
+*d17955
+d [lv 0*"05"*"31000516"]` .........What are you doing in a place like this...?"`[\]
+lss s0_8,"ros","a14_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ros
+*d17956
+d [lv 0*"12"*"31400250"]`"I could ask you the same.`[@][lv 0*"12"*"31400251"]` What business do {i:you} have in a place such as this?"`[\]
+lss s0_10,"eva","b24_futeki1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_eva
+*d17957
+d [lv 0*"05"*"31000517"]`"......I shouldn't have given you that hint, Nee‐san.`[@][lv 0*"05"*"31000518"]` If I hadn't, I definitely would have been the first to reach this place.`[\]
+bgmplay 55,70,0
+lss s0_8,"ros","a14_akuwarai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ros
+*d17958
+d [lv 0*"12"*"31400252"]` .........Too bad."`[@][lv 0*"12"*"31400253"]`It seemed that Rosa knew where this staircase went,`[@][lv 0*"12"*"31400254"]` and what was waiting ahead of her.`[\]
+msgwnd_non
+*d17959
+d `"That's rich.`[@]` .........Coming from someone who arrived here after me."`[\]
+lss s0_10,"eva","b24_akire1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_eva
+*d17960
+d [lv 0*"05"*"31000519"]`".........I racked my brains too much over the sweetfish river.`[@][lv 0*"05"*"31000520"]` The sweetfish part didn't really matter that much at all, did it?"`[\]
+lss s0_8,"ros","a14_komaru4" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ros
+*d17961
+d [lv 0*"12"*"31400255"]`"That isn't true.`[@][lv 0*"12"*"31400256"]` It was an excellent hint, if you ask me.`[\]
+lss s0_10,"eva","b24_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_eva
+*d17962
+d2 [lv 0*"05"*"31000521"]` Well, of course, maybe there was no need for it to be sweetfish.`[@][lv 0*"05"*"31000522"]` ...But when I heard that sweetfish are fish that go out into the sea, I was able to figure it out."`[@][#][*][lv 0*"05"*"31000523"]`"......What is inside?"`[@][lv 0*"05"*"31000524"]`"Why not see with your own eyes?`[\]
+wait_on_d 0
+lss s0_10,"eva","b24_akire1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_8,"ros","a14_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ros
+*d17963
+d [lv 0*"12"*"31400257"]` It definitely won't betray your expectations."`[\]
+lss s0_10,"eva","b24_futeki1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_eva
+*d17964
+d [lv 0*"05"*"31000525"]`"........................`[@][lv 0*"05"*"31000526"]` ......Don't be afraid, Nee‐san.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 10,500
+meplay 3,5,60
+msgwnd_ros
+*d17965
+d [lv 0*"12"*"31400258"]` I never had any interest in who became the head.`[@][lv 0*"12"*"31400259"]` I don't even care about the Ushiromiya family name.`[@][lv 0*"12"*"31400260"]` ......Honestly, Krauss nii‐san always did throw his weight around, saying that he was going to be the head,`[@][lv 0*"12"*"31400261"]` so I actually feel good about you stealing the position from him."`[@][lv 0*"12"*"31400262"]`"............Are you serious?"`[@][lv 0*"12"*"31400263"]`"Of course.`[\]
+msgwnd_eva
+*d17966
+d [lv 0*"05"*"31000527"]` I am the outsider of the Ushiromiya siblings.`[\]
+msgwnd_ros
+*d17967
+d [lv 0*"12"*"31400264"]` ......Even if Father had named me as the next head,`[@][lv 0*"12"*"31400265"]` there's no way my brothers would accept that.`[@][lv 0*"12"*"31400266"]` I try not to have such naive dreams."`[@][lv 0*"12"*"31400267"]`"........................"`[@][lv 0*"12"*"31400268"]`"Let me see too.`[\]
+msgwnd_eva
+*d17968
+d [lv 0*"05"*"31000528"]` The proof of your victory, Nee‐san.`[\]
+vol_me 3,-1,1000
+textoff
+waits 167
+lbg s0_3,"sub_sta1a"
+lss s0_8,"ros","a14_akuwarai1" ;1
+aspt2 xpos,s0_8,-370
+lss s0_10,"eva","b24_futeki1" ;1
+aspt2 xpos,s0_10,370
+flush 22
+msgwnd_ros
+*d17969
+d [lv 0*"12"*"31400269"]` ......As long as I receive the proper portion that we agreed upon as siblings,`[@][lv 0*"12"*"31400270"]` I plan to actively accept you as the true victor in this "game"."`[@][lv 0*"12"*"31400271"]`"............If you shot me, then you would have this gold all to yourself, right?"`[@][lv 0*"12"*"31400272"]`"It's the same for you.`[\]
+msgwnd_eva
+*d17970
+d [lv 0*"05"*"31000529"]` If you shot me, this gold would all be yours."`[\]
+lss s0_8,"ros","a14_warai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ros
+*d17971
+d [lv 0*"12"*"31400273"]`"......................................."`[@][lv 0*"12"*"31400274"]`For a tense while, the sisters pointed their guns at each other.`[\]
+msgwnd_eva
+*d17972
+d [lv 0*"05"*"31000530"]`{n}Eventually, after they sized up the glint in the other's eyes, they lowered their guns.`[\]
+textoff
+waits 167
+wait 1000
+msgwnd_non
+*d17973
+d `...Eva removed her finger from the trigger, and held the gun upside‐down.`[@]`It was a position that she couldn't quickly shoot from.`[\]
+seplay 1,43,71
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"white"
+flush 10,167
+textoff
+waits 167
+lbg s0_3,"black"
+flush 10,500
+*d17974
+d `{n}When she saw that, Rosa held hers the same way.`[\]
+*d17975
+d `"......That's right.`[@]` That plan of shooting the other and having all the gold to ourselves is fascinating for both of us."`[\]
+textoff
+waits 167
+vol_me 1,-1,1000
+seplay 1,43,71
+wait 1000
+textoff
+waits 167
+lbg s0_3,"sub_sta1a"
+lss s0_10,"eva","b24_hohoemi1" ;1
+aspt2 xpos,s0_10,370
+lss s0_8,"ros","a14_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 26
+msgwnd_eva
+*d17976
+d [lv 0*"05"*"31000531"]`"...But if one of us suddenly disappeared on this island while it's isolated by the typhoon, there would be a huge uproar.`[@][lv 0*"05"*"31000532"]` ......If we hid the corpse here, it probably wouldn't be found easily, but that isn't for certain."`[\]
+lss s0_10,"eva","b24_akire2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d17977
+d [lv 0*"05"*"31000533"]`".........No matter how many billion yen's worth of gold is on the line,`[@][lv 0*"05"*"31000534"]` it isn't worth the risk of committing murder.`[\]
+lss s0_8,"ros","a14_nayamu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ros
+*d17978
+d [lv 0*"12"*"31400275"]` In the end, that would become a weakness for Krauss nii‐san and the others to squeeze all the money out of us with."`[@][lv 0*"12"*"31400276"]`"I agree.`[@][lv 0*"12"*"31400277"]` ......Considering that Nii‐san or Rudolf could have been the one to show up here,`[\]
+lss s0_10,"eva","b24_futeki1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_eva
+*d17979
+d [lv 0*"05"*"31000535"]` ......it may have been a blessing in disguise that it was you.`[@][lv 0*"05"*"31000536"]` ...I trust you the most of all the siblings."`[@][lv 0*"05"*"31000537"]`"............Thank you.`[@][lv 0*"05"*"31000538"]` I also trust you the most of the siblings, Nee‐san."`[\]
+lss s0_8,"ros","a14_akuwarai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ros
+*d17980
+d [lv 0*"12"*"31400278"]`"...................................."`[@][lv 0*"12"*"31400279"]`"............I want to see the gold too."`[\]
+seplay 3,21,71
+lss s0_10,"eva","b24_akire2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_eva
+*d17981
+d [lv 0*"05"*"31000539"]`"Do you?`[\]
+textoff
+waits 167
+wait 2000
+lss s0_8,"ros","a14_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ros
+*d17982
+d [lv 0*"12"*"31400280"]` Now I also want to see it again.`[\]
+lss s0_10,"eva","b24_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_eva
+*d17983
+d [lv 0*"05"*"31000540"]` Even though I saw it with my own eyes, it still doesn't feel real.`[@][lv 0*"05"*"31000541"]` ...Unless I see it together with you and check once more that it actually exists,`[@][lv 0*"05"*"31000542"]` it feels like the gold will turn to fog and disappear."`[@][lv 0*"05"*"31000543"]`Eva started descending the staircase once more.`[@][lv 0*"05"*"31000544"]`{n}......However, she didn't carelessly expose her back to Rosa.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 2
+msgwnd_non
+*d17984
+d `Likewise, even though at a glance it looked like Rosa had lowered her guard, she definitely didn't show any signs of carelessness.`[@]`......And they reached that room of the witch once again.`[\]
+*d17985
+d `{n}Rosa also gasped, made speechless by the vast amount of gold...`[\]
+textoff
+waits 167
+seplay 1,17,71
+textoff
+waits 167
+lbg s0_3,"white"
+flush 10
+textoff
+waits 167
+lbg s0_3,"sub_r1a"
+flush 22
+wait 2000
+seplay 2,21,71
+textoff
+waits 167
+lbg s0_3,"white"
+flush 80
+textoff
+waits 167
+lbg s0_3,"gold2"
+flush 42
+*d17986
+d `......Rosa and Eva walked absentmindedly through the rose garden.`[@]`They had left the guesthouse secretly, so they had to be careful when they returned as well.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 42
+vol_mix_fade 4000
+vol_bgm -1,4000
+wait 4000
+wait 2000
+meplay 1,12,70
+meplay 2,5,70
+rain_load s0_11
+rain_load s0_7
+rain_params s0_11,400,800,0
+rain_params s0_7,400,500,0
+textoff
+waits 167
+lbg s0_3,"garden_1c"
+flush 6
+*d17987
+d `They had to regain their sense of tension soon.`[\]
+*d17988
+d `"......Congratulations, Nee‐san."`[\]
+*d17989
+d `"Thank you."`[\]
+textoff
+waits 167
+lbg s0_3,"rose_1a"
+flush 24
+lss s0_10,"ros","a11_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ros
+*d17990
+d [lv 0*"12"*"31400281"]`"You decided it, didn't you?`[\]
+lss s0_8,"eva","a11_hohoemi1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_eva
+*d17991
+d [lv 0*"05"*"31000545"]` Fifty percent goes to the bearer of the title of successor to the head.`[\]
+lss s0_10,"ros","a11_akuwarai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ros
+*d17992
+d [lv 0*"12"*"31400282"]` ......It sure did work out well for you.`[@][lv 0*"12"*"31400283"]` That doesn't refer to Krauss nii‐san anymore.`[@][lv 0*"12"*"31400284"]` ...So your share is now fifty percent along with a quarter of the rest, for a total of 12.5 billion yen."`[@][lv 0*"12"*"31400285"]`"Isn't that an incredible share?`[@][lv 0*"12"*"31400286"]` ...I'm satisfied with 2.5 billion.`[\]
+lss s0_10,"ros","a11_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d17993
+d [lv 0*"12"*"31400287"]` Rudolf nii‐san won't complain either.`[@][lv 0*"12"*"31400288"]` Krauss nii‐san will probably be the only one to complain."`[@][lv 0*"12"*"31400289"]`"......Yeah, you're right.`[@][lv 0*"12"*"31400290"]` ...After all, Nii‐san is the practical manager of Rokkenjima.`[\]
+lss s0_8,"eva","a11_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_eva
+*d17994
+d [lv 0*"05"*"31000546"]` And since the gold was on these premises,`[@][lv 0*"05"*"31000547"]` even though I was the first to discover it, things might get complicated if I don't handle it skillfully."`[@][lv 0*"05"*"31000548"]`"It won't get complicated.`[@][lv 0*"05"*"31000549"]` We covered this and every other eventuality in excruciating detail in last night's discussion, didn't we?"`[\]
+lss s0_10,"ros","a11_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ros
+*d17995
+d [lv 0*"12"*"31400291"]`"............I wonder if it will really go that smoothly.`[@][lv 0*"12"*"31400292"]` I've already completely gotten over my excitement.`[\]
+lss s0_8,"eva","a11_akire1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_eva
+*d17996
+d [lv 0*"05"*"31000550"]` How we regulate everything from here on is the real problem."`[@][lv 0*"05"*"31000551"]`"...That is a problem for the new head of the Ushiromiya family.`[@][lv 0*"05"*"31000552"]` You should enjoy that problem, Nee‐san.`[\]
+lss s0_10,"ros","a11_akuwarai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ros
+*d17997
+d [lv 0*"12"*"31400293"]` It has nothing to do with me."`[@][lv 0*"12"*"31400294"]`"Hmm, sharp words..."`[@][lv 0*"12"*"31400295"]`"......I'll support you as the second person to find it.`[\]
+lss s0_8,"eva","b21_akire2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_eva
+*d17998
+d [lv 0*"05"*"31000553"]` So please at least give me the early payment we decided on.`[\]
+lss s0_10,"ros","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ros
+*d17999
+d [lv 0*"12"*"31400296"]` I'd like 150 million yen by March."`[@][lv 0*"12"*"31400297"]`"Yes, that's fine.`[@][lv 0*"12"*"31400298"]` ......If you support me, I can graciously pay you that much.`[\]
+lss s0_8,"eva","a11_warai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_eva
+*d18000
+d [lv 0*"05"*"31000554"]` I am not Nii‐san."`[@][lv 0*"05"*"31000555"]`"Anyway, why don't we go and shock Nii‐san and the others?`[@][lv 0*"05"*"31000556"]` Even if we cover up the actual location, I want to see Krauss nii‐san's shocked face as soon as I can."`[\]
+lss s0_10,"ros","a11_akuwarai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ros
+*d18001
+d [lv 0*"12"*"31400299"]`"...............`[@][lv 0*"12"*"31400300"]` ............Wait a second, Rosa.`[\]
+csp_slot s0_11
+csp_slot s0_7
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 22
+seplay 1,21,71
+msgwnd_eva
+*d18002
+d [lv 0*"05"*"31000557"]` Wait a while before telling everyone about it."`[@][lv 0*"05"*"31000558"]`"..................Huh?`[@][lv 0*"05"*"31000559"]` ...Why?"`[\]
+msgwnd_ros
+*d18003
+d [lv 0*"12"*"31400301"]`"...You idiot, isn't it obvious?`[@][lv 0*"12"*"31400302"]` ...This is that haughty Krauss nii‐san and that sly Rudolf we're talking about.`[\]
+rain_load s0_11
+rain_load s0_7
+rain_params s0_11,400,800,0
+rain_params s0_7,400,500,0
+textoff
+waits 167
+lbg s0_3,"rose_1a"
+lss s0_10,"eva","a11_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 26
+msgwnd_eva
+*d18004
+d [lv 0*"05"*"31000560"]` Even if we announce it eventually, it's still too early now."`[@][lv 0*"05"*"31000561"]`"Unless we carefully investigate how we should move things along first,`[@][lv 0*"05"*"31000562"]` it's possible that all of the gold we've finally found will be snatched away by Nii‐san."`[\]
+lss s0_10,"eva","a11_akire1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d18005
+d [lv 0*"05"*"31000563"]`Eva had thought she had just said something completely obvious.`[@][lv 0*"05"*"31000564"]`...So when she saw Rosa's expression suddenly cloud over, she was a little surprised.`[\]
+msgwnd_non
+*d18006
+d `"......What are you unsatisfied about?`[\]
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"rose_1a"
+lss s0_8,"ros","a11_ikari3" ;1
+aspt2 xpos,s0_8,-370
+flush 23
+*d18007
+d ` You know well what kind of people those two are."`[\]
+lss s0_10,"eva","a11_hohoemi1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_eva
+*d18008
+d [lv 0*"05"*"31000565"]`"...............`[@][lv 0*"05"*"31000566"]` Nee‐san, that's against the rules."`[\]
+textoff
+waits 167
+vol_mix_fade 2000
+wait 2000
+bgmplay 6,71,0
+lss s0_8,"ros","a11_nayamu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ros
+*d18009
+d [lv 0*"12"*"31400303"]`"What do you mean?"`[@][lv 0*"12"*"31400304"]`"......Didn't we make a rule that whoever found the gold would announce it immediately?`[\]
+lss s0_10,"eva","a11_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_eva
+*d18010
+d [lv 0*"05"*"31000567"]` If you hesitate, the foundation of the rules will be destroyed,`[\]
+lss s0_8,"ros","a11_ikari3" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ros
+*d18011
+d [lv 0*"12"*"31400305"]` and that could lead to something worse in the future.`[@][lv 0*"12"*"31400306"]` ...With Krauss nii‐san as crafty as he is,`[@][lv 0*"12"*"31400307"]` that violation of the rules will complicate things later."`[@][lv 0*"12"*"31400308"]`"Don't be stupid.`[@][lv 0*"12"*"31400309"]` This is Nii‐san's island.`[\]
+lss s0_10,"eva","a11_futeki1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_eva
+*d18012
+d [lv 0*"05"*"31000568"]` And that gold just now wasn't cash.`[@][lv 0*"05"*"31000569"]` We're talking about the liquidation of a vast ten‐ton mountain, you know?"`[@][lv 0*"05"*"31000570"]`"It will take a significant amount of time to carry it off and turn it into cash.`[@][lv 0*"05"*"31000571"]` And that will only work in Nii‐san's favor, since he has practical control over this island.`[\]
+lss s0_10,"eva","a11_ikari2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d18013
+d [lv 0*"05"*"31000572"]` Don't you even realize that?!"`[@][lv 0*"05"*"31000573"]`".....................I don't like searching each other for weaknesses like that.`[@][lv 0*"05"*"31000574"]` I just want to clearly lock in my 2.5 billion portion."`[\]
+lss s0_8,"ros","a11_nayamu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ros
+*d18014
+d [lv 0*"12"*"31400310"]`"Of course, if you were to give me 2.5 billion in cash right now,`[@][lv 0*"12"*"31400311"]` whatever you did next would be up to you.`[\]
+lss s0_8,"ros","a11_ikari3" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d18015
+d [lv 0*"12"*"31400312"]` But until I have my share in my own pocket, I will follow the siblings' rules."`[@][lv 0*"12"*"31400313"]`"You're so naive...`[@][lv 0*"12"*"31400314"]` You don't understand Nii‐san's craftiness at all!"`[\]
+lss s0_10,"eva","a11_futeki1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_eva
+*d18016
+d [lv 0*"05"*"31000575"]`......It wasn't that Rosa didn't understand the craftiness of her older siblings.`[@][lv 0*"05"*"31000576"]`In that sense, Rosa more or less understood Eva's caution.`[\]
+csp_slot s0_11
+csp_slot s0_7
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 25
+msgwnd_non
+*d18017
+d `But in her heart,`[\]
+*d18018
+d ` she couldn't clear away her even greater suspicion that Eva wanted to keep all of the gold to herself.`[\]
+*d18019
+d `......Because she knew that Eva was at least as crafty as her other siblings, if not more.`[@]`In other words, by quickly informing the siblings of the gold's discovery,`[\]
+*d18020
+d ` Rosa wanted to put a stop to any chance Eva had to keep the gold all to herself...`[\]
+*d18021
+d `"..................`[@]` ......Rosa.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+meplay 1,13,0
+vol_bgm 0,4000
+vol_me 1,70,4000
+wait 4000
+rain_load s0_11
+rain_load s0_7
+rain_params s0_11,400,800,0
+rain_params s0_7,400,500,0
+textoff
+waits 167
+lbg s0_3,"rose_1a"
+lss s0_10,"eva","a11_akire1" ;1
+aspt2 xpos,s0_10,370
+flush 26
+msgwnd_eva
+*d18022
+d [lv 0*"05"*"31000577"]` Sorry, but at least listen to me this once."`[@][lv 0*"05"*"31000578"]`".........Are you saying that if I don't listen to what you say, you won't be able to prepare the 150 million?"`[@][lv 0*"05"*"31000579"]`"........................`[\]
+lss s0_8,"ros","a11_nayamu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ros
+*d18023
+d [lv 0*"12"*"31400315"]` ...That isn't the way I wanted to say it.`[\]
+lss s0_10,"eva","a11_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_eva
+*d18024
+d [lv 0*"05"*"31000580"]` ...But if you really need that money, it's more realistic to support me.`[@][lv 0*"05"*"31000581"]` ......If you talk to Nii‐san and Rudolf, even that natural portion of yours might disappear.`[@][lv 0*"05"*"31000582"]` You don't want that, do you?"`[@][lv 0*"05"*"31000583"]`"........................"`[@][lv 0*"05"*"31000584"]`For a while, a severe expression that she had never shown to her sister before rose to Rosa's face.`[\]
+textoff
+waits 167
+wait 2000
+seplay 1,43,71
+lss s0_8,"ros","a14_ikari3" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ros
+*d18025
+d [lv 0*"12"*"31400316"]`There wasn't even a trace of her restraint as a younger sister.`[\]
+msgwnd_non
+*d18026
+d ` ......There was just the ruthlessness,`[\]
+*d18027
+d ` no, the seriousness of a single human arguing about a vast sum of wealth.`[@]`Eva made light of it, chuckling.`[@]`"......Dear me.`[\]
+*d18028
+d ` A frightful murder has just taken place, and the culprit still may be on this island...`[\]
+lss s0_10,"eva","a11_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_eva
+*d18029
+d [lv 0*"05"*"31000585"]`how careless we must be to stand around here talking like this."`[@][lv 0*"05"*"31000586"]`"I'm sure it's just the servants' farce.`[@][lv 0*"05"*"31000587"]` No murder ever occurred on this island."`[\]
+lss s0_8,"ros","a11_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+meplay 2,16,70
+msgwnd_ros
+*d18030
+d [lv 0*"12"*"31400317"]`"......Oh?`[@][lv 0*"12"*"31400318"]` So you really do think that?"`[\]
+lss s0_10,"eva","a11_akire1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_eva
+*d18031
+d [lv 0*"05"*"31000588"]`"It can be clearly explained by the manner of the six deaths.`[@][lv 0*"05"*"31000589"]` The locked room involving those six definitely couldn't be created by a crime from the outside."`[\]
+csp_slot s0_11
+csp_slot s0_7
+textoff
+waits 167
+lbg s0_26,"map10"
+flush 5
+msgwnd_ros
+*d18032
+d [lv 0*"12"*"31400319"]`"......Doctor Nanjo said that they were all dead, but that was also a lie.`[@][lv 0*"12"*"31400320"]` This is all a complicated act that Father plotted.`[\]
+*d18033
+d [lv 0*"12"*"31400321"]` All of the servants are just pretending to be dead.`[@][lv 0*"12"*"31400322"]` ...A murder never occurred in the first place.`[@][lv 0*"12"*"31400323"]` There's no way that there's a murderer prowling around."`[@][lv 0*"12"*"31400324"]`"...Huh...`[@][lv 0*"12"*"31400325"]` I'm surprised that you would notice that.`[\]
+rain_load s0_11
+rain_load s0_7
+rain_params s0_11,400,800,0
+rain_params s0_7,400,500,0
+textoff
+waits 167
+csp_slot s0_26
+flush 22
+lss s0_10,"eva","a11_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_eva
+*d18034
+d [lv 0*"05"*"31000590"]` You looked fairly frightened, so I hadn't thought that you realized that much."`[@][lv 0*"05"*"31000591"]`"......I'm a person who can read between the lines in that kind of situation.`[@][lv 0*"05"*"31000592"]` Thanks to you, I've been well trained."`[\]
+lss s0_8,"ros","a11_nayamu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ros
+*d18035
+d [lv 0*"12"*"31400326"]`That's right.`[@][lv 0*"12"*"31400327"]` Before we realized it, the servants had "died", and the members of the Ushiromiya family had become the only ones on this island.`[\]
+csp_slot s0_11
+csp_slot s0_7
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 25
+msgwnd_non
+*d18036
+d `And after Nanjo had proclaimed the "deaths" of the servants,`[@]` and the relatives had begun to discuss the riddle of the epitaph, he had disappeared off upstairs as though he was in the way...`[\]
+*d18037
+d `"Everything...`[@]`was an act to get us to challenge that epitaph.`[\]
+vol_me 2,-1,1000
+rain_load s0_11
+rain_load s0_7
+rain_params s0_11,400,800,0
+rain_params s0_7,400,500,0
+textoff
+waits 167
+lbg s0_3,"rose_1a"
+lss s0_10,"ros","a11_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 26
+msgwnd_ros
+*d18038
+d [lv 0*"12"*"31400328"]` ......And that's exactly why...`[@][lv 0*"12"*"31400329"]`you need to proclaim that you are the victor, Nee‐san."`[@][lv 0*"12"*"31400330"]`"There's no way that burnt corpse is really Father.`[@][lv 0*"12"*"31400331"]` ......He prepared a corpse with the right number of toes from somewhere, and deliberately burned it in that horribly morbid way."`[\]
+*d18039
+d [lv 0*"12"*"31400332"]`"......I'm sure he's hiding somewhere, watching to see how we'll behave.`[@][lv 0*"12"*"31400333"]` ...I'm sure he already knows that you have reached the Golden Land, Nee‐san."`[\]
+lss s0_10,"ros","a11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d18040
+d [lv 0*"12"*"31400334"]`"......And that's why you should proclaim soon that you are the winner.`[@][lv 0*"12"*"31400335"]` I'm sure Father will appear out of nowhere and proclaim that you are his successor while clapping his hands."`[\]
+lss s0_10,"ros","a11_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d18041
+d [lv 0*"12"*"31400336"]`"........................"`[@][lv 0*"12"*"31400337"]`"...Well, still.`[\]
+lss s0_8,"eva","a11_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_eva
+*d18042
+d [lv 0*"05"*"31000594"]` ......I have to pester you for 150 million,`[\]
+lss s0_10,"ros","a11_akuwarai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ros
+*d18043
+d [lv 0*"12"*"31400338"]` so I can't work against you in anything."`[@][lv 0*"12"*"31400339"]`".........So you'll listen to what I say, and be quiet about this to Nii‐san and the rest...?"`[@][lv 0*"12"*"31400340"]`"...................................."`[\]
+lss s0_8,"eva","a11_akire1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+seplay 1,21,71
+msgwnd_eva
+*d18044
+d [lv 0*"05"*"31000595"]`"......Make your position clear.`[\]
+lss s0_10,"ros","a11_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ros
+*d18045
+d [lv 0*"12"*"31400341"]` ...Rosa."`[\]
+lss s0_8,"eva","a11_futeki1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_eva
+*d18046
+d [lv 0*"05"*"31000596"]`"...............I want to tell them.`[@][lv 0*"05"*"31000597"]` We just made that rule last night.`[\]
+lss s0_10,"ros","a11_ikari3" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ros
+*d18047
+d [lv 0*"12"*"31400342"]` We shouldn't just throw that away."`[@][lv 0*"12"*"31400343"]`"Of course, I will announce it in front of the siblings.`[@][lv 0*"12"*"31400344"]` ...However, I want to make very sure of the situation first.`[\]
+lss s0_8,"eva","b21_akire2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_eva
+*d18048
+d [lv 0*"05"*"31000598"]` Carrying out ten tons of gold, converting it into money,`[@][lv 0*"05"*"31000599"]` and distributing it fairly."`[@][lv 0*"05"*"31000600"]`"......Until I can affirm my ability to carry those out without Nii‐san getting in the way, I want some time to think.`[@][lv 0*"05"*"31000601"]` I only want to hold off my announcement until then.`[\]
+lss s0_8,"eva","a11_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d18049
+d [lv 0*"05"*"31000602"]` .........I'm definitely not keeping it secret because I want it all for myself."`[@][lv 0*"05"*"31000603"]`"..................`[@][lv 0*"05"*"31000604"]` ...You'll definitely announce it to everyone sooner or later, right?"`[\]
+lss s0_10,"ros","a11_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ros
+*d18050
+d [lv 0*"12"*"31400345"]`"...Yes, of course.`[@][lv 0*"12"*"31400346"]` Even I want to rub it in Nii‐san's face as soon as I can."`[\]
+lss s0_8,"eva","a11_hohoemi1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_eva
+*d18051
+d [lv 0*"05"*"31000605"]`".........About how much time will you need to "think"?"`[@][lv 0*"05"*"31000606"]`"I won't know that until I've thought about it."`[\]
+lss s0_10,"ros","a11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ros
+*d18052
+d [lv 0*"12"*"31400347"]`"............Would one night be enough?"`[\]
+lss s0_8,"eva","a11_akire1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_eva
+*d18053
+d [lv 0*"05"*"31000607"]`"I can't promise you that it will take only one night...!"`[\]
+lss s0_10,"ros","a11_ikari3" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ros
+*d18054
+d [lv 0*"12"*"31400348"]`"Out of respect for you as the successor to the head, I will support you for one night.`[\]
+lss s0_8,"eva","a11_ikari2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+seplay 2,27,50
+msgwnd_eva
+*d18055
+d [lv 0*"05"*"31000608"]` ......This year's family conference will end tomorrow morning, when the typhoon passes and a boat comes to get us.`[\]
+csp_slot s0_8
+csp_slot s0_10
+flush 10,167
+lss s0_9,"ros","a14_majime1" ;1
+flush 10,167
+msgwnd_ros
+*d18056
+d [lv 0*"12"*"31400349"]` ...That's right, when the seagulls cry.`[@][lv 0*"12"*"31400350"]` ......I will remain silent until then."`[@][lv 0*"12"*"31400351"]`"If you think that you need more time to think after that, ...let's talk about it again at that time, alright?`[@][lv 0*"12"*"31400352"]` .........I will support your position...`[\]
+lss s0_9,"ros","a14_akuwarai1" ;1
+flush 10,167
+*d18057
+d [lv 0*"12"*"31400353"]`{i:as much as possible}."`[@][lv 0*"12"*"31400354"]`"......You......really are cunning, aren't you?`[|][lv 0*"12"*"31400355"]` ...I'm surprised.`[\]
+textoff
+waits 167
+csp_slot s0_9
+flush 10,167
+lss s0_10,"eva","a11_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+wait 500
+lss s0_10,"eva","a11_futeki1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_eva
+*d18058
+d [lv 0*"05"*"31000610"]` Were you always this strong‐willed?"`[@][lv 0*"05"*"31000611"]`"......It's true that women become stronger when they have a child.`[@][lv 0*"05"*"31000612"]` I realized that in myself when I had Maria."`[\]
+lss s0_8,"ros","a11_nayamu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ros
+*d18059
+d [lv 0*"12"*"31400356"]`"...............`[@][lv 0*"12"*"31400357"]` Alright.`[\]
+lss s0_10,"eva","a11_akire1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_eva
+*d18060
+d [lv 0*"05"*"31000613"]` I thank you for your cooperation for the time being.`[@][lv 0*"05"*"31000614"]` ...We can talk about tomorrow when it comes."`[@][lv 0*"05"*"31000615"]`"Yes, that's right.`[@][lv 0*"05"*"31000616"]` ......I believe that you will be a fair‐minded successor to the head, who wouldn't even think of taking all of the gold for herself."`[\]
+lss s0_8,"ros","a11_akuwarai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ros
+*d18061
+d [lv 0*"12"*"31400358"]`"...Isn't that obvious!`[@][lv 0*"12"*"31400359"]` ......I will split the gold evenly among the siblings as we agreed."`[\]
+lss s0_10,"eva","a11_ikari2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_eva
+*d18062
+d [lv 0*"05"*"31000617"]`No way. {i:I} found this.`[@][lv 0*"05"*"31000618"]`Because I, because we solved the riddle of the epitaph!`[\]
+gstc 153
+textoff
+waits 167
+vol_mix_fade 1000
+vol_bgm -1,1000
+wait 1000
+csp_slot s0_11
+csp_slot s0_7
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"white"
+flush 1
+seplay 1,2,100
+seplay 2,2,100
+textoff
+waits 167
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+textoff
+waits 167
+lbg s0_3,"gold2"
+lss s0_24,"ev2","b11_ikari2" ;1
+flush 42
+bgmplay 61,90,0
+msgwnd_non
+*d18063
+d2 [lv 0*"34"*"33300137"]`So this gold is all mine...!!`[@]`"I won't give it up to anyone!`[#][*][lv 0*"34"*"33300138"]` I am the head of the Ushiromiya family!`[@]` I am, {i:I} am!!"`[#][*][lv 0*"34"*"33300139"]`In a loud voice, the witch inside Eva claimed exclusive possession of everything.`[\]
+wait_on_d 0
+seplay 1,2,100
+d_continue
+wait_on_d 1
+seplay 2,2,100
+d_continue
+wait_on_d -1
+meplay 1,17,70
+lss s0_9,"ev2","b11_odoroki1" ;1
+flush 10,167
+seplay 3,2,100
+*d18064
+d2 [lv 0*"34"*"33300140"]`{n}...Of course, that didn't come close to reaching Rosa's ears, and it probably didn't even reach Eva's, either.`[@][#][*][lv 0*"34"*"33300141"]`"......Mm.`[@][#][*][lv 0*"34"*"33300142"]` I shall acknowledge that.`[\]
+wait_on_d 0
+seplay 1,2,100
+d_continue
+wait_on_d 1
+seplay 2,2,100
+seplay 3,2,100
+d_continue
+wait_on_d -1
+*d18065
+d ` You are the true head of the Ushiromiya family, chosen by the witch's epitaph.`[@]` Now, I shall acknowledge that upon my name."`[\]
+csp_slot s0_21
+csp_slot s0_24
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 46
+set_window_simple 80
+msgwnd_bea
+*d18066
+d [lv 0*"27"*"30701370"]`"...Y‐`[@][lv 0*"27"*"30701371"]` .........you are.........`[@][lv 0*"27"*"30701372"]` That outfit...`[@][lv 0*"27"*"30701373"]`you couldn't be...`[\]
+set_name_window_non
+textoff
+waits 167
+textoff
+waits 167
+lbg s0_3,"sub_r1b"
+flush 23
+seplay 2,52,71
+lss s0_10,"bea","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+aspt2 breakup,s0_10,1000
+aspt2 alpha,s0_10,0
+flush 1
+aspt2 breakup,s0_10,0,2000
+aspt2 alpha,s0_10,255,2000
+sptwait2 breakup,s0_10
+wait 1000
+lss s0_8,"ev2","b11_odoroki2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d18067
+d [lv 0*"34"*"33300143"]`......really...`[|][lv 0*"34"*"33300144"]`{f:5:Beatrice}......?"`[@][lv 0*"34"*"33300145"]`Maybe {f:5:Beatrice} was happy that Eva had called her by her own name.`[|][lv 0*"34"*"33300146"]` She cackled pleasantly.`[|][lv 0*"34"*"33300147"]`In concert with that laugh, gold butterflies rose up as though a storm of gold dust had broken out in the room,`[|][lv 0*"34"*"33300148"]` and the room shone the color of gold...`[\]
+lss s0_10,"bea","a11_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+seplay 1,37,71
+*d18068
+d `"Indeed.`[@]` I am the Golden Witch, {f:5:Beatrice}."`[\]
+textoff
+waits 167
+seplay 1,22,90
+anim s0_5,"no83",1
+flush 1
+waitvideo
+lbg s0_5,"no83_0051"
+flush 1
+*d18069
+d `"......*cackle*cackle*, there is nothing that should frighten you so.`[@]` I am praising your exploits.`[\]
+lss s0_10,"bea","a11_futeki1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d18070
+d [lv 0*"27"*"30701374"]` ...Truly excellent.`[@][lv 0*"27"*"30701375"]` Imagine that you would spectacularly solve that riddle of the epitaph...`[\]
+lss s0_10,"bea","a31_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d18071
+d [lv 0*"27"*"30701376"]` It is worthy of my admiration...!"`[@][lv 0*"27"*"30701377"]`"...You were the one who sent that letter?`[@][lv 0*"27"*"30701378"]` So I'll succeed all of the gold and the Ushiromiya family inheritance, right...?`[@][lv 0*"27"*"30701379"]` You wrote that in your letter.`[@][lv 0*"27"*"30701380"]` And I overcame that challenge...!"`[\]
+lss s0_8,"ev2","b11_ikari1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_non
+*d18072
+d [lv 0*"34"*"33300149"]`"Mm.`[@][lv 0*"34"*"33300150"]` I shall acknowledge it.`[@][lv 0*"34"*"33300151"]` Now, all of this piled‐up gold, and everything of the Ushiromiya family, is for you to do with as you please.`[@][lv 0*"34"*"33300152"]` For as of this moment, you are already the Ushiromiya family head."`[\]
+lss s0_10,"bea","a11_defo2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d18073
+d [lv 0*"27"*"30701381"]`"R‐......really?`[@][lv 0*"27"*"30701382"]` It's true, right?`[@][lv 0*"27"*"30701383"]` Right?!"`[@][lv 0*"27"*"30701384"]`"Do not become agitated.`[\]
+lss s0_8,"ev2","b11_odoroki1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_non
+*d18074
+d [lv 0*"34"*"33300153"]` I am openly praising you.`[@][lv 0*"34"*"33300154"]` As proof, I shall grant you this."`[@][lv 0*"34"*"33300155"]`{f:5:Beatrice} took a ring off of her own finger,`[\]
+lss s0_10,"bea","a11_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d18075
+d [lv 0*"27"*"30701385"]` and held it out to Eva.`[@][lv 0*"27"*"30701386"]`She fearfully accepted it,`[@][lv 0*"27"*"30701387"]` ......and realized that it was a ring.`[\]
+csp_slot s0_5
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 22
+vol_mix_fade 2000
+vol_bgm -1,2000
+wait 2000
+meplay 1,5,50
+msgwnd_non
+*d18076
+d `"......C‐`[@]`......could.........`[\]
+*d18077
+d `this be............"`[!w583]`"Mmhm.`[\]
+textoff
+waits 167
+lbg s0_3,"sub_r1a"
+flush 26
+*d18078
+d [lv 0*"34"*"33300156"]` It is the proof of the Ushiromiya family headship, returned to me from Kinzo: the Golden Ring."`[|][lv 0*"34"*"33300157"]`"From now on, it is yours.`[|][lv 0*"34"*"33300158"]` You may put it on your finger and display it high before your siblings.`[\]
+textoff
+waits 167
+lbg s0_3,"sub_r1b"
+flush 26
+lss s0_9,"bea","a31_warai1" ;1
+flush 10,167
+meplay 2,17,60
+msgwnd_bea
+*d18079
+d [lv 0*"27"*"30701388"]` None should doubt that you have now succeeded the Ushiromiya family inheritance."`[@][lv 0*"27"*"30701389"]`Eva stared closely at the ring.`[\]
+lss s0_9,"bea","a11_defo2" ;1
+flush 10,167
+*d18080
+d [lv 0*"27"*"30701390"]`...It certainly wasn't a fake.`[@][lv 0*"27"*"30701391"]` ...Without a doubt, it was the real thing.`[@][lv 0*"27"*"30701392"]`She, who had dreamed of receiving this ring someday,`[\]
+msgwnd_non
+*d18081
+d ` and who had stared fixedly at it countless times, could say that for certain.`[\]
+*d18082
+d `This ring...`[@]`had now designated her as its new owner,`[\]
+*d18083
+d ` ......and had been handed over to her......`[!w583]`And...`[\]
+*d18084
+d `timidly...`[!w333]`she put it on the middle finger of her left hand...`[!w500]`In that instant, ......she felt a deep emotion welling up inside her that she had never felt before.`[\]
+*d18085
+d `Her mind grew blank.`[!w250]` Both eyes opened wide.`[!w583]`{n}That ring...was on her own finger.`[\]
+textoff
+waits 167
+vol_mix_fade 1000
+wait 1000
+bgmplay 73,90,0
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"white"
+flush 42
+*d18086
+d `{n}Not in a dream, in reality............!`[\]
+*d18087
+d `"That ring is surely also pleased.`[@]` Because it was able to come to you, who had dreamed of putting it on your finger for so long."`[@]`"......The ring...`[@]` ......Father's`[\]
+msgwnd_bea
+*d18088
+d [lv 0*"27"*"30701393"]`......ring...............!"`[@][lv 0*"27"*"30701394"]`"How many nights have you dreamed of putting that on your own finger as you have now done?`[\]
+msgwnd_non
+*d18089
+d [lv 0*"34"*"33300159"]` ......The strength of those feelings became your magic and made that reality.`[@][lv 0*"34"*"33300160"]` Now, you are worthy of calling yourself a true witch."`[|][lv 0*"34"*"33300161"]`"............Wh‐...who are you?`[\]
+msgwnd_bea
+*d18090
+d [lv 0*"27"*"30701395"]` ...Are you really......{f:5:Beatrice}......"`[@][lv 0*"27"*"30701396"]`"*cackle*cackle*.`[@][lv 0*"27"*"30701397"]` I am the Golden Witch {f:5:Beatrice}!`[\]
+msgwnd_non
+*d18091
+d [lv 0*"34"*"33300162"]` The Ushiromiya family alchemist!"`[@][lv 0*"34"*"33300163"]`"Following my contract with Kinzo, I now pass everything on to you.`[\]
+textoff
+waits 167
+lss s0_9,"bea","a31_warai1" ;1
+flush 2
+msgwnd_bea
+*d18092
+d2 [lv 0*"27"*"30701398"]` ...All of the gold I entrusted Kinzo with.`[@][#][*][lv 0*"27"*"30701399"]` And all of the wealth he built up through that.`[@][lv 0*"27"*"30701400"]` And the honor and inheritance of the Ushiromiya family.`[\]
+wait_on_d 0
+lss s0_9,"bea","a14_futeki1" ;1
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_9,"bea","a14_akuwarai3" ;1
+flush 10,167
+seplay 1,2,100
+*d18093
+d [lv 0*"27"*"30701401"]` And I will pass on my power, and the title of the Endless Witch."`[@][lv 0*"27"*"30701402"]`"......A witch's...`[@][lv 0*"27"*"30701403"]`...title......"`[@][lv 0*"27"*"30701404"]`"I will pass on all of my magical power, and the titles of the Golden Witch and the Endless Witch.`[@][lv 0*"27"*"30701405"]` ......Following my Predecessor, I will hand over my name, {f:5:Beatrice}, along with those titles.`[\]
+textoff
+waits 167
+seplay 1,2,100
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"portrait2"
+flush 42
+msgwnd_non
+*d18094
+d [lv 0*"34"*"33300164"]` ......You may now call yourself by that name!"`[|][lv 0*"34"*"33300165"]`Eva gulped.`[\]
+msgwnd_bea
+*d18095
+d [lv 0*"27"*"30701406"]` The chandelier light, which had seemed dim, now felt too bright.`[@][lv 0*"27"*"30701407"]`"By my name, I shall now carry out the succession of the Golden Witch...!"`[@][lv 0*"27"*"30701408"]`The instant that {f:5:Beatrice} made that proclamation, a golden brilliance buried everything,`[\]
+msgwnd_non
+*d18096
+d ` ......and changed it into a majestic space that looked like a throne room.`[@]`In the throne room, there was a crowd of {f:5:Beatrice}'s minions and brethren, as well as countless gold butterflies,`[\]
+msgwnd_bea
+*d18097
+d [lv 0*"27"*"30701409"]` celebrating this first succession ceremony in a thousand years.`[\]
+textoff
+waits 167
+seplay 1,22,71
+anim s0_5,"no83",1
+flush 1
+waitvideo
+lbg s0_5,"no83_0051"
+flush 1
+wait 500
+csp_slot s0_5
+textoff
+waits 167
+lbg s0_3,"white"
+flush 42
+seplay 1,22,100
+lbg s0_5,"butterfly_4sp1"
+textoff
+waits 167
+lbg s0_3,"mhal_ta1a"
+spriteset_enable 1
+textoff
+waits 167
+lbg s1_3,"white"
+aspritesetpt breakup,1,0
+flush 1
+aspritesetpt breakup,1,1000,3000
+spritesetptwait breakup,1
+reset_set 1
+csp -11
+flush 1
+msgwnd_non
+*d18098
+d `And there was {f:5:Beatrice}, in the throne that only the Endless Witch was permitted to sit in, holding a golden staff,`[@]` reigning with a dazzling dignity.`[\]
+*d18099
+d `Without being ordered by anyone, Eva automatically kneeled, hanging her head...`[@]`A goat attendant respectfully offered {f:5:Beatrice} a golden staff modeled after the One‐winged Eagle.`[\]
+meplay 1,24,80
+*d18100
+d `After {f:5:Beatrice} stood up and received that staff,`[@]` she lay the tip of it on Eva's shoulder and spoke.`[\]
+*d18101
+d ` It was a proclamation one thousand years in coming.`[\]
+textoff
+waits 167
+seplay 1,22,71
+lss s0_8,"goa","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 6
+*d18102
+d `"Ushiromiya Eva.`[\]
+lss s0_9,"bea","a11_defo1" ;1
+flush 10,167
+*d18103
+d ` You have spectacularly solved the riddle of the witch's epitaph, and reached this Golden Land.`[@]` ......I praise that accomplishment,`[@]` and hand over all of the Endless Magic as well as the titles of the Golden and Endless Witch."`[\]
+csp_slot s0_8
+flush 10,167
+lss s0_9,"bea","a11_defo2" ;1
+flush 10,167
+msgwnd_bea
+*d18104
+d [lv 0*"27"*"30701410"]`"From this point on,`[@][lv 0*"27"*"30701411"]` you may take my name, {f:5:Beatrice}...!`[@][lv 0*"27"*"30701412"]` Come, raise your face.`[@][lv 0*"27"*"30701413"]` Then stand and accept this staff...!"`[\]
+lss s0_9,"bea","a11_akuwarai1" ;1
+flush 10,167
+*d18105
+d2 [lv 0*"27"*"30701414"]`"I, ......I am most grateful..."`[#][*][|][lv 0*"27"*"30701415"]`Eva stood up dizzily and took the magic staff from {f:5:Beatrice}'s hand.`[@][lv 0*"27"*"30701416"]` Her hand was trembling slightly.`[@][lv 0*"27"*"30701417"]`As soon as she grasped that staff...`[\]
+wait_on_d 0
+gstc 154
+seplay 1,1060,100
+d_continue
+wait_on_d -1
+msgwnd_ev2
+*d18106
+d [lv 0*"34"*"33300166"]`{n}......she was wrapped up in the brilliant sparkle of gold.`[\]
+msgwnd_non
+*d18107
+d `{n}As though gold butterflies were flowing out from inside of her.`[@]`In the instant she succeeded the Golden Witch, Eva felt something in the depths of her soul be reborn.`[\]
+textoff
+waits 167
+seplay 1,22,100
+textoff
+waits 167
+lbg s0_26,"white"
+flush 2
+wait 1000
+meplay 1,17,90
+textoff
+waits 167
+csp_slot s0_26
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"different_spiral_1a"
+flush 2
+*d18108
+d `To describe it in a word, it was energy.`[@]`{n}Energy with a gold color.`[@]`It felt as though she had been half asleep ever since she was born,`[\]
+*d18109
+d ` ......and had now awoken for the first time in her life.`[\]
+*d18110
+d `For the first time in her life, she felt her true eyes inside her eyes open.`[@]`".........Mm.`[\]
+*d18111
+d ` A fitting and beautiful outfit for the Golden Witch."`[@]`"Come, show yourself to all of these people.`[\]
+*d18112
+d ` Show them that you are now the new witch...!"`[\]
+textoff
+waits 167
+seplay 1,22,100
+seplay 2,22,100
+textoff
+waits 167
+lbg s0_26,"white"
+flush 8
+vol_me 1,-1,1000
+textoff
+waits 167
+csp_slot s0_26
+textoff
+waits 167
+lbg s0_3,"mhal_ta1a"
+lss s0_9,"ev2","b11_hohoemi2" ;1
+flush 42
+aspt2 breakup,s0_9,0
+aspt2 breakup,s0_9,800,2000
+aspt2 alpha,s0_9,125,2000
+sptwait2 breakup,s0_9
+csp_slot s0_9
+seplay 1,52,100
+lss s0_9,"ev2","a11_hohoemi2" ;1
+aspt2 breakup,s0_9,800
+aspt2 alpha,s0_9,125
+flush 1
+aspt2 breakup,s0_9,0,2000
+aspt2 alpha,s0_9,255,2000
+sptwait2 breakup,s0_9
+seplay 1,27,100
+wait 500
+textoff
+waits 167
+lbg s0_26,"white"
+flush 1
+textoff
+waits 167
+csp_slot s0_26
+flush 2
+seplay 2,54,100
+seplay 3,54,100
+wait 2000
+meplay 1,24,80
+csp_slot s0_5
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"c0302_a"
+flush 2
+msgwnd_bea
+*d18113
+d [lv 0*"27"*"30701418"]`Eva, ......no, the new {f:5:Beatrice} turned around timidly.`[@][lv 0*"27"*"30701419"]`When she did, the witch's minions, which filled the vast throne room,`[\]
+*d18114
+d [lv 0*"27"*"30701420"]` honored her with a wild applause that sounded like the roaring of the sea......`[@][lv 0*"27"*"30701421"]`"Come, everyone.`[\]
+msgwnd_non
+*d18115
+d ` Replace all of the portraits of {f:5:Beatrice} with the new {f:5:Beatrice}!`[\]
+seplay 1,54,100
+*d18116
+d ` Offer up words of celebration for the new {f:5:Beatrice}...!!"`[@]`"New {f:5:Beatrice}.`[\]
+seplay 3,2,100
+textoff
+waits 167
+lbg s0_3,"white"
+flush 1
+textoff
+waits 167
+lbg s0_3,"portrait2"
+flush 2
+msgwnd_bea
+*d18117
+d [lv 0*"27"*"30701422"]` Congratulations on the succession of the Golden Witch.`[@][lv 0*"27"*"30701423"]` ...I hope that you will become able to stand on your own as a noble Golden Witch, and as the Endless Witch."`[@][lv 0*"27"*"30701424"]`"Y‐.........yes, ...I will do my best..."`[\]
+textoff
+waits 167
+seplay 1,22,100
+textoff
+waits 167
+lbg s0_3,"portrait4"
+flush 46
+seplay 1,54,100
+seplay 2,54,100
+wait 3000
+seplay 2,27,100
+wait 500
+textoff
+waits 167
+lbg s0_3,"white"
+flush 1
+textoff
+waits 167
+lbg s0_3,"c0302_b"
+flush 2
+wait 3000
+seplay 3,21,100
+textoff
+waits 167
+lbg s0_3,"white"
+flush 1
+textoff
+waits 167
+lbg s0_5,"butterfly_4sp1"
+textoff
+waits 167
+lbg s0_3,"mhal_ta1a"
+lss s0_10,"wal","a11_defo1" ;1
+aspt2 xpos,s0_10,550
+flush 2
+msgwnd_wal
+*d18118
+d [lv 0*"30"*"33200423"]`"I expect a composure fitting for the Endless Witch from you, unlike your naughty predecessor.`[@][lv 0*"30"*"33200424"]` Hoh‐hohohohoho."`[@][lv 0*"30"*"33200425"]`"Masteer, we're in the middle of a serious ceremony, so please, enough of thaaat..."`[\]
+lss s0_8,"ev2","a11_warai1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_ev2
+*d18119
+d [lv 0*"34"*"33300167"]`"Congratulations on the succession of the Golden Witch.`[\]
+lss s0_10,"wal","a11_warai1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_wal
+*d18120
+d [lv 0*"30"*"33200426"]` New {f:5:Beatrice}‐sama."`[@][lv 0*"30"*"33200427"]`"......I am called Ronove.`[\]
+lss s0_9,"bea","a13_fukigen2" ;1
+flush 10,167
+msgwnd_bea
+*d18121
+d [lv 0*"27"*"30701425"]` I am one of the 72 demons permitted to serve the Golden Witch.`[\]
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+flush 10,167
+lss s0_10,"ev2","a11_hohoemi2" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+lss s0_8,"ron","a11_warai2" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_ron
+*d18122
+d [lv 0*"31"*"33100418"]` From now on, I will always be at your service.`[@][lv 0*"31"*"33100419"]` If you are ever inconvenienced in the slightest, please let me know at once."`[\]
+lss s0_8,"ron","a11_defo1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+*d18123
+d [lv 0*"31"*"33100420"]`"......Th‐......thank you......"`[@][lv 0*"31"*"33100421"]`"Ronove is rude but reliable.`[@][lv 0*"31"*"33100422"]` If you speak to this man of anything that confuses you in your new days as a witch, he should be able to help you."`[@][lv 0*"31"*"33100423"]`".........And, predecessor {f:5:Beatrice}‐sama,`[\]
+lss s0_10,"ev2","a11_hohoemi1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_ev2
+*d18124
+d [lv 0*"34"*"33300168"]` it is a shame that I was not permitted to serve you further, even though we have finally been reunited like this."`[\]
+lss s0_9,"bea","a11_futeki2" ;1
+flush 10,167
+msgwnd_bea
+*d18125
+d [lv 0*"27"*"30701426"]`"......These last thousand years have been very entertaining for me.`[@][lv 0*"27"*"30701427"]` I deeply thank you."`[\]
+lss s0_8,"ron","a11_warai2" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_ron
+*d18126
+d [lv 0*"31"*"33100424"]`"Mm.`[@][lv 0*"31"*"33100425"]` ......One thousand years with you wasn't boring.`[\]
+lss s0_8,"ron","a11_defo1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+*d18127
+d [lv 0*"31"*"33100426"]` ...Please, take care of the new witch."`[@][lv 0*"31"*"33100427"]`"Yes.`[\]
+lss s0_9,"bea","a11_defo2" ;1
+flush 10,167
+msgwnd_bea
+*d18128
+d [lv 0*"27"*"30701428"]` If that is the final order of the predecessor {f:5:Beatrice},`[@][lv 0*"27"*"30701429"]` ...I, Ronove,`[@][lv 0*"27"*"30701430"]` shall certainly carry on your wish."`[\]
+lss s0_8,"ron","a11_warai1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_ron
+*d18129
+d [lv 0*"31"*"33100428"]`"Thank me, 'kay?`[@][lv 0*"31"*"33100429"]` I signed as your reference for the succession of the witch, you know?`[|][lv 0*"31"*"33100430"]` So basically, if I hadn't signed, you wouldn't have been able to become the witch.`[|][lv 0*"31"*"33100431"]` So thank me a little, alright?!"`[\]
+gstc 155
+seplay 1,57,100
+textoff
+waits 167
+lbg s0_26,"white"
+flush 1
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+flush 10,167
+textoff
+waits 167
+csp_slot s0_26
+lss s0_9,"lam","a11_akuwarai4" ;1
+flush 22
+msgwnd_lam
+*d18130
+d [lv 0*"29"*"32200001"]`"This is the Witch of Certainty, Lady {f:5:Lambdadelta}.`[@][lv 0*"29"*"32200002"]` The recommendation of a witch from the Senate was required for your succession as an Endless Witch.`[@][lv 0*"29"*"32200003"]` Lady {f:5:Lambdadelta} recommended you, and became your guardian."`[@][lv 0*"29"*"32200004"]`"Th‐......thanks......"`[\]
+lss s0_10,"bea","a12_defo1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_bea
+*d18131
+d [lv 0*"27"*"30701431"]`"......Heyyy, Beatoo!`[@][lv 0*"27"*"30701432"]` This kid isn't grateful enough!`[@][lv 0*"27"*"30701433"]` I wanna stop recommending her!"`[\]
+csp_slot s0_9
+csp_slot s0_10
+flush 10,167
+lss s0_10,"ev2","a11_komaru1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_ev2
+*d18132
+d [lv 0*"34"*"33300169"]`"Being a reference is not a thing to take lightly.`[\]
+seplay 1,57,100
+textoff
+waits 167
+lbg s0_26,"white"
+flush 1
+textoff
+waits 167
+csp_slot s0_26
+lss s0_10,"ev2","a11_komaru1" ;1
+aspt2 xpos,s0_10,550
+lss s0_8,"lam","a11_odoroki1" ;1
+aspt2 xpos,s0_8,-550
+flush 22
+msgwnd_lam
+*d18133
+d [lv 0*"29"*"32200005"]` If you've signed, then you must take responsibility."`[@][lv 0*"29"*"32200006"]`"Lady {f:5:Lambdadelta} is also the Witch of Certainty.`[@][lv 0*"29"*"32200007"]` ......The Witch of Certainty prefers to make fate firm, to create a fate of Certainty.`[\]
+gstc 156
+textoff
+waits 167
+csp_slot s0_10
+flush 10,167
+seplay 1,52,71
+lss s0_10,"ber","a11_defo1" ;1
+aspt2 xpos,s0_10,550
+aspt2 breakup,s0_10,1000
+aspt2 alpha,s0_10,0
+flush 1
+aspt2 breakup,s0_10,0,2000
+aspt2 alpha,s0_10,255,2000
+sptwait2 breakup,s0_10
+msgwnd_ber
+*d18134
+d [lv 0*"28"*"32100001"]` She took a great liking to your efforts up to today, and held them in the highest regard."`[@][lv 0*"28"*"32100002"]`"Well, an unfortunate childhood, unrewarded effort...I can sympathize juuust a bit with those, that's all.`[\]
+lss s0_9,"bea","a12_futeki1" ;1
+flush 10,167
+msgwnd_bea
+*d18135
+d [lv 0*"27"*"30701434"]` It's not like I felt sorry for you or anything, don't get so full of yourself!`[@][lv 0*"27"*"30701435"]` Tsuun!"`[@][lv 0*"27"*"30701436"]`"......From my point of view, your succession, well, it's more of a coincidence than a miracle.`[\]
+lss s0_8,"lam","a12_akuwarai3" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_lam
+*d18136
+d [lv 0*"29"*"32200008"]` You wouldn't have been worthy of my recommendation."`[@][lv 0*"29"*"32200009"]`"*cackle*.`[@][lv 0*"29"*"32200010"]` This is Lady {f:5:Bernkastel}.`[\]
+lss s0_10,"ber","a11_defo2" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_ber
+*d18137
+d [lv 0*"28"*"32100003"]` She is a very hard‐to‐please person.`[@][lv 0*"28"*"32100004"]` Still, you could say that just having her participate and celebrate is very fortunate."`[\]
+lss s0_9,"bea","a13_warai2" ;1
+flush 10,167
+msgwnd_bea
+*d18138
+d [lv 0*"27"*"30701437"]`".........I only came because this is a rare event, unseen in a thousand years.`[@][lv 0*"27"*"30701438"]` And I heard that there would be some delicious alcohol."`[@][lv 0*"27"*"30701439"]`"New {f:5:Beatrice}‐sama.`[@][lv 0*"27"*"30701440"]` Please, allow us to greet you as well."`[\]
+csp_slot s0_10
+flush 10,167
+msgwnd_ber
+*d18139
+d [lv 0*"28"*"32100005"]`"Huh, ...ah, ...I'm pleased to meet you..."`[@][lv 0*"28"*"32100006"]`The Seven Sisters of Purgatory formed a line side by side.`[\]
+csp_slot s0_8
+csp_slot s0_9
+flush 10,167
+seplay 1,6,71
+lss s0_8,"rg3","b11_defo1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+seplay 2,6,71
+lss s0_9,"rg2","b11_komaru3" ;1
+flush 10,167
+seplay 3,6,71
+lss s0_10,"rg1","b11_hohoemi1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_rg1
+*d18140
+d [lv 0*"38"*"32300134"]`{n}The eldest sister, Lucifer, took a step forward and kneeled.`[@][lv 0*"38"*"32300135"]`"These are furniture who serve me.`[\]
+csp_slot s0_8
+csp_slot s0_9
+flush 10,167
+lss s0_8,"ev2","a11_komaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ev2
+*d18141
+d [lv 0*"34"*"33300170"]` As a gift in celebration of your inheritance, I will send them to you."`[\]
+msgwnd_non
+*d18142
+d `"......After you succeed the Golden Witch, you will need to perform the ritual for your own resurrection.`[@]` The Seven Sisters of Purgatory perform an essential role in that ritual.`[\]
+csp_slot s0_8
+csp_slot s0_10
+flush 10,167
+lss s0_10,"bea","a11_futeki2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d18143
+d [lv 0*"27"*"30701441"]` ......They're a bunch of miscreants, but they serve their purpose.`[@][lv 0*"27"*"30701442"]` Have them do whatever you wish."`[\]
+lss s0_10,"bea","a11_akuwarai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d18144
+d [lv 0*"27"*"30701443"]`"We will always be by your side, {f:5:Beatrice}‐sama.`[@][lv 0*"27"*"30701444"]` Please order us to do anything you wish.`[@][lv 0*"27"*"30701445"]` We will certainly show that we can accomplish our task...!"`[@][lv 0*"27"*"30701446"]`Even after that, various nobles and minions visited and offered words of congratulation for the new witch.`[\]
+lss s0_8,"rg1","b11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_rg1
+*d18145
+d [lv 0*"38"*"32300136"]`As she responded to them confusedly,`[@][lv 0*"38"*"32300137"]` she felt as though she was getting light‐headed due to lack of oxygen.`[@][lv 0*"38"*"32300138"]`......She couldn't tell if this was something real or unreal.`[\]
+textoff
+waits 167
+lbg s0_26,"black"
+flush 2
+vol_bgm 60,4000
+vol_me 1,0,4000
+wait 4000
+msgwnd_non
+*d18146
+d `But there was just one thing she could understand.`[\]
+*d18147
+d ` The feeling of achievement at being permitted to call herself the Golden Witch.`[@]`...That alone was a truth she could definitely understand...`[\]
+textoff
+waits 167
+csp_slot s0_26
+meplay 1,17,50
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"different_spiral_1a"
+flush 8
+*d18148
+d `"............What......is all this?`[\]
+*d18149
+d ` Of course, I'm not going to swallow this story, ...but what on Earth does it mean?!"`[@]`"Aunt Eva is the new {f:5:Beatrice}?`[\]
+*d18150
+d ` Are you saying she's become a witch?`[\]
+textoff
+waits 167
+seplay 1,22,70
+csp_slot s0_5
+textoff
+waits 167
+lbg s0_3,"portrait4"
+flush 42
+wait 3000
+gstc 157
+vol_me 1,-1,1000
+seplay 1,56,71
+textoff
+waits 167
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+flush 10,367
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+flush 28
+lss s0_23,"but","b22_odoroki2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_but
+*d18151
+d [lv 0*"10"*"30101030"]` ......What the hell...!!"`[@][lv 0*"10"*"30101031"]`"I am also surprised.`[\]
+lss s0_23,"but","b22_kuyasigaru1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+*d18152
+d [lv 0*"10"*"30101032"]` Imagine that someone would be able to solve that riddle.`[@][lv 0*"10"*"30101033"]` ......However, that is the rule.`[@][lv 0*"10"*"30101034"]` I must follow it, and pass on the position of Golden Witch and my name."`[\]
+lss s0_25,"bea","a11_fukigen3" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_bea
+*d18153
+d2 [lv 0*"27"*"30701447"]`"It is hardly something to be surprised about.`[@][lv 0*"27"*"30701448"]` Milady wrote that rule in a letter and announced it at the beginning.`[@][#][*][lv 0*"27"*"30701449"]` ......Eva‐sama was the first to be successful.`[@][lv 0*"27"*"30701450"]` That is all there is to say."`[\]
+wait_on_d 0
+lss s0_25,"bea","a11_defo2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+d_continue
+wait_on_d -1
+csp_slot s0_23
+flush 10,167
+lss s0_23,"ron","a11_warai2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_ron
+*d18154
+d2 [lv 0*"31"*"33100432"]`"......{f:5:Virgilia}, are you there?!"`[@][lv 0*"31"*"33100433"]`"Yes, here I am..."`[@][#][*][lv 0*"31"*"33100434"]`"What does this farce mean?!`[@][lv 0*"31"*"33100435"]` Even if this depiction of strange witches showing up one after another is some of her bullshit...!`[\]
+wait_on_d 0
+lss s0_23,"ron","a11_defo1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+d_continue
+wait_on_d -1
+csp_slot s0_21
+csp_slot s0_22
+csp_slot s0_25
+csp_slot s0_23
+textoff
+waits 167
+lbg s0_3,"g1f_s1ap"
+lss s0_8,"but","b22_odoroki2" ;1
+aspt2 xpos,s0_8,-370
+flush 23
+msgwnd_but
+*d18155
+d [lv 0*"10"*"30101035"]` ......Isn't this like Aunt Eva has become a witch?!"`[\]
+textoff
+waits 167
+seplay 1,52,71
+lss s0_10,"wal","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+aspt2 breakup,s0_10,1000
+aspt2 alpha,s0_10,0
+flush 1
+aspt2 breakup,s0_10,0,2000
+aspt2 alpha,s0_10,255,2000
+sptwait2 breakup,s0_10
+msgwnd_wal
+*d18156
+d [lv 0*"30"*"33200428"]`"Calm yourself.`[\]
+lss s0_8,"but","a21_komaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d18157
+d [lv 0*"10"*"30101036"]` She has simply received the title of "Golden Witch", and might call herself that in the future.`[@][lv 0*"10"*"30101037"]` ......This succession ceremony is, without doubt, nothing more than that performed according to that child's "interpretation".`[@][lv 0*"10"*"30101038"]` Don't fall for the same move again."`[\]
+lss s0_10,"wal","a11_ikari1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_wal
+*d18158
+d [lv 0*"30"*"33200429"]`"Th‐...that's right...`[@][lv 0*"30"*"33200430"]` That whole grand ceremony was all phony.`[@][lv 0*"30"*"33200431"]` But it's at least a fact that Aunt Eva solved the riddle of the epitaph.`[@][lv 0*"30"*"33200432"]` ......And at the same time, that means that she inherited the Ushiromiya family headship."`[\]
+lss s0_8,"but","b22_niramu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d18159
+d [lv 0*"10"*"30101039"]`"......And by obtaining ten tons of gold,`[@][lv 0*"10"*"30101040"]` ......it means that Aunt Eva might as well call herself the "Golden Witch"...is that it...?`[@][lv 0*"10"*"30101041"]` Damn, making things as complicated as ever...!!"`[@][lv 0*"10"*"30101042"]`"...Dear me.`[\]
+lss s0_8,"but","b22_odoroki2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d18160
+d [lv 0*"10"*"30101043"]` Is a boorish {y:0:Human}{n:0:human} unable to comprehend the grandeur of this ceremony?`[@][lv 0*"10"*"30101044"]` ......Oh, well.`[@][lv 0*"10"*"30101045"]` Being unable to read between the lines is what makes you {y:0:Human}{n:0:human}.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"g1f_s1ap"
+lss s0_10,"bea","a11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 24
+msgwnd_bea
+*d18161
+d [lv 0*"27"*"30701451"]` I pity you, but I do not blame you."`[@][lv 0*"27"*"30701452"]`"Damn it...`[@][lv 0*"27"*"30701453"]` Don't look at me like you feel sorry for me...`[@][lv 0*"27"*"30701454"]` .........Still, for the time being, there's something I need to check."`[@][lv 0*"27"*"30701455"]`"And that's regarding this younger version of Aunt Eva,`[\]
+lss s0_8,"but","b11_komaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d18162
+d [lv 0*"10"*"30101046"]` ...in other words, the definition of this new {f:5:Beatrice}.`[@][lv 0*"10"*"30101047"]` ......What the heck {i:is} she?!"`[@][lv 0*"10"*"30101048"]`"Even if I tell of it, you will just persist in your disbelief in magic and witches, will you not?`[\]
+lss s0_8,"but","b22_niramu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d18163
+d [lv 0*"10"*"30101049"]` So there is nothing in particular for me to explain.`[@][lv 0*"10"*"30101050"]` You may believe that things are as you think they are."`[@][lv 0*"10"*"30101051"]`"......The way I think things are...?!`[\]
+lss s0_10,"bea","a11_fukigen3" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d18164
+d [lv 0*"27"*"30701456"]` Then, then how should I interpret this...?!"`[@][lv 0*"27"*"30701457"]`"For now, grasping it as a visualization of a different being inside Ushiromiya Eva may not be a hindrance, I believe."`[@][lv 0*"27"*"30701458"]`"...Of course, you cannot blindly accept it, but it is probably appropriate for you to think that way now."`[\]
+lss s0_8,"but","b22_odoroki2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d18165
+d [lv 0*"10"*"30101052"]`"............In, in other words, I should think of Aunt Eva and her as the same person?`[@][lv 0*"10"*"30101053"]` ......Damn, ...this is starting to feel bad..."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"g1f_s1bp"
+flush 23
+lss s0_10,"ron","a11_akuwarai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ron
+*d18166
+d [lv 0*"31"*"33100436"]`"With that being the case, from now on, my name is not {f:5:Beatrice}.`[\]
+lss s0_8,"wal","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_wal
+*d18167
+d [lv 0*"30"*"33200433"]` Because I have passed it on to Ushiromiya Eva."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"g1f_s1ap"
+lss s0_10,"but","b11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 24
+msgwnd_but
+*d18168
+d [lv 0*"10"*"30101054"]`"......Which means that I am nameless!`[@][lv 0*"10"*"30101055"]` Battleerr, isn't there some name that is fitting for me?`[\]
+lss s0_8,"bea","a11_futeki2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_bea
+*d18169
+d [lv 0*"27"*"30701459"]` I shall take your recommendation!`[@][lv 0*"27"*"30701460"]` Isn't there a name that's refined, full of elegance, and make it a little cute if you can...!"`[\]
+lss s0_8,"bea","a11_warai2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+seplay 2,48,71
+*d18170
+d [lv 0*"27"*"30701461"]`"...Just "Beato" is good enough for you.`[@][lv 0*"27"*"30701462"]` There's probably enough of a difference between Beato and {f:5:Beatrice}."`[@][lv 0*"27"*"30701463"]`"Mh...muu.`[@][lv 0*"27"*"30701464"]` Stay as Beato, is it...`[\]
+lss s0_10,"but","b22_niramu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+seplay 1,47,71
+msgwnd_but
+*d18171
+d [lv 0*"10"*"30101056"]` It doesn't feel odd, but it's boring for some reason.`[@][lv 0*"10"*"30101057"]` Muu."`[\]
+lss s0_8,"bea","a11_fukigen2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_bea
+*d18172
+d [lv 0*"27"*"30701465"]`"Pu ku ku ku ku...`[@][lv 0*"27"*"30701466"]` They say the temperature of black tea and a woman's heart are difficult in any time period."`[@][lv 0*"27"*"30701467"]`".........Battler‐kun.`[@][lv 0*"27"*"30701468"]` In any case, handle what is to come with composure.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"g1f_s1ap"
+lss s0_10,"wal","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+lss s0_8,"ron","a13_warai1" ;1
+aspt2 xpos,s0_8,-370
+flush 23
+msgwnd_ron
+*d18173
+d [lv 0*"31"*"33100437"]` Compared to when this child was {f:5:Beatrice},`[@][lv 0*"31"*"33100438"]` now that we can tell her apart from Ushiromiya Eva, the situation is advantageous to us."`[\]
+lss s0_10,"wal","a11_fuman1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_wal
+*d18174
+d [lv 0*"30"*"33200434"]`"......And it's exactly because of that,`[@][lv 0*"30"*"33200435"]` ...that I like it even less.`[@][lv 0*"30"*"33200436"]` ......What is she thinking of?`[@][lv 0*"30"*"33200437"]` That Beato........."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 24
+textoff
+waits 167
+lbg s0_3,"mhal_ta1a"
+lbg s0_5,"butterfly_4sp1"
+textoff
+waits 167
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+lss s0_23,"but","b11_nayamu1" ;1
+aspt2 xpos,s0_23,370
+flush 24
+msgwnd_but
+*d18175
+d [lv 0*"10"*"30101058"]`Over there, Aunt Eva,`[|][lv 0*"10"*"30101059"]` who had the figure of her younger days and who now possessed the name {f:5:Beatrice}, had a long line forming of witches wishing to bless her.`[@][lv 0*"10"*"30101060"]`It was like a witch's coronation.`[@][lv 0*"10"*"30101061"]`Countless gold butterflies flapped their wings, directing this fantastical, gold‐sparkling space.`[\]
+textoff
+waits 167
+csp_slot s0_21
+csp_slot s0_22
+csp_slot s0_23
+flush 8
+vol_bgm 80,2000
+wait 2000
+msgwnd_non
+*d18176
+d ` They were all praising her.`[@]`As I stared from the distance,`[\]
+*d18177
+d ` I looked at the {f:5:Beatrice} given new life, who had a slightly embarrassed smile on her face.`[\]
+*d18178
+d `......Her expression, which had been hesitant at first,`[@]` seemed to be full of a happiness that she had finally become aware of.`[\]
+*d18179
+d `In that expression, there wasn't a trace of the madness that had led her to that insane laugh before the gold.`[@]` There was only the innocence of relishing her joy.`[\]
+*d18180
+d `Since I deny witches, I couldn't accept her as she showed that joyful expression at her witch succession ceremony...`[@]`......However, as I watched that innocent smile,`[\]
+csp_slot s0_5
+textoff
+waits 167
+lbg s0_3,"portrait4"
+flush 6
+*d18181
+d ` ...it made me feel like I wanted to celebrate her, just for now.`[@]`The moment when a strong effort is successful and rewarded is always beautiful.`[\]
+*d18182
+d `Aunt Eva, who had always yearned to succeed the head, and had worked hard since she was young without being rewarded,`[\]
+*d18183
+d ` ......had spectacularly taken hold of the chance given to her by the riddle of the epitaph, ...and had finally gained that position.`[@]`How divine is the smile of a person whose childhood dreams have been granted?`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 6
+*d18184
+d `I definitely won't accept witches.`[\]
+*d18185
+d `{n}But, ......Battler put his hands together, making a small sound.`[@]`Clap. Clap.`[\]
+lbg s0_5,"butterfly_4sp1"
+textoff
+waits 167
+lbg s0_3,"mhal_ta1a"
+lss s0_9,"ev2","a11_warai2" ;1
+flush 22
+*d18186
+d `......It didn't reach her ears, ...but it did celebrate her.`[\]
+*d18187
+d `".........Congratulations, Aunt Eva."`[@]`You solved the riddle of the epitaph masterfully, and before anyone else.`[\]
+*d18188
+d `{n}It's your victory without any complaints.`[\]
+*d18189
+d `............I won't accept all that about the Golden Witch and so on, but I will accept you as the new head of the Ushiromiya family, and I will celebrate you honestly.`[\]
+textoff
+waits 167
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+flush 10,367
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+flush 28
+lips_sprite s0_9_b
+lss s0_23,"but","b11_majime1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+lss s0_23,"but","b11_futeki1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_but
+*d18190
+d [lv 0*"10"*"30101062"]`"...............Hmph."`[\]
+msgwnd_non
+*d18191
+d `As though lured by Battler's applause, Beato also clapped.`[@]`...It was a slightly odd scene.`[\]
+*d18192
+d ` Because Battler and Beato, who opposed each other, were standing next to one another, applauding for the same person.`[\]
+lss s0_25,"bea","a11_defo1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_bea
+*d18193
+d [lv 0*"27"*"30701469"]`"I'm not clapping for a witch.`[\]
+msgwnd_non
+*d18194
+d ` ...I'm clapping for all of Aunt Eva's efforts up until now."`[\]
+*d18195
+d `"I am too.`[@]` I am offering Eva my sincere congratulations in applause for the tremendous accomplishment of solving that epitaph."`[\]
+lss s0_23,"but","b11_niramu2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_but
+*d18196
+d [lv 0*"10"*"30101063"]`".........Hmm.`[@][lv 0*"10"*"30101064"]` ...I don't like the fact that I'm clapping with you.`[\]
+lss s0_25,"bea","a31_warai1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_bea
+*d18197
+d [lv 0*"27"*"30701470"]` ...But, well, I won't worry about it for now.`[@][lv 0*"27"*"30701471"]` ...I guess it doesn't hurt to clap with you every once in a while."`[\]
+lss s0_23,"but","b11_futeki1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_but
+*d18198
+d2 [lv 0*"10"*"30101065"]`"Mmhm.`[@][lv 0*"10"*"30101066"]` It isn't bad once in a while.`[@][#][*][lv 0*"10"*"30101067"]` ......Still, it is fun to applaud.`[@][lv 0*"10"*"30101068"]` Even though it was Eva who achieved it and not me, for some reason, I'm starting to feel happy too."`[\]
+wait_on_d 0
+lss s0_23,"but","b11_warai2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_25,"bea","a11_defo2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_bea
+*d18199
+d2 [lv 0*"27"*"30701472"]`"That's because celebrating someone means the same thing as empathizing with their joy, and sharing in it."`[@][lv 0*"27"*"30701473"]`"I see.`[@][#][*][lv 0*"27"*"30701474"]` Then, I must even be sharing this irrational happy feeling with you.`[@][lv 0*"27"*"30701475"]` ......Since we are a pair of enemies trying to make each other submit, it is an odd experience."`[\]
+wait_on_d 0
+lss s0_25,"bea","a11_warai2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_23,"but","b11_defo2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_but
+*d18200
+d [lv 0*"10"*"30101069"]`"Well, ......just for now, let's have a truce and clap, alright?"`[\]
+lss s0_25,"bea","a11_futeki2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_bea
+*d18201
+d [lv 0*"27"*"30701476"]`Beato laughed impishly, playing around and applauding even louder,`[@][lv 0*"27"*"30701477"]` as though eagerly trying not to lose to Battler as she clapped.`[@][lv 0*"27"*"30701478"]`Battler went along with her, and clapped even louder.`[\]
+lss s0_23,"but","b11_futeki1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_but
+*d18202
+d [lv 0*"10"*"30101070"]`And when he did, as though he had ended some kind of ceremony, everyone present put their hands together in loud applause, and highly praised the newly born {f:5:Beatrice}.`[\]
+lss s0_25,"bea","a11_warai2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_non
+*d18203
+d `It was just as though Battler's and Beato's applause had been the final thing needed for her succession......`[@]`It was just as though Battler's and Beato's applause had been the final thing needed for her succession......`[\]
+lss s0_23,"but","b11_warai1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+*d18204
+d `It was just as though Battler's and Beato's applause had been the final thing needed for her succession......`[\]
+textoff
+waits 167
+csp_slot s0_21
+csp_slot s0_22
+csp_slot s0_25
+csp_slot s0_23
+lips_sprite s0_9_b,"ev2"
+flush 8
+seplay 1,54,100
+seplay 3,54,100
+*d18205
+d `It was just as though Battler's and Beato's applause had been the final thing needed for her succession......`[\]
+seplay 2,54,100
+*d18206
+d `It was just as though Battler's and Beato's applause had been the final thing needed for her succession......`[\]
+textoff
+waits 167
+vol_bgm 100,3000
+wait 3000
+csp_slot s0_5
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 42
+wait 2000
+vol_mix_fade 7000
+vol_bgm -1,7000
+wait 7000
+break_glass
+wait 500
+display_clock 1470,740,90,630,630,0,0
+wait 1667
+flush 10,500
+wait 83
+ch_done flag_scenario_3_11

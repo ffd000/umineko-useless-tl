@@ -1,0 +1,2494 @@
+*umi4_6
+;マリアージュ・ソルシエール
+log_reset
+mov $name_chapter_r_click,r_click_chapters_4_6
+mov $name_chapter_save, "4_06"
+new_chapter date_scenario_4_6,scenario_4_6
+gstc 233
+meplay 1,29,71
+textoff
+waits 167
+lbg s0_3,"oct_1998"
+flush 22
+wait 4000
+textoff
+waits 167
+lbg s0_3,"black"
+flush 2
+textoff
+waits 167
+lbg s0_3,"cit_1a"
+flush 6
+wait 2000
+textoff
+waits 167
+lbg s0_3,"black"
+flush 25
+vol_me 1,50
+bgmplay 1,0,0
+vol_bgm 70,2000
+vol_me 1,0,2000
+wait 2000
+textoff
+waits 167
+lbg s0_3,"res_i4a"
+flush 24
+*d23573
+d [lv 0*"23"*"44400001"]`"Yes, I will never forget it.`[@][lv 0*"23"*"44400002"]` It happened in April of 1987.`[@][lv 0*"23"*"44400003"]` I received a certain strange request from a friend."`[\]
+*d23574
+d [lv 0*"23"*"44400004"]`"......A large collection of books, the former possessions of a very rich man, were being sold at auction,`[@][lv 0*"23"*"44400005"]` and it was thought that some of them might have been extremely valuable from an archaeological and folkloristic perspective, as well as in an occult sense,`[@][lv 0*"23"*"44400006"]` so this friend wanted me to take a private look at their value."`[\]
+lss s0_8,"enj","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d23575
+d [lv 0*"11"*"42000578"]`"..................'87.`[@][lv 0*"11"*"42000579"]` Half a year after the crime on Rokkenjima."`[\]
+lss s0_10,"pro","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_non
+*d23576
+d [lv 0*"23"*"44400007"]`"Correct.`[@][lv 0*"23"*"44400008"]` Those books were explained to have escaped the disaster on Rokkenjima.`[@][lv 0*"23"*"44400009"]` I was told that the owner of the island, {nobr:Mrs. Ushiromiya} Eva, had put them up for auction."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_3,"res_i4a"
+flush 2
+*d23577
+d `They appeared to be at a high‐class restaurant.`[@]` Ange and a middle‐aged man were sitting across from one another in a pair of secluded and quiet seats.`[\]
+*d23578
+d `Amakusa could be seen by the restaurant's entrance.`[@]`{n}He was probably keeping a lookout for pursuers from the Sumadera family.`[\]
+lss s0_9,"pro","a11_warai1" ;1
+flush 10,167
+*d23579
+d `The scholarly seeming man across from Ange spoke politely, but with enthusiasm.`[\]
+*d23580
+d `He hadn't so much as touched the food in front of him, which communicated effectively the passion with which he was speaking.`[\]
+*d23581
+d `He was a professor at a certain university, known in particular as an authority on Western folklore.`[\]
+*d23582
+d `However, among his life works, that was only the one with the most acceptable public face.`[\]
+*d23583
+d `His true life work...`[@]`was the study of Western occultism, Western magic, alchemy, and all else falling under the umbrella of "the occult",`[@]` as well as demonology.`[\]
+*d23584
+d2 `In short, he was one of the people best positioned to understand the details of Kinzo's research...`[#][*][\]
+wait_on_d 0
+gstc 234
+seplay 9,1060,71
+d_continue
+wait_on_d -1
+lss s0_9,"pro","a11_defo1" ;1
+flush 10,167
+msgwnd_pro
+*d23585
+d [lv 0*"23"*"44400010"]`"First, what I learned by appraising the books was that {nobr:Mrs. Ushiromiya} Eva had absolutely no education in folkloristics,`[@][lv 0*"23"*"44400011"]` and that the original owner of the books, {nobr:Mr. Ushiromiya} Kinzo, was without doubt one of the top five authorities on demonology in Japan."`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 22
+msgwnd_non
+*d23586
+d `April, 1987.`[\]
+*d23587
+d `A major city antique shop came into possession of a large quantity of ancient texts thought to have a high historical value.`[\]
+*d23588
+d `The texts had been entrusted to them by Ushiromiya Eva, who had requested for them to be put up for auction on her behalf.`[\]
+textoff
+waits 167
+lss s0_9,"eva","a11_defo1" ;1
+color_mod2 s0_9,#ffffff
+flush 8
+*d23589
+d `At the time, everyone thought that Eva had succeeded the Ushiromiya family and obtained all the wealth for herself as the only survivor.`[\]
+*d23590
+d `However, at that point, barely half a year had passed since the accident, which was not enough for the rest of the family to be legally declared dead in absentia, even given the extraordinary circumstances.`[\]
+*d23591
+d `Because of that, Eva was thought to have been in a very tight spot financially, unable even to collect from her family's life insurance.`[\]
+*d23592
+d `It seems that she tried to sell everything of value,`[@]` and even the books kept in Kuwadorian, her location when she escaped harm, became a target of this.`[\]
+csp_slot s0_9
+textoff
+waits 167
+lbg s0_3,"different_spiral_1a"
+flush 22
+*d23593
+d `And when the authorities in the field gathered at the request of the antique shop to appraise these documents—which were later called "the Ushiromiya Library"—they were given the shock of their lives.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 28
+textoff
+waits 167
+lbg s0_3,"res_i4a"
+lss s0_9,"pro","a11_majime1" ;1
+flush 22
+msgwnd_pro
+*d23594
+d [lv 0*"23"*"44400012"]`"At least speaking from the perspective of occultism,`[@][lv 0*"23"*"44400013"]` the shock waves that discovery sent throughout the world were comparable to the discovery of the Dead Sea Scrolls."`[\]
+lss s0_9,"pro","a11_defo1" ;1
+flush 10,167
+*d23595
+d [lv 0*"23"*"44400014"]`"The reason for this is that the "Ushiromiya Library" even included some extremely important documents...`[@][lv 0*"23"*"44400015"]`which had been known to exist for more than a thousand years, but had never before been found."`[\]
+msgwnd_non
+*d23596
+d `The so‐called "romantic" side of the occult, epitomized for example by alchemy, never ceases to stir an intense fascination in dilettantes.`[\]
+*d23597
+d `Even now, it is whispered that in various places around the world, a great number of "magic books" of historical value...`[@]`might be in the secret possession of very wealthy lovers of the occult, unannounced to the public.`[\]
+*d23598
+d `The prime candidates for this are said to be items such as Leonardo da Vinci's notebooks, which are particularly popular among dilettantes.`[\]
+*d23599
+d `It is said that approximately five thousand pages of the notebooks currently exist, and over ten thousand have been lost,`[@]` but some researchers believe that a large part of this lost portion may be being monopolized by certain dilettantes and millionaires.`[\]
+*d23600
+d `It is said that because of this, even now,`[@]` dilettantes who can't help but seek these spare no expense to search around for quietly hoarded‐away and unannounced notebooks...`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 22
+*d23601
+d `There is probably no doubting that Ushiromiya Kinzo was himself one of those dilettantes.`[\]
+*d23602
+d `It is unknown what Kinzo went through to obtain these,`[@]` but undoubtedly he must have spent his vast wealth like water, to buy them off other rich people with the same hobby as him.`[\]
+*d23603
+d `The discovery of that huge number of books at the end of the 20th century, books so valuable that dilettantes were filled with the desire to hoard them away,`[@]` and their subsequent release to the public, gave the entire world a massive shock...`[\]
+textoff
+waits 167
+lbg s0_3,"res_i4a"
+lss s0_9,"pro","a11_majime1" ;1
+flush 26
+wait 500
+lss s0_9,"pro","a11_warai1" ;1
+flush 10,167
+msgwnd_pro
+*d23604
+d [lv 0*"23"*"44400016"]`"Due to this incident, the name Rokkenjima became known across the world.`[@][lv 0*"23"*"44400017"]` And at the same time, the world also received a shock at the very high probability that, due to the accident on Rokkenjima, a large amount of undiscovered books of even greater value had been lost."`[\]
+lss s0_9,"pro","a11_defo1" ;1
+flush 10,167
+*d23605
+d [lv 0*"23"*"44400018"]`"...After that discovery, the names of Rokkenjima and the Ushiromiya Library were certain to remain in our memories for all time."`[\]
+msgwnd_non
+*d23606
+d `......Our memories.`[@]` That "our" probably meant the occult neck of the woods with the same hobby as Kinzo.`[\]
+*d23607
+d `This incident caused the name of Rokkenjima to develop an important meaning within the world of the occult.`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 2
+textoff
+waits 167
+lbg s0_3,"sea_1cf"
+flush 8
+*d23608
+d `Certainly, there had been a lot of reporting about the accident on Rokkenjima, but it hadn't been on an international level.`[\]
+*d23609
+d `However, this incident circled the globe,`[@]` taking the image of Rokkenjima as a small island in the Izu archipelago, and painting it over as a demonic island with a mixture of riddles, suspicion, mystery and the occult.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 2
+*d23610
+d `In other words, until Kinzo's library was leaked to the public by Eva,`[@]` Rokkenjima had been nothing more than a nameless island that no one thought twice about,`[@]` ......and it definitely hadn't been a witch's island.`[\]
+*d23611
+d `However, when knowledge of the Ushiromiya Library spread across the world, Rokkenjima's image immediately took on an occult twist.`[\]
+textoff
+waits 167
+lbg s0_3,"res_i4a"
+lss s0_9,"pro","a11_majime1" ;1
+flush 26
+wait 500
+lss s0_9,"pro","a11_majime2" ;1
+flush 10,167
+msgwnd_pro
+*d23612
+d [lv 0*"23"*"44400019"]`"And so, what happened next was that matter with the message bottle.`[@][lv 0*"23"*"44400020"]` It is what turned that island into a witch's island.`[@][lv 0*"23"*"44400021"]` A nameless island in the Izu archipelago began to transition into an occult island, and then into the island of the mysterious witch, {f:5:Beatrice}."`[\]
+lss s0_9,"pro","a11_defo1" ;1
+flush 10,167
+*d23613
+d [lv 0*"23"*"44400022"]`"You could say that, lacking either the Ushiromiya Library or the message bottle, the Rokkenjima Witch Legend would never have been established."`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 22
+msgwnd_enj
+*d23614
+d [lv 0*"11"*"42000580"]`"......A message bottle."`[\]
+textoff
+waits 167
+lbg s0_3,"sea_3af"
+flush 22
+msgwnd_pro
+*d23615
+d [lv 0*"23"*"44400023"]`"Yes.`[@][lv 0*"23"*"44400024"]` A form of communication to an unspecified target by throwing an empty bottle with a letter sealed inside into the sea."`[\]
+*d23616
+d [lv 0*"23"*"44400025"]`"It is famous as a way of sending an SOS from a deserted island, but because of the influence of famous foreign detective novels,`[@][lv 0*"23"*"44400026"]` it has also become known as a method of confessing the truth after one's own death, like a time‐delayed will.`[@][lv 0*"23"*"44400027"]` The Rokkenjima message bottle was certainly the latter."`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+msgwnd_enj
+*d23617
+d [lv 0*"11"*"42000581"]`"......This is the thing everyone says a fisherman on a nearby island picked up?"`[\]
+textoff
+waits 167
+lbg s0_3,"ship_p1a"
+flush 22
+msgwnd_pro
+*d23618
+d [lv 0*"23"*"44400028"]`"Correct.`[@][lv 0*"23"*"44400029"]` We learned that a young fisherman on Shikinejima had picked up a wine bottle with a letter in it.`[@][lv 0*"23"*"44400030"]` This young fisherman happened to keep it out of curiosity.`[@][lv 0*"23"*"44400031"]` It was only later, when Rokkenjima fell under the global spotlight due to the Ushiromiya Library, that he announced his discovery."`[\]
+msgwnd_enj
+*d23619
+d [lv 0*"11"*"42000582"]`"Is there any chance that it was a fabrication made by the fisherman?"`[\]
+msgwnd_pro
+*d23620
+d [lv 0*"23"*"44400032"]`"Of course, we weren't able to deny that possibility.`[@][lv 0*"23"*"44400033"]` The notebook pages in the wine bottle had the signature of a certain member of the Ushiromiya family.`[@][lv 0*"23"*"44400034"]` A girl named Ushiromiya Maria.`[@][lv 0*"23"*"44400035"]` However, from the handwriting found on her former belongings, it was ascertained that the handwriting in the letter belonged to a different person."`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+msgwnd_enj
+*d23621
+d [lv 0*"11"*"42000583"]`".........A different person's handwriting......?"`[\]
+msgwnd_pro
+*d23622
+d [lv 0*"23"*"44400036"]`"Correct.`[@][lv 0*"23"*"44400037"]` At the very least, I believe there can be no doubt that it was written by a person more skilled at writing and of a greater age than her.`[@][lv 0*"23"*"44400038"]` There was a very high likelihood that it had been written by someone else using her name.`[@][lv 0*"23"*"44400039"]` Therefore, at that point in time, the contents of those notebook pages were thought to have very low credibility."`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_3,"different_spiral_1a"
+flush 8
+msgwnd_non
+*d23623
+d `However.`[\]
+*d23624
+d `Later on, a sensation was created when it came to light that on the day of the accident, a similar message bottle had been recovered from the surrounding ocean by the police in their search for evidence.`[\]
+textoff
+waits 167
+lbg s0_3,"res_i4a"
+lss s0_8,"pro","a11_majime2" ;1
+aspt2 xpos,s0_8,-370
+flush 2
+msgwnd_pro
+*d23625
+d [lv 0*"23"*"44400040"]`"It seems that, due to evidence from the surrounding area and the intact state of the bottle's seal, the police had decided that its likelihood of being a hoax was low,`[@][lv 0*"23"*"44400041"]` and that it had been cast out no earlier than a few days before the accident.`[@][lv 0*"23"*"44400042"]` And the handwriting for both matched.`[@][lv 0*"23"*"44400043"]` This caused the credibility of the notebook pages discovered by the fisherman to rise."`[\]
+lss s0_8,"pro","a11_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d23626
+d [lv 0*"23"*"44400044"]`"As for the message bottles' contents, magazines and the like seem to have been reporting on that repeatedly, but do you require an explanation all the same?"`[\]
+lss s0_10,"enj","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d23627
+d [lv 0*"11"*"42000584"]`"......No.`[@][lv 0*"11"*"42000585"]` I know about it, more or less."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_3,"note1"
+flush 2
+msgwnd_non
+*d23628
+d `Several sheets of notebook paper had been stuffed into each of the two wine bottles.`[\]
+*d23629
+d `They were extensive accounts, written in a diary‐like fashion by some unknown person calling themselves Ushiromiya Maria, of the events of the day of the accident and the day before.`[\]
+*d23630
+d `And it was these that prompted the beginning of the "Witch Legend Serial Murder Case",`[@]` and "the mystery of the Golden Witch {f:5:Beatrice}".`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_3,"mhal_2c"
+color_mod2 s0_3,#ffffff
+flush 8
+msgwnd_pro
+*d23631
+d [lv 0*"23"*"44400045"]`"These bizarre diary‐style accounts describe the Ushiromiya family members, pinned to the island by the typhoon,`[@][lv 0*"23"*"44400046"]` becoming caught up in a ritual for the resurrection of a witch, and being killed one after another in inexplicable ways."`[\]
+textoff
+waits 167
+lbg s0_3,"portrait2"
+color_mod2 s0_3,#ffffff
+flush 22
+*d23632
+d [lv 0*"23"*"44400047"]`"And at the end, the Golden Witch {f:5:Beatrice} revives, and swallows everything up into the Golden Land.`[@][lv 0*"23"*"44400048"]` ......They were written almost as though {i:this} was the complete picture of the events of that day."`[\]
+textoff
+waits 167
+lbg s0_3,"m_o1a"
+color_mod2 s0_3,#ffffff
+flush 22
+*d23633
+d [lv 0*"23"*"44400049"]`"Additionally, the state of things on the island at the time is also depicted in immense detail,`[@][lv 0*"23"*"44400050"]` and former servants who once worked for the Ushiromiya family have given testimony that the pages were definitely written by a person who knew the inside details of the island."`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_3,"res_i4a"
+lss s0_10,"enj","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 25
+msgwnd_enj
+*d23634
+d [lv 0*"11"*"42000586"]`"......So, those strange fantasy novels, the occult boom that started with the Ushiromiya Library,`[@][lv 0*"11"*"42000587"]` and the fact that the truth remains shrouded in darkness—the combination of all three of these factors is what created the legend of the Rokkenjima witch...?"`[\]
+lss s0_8,"pro","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_pro
+*d23635
+d [lv 0*"23"*"44400051"]`"Correct.`[@][lv 0*"23"*"44400052"]` Already more than ten years have passed since the incident, and it still attracts the interest of occult enthusiasts across the world."`[\]
+lss s0_8,"pro","a11_warai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d23636
+d [lv 0*"23"*"44400053"]`"No, in fact, you could say that it has become {i:increasingly} deified as time has passed.`[@][lv 0*"23"*"44400054"]` There are still many enthusiasts who try to land secretly on the shores of Rokkenjima even though that has been prohibited."`[\]
+*d23637
+d [lv 0*"23"*"44400055"]`"......Could there be another message bottle that has still not been discovered?`[@][lv 0*"23"*"44400056"]` And what really happened on that island that day?`[@][lv 0*"23"*"44400057"]` There is still much to discuss, oh yes."`[\]
+msgwnd_non
+*d23638
+d `As though he had finally remembered that he had been going on and on for some time, the man took a sip of water.`[\]
+*d23639
+d `......His potage was now cold, but it seemed that the man's hunger had already been blown away.`[\]
+lss s0_10,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d23640
+d [lv 0*"11"*"42000588"]`"......If I remember correctly, I heard that the fisherman's pages and the police's pages had completely different contents."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_3,"note1"
+flush 22
+msgwnd_pro
+*d23641
+d [lv 0*"23"*"44400058"]`"Correct.`[@][lv 0*"23"*"44400059"]` Due to that, the appeal of the Rokkenjima mystery increased even further.`[@][lv 0*"23"*"44400060"]` Inside each of the two bottles was a diary‐style account describing the events of the day of the accident and the day before.`[@][lv 0*"23"*"44400061"]` However, while they both cover the same two‐day period, the contents are completely different."`[\]
+*d23642
+d [lv 0*"23"*"44400062"]`"As though one is true and one is untrue.`[@][lv 0*"23"*"44400063"]` Or perhaps both are untrue.`[@][lv 0*"23"*"44400064"]` ...However, the beginning and the end alone {i:do} match in both."`[\]
+*d23643
+d [lv 0*"23"*"44400065"]`"At the beginning, the 18 people including the relatives are sealed up on the island by the typhoon.`[@][lv 0*"23"*"44400066"]` And at the end, everyone dies, the Golden Witch revives, and everything is swallowed up into the Golden Land."`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+msgwnd_non
+*d23644
+d `The contents of both message bottles described the events of the two days of the accident.`[\]
+*d23645
+d `But the details were completely different.`[\]
+textoff
+waits 167
+lbg s0_3,"portrait3"
+color_mod2 s0_3,#ffffff
+flush 22
+*d23646
+d `Both diaries outline a serial murder following the epitaph of the witch, but the order of the sacrifices, the manners of their deaths, and even the "tale" of the two days are different.`[\]
+*d23647
+d `However, both depict the same ultimate conclusion: everyone dies and the witch revives.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_3,"res_i4a"
+lss s0_10,"pro","a11_majime2" ;1
+aspt2 xpos,s0_10,370
+flush 26
+msgwnd_pro
+*d23648
+d [lv 0*"23"*"44400067"]`"Since the only survivor, {nobr:Mrs. Ushiromiya} Eva, remained silent about what happened on that island,`[@][lv 0*"23"*"44400068"]` the events of that entire two‐day period are shrouded in darkness."`[\]
+lss s0_10,"pro","a11_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d23649
+d [lv 0*"23"*"44400069"]`"These two diaries presented not just one, but {i:two} theories to wipe away that darkness.`[@][lv 0*"23"*"44400070"]` You could explain those two days with either diary.`[@][lv 0*"23"*"44400071"]` However, we don't know which is correct, or even if there is anything correct contained within them."`[\]
+msgwnd_non
+*d23650
+d `{m:-5:―}―Schrödinger's...cat box.`[\]
+*d23651
+d `If it isn't denied, even fiction can be truth.`[\]
+*d23652
+d `Through the media, these notebook pages had of course been shown to Eva as well, but in the end, she never broke her silence......`[\]
+lss s0_8,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d23653
+d [lv 0*"11"*"42000589"]`"Who sent the message bottles...and why?"`[\]
+lss s0_10,"pro","a11_majime2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_pro
+*d23654
+d [lv 0*"23"*"44400072"]`"Do you remember the magazine that put together a special issue for the crime's tenth anniversary? They covered that question in extensive detail.`[@][lv 0*"23"*"44400073"]` It seems that their theory is the one that garners the most support today."`[\]
+lss s0_10,"pro","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d23655
+d [lv 0*"23"*"44400074"]`"But it is rather dull.`[@][lv 0*"23"*"44400075"]` ......What happened on that island, on that day?`[@][lv 0*"23"*"44400076"]` Considering this question is the real thrill of the Witch Hunt."`[\]
+lss s0_8,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d23656
+d [lv 0*"11"*"42000590"]`"Witch Hunt...?"`[\]
+csp_slot s0_8
+csp_slot s0_10
+flush 10,167
+lss s0_9,"pro","a13_warai1" ;1
+flush 10,167
+msgwnd_pro
+*d23657
+d [lv 0*"23"*"44400077"]`"Yes, the Rokkenjima Witch Hunt—it's the name of a group of enthusiasts endeavoring to explain the truth of that crime from an occult perspective."`[\]
+*d23658
+d [lv 0*"23"*"44400078"]`"From the Ushiromiya Library to the mysterious two‐day period, the legend of the Golden Witch and more, discussion of the mysteries that surround Rokkenjima is flourishing even today among enthusiasts."`[\]
+lss s0_9,"pro","a13_defo1" ;1
+flush 10,167
+*d23659
+d [lv 0*"23"*"44400079"]`"For the ten‐year anniversary, an international convention was held in New York.`[@][lv 0*"23"*"44400080"]` I was there participating as well, representing Japan!`[@][lv 0*"23"*"44400081"]` I was able to have a variety of interactions with zealous overseas Witch Hunters."`[\]
+*d23660
+d [lv 0*"23"*"44400082"]`"Witches are a very popular category overseas.`[@][lv 0*"23"*"44400083"]` The age span of the participants was truly vast, stretching from elementary schoolers at the bottom, all the way to famous cultural figures at the top!`[@][lv 0*"23"*"44400084"]` Even in Japan, in recent years, we've finally—"`[\]
+msgwnd_non
+*d23661
+d `......You probably don't need any more explanation, but he is one of the most famous Rokkenjima Witch Hunters in Japan.`[\]
+*d23662
+d `After that, he just kept continuing on excitedly all by himself, even though I'd never asked.`[\]
+*d23663
+d `As I swirled the thin film on my potage with my spoon, I shrugged my shoulders and sighed.`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 22
+*d23664
+d `......Maybe it really had been a waste of time to research about the message bottle.`[\]
+textoff
+waits 167
+lss s0_9,"mar","a22_defo1" ;1
+color_mod2 s0_9,#ffffff
+flush 8
+*d23665
+d `No, if there was one thing I'd gotten out of this, it was the knowledge that those pages, supposedly written by Maria onee‐chan,`[@]` had actually been written by a different person faking her name.`[\]
+*d23666
+d `And that person had taken it upon themselves to write an occult story, put it into a bottle as though it was the truth, and throw it into the sea.`[\]
+meplay 1,16,71
+csp_slot s0_9
+flush 10,167
+*d23667
+d `...This raised questions for me.`[\]
+*d23668
+d `Why did they go to all the trouble of writing so much in order to prepare a suspicious letter like that?`[\]
+*d23669
+d `With a message bottle, there would be no guarantee that it would ever pass into anyone's hands.`[\]
+*d23670
+d `If their luck had been bad, it could have sunk in the ocean and never been seen by anyone.`[\]
+*d23671
+d `And even if someone were to pick it up, they might have thrown it away without even thinking twice about it.`[\]
+textoff
+waits 167
+lbg s0_3,"different_spiral_1a"
+flush 22
+*d23672
+d `......Why did they entrust their confession of the truth to the sea in such an uncertain method?`[\]
+*d23673
+d `And why did they write up multiple different tales?`[\]
+*d23674
+d `If there had been one message bottle, claiming that its story was the truth would be reckless, but not impossible.`[\]
+*d23675
+d `However, because there were two, that made both of them doubtful.`[\]
+*d23676
+d `If someone was plotting to make out those two mysterious days to be the work of a witch, that was really superfluous.`[\]
+*d23677
+d `And because there were two, it suggested that an undiscovered third one, or possibly even more, might exist.`[\]
+*d23678
+d `......In other words, the two having differing contents was making it even harder to take either of them at face value.`[\]
+textoff
+waits 167
+lbg s0_3,"portrait2"
+flush 22
+*d23679
+d `But despite their differences, the contents of the two matched in that both tales told of a witch.`[\]
+*d23680
+d `Does that mean that this is what the writer wanted to tell us.........?`[\]
+*d23681
+d `......I can only imagine that this was a crime committed for pleasure, by someone who wanted to create an illusion of a witch.`[\]
+*d23682
+d `But 17 people excluding Aunt Eva lost their lives, and a vast inheritance—and maybe even ten tons of gold—changed hands behind the scenes.`[\]
+*d23683
+d `It just doesn't make sense for the confession coming at the end of all that to be this fantasy about a witch.`[\]
+textoff
+waits 167
+lbg s0_3,"note1"
+flush 22
+*d23684
+d `I don't need to hear the magazines' reasoning to find it extremely doubtful whether the message bottles really are "diaries".`[\]
+*d23685
+d `......After all, the amount of writing was massive.`[@]` It's hard to imagine that someone actually caught up in the middle of a serial murder like that would have been able to calmly write it down.`[\]
+*d23686
+d `In that case, it's probably more realistic to say that these diaries were written slowly over a long period of time before the day prior to the accident.`[\]
+*d23687
+d `In which case, .........would that mean that everything on Rokkenjima was {i:premeditated}, and prepared for over a long stretch of time...?`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+*d23688
+d `...The fact that Aunt Eva left this world without saying anything is...detestable.`[\]
+vol_me 1,-1,1000
+textoff
+waits 167
+lbg s0_3,"hos_r1cm"
+color_mod2 s0_3,#ffffff
+flush 6
+*d23689
+d `She definitely told me on her deathbed.`[\]
+*d23690
+d `She definitely said that her reason for not telling me the truth was because it was the best way of harassing me.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+*d23691
+d `......Ah, by now I'm painfully aware of it.`[\]
+*d23692
+d `Of all the things Aunt Eva did to harass me, this was probably the last and the greatest.`[\]
+*d23693
+d `...............But now that I start to think of it this way, it's pretty doubtful that Aunt Eva is the true culprit.`[\]
+*d23694
+d `Of course, this isn't because the handwriting in the message bottle differs from Aunt Eva's, or anything like that.`[\]
+*d23695
+d `......It's because in both discovered tales, Aunt Eva was included among the victims.`[\]
+textoff
+waits 167
+lbg s0_3,"different_spiral_1a"
+flush 22
+*d23696
+d `If the writer of these diaries was the culprit...`[\]
+*d23697
+d `......then maybe Aunt Eva had also been one of the targets to be killed.`[\]
+*d23698
+d `Aunt Eva had survived because {i:something had gone wrong}.`[\]
+*d23699
+d `.........Because of my hate for Aunt Eva, I had believed until now that she {i:had} to be the culprit.`[\]
+*d23700
+d `But the existence of the message bottles...`[@]`......was making me suspect that the mastermind was a far more profound and unknown person than her...`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+meplay 1,5,0
+vol_bgm 0,4000
+vol_me 1,50,4000
+wait 4000
+vol_bgm -1,1000
+textoff
+waits 167
+lbg s0_3,"res_i4a"
+flush 26
+*d23701
+d `I looked at the clock.`[@]` I'd asked everything I wanted to.`[@]`{n}Time to go.`[\]
+*d23702
+d `As he continued to speak fervently, I volunteered that I wanted to bring this discussion to a close.`[\]
+*d23703
+d `He seemed to be aware that he had gotten excited and talked too much, so he accepted this without resistance.`[\]
+lss s0_10,"enj","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d23704
+d [lv 0*"11"*"42000591"]`"Thank you very much for today.`[@][lv 0*"11"*"42000592"]` I'm glad to have had the opportunity to hear your valuable stories."`[\]
+lss s0_8,"pro","a12_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_pro
+*d23705
+d [lv 0*"23"*"44400085"]`"......No, no.`[@][lv 0*"23"*"44400086"]` It was truly a joy to be able to welcome a young lady as a new friend of the Witch Hunt.`[@][lv 0*"23"*"44400087"]` I have many precious documents that I couldn't show you because of this change to a different venue.`[@][lv 0*"23"*"44400088"]` I should be glad to show you them at the next chance we get."`[\]
+lss s0_10,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d23706
+d2 [lv 0*"11"*"42000593"]`"Thank you, Professor.`[@][#][*][lv 0*"11"*"42000594"]` ............Could I ask you one more thing?"`[\]
+wait_on_d 0
+lss s0_10,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_8,"pro","a11_warai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_pro
+*d23707
+d [lv 0*"23"*"44400089"]`"Yes, what is it?"`[\]
+lss s0_10,"enj","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d23708
+d [lv 0*"11"*"42000595"]`"Professor, what made you interested in witches...no, in occultism and demonology?"`[\]
+lss s0_8,"pro","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_pro
+*d23709
+d [lv 0*"23"*"44400090"]`"I must admit, being asked that is somewhat embarrassing.`[@][lv 0*"23"*"44400091"]` ......Simply put, I used to think that if only I could use magic, I wouldn't be beaten by the big school bully,`[@][lv 0*"23"*"44400092"]` and this childhood fantasy of mine went straight on to become my life work.`[@][lv 0*"23"*"44400093"]` Because the primitive yearning for power unknown is as universal today as it ever was in the past."`[\]
+lss s0_10,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d23710
+d [lv 0*"11"*"42000596"]`"Professor, if you could, would you want to become a witch?`[@][lv 0*"11"*"42000597"]` Do you still dream of being able to use magic at will?"`[\]
+lss s0_8,"pro","a11_warai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_pro
+*d23711
+d [lv 0*"23"*"44400094"]`"But of course.`[@][lv 0*"23"*"44400095"]` Even though, at this age, I understand rationally that there is no such thing,`[@][lv 0*"23"*"44400096"]` I find myself unable to forget my child‐like dreams of flying in the sky and turning scrap iron into gold.`[@][lv 0*"23"*"44400097"]` ......Hahaha, if you would, please keep this a secret from my students."`[\]
+lss s0_10,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d23712
+d [lv 0*"11"*"42000598"]`".........If I told you that actually, I {i:am} a witch,`[@][lv 0*"11"*"42000599"]` would you believe it?"`[\]
+lss s0_8,"pro","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_pro
+*d23713
+d [lv 0*"23"*"44400098"]`"Hahahaha.`[@][lv 0*"23"*"44400099"]` It's my pet theory from my few experiences with women that they are {i:all} witches."`[\]
+msgwnd_non
+*d23714
+d `Ange snorted at the old professor, who was undoubtedly an earnest scholar, and unlikely had any experiences with women at all.`[\]
+lss s0_10,"enj","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d23715
+d [lv 0*"11"*"42000600"]`"Oh, yes.`[@][lv 0*"11"*"42000601"]` And one final question.`[@][lv 0*"11"*"42000602"]` ......Professor, have you seen the original message bottle itself?"`[\]
+lss s0_8,"pro","a11_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_pro
+*d23716
+d [lv 0*"23"*"44400100"]`"I have indeed."`[\]
+lss s0_10,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d23717
+d [lv 0*"11"*"42000603"]`"In that case, are you also well acquainted with the handwriting?"`[\]
+lss s0_8,"pro","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_pro
+*d23718
+d [lv 0*"23"*"44400101"]`"Of course.`[@][lv 0*"23"*"44400102"]` I am not a specialist in that area, but at least when it comes to the handwriting of the message bottle, I am proud to be the most knowledgeable in Japan."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 24
+textoff
+waits 167
+lbg s0_3,"book1"
+flush 80
+vol_me 1,-1,1000
+msgwnd_non
+*d23719
+d `At that point, Ange set a book on the table with a thud.`[\]
+bgmplay 49,71,0
+msgwnd_pro
+*d23720
+d [lv 0*"23"*"44400103"]`"............And this is?`[@][lv 0*"23"*"44400104"]` I have never seen it before."`[\]
+msgwnd_non
+*d23721
+d `He prided himself on his thorough knowledge of all literature related to Rokkenjima, but he looked bewildered at this binding that he had never laid eyes on before...`[\]
+*d23722
+d `Ignoring him, Ange silently flipped through the pages, opened to one of them, and showed him.`[\]
+seplay 1,1010,71
+textoff
+waits 167
+lbg s0_3,"black"
+flush 64
+*d23723
+d `On that page was a handwritten paragraph beginning with "To my dear witch apprentice".`[\]
+*d23724
+d `......And at the end, there was a signature in {ruby:katakana:capitals} that said "{f:5:Beatrice}".`[\]
+textoff
+waits 167
+lbg s0_3,"res_i4a"
+lss s0_8,"pro","a11_komaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 66
+msgwnd_pro
+*d23725
+d [lv 0*"23"*"44400105"]`"Wh‐what is............"`[\]
+msgwnd_non
+*d23726
+d `The instant he glanced at it,`[@]` his face went pale.`[@]` ......She knew the answer before asking, but Ange asked it aloud anyway.`[\]
+lss s0_10,"enj","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d23727
+d [lv 0*"11"*"42000604"]`"Does the handwriting in the paragraph on this page match the handwriting in the message bottles...?"`[\]
+lss s0_8,"pro","a11_odoroki1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_pro
+*d23728
+d [lv 0*"23"*"44400106"]`"W‐well, uhh...... I wou—I would have to take this home and investigate it in detail to, to...`[@][lv 0*"23"*"44400107"]` ...P‐pardon me for asking, but what in the world is this book?!`[@][lv 0*"23"*"44400108"]` Where did you...?!"`[\]
+seplay 1,1010,50
+csp_slot s0_10
+flush 10,167
+msgwnd_non
+*d23729
+d `The man stretched out his hand, but Ange nimbly pulled it out of his reach.`[@]`{n}...As though telling him not to touch it with his filthy hands.`[\]
+textoff
+waits 167
+csp_slot s0_8
+lbg s0_3,"res_i4a"
+flush 23
+lss s0_9,"enj","b12_nayamu1" ;1
+flush 10,167
+msgwnd_enj
+*d23730
+d [lv 0*"11"*"42000605"]`"Thank you.`[@][lv 0*"11"*"42000606"]` Just that reaction is all I need.`[@][lv 0*"11"*"42000607"]` Thank you very much for today.`[@][lv 0*"11"*"42000608"]` ......Here is the reward I promised."`[\]
+msgwnd_non
+*d23731
+d `As she stood up, clutching Maria's diary,`[@]` Ange casually tossed a wad of ten‐thousand‐yen notes wrapped with a band of paper onto the table.`[\]
+seplay 1,13,71
+csp_slot s0_9
+flush 10,167
+*d23732
+d `As she turned her back to him and made to leave, the man raised his voice as though clinging to her.`[\]
+*d23733
+d `But Ange never stopped walking.`[\]
+lss s0_9,"pro","a13_odoroki1" ;1
+flush 10,167
+msgwnd_pro
+*d23734
+d [lv 0*"23"*"44400109"]`"I, I beg you...!!`[@][lv 0*"23"*"44400110"]` What in the world is that book?!`[@][lv 0*"23"*"44400111"]` I don't need a reward, just, please, show me that book...!!"`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 24
+msgwnd_enj
+*d23735
+d [lv 0*"11"*"42000609"]`"......Both you and I are fellow Witch Hunters, but it looks like we aren't pursuing it at the same level.`[@][lv 0*"11"*"42000610"]` You're entertaining yourself with the outside of the cat box.`[@][lv 0*"11"*"42000611"]` And what I want to know about is the inside of the cat box."`[\]
+*d23736
+d [lv 0*"11"*"42000612"]`"......And this book is the key to opening it.`[@][lv 0*"11"*"42000613"]` It's too good for you.`[@][lv 0*"11"*"42000614"]` Well then.`[@][lv 0*"11"*"42000615"]` <Goodbye, gentlemen>. <Have a nice day>."`[\]
+msgwnd_pro
+*d23737
+d [lv 0*"23"*"44400112"]`"P‐please, wait...!!`[@][lv 0*"23"*"44400113"]` {i:Sumadera‐san}...!!!"`[\]
+msgwnd_non
+*d23738
+d `His voice didn't reach her.`[@]` She had already joined up with Amakusa and gone into the car......`[\]
+textoff
+waits 167
+vol_mix_fade 3000
+vol_bgm -1,3000
+wait 3000
+wait 1000
+meplay 1,29,71
+meplay 2,30,71
+textoff
+waits 167
+lbg s0_3,"car_i3c"
+flush 26
+msgwnd_ama
+*d23739
+d [lv 0*"20"*"43000039"]`"Did you find anything?"`[\]
+spriteset_enable 2
+aspritesetpt xpos,2,-1920
+textoff
+waits 167
+lbg s2_3,"car_i3b2"
+lss s2_8,"enj","a11_nayamu1" ;1
+aspt2 xpos,s2_8,-370
+mask_set msk1,msk_cutc,2
+flush 1 ;flush2: 1 frames
+aspritesetpt xpos,2,-400,500
+spritesetptwait xpos,2
+wait 17
+msgwnd_enj
+*d23740
+d [lv 0*"11"*"42000616"]`"......At the very end.`[@][lv 0*"11"*"42000617"]` I was right.`[@][lv 0*"11"*"42000618"]` The one who wrote the message bottles was {f:5:Beatrice} herself."`[\]
+spriteset_enable 1
+aspritesetpt xpos,1,1920
+textoff
+waits 167
+lbg s1_3,"car_i3b2"
+lss s1_10,"ama","a11_akuwarai1" ;1
+aspt2 xpos,s1_10,370
+mask_set msk2,msk_cutb,1
+flush 1 ;flush2: 1 frames
+aspritesetpt xpos,1,400,500
+spritesetptwait xpos,1
+wait 17
+msgwnd_ama
+*d23741
+d [lv 0*"20"*"43000040"]`"Now that's <cool>.`[@][lv 0*"20"*"43000041"]` So it's settled, is it, the witch exists?"`[\]
+lss s2_8,"enj","a11_fuman2" ;1
+aspt2 xpos,s2_8,-370
+flush 10,167
+msgwnd_enj
+*d23742
+d [lv 0*"11"*"42000619"]`"Who knows.`[@][lv 0*"11"*"42000620"]` .........Mind if I sleep?`[@][lv 0*"11"*"42000621"]` I'll bet that prattling professor gets lost in his own little world in lectures and has kids falling asleep left, right, and center."`[\]
+lss s1_10,"ama","a11_defo2" ;1
+aspt2 xpos,s1_10,370
+flush 10,167
+msgwnd_ama
+*d23743
+d [lv 0*"20"*"43000042"]`"Sure, sure, take a rest."`[\]
+csp -11
+csp msk2
+csp -12
+csp msk1
+meplay 3,30,100
+textoff
+waits 167
+lbg s0_3,"car_i3c"
+flush 22
+msgwnd_enj
+*d23744
+d [lv 0*"11"*"42000622"]`".........Still, that went really well.`[@][lv 0*"11"*"42000623"]` That guy believed I was Sumadera until the very end."`[\]
+msgwnd_non
+*d23745
+d `The Sumadera family had cast out a net beforehand over any people Ange might try to contact.`[\]
+*d23746
+d `They had offered a reward for anyone who could detain Ushiromiya Ange if she appeared.`[\]
+*d23747
+d `Ange had foreseen that and {i:snatched it away}.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+*d23748
+d `She had called herself Sumadera, and after skillfully tricking the man by saying her own subordinates would set up an ambush, she had taken him with her.`[\]
+textoff
+waits 167
+wait 1000
+vol_me 1,-1,1000
+vol_me 2,-1,1000
+vol_me 3,-1,1000
+textoff
+waits 167
+textoff
+waits 167
+lbg s0_3,"pro_o1a"
+flush 25
+*d23749
+d `So when the Sumadera pursuers reached the professor's house, there was no longer anyone there...`[\]
+bgmplay 86,90,0
+*d23750
+d [lv 0*"99"*"mafmd4003"]`"According to the family, a young man and woman calling themselves Sumadera visited this morning,`[@][lv 0*"99"*"mafmd4004"]` took the professor out with them, and still have not returned.`[@][lv 0*"99"*"mafmd4005"]` ......There is a chance we were outmaneuvered."`[\]
+lss s0_9,"kas","a11_akuwarai1" ;1
+flush 10,167
+msgwnd_kas
+*d23751
+d [lv 0*"22"*"44300040"]`"..................What a bad child that Ange‐chan is.`[@][lv 0*"22"*"44300041"]` ......I wonder if that craftiness is from Nee‐san's blood.`[@][lv 0*"22"*"44300042"]` ......To think that she would casually take on the name Sumadera after saying so often how she'd hate to call herself that..."`[\]
+meplay 1,17,71
+lss s0_9,"kas","a11_warai1" ;1
+flush 10,167
+*d23752
+d [lv 0*"22"*"44300043"]`"............Hoh‐hoh‐hoh‐hoh‐ho.`[@][lv 0*"22"*"44300044"]` ...The professor should be returning soon.`[@][lv 0*"22"*"44300045"]` When he does, we must serve him some tea..."`[\]
+msgwnd_non
+*d23753
+d [lv 0*"99"*"mafmb4007"]`"...Ye‐...yes.`[@][lv 0*"99"*"mafmb4008"]` Understood."`[\]
+lss s0_9,"kas","a11_warai2" ;1
+flush 10,167
+msgwnd_kas
+*d23754
+d2 [lv 0*"22"*"44300046"]`"..................I wonder if she thinks she's leading me around by the nose.`[@][lv 0*"22"*"44300047"]` She is such a naughty child.`[@][#][*][lv 0*"22"*"44300048"]` ............*giggle*giggle*, ......hoh‐hoh‐hoh‐ho{0}ho{0}ho{0}ho{0}hohoho!!"`[\]
+wait_on_d 0
+lss s0_9,"kas","a21_akuwarai3" ;1
+flush 10,167
+d_continue
+wait_on_d -1
+msgwnd_non
+*d23755
+d `With a demonic look on her face, Kasumi violently stamped her heel.`[\]
+textoff
+waits 167
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 1
+vol_mix_fade 1000
+vol_bgm -1,1000
+wait 1000
+seplay 2,12,70
+wait 3000
+set_window_simple 80
+meplay 1,5,50
+*d23756
+d `I'll teach you.`[@]`{n}About my Magic of Origins.`[\]
+*d23757
+d `No, I taught you before, right?`[@]`{n}And you used to be able to use it.`[@]`{n}Did you forget......?`[\]
+*d23758
+d `You were also a witch apprentice, Ange, with your name entered into Mariage Sorcière, weren't you......?`[\]
+set_name_window_non
+textoff
+waits 167
+vol_mix_fade 2000
+wait 2000
+textoff
+waits 167
+lbg s0_3,"hot_r1c"
+flush 22
+bgmplay 90,71,0
+msgwnd_enj
+*d23759
+d [lv 0*"11"*"42000624"]`".........I also...joined in as one of the witches, didn't I..."`[\]
+msgwnd_non
+*d23760
+d `I closed Maria onee‐chan's diary and flopped down on a very high‐class‐looking bed.`[\]
+*d23761
+d `Since I had fallen into a pretty deep sleep in the car, it was taking longer than usual for drowsiness to set in, and I had been spending a long time reading the diary as I waited for that.`[\]
+*d23762
+d `This was a super‐expensive hotel in the city.`[@]` ...Expensive hotels that are often used by the rich and famous have an abnormally strong duty of confidentiality, out of concern for their various circumstances.`[\]
+*d23763
+d `This made it a very convenient place for Ange, on the run from her pursuers.`[\]
+*d23764
+d `The idea that runaways spend their nights hiding in cheap hotels is a commoner's way of thinking.`[\]
+*d23765
+d `......For Ange, who possessed all the wealth of the Ushiromiya family, the life of a runaway was truly comfortable.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+*d23766
+d `Of course, as a man, Amakusa was in a separate room despite being her guard.`[@]` Ange was using the bedroom of the suite, while Amakusa was lying down on the living room sofa.`[\]
+*d23767
+d `...Amakusa said something about how the sofa here was more comfortable than his own bed recently.`[@]` Poor guy.`[\]
+textoff
+waits 167
+lbg s0_3,"hot_r1a"
+flush 26
+*d23768
+d `When I looked at the clock,`[!w500]` ......I saw that it was almost 2 a.m.`[\]
+*d23769
+d `Still not getting sleepy.`[@]` ............I sighed deeply.`[\]
+*d23770
+d `Even though there was no wind, I suddenly got the feeling that Maria onee‐chan's diary had fluttered open.`[\]
+textoff
+waits 167
+lss s0_9,"mar","b11_niyari1" ;1
+aspt2 breakup,s0_9,1000
+aspt2 alpha,s0_9,0
+flush 1
+aspt2 breakup,s0_9,0,2000
+aspt2 alpha,s0_9,255,2000
+sptwait2 breakup,s0_9
+gstc 235
+seplay 9,1060,71
+*d23771
+d `......Then, Onee‐chan appeared.`[@]`{n}Her form was no longer the normal one that I knew.`[\]
+*d23772
+d `...She was wearing the dress that {f:5:Beatrice} had given her after acknowledging her status as a witch.`[\]
+msgwnd_mar
+*d23773
+d [lv 0*"13"*"40400605"]`".........If you don't get some sleep, it'll be tough tomorrow, you know?"`[\]
+csp_slot s0_9
+flush 10,167
+lss s0_8,"mar","b11_niyari1" ;1
+aspt2 xpos,s0_8,-370
+lss s0_10,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d23774
+d [lv 0*"11"*"42000625"]`"If I were a witch too,`[@][lv 0*"11"*"42000626"]` ......I could use magic, right?"`[\]
+lss s0_8,"mar","b11_warai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_mar
+*d23775
+d [lv 0*"13"*"40400606"]`"...Yep.`[@][lv 0*"13"*"40400607"]` Could.`[@][lv 0*"13"*"40400608"]` I taught you, didn't I?`[@][lv 0*"13"*"40400609"]` How to use it.`[@][lv 0*"13"*"40400610"]` ......And you were able to, once."`[\]
+lss s0_10,"enj","a11_komaru1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d23776
+d [lv 0*"11"*"42000627"]`"...............I remember.`[@][lv 0*"11"*"42000628"]` ......I've started wanting to."`[\]
+lss s0_8,"mar","b11_niyari1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_mar
+*d23777
+d [lv 0*"13"*"40400611"]`"Did you get lonely...?"`[\]
+lss s0_10,"enj","a11_komaru2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d23778
+d [lv 0*"11"*"42000629"]`"..................Not really.`[@][lv 0*"11"*"42000630"]` ......It's not like having a different pillow every night is that tough."`[\]
+lss s0_8,"mar","b11_warai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_mar
+*d23779
+d [lv 0*"13"*"40400612"]`".........The first step to magic can be loneliness, or boredom,`[@][lv 0*"13"*"40400613"]` or any reason as small as that."`[\]
+lss s0_10,"enj","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d23780
+d [lv 0*"11"*"42000631"]`"Even killing time until you get tired?"`[\]
+lss s0_8,"mar","b11_akuwarai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_mar
+*d23781
+d [lv 0*"13"*"40400614"]`"Yep.`[@][lv 0*"13"*"40400615"]` I'm happy that you remembered about magic one more time."`[\]
+msgwnd_non
+*d23782
+d `..............................`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 25
+vol_mix_fade 2000
+vol_bgm -1,2000
+wait 2000
+wait 1000
+bgmplay 93,71,0
+*d23783
+d `......It's been quite a long time since I last used magic.`[\]
+*d23784
+d `At one point, with Maria onee‐chan's introduction, ......I touched a corner of it, and opened the door a tiny bit.`[\]
+*d23785
+d `So, ......I should still remember that sensation.`[\]
+textoff
+waits 167
+lbg s0_3,"hot_r1a"
+lss s0_10,"mar","b11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 24
+msgwnd_mar
+*d23786
+d [lv 0*"13"*"40400616"]`"......Right now, your magical power has declined significantly, Ange.`[@][lv 0*"13"*"40400617"]` ...If you don't stick to the basics, it'll be hard, okay?"`[\]
+lss s0_8,"enj","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d23787
+d [lv 0*"11"*"42000632"]`"Sure.`[@][lv 0*"11"*"42000633"]` ...............Checking all directions.`[@][lv 0*"11"*"42000634"]` Quiet space secured."`[\]
+lss s0_10,"mar","b11_odoroki1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_mar
+*d23788
+d [lv 0*"13"*"40400618"]`"What about Amakusa‐san?"`[\]
+lss s0_8,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d23789
+d [lv 0*"11"*"42000635"]`".....................`[@][lv 0*"11"*"42000636"]` ............He's sleeping."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 23
+msgwnd_non
+*d23790
+d `After opening the door to the living room a crack, I could see the blanket caterpillar on the sofa roll over in its sleep.`[\]
+textoff
+waits 167
+lbg s0_3,"hot_r1a"
+lss s0_8,"mar","b11_fukigen2" ;1
+aspt2 xpos,s0_8,-370
+flush 26
+msgwnd_mar
+*d23791
+d [lv 0*"13"*"40400619"]`"......With your magical power as weak as it is now, the anti‐magic power is affecting you too much.`[@][lv 0*"13"*"40400620"]` ......Not just the sight of people,`[@][lv 0*"13"*"40400621"]` but voices, sounds, and even the presence of people will get in the way of your magic."`[\]
+lss s0_8,"mar","b11_odoroki1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d23792
+d [lv 0*"13"*"40400622"]`"......Sever those completely.`[@][lv 0*"13"*"40400623"]` Like how ancient magicians shut themselves up in ateliers to preserve their isolation."`[\]
+lss s0_10,"enj","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d23793
+d [lv 0*"11"*"42000637"]`"I remember.`[@][lv 0*"11"*"42000638"]` ......The very existence of {y:0:Human}{n:0:human}s blocks magic.`[@][lv 0*"11"*"42000639"]` ...Therefore, the very act of showing magic to humans is the sign of a high‐level witch..."`[\]
+msgwnd_non
+*d23794
+d `Obtain a quiet space for yourself alone.`[@]`{n}......That should cover it for the preparation of a space to use magic.`[\]
+lss s0_8,"mar","b11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_mar
+*d23795
+d [lv 0*"13"*"40400624"]`".........Next is the vessel.`[@][lv 0*"13"*"40400625"]` ...Right now, that's as important for you as a bicycle having training wheels—no, a chain."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"hot_r1c"
+flush 25
+msgwnd_enj
+*d23796
+d [lv 0*"11"*"42000640"]`"...........................`[@][lv 0*"11"*"42000641"]` .........These would...`[|][lv 0*"11"*"42000642"]`.........obviously...`[|][lv 0*"11"*"42000643"]`not be possible, right..."`[\]
+msgwnd_non
+*d23797
+d `Ange rubbed her own head.`[\]
+*d23798
+d `...She was wearing hair accessories with pink beads attached.`[\]
+*d23799
+d `They felt a little childish for Ange's style, but she had never taken them off for a single day.`[\]
+textoff
+waits 167
+lbg s0_3,"hot_r1a"
+lss s0_10,"mar","b11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 26
+lss s0_10,"mar","b11_fukigen2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_mar
+*d23800
+d [lv 0*"13"*"40400626"]`"..................Yeah.`[@][lv 0*"13"*"40400627"]` .........That really is impossible for you right now, Ange.`[@][lv 0*"13"*"40400628"]` ...If you had practiced every single day since then,`[@][lv 0*"13"*"40400629"]` you might have become able to summon him by now."`[\]
+lss s0_8,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d23801
+d [lv 0*"11"*"42000644"]`"........................`[@][lv 0*"11"*"42000645"]` If I were to start training now, how long would it take?"`[\]
+lss s0_10,"mar","b11_odoroki1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_mar
+*d23802
+d [lv 0*"13"*"40400630"]`".........It's said that a year of witch training as a child is worth ten in old age.`[@][lv 0*"13"*"40400631"]` You'll need a strong resolution."`[\]
+lss s0_8,"enj","a11_komaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d23803
+d [lv 0*"11"*"42000646"]`"You mean like Ushiromiya Kinzo?`[@][lv 0*"11"*"42000647"]` ............So private tutoring from a young age is important for piano, violin and magic."`[\]
+lss s0_10,"mar","b11_komaru1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_mar
+*d23804
+d2 [lv 0*"13"*"40400632"]`"Your power has weakened since the time you were first able to use magic, Ange.`[@][#][*][lv 0*"13"*"40400633"]` ...Don't overdo it, and stick to the basics."`[\]
+wait_on_d 0
+lss s0_10,"mar","b11_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 25
+textoff
+waits 167
+lbg s0_3,"hot_r1c"
+flush 22
+msgwnd_non
+*d23805
+d `After regretfully rubbing the things on my head one more time, I let it go.`[\]
+*d23806
+d `Then I started fishing through my knapsack.`[@]`{n}...Looking for anything that might make a good vessel.`[\]
+msgwnd_enj
+*d23807
+d [lv 0*"11"*"42000647_1"]`"? ...Ah......"`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_3,"hot_r1a"
+lss s0_10,"enj","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 22
+*d23808
+d [lv 0*"11"*"42000648"]`"............Wouldn't this be perfect for a vessel?"`[\]
+lss s0_8,"mar","b11_akuwarai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_mar
+*d23809
+d [lv 0*"13"*"40400634"]`"It's been so long since I saw that.`[@][lv 0*"13"*"40400635"]` ......Yeah.`[@][lv 0*"13"*"40400636"]` I think even as you are now, you should be able to summon that one.`[@][lv 0*"13"*"40400637"]` ...And she has no master now.`[@][lv 0*"13"*"40400638"]` It should be possible for you to become her new master, Ange."`[\]
+msgwnd_non
+*d23810
+d `Among the things that looked like good vessels, I took the one I thought might possess the strongest magical power,`[@]` and set it on the side table near the bed with a clunk.`[\]
+meplay 1,5,70
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 26
+*d23811
+d `It was......a shady‐looking stake‐shaped weapon embellished with an occult design.`[\]
+*d23812
+d `A stake of the "Seven Stakes of Purgatory", used by witches to offer sacrifices.`[\]
+*d23813
+d `In the course of their search for evidence, the police had collected a large amount of junk.`[@]`{n}After the investigation had finished, this had been faithfully returned to the Ushiromiya family.`[\]
+*d23814
+d `......I found something there that I had seen in the illustrations in Maria's diary, and took it home with me.`[\]
+textoff
+waits 167
+vol_me 1,-1,2000
+wait 2000
+textoff
+waits 167
+lbg s0_3,"hot_r1a"
+lss s0_9,"mar","b11_defo1" ;1
+flush 26
+lss s0_9,"mar","b11_niyari1" ;1
+flush 10,167
+msgwnd_mar
+*d23815
+d [lv 0*"13"*"40400639"]`".........Originally, the Seven Stakes of Purgatory were a seven‐piece set.`[@][lv 0*"13"*"40400640"]` ......Poor girl.`[@][lv 0*"13"*"40400641"]` She's the only one left now."`[\]
+msgwnd_non
+*d23816
+d `Onee‐chan smiled, looking lonely...`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 26
+textoff
+waits 167
+lbg s0_3,"book1"
+flush 2
+*d23817
+d `I pulled another book out of the knapsack.`[\]
+*d23818
+d `......This was another old‐fashioned, blatantly occult‐related book.`[\]
+*d23819
+d `But this, too, was a book to be written in.`[@]`{n}It was one of Maria onee‐chan's elaborate notebooks.`[\]
+*d23820
+d `This one was not a diary.`[@]`{n}......It was a grimoire, which she had written as a witch.`[\]
+*d23821
+d `The Seven Stakes of Purgatory were {f:5:Beatrice}'s furniture.`[@]`{n}Created by her and employed only for her sake.`[\]
+*d23822
+d `But since {f:5:Beatrice} was a witch of Mariage Sorcière, they could also be employed by {f:5:Maria}, who was a witch of the same alliance.`[\]
+*d23823
+d `For that reason, the method of summoning the Seven Stakes of Purgatory and how to handle them was written about in great detail in Maria onee‐chan's grimoire...`[\]
+*d23824
+d `And...`[@]`as another person with her name in the same alliance, I was also permitted to employ them.`[\]
+textoff
+waits 167
+lbg s0_3,"hot_r1a"
+lss s0_10,"enj","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 26
+msgwnd_enj
+*d23825
+d [lv 0*"11"*"42000649"]`".........This stake is...`[|][lv 0*"11"*"42000650"]`.........which of the Seven Sisters?"`[\]
+lss s0_8,"mar","b11_niyari1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_mar
+*d23826
+d [lv 0*"13"*"40400642"]`"Their characteristics are well described in my grimoire.`[@][lv 0*"13"*"40400643"]` ...The Sisters of the Seven Stakes really hate it when you get their names wrong.`[@][lv 0*"13"*"40400644"]` Remember their names well before summoning them."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 26
+textoff
+waits 167
+lbg s0_3,"book1"
+flush 22
+msgwnd_non
+*d23827
+d `A colossal number of pages telling of the Seven Stakes of Purgatory.`[@]`{n}...They described the seven sisters in great detail.`[\]
+*d23828
+d `......Yes.`[@]` Quite a long time ago, I think I learned these pages almost by heart.`[\]
+*d23829
+d `The more I read it, the more I start to remember...`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+*d23830
+d `By the illustrations and identifying characteristics written in the grimoire, I could tell that the stake in my hand was the "Stake of Mammon".`[\]
+*d23831
+d `In the past, I had been summoning them without any vessel, because I never had any stakes.`[\]
+*d23832
+d `......So this was the first time I had gotten a good look at any of the seven stakes, not just Mammon.`[\]
+textoff
+waits 167
+lbg s0_3,"hot_r1a"
+lss s0_9,"enj","a11_fuman1" ;1
+flush 26
+msgwnd_enj
+*d23833
+d [lv 0*"11"*"42000651"]`"Mammon.`[@][lv 0*"11"*"42000652"]` The fifth sister.`[@][lv 0*"11"*"42000653"]` Presides over the deadly sin of greed.`[@][lv 0*"11"*"42000654"]` ......What an incredible kid."`[\]
+lss s0_8,"mar","b11_warai1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_mar
+*d23834
+d [lv 0*"13"*"40400645"]`"Greed also controls aspirations, the desire to improve oneself, and the strength to live.`[@][lv 0*"13"*"40400646"]` It definitely doesn't mean only bad things.`[@][lv 0*"13"*"40400647"]` ......She's rude, but she's a girl who tries really hard."`[\]
+lss s0_9,"enj","a11_nayamu1" ;1
+flush 10,167
+msgwnd_enj
+*d23835
+d [lv 0*"11"*"42000655"]`"......Yes.`[@][lv 0*"11"*"42000656"]` You could say that without desire, there's no reason to live."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+lbg s0_3,"black"
+flush 22
+msgwnd_non
+*d23836
+d `For a while, I heightened my concentration and digested the information that was written about Mammon.`[\]
+*d23837
+d `......The more the summoner knows about the target that's being summoned, the better...`[@]` Knowledge brings about magical power.`[\]
+*d23838
+d `......I began to fill my head with knowledge about Mammon, and build the necessary amount of magic power for the summoning.`[\]
+textoff
+waits 167
+lbg s0_3,"hot_r1a"
+lss s0_10,"enj","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 26
+msgwnd_enj
+*d23839
+d [lv 0*"11"*"42000657"]`"......Grimoires are a little bit interesting, aren't they.`[@][lv 0*"11"*"42000658"]` Maybe much more interesting than reading some crappy novel.`[@][lv 0*"11"*"42000659"]` ......And it really takes me back, somehow."`[\]
+lss s0_8,"mar","b11_warai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_mar
+*d23840
+d [lv 0*"13"*"40400648"]`"For a grimoire, it is demanded not only that you understand the text, but that you expand the world from the gaps between the lines,`[@][lv 0*"13"*"40400649"]` and give birth to a world from the illustrations, creating things in various ways."`[\]
+lss s0_8,"mar","b11_akuwarai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d23841
+d [lv 0*"13"*"40400650"]`"......The power to create.`[@][lv 0*"13"*"40400651"]` For someone who has that, such as you, a grimoire should be more interesting than any book.`[@][lv 0*"13"*"40400652"]` ...I've always known that you'd be able to understand that."`[\]
+lss s0_10,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d23842
+d [lv 0*"11"*"42000660"]`"............I think that should be enough knowledge of Mammon for now.`[@][lv 0*"11"*"42000661"]` .........Yeah.`[@][lv 0*"11"*"42000662"]` It's come back to me, more or less.`[@][lv 0*"11"*"42000663"]` ...I'll give it a try."`[\]
+csp_slot s0_8
+flush 10,167
+lss s0_9,"mar","b11_niyari1" ;1
+flush 10,167
+msgwnd_mar
+*d23843
+d [lv 0*"13"*"40400653"]`"Take care.`[@][lv 0*"13"*"40400654"]` ......In preparation for the worst, use my talisman.`[@][lv 0*"13"*"40400655"]` ......You are not protected by the treaty of the alliance now.`[@][lv 0*"13"*"40400656"]` That Mammon can be a little aggressive at times.`[@][lv 0*"13"*"40400657"]` ...She {i:may still bear a grudge}.`[@][lv 0*"13"*"40400658"]` Be careful."`[\]
+lss s0_10,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d23844
+d [lv 0*"11"*"42000664"]`"Yeah.`[@][lv 0*"11"*"42000665"]` ...I think I'll wear it."`[\]
+msgwnd_non
+*d23845
+d `The Seven Stakes of Purgatory, as furniture for sacrificial rituals, are treated as beings inferior even to weapons.`[\]
+*d23846
+d `But that is only when it comes to demons.`[@]`{n}To {y:0:Human}{n:0:human}s, even furniture is something to be feared.`[\]
+textoff
+waits 167
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_3,"black"
+flush 26
+*d23847
+d `I fished through the knapsack again,`[@]` took out a bracelet charm with a scorpion medal that I had gotten from Maria onee‐chan long ago, and put it on my arm.`[\]
+*d23848
+d `......I had no need for something like this in the past.`[@]`{n}But I need insurance...`[\]
+textoff
+waits 167
+lbg s0_3,"hot_r1a"
+lss s0_9,"mar","b11_warai1" ;1
+flush 26
+msgwnd_mar
+*d23849
+d [lv 0*"13"*"40400659"]`".........It's alright.`[@][lv 0*"13"*"40400660"]` That is still endowed with a sufficient amount of magic defense.`[@][lv 0*"13"*"40400661"]` As long as you have it on, I'm certain you'll be fine."`[\]
+msgwnd_non
+*d23850
+d `Maria onee‐chan's magical power, in particular the power she could put into charms, was enough to earn even {f:5:Beatrice}'s admiration.`[\]
+*d23851
+d `......While it would only have looked like something cheap to a human who couldn't understand magic,`[@]` its magical worth was incalculable.`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 5
+meplay 1,5,0
+vol_bgm 0,4000
+vol_me 1,70,4000
+wait 4000
+vol_bgm -1,1000
+msgwnd_enj
+*d23852
+d2 [lv 0*"11"*"42000666"]`"..............................`[@][#][*][lv 0*"11"*"42000667"]` Come, arise.`[@][lv 0*"11"*"42000668"]` Forgive the sin.`[@][lv 0*"11"*"42000669"]` ...One of the Seven Stakes of Purgatory.`[@][lv 0*"11"*"42000670"]` Mammon the Covetous."`[\]
+wait_on_d 0
+bgmplay 97,71,0
+d_continue
+wait_on_d -1
+msgwnd_non
+*d23853
+d `.....................`[\]
+textoff
+waits 167
+lbg s0_3,"white"
+flush 42
+*d23854
+d `I concentrated my mind.`[@]`{n}I made the anti‐magic toxin that filled my body zero.`[\]
+textoff
+waits 167
+vol_bgm 70,3000
+vol_me 1,100,3000
+wait 3000
+vol_me 1,-1,1000
+textoff
+waits 167
+lbg s0_3,"different_spiral_1a"
+flush 80
+*d23855
+d `Imagine a vast, untainted space.`[@]`{n}......Doubts and common sense all resist magic.`[\]
+*d23856
+d `Make the resistance zero, and erase the burden towards magical power......`[\]
+seplay 1,22,71
+textoff
+waits 167
+lbg s0_3,"black"
+flush 8
+*d23857
+d `..............................`[@]`{n}......Inside my head was the image of a vast space.`[\]
+meplay 1,16,50
+textoff
+waits 167
+lbg s0_3,"cit_2a"
+flush 2
+*d23858
+d `It was a nighttime world where I floated in the air and the neon stars on the ground sparkled.`[\]
+*d23859
+d `A world where the stars that should have covered the heavens were drowned out by the light from below, and the stars covered the ground instead.`[\]
+*d23860
+d `In the world of a vast night sky with no obstructions,`[!w583]` ......I imagined the wind blowing through freely.`[\]
+seplay 1,52,71
+textoff
+waits 167
+lbg s0_3,"white"
+flush 8
+textoff
+waits 167
+lbg s0_3,"hot_r1a"
+flush 22
+*d23861
+d `Just then,`[!w333]` ......in that room where no wind could blow,`[!w500]` ......the free nighttime wind whirled around.`[\]
+*d23862
+d `That long‐forgotten sensation raced through my entire body.`[@]`{n}............The unique feeling of exultation felt when using magic.`[\]
+meplay 2,18,40
+*d23863
+d `From Mammon's stake, held out in my hand, I gradually began to feel a pale light.`[\]
+*d23864
+d `The cyclone gyred around the stake.`[@]`{n}......The hefty stake floated a bit into the air.`[\]
+vol_me 2,60
+lss s0_10,"mar","b11_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_mar
+*d23865
+d [lv 0*"13"*"40400662"]`"............Wonderful.`[@][lv 0*"13"*"40400663"]` ...Looks like the gap in your training hasn't stolen your talent."`[\]
+vol_me 2,80
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"hot_r1a"
+flush 22
+msgwnd_enj
+*d23866
+d [lv 0*"11"*"42000671"]`"......Come, arise.`[@][lv 0*"11"*"42000672"]` Forgive the sin.`[@][lv 0*"11"*"42000673"]` ...One of the Seven Stakes of Purgatory, Mammon the Covetous.`[@][lv 0*"11"*"42000674"]` ......Show yourself to me......"`[\]
+meplay 3,17,70
+msgwnd_non
+*d23867
+d `I slowly raised my hand, and as I brought it higher than my head,`[@]` almost as though it was being sucked upwards by it, the Stake of Mammon likewise floated high up into the air, ......and gradually began to shake.`[\]
+*d23868
+d `Its shaking grew faster and faster,`[!w583]` .........and then it burst.`[\]
+textoff
+waits 167
+csp -10
+lbg s0_3,"no59_00073"
+pam 749,"no59",0
+seplay 3,58,100
+seplay 2,58,100
+textoff
+waits 167
+lbg s0_3,"white"
+flush 1
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+*d23869
+d `With a speed faster than the eye could follow, it flew around, violently rebounding off the walls of the room.`[@]`{n}......The terrible sound of it jumping from place to place bore down upon me, trying to make me flinch.`[\]
+*d23870
+d `......But I mustn't lose my mental concentration.`[\]
+textoff
+waits 167
+lbg s0_3,"no59_00073"
+pam 749,"no59",0
+seplay 3,58,100
+seplay 2,58,100
+textoff
+waits 167
+lbg s0_3,"white"
+flush 1
+textoff
+waits 167
+lbg s0_3,"black"
+lbg s0_17,"barrier1p"
+z_order_override2 s0_17,s0_6
+flush 2
+wait 1000
+seplay 2,55,100
+textoff
+waits 167
+lbg s0_3,"hot_r1a"
+spriteset_enable 1
+textoff
+waits 167
+lbg s1_3,"black"
+lbg s1_17,"barrier1p"
+z_order_override2 s1_17,s1_6
+aspritesetpt breakup,1,0
+flush 1
+aspritesetpt breakup,1,1000,3000
+spritesetptwait breakup,1
+reset_set 1
+csp -11
+flush 1
+*d23871
+d `Then, the stake, which had been flying around at an incredible speed, finally restrained itself and faced me.`[\]
+*d23872
+d `......It was in the air, just a few centimeters away from my forehead...held back by the defensive barrier created by the scorpion charm.`[\]
+*d23873
+d `It was trying to break the defensive barrier, eating into it with incredible power, but Maria onee‐chan's barrier wouldn't be broken so easily.`[\]
+*d23874
+d [lv 0*"42"*"42700001"]`"...............No good...`[|][lv 0*"42"*"42700002"]` I can't bite through it......"`[\]
+*d23875
+d `The stake muttered hatefully.`[\]
+*d23876
+d `......You could probably say that I had been saved thanks to the scorpion charm.`[\]
+*d23877
+d `Without that, my way of killing time until I got sleepy would have become a way to kill time for all eternity.`[\]
+csp_slot s0_17
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+vol_bgm 0,3000
+vol_me 2,0,3000
+vol_me 3,0,3000
+wait 3000
+textoff
+waits 167
+lbg s0_3,"hot_r1a"
+flush 24
+seplay 1,52,71
+lss s0_10,"rg5","a21_defo1" ;1
+aspt2 xpos,s0_10,370
+aspt2 breakup,s0_10,1000
+aspt2 alpha,s0_10,0
+flush 1
+aspt2 breakup,s0_10,0,2000
+aspt2 alpha,s0_10,255,2000
+sptwait2 breakup,s0_10
+gstc 236
+seplay 9,1060,71
+*d23878
+d `When Mammon's stake realized that it was unable to gouge me, it gave up gracefully, and changed its form from that of a stake into that of a person.`[\]
+*d23879
+d `In her usual shameless outfit which I would never be seen walking outside in.`[@]`{n}Although you could say it suited her, in a demonic sort of way.`[\]
+textoff
+waits 167
+vol_mix_fade 1000
+vol_bgm -1,1000
+wait 1000
+bgmplay 95,71,0
+lss s0_10,"rg5","a21_fuman1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_rg5
+*d23880
+d [lv 0*"42"*"42700003"]`".................Ange‐sama, is that you?`[@][lv 0*"42"*"42700004"]` ............That's some pretty shabby magical power.`[@][lv 0*"42"*"42700005"]` ...Are you really Ange‐sama?"`[\]
+lss s0_8,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d23881
+d [lv 0*"11"*"42000675"]`"It's been a long time, Mammon.`[@][lv 0*"11"*"42000676"]` ......Have you been well?"`[\]
+lss s0_10,"rg5","a11_fuman1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_rg5
+*d23882
+d2 [lv 0*"42"*"42700006"]`"...........................`[@][lv 0*"42"*"42700007"]` ...And here I was convinced that furniture which has already fulfilled its function would just be left to rust away in a closet.`[@][#][*][lv 0*"42"*"42700008"]` ......So, what kind of sideshow is this?`[@][lv 0*"42"*"42700009"]` You aren't going to say that you're my owner, are you, Ange‐sama...?"`[\]
+wait_on_d 0
+lss s0_10,"rg5","a11_komaru3" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"hot_r1a"
+lss s0_9,"mar","b11_niyari1" ;1
+flush 23
+msgwnd_mar
+*d23883
+d [lv 0*"13"*"40400664"]`".........Yep.`[@][lv 0*"13"*"40400665"]` Ange is your master."`[\]
+csp_slot s0_9
+flush 10,167
+lss s0_8,"mar","b11_defo1" ;1
+aspt2 xpos,s0_8,-370
+lss s0_10,"rg5","b11_komaru3" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_rg5
+*d23884
+d [lv 0*"42"*"42700010"]`"Lady {f:5:Maria}...`[@][lv 0*"42"*"42700011"]` .........I am ashamed.`[@][lv 0*"42"*"42700012"]` Was that barrier just now yours?"`[\]
+lss s0_8,"mar","b11_warai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_mar
+*d23885
+d [lv 0*"13"*"40400666"]`"Yeah.`[@][lv 0*"13"*"40400667"]` I thought that as Ange is now, she might just fall to you.`[@][lv 0*"13"*"40400668"]` I lent her a talisman."`[\]
+lss s0_10,"rg5","a11_fuman1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_rg5
+*d23886
+d2 [lv 0*"42"*"42700013"]`".....................`[@][lv 0*"42"*"42700014"]` ......If I am told by Lady {f:5:Maria} that Ange‐sama is my master, I can hardly refuse.`[@][#][*][lv 0*"42"*"42700015"]` .........Ange‐sama, I am yours to command.`[@][lv 0*"42"*"42700016"]` Given that my assistance is required...is it a new ritual?`[@][lv 0*"42"*"42700017"]` New sacrifices...?"`[\]
+wait_on_d 0
+lss s0_10,"rg5","a11_fuman1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_10,"rg5","a11_akuwarai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d23887
+d [lv 0*"42"*"42700018"]`"Of course, that's only if you're willing to handle me yourself and get your own hands dirty."`[\]
+csp_slot s0_8
+flush 10,167
+lss s0_8,"enj","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d23888
+d [lv 0*"11"*"42000677"]`".........That role isn't one I'm looking for anymore.`[@][lv 0*"11"*"42000678"]` .........All you have to do is just talk with me, like you used to."`[\]
+lss s0_10,"rg5","a21_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_rg5
+*d23889
+d [lv 0*"42"*"42700019"]`"...................................."`[\]
+lss s0_8,"enj","a11_komaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d23890
+d [lv 0*"11"*"42000679"]`"........................"`[\]
+csp_slot s0_8
+csp_slot s0_10
+flush 10,167
+lss s0_9,"rg5","a31_akuwarai1" ;1
+flush 10,167
+msgwnd_rg5
+*d23891
+d [lv 0*"42"*"42700020"]`".........Heheh.`[@][lv 0*"42"*"42700021"]` ...Yes, if that is what you desire.`[@][lv 0*"42"*"42700022"]` Furniture is furniture because it is used.`[@][lv 0*"42"*"42700023"]` It is an honor just to be summoned.`[@][lv 0*"42"*"42700024"]` Ange‐sama."`[\]
+msgwnd_non
+*d23892
+d `Mammon had a slightly complicated smile on her face.`[\]
+*d23893
+d `......She had accepted Ange as her new master because Maria had told her to,`[@]` but it looked like she hadn't gotten over her discontent at working for Ange with her frail magical power.`[\]
+*d23894
+d `Or perhaps she had some other reason for hating Ange,`[@]` ......but for now, it seemed that she couldn't disobey Ange despite her discontent.`[\]
+lss s0_9,"rg5","a31_fuman1" ;1
+flush 10,167
+msgwnd_rg5
+*d23895
+d [lv 0*"42"*"42700025"]`".........So?`[@][lv 0*"42"*"42700026"]` What should I do?"`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"hot_r1a"
+lss s0_10,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_10,370
+flush 24
+msgwnd_enj
+*d23896
+d [lv 0*"11"*"42000680"]`"I don't know.`[@][lv 0*"11"*"42000681"]` .........Just be lively.`[@][lv 0*"11"*"42000682"]` Like old times."`[\]
+lss s0_8,"rg5","a31_fuman1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_rg5
+*d23897
+d [lv 0*"42"*"42700027"]`"With all due respect,`[@][lv 0*"42"*"42700028"]` I think this liveliness you speak of is probably the bustle from when we sisters are together.`[@][lv 0*"42"*"42700029"]` It may be difficult by myself.`[@][lv 0*"42"*"42700030"]` ......Perhaps it slipped your mind?"`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_10,"mar","b11_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_mar
+*d23898
+d2 [lv 0*"13"*"40400669"]`"......Yeah.`[@][lv 0*"13"*"40400670"]` The Seven Sisters {i:were} really lively when they got together.`[@][#][*][lv 0*"13"*"40400671"]` ......But with your magical power now, I think summoning Mammon is the best we can hope for.`[@][lv 0*"13"*"40400672"]` The stakes for the other six have been lost."`[\]
+wait_on_d 0
+lss s0_10,"mar","b11_komaru1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_8,"rg5","b11_fuman1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_rg5
+*d23899
+d2 [lv 0*"42"*"42700031"]`"My apologies, Lady {f:5:Maria},`[@][lv 0*"42"*"42700032"]` but I believe it may not be impossible to summon the Seven Sisters via my own stake.`[@][#][*][lv 0*"42"*"42700033"]` ......If Ange‐sama is to employ me, I would hope that she has at least that much power......?"`[\]
+wait_on_d 0
+lss s0_8,"rg5","b11_akuwarai2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+msgwnd_non
+*d23900
+d `Mammon giggled.`[\]
+*d23901
+d `......Apparently, she wanted me to summon the other sisters without a vessel.`[\]
+*d23902
+d `I see.`[@]` Unable to be satisfied with being summoned alone, she asks for the other sisters to be summoned as well.`[\]
+*d23903
+d `...I get it—greed.`[@]` Yes, she was like this back then, wasn't she......`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 22
+*d23904
+d `.........Bliss for furniture is when it is used.`[@]` Being used, no matter how roughly, is furniture's joy.`[\]
+*d23905
+d `Not only that, but no matter how much care you might treat them with, if they are not given a job, that would give them the greatest anguish.`[\]
+*d23906
+d `Mammon spoke as though to provoke me, but what she wanted was for me to summon the other sisters somehow and rescue them from the world of nothingness.`[\]
+*d23907
+d `.........Why not just be honest and ask me to, then?`[@]`{n}Demons really are difficult.`[\]
+textoff
+waits 167
+lbg s0_3,"hot_r1a"
+lss s0_10,"enj","a11_komaru1" ;1
+aspt2 xpos,s0_10,370
+lss s0_8,"mar","b11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 23
+msgwnd_mar
+*d23908
+d [lv 0*"13"*"40400673"]`".........Ange.`[@][lv 0*"13"*"40400674"]` Don't overdo it.`[@][lv 0*"13"*"40400675"]` Just being able to summon Mammon is more than enough rehabilitation."`[\]
+lss s0_10,"enj","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d23909
+d2 [lv 0*"11"*"42000683"]`"Oh, I'm rehabilitated after just one?`[@][lv 0*"11"*"42000684"]` I'm just killing time anyway.`[@][#][*][lv 0*"11"*"42000685"]` .........Alright, Mammon.`[@][lv 0*"11"*"42000686"]` In for a penny, in for a pound.`[@][lv 0*"11"*"42000687"]` I'll call as many as I can for you."`[\]
+wait_on_d 0
+lss s0_10,"enj","a31_komaru3" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+csp_slot s0_8
+flush 10,167
+lss s0_8,"rg5","a31_akuwarai4" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_rg5
+*d23910
+d2 [lv 0*"42"*"42700034"]`"Really......?!`[@][#][*][lv 0*"42"*"42700035"]` Niiice, Ange‐sama!`[@][lv 0*"42"*"42700036"]` Alright, go go go!"`[\]
+wait_on_d 0
+lss s0_8,"rg5","a31_warai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+msgwnd_non
+*d23911
+d `Even though she had said it, it seemed that Mammon hadn't really expected to be able to ask this of Ange.`[\]
+*d23912
+d `She hopped around, badgering Ange to summon the other sisters.`[\]
+*d23913
+d `......The consumption of physical and magical power used to call Mammon alone was considerable.`[@]`{n}...It will probably be pretty tough to do six more.`[\]
+*d23914
+d `......I'm in awe of the magical power of those who reach the level of being called witches, because those people can summon these sisters with no more than a snap of their fingers.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"hot_r1a"
+lss s0_9,"mar","b11_fukigen2" ;1
+flush 24
+msgwnd_mar
+*d23915
+d [lv 0*"13"*"40400676"]`"Mammon, don't make Ange overdo it.`[@][lv 0*"13"*"40400677"]` She still isn't back to form yet..."`[\]
+lss s0_8,"rg5","a11_fuman1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_rg5
+*d23916
+d [lv 0*"42"*"42700037"]`"Whaaaa?!`[@][lv 0*"42"*"42700038"]` Ange‐sama said that she'd summon everyone!"`[\]
+msgwnd_non
+*d23917
+d `Actually, I only said that I'd call as many as I could.`[@]`{n}......Guess this is greed.`[\]
+lss s0_9,"mar","b11_odoroki1" ;1
+flush 10,167
+msgwnd_mar
+*d23918
+d [lv 0*"13"*"40400678"]`"Don't overdo it, Ange.`[@][lv 0*"13"*"40400679"]` You should rest for today.`[@][lv 0*"13"*"40400680"]` You're tired enough."`[\]
+lss s0_10,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_enj
+*d23919
+d [lv 0*"11"*"42000688"]`"It's alright.`[@][lv 0*"11"*"42000689"]` I'm just killing time anyway.`[@][lv 0*"11"*"42000690"]` Let me get tired enough so I can just keel over."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_3,"black"
+flush 25
+msgwnd_non
+*d23920
+d `......This time there's no vessel.`[\]
+*d23921
+d `I'll have to strengthen the image solely from the knowledge in the grimoire, and manifest them just with that.`[\]
+meplay 1,16,50
+*d23922
+d `I held my hands out into the air, replaying in my head the sensation from when I had summoned Mammon......`[\]
+*d23923
+d `Come on, I know all of the Seven Sisters personally.`[@]` ......Remember, in the past,`[!w500]` ......the times I talked with them.........`[\]
+vol_bgm -1,1000
+seplay 1,22,71
+textoff
+waits 167
+lbg s0_3,"different_spiral_1a"
+flush 8
+bgmplay 88,90,0
+*d23924
+d `Once again, ......the power of magic began to fill me up.`[@]` It radiated as a faint, and yet distinct pale blue light from both of my hands......`[\]
+seplay 2,56,100
+textoff
+waits 167
+lbg s0_3,"white"
+flush 2
+textoff
+waits 167
+lbg s0_3,"hot_r1a"
+lss s0_10,"rg5","d21_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 22
+msgwnd_rg5
+*d23925
+d2 [lv 0*"42"*"42700039"]`"Ange‐sama...!`[@][lv 0*"42"*"42700040"]` Keep it up, keep it up, do your best...!`[@][#][*][lv 0*"42"*"42700041"]` Hey, Lady {f:5:Maria}.`[@][lv 0*"42"*"42700042"]` Ange‐sama will definitely summon everyone, right?`[@][lv 0*"42"*"42700043"]` The Seven Sisters will get to be reunited again, right?`[@][lv 0*"42"*"42700044"]` Right?!"`[\]
+wait_on_d 0
+lss s0_10,"rg5","d21_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_8,"mar","b11_niyari1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_mar
+*d23926
+d2 [lv 0*"13"*"40400681"]`"Yeah, I'm sure of it.`[@][#][*][lv 0*"13"*"40400682"]` ......But there's no guarantee that it will happen tonight."`[\]
+wait_on_d 0
+lss s0_8,"mar","b11_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_10,"rg5","d11_akuwarai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_rg5
+*d23927
+d [lv 0*"42"*"42700045"]`"No, Ange‐sama can do it, I just know it...!`[@][lv 0*"42"*"42700046"]` Please, Ange‐sama...!`[@][lv 0*"42"*"42700047"]` Start from the youngest sister, Asmo...!"`[\]
+meplay 1,5,50
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 25
+msgwnd_enj
+*d23928
+d [lv 0*"11"*"42000691"]`".........Asmodeus.`[@][lv 0*"11"*"42000692"]` The seventh sister.`[@][lv 0*"11"*"42000693"]` ...............OK.`[@][lv 0*"11"*"42000694"]` I'll call them in order starting from the youngest."`[\]
+seplay 1,22,71
+textoff
+waits 167
+lbg s0_3,"different_spiral_1a"
+flush 8
+msgwnd_non
+*d23929
+d `A strand of hot sweat dripped down from my forehead.`[@]`{n}......This really does put one hell of a strain on you.`[\]
+textoff
+waits 167
+textoff
+waits 167
+lbg s0_3,"white"
+flush 8
+wait 1000
+seplay 1,52,71
+textoff
+waits 167
+lbg s0_3,"hot_r1a"
+lss s0_12,"rg7","a11_defo1" ;1
+aspt2 alpha,s0_12,50
+show_whirl
+*d23930
+d `The pale light in this space......began to form into the vague outline of a girl...`[\]
+msgwnd_enj
+*d23931
+d [lv 0*"11"*"42000695"]`".........Come, arise.`[@][lv 0*"11"*"42000696"]` One of the Seven Stakes of Purgatory, Asmodeus the Lustful..."`[\]
+msgwnd_non
+*d23932
+d `There was no vessel.`[@]` ......However, with the strong core conviction that she definitely did exist there, ......I began to crystallize her form...`[\]
+*d23933
+d `Her outline became distinct, .........and the form of the youngest of the Seven Sisters, Asmodeus, was finally created.`[\]
+textoff
+waits 167
+seplay 1,22,90
+textoff
+waits 167
+csp_slot s0_12
+lbg s0_3,"white"
+lss s0_12,"rg7","a11_defo1" ;1
+aspt2 alpha,s0_12,200
+flush 2
+csp_slot s0_12
+textoff
+waits 167
+lbg s0_3,"hot_r1a"
+seplay 2,52,71
+lss s0_9,"rg7","a11_defo1" ;1
+flush 42
+wait 1000
+msgwnd_rg7
+*d23934
+d2 [lv 0*"44"*"42900001"]`"Asmodeus the Lustful, right here......`[@][#][*][lv 0*"44"*"42900002"]` .........Where is this?`[@][lv 0*"44"*"42900003"]` Am I alive......?"`[\]
+wait_on_d 0
+lss s0_9,"rg7","a11_komaru3" ;1
+flush 10,167
+d_continue
+wait_on_d -1
+csp_slot s0_9
+flush 10,167
+lss s0_8,"rg7","a11_komaru3" ;1
+aspt2 xpos,s0_8,-370
+lss s0_10,"rg5","d21_naku1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+agpt quakexcycle,50
+agpt quakexamp,30
+agpt quakexamp,0,500,1
+rumble 63,500
+gptwait quakexamp
+msgwnd_rg5
+*d23935
+d [lv 0*"42"*"42700048"]`"Asmo...!!`[@][lv 0*"42"*"42700049"]` I'm so glad!!"`[\]
+msgwnd_rg7
+*d23936
+d [lv 0*"44"*"42900004"]`"Mammon nee‐san!`[@][lv 0*"44"*"42900005"]` ......Where in the world is this?`[@][lv 0*"44"*"42900006"]` Who summoned me?"`[\]
+lss s0_10,"rg5","d21_warai3" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_rg5
+*d23937
+d [lv 0*"42"*"42700050"]`"Ange‐sama did...!`[@][lv 0*"42"*"42700051"]` Ange‐sama said she'd revive all of us...!"`[\]
+msgwnd_non
+*d23938
+d `...No I didn't.`[\]
+lss s0_8,"rg7","a11_warai3" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_rg7
+*d23939
+d [lv 0*"44"*"42900007"]`"Ange‐sama, thank you!`[@][lv 0*"44"*"42900008"]` Next is Belzie...!!`[@][lv 0*"44"*"42900009"]` Do Belzie please...!"`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 24
+textoff
+waits 167
+lbg s0_3,"hot_r1a"
+lss s0_9,"enj","a11_nayamu1" ;1
+flush 24
+msgwnd_enj
+*d23940
+d2 [lv 0*"11"*"42000697"]`"......Beelzebub.`[@][lv 0*"11"*"42000698"]` The sixth sister.`[@][#][*][lv 0*"11"*"42000699"]` ......Beelzebub the Gluttonous.`[@][lv 0*"11"*"42000700"]` Come, arise..."`[\]
+wait_on_d 0
+lss s0_9,"enj","a11_ikari1" ;1
+flush 10,167
+d_continue
+wait_on_d -1
+msgwnd_non
+*d23941
+d `If I just keep on like this, ......I wonder how many I can summon.`[@]`{n}If I lose my concentration,`[!w500]` ...that'll probably be it.`[\]
+textoff
+waits 167
+vol_me 1,70
+seplay 1,22,90
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"white"
+flush 8
+textoff
+waits 167
+lbg s0_3,"hot_r1a"
+lss s0_9,"rg6","a11_defo1" ;1
+show_whirl
+*d23942
+d `The pale light made an outline, .........and formed into Beelzebub.`[\]
+lss s0_9,"rg6","a11_defo1" ;1
+flush 10,167
+msgwnd_rg6
+*d23943
+d [lv 0*"43"*"42800016"]`"Beelzebub the Gluttonous, right here......"`[\]
+lss s0_8,"rg5","d31_naku1" ;1
+aspt2 xpos,s0_8,-550
+lss s0_9,"rg6","a11_warai1" ;1
+lss s0_10,"rg7","d21_warai3" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_rg5
+*d23944
+d [lv 0*"42"*"42700052"]`"Belzieee!!"`[\]
+msgwnd_rg7
+*d23945
+d2 [lv 0*"44"*"42900010"]`"Ange‐sama, awesome, awesome!!"`[#][*][\]
+wait_on_d 0
+agpt quakexcycle,83
+agpt quakexamp,30
+agpt quakexamp,0,667,1
+rumble 63,500
+gptwait quakexamp
+d_continue
+wait_on_d -1
+msgwnd_non
+*d23946
+d `Mammon and Asmodeus jumped on Beelzebub, celebrating their reunion.`[\]
+meplay 2,18,50
+*d23947
+d `......Summoning three people at once.`[@]` ...My head was throbbing.`[\]
+*d23948
+d `Without resting, I summoned the next one.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_3,"black"
+flush 22
+msgwnd_enj
+*d23949
+d [lv 0*"11"*"42000701"]`"......Come, arise.`[@][lv 0*"11"*"42000702"]` One of the Seven Stakes of Purgatory, Belphegor the Slothful..."`[\]
+textoff
+waits 167
+seplay 1,22,71
+textoff
+waits 167
+lbg s0_3,"white"
+flush 8
+seplay 1,52,100
+textoff
+waits 167
+lbg s0_3,"hot_r1a"
+lss s0_9,"rg4","a11_defo1" ;1
+show_whirl
+msgwnd_rg4
+*d23950
+d2 [lv 0*"41"*"42600001"]`"Belphegor the Slothful, right here.`[@][#][*][lv 0*"41"*"42600002"]` .........My, ...to think that I would still be needed..."`[\]
+wait_on_d 0
+lss s0_9,"rg4","a31_fuman1" ;1
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_10,"rg6","d11_naku1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_rg6
+*d23951
+d2 [lv 0*"43"*"42800017"]`"Belphe‐neeeeee!`[#][*][@][lv 0*"43"*"42800018"]` I'm huuungryyy!`[@][#][*][lv 0*"43"*"42800019"]` I mean—I'm so glad to see you again!!"`[\]
+wait_on_d 0
+agpt quakexcycle,67
+agpt quakexamp,30
+agpt quakexamp,0,667,1
+rumble 63,500
+gptwait quakexamp
+d_continue
+wait_on_d 1
+lss s0_10,"rg6","d11_warai3" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_8,"rg7","d11_warai1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_rg7
+*d23952
+d [lv 0*"44"*"42900011"]`"To think that the Seven Sisters would be able to meet again...`[@][lv 0*"44"*"42900012"]` Ange‐sama, we are truly thankful!"`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_10,"rg5","a11_akuwarai2" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_rg5
+*d23953
+d [lv 0*"42"*"42700053"]`"Keep it up and do Satan‐nee next!`[@][lv 0*"42"*"42700054"]` And Levia‐nee and Luci‐nee...!!"`[\]
+meplay 3,16,70
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_3,"black"
+flush 22
+msgwnd_enj
+*d23954
+d [lv 0*"11"*"42000703"]`".........Yes,`[|][lv 0*"11"*"42000704"]` ...I know.`[@][lv 0*"11"*"42000705"]` ......So please, try not to be so loud.`[@][lv 0*"11"*"42000706"]` ......Doing four people at the same time...`[|][lv 0*"11"*"42000707"]`...is pretty...tough..."`[\]
+textoff
+waits 167
+lbg s0_3,"hot_r1a"
+lss s0_9,"mar","b11_komaru1" ;1
+flush 22
+msgwnd_mar
+*d23955
+d [lv 0*"13"*"40400683"]`"Ange, don't push yourself any more than this.`[@][lv 0*"13"*"40400684"]` You did a great job summoning four of them after such a long time."`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"hot_r1a"
+flush 23
+lss s0_10,"rg4","a21_komaru2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_rg4
+*d23956
+d [lv 0*"41"*"42600003"]`"...Stop it, Mammon.`[@][lv 0*"41"*"42600004"]` Our summoning is placing a heavy strain on Ange‐sama right now.`[@][lv 0*"41"*"42600005"]` Ange‐sama, I beg you not to push yourself too hard..."`[\]
+lss s0_8,"rg5","a12_ikari1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_rg5
+*d23957
+d2 [lv 0*"42"*"42700055"]`"No way!`[#][*][@][lv 0*"42"*"42700056"]` Ange‐sama promised!`[@][lv 0*"42"*"42700057"]` She said she'd play with all of us again!"`[\]
+wait_on_d 0
+seplay 1,11,71
+agpt quakeycycle,67
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+d_continue
+wait_on_d -1
+msgwnd_non
+*d23958
+d `...No I d—...`[\]
+lss s0_8,"rg5","a31_odoroki1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_rg5
+*d23959
+d [lv 0*"42"*"42700058"]`"Didn't you!`[@][lv 0*"42"*"42700059"]` Ange‐sama!`[@][lv 0*"42"*"42700060"]` You said we'd all meet again!`[@][lv 0*"42"*"42700061"]` You promised we'd be able to see each other again soon!"`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_10,"enj","a11_komaru1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d23960
+d [lv 0*"11"*"42000708"]`"........................"`[\]
+lss s0_10,"enj","a31_komaru3" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d23961
+d [lv 0*"11"*"42000709"]`".........You're right, .........I did.`[@][lv 0*"11"*"42000710"]` ......I didn't promise anything about when "soon" would be, ......but I certainly did...promise."`[\]
+lss s0_8,"rg5","a11_ikari2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_rg5
+*d23962
+d [lv 0*"42"*"42700062"]`"So keep that promise!`[@][lv 0*"42"*"42700063"]` If you don't, I'll never forgive you for forgetting it until today...!"`[\]
+meplay 4,17,70
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 25
+msgwnd_enj
+*d23963
+d [lv 0*"11"*"42000711"]`"..................`[@][lv 0*"11"*"42000712"]` ......Come, arise.`[@][lv 0*"11"*"42000713"]` One of the Seven Stakes of Purgatory, Satan the Wrathful..."`[\]
+msgwnd_non
+*d23964
+d `My mind was starting to get hazy...`[@]` ......But...I'll call.`[\]
+*d23965
+d `I may have forgotten those days.`[@]`{n}I may not have thought of them as anything but sadness and loneliness.`[\]
+*d23966
+d `......But certainly...the short time I spent with these girls...`[@]`...was, without a doubt, fun.`[\]
+seplay 1,22,100
+textoff
+waits 167
+lbg s0_3,"white"
+flush 8
+textoff
+waits 167
+lbg s0_3,"hot_r1a"
+seplay 2,52,90
+lss s0_9,"rg3","a11_defo1" ;1
+show_whirl
+msgwnd_rg3
+*d23967
+d2 [lv 0*"40"*"42500001"]`"Satan the Wrathful, right here.`[@][#][*][lv 0*"40"*"42500002"]` ............What the hell are you people doing!!`[#][*][@][lv 0*"40"*"42500003"]` Do you realize how much it's burdening Ange‐sama just for us to have an idle chat?!"`[\]
+wait_on_d 0
+lss s0_9,"rg3","a11_odoroki1" ;1
+flush 10,167
+d_continue
+wait_on_d 1
+agpt quakeycycle,83
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+d_continue
+wait_on_d -1
+msgwnd_non
+*d23968
+d `Satan, who had apparently figured out the situation immediately after being summoned, yelled out in a loud voice, telling her sisters off.`[\]
+*d23969
+d `......That loud voice made my consciousness fade again.`[\]
+lss s0_9,"rg3","a21_odoroki1" ;1
+flush 10,167
+msgwnd_rg3
+*d23970
+d [lv 0*"40"*"42500004"]`"We are furniture that has been permitted rest by {f:5:Beatrice}, furniture that has finished its duty!`[@][lv 0*"40"*"42500005"]` Not content to be graced with the opportunity to once again be of some use, you are putting a burden on your new master—this is a DISGRACE to furniture!!`[@][lv 0*"40"*"42500006"]` Erase yourselves RIGHT NOW!!"`[\]
+lss s0_10,"rg4","b11_defo1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_rg4
+*d23971
+d [lv 0*"41"*"42600006"]`"Yes, it's like Satan‐nee says.`[@][lv 0*"41"*"42600007"]` I'll erase myself.`[@][lv 0*"41"*"42600008"]` And you all vanish too.`[@][lv 0*"41"*"42600009"]` In this moment, that is the best way for us to be of use to Ange‐sama."`[\]
+textoff
+waits 167
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_3,"hot_r1a"
+lss s0_8,"rg5","a11_odoroki1" ;1
+aspt2 xpos,s0_8,-550
+flush 24
+msgwnd_rg5
+*d23972
+d [lv 0*"42"*"42700064"]`"No way.`[@][lv 0*"42"*"42700065"]` Not until everyone gets summoned!"`[\]
+lss s0_9,"rg6","d11_fuman1" ;1
+flush 10,167
+msgwnd_rg6
+*d23973
+d2 [lv 0*"43"*"42800020"]`"No way for me too!`[@][lv 0*"43"*"42800021"]` I'm hungryyy!`[@][#][*][lv 0*"43"*"42800022"]` I mean—we only just met up again, I don't wanna go back already!"`[\]
+wait_on_d 0
+lss s0_9,"rg6","d11_naku1" ;1
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_10,"rg3","a21_odoroki1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_rg3
+*d23974
+d2 [lv 0*"40"*"42500007"]`"Don't be so selfish!!`[#][*][@][lv 0*"40"*"42500008"]` Come on, hurry up and vanish!!`[@][lv 0*"40"*"42500009"]` Come on, Asmo!`[@][lv 0*"40"*"42500010"]` Disappear right now!!"`[\]
+wait_on_d 0
+seplay 1,11,71
+agpt quakexcycle,67
+agpt quakexamp,30
+agpt quakexamp,0,500,1
+rumble 63,500
+gptwait quakexamp
+d_continue
+wait_on_d -1
+csp_slot s0_8
+flush 10,167
+lss s0_8,"rg7","b32_naku1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_rg7
+*d23975
+d [lv 0*"44"*"42900013"]`"Waaaah, Satan‐nee's bullying me...!`[@][lv 0*"44"*"42900014"]` It's always me first because I'm the youngest, it's not faaair!"`[\]
+meplay 5,19,100
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+flush 10,167
+lss s0_10,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d23976
+d [lv 0*"11"*"42000714"]`".........Ahh, they really are lively.`[@][lv 0*"11"*"42000715"]` ......They never make you.........bored......"`[\]
+lss s0_8,"mar","b11_odoroki1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_mar
+*d23977
+d [lv 0*"13"*"40400685"]`"That's enough.`[@][lv 0*"13"*"40400686"]` You've surpassed your limits for now, Ange."`[\]
+lss s0_10,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d23978
+d [lv 0*"11"*"42000716"]`"......You're...`[|][lv 0*"11"*"42000717"]`...right...`[@][lv 0*"11"*"42000718"]` ........................"`[\]
+csp_slot s0_10
+flush 10,167
+msgwnd_non
+*d23979
+d `This situation where I had summoned five of them, and they were messing around as they pleased,`[@]` was placing far too heavy a load on me currently, with my meager magic power......`[\]
+*d23980
+d `......This is...............it......`[\]
+textoff
+waits 167
+vol_mix_fade 1000
+vol_bgm -1,1000
+wait 1000
+seplay 1,13,100
+textoff
+waits 167
+csp_slot s0_8
+lbg s0_3,"hot_r1c"
+flush 1
+agpt quakeycycle,67
+agpt quakeyamp,30
+agpt quakeyamp,0,1167,1
+rumble 63,500
+gptwait quakeyamp
+*d23981
+d `As my consciousness grew distant, I collapsed onto the bed.`[\]
+meplay 1,11,70
+meplay 2,5,50
+textoff
+waits 167
+lbg s0_3,"black"
+flush 45
+*d23982
+d `......Have beds always felt this soft......?`[@]`{n}........................`[\]
+*d23983
+d `It seemed that the sisters were still squabbling together as much as they liked.`[\]
+*d23984
+d `......For a way to kill time until drowsiness comes to get me,`[!w583]` ......this will do............`[\]
+*d23985
+d `Feeling something warm and nostalgic in the sisters' liveliness, I sank into a world of deep sleep.........`[\]
+textoff
+waits 167
+vol_me 1,-1,2000
+wait 2000
+textoff
+waits 167
+lbg s0_3,"different_spiral_1a"
+flush 2
+*d23986
+d `At the entrance to my dream world, I felt Maria onee‐chan,`[!w500]` ......and Sakutarou, waiting to receive me.`[\]
+textoff
+waits 167
+vol_mix_fade 2000
+wait 2000
+lss s0_10,"mar","b11_niyari1" ;1
+aspt2 xpos,s0_10,370
+flush 22
+bgmplay 82,71,0
+msgwnd_mar
+*d23987
+d2 [lv 0*"13"*"40400687"]`"...............`[@][#][*][lv 0*"13"*"40400688"]` You worked hard.`[@][lv 0*"13"*"40400689"]` ......And...good job."`[\]
+wait_on_d 0
+lss s0_10,"mar","b11_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_8,"sak","a11_warai2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_sak
+*d23988
+d [lv 0*"33"*"44200199"]`‘Uryu.`[@][lv 0*"33"*"44200200"]` ...Welcome back, Ange...’`[\]
+msgwnd_non
+*d23989
+d `......Welcome back, huh...`[@]` Then I should respond like this.`[\]
+*d23990
+d `............Glad to be home.........`[\]
+textoff
+waits 167
+meplay 1,16,50
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 42
+wait 1000
+break_glass
+wait 500
+lbg s0_29,"black"
+flush 10,500
+csp_slot s0_29
+wait 83
+ch_done flag_scenario_4_6

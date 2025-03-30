@@ -1,0 +1,2317 @@
+*umi4_10
+;魔女の島へ
+log_reset
+mov $name_chapter_r_click,r_click_chapters_4_10
+mov $name_chapter_save, "4_10"
+new_chapter date_scenario_4_10,scenario_4_10
+gstc 245
+textoff
+waits 167
+meplay 1,3,70
+textoff
+waits 167
+lbg s0_3,"oct_1998"
+flush 22
+wait 4000
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+*d25338
+d `I had been trying to take a nap, ......but the boat really was shaking bad.`[\]
+textoff
+waits 167
+lbg s0_3,"white"
+flush 80
+agpt quakeycycle,1333
+agpt quakeyamp,30,500
+agpt quakexcycle,2000
+agpt quakexamp,10,500
+rumble 39,1000
+textoff
+waits 167
+lbg s0_3,"ship_s2bf"
+flush 5
+*d25339
+d `I gave up on sleeping and went up onto the deck.`[@]`{n}I was welcomed by the shining sun and a strong sea breeze...`[\]
+textoff
+waits 167
+lbg s0_3,"white"
+flush 24
+textoff
+waits 167
+lbg s0_3,"ship_s2bf"
+lss s0_10,"ama","a11_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 24
+*d25340
+d `Up on the deck, Amakusa was doing some stretches.`[\]
+*d25341
+d `......He probably has a lot of time on his hands too.`[@]`{n}It'll still take a while longer to reach Niijima.`[\]
+*d25342
+d `It would only have taken on the order of half an hour by airplane, but there was the chance that the Sumaderas' net extended over Niijima airport.`[\]
+*d25343
+d `The harbor would probably be the same.`[@]` For that reason, I had obtained a boat that would let me land while avoiding the harbor, with no questions asked.`[\]
+*d25344
+d `I'd bumped into a cheery boat captain,`[@]` treated him with generosity, and he had decided to help me out, amused......`[\]
+lss s0_8,"enj","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d25345
+d [lv 0*"11"*"42001087"]`"Still going to be a while?"`[\]
+lss s0_10,"ama","a14_akuwarai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ama
+*d25346
+d [lv 0*"20"*"43000043"]`"I just asked the captain, and it sounds like it'll take a full two hours more.`[@][lv 0*"20"*"43000044"]` Well, beggars can't be choosers."`[\]
+lss s0_8,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d25347
+d [lv 0*"11"*"42001088"]`".........The weather sure is nice.`[@][lv 0*"11"*"42001089"]` Feels like I'll burn."`[\]
+lss s0_10,"ama","a22_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ama
+*d25348
+d [lv 0*"20"*"43000045"]`"Going to read on the deck?`[@][lv 0*"20"*"43000046"]` You'll damage your book."`[\]
+msgwnd_non
+*d25349
+d `Amakusa apparently got that idea because I was clutching Maria onee‐chan's diary under my arm.`[\]
+*d25350
+d `I'd been reading it as I tried to fall asleep, which was why I had come back up still carrying it.`[\]
+bgmplay 1,71,0
+lss s0_10,"ama","a11_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ama
+*d25351
+d [lv 0*"20"*"43000047"]`"How's it going?`[@][lv 0*"20"*"43000048"]` Think you'll be able to find the truth of Rokkenjima from Maria‐san's diary?"`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"white"
+flush 25
+textoff
+waits 167
+lbg s0_3,"sea_1af"
+flush 22
+msgwnd_enj
+*d25352
+d [lv 0*"11"*"42001090"]`"............Who knows.`[@][lv 0*"11"*"42001091"]` No matter how much I investigate what happened on that island, it won't make for anything more than a theory.`[@][lv 0*"11"*"42001092"]` There's no truth written in the message bottles or Onee‐chan's diary, just a fairy tale with a witch walking around.`[@][lv 0*"11"*"42001093"]` ......I'm stuck."`[\]
+msgwnd_ama
+*d25353
+d [lv 0*"20"*"43000049"]`"Looks like you're just going to have to bank on what you can get out of the relevant people on Niijima."`[\]
+msgwnd_enj
+*d25354
+d [lv 0*"11"*"42001094"]`"I imagine the Witch Hunters have subjected them to endless questioning, so I'm pretty sure I won't find any new facts."`[\]
+msgwnd_ama
+*d25355
+d [lv 0*"20"*"43000050"]`"Hehhaha...!`[@][lv 0*"20"*"43000051"]` So even though your hopes are that low, you're willing to spend a half‐day trip on a boat to go to Niijima anyway! You really are fickle."`[\]
+msgwnd_enj
+*d25356
+d [lv 0*"11"*"42001095"]`".........It's like a journey of self‐satisfaction, so that I can say "I investigated".`[@][lv 0*"11"*"42001096"]` I'm not so naive as to seriously think that I can unlock the truth of twelve years ago."`[\]
+meplay 2,5,71
+textoff
+waits 167
+lbg s0_3,"ship_s2af"
+flush 26
+lss s0_8,"ama","a12_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ama
+*d25357
+d [lv 0*"20"*"43000052"]`"When you've finished with your self‐satisfaction, what do you plan to do?"`[\]
+lss s0_10,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d25358
+d [lv 0*"11"*"42001097"]`"Who knows.`[@][lv 0*"11"*"42001098"]` Haven't thought about it.`[@][lv 0*"11"*"42001099"]` .........I'll go to Niijima, ask some questions of people related to all this.`[@][lv 0*"11"*"42001100"]` ...Then, after going to Rokkenjima in the end and leaving some flowers, my journey will be over."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"white"
+flush 29
+textoff
+waits 167
+lbg s0_3,"ship_s2bf"
+flush 22
+msgwnd_non
+*d25359
+d `.........Several days had already passed since this journey began.`[\]
+*d25360
+d `After being told by {f:5:Bernkastel} on the roof of that building...`[@]`to search for the truth of twelve years ago, I left on a journey akin to trying to grasp a cloud.`[\]
+*d25361
+d `At the time, I felt something mystical about it, and I remember feeling as if I might be able to grasp some kind of miracle at the end of this journey.`[\]
+*d25362
+d `......But several days are enough to bring a person back down from that high.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+agpt quakeyamp,0
+agpt quakexamp,0
+gptwait quakexamp
+gptwait quakeyamp
+textoff
+waits 167
+lbg s0_3,"cit_2a"
+color_mod2 s0_3,#ffffff
+flush 2
+*d25363
+d `As I stood on the roof of that skyscraper that day, my heart had nowhere left to go—it was completely dead.`[\]
+*d25364
+d `......Wanting from the bottom of my heart to be released from the cage of my body and rise into the sky,`[@]` ......I crossed the fence in order to die.`[\]
+*d25365
+d `Maybe experiencing the desire to die and actually stepping forwards, throwing my body down...`[@]`caused some kind of mystical experience inside my head, making me think I had received a message from a witch.`[\]
+*d25366
+d `.........The more the excitement from jumping down lessened over time, and the more I came back to my senses, the more this journey lost its meaning.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+*d25367
+d `But I'd never considered suspending this journey just because of that.`[\]
+*d25368
+d `If I stopped this journey, it would mean acknowledging that the message from that witch was an illusion.`[\]
+*d25369
+d `And I felt as if that meant throwing away the promise the witch had made,`[@]` and any chance that someone from my family might come back.`[\]
+*d25370
+d `So, I'm continuing this journey because I want to believe in that illusion.`[\]
+textoff
+waits 167
+lbg s0_3,"white"
+flush 22
+agpt quakeycycle,1333
+agpt quakeyamp,30,500
+agpt quakexcycle,2000
+agpt quakexamp,10,500
+rumble 39,1000
+textoff
+waits 167
+lbg s0_3,"sea_1af"
+flush 22
+*d25371
+d `I don't seriously believe that this journey will change anything.`[@]`{n}......I'm even free to end it at any time.`[@]` It's up to me to choose where the final destination is.`[\]
+*d25372
+d `In the end, this journey is only for my personal self‐satisfaction......`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+vol_bgm 0,3000
+vol_me 2,0,3000
+wait 3000
+vol_bgm -1,1000
+textoff
+waits 167
+lbg s0_3,"ship_s2bf"
+lss s0_10,"ama","a25_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 26
+msgwnd_ama
+*d25373
+d [lv 0*"20"*"43000053"]`"............Self‐satisfaction, is it.`[@][lv 0*"20"*"43000054"]` It sounds bad when you say it out loud, but I think that actually, that's life."`[\]
+lss s0_8,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d25374
+d [lv 0*"11"*"42001101"]`"......Heh.`[@][lv 0*"11"*"42001102"]` If that's the answer you reached after crawling across the line between life and death in the mercenary business, that's probably pretty deep."`[\]
+lss s0_10,"ama","a11_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ama
+*d25375
+d2 [lv 0*"20"*"43000055"]`"Don't just laugh it off.`[@][#][*][lv 0*"20"*"43000056"]` What I'm trying to say is that there's no {i:self} about it—in this world, the only one {i:capable} of satisfying you is yourself."`[\]
+wait_on_d 0
+lss s0_10,"ama","a11_defo2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+msgwnd_non
+*d25376
+d `Amakusa continued stretching as he spoke.`[@]`{n}In an annoyingly eloquent way.`[\]
+*d25377
+d `Hearing it told to me as though from a teacher made me instinctively want to resist, but what he was saying was extremely sensible.`[\]
+lss s0_8,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d25378
+d2 [lv 0*"11"*"42001103"]`".....................`[@][#][*][lv 0*"11"*"42001104"]` ......That may be true."`[\]
+wait_on_d 0
+bgmplay 25,71,0
+d_continue
+wait_on_d -1
+lss s0_8,"enj","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+vol_me 1,-1,1000
+vol_me 2,-1,1000
+*d25379
+d [lv 0*"11"*"42001105"]`"People work hard when they want to satisfy someone.`[@][lv 0*"11"*"42001106"]` ......In most cases, that someone is their parents.`[@][lv 0*"11"*"42001107"]` Children learn how to work hard because they want to be praised by their parents.`[@][lv 0*"11"*"42001108"]` .........Of course, that's why I never learned."`[\]
+lss s0_10,"ama","a14_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ama
+*d25380
+d [lv 0*"20"*"43000057"]`"Sorry, that's not what I intended to say."`[\]
+lss s0_10,"ama","a12_defo2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d25381
+d [lv 0*"20"*"43000058"]`"......What I want to say is that self‐satisfaction is {nobr:A‐OK}.`[@][lv 0*"20"*"43000059"]` No matter who praises you, it's meaningless unless you yourself are satisfied.`[@][lv 0*"20"*"43000060"]` ......Turning it around, even if no one praises you, that doesn't matter as long as you're satisfied yourself."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"white"
+flush 25
+meplay 1,3,71
+textoff
+waits 167
+lbg s0_3,"sea_1af"
+flush 22
+msgwnd_enj
+*d25382
+d [lv 0*"11"*"42001109"]`".........Self‐satisfaction and self‐improvement contradict each other, so we're usually taught that the former is bad.`[@][lv 0*"11"*"42001110"]` Your argument is kind of a breath of fresh air."`[\]
+msgwnd_ama
+*d25383
+d [lv 0*"20"*"43000061"]`"The anguish of the human world comes when you want to satisfy someone, you want recognition, but you don't know where to put the effort.`[@][lv 0*"20"*"43000062"]` I had a time like that too."`[\]
+*d25384
+d [lv 0*"20"*"43000063"]`"I wanted recognition, but I didn't know what I wanted recognition {i:for}.`[@][lv 0*"20"*"43000064"]` And since I didn't know what I was meant to put effort into, or how much, or even who I wanted to give me that recognition,`[@][lv 0*"20"*"43000065"]` I did a lot of crazy things."`[\]
+textoff
+waits 167
+lbg s0_3,"ship_s2af"
+flush 26
+lss s0_10,"enj","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d25385
+d [lv 0*"11"*"42001111"]`"And the answer you reached......was self‐satisfaction?"`[\]
+lss s0_8,"ama","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ama
+*d25386
+d [lv 0*"20"*"43000066"]`"It sounds bad, but that's how it is.`[@][lv 0*"20"*"43000067"]` Rich is the one who is content with what they are, they say."`[\]
+lss s0_8,"ama","a11_defo2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d25387
+d [lv 0*"20"*"43000068"]`".........If I've decided this is the life I'm happy with, no one has any right to tell me any different.`[@][lv 0*"20"*"43000069"]` It's the same for your life, and for this journey.`[@][lv 0*"20"*"43000070"]` No one has any right to object other than you yourself."`[\]
+lss s0_8,"ama","a21_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d25388
+d [lv 0*"20"*"43000071"]`"You are the only one who determines the meaning and worth of your journey.`[@][lv 0*"20"*"43000072"]` If it turns out to have been a meaningful journey for you, then that's more than enough."`[\]
+lss s0_10,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d25389
+d [lv 0*"11"*"42001112"]`"...........................`[@][lv 0*"11"*"42001113"]` .........I thought you were the kind of guy who never takes things seriously, but you really do say some weird things every once in a while.`[@][lv 0*"11"*"42001114"]` I'll bet you think saying things like that every now and then will make you a hit with the ladies."`[\]
+lss s0_8,"ama","a12_akuwarai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ama
+*d25390
+d2 [lv 0*"20"*"43000073"]`"You've got me all wrong.`[@][lv 0*"20"*"43000074"]` That's not why I said it.`[@][#][*][lv 0*"20"*"43000075"]` .........It looks like you want to be alone.`[@][lv 0*"20"*"43000076_b"]` I'll be over with the boat captain.`[@][lv 0*"20"*"43000077"]` Please, take your time."`[\]
+wait_on_d 0
+lss s0_8,"ama","a25_defo2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+csp_slot s0_8
+flush 10,167
+vol_bgm -1,1000
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"white"
+flush 24
+textoff
+waits 167
+lbg s0_3,"ship_s2bf"
+flush 24
+msgwnd_non
+*d25391
+d `It seemed Amakusa had decided I was in a bad mood.`[@]`{n}......Although I didn't feel that way myself.`[\]
+*d25392
+d `Maybe he had just finished a set of stretches and wanted to cool off in the shade.`[\]
+*d25393
+d `The sea winds were strong, but not enough to take the edge off the rays of the sun.`[\]
+*d25394
+d `Amakusa disappeared.`[@]` Only I remained.`[\]
+textoff
+waits 167
+lbg s0_3,"ship_s2a"
+flush 22
+msgwnd_enj
+*d25395
+d [lv 0*"11"*"42001115"]`".........Self‐satisfaction is life, he says."`[\]
+textoff
+waits 167
+seplay 1,52,71
+lss s0_9,"rg5","d31_hohoemi1" ;1
+aspt2 breakup,s0_9,1000
+aspt2 alpha,s0_9,0
+flush 1
+aspt2 breakup,s0_9,0,2000
+aspt2 alpha,s0_9,255,2000
+sptwait2 breakup,s0_9
+msgwnd_rg5
+*d25396
+d2 [lv 0*"42"*"42700237"]`"That's just boring.`[@][#][*][lv 0*"42"*"42700238"]` Life is nothing without greed."`[\]
+wait_on_d 0
+bgmplay 43,71,0
+d_continue
+wait_on_d -1
+msgwnd_non
+*d25397
+d `I noticed that Mammon had suddenly appeared, her full hair streaming out in the wind by the prow of the ship.`[\]
+csp_slot s0_9
+flush 10,167
+lss s0_8,"rg5","d31_hohoemi1" ;1
+aspt2 xpos,s0_8,-370
+lss s0_10,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d25398
+d [lv 0*"11"*"42001116"]`"It's true that a life of greed would be fun.`[@][lv 0*"11"*"42001117"]` But unlike you, {y:0:Human}{n:0:human}s have a limited lifespan."`[\]
+lss s0_10,"enj","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d25399
+d [lv 0*"11"*"42001118"]`"If a person remains greedy for eternity, that means that they have desires even in the last moment before they die.`[@][lv 0*"11"*"42001119"]` Having desires means that there's something they want.`[@][lv 0*"11"*"42001120"]` Something they don't have, some way they aren't complete."`[\]
+lss s0_10,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d25400
+d [lv 0*"11"*"42001121"]`"......I'm sure it's tough to die when you can't think of yourself as being fulfilled.`[@][lv 0*"11"*"42001122"]` So I'm sure self‐satisfaction is actually necessary."`[\]
+lss s0_8,"rg5","d11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_rg5
+*d25401
+d2 [lv 0*"42"*"42700239"]`".........I see.`[@][lv 0*"42"*"42700240"]` Then beings with lifespans need to make that kind of compromise?`[@][#][*][lv 0*"42"*"42700241"]` Our masters always had very long lifespans, so I've never thought of it."`[\]
+wait_on_d 0
+lss s0_8,"rg5","d11_warai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_10,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d25402
+d2 [lv 0*"11"*"42001123"]`"I wonder if {y:0:Human}{n:0:human}s live so that they can be satisfied.`[@][lv 0*"11"*"42001124"]` ......If so, to seek nothing is probably the easiest way to live.`[@][#][*][lv 0*"11"*"42001125"]` ...Yes, it makes sense why greed is one of the seven deadly sins."`[\]
+wait_on_d 0
+lss s0_10,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_8,"rg5","b31_akuwarai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_rg5
+*d25403
+d [lv 0*"42"*"42700242"]`"*giggle*.`[@][lv 0*"42"*"42700243"]` Your praise honors me."`[\]
+msgwnd_non
+*d25404
+d `Apparently that counted as praise in Mammon's eyes.`[@]`{n}She turned and gave a graceful curtsy.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"white"
+flush 25
+textoff
+waits 167
+lbg s0_3,"sea_1af"
+flush 22
+msgwnd_rg5
+*d25405
+d [lv 0*"42"*"42700244"]`"Ange‐sama.`[@][lv 0*"42"*"42700245"]` Do {y:0:Human}{n:0:human}s live so that they can be satisfied at the moment of their death?"`[\]
+msgwnd_enj
+*d25406
+d [lv 0*"11"*"42001126"]`"......It must be pretty tough to be somehow incomplete at the moment of your death, right?"`[\]
+msgwnd_rg5
+*d25407
+d [lv 0*"42"*"42700246"]`"If so, then {y:0:Human}{n:0:human}s live only so that they can have a satisfying death.`[@][lv 0*"42"*"42700247"]` They live so that they can have a better death.`[@][lv 0*"42"*"42700248"]` They live to die."`[\]
+msgwnd_non
+*d25408
+d `............Wow, that's a hell of a thing to say.`[@]`{n}...Yes, I should have expected that from a demon stake.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+vol_me 1,-1,1000
+wait 1000
+*d25409
+d `However, her words might be the truth.`[@]` Humans suffer because they aren't whole, and live only to be made whole.`[\]
+*d25410
+d `That might be the same, in other words, as a desire to die—to die while whole.`[\]
+textoff
+waits 167
+lbg s0_3,"ship_s2bf"
+lss s0_10,"enj","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 26
+msgwnd_enj
+*d25411
+d2 [lv 0*"11"*"42001127"]`"I have no argument against that.`[@][#][*][lv 0*"11"*"42001128"]` ......People live in order to be content.`[@][lv 0*"11"*"42001129"]` And they hope to die while still content.`[@][#][*][lv 0*"11"*"42001130"]` So, not knowing how to make yourself content, make yourself complete, is very tough."`[\]
+wait_on_d 0
+lss s0_10,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d 1
+lss s0_10,"enj","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_8,"rg5","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_rg5
+*d25412
+d [lv 0*"42"*"42700249"]`"How does a {y:0:Human}{n:0:human} do that?`[@][lv 0*"42"*"42700250"]` Make their life complete."`[\]
+lss s0_10,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d25413
+d [lv 0*"11"*"42001131"]`".........Receiving validation, acceptance.`[@][lv 0*"11"*"42001132"]` That they're happy."`[\]
+lss s0_8,"rg5","a11_fuman1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_rg5
+*d25414
+d [lv 0*"42"*"42700251"]`"If it doesn't matter who accepts you, then I'll do it myself, if you like."`[\]
+lss s0_10,"enj","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d25415
+d [lv 0*"11"*"42001133"]`"Yes, that's just it.`[@][lv 0*"11"*"42001134"]` .........People don't know whose acceptance they need."`[\]
+lss s0_8,"rg5","a31_akuwarai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_rg5
+*d25416
+d [lv 0*"42"*"42700252"]`"So, searching for that person to accept them is the journey of life?`[@][lv 0*"42"*"42700253"]` Hmmmm."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"white"
+flush 22
+meplay 1,3,71
+textoff
+waits 167
+lbg s0_3,"sea_1af"
+flush 22
+msgwnd_enj
+*d25417
+d [lv 0*"11"*"42001135"]`"It sounds strange, doesn't it?`[@][lv 0*"11"*"42001136"]` Whether you find acceptance or not, it shouldn't change your circumstances.`[@][lv 0*"11"*"42001137"]` ......And yet, if you find acceptance you'll be whole, and if you don't then you won't."`[\]
+*d25418
+d [lv 0*"11"*"42001138"]`"...It's almost like the blue bird.`[@][lv 0*"11"*"42001139"]` ......Even though the blue bird is already in the cage, you can't notice it, so you have to go out on a journey searching everywhere."`[\]
+textoff
+waits 167
+lbg s0_3,"ship_s2af"
+lss s0_10,"rg5","a21_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 80
+msgwnd_rg5
+*d25419
+d2 [lv 0*"42"*"42700254"]`"What the heck.`[@][#][*][lv 0*"42"*"42700255"]` Kyahhahaha.`[@][lv 0*"42"*"42700256"]` Human lives sure are stupid."`[\]
+wait_on_d 0
+lss s0_10,"rg5","a11_akuwarai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_8,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d25420
+d2 [lv 0*"11"*"42001140"]`"That's right.`[@][lv 0*"11"*"42001141"]` Amakusa really hit on something.`[@][#][*][lv 0*"11"*"42001142"]` ......Rich is the one who is content with what they are...was it?`[@][lv 0*"11"*"42001143"]` I don't know where that proverb came from, but it's deep."`[\]
+wait_on_d 0
+lss s0_8,"enj","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+*d25421
+d [lv 0*"11"*"42001144"]`"......In short, if you won't be fully content unless you have someone's acceptance, that's the same as not being able to accept yourself.`[@][lv 0*"11"*"42001145"]` ......Turns out the ultimate self‐fulfillment begins with self‐acceptance."`[\]
+lss s0_10,"rg5","a21_akuwarai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_rg5
+*d25422
+d [lv 0*"42"*"42700257"]`"Well, of course.`[@][lv 0*"42"*"42700258"]` Because if you can become aware that you're fulfilled, there's no need for anyone else's acceptance.`[@][lv 0*"42"*"42700259"]` Just by taking notice of that small little thing, a {y:0:Human}{n:0:human}'s foolish lifelong journey can be ended easily."`[\]
+lss s0_10,"rg5","a21_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d25423
+d [lv 0*"42"*"42700260"]`"Then they can spend the rest of their life effectively, playing and having a good time.`[@][lv 0*"42"*"42700261"]` A {y:0:Human}{n:0:human}'s life is so ridiculous, kyahhahahaha!"`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"ship_s2bf"
+flush 25
+msgwnd_non
+*d25424
+d `Mammon's choice of words was bad, but it was surely the truth.`[\]
+*d25425
+d `If most of a {y:0:Human}{n:0:human}'s life...`[@]`is a journey wishing for someone's acceptance so that they can achieve a satisfied death...`[\]
+*d25426
+d `.........then the moment they realize that the person to accept them is not someone else, but them themselves, they can end that pointless journey.`[\]
+*d25427
+d `Humans who have finished that journey can probably spend the rest of their lives as they wish with their heads held high.`[\]
+*d25428
+d `......How sublime, how praiseworthy would that be.`[\]
+lss s0_9,"enj","a11_defo1" ;1
+flush 10,167
+msgwnd_enj
+*d25429
+d [lv 0*"11"*"42001146"]`"You know,`[@][lv 0*"11"*"42001147"]` it seems Amakusa's on pretty bad terms with his parents.`[@][lv 0*"11"*"42001148"]` ......Makes sense, right?`[@][lv 0*"11"*"42001149"]` Amakusa's in the kind of trade that any sane parent would want their kid to wash his hands of."`[\]
+csp_slot s0_9
+flush 10,167
+lss s0_8,"enj","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+lss s0_10,"rg5","d21_hohoemi1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_rg5
+*d25430
+d [lv 0*"42"*"42700262"]`"Why does it matter?`[@][lv 0*"42"*"42700263"]` If he's enjoying it."`[\]
+lss s0_8,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d25431
+d [lv 0*"11"*"42001150"]`".........Exactly.`[@][lv 0*"11"*"42001151"]` That's what it comes down to in the end.`[@][lv 0*"11"*"42001152"]` Your worth as observed by others doesn't matter."`[\]
+*d25432
+d [lv 0*"11"*"42001153"]`"If your existence is firmly accepted by you yourself, that's enough.`[@][lv 0*"11"*"42001154"]` ......If you can live with confidence in yourself, surely you can accept and find satisfaction in any kind of lifestyle."`[\]
+lss s0_8,"enj","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d25433
+d [lv 0*"11"*"42001155"]`"I'm sure Amakusa will eventually eat a stray bullet on the battlefield and get seriously injured.`[@][lv 0*"11"*"42001156"]` ...He might even die."`[\]
+lss s0_8,"enj","a11_warai2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d25434
+d [lv 0*"11"*"42001157"]`"But I don't think Amakusa will think of it as unfair.`[@][lv 0*"11"*"42001158"]` I'm sure he'd cackle about how that too is life."`[\]
+lss s0_10,"rg5","d21_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_rg5
+*d25435
+d [lv 0*"42"*"42700264"]`"What a great way to live.`[@][lv 0*"42"*"42700265"]` I'm enchanted."`[\]
+textoff
+waits 167
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 22
+agpt quakeyamp,0
+agpt quakexamp,0
+gptwait quakexamp
+gptwait quakeyamp
+textoff
+waits 167
+lbg s0_3,"different_spiral_1a"
+flush 22
+msgwnd_enj
+*d25436
+d [lv 0*"11"*"42001159"]`"......Pitiful {y:0:Human}{n:0:human}s who can't accept themselves...`[@][lv 0*"11"*"42001160"]`wander about searching for it their whole lives, doing nothing but grumbling and complaining, unable to come to terms with anything, ultimately dying while still unfulfilled."`[\]
+*d25437
+d [lv 0*"11"*"42001161"]`"......How pitiful.`[@][lv 0*"11"*"42001162"]` Compared to people whose lives drag on without any purpose,`[@][lv 0*"11"*"42001163"]` Amakusa is more likely to eventually die by the roadside, but I think he's much more noble for living his life with his chest stuck out."`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+msgwnd_rg5
+*d25438
+d [lv 0*"42"*"42700266"]`"Maybe the enlightened are the winners in life?`[@][lv 0*"42"*"42700267"]` If you can come to that realization even a little sooner, you'll be able to put that much more of your life to good use."`[\]
+msgwnd_non
+*d25439
+d `.........At those words of Mammon's,`[!w500]` ......I finally came to terms with a certain fact.`[\]
+*d25440
+d `I had......described her as an abnormal kid, a little strange.`[\]
+*d25441
+d `However,`[!w500]` ......that wasn't the case.`[\]
+*d25442
+d `She had simply...`[!w583]`......finished that journey faster than anyone else, and taught herself to keep her own chin up and live with confidence.`[\]
+textoff
+waits 167
+vol_bgm -1,2000
+wait 2000
+agpt quakeycycle,1333
+agpt quakeyamp,30,500
+agpt quakexcycle,2000
+agpt quakexamp,10,500
+rumble 39,1000
+textoff
+waits 167
+lbg s0_3,"ship_s2af"
+lss s0_10,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_10,370
+flush 26
+bgmplay 85,71,0
+msgwnd_enj
+*d25443
+d2 [lv 0*"11"*"42001164"]`".....................Maybe {i:that's} what made Maria onee‐chan...so amazing.`[@][#][*][lv 0*"11"*"42001165"]` She had already reached that point at the age where she was only just about to begin elementary school."`[\]
+wait_on_d 0
+lss s0_10,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"black"
+flush 22
+agpt quakeyamp,0
+agpt quakexamp,0
+gptwait quakexamp
+gptwait quakeyamp
+vol_me 1,-1,1000
+wait 1000
+textoff
+waits 167
+lbg s0_3,"book1"
+flush 22
+msgwnd_non
+*d25444
+d `Other people like us, looking at her life from the outside, couldn't call it happy by any standard.`[\]
+*d25445
+d `But even though such days were engraved in her diary,`[@]` ......the entries always finished up by saying it was a happy day.`[\]
+seplay 1,1010,50
+textoff
+waits 167
+lbg s0_3,"white"
+flush 64
+textoff
+waits 167
+lbg s0_3,"ros_r1a"
+color_mod2 s0_3,#ffffff
+lss s0_9,"ros","c11_ikari3" ;1
+color_mod2 s0_9,#ffffff
+flush 22
+*d25446
+d `Even though you can catch glimpses of her mother's lack of love for her,`[@]` in spite of that, she believed that her mother did love her.`[\]
+*d25447
+d `The mother's love that didn't exist, she created herself, filling her world with love.`[\]
+seplay 1,1010,50
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 64
+textoff
+waits 167
+lbg s0_3,"cit_3a"
+color_mod2 s0_3,#ffffff
+lss s0_9,"mar","c11_warai1" ;1
+color_mod2 s0_9,#ffffff
+flush 22
+*d25448
+d `Others observed her as an unfulfilled, pitiful girl,`[@]` ......but she told herself that she was fulfilled, and accepted herself how she was.`[\]
+*d25449
+d `And so, she was happy that way.`[\]
+seplay 1,1010,50
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 64
+textoff
+waits 167
+lbg s0_3,"book1"
+flush 22
+*d25450
+d `It's easy to observe that as something pitiable and sad.`[@]` But to her, that was an outsider's opinion, and didn't matter in the slightest.`[\]
+*d25451
+d `The only important thing was whether or not this was happiness {i:to her}.`[\]
+*d25452
+d `It's just like how, when people who live in the city point to the lifestyles of those in the country,`[@]` and lament the inconvenience and feel sympathy for them, it's really just misplaced kindness.`[\]
+*d25453
+d `If those who live there are satisfied with what they have, that's more than enough.`[\]
+textoff
+waits 167
+lbg s0_3,"white"
+flush 9
+meplay 1,3,71
+agpt quakeycycle,1333
+agpt quakeyamp,30,500
+agpt quakexcycle,2000
+agpt quakexamp,10,500
+rumble 39,1000
+textoff
+waits 167
+lbg s0_3,"ship_s2bf"
+flush 2
+wait 2000
+textoff
+waits 167
+lbg s0_3,"ship_s2af"
+lss s0_9,"enj","a11_nayamu1" ;1
+flush 6
+lss s0_9,"enj","a11_defo1" ;1
+flush 10,167
+msgwnd_enj
+*d25454
+d2 [lv 0*"11"*"42001166"]`".........I've finally realized something.`[@][lv 0*"11"*"42001167"]` ...I realized it just now.`[@][#][*][lv 0*"11"*"42001168"]` ......I did something horrible to Maria onee‐chan.`[@][lv 0*"11"*"42001169"]` .........And to all of you, and Sakutarou as well, on that day."`[\]
+wait_on_d 0
+lss s0_9,"enj","a11_komaru2" ;1
+flush 10,167
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"ship_s2bf"
+lss s0_10,"rg5","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 24
+msgwnd_rg5
+*d25455
+d [lv 0*"42"*"42700268"]`"................................."`[\]
+lss s0_8,"enj","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d25456
+d [lv 0*"11"*"42001170"]`"The question of whether magic exists, or not.`[@][lv 0*"11"*"42001171"]` ......That's not up to other people to decide."`[\]
+lss s0_8,"enj","a31_komaru3" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d25457
+d [lv 0*"11"*"42001172"]`"It's up to you yourself.`[@][lv 0*"11"*"42001173"]` Whether magic exists to Maria onee‐chan is a problem for Maria onee‐chan to decide, and not for me."`[\]
+lss s0_8,"enj","a11_komaru2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d25458
+d [lv 0*"11"*"42001174"]`"......And yet, when I was young, I said it, that day.`[@][lv 0*"11"*"42001175"]` I told her there's no way magic exists, ......and I hurt her."`[\]
+msgwnd_non
+*d25459
+d `To me, magic doesn't exist—but that's {i:my} world.`[@]`{n}Denying Onee‐chan's world as well just because of that was totally barking up the wrong tree.`[\]
+csp_slot s0_8
+csp_slot s0_10
+flush 10,167
+lss s0_9,"enj","a31_komaru3" ;1
+flush 10,167
+msgwnd_enj
+*d25460
+d [lv 0*"11"*"42001176"]`"Mariage Sorcière is the witches' alliance Maria onee‐chan created.`[@][lv 0*"11"*"42001177"]` I was invited into that, and invited to become a witch with her."`[\]
+lss s0_9,"enj","a11_komaru2" ;1
+flush 10,167
+*d25461
+d [lv 0*"11"*"42001178"]`"I thought it was a fun new game, and I went along with it for a while.`[@][lv 0*"11"*"42001179"]` ......But, because of the cruelty of youth,`[@][lv 0*"11"*"42001180"]` I got tired of it half‐way through.`[@][lv 0*"11"*"42001181"]` And then......with sharp words, I tore her pure and innocent heart apart."`[\]
+lss s0_9,"enj","a11_hanbeso1" ;1
+flush 10,167
+*d25462
+d [lv 0*"11"*"42001182"]`"......At that time, we must have gotten into a huge fight.`[@][lv 0*"11"*"42001183"]` I forgot about it right away, but it was unforgettable for her.`[@][lv 0*"11"*"42001184"]` ......After all, to her, magic was a natural power that emphatically existed,`[@][lv 0*"11"*"42001185"]` and she believed that she'd be able to share that with me."`[\]
+lss s0_9,"enj","a11_naku1" ;1
+flush 10,167
+*d25463
+d [lv 0*"11"*"42001186"]`"......Magic, to Maria onee‐chan,`[@][lv 0*"11"*"42001187"]` was a power by which she could give the world a happy interpretation, ......no, which could {i:make} everything happy—it truly was a magical power.`[@][lv 0*"11"*"42001188"]` She just wanted to share that with me too."`[\]
+*d25464
+d [lv 0*"11"*"42001189"]`"The young me tore those feelings apart.`[@][lv 0*"11"*"42001190"]` ......So she closed herself up in a shell, believing that no one could understand magic with her."`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"ship_s2af"
+lss s0_10,"rg5","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 24
+msgwnd_rg5
+*d25465
+d [lv 0*"42"*"42700269"]`".........If so, then Lady {f:5:Maria}'s life‐journey wasn't over after all.`[@][lv 0*"42"*"42700270"]` If she had accepted herself, there would be no need for her to feel down just because you denied her."`[\]
+lss s0_8,"enj","a11_komaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d25466
+d [lv 0*"11"*"42001191"]`"Onee‐chan was young.`[@][lv 0*"11"*"42001192"]` She still hadn't reached the same kind of philosophical viewpoint as Amakusa.`[@][lv 0*"11"*"42001193"]` ......Ahh, and that explains it perfectly.`[@][lv 0*"11"*"42001194"]` Why the witches' alliance called Mariage Sorcière was necessary."`[\]
+textoff
+waits 167
+lbg s0_26,"black"
+flush 22
+msgwnd_non
+*d25467
+d `{m:-5:―}―An alliance where each accepts that the other is a witch.`[\]
+textoff
+waits 167
+csp_slot s0_26
+lss s0_8,"enj","a11_komaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+lss s0_8,"enj","a31_komaru3" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d25468
+d [lv 0*"11"*"42001195"]`"...That's right—I'm pretty sure that was the first article in the agreement of Mariage Sorcière.`[@][lv 0*"11"*"42001196"]` ......Witches of the alliance must accept each other and respect each other.`[@][lv 0*"11"*"42001197"]` That is the deepest and the only meaning of the witches' alliance......"`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 22
+msgwnd_non
+*d25469
+d `Maria onee‐chan wanted to share with me the secret laws for making the world happy, called magic.`[\]
+*d25470
+d `But I was young.`[@]` And she was too.`[\]
+*d25471
+d `......I hurt her with innocent cruelty.`[\]
+textoff
+waits 167
+lbg s0_3,"ship_s2af"
+lss s0_10,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_10,370
+flush 26
+msgwnd_enj
+*d25472
+d [lv 0*"11"*"42001198"]`".........On that day, I said it, ...those reckless words.`[@][lv 0*"11"*"42001199"]` To all of you and Sakutarou.`[@][lv 0*"11"*"42001200"]` I said there's no way you exist."`[\]
+lss s0_8,"rg5","a31_fuman1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_rg5
+*d25473
+d [lv 0*"42"*"42700271"]`"I'm offended.`[@][lv 0*"42"*"42700272"]` We accept that we exist ourselves.`[@][lv 0*"42"*"42700273"]` We're not like {y:0:Human}{n:0:human}s, with their souls half‐asleep.`[@][lv 0*"42"*"42700274"]` ......‘I think, therefore I am’."`[\]
+*d25474
+d [lv 0*"42"*"42700275"]`"Whether you accept or deny magic, the existence of the magic called the Seven Stakes of Purgatory...is therefore a fact.`[@][lv 0*"42"*"42700276"]` ......As long as we accept ourselves, to borrow your words."`[\]
+lss s0_10,"enj","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d25475
+d2 [lv 0*"11"*"42001201"]`"It truly would be violence for another person like me to deny that.`[@][#][*][lv 0*"11"*"42001202"]` .........I'm sure that would be like having your true mother yell "I wish you had never been born",`[@][lv 0*"11"*"42001203"]` no, "get out of my life"."`[\]
+wait_on_d 0
+lss s0_10,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 22
+agpt quakeyamp,0
+agpt quakexamp,0
+gptwait quakexamp
+gptwait quakeyamp
+msgwnd_non
+*d25476
+d `......Even after being slammed by all those words,`[@]` ......Maria onee‐chan's magic...`[!w583]`......made her believe in her mother's love.`[\]
+*d25477
+d `Sakutarou, her magic friend, always encouraged her.`[\]
+textoff
+waits 167
+lbg s0_3,"different_spiral_1a"
+flush 8
+*d25478
+d `......He kept saying that her mother loved her, that she was coming home late because of her work,`[@]` and that she would definitely bring back a present.`[\]
+*d25479
+d `Even after Maria learned the fact that it really wasn't because of work, magic still kept her believing that.`[\]
+textoff
+waits 167
+lbg s0_3,"white"
+flush 22
+agpt quakeycycle,1333
+agpt quakeyamp,30,500
+agpt quakexcycle,2000
+agpt quakexamp,10,500
+rumble 39,1000
+textoff
+waits 167
+lbg s0_3,"sea_1af"
+flush 22
+*d25480
+d `So by believing that her mother loved her, by accepting herself,`[@]` she filled her world with love and peace and serenity, ......and established it perfectly.`[\]
+textoff
+waits 167
+lbg s0_3,"ship_s2af"
+lss s0_10,"enj","a31_komaru3" ;1
+aspt2 xpos,s0_10,370
+flush 26
+msgwnd_enj
+*d25481
+d2 [lv 0*"11"*"42001204"]`"What happened twelve years ago, ...what happened to my family.`[@][#][*][lv 0*"11"*"42001205"]` ......This was...not a journey to search for that."`[\]
+wait_on_d 0
+lss s0_10,"enj","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_8,"rg5","a31_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_rg5
+*d25482
+d [lv 0*"42"*"42700277"]`"............Then what is this journey?"`[\]
+lss s0_10,"enj","a11_fuman1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d25483
+d [lv 0*"11"*"42001206"]`"It was a journey......to apologize to Maria onee‐chan for what happened that day."`[\]
+msgwnd_rg5
+*d25484
+d [lv 0*"42"*"42700278"]`".............................."`[\]
+lss s0_10,"enj","b21_komaru1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d25485
+d [lv 0*"11"*"42001207"]`"I don't know why, but that's what I think.`[@][lv 0*"11"*"42001208"]` ......If I hadn't hurt her that day,`[@][lv 0*"11"*"42001209"]` .........the incident twelve years ago might not have occurred.`[@][lv 0*"11"*"42001210"]` ......That's what I think."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 22
+agpt quakeyamp,0
+agpt quakexamp,0
+gptwait quakexamp
+gptwait quakeyamp
+vol_me 1,-1,1000
+wait 1000
+msgwnd_non
+*d25486
+d `I have no basis for it.`[@]` I don't have a clue how hurting Onee‐chan would be connected to that mysterious incident several years later.`[\]
+*d25487
+d `But for some reason, I can't imagine that there is no connection.`[\]
+textoff
+waits 167
+lbg s0_3,"portrait2"
+flush 8
+*d25488
+d `A witch caused that incident.`[\]
+*d25489
+d `And the culprit is the Golden Witch, {f:5:Beatrice}.`[\]
+*d25490
+d `And {f:5:Beatrice} was part of the Mariage Sorcière Alliance of Witches.`[\]
+*d25491
+d `I had horribly hurt the other witch of that alliance.`[\]
+*d25492
+d `I had hurt her by saying that magic doesn't exist.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+*d25493
+d `.........And that's why, several years later, an inexplicable crime by a witch occurred,`[@]` and that two‐day period which can't be explained with anything but magic was thrust in my face via a message bottle.`[\]
+agpt quakeycycle,1333
+agpt quakeyamp,30,500
+agpt quakexcycle,2000
+agpt quakexamp,10,500
+rumble 39,1000
+textoff
+waits 167
+lbg s0_3,"ship_s2bf"
+lss s0_10,"enj","a11_komaru2" ;1
+aspt2 xpos,s0_10,370
+flush 26
+msgwnd_enj
+*d25494
+d2 [lv 0*"11"*"42001211"]`"......I'm sure that I'm not unrelated.`[@][#][*][lv 0*"11"*"42001212"]` .........I don't know.`[@][lv 0*"11"*"42001213"]` It could be chance, it could be fate.`[@][lv 0*"11"*"42001214"]` .........For some reason, I've just started thinking that way on this journey."`[\]
+wait_on_d 0
+lss s0_10,"enj","a31_komaru3" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_8,"rg5","a31_hohoemi1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_rg5
+*d25495
+d [lv 0*"42"*"42700279"]`"And your basis?"`[\]
+lss s0_10,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d25496
+d [lv 0*"11"*"42001215"]`"None.`[@][lv 0*"11"*"42001216"]` It's just what I'm thinking."`[\]
+lss s0_8,"rg5","a31_fuman1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_rg5
+*d25497
+d [lv 0*"42"*"42700280"]`"Hmmmm......`[@][lv 0*"42"*"42700281"]` The Japanese sure are interesting.`[@][lv 0*"42"*"42700282"]` Even if they're the victim, they feel as though they did something wrong, and apologize for no reason."`[\]
+lss s0_8,"rg5","a31_hohoemi1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d25498
+d [lv 0*"42"*"42700283"]`"......I could understand if you said "I hate {f:5:Beatrice}‐sama for stealing my family!" or something,`[@][lv 0*"42"*"42700284"]` but you really are an odd one, feeling guilty for no reason and apologizing."`[\]
+lss s0_10,"enj","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d25499
+d [lv 0*"11"*"42001217"]`"Of course I hate {f:5:Beatrice}.`[@][lv 0*"11"*"42001218"]` I couldn't continue this journey without that feeling."`[\]
+lss s0_10,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d25500
+d [lv 0*"11"*"42001219"]`"But it's alright for me to find another purpose to this journey.`[@][lv 0*"11"*"42001220"]` There's nothing wrong with me adding the goal of apologizing for past sins onto this journey for revenge on a witch of twelve years prior.`[@][lv 0*"11"*"42001221"]` I can at least go to Rokkenjima, apologize for my reckless remarks, and offer flowers."`[\]
+lss s0_10,"enj","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+textoff
+waits 167
+meplay 1,3,71
+vol_bgm -1,2000
+wait 2000
+*d25501
+d [lv 0*"11"*"42001222"]`"......No, .........there's something better than flowers.`[@][lv 0*"11"*"42001223"]` And I think that would be more fitting for Onee‐chan."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"white"
+flush 22
+textoff
+waits 167
+lbg s0_3,"ship_s2bf"
+flush 2
+msgwnd_non
+*d25502
+d `I stood up, and, ignoring my hair being blown about by the sea breeze, I concentrated my mind......`[\]
+*d25503
+d `I lifted my palms up to the height of my head, ......and imagined a vast space......`[\]
+lss s0_10,"rg5","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_rg5
+*d25504
+d [lv 0*"42"*"42700285"]`"............Ange‐sama..............."`[\]
+lss s0_8,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d25505
+d2 [lv 0*"11"*"42001224"]`"......Quiet.`[#][*][@][lv 0*"11"*"42001225"]` ........................"`[\]
+wait_on_d 0
+vol_mix_fade 0
+d_continue
+wait_on_d -1
+meplay 1,16,71
+lss s0_8,"enj","a11_fuman1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d25506
+d [lv 0*"11"*"42001226"]`"......Come, arise.`[@][lv 0*"11"*"42001227"]` ......I am the witch apprentice, {f:5:Ange Beatrice}.`[@][lv 0*"11"*"42001228"]` ......Though I was excommunicated, I was once a member of the same alliance, and you are dearly missed furniture who played with me.`[@][lv 0*"11"*"42001229"]` Answer to my call........."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 22
+agpt quakeyamp,0
+agpt quakexamp,0
+gptwait quakexamp
+gptwait quakeyamp
+msgwnd_non
+*d25507
+d `It was hard to tell in the middle of the day, but a faint blue light gathered around the palms of my hands.`[\]
+*d25508
+d `.........Then,`[!w583]` .........I revived Sakutarou's form.`[\]
+textoff
+waits 167
+seplay 1,22,71
+lss s0_12,"sak","a11_warai2" ;1
+aspt2 alpha,s0_12,50
+flush 22
+*d25509
+d `It truly was long‐missed, that figure.`[\]
+lss s0_12,"sak","a11_warai2" ;1
+aspt2 alpha,s0_12,100
+flush 22
+*d25510
+d `His cute ears, his bright‐red scarf.`[\]
+lss s0_12,"sak","a11_warai2" ;1
+aspt2 alpha,s0_12,150
+flush 22
+*d25511
+d `......It came off easily, so Onee‐chan faithfully re‐wrapped it all the time, didn't she...`[\]
+seplay 1,22,71
+textoff
+waits 167
+csp_slot s0_12
+lbg s0_3,"white"
+textoff
+waits 167
+textoff
+waits 167
+lbg s0_3,"ship_s2af"
+lss s0_9,"sak","a11_defo1" ;1
+flush 22
+agpt quakeycycle,1333
+agpt quakeyamp,30,500
+agpt quakexcycle,2000
+agpt quakexamp,10,500
+rumble 39,1000
+gstc 246
+seplay 9,1060,71
+lss s0_8,"rg5","a31_odoroki1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_rg5
+*d25512
+d [lv 0*"42"*"42700286"]`"......Sakutaro......`[@][lv 0*"42"*"42700287"]` ......Recognize us?`[@][lv 0*"42"*"42700288"]` Do you know who we are...?"`[\]
+textoff
+waits 167
+lss s0_9,"sak","a11_odoroki1" ;1
+flush 10,167
+vol_mix_fade 1000
+wait 1000
+msgwnd_sak
+*d25513
+d2 [lv 0*"33"*"44200406"]`‘...Uryu......?`[@][#][*][lv 0*"33"*"44200407"]` Uryu......?`[@][lv 0*"33"*"44200408"]` Mammon...?`[@][lv 0*"33"*"44200409"]` Ange.........?’`[\]
+wait_on_d 0
+bgmplay 76,71,0
+d_continue
+wait_on_d -1
+msgwnd_non
+*d25514
+d `With a sleepy face, as though waking up from a long slumber, Sakutarou looked all around him as he spoke.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+lbg s0_3,"ship_s2bf"
+lss s0_8,"enj","a31_komaru3" ;1
+aspt2 xpos,s0_8,-370
+flush 24
+msgwnd_enj
+*d25515
+d [lv 0*"11"*"42001230"]`"It's been a long time, ......Sakutarou.`[@][lv 0*"11"*"42001231"]` I'm pretty sure this is the first time I've summoned you with my own power.`[@][lv 0*"11"*"42001232"]` ......And now, I'm the only one who can."`[\]
+lss s0_10,"sak","a21_naku1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_sak
+*d25516
+d [lv 0*"33"*"44200410"]`‘..................Uryu......’`[\]
+msgwnd_non
+*d25517
+d `Those words might have been a bit cruel.`[@]`{n}Sakutarou's face clouded over...`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"ship_s2af"
+lss s0_10,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_10,370
+flush 23
+msgwnd_enj
+*d25518
+d2 [lv 0*"11"*"42001233"]`"In the past, I denied you.`[@][#][*][lv 0*"11"*"42001234"]` .........Now that I have summoned you,`[|][lv 0*"11"*"42001235"]` ......that means that I have accepted your existence."`[\]
+wait_on_d 0
+lss s0_10,"enj","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_8,"sak","a11_komaru2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_sak
+*d25519
+d [lv 0*"33"*"44200411"]`‘.........Is it okay......?`[@][lv 0*"33"*"44200412"]` Is it okay...for me to be summoned into your world......?’`[\]
+msgwnd_non
+*d25520
+d `His eyes were slightly frightened.`[\]
+*d25521
+d `......It was only natural.`[@]` I, who had played with him like a friend before,`[@]` had one day suddenly denied him and tried to burn him with the anti‐magic toxin.`[\]
+*d25522
+d `It was only natural that he was scared......`[\]
+lss s0_10,"enj","a11_komaru2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d25523
+d [lv 0*"11"*"42001236"]`"I apologize.`[@][lv 0*"11"*"42001237"]` For that day.`[@][lv 0*"11"*"42001238"]` .........To you too, Mammon.`[@][lv 0*"11"*"42001239"]` And to the rest of you."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"white"
+flush 22
+meplay 1,3,50
+textoff
+waits 167
+lbg s0_3,"ship_s2bf"
+lss s0_12,"rg7","d21_hohoemi1" ;1
+aspt2 xpos,s0_12,750
+lss s0_13,"rg6","d21_akuwarai1" ;1
+aspt2 xpos,s0_13,-750
+lss s0_14,"rg4","a12_defo1" ;1
+aspt2 xpos,s0_14,450
+lss s0_15,"rg3","b11_fuman1" ;1
+aspt2 xpos,s0_15,-450
+lss s0_16,"rg2","a11_hohoemi1" ;1
+aspt2 xpos,s0_16,150
+lss s0_17,"rg1","c11_akuwarai1" ;1
+aspt2 xpos,s0_17,-150
+flush 22
+msgwnd_non
+*d25524
+d `At some point, ......the rest of the Seven Sisters had gathered on the deck.`[\]
+*d25525
+d `No, they are there at all times.`[@]` Always by my side.`[\]
+*d25526
+d `As long as I accept that it's okay for them to be there, they will appear anytime.`[\]
+csp_slot s0_12
+csp_slot s0_13
+csp_slot s0_14
+csp_slot s0_15
+csp_slot s0_16
+csp_slot s0_17
+textoff
+waits 167
+lbg s0_3,"ship_s2af"
+lss s0_8,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_8,-550
+flush 24
+msgwnd_enj
+*d25527
+d [lv 0*"11"*"42001240"]`"You certainly do exist.`[@][lv 0*"11"*"42001241"]` Lucifer.`[@][lv 0*"11"*"42001242"]` And Leviathan.`[@][lv 0*"11"*"42001243"]` And Satan.`[@][lv 0*"11"*"42001244"]` And Belphegor.`[@][lv 0*"11"*"42001245"]` And Mammon.`[@][lv 0*"11"*"42001246"]` And Beelzebub.`[@][lv 0*"11"*"42001247"]` And Asmodeus.`[@][lv 0*"11"*"42001248"]` ......And Sakutarou too."`[\]
+lss s0_10,"rg1","a11_komaru3" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_rg1
+*d25528
+d [lv 0*"38"*"42300051"]`"......Is that alright?`[@][lv 0*"38"*"42300052"]` Ange‐sama, you are one who is challenging {f:5:Beatrice}‐sama.`[@][lv 0*"38"*"42300053"]` ...Is it alright for one in a position of denying witches to accept us?"`[\]
+lss s0_8,"enj","a13_nayamu1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_enj
+*d25529
+d [lv 0*"11"*"42001249"]`"About whether magic exists or not in my world, sorry, but let me put that question on hold.`[@][lv 0*"11"*"42001250"]` It's not like I myself have accepted the existence of magic."`[\]
+lss s0_9,"rg2","b11_defo1" ;1
+flush 10,167
+msgwnd_rg2
+*d25530
+d [lv 0*"39"*"42400029"]`"......Yet you accept us? How do you explain that contradiction?"`[\]
+lss s0_8,"enj","a11_defo1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_enj
+*d25531
+d [lv 0*"11"*"42001251"]`"Because magic exists for people who believe.`[@][lv 0*"11"*"42001252"]` Even if I don't.`[@][lv 0*"11"*"42001253"]` If someone believes, then magic will exist in that person's world."`[\]
+lss s0_8,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+*d25532
+d [lv 0*"11"*"42001254"]`"That will not be interfered with in any way, whether I believe in magic or not.`[@][lv 0*"11"*"42001255"]` No, it must not be interfered with."`[\]
+lss s0_8,"enj","a11_defo1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+*d25533
+d [lv 0*"11"*"42001256"]`"That person just needs to hold their head up high and believe in their own magic.`[@][lv 0*"11"*"42001257"]` And I will accept that.`[@][lv 0*"11"*"42001258"]` So it isn't strange at all for you guys to exist."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_3,"ship_s2bf"
+lss s0_10,"rg3","a21_hohoemi1" ;1
+aspt2 xpos,s0_10,370
+flush 24
+msgwnd_rg3
+*d25534
+d [lv 0*"40"*"42500049"]`".........That's quite the rationalization...but, an interesting interpretation, I would say."`[\]
+lss s0_8,"rg4","a32_hohoemi1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_rg4
+*d25535
+d [lv 0*"41"*"42600045"]`"What you're saying, Ange‐sama, is probably a Devil's Proof."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"ship_s2af"
+lss s0_10,"enj","a11_defo1" ;1
+aspt2 xpos,s0_10,550
+flush 23
+lss s0_10,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_enj
+*d25536
+d [lv 0*"11"*"42001259"]`"A Devil's Proof......?"`[\]
+lss s0_8,"rg6","d21_fuman1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_rg6
+*d25537
+d [lv 0*"43"*"42800050"]`"After all!`[@][lv 0*"43"*"42800051"]` To prove the existence of demons, you just need to bring one with you..."`[\]
+lss s0_9,"rg7","d21_akuwarai1" ;1
+flush 10,167
+msgwnd_rg7
+*d25538
+d [lv 0*"44"*"42900036"]`"But denying the existence of demons is impossible!"`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_10,"rg5","a11_warai1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_rg5
+*d25539
+d [lv 0*"42"*"42700289"]`"Kyahha!`[@][lv 0*"42"*"42700290"]` And we are here.`[@][lv 0*"42"*"42700291"]` That means that whether Ange‐sama believes in magic or not, our existence is unshakable."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_3,"ship_s2bf"
+flush 24
+lss s0_8,"sak","a11_defo1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_sak
+*d25540
+d2 [lv 0*"33"*"44200413"]`‘......Uryu?`[@][#][*][lv 0*"33"*"44200414"]` The anti‐magic toxin...`[|][lv 0*"33"*"44200415"]`.........is disappearing...`[|][lv 0*"33"*"44200416"]`...from Ange......’`[\]
+wait_on_d 0
+lss s0_8,"sak","a11_odoroki1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_10,"rg5","a11_komaru3" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_rg5
+*d25541
+d [lv 0*"42"*"42700292"]`"Y‐you're right......`[@][lv 0*"42"*"42700293"]` ......But she's in a position of denying magic......so why......?"`[\]
+lss s0_9,"enj","a11_fuman2" ;1
+flush 10,167
+msgwnd_enj
+*d25542
+d2 [lv 0*"11"*"42001260"]`"That's probably......`[@][lv 0*"11"*"42001261"]`......because I learned respect and acceptance.`[@][#][*][lv 0*"11"*"42001262"]` Now, ......I might be able to understand...`[@][lv 0*"11"*"42001263"]`...the depths of Maria onee‐chan's magic......and {f:5:Beatrice}'s."`[\]
+wait_on_d 0
+lss s0_9,"enj","a11_defo1" ;1
+flush 10,167
+d_continue
+wait_on_d -1
+msgwnd_non
+*d25543
+d `In the past, I insisted that I didn't believe in things like magic,`[@]` that something like that couldn't exist—I acted like I had my eyes tightly shut and couldn't see anything.`[\]
+*d25544
+d `But now I'm different.`[@]` I get the feeling I can look right at the thing called magic, and close in on its true nature......`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_3,"white"
+flush 23
+textoff
+waits 167
+lbg s0_3,"ship_s2af"
+lss s0_10,"rg3","a22_defo1" ;1
+aspt2 xpos,s0_10,550
+flush 23
+msgwnd_rg3
+*d25545
+d [lv 0*"40"*"42500050"]`"......How frustrating.`[@][lv 0*"40"*"42500051"]` It's truly rare to find a {y:0:Human}{n:0:human} so free of the anti‐magic toxin in this day and age.`[@][lv 0*"40"*"42500052"]` And she has such an uncommon genius for being a witch..."`[\]
+lss s0_8,"rg2","a31_hohoemi1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_rg2
+*d25546
+d [lv 0*"39"*"42400030"]`"That's right.`[@][lv 0*"39"*"42400031"]` ......If Ange‐sama tried to become a witch now,`[@][lv 0*"39"*"42400032"]` ......she could grow to be a Great Witch, maybe even at {f:5:Beatrice}‐sama's level."`[\]
+lss s0_9,"rg4","b11_akuwarai1" ;1
+flush 10,167
+msgwnd_rg4
+*d25547
+d [lv 0*"41"*"42600046"]`"Even so, she is our master, and has accepted our existence.`[@][lv 0*"41"*"42600047"]` ......Most likely, Ange‐sama will be our final master.`[@][lv 0*"41"*"42600048"]` Let us think of this as our final service, and apply ourselves to the fullest."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_3,"ship_s2bf"
+lss s0_8,"rg6","d21_fuman1" ;1
+aspt2 xpos,s0_8,-550
+flush 24
+msgwnd_rg6
+*d25548
+d [lv 0*"43"*"42800052"]`"......Bleghh.`[@][lv 0*"43"*"42800053"]` I just can't sta~nd that Ange‐sama still doesn't believe in magic herself."`[\]
+lss s0_10,"rg7","c11_komaru3" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_rg7
+*d25549
+d [lv 0*"44"*"42900037"]`"......Ange‐samaaa, please believe in magic too~.`[@][lv 0*"44"*"42900038"]` Feels like a waste to finally have a master and have it not be a wi~tch."`[\]
+lss s0_9,"rg5","a11_komaru3" ;1
+flush 10,167
+msgwnd_rg5
+*d25550
+d [lv 0*"42"*"42700294"]`"Even though you have outstanding talent which could make you one of the greatest of witches, your goal is to slay them.`[@][lv 0*"42"*"42700295"]` It's such a shame."`[\]
+lss s0_9,"rg5","a21_defo1" ;1
+flush 10,167
+*d25551
+d [lv 0*"42"*"42700296"]`"......Well, that's her life, her way of living,`[@][lv 0*"42"*"42700297"]` and if that's the way she's decided her world is going to be, there's nothing we can achieve by complaining."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_3,"ship_s2bf"
+lss s0_8,"enj","a11_warai2" ;1
+aspt2 xpos,s0_8,-370
+flush 23
+msgwnd_enj
+*d25552
+d [lv 0*"11"*"42001264"]`"Thanks for understanding me.`[@][lv 0*"11"*"42001265"]` Yeah, whether magic exists {i:to me} or not,`[@][lv 0*"11"*"42001266"]` that's up to me to decide.`[@][lv 0*"11"*"42001267"]` Whether magic actually does exist somewhere in the world or not, you see?"`[\]
+textoff
+waits 167
+csp_slot s0_8
+lbg s0_3,"white"
+flush 22
+agpt quakeyamp,0
+agpt quakexamp,0
+gptwait quakexamp
+gptwait quakeyamp
+textoff
+waits 167
+lbg s0_3,"sky_1a"
+flush 22
+msgwnd_non
+*d25553
+d `When I think about it, the world is so vast, ......and yet so small.`[\]
+*d25554
+d `Billions of people live on the Earth.`[@]`{n}But I probably won't meet even one percent of those people.`[\]
+*d25555
+d `Even so, I will speak of the world.`[@]`{n}Without knowing even one percent of the world—I will speak of "my world".`[\]
+msgwnd_enj
+*d25556
+d [lv 0*"11"*"42001267_1"]`"I'm not qualified to deny the laws of a world I don't know.`[@][lv 0*"11"*"42001267_2"]` ......So just because magic doesn't exist in my world, I can't deny that magic exists in a world I don't know."`[\]
+*d25557
+d [lv 0*"11"*"42001267_3"]`"That makes it a true Devil's Proof.`[@][lv 0*"11"*"42001267_4"]` No, maybe it's more like "when in Rome, do as the Romans do"."`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+agpt quakeycycle,1333
+agpt quakeyamp,30,500
+agpt quakexcycle,2000
+agpt quakexamp,10,500
+rumble 39,1000
+textoff
+waits 167
+lbg s0_3,"sea_1c"
+flush 22
+msgwnd_non
+*d25558
+d `I can be confident in the world I know.`[@]` So even if my world {i:is} denied by a complete stranger who doesn't know a thing about it, that's nothing to worry about.`[\]
+*d25559
+d `And in the same way, just because I don't know another world,`[@]` that doesn't make me qualified to deny it.`[\]
+textoff
+waits 167
+lbg s0_3,"ship_s2af"
+lss s0_9,"enj","a11_warai2" ;1
+flush 26
+lss s0_9,"enj","a11_warai1" ;1
+flush 10,167
+msgwnd_enj
+*d25560
+d [lv 0*"11"*"42001267_5"]`"Which is why,`[@][lv 0*"11"*"42001267_6"]` regardless of whether there is magic in my world or not,`[@][lv 0*"11"*"42001267_7"]` ......I cannot deny the magic Maria onee‐chan taught me."`[\]
+csp_slot s0_9
+flush 10,167
+lss s0_10,"enj","a11_warai1" ;1
+aspt2 xpos,s0_10,370
+lss s0_8,"sak","a12_warai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_sak
+*d25561
+d [lv 0*"33"*"44200417"]`‘Uryu!`[@][lv 0*"33"*"44200418"]` After all, even if you've never seen it,`[@][lv 0*"33"*"44200419"]` ......magic exists!’`[\]
+lss s0_10,"enj","a11_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d25562
+d [lv 0*"11"*"42001268"]`"Yes.`[@][lv 0*"11"*"42001269"]` That's why, as I've already said,`[@][lv 0*"11"*"42001270"]` ......your existence, as friends of the Mariage Sorcière Alliance of Witches,`[@][lv 0*"11"*"42001271"]` cannot be denied by me or anyone else."`[\]
+msgwnd_non
+*d25563
+d `I proclaimed the most important part again.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"white"
+flush 22
+textoff
+waits 167
+lbg s0_3,"ship_s2bf"
+flush 22
+*d25564
+d `............Even though the sea breeze and the crashing of the waves were noisy, it was a time of silence.`[\]
+*d25565
+d `Both Sakutarou and the Seven Sisters of Purgatory......reflected upon my words.`[\]
+*d25566
+d `And, probably, I did too.`[\]
+*d25567
+d `Does magic exist or not—`[@]`{n}Do witches exist or not—`[\]
+*d25568
+d `I reflected on the fact that, while ignoring what the answer was within my world, ......I had declared openly that I would accept their existence, despite it being a contradiction.`[\]
+lss s0_10,"sak","a11_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_sak
+*d25569
+d [lv 0*"33"*"44200420"]`‘Thank you, ......Ange.’`[\]
+lss s0_8,"rg4","a12_hohoemi1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_rg4
+*d25570
+d2 [lv 0*"41"*"42600049"]`"If you will accept that much, perhaps one day, witches could also—`[@][#][*][lv 0*"41"*"42600050"]` ...No, that was a foolish question.`[@][lv 0*"41"*"42600051"]` You already have a clear answer to that question."`[\]
+wait_on_d 0
+lss s0_8,"rg4","a12_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"ship_s2af"
+flush 23
+lss s0_10,"enj","a11_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d25571
+d [lv 0*"11"*"42001272"]`"Sorry.`[@][lv 0*"11"*"42001273"]` I do accept that witches might exist somewhere in this world.`[@][lv 0*"11"*"42001274"]` But {i:my} world will not waver."`[\]
+lss s0_8,"rg5","a31_hohoemi1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_rg5
+*d25572
+d2 [lv 0*"42"*"42700305"]`"......You won't accept witches or magic.`[@][lv 0*"42"*"42700306"]` You'll definitely expose the truth of Rokkenjima.`[@][#][*][lv 0*"42"*"42700307"]` ......Right?"`[\]
+wait_on_d 0
+lss s0_8,"rg5","a31_akuwarai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_10,"enj","a11_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d25573
+d [lv 0*"11"*"42001275"]`"Yes.`[@][lv 0*"11"*"42001276"]` That is my world.`[@][lv 0*"11"*"42001277"]` Even if a witch really does exist, I won't accept her in my world.`[@][lv 0*"11"*"42001278"]` No matter how much that witch tries to court me."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"ship_s2bf"
+flush 24
+lss s0_8,"rg1","b21_defo1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_rg1
+*d25574
+d2 [lv 0*"38"*"42300054"]`"Your position is to slay witches.`[@][#][*][lv 0*"38"*"42300055"]` ......And I now understand well that you have not the slightest wavering in that feeling!"`[\]
+wait_on_d 0
+lss s0_8,"rg1","b21_hohoemi1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+d_continue
+wait_on_d -1
+*d25575
+d [lv 0*"38"*"42300056"]`"We are your furniture, the Seven Sisters of Purgatory...!`[@][lv 0*"38"*"42300057"]` We will always be by your side.`[@][lv 0*"38"*"42300058"]` We will always be waiting for the day that we can be useful...!"`[\]
+lss s0_9,"rg2","a11_akuwarai1" ;1
+flush 10,167
+msgwnd_rg2
+*d25576
+d [lv 0*"39"*"42400033"]`"Although, since you don't believe in magic, we can never be anything more than someone to talk to."`[\]
+lss s0_10,"rg3","a12_hohoemi1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_rg3
+*d25577
+d [lv 0*"40"*"42500053"]`"That's enough for now.`[@][lv 0*"40"*"42500054"]` We've been left room to exist.`[@][lv 0*"40"*"42500055"]` For that alone, we should thank and accept Ange‐sama."`[\]
+csp_slot s0_8
+flush 10,167
+lss s0_8,"rg6","d21_warai3" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_rg6
+*d25578
+d [lv 0*"43"*"42800054"]`"In short!`[@][lv 0*"43"*"42800055"]` All of uuuuus..."`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_10,"sak","a11_warai1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_sak
+*d25579
+d2 [lv 0*"33"*"44200421"]`‘Can be together again......`[@][#][*][lv 0*"33"*"44200422"]` Uryuu!!’`[\]
+wait_on_d 0
+lss s0_10,"sak","a12_warai3" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+d_continue
+wait_on_d -1
+csp_slot s0_9
+flush 10,167
+lss s0_9,"rg7","b12_warai3" ;1
+flush 10,167
+seplay 1,3,71
+msgwnd_rg7
+*d25580
+d [lv 0*"44"*"42900039"]`"Kyaaah!!`[@][lv 0*"44"*"42900040"]` Sakutaroo!`[@][lv 0*"44"*"42900041"]` Let me fluffle youuuuuuuuu~!!"`[\]
+msgwnd_non
+*d25581
+d `As Sakutarou was overcome with emotion and tears came to his eyes, the Seven Sisters closed in and mobbed him.`[\]
+*d25582
+d `......They were also celebrating a long‐awaited reunion.`[\]
+*d25583
+d `Because they were granted permission to exist, they can exist here without doubt.`[\]
+*d25584
+d `No—they can exist even if I don't permit it.`[\]
+*d25585
+d `Because I accepted them, they {i:showed} their reunion's joy {i:to me as well}.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_3,"white"
+flush 23
+*d25586
+d `As I watched over that scene, .........I reflected on the meaning of this journey of mine.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 2
+vol_me 1,-1,3000
+wait 3000
+textoff
+waits 167
+lbg s0_3,"ship_s2a"
+lss s0_10,"enj","a11_defo1" ;1
+aspt2 xpos,s0_10,550
+flush 24
+msgwnd_enj
+*d25587
+d [lv 0*"11"*"42001279"]`".........I wonder if everyone will forgive me this way."`[\]
+lss s0_8,"rg5","a31_hohoemi1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_rg5
+*d25588
+d [lv 0*"42"*"42700308"]`"You've done enough.`[@][lv 0*"42"*"42700309"]` We are furniture.`[@][lv 0*"42"*"42700310"]` Just being summoned,`[@][lv 0*"42"*"42700311"]` just being allowed to be by your side makes us happy."`[\]
+lss s0_9,"sak","a13_warai1" ;1
+flush 10,167
+msgwnd_sak
+*d25589
+d [lv 0*"33"*"44200423"]`‘Uryu...!`[@][lv 0*"33"*"44200424"]` Ange, thank you very much......!’`[\]
+lss s0_10,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_enj
+*d25590
+d2 [lv 0*"11"*"42001280"]`"......Come to think of it, why was I able to summon Sakutarou?`[@][#][*][lv 0*"11"*"42001281"]` ......No, it's the other way around.`[@][lv 0*"11"*"42001282"]` Why wasn't Onee‐chan able to summon Sakutarou?"`[\]
+wait_on_d 0
+lss s0_10,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_3,"black"
+flush 22
+meplay 2,16,71
+msgwnd_non
+*d25591
+d `Maria onee‐chan had despaired, thinking that Sakutarou had died.`[\]
+*d25592
+d `Which told me that she hadn't been able to summon him like this anymore.`[\]
+*d25593
+d `In the past, Onee‐chan said it was more advantageous in a summoning to have a vessel.`[\]
+*d25594
+d `However, a vessel is like training wheels, and it shouldn't be absolutely necessary.`[\]
+*d25595
+d `......In other words, even if the stuffed animal lion that was Sakutarou's vessel didn't exist, it should have been possible to summon him.`[\]
+*d25596
+d `......In fact, for that matter,`[@]` it's a little doubtful whether summoned beings even have the concept of life and death.`[\]
+*d25597
+d `Moreover, Sakutarou was an especially important friend to Maria onee‐chan.`[\]
+*d25598
+d `She should have been able to strive hard to summon him one more time.`[\]
+*d25599
+d `It certainly was sad that the original stuffed animal vessel had been torn apart,`[@]` but why was he "dead", and why couldn't she summon him again......?`[\]
+textoff
+waits 167
+vol_mix_fade 2000
+vol_bgm -1,2000
+wait 2000
+textoff
+waits 167
+lbg s0_3,"ship_s2a"
+lss s0_9,"sak","a11_odoroki1" ;1
+flush 22
+bgmplay 51,71,0
+msgwnd_sak
+*d25600
+d [lv 0*"33"*"44200425"]`‘...That's because...`[|][lv 0*"33"*"44200426"]`at that time, Maria saw my stuffed animal get torn,`[@][lv 0*"33"*"44200427"]` and she {i:decided}`[|][lv 0*"33"*"44200428"]` that I had died.’`[\]
+lss s0_8,"rg5","a11_komaru3" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_rg5
+*d25601
+d [lv 0*"42"*"42700312"]`"It's the same as the existence of magic.`[@][lv 0*"42"*"42700313"]` ......If, in Lady {f:5:Maria}'s world, it becomes a fact that Sakutarou died,`[@][lv 0*"42"*"42700314"]` then Sakutarou cannot exist in her world."`[\]
+lss s0_9,"sak","a23_naku1" ;1
+flush 10,167
+msgwnd_sak
+*d25602
+d [lv 0*"33"*"44200429"]`‘............Uryu......’`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+lbg s0_3,"black"
+flush 22
+agpt quakeyamp,0
+agpt quakexamp,0
+gptwait quakexamp
+gptwait quakeyamp
+textoff
+waits 167
+lbg s0_3,"sakutaro2ab"
+color_mod2 s0_3,#ffffff
+flush 22
+msgwnd_non
+*d25603
+d `The shock of having her beloved stuffed animal torn apart...`[@]`had left a wound in her heart serious enough to prevent her from ever again summoning her irreplaceable close friend.`[\]
+textoff
+waits 167
+lbg s0_3,"blood_1b"
+flush 22
+*d25604
+d `{i:In Maria onee‐chan's eyes}, Sakutarou had died.`[\]
+*d25605
+d `So even if Sakutarou could exist like this to me, he could not exist before her.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+agpt quakeycycle,1333
+agpt quakeyamp,30,500
+agpt quakexcycle,2000
+agpt quakexamp,10,500
+rumble 39,1000
+textoff
+waits 167
+lbg s0_3,"ship_s2b"
+lss s0_8,"sak","a23_naku1" ;1
+aspt2 xpos,s0_8,-370
+flush 26
+msgwnd_sak
+*d25606
+d [lv 0*"33"*"44200430"]`‘I......was always together with Maria......`[@][lv 0*"33"*"44200431"]` ......As she cried, I was there the whole time right beside her, telling her not to cry......`[@][lv 0*"33"*"44200432"]` ......But my form, my voice, ......nothing of me would reach her......’`[\]
+msgwnd_non
+*d25607
+d `Sakutarou hung his head, looking sad.`[\]
+lss s0_10,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d25608
+d [lv 0*"11"*"42001283"]`"......After that incident, the nature of Mariage Sorcière rapidly began to change.`[@][lv 0*"11"*"42001284"]` Before then, the alliance was a peaceful thing."`[\]
+lss s0_10,"enj","a11_fuman1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d25609
+d [lv 0*"11"*"42001285"]`"But after the incident, it grew full of shadier things, focusing on how to curse people you hate.`[@][lv 0*"11"*"42001286"]` ......Onee‐chan's diary began to show a clear change."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 25
+agpt quakeyamp,0
+agpt quakexamp,0
+gptwait quakexamp
+gptwait quakeyamp
+textoff
+waits 167
+lbg s0_3,"book1"
+flush 22
+msgwnd_non
+*d25610
+d `A diary is a mirror that reflects one's heart as it is.`[\]
+*d25611
+d `It probably showed the personality called Maria die,`[@]` and be reborn as the evil witch personality {f:5:Maria}.`[\]
+*d25612
+d `As she filled the diary with hatred and sadness, ......her heart surely was not fulfilled.`[\]
+*d25613
+d `Because she wasn't fulfilled, she had no choice but to fill it with hatred and sadness.`[\]
+*d25614
+d `And while still unfulfilled, she met with death.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+*d25615
+d `......I wonder if her unfulfilled soul has a hole opened in its chest from sadness even now,`[@]` and continually wanders, tears dripping down and calling Sakutarou's name......`[\]
+*d25616
+d `.................................`[\]
+agpt quakeycycle,1333
+agpt quakeyamp,30,500
+agpt quakexcycle,2000
+agpt quakexamp,10,500
+rumble 39,1000
+textoff
+waits 167
+lbg s0_3,"ship_s2b"
+lss s0_8,"sak","a11_komaru1" ;1
+aspt2 xpos,s0_8,-550
+lss s0_10,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_10,550
+flush 2
+lss s0_10,"enj","a31_komaru3" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_enj
+*d25617
+d [lv 0*"11"*"42001287"]`"...............You......are needed by Onee‐chan."`[\]
+lss s0_8,"sak","a11_odoroki1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_sak
+*d25618
+d [lv 0*"33"*"44200433"]`‘Uryu.........’`[\]
+lss s0_10,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_enj
+*d25619
+d [lv 0*"11"*"42001288"]`"What can I do to revive you in Maria onee‐chan's world?`[@][lv 0*"11"*"42001289"]` If I can learn how to do that, I'll be able to save Onee‐chan.`[@][lv 0*"11"*"42001290"]` ......That is the method of atonement I am tasked with.`[@][lv 0*"11"*"42001291"]` What can be done to revive you?"`[\]
+lss s0_8,"sak","a21_naku1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_sak
+*d25620
+d [lv 0*"33"*"44200434"]`‘......My vessel had a very important meaning to Maria......’`[\]
+lss s0_10,"enj","a11_fuman1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_enj
+*d25621
+d [lv 0*"11"*"42001292"]`"The vessel.`[@][lv 0*"11"*"42001293"]` ......So, if we could revive the lion stuffed animal..."`[\]
+lss s0_8,"sak","a11_odoroki1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_sak
+*d25622
+d [lv 0*"33"*"44200435"]`‘But......`[@][lv 0*"33"*"44200436"]` ......Mama Rosa made my stuffed animal herself, so only Mama Rosa can make it......’`[\]
+msgwnd_non
+*d25623
+d `Even inside the diary, Maria onee‐chan had asked this of {f:5:Beatrice}, and had been refused for the same reason.`[\]
+*d25624
+d `The magical significance of a stuffed animal being unique and handmade is very large.`[\]
+*d25625
+d `Then, if we could make the same thing once more......`[\]
+*d25626
+d `But Aunt Rosa is already gone from this world.`[@]`{n}We can never make the same thing again.`[\]
+lss s0_10,"enj","a31_komaru3" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_enj
+*d25627
+d [lv 0*"11"*"42001294"]`"......Was there ever another identical stuffed animal made, or anything like that?"`[\]
+lss s0_9,"sak","a11_odoroki1" ;1
+lss s0_8,"rg5","a11_defo1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_rg5
+*d25628
+d [lv 0*"42"*"42700315"]`"He is a stuffed animal made for Lady {f:5:Maria}'s birthday present, and is the only one in the world.`[@][lv 0*"42"*"42700316"]` ......A handmade and unique vessel.`[@][lv 0*"42"*"42700317"]` That's why it conceals a great magical power."`[\]
+lss s0_8,"rg5","a11_komaru3" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+*d25629
+d [lv 0*"42"*"42700318"]`"And......if lost, it will never be obtained again.`[@][lv 0*"42"*"42700319"]` It will not revive..."`[\]
+lss s0_9,"sak","a23_naku1" ;1
+flush 10,167
+msgwnd_sak
+*d25630
+d [lv 0*"33"*"44200437"]`‘.........Uryu.........’`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_3,"black"
+flush 22
+msgwnd_non
+*d25631
+d `......Maria onee‐chan knew that,`[@]` so when she saw that stuffed animal, unique in the world, be torn apart,`[!w500]` .........she despaired.`[\]
+*d25632
+d `Because it was a stuffed animal unique in the world,`[@]` and it permitted her no compromises such as simply buying another, ......she despaired from the bottom of her heart......`[\]
+textoff
+waits 167
+lbg s0_3,"ship_s2a"
+lss s0_9,"enj","a11_defo1" ;1
+flush 26
+lss s0_9,"enj","a11_fuman2" ;1
+flush 10,167
+msgwnd_enj
+*d25633
+d [lv 0*"11"*"42001295"]`"......But Sakutarou is right here.`[@][lv 0*"11"*"42001296"]` Even without a vessel, he's here.`[@][lv 0*"11"*"42001297"]` I accept that, and so he firmly exists in my world."`[\]
+lss s0_9,"enj","a11_fuman1" ;1
+flush 10,167
+*d25634
+d [lv 0*"11"*"42001298"]`".........Even if Maria onee‐chan doesn't accept him, that fact cannot be denied.`[@][lv 0*"11"*"42001299"]` Right...?"`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"ship_s2b"
+lss s0_10,"rg5","a11_komaru3" ;1
+aspt2 xpos,s0_10,370
+flush 24
+msgwnd_rg5
+*d25635
+d [lv 0*"42"*"42700320"]`"Logically, that's true,`[@][lv 0*"42"*"42700321"]` ......but I think using the same logic to make Lady {f:5:Maria} accept him could be difficult."`[\]
+lss s0_8,"sak","a21_naku1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_sak
+*d25636
+d [lv 0*"33"*"44200438"]`‘......Maria.........`[@][lv 0*"33"*"44200439"]` ......I'm not dead...`[@][lv 0*"33"*"44200440"]` I'm right here.........`[@][lv 0*"33"*"44200441"]` ......Uryu......’`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 23
+meplay 1,3,50
+textoff
+waits 167
+lbg s0_3,"ship_s2a"
+lss s0_8,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_8,-550
+flush 23
+lss s0_8,"enj","a11_defo1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_enj
+*d25637
+d [lv 0*"11"*"42001300"]`"I'm sure that on Rokkenjima,`[@][lv 0*"11"*"42001301"]` ......I'll be able to be reunited with Maria onee‐chan.`[@][lv 0*"11"*"42001302"]` And, ......no matter what, I'm going to revive you inside Onee‐chan, and let you be reunited too."`[\]
+lss s0_10,"sak","a11_odoroki1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_sak
+*d25638
+d [lv 0*"33"*"44200442"]`‘Can you do that......?’`[\]
+lss s0_8,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_enj
+*d25639
+d [lv 0*"11"*"42001303"]`"It will probably be hard.`[@][lv 0*"11"*"42001304"]` ......Just like how, after being invited into the witches' alliance, I rejected it without understanding what it meant,`[@][lv 0*"11"*"42001305"]` she might also reject your existence."`[\]
+lss s0_8,"enj","a31_komaru3" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+*d25640
+d [lv 0*"11"*"42001306"]`".........But I've got to do it.`[@][lv 0*"11"*"42001307"]` That's the only way I can atone for my sins."`[\]
+lss s0_9,"rg5","a11_komaru3" ;1
+flush 10,167
+msgwnd_rg5
+*d25641
+d [lv 0*"42"*"42700322"]`"............Ange‐sama......"`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_3,"black"
+flush 2
+agpt quakeyamp,0
+agpt quakexamp,0
+gptwait quakexamp
+gptwait quakeyamp
+meplay 2,5,50
+textoff
+waits 167
+lbg s0_3,"sky_1b"
+flush 22
+msgwnd_enj
+*d25642
+d [lv 0*"11"*"42001308"]`"What is waiting on Rokkenjima?`[@][lv 0*"11"*"42001309"]` And what will happen, what will I be able to achieve?`[@][lv 0*"11"*"42001310"]` ......Although maybe nothing will happen at all."`[\]
+msgwnd_sak
+*d25643
+d [lv 0*"33"*"44200443"]`‘........................’`[\]
+msgwnd_enj
+*d25644
+d [lv 0*"11"*"42001311"]`"That island, which was the beginning of everything, will be the final destination of this journey.`[@][lv 0*"11"*"42001312"]` .........As your master, I must bring all of you witch's furniture with me...`[@][lv 0*"11"*"42001313"]`...and {i:I must return} to the witch's island—to Rokkenjima."`[\]
+textoff
+waits 167
+vol_bgm -1,3000
+wait 3000
+msgwnd_non
+*d25645
+d `Even though the rays of the sun had been so strong, at some point clouds had started to hang over us.`[\]
+*d25646
+d `The spray hitting my cheek might not all be coming from the crashing waves.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+agpt quakeycycle,1333
+agpt quakeyamp,30,500
+agpt quakexcycle,2000
+agpt quakexamp,10,500
+rumble 39,1000
+textoff
+waits 167
+lbg s0_3,"ship_s2b"
+lss s0_10,"ama","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 26
+msgwnd_ama
+*d25647
+d [lv 0*"20"*"43000078"]`"Ange‐san.`[@][lv 0*"20"*"43000079"]` It looks like a light shower is coming.`[@][lv 0*"20"*"43000080"]` Shouldn't you be going down?"`[\]
+msgwnd_non
+*d25648
+d `Amakusa called out to me, with an expression of surprise that I was still here.`[\]
+*d25649
+d `When I looked up, I saw that the island's silhouette had gotten much larger.`[@]`{n}We might reach land very soon.`[\]
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"black"
+flush 22
+agpt quakeyamp,0
+agpt quakexamp,0
+gptwait quakexamp
+gptwait quakeyamp
+textoff
+waits 167
+lbg s0_3,"sky_1b"
+flush 25
+*d25650
+d `I remembered that the weather report had mentioned scattered rains.`[\]
+*d25651
+d `The sky wasn't dark enough for rain clouds.`[@]`{n}It'll probably be just for a short time.`[\]
+*d25652
+d `Even if the rain was light enough not to be a bother,`[@]` ......having rain start to fall as we approached the island felt like some kind of fate.`[\]
+*d25653
+d `It was probably raining on October 4th, 1986, as well.`[@]`{n}I was approaching the Rokkenjima of that day, ......and not just in distance......`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 26
+vol_me 2,-1,1000
+agpt quakeycycle,1333
+agpt quakeyamp,30,500
+agpt quakexcycle,2000
+agpt quakexamp,10,500
+rumble 39,1000
+textoff
+waits 167
+lbg s0_3,"ship_s3a"
+flush 22
+*d25654
+d `I went back down with Amakusa.`[\]
+*d25655
+d `Amakusa was carrying what looked like a quite large and heavy golf bag.`[\]
+*d25656
+d `It was something Amakusa had brought back from god‐knows‐where after we split up for a day.`[@]`{n}......I wasn't going to inquire as to its contents, but it's hard to imagine that they're anything peaceful.`[\]
+lss s0_8,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d25657
+d [lv 0*"11"*"42001314"]`".........I'm deliberately not going to ask what's inside, but it looks heavy."`[\]
+lss s0_10,"ama","a11_akuwarai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ama
+*d25658
+d [lv 0*"20"*"43000081"]`"Why is it that these are so heavy?`[@][lv 0*"20"*"43000082"]` A French instructor taught me something interesting about that once."`[\]
+lss s0_10,"ama","a14_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d25659
+d [lv 0*"20"*"43000083"]`"He said that they {i:should} be heavy.`[@][lv 0*"20"*"43000084"]` .........After all, a human life is heavier than the Earth.`[@][lv 0*"20"*"43000085"]` So these should be even heavier."`[\]
+lss s0_8,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d25660
+d [lv 0*"11"*"42001315"]`".........It'll be nice if you don't have a chance to use them."`[\]
+lss s0_10,"ama","a22_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ama
+*d25661
+d [lv 0*"20"*"43000086"]`"That would be nice."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 1
+agpt quakeyamp,0
+agpt quakexamp,0
+gptwait quakexamp
+gptwait quakeyamp
+msgwnd_non
+*d25662
+d `Amakusa set the golf‐bag‐like luggage down heavily beside him.`[\]
+textoff
+waits 167
+meplay 5,1,0
+vol_me 1,0,5000
+vol_me 5,85,5000
+wait 5000
+textoff
+waits 167
+lbg s0_3,"black"
+flush 5
+wait 2000
+textoff
+waits 167
+lbg s0_1,"airp_w1cc_bg"
+lbg s0_3,"airp_w1cc"
+flush 2
+wait 1000
+textoff
+waits 167
+lbg s0_1,"airp_w1bc_bg"
+lbg s0_3,"airp_w1bc"
+flush 22
+wait 1000
+textoff
+waits 167
+csp_slot s0_1
+lbg s0_3,"white"
+flush 24
+textoff
+waits 167
+lbg s0_3,"airp_out2b"
+flush 24
+*d25663
+d `A two‐propeller aircraft touched down on the runway.`[@]`{n}With the weather in these conditions, it could not have been a pleasant flight.`[@]`{n}Everything after this flight had been suspended due to the weather.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+vol_mix_fade 1000
+wait 1000
+seplay 1,28,100
+seplay 2,28,100
+bgmplay 86,90,0
+textoff
+waits 167
+lbg s0_1,"air_in1ec_bg"
+lbg s0_3,"air_in1ec"
+flush 26
+lss s0_9,"kas","a11_warai1" ;1
+flush 10,167
+*d25664
+d `Cutting through the drizzle as she traversed the runway, Sumadera Kasumi entered the lobby with two black‐suits as guards.`[\]
+*d25665
+d `The four black‐suits who had been waiting inside the lobby stood up and respectfully lowered their heads.`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"air_in1e"
+flush 24
+*d25666
+d [lv 0*"99"*"awase0026"]`"""Kasumi‐sama...!"""`[\]
+lss s0_10,"kas","a11_akuwarai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_kas
+*d25667
+d [lv 0*"22"*"44300049"]`"Propeller planes do shake awfully, don't they......`[@][lv 0*"22"*"44300050"]` I never want to fly in one again."`[\]
+msgwnd_non
+*d25668
+d [lv 0*"99"*"mafma4009"]`"We have a car prepared!`[@][lv 0*"99"*"mafma4010"]` Please, this way."`[\]
+textoff
+waits 167
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 24
+*d25669
+d `They went into two luxury cars that had been rented...`[\]
+meplay 1,30,90
+textoff
+waits 167
+lbg s0_1,"car_i1ac_bg"
+lbg s0_3,"car_i1ac"
+flush 26
+msgwnd_kas
+*d25670
+d [lv 0*"22"*"44300051"]`"......Ange should be heading for Rokkenjima.`[@][lv 0*"22"*"44300052"]` A deserted island—how truly convenient.`[@][lv 0*"22"*"44300053"]` .........You have prepared the tools, I hope?"`[\]
+msgwnd_non
+*d25671
+d [lv 0*"99"*"mafma4011"]`"Yes, ma'am......!"`[\]
+textoff
+waits 167
+csp_slot s0_1
+lbg s0_3,"black"
+flush 66
+*d25672
+d `The black‐suit in the passenger seat lifted a heavy bag that had been by his feet onto his lap,`[@]` opened the zipper wide, and showed Kasumi the contents.`[\]
+meplay 2,17,80
+*d25673
+d `Inside were several blocky objects wrapped tightly in silver aluminum foil.`[\]
+*d25674
+d `......He peeled one open to show her.`[\]
+*d25675
+d `Out peeked a black, blunt, automatic pistol......`[\]
+textoff
+waits 167
+wait 2000
+break_glass
+wait 500
+display_clock 1470,740,50,1308,1308,0,0
+wait 1667
+flush 10,500
+wait 83
+ch_done flag_scenario_4_10

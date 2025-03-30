@@ -1,0 +1,2553 @@
+*umi4_2
+;縁寿と真里亞
+log_reset
+mov $name_chapter_r_click,r_click_chapters_4_2
+mov $name_chapter_save, "4_02"
+new_chapter date_scenario_4_2,scenario_4_2
+gstc 208
+textoff
+waits 167
+seplay 1,69,71
+textoff
+waits 167
+lbg s0_3,"enj_mirai01"
+flush 80
+wait 5000
+textoff
+waits 167
+lbg s0_3,"white"
+flush 9
+textoff
+waits 167
+lbg s0_3,"sky_1a"
+flush 2
+wait 1000
+wait 1000
+textoff
+waits 167
+lbg s0_3,"schr_o1a"
+flush 6
+wait 2000
+bgmplay 10,71,0
+textoff
+waits 167
+lbg s0_3,"white"
+flush 2
+textoff
+waits 167
+lbg s0_3,"schr_p1b"
+flush 22
+*d21852
+d [lv 0*"99"*"stufa4001"]`"Good day to you."`[\]
+lss s0_9,"enj","c12_komaru1" ;1
+flush 10,167
+msgwnd_enj
+*d21853
+d [lv 0*"11"*"42000118"]`".........G‐...good day to you."`[\]
+msgwnd_non
+*d21854
+d `"Good day to you" is the standard greeting used here.`[\]
+*d21855
+d `No matter how many years pass by, this style of greeting still feels very awkward...`[\]
+*d21856
+d `I had responded to the greeting in order to stifle that awkward feeling,`[@]` but the classmate who had spoken looked at me blankly.`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 24
+*d21857
+d [lv 0*"99"*"stufa4002"]`"......Oh?`[@][lv 0*"99"*"stufa4003"]` *giggle*giggle*giggle*."`[\]
+*d21858
+d [lv 0*"99"*"stufb4001"]`"Ohhh? What's this?`[@][lv 0*"99"*"stufb4002"]` I think you must be mistaken, *giggle*giggle*..."`[\]
+textoff
+waits 167
+lbg s0_3,"schr_p1b"
+flush 22
+*d21859
+d `Their choice of words and manner were certainly what you would expect of a school for rich girls,`[@]` but at their core, they were as innocent and cruel as any children of that age.`[\]
+*d21860
+d `......It seems they found it funny that I'd mistakenly thought the greeting had been directed at me.`[@]` No, it might be the opposite.`[\]
+*d21861
+d `...Maybe I should say that they didn't know what to do after being greeted by an introverted kid like me.`[\]
+*d21862
+d `No, judging by the looks of my classmates, glancing this way over their shoulders and whispering to each other,`[@]` there were even some who seemed to consider their refreshing morning ruined.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+*d21863
+d `......I am...depressing.`[@]` Because no one likes me.`[\]
+*d21864
+d `So, trying not to get in the way of everyone's refreshing morning any more, I entered the classroom in a low crouch.`[\]
+*d21865
+d `......Almost like I was cutting across the aisle in a movie theater while the movie was running.`[\]
+textoff
+waits 167
+lbg s0_3,"white"
+flush 24
+textoff
+waits 167
+lbg s0_3,"schr_r1a"
+flush 24
+*d21866
+d `This is an all‐dorm academy called Saint Lucia Academy.`[\]
+*d21867
+d `It's not a school that just anyone can get into simply by passing a test.`[@]`{n}...It's a hidden rich‐girls' school, known only to a select group of celebrities from various circles.`[\]
+*d21868
+d `For lofty nobles who truly wish their daughters to be brought up like saints,`[@]` this is probably the ideal academy in which to protect them from the impurities of the common world.`[\]
+*d21869
+d `......But at the same time, it was probably also a convenient place for nobles to confine daughters who they didn't want the public to know about.`[\]
+*d21870
+d `As well as an academy isolated from the impurities of the common world, it also held excellent potential as a prison school.`[\]
+*d21871
+d `I was truly among the latter, and spent my days confined in Saint Lucia Academy,`[@]` .........as the weeks, months, and years dragged on at a mind‐numbing pace.`[\]
+*d21872
+d `Of course, there weren't that many students like me, and you couldn't tell us apart at a glance.`[\]
+*d21873
+d `However, even if they didn't come forward, you could usually guess from their appearance.`[\]
+*d21874
+d `...Because they were always hanging their heads all the time, with an expression on their faces as though the whole world had abandoned them.`[\]
+*d21875
+d `And every class had one or two kids like that, so even if they didn't speak up about it, you could guess who they were.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+*d21876
+d `So.`[\]
+*d21877
+d `Even though I never confessed that I was one of those kids, at some point, everyone in the class knew......`[\]
+textoff
+waits 167
+lbg s0_3,"schr_o1a"
+flush 22
+*d21878
+d `Just like how the seriousness of your injury grants you status in a hospital room, here, status is granted by the nobility of your birth.`[\]
+*d21879
+d `Those who aren't permitted to go out in public are probably nothing more than filth to them.`[\]
+*d21880
+d `They must think that getting involved with students like that would dirty them as well.`[\]
+*d21881
+d `Whenever such a rumor sprang up about a particular student,`[@]` those fastidious girls would about‐face and grow cold and distant, chasing that student out of all possible social groups.`[\]
+*d21882
+d `I have that to thank for this quiet and solitary school life of mine...`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+*d21883
+d `Well, that's only if hearing people whisper behind my back, finding my things lost or broken all the time,`[@]` and having everyone pretend like they don't know anything about it can be called a quiet school life.`[\]
+textoff
+waits 167
+lbg s0_3,"schr_r1a"
+flush 26
+*d21884
+d `I must be wearing a weary expression already this morning.`[\]
+*d21885
+d `......I can understand completely why my other classmates, who had been enjoying a refreshing morning, would want to click their tongues upon seeing it.`[\]
+*d21886
+d `Consciously trying to do my best to avoid tainting my classmates' morning, I quietly took my seat.`[\]
+*d21887
+d `......Then, unusually, someone came to talk to me.`[@]`{n}It was the class leader.`[\]
+*d21888
+d [lv 0*"99"*"stufc4001"]`"Good day to you, Ushiromiya‐san.`[@][lv 0*"99"*"stufc4002"]` ......You seem to be in a bad mood this morning.`[@][lv 0*"99"*"stufc4003"]` Are you certain you're getting enough sleep?"`[\]
+lss s0_10,"enj","c11_komaru1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d21889
+d [lv 0*"11"*"42000119"]`"............Is there some business you have with me?"`[\]
+msgwnd_non
+*d21890
+d [lv 0*"99"*"stufc4004"]`"You do know you're the only one who hasn't submitted her questionnaire for the class presentation?`[@][lv 0*"99"*"stufc4005"]` Did you forget that the deadline was yesterday?"`[\]
+*d21891
+d `...I'm pretty sure I heard something about that sometime last week.`[\]
+*d21892
+d `But I think the questionnaire hadn't been passed out yet.`[@]`{n}All the necessary information would be written on that, so it should have been no problem to forget about it until it was handed out...`[\]
+lss s0_10,"enj","c11_komaru2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d21893
+d [lv 0*"11"*"42000120"]`"......I wasn't given a questionnaire..."`[\]
+msgwnd_non
+*d21894
+d [lv 0*"99"*"stufc4006"]`"You must have been.`[@][lv 0*"99"*"stufc4007"]` The dormitory leader distributed a copy to everyone.`[@][lv 0*"99"*"stufc4008"]` If you lost it, all you have to do is honestly say so."`[\]
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"black"
+flush 25
+msgwnd_enj
+*d21895
+d [lv 0*"11"*"42000121"]`"............I lost it.`[@][lv 0*"11"*"42000122"]` I'll fill it in right now, so could you give me a paper?"`[\]
+msgwnd_non
+*d21896
+d `Again.`[@]` ......Either someone lost my paper, or they intentionally didn't tell me about it.`[\]
+*d21897
+d `But I have no way of knowing who was behind that.`[\]
+*d21898
+d `In the end, treating it as though it was my own carelessness would settle everything more quickly and without any drama...`[\]
+textoff
+waits 167
+lbg s0_3,"schr_r1a"
+flush 26
+*d21899
+d [lv 0*"99"*"stufc4009"]`"Once you've filled it out, drop it in the questionnaire box in the student council room yourself.`[@][lv 0*"99"*"stufc4010"]` Our class is the only one, you know, that didn't get everyone's in by last night."`[\]
+*d21900
+d `As I hung my head at the class leader's scolding,`[@]` I could hear the giggles and whispers of people watching, coming from no direction in particular...`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 25
+textoff
+waits 167
+lbg s0_3,"schr_r1d"
+flush 22
+*d21901
+d `Ushiromiya‐san did it again.`[@]`{n}Because she never concentrates.`[@]`{n}She is unsuitable for this school.`[@]`{n}She has neither class nor manners.`[\]
+meplay 1,5,40
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+vol_bgm -1,2000
+wait 2000
+*d21902
+d `......Sorry, girls, but I've dealt with much worse when it comes to unfair personal attacks.`[\]
+*d21903
+d `I froze my heart and let those arrows of ridicule pass by as I quickly filled out the questionnaire...`[\]
+textoff
+waits 167
+vol_mix_fade 3000
+wait 3000
+textoff
+waits 167
+lbg s0_3,"different_spiral_1a"
+color_mod2 s0_3,#ffffff
+flush 8
+bgmplay 85,71,0
+*d21904
+d `When I heard the news that Mom, Dad, Onii‐chan,`[@]` and all the rest of my family had died, I was in the house of my grandpa on my mom's side.`[\]
+textoff
+waits 167
+lss s0_10,"eva","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+color_mod2 s0_10,#ffffff
+flush 22
+*d21905
+d `The only survivor of the accident was...Ushiromiya Eva.`[@]`{n}......Only Aunt Eva.`[\]
+*d21906
+d `Even at the time, I hadn't really liked Aunt Eva.`[\]
+lss s0_10,"eva","a11_warai1" ;1
+aspt2 xpos,s0_10,370
+color_mod2 s0_10,#ffffff
+flush 10,167
+*d21907
+d `At a glance, she seemed to act kindly to me,`[@]` but even as young as I was, I could see clearly that she was somehow belittling Dad and the rest, and I didn't like it.`[\]
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"black"
+flush 22
+*d21908
+d `So when it was decided that Aunt Eva would take care of me, I was pretty miserable.`[\]
+*d21909
+d `It wouldn't have mattered if my nice Uncle Hideyoshi and George onii‐chan could have been there too,`[@]` but I hated the thought of living all alone with Aunt Eva.`[\]
+*d21910
+d `I had an honest talk with Grandpa about that, hoping that I could live with him.`[\]
+textoff
+waits 167
+lbg s0_3,"different_spiral_1a"
+color_mod2 s0_3,#ffffff
+flush 8
+*d21911
+d `However, Aunt Eva was very insistent that she should be the one to look after me.`[\]
+*d21912
+d `Aunt Eva had no desire to remarry, so she said I was essential for the succession of the Ushiromiya family.`[\]
+*d21913
+d `Aunt Eva felt very strongly about the House of Ushiromiya.`[\]
+*d21914
+d `She firmly demanded to take charge of me right away, so that she could give me an education and lifestyle fitting for the successor.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+*d21915
+d `Complicated negotiations with lawyers apparently took place.`[@]`{n}...But in the end, I was forced to go live with Aunt Eva.`[\]
+textoff
+waits 167
+lbg s0_3,"gdin_1ad2"
+color_mod2 sepia,s0_3
+lss s0_10,"eva","a11_majime1" ;1
+aspt2 xpos,s0_10,370
+color_mod2 sepia,s0_10
+flush 8
+*d21916
+d `After she took me in, Aunt Eva told me something.`[\]
+lss s0_10,"eva","a11_akire1" ;1
+aspt2 xpos,s0_10,370
+color_mod2 sepia,s0_10
+flush 10,167
+*d21917
+d `You must bear all of the glory and history of the Ushiromiya family.`[\]
+*d21918
+d `And in order to make you a fitting successor to bear that, your life from now on will be dedicated to studying like hell.`[@]` Sacrifice the rest of your life for the Ushiromiya family.`[\]
+*d21919
+d `......She was definitive about it.`[\]
+*d21920
+d `At first, I thought she meant exactly what she said.`[\]
+*d21921
+d `But I quickly realized that wasn't the case.`[\]
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"black"
+flush 22
+*d21922
+d `Because even then, in Aunt Eva's eyes,`[@]` the one most fitting to be successor was George onii‐chan, who had passed away.`[\]
+meplay 1,5,40
+textoff
+waits 167
+lbg s0_3,"different_spiral_1a"
+flush 8
+*d21923
+d `At my first meal, I was strictly instructed and interrogated about my table manners,`[@]` and was forced to listen to her disparage Mom and Dad as though they had been neglectful in my upbringing.`[\]
+*d21924
+d `I also received the same strict instructions regarding manners at my first party,`[@]` and I was insulted in public for my clumsiness, and forced to endure insults to Mom and Dad as well.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+*d21925
+d `After that happened enough times, I finally came to understand.`[\]
+*d21926
+d `Aunt Eva didn't really want to make me the successor.`[\]
+*d21927
+d `She thought that the one who was truly fitting to be the successor was George onii‐chan,`[@]` ......and she couldn't forgive the fact that it was going to be me.`[\]
+*d21928
+d `So I was disparaged in front of a lot of people.`[@]` Humiliated.`[\]
+*d21929
+d `And she made it known far and wide exactly how inferior I was to George onii‐chan,`[@]` ......surely in memory of her dead son—`[@]`no, ...she must still have been mourning his death.`[\]
+textoff
+waits 167
+vol_me 1,-1,2000
+wait 2000
+textoff
+waits 167
+lbg s0_3,"different_spiral_1a"
+flush 22
+*d21930
+d `......However, that wasn't something I could endure.`[@]`{n}I couldn't possibly live together with Aunt Eva.`[\]
+*d21931
+d `......I would be eternally suffocated, continually compared with her dead son.`[\]
+*d21932
+d `Even as an elementary schooler, I understood that.`[\]
+*d21933
+d `I ran away from the House of Ushiromiya, and tried to go to my grandpa's house.`[\]
+*d21934
+d `However, Aunt Eva had already foreseen that.`[\]
+*d21935
+d `...No, thinking back on it, she might have been luring me into escaping.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+*d21936
+d `I was caught by the guards and brought back,`[@]` .........and for being a coward who had disgraced the Ushiromiya family crest and attempted to abandon the Ushiromiya name,`[@]` .........I was punished,`[!w667]` .........in a way that makes my whole body shake and shiver just remembering it.`[\]
+*d21937
+d `How should I describe what Aunt Eva was like when she punished me?`[\]
+*d21938
+d `Frenzied?`[@]` Gleeful?`[\]
+*d21939
+d `......The anger and sadness of losing her beloved son, and well as her hatred and pain towards the fact that I was going to steal the headship her son was meant to inherit.`[@]` And the dark pleasure of being able to let those feelings out on me.`[\]
+*d21940
+d `......I was pummeled with all of those negative emotions at once.`[\]
+textoff
+waits 167
+wait 1000
+meplay 1,16,0
+meplay 2,11,0
+vol_bgm 0,3000
+vol_me 1,50,3000
+vol_me 2,70,3000
+wait 3000
+*d21941
+d `Then, all of my free time and freedom was taken away, and I was put under round‐the‐clock surveillance.`[\]
+*d21942
+d `I may have lived in a gorgeous mansion, and been dressed in expensive clothes,`[@]` ...but my heart and my dignity were being trampled upon, and I was the Ushiromiya family's slave,`[!w500]` ...its cattle.`[\]
+*d21943
+d `Compared to that lifestyle, the derisive laughter of my classmates here even felt refreshing.`[@]` ......It was no match for my heart...`[\]
+textoff
+waits 167
+vol_mix_fade 3000
+vol_bgm -1,3000
+wait 3000
+textoff
+waits 167
+lbg s0_3,"schr_r1d"
+flush 6
+bgmplay 91,71,0
+*d21944
+d `After filling in almost all of the fields of the questionnaire with "nothing in particular", I folded it up and put it in my pocket.`[\]
+*d21945
+d `......Because if I left it in the desk, I might "lose it" again.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 5
+wait 2000
+textoff
+waits 167
+lbg s0_3,"sky_1a"
+flush 22
+wait 2000
+textoff
+waits 167
+lbg s0_3,"white"
+flush 9
+textoff
+waits 167
+lbg s0_3,"schr_p1b"
+flush 22
+*d21946
+d `After dropping it off in the box in the student council room during lunch break,`[@]` I finished lunch by myself, as usual, and headed behind the school building, where no one was around.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 24
+*d21947
+d `......Only the time I spent by myself could protect me from the derisive laughter and whispered comments.`[\]
+*d21948
+d `Since I was hated and didn't have a single friend, my time alone was the most kind to me.`[\]
+textoff
+waits 167
+lbg s0_3,"schr_o2a"
+flush 6
+*d21949
+d `After checking the surrounding bushes to see whether some malicious classmates were hiding and threatening my time of quiet,`[@]` I finally relaxed the tension from my entire body, knowing that I had gained some true peace.`[\]
+*d21950
+d `Then...I let out a sigh.`[@]` ...It lingered, heavy, as though it was the first time I had breathed out today.`[\]
+*d21951
+d `My previous favorite place behind the vegetable garden storehouse...`[@]`had been found out by my classmates, and now they would mess with me there, so this was my new lunchtime hideaway...`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 25
+*d21952
+d `There was nowhere to sit behind the school building.`[\]
+*d21953
+d `I crouched down against a wall in the shadow of the bushes, opened my bag, and took out a book with an elaborate, old‐fashioned binding...`[\]
+textoff
+waits 167
+lbg s0_3,"book1"
+flush 2
+*d21954
+d `Just glancing at it, you would probably think it was a religious book written in the Middle Ages or something.`[\]
+*d21955
+d `But this isn't a book.`[@]` It's a diary.`[\]
+*d21956
+d `Of course, it's not {i:my} diary.`[@]`{n}.........There aren't any special things worth writing about in my daily life.`[\]
+*d21957
+d `Every single day is just gray, ...cold, and dry.`[@]`{n}When nothing changes from day to day, there aren't any notable changes worth writing down.`[\]
+*d21958
+d `This is......the diary of Maria onee‐chan, who I had been very good friends with.`[\]
+*d21959
+d `She was three years older than me and a bit of a funny person, but Onee‐chan was always a warm, wonderful cousin.`[\]
+*d21960
+d `She would always grab me by the hand and invite me to play some fun game.`[\]
+*d21961
+d `......I remember that getting to see her was the most enjoyable thing about family gatherings...`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 24
+*d21962
+d `Though I preface this with "for an elementary schooler", the handwriting that greeted me when I opened the diary was fairly accomplished,`[@]` and while admittedly it had been written using every other line, the pages were dense with text.`[\]
+*d21963
+d `Was she just hopelessly obsessed with jotting everything down in her diary?`[@]`{n}......Probably...not.`[\]
+*d21964
+d `To her, writing her daily life down in a diary was probably like having a conversation with another part of herself.`[\]
+*d21965
+d `So rather than a journal in which the events of her day were simply listed,`[@]` Maria onee‐chan's diary was written like a letter to another Maria, telling her of the events of that day.`[\]
+textoff
+waits 167
+lbg s0_3,"book1"
+flush 2
+*d21966
+d `I had found this diary among her belongings after her death, and had secretly taken it home.`[\]
+*d21967
+d `At first, I had felt that reading someone else's diary might be boorish, and had been satisfied to just keep it by my side,`[@]` ......but I was unable to resist turning over a page or two, and slowly but surely I found myself reading through it.`[\]
+*d21968
+d `And now, .........{i:she had become my only friend}.`[\]
+seplay 1,1010,40
+textoff
+waits 167
+lbg s0_3,"black"
+flush 24
+*d21969
+d `I gently opened to the page with the bookmark.`[\]
+textoff
+waits 167
+vol_mix_fade 2000
+vol_bgm -1,2000
+wait 2000
+msgwnd_enj
+*d21970
+d [lv 0*"11"*"42000123"]`"......Sorry to keep you waiting, Maria onee‐chan.`[@][lv 0*"11"*"42000124"]` ......Could you tell me more about your life...?"`[\]
+textoff
+waits 167
+lbg s0_3,"white"
+flush 2
+bgmplay 90,71,0
+textoff
+waits 167
+lbg s0_3,"sky_1a"
+flush 2
+msgwnd_non
+*d21971
+d `At the same time,`[!w500]` ......a very, very soft breeze blew, tickling the pages.`[\]
+*d21972
+d `And I thought the open diary might have sparkled faintly.`[\]
+*d21973
+d `......The weather is good today.`[@]`{n}Maria onee‐chan loves wonderful rays of sunlight.`[\]
+*d21974
+d `So I'm sure she's in a good mood.`[\]
+*d21975
+d `On the open diary, ...no, in the world of the diary, Maria onee‐chan showed herself...`[\]
+seplay 1,56,71
+textoff
+waits 167
+lbg s0_3,"e0405"
+flush 8
+*d21976
+d `She had been nine, I believe, when she died.`[@]` ......So her appearance was already younger than mine.`[\]
+*d21977
+d `But I call her Onee‐chan, and in turn, she fondly calls me just Ange.`[\]
+msgwnd_mar
+*d21978
+d [lv 0*"13"*"40400014"]`"Uu.`[@][lv 0*"13"*"40400015"]` Ange, you were slow getting here today.`[@][lv 0*"13"*"40400016"]` Was it packed at lunch......?"`[\]
+msgwnd_enj
+*d21979
+d [lv 0*"11"*"42000125"]`"......Yes.`[@][lv 0*"11"*"42000126"]` It's always packed.`[@][lv 0*"11"*"42000127"]` Because groups of friends install themselves in the seats and stay there even after they've finished eating.`[@][lv 0*"11"*"42000128"]` It's pretty fatal if you go to the dining hall late.`[@][lv 0*"11"*"42000129"]` ......I was on cleanup duty today."`[\]
+msgwnd_mar
+*d21980
+d [lv 0*"13"*"40400017"]`"......Uu!`[@][lv 0*"13"*"40400018"]` I'm fast at eating!`[@][lv 0*"13"*"40400019"]` The faster you eat, the more you can play!`[@][lv 0*"13"*"40400020"]` Uu!"`[\]
+msgwnd_non
+*d21981
+d `Maybe she noticed that I was still bitter about how that duty had been forced upon me, shortening my lunch break by a bit.`[\]
+*d21982
+d `Maria onee‐chan brightly changed the subject.`[\]
+textoff
+waits 167
+lbg s0_3,"sky_1a"
+flush 25
+*d21983
+d `Grateful for that consideration, I responded that I eat slowly.`[\]
+*d21984
+d `Maria said something about how she'd teach me the trick to eating fast, and cheered me up.`[\]
+textoff
+waits 167
+lbg s0_3,"book1"
+flush 22
+*d21985
+d `I read it in the diary.`[@]` No, I heard it from Maria onee‐chan.`[\]
+*d21986
+d `She was once ranked number 1 among the girls on the speed‐eating leaderboard in her grade's newspaper.`[\]
+*d21987
+d `She had been very proud of that, but had apparently been a little disappointed that her mother, Aunt Rosa, hadn't praised her very much for it.`[\]
+textoff
+waits 167
+lbg s0_3,"e0405"
+flush 26
+msgwnd_mar
+*d21988
+d [lv 0*"13"*"40400021"]`"Uu!`[@][lv 0*"13"*"40400022"]` Okay, so I'll start today's story.`[@][lv 0*"13"*"40400023"]` How far did we get yesterday?`[@][lv 0*"13"*"40400024"]` Uu?"`[\]
+textoff
+waits 167
+seplay 1,1010,71
+wait 1000
+seplay 2,1010,71
+wait 1000
+seplay 3,1010,71
+msgwnd_enj
+*d21989
+d [lv 0*"11"*"42000130"]`"Umm......`[@][lv 0*"11"*"42000131"]` This far.`[@][lv 0*"11"*"42000132"]` Up to when you got Sakutaro as a present.`[@][lv 0*"11"*"42000133"]` ......You promised that you would tell me about Sakutaro."`[\]
+msgwnd_mar
+*d21990
+d [lv 0*"13"*"40400025"]`"Uu!`[@][lv 0*"13"*"40400026"]` Talk about Sakutaro!`[@][lv 0*"13"*"40400027"]` Sakutaro is...a reeeeally cute stuffed animal!`[@][lv 0*"13"*"40400028"]` I'm sure you'd like him too, Ange!`[@][lv 0*"13"*"40400029"]` Uu!"`[\]
+msgwnd_enj
+*d21991
+d [lv 0*"11"*"42000134"]`"Yes.`[@][lv 0*"11"*"42000135"]` Tell me about that.`[@][lv 0*"11"*"42000136"]` ......The lunchtimes I spend listening to your stories are the only times I can feel relaxed at school."`[\]
+textoff
+waits 167
+lbg s0_3,"white"
+flush 2
+textoff
+waits 167
+lbg s0_3,"sky_1a"
+flush 2
+msgwnd_mar
+*d21992
+d [lv 0*"13"*"40400030"]`"Uu!`[@][lv 0*"13"*"40400031"]` I'll talk!`[@][lv 0*"13"*"40400032"]` So about Sakutaro, umm, umm!"`[\]
+msgwnd_non
+*d21993
+d `Watching Maria onee‐chan, who's always in a good mood, makes my heart feel warm as well.`[\]
+*d21994
+d `As I listened to her tale, I began to get absorbed into her world......`[\]
+textoff
+waits 167
+meplay 1,5,0
+vol_bgm 70,4000
+vol_me 1,100,4000
+wait 4000
+vol_mix_fade 1000
+vol_bgm -1,1000
+wait 1000
+wait 2000
+gstc 209
+bgmplay 64,71,0
+textoff
+waits 167
+lbg s0_3,"cit_3a"
+flush 46
+wait 2000
+textoff
+waits 167
+lbg s0_3,"black"
+flush 24
+textoff
+waits 167
+lbg s0_3,"res_i3ar"
+lss s0_9,"ros","c11_warai1" ;1
+flush 24
+msgwnd_ros
+*d21995
+d [lv 0*"12"*"41400008"]`"Happy birthday, Maria.`[@][lv 0*"12"*"41400009"]` Sorry I got back so late."`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"res_i3ar"
+lss s0_8,"mar","c21_warai2" ;1
+aspt2 xpos,s0_8,-370
+flush 23
+msgwnd_mar
+*d21996
+d [lv 0*"13"*"40400033"]`"Uu!`[@][lv 0*"13"*"40400034"]` Good job with your work, Mama!`[@][lv 0*"13"*"40400035"]` I know you're busy, so, waited without crying even when you were late.`[@][lv 0*"13"*"40400036"]` Was good and waited, watching TV!"`[\]
+lss s0_10,"ros","c11_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ros
+*d21997
+d [lv 0*"12"*"41400010"]`"Yes, you're such a good girl, Maria.`[@][lv 0*"12"*"41400011"]` As a reward for waiting politely, you can order anything you want today.`[@][lv 0*"12"*"41400012"]` Of course, only as much as you can eat, okay?"`[\]
+lss s0_8,"mar","c12_warai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_mar
+*d21998
+d [lv 0*"13"*"40400037"]`"Uu‐uu!`[@][lv 0*"13"*"40400038"]` Can I change my corn soup to onion gratin soup today?!"`[\]
+lss s0_10,"ros","c11_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ros
+*d21999
+d [lv 0*"12"*"41400013"]`"Yes, you can."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"res_i3dr"
+flush 25
+msgwnd_mar
+*d22000
+d [lv 0*"13"*"40400039"]`"Uu‐uu!`[@][lv 0*"13"*"40400040"]` It's 200 yen more, but can I even change it to prosciutto pizza?!"`[\]
+msgwnd_ros
+*d22001
+d [lv 0*"12"*"41400014"]`"Yes, you can.`[@][lv 0*"12"*"41400015"]` {i:If} you really can eat it.`[@][lv 0*"12"*"41400016"]` ......But what the hey.`[@][lv 0*"12"*"41400017"]` It is your birthday, after all.`[@][lv 0*"12"*"41400018"]` I have to reward you for being a good girl and waiting so patiently."`[\]
+msgwnd_mar
+*d22002
+d [lv 0*"13"*"40400041"]`"Uu‐uu‐uu!`[@][lv 0*"13"*"40400042"]` Then, then, can I have enchilada cheesecake for dessert?!`[@][lv 0*"13"*"40400043"]` And, and, the chef's choice fruit salad and kids' french fries!`[@][lv 0*"13"*"40400044"]` Want to have a melon soda too!"`[\]
+*d22003
+d [lv 0*"13"*"40400045"]`"Uu‐uu‐uu!`[@][lv 0*"13"*"40400046"]` I'm a good girl, I'm a good girl!`[@][lv 0*"13"*"40400047"]` Praised by Mama, uu‐uu‐uu{p:0:♪}"`[\]
+textoff
+waits 167
+lbg s0_3,"res_i3ar"
+lss s0_9,"ros","c11_defo1" ;1
+flush 22
+lss s0_9,"ros","c11_warai1" ;1
+flush 10,167
+msgwnd_ros
+*d22004
+d [lv 0*"12"*"41400019"]`"*giggle*.`[@][lv 0*"12"*"41400020"]` You're getting a little too excited.`[@][lv 0*"12"*"41400021"]` If you don't quiet down a bit, you'll disturb the other customers."`[\]
+msgwnd_non
+*d22005
+d `When Rosa gently admonished her, Maria stuck her tongue out and eased up a little.`[@]` ...But it seemed that she was having a hard time repressing her excitement at being able to eat out with her mother again after such a long time.`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 22
+*d22006
+d `Today was Maria's birthday.`[\]
+*d22007
+d `Rosa always spent Maria's birthday at a wonderful restaurant.`[\]
+*d22008
+d `When Maria had still been in kindergarten, they had sometimes invited other kids from the neighborhood over and had a party at home.`[\]
+*d22009
+d `Rosa would make a wonderful cake, and homemade sweets, and decorate the house herself, making it a huge celebration.`[\]
+*d22010
+d `But after they moved and Maria no longer had any friends in the neighborhood, Rosa had started splurging at expensive restaurants instead.`[\]
+textoff
+waits 167
+lbg s0_3,"res_i3ar"
+flush 26
+*d22011
+d `However, today, they were instead in a normal family restaurant.`[\]
+*d22012
+d `It was also a little late in the day for a kid like Maria to eat there, even with a parent.`[\]
+*d22013
+d `Rosa had actually gotten reservations at a fantastical place that Maria would absolutely have loved.`[@]` Of course, she had also prepared a wonderful cake with Maria's name written on it.`[\]
+*d22014
+d `......But Rosa just hadn't been able to finish up her work, and had been forced to cancel.`[\]
+textoff
+waits 167
+lbg s0_3,"res_i3ar"
+lss s0_10,"ros","c11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 23
+*d22015
+d `Since that had turned into a local family restaurant, Rosa felt a little indebted to Maria.`[\]
+*d22016
+d `So she was prepared to spoil Maria a bit and let her have whatever she wanted tonight...`[\]
+seplay 1,56,71
+textoff
+waits 167
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+flush 22
+lips_sprite s0_10_b
+lss s0_23,"enj","c11_warai2" ;1
+aspt2 xpos,s0_23,370
+flush 24
+msgwnd_enj
+*d22017
+d [lv 0*"11"*"42000137"]`"......I thought you weren't a very big eater, Maria onee‐chan?`[@][lv 0*"11"*"42000138"]` Are you sure you're going to be OK asking for this much?"`[\]
+lss s0_25,"mar","a22_warai1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_mar
+*d22018
+d [lv 0*"13"*"40400048"]`"Uu.`[@][lv 0*"13"*"40400049"]` I can't eat very much, but I like it when there's a lot lined up.`[@][lv 0*"13"*"40400050"]` You know, when you have a birthday table,`[@][lv 0*"13"*"40400051"]` and it's all multicolored with red and blue and green and yellow, it makes you really happy!"`[\]
+lss s0_23,"enj","c11_warai1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_enj
+*d22019
+d [lv 0*"11"*"42000139"]`"...You're right.`[@][lv 0*"11"*"42000140"]` When a birthday table is colorful, it does make you feel happy, doesn't it?`[@][lv 0*"11"*"42000141"]` ......Birthdays at my place were no match for yours, Maria onee‐chan, but I remember the cakes we bought at the cake shop in front of the station were always gorgeous..."`[\]
+msgwnd_non
+*d22020
+d `Ange thought back to her own birthdays nostalgically.`[\]
+csp_slot s0_21
+csp_slot s0_22
+csp_slot s0_25
+csp_slot s0_23
+lips_sprite s0_10_b,"ros"
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"black"
+flush 2
+textoff
+waits 167
+lbg s0_3,"gdin_1ad2"
+color_mod2 sepia,s0_3
+lss s0_9,"rud","a11_warai1" ;1
+color_mod2 sepia,s0_9
+flush 4
+*d22021
+d `Even though Dad was busy, he sometimes came home just to show up at my birthday party, and then went right back to his company.`[\]
+*d22022
+d `I was sad at the time, but now I understand how important I was to Dad.`[\]
+textoff
+waits 167
+lss s0_8,"kir","a11_warai1" ;1
+aspt2 xpos,s0_8,-550
+color_mod2 sepia,s0_8
+flush 3
+*d22023
+d `Of course, Mom also took very good care of me.`[\]
+*d22024
+d `In particular, she always had a really good sense in birthday presents,`[@]` and sometimes arranged for them several months in advance.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+lbg s0_3,"gdin_1ad2"
+color_mod2 sepia,s0_3
+flush 23
+*d22025
+d `Even though we always sent an invitation to Battler onii‐chan, he didn't get along with Dad or something, so he didn't always come.`[\]
+lss s0_9,"but","b11_defo2" ;1
+color_mod2 sepia,s0_9
+flush 10,167
+lss s0_9,"but","b11_warai1" ;1
+color_mod2 sepia,s0_9
+flush 10,167
+*d22026
+d `......So when he did come, I was really happy.`[\]
+lss s0_10,"kir","a11_warai2" ;1
+aspt2 xpos,s0_10,550
+color_mod2 sepia,s0_10
+lss s0_8,"rud","a11_warai1" ;1
+aspt2 xpos,s0_8,-550
+color_mod2 sepia,s0_8
+flush 22
+*d22027
+d `...The birthday parties when the whole four‐person family was together made for fun memories that I will never forget...`[\]
+textoff
+waits 167
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+flush 10,367
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+flush 28
+lips_sprite s0_8_b
+lips_sprite s0_9_b
+lips_sprite s0_10_b
+lss s0_23,"mar","a22_warai1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_mar
+*d22028
+d2 [lv 0*"13"*"40400052"]`"Uu~.`[@][lv 0*"13"*"40400053"]` Your birthday looks like a lot of fun too.`[@][lv 0*"13"*"40400054"]` Battler and Uncle Rudolf are the life of the party.`[@][#][*][lv 0*"13"*"40400055"]` Noisy and laughing!`[@][#][*][lv 0*"13"*"40400056_b"]` Ah, Battler got covered in soda, ahahahaha."`[\]
+wait_on_d 0
+lss s0_23,"mar","a22_warai2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+d_continue
+wait_on_d 1
+lss s0_9,"but","b22_odoroki2" ;1
+color_mod2 sepia,s0_9
+flush 10,167
+d_continue
+wait_on_d -1
+msgwnd_non
+*d22029
+d `Maria onee‐chan peeked into my happy memory.`[\]
+*d22030
+d `It's kind of embarrassing looking at myself, sitting quietly there, wearing the origami helmet that Dad had made as a party trick.`[\]
+*d22031
+d `In my hand was a paper gun that Battler onii‐chan had folded for me.`[@]`{n}...And Mom was taking a commemorative photo.`[@]`{n}It was the happiest moment of my life.`[\]
+textoff
+waits 167
+csp_slot s0_21
+textoff
+waits 167
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+lips_sprite s0_9_b
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+csp_slot s0_23
+lbg s0_3,"res_i3ar"
+lss s0_23,"mar","a22_warai2" ;1
+aspt2 xpos,s0_23,370
+flush 42
+lss s0_25,"enj","c11_warai3" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_enj
+*d22032
+d [lv 0*"11"*"42000142"]`"But your birthday's just as good, Maria onee‐chan.`[@][lv 0*"11"*"42000143"]` So, you get him today, right?`[@][lv 0*"11"*"42000144"]` Sakutaro."`[\]
+lss s0_23,"mar","a22_warai1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_mar
+*d22033
+d [lv 0*"13"*"40400057"]`"Uu!`[@][lv 0*"13"*"40400058"]` Was reeeally looking forward to it.`[@][lv 0*"13"*"40400059"]` Was so excited the whole time, wondering when Mama would show me the wrapped present in the side of her bag."`[\]
+csp_slot s0_21
+csp_slot s0_22
+csp_slot s0_25
+csp_slot s0_23
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+msgwnd_non
+*d22034
+d `"Sakutaro" is the name of the stuffed animal that Maria onee‐chan was to receive as a present today.`[\]
+*d22035
+d `For quite a long time, Aunt Rosa had been making a stuffed animal to give to her as a birthday present today.`[\]
+*d22036
+d `It was apparently to be a cute lion stuffed animal,`[@]` and Maria onee‐chan had already given it the name Sakutaro even though she hadn't received it yet.`[\]
+*d22037
+d `Today, she was looking forward to meeting Sakutaro even more than celebrating her own birthday.`[\]
+*d22038
+d `Aunt Rosa ran a clothing design company.`[\]
+*d22039
+d `It did actually seem to have a brand name, too, for what that's worth.`[@]`{n}......I think it was just called <Aunt Rosa>, in English...?`[\]
+*d22040
+d `The slogan was supposedly "I can't forgive the way I was before today".`[\]
+*d22041
+d `...Unfortunately, I've never met anyone who knew of that brand name.`[\]
+*d22042
+d `Maybe it wasn't that famous.`[\]
+textoff
+waits 167
+lbg s0_3,"res_i3ar"
+lss s0_9,"ros","c11_defo1" ;1
+flush 26
+*d22043
+d `So, in any case, Auntie was pretty skilled with her hands.`[@]`{n}I heard that some of the clothing she wears she made herself.`[\]
+*d22044
+d `So making a stuffed animal had to be well within her capabilities.`[\]
+textoff
+waits 167
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+flush 10,367
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+flush 28
+lips_sprite s0_9_b
+lss s0_23,"enj","c11_warai2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_enj
+*d22045
+d [lv 0*"11"*"42000145"]`"......A hand‐made stuffed animal... That sounds kind of wonderful.`[@][lv 0*"11"*"42000146"]` By the way, why did you call it Sakutaro?"`[\]
+lss s0_25,"mar","a11_uuu1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_mar
+*d22046
+d [lv 0*"13"*"40400060"]`"Uu.`[@][lv 0*"13"*"40400061"]` Actually wanted to call it "Sakura".`[@][lv 0*"13"*"40400062"]` But it's a male lion, so I was told to give it a boy's name."`[\]
+lss s0_25,"mar","a22_warai1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+*d22047
+d [lv 0*"13"*"40400063"]`"So I added a boy‐like "tarou" and called him "Sakutarou".`[@][lv 0*"13"*"40400064"]` And I forget when the "u" at the end went away!"`[\]
+lss s0_23,"enj","c11_warai2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_enj
+*d22048
+d [lv 0*"11"*"42000147"]`"Why "Sakura"?"`[\]
+lss s0_25,"mar","a22_warai2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_mar
+*d22049
+d [lv 0*"13"*"40400065"]`"Uu!`[@][lv 0*"13"*"40400066"]` Main character in Card Captor Sakura~!"`[\]
+msgwnd_non
+*d22050
+d `There was apparently a popular anime at the time whose main character was a girl called "Sakura".`[\]
+*d22051
+d `......The fact that she'd simply borrowed the name of a character she liked was, how should I say it, as innocent and cute as you'd expect from her age.`[\]
+textoff
+waits 167
+csp_slot s0_21
+csp_slot s0_22
+csp_slot s0_25
+csp_slot s0_23
+lips_sprite s0_9_b,"ros"
+flush 8
+lss s0_10,"mar","c22_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_mar
+*d22052
+d [lv 0*"13"*"40400067"]`"Uu!`[@][lv 0*"13"*"40400068"]` Mama, Mama!`[@][lv 0*"13"*"40400069"]` Still no Sakutaro?`[@][lv 0*"13"*"40400070"]` Want to let Sakutaro join in my birthday too."`[\]
+csp_slot s0_9
+flush 10,167
+lss s0_8,"ros","c11_nayamu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ros
+*d22053
+d [lv 0*"12"*"41400022"]`"Presents always come at the end, remember?`[@][lv 0*"12"*"41400023"]` If you open it now, it'll get dirty.`[@][lv 0*"12"*"41400024"]` Hold on until the meal is over."`[\]
+lss s0_10,"mar","c21_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_mar
+*d22054
+d [lv 0*"13"*"40400071"]`"Then I'll finish eating quickly!`[@][lv 0*"13"*"40400072"]` Uu‐uu‐uu!"`[\]
+msgwnd_non
+*d22055
+d `As soon as she proclaimed that, she started tearing into her meal.`[\]
+csp_slot s0_8
+csp_slot s0_10
+flush 10,167
+lss s0_9,"ros","c11_odoroki1" ;1
+flush 10,167
+*d22056
+d `Aunt Rosa scolded her, telling her not to make a scene.`[@]`{n}It seemed that she had seen it coming immediately.`[\]
+*d22057
+d `I had been thinking that, if I were as straightforward as Maria onee‐chan, that would probably be exactly what I would do as well,`[@]` so it brought a kind of warm smile to my face when my expectations weren't betrayed.`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 22
+*d22058
+d `In the end, Aunt Rosa succumbed to her daughter's eyes sparkling with anticipation,`[@]` cleaned up the table, and took out the long‐awaited wrapped present.`[\]
+textoff
+waits 167
+lbg s0_3,"res_i3ar"
+flush 26
+lss s0_10,"ros","c11_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ros
+*d22059
+d [lv 0*"12"*"41400025"]`"Happy birthday, Maria.`[@][lv 0*"12"*"41400026"]` ......I couldn't spend much time on it, so I couldn't make it very well..."`[\]
+lss s0_8,"mar","c21_warai2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_mar
+*d22060
+d [lv 0*"13"*"40400073"]`"Uu!`[@][lv 0*"13"*"40400074"]` If you made it, Mama, I'm happy with anything!`[@][lv 0*"13"*"40400075"]` Uu‐uu‐uu!`[@][lv 0*"13"*"40400076"]` Sakutaro~, Sakutaro~, uu‐uu!"`[\]
+msgwnd_non
+*d22061
+d `Aunt Rosa spoke slightly humbly, but Maria onee‐chan was ecstatic even before opening the wrapping.`[\]
+*d22062
+d `......I could really understand that feeling.`[@]` It's not a matter of quality.`[@]`{n}Just the fact that it was a handmade present was more pleasing than anything.`[\]
+csp_slot s0_8
+flush 10,167
+lss s0_9,"mar","c12_warai1" ;1
+flush 10,167
+msgwnd_mar
+*d22063
+d [lv 0*"13"*"40400077"]`"Can I open it?`[@][lv 0*"13"*"40400078"]` Can I open it?!"`[\]
+lss s0_10,"ros","c11_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ros
+*d22064
+d [lv 0*"12"*"41400027"]`"I'd really prefer you to leave it until we get back home,`[|][lv 0*"12"*"41400028"]` ......but, just for a bit, okay?`[@][lv 0*"12"*"41400029"]` We'll just take a look and say hello, then put it back, alright?`[@][lv 0*"12"*"41400030"]` You can give him a proper greeting once we get home.`[@][lv 0*"12"*"41400031"]` We're in public, so you can't fool around, understand?`[@][lv 0*"12"*"41400032"]` Can you promise?"`[\]
+lss s0_9,"mar","c21_warai2" ;1
+flush 10,167
+msgwnd_mar
+*d22065
+d2 [lv 0*"13"*"40400079"]`"Uu!`[@][lv 0*"13"*"40400080"]` Promise promise!"`[#][*][\]
+wait_on_d 0
+seplay 1,47,71
+agpt quakeycycle,33
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+seplay 2,47,71
+agpt quakeycycle,33
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+d_continue
+wait_on_d -1
+lss s0_9,"mar","c12_niyari1" ;1
+flush 10,167
+*d22066
+d [lv 0*"13"*"40400081"]`"So can I open it?`[@][lv 0*"13"*"40400083"]` Can I open ii~t?`[@][lv 0*"13"*"40400082"]` Mamaaa."`[\]
+lss s0_10,"ros","c11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ros
+*d22067
+d [lv 0*"12"*"41400033"]`"Yes, yes, but just for a bit, okay?"`[\]
+csp_slot s0_9
+flush 10,167
+lss s0_8,"mar","c21_warai2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_mar
+*d22068
+d2 [lv 0*"13"*"40400084"]`"Yaaaaaaaaayyyy...{p:0:☆}"`[#][*][\]
+wait_on_d 0
+seplay 1,3,71
+agpt quakexcycle,50
+agpt quakexamp,30
+agpt quakexamp,0,333,1
+rumble 63,500
+gptwait quakexamp
+d_continue
+wait_on_d -1
+msgwnd_non
+*d22069
+d `Before Aunt Rosa finished her sentence, Maria onee‐chan started unwrapping the present.`[\]
+textoff
+waits 167
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"white"
+flush 2
+vol_mix_fade 2000
+vol_bgm -1,2000
+wait 2000
+wait 1000
+seplay 2,3,71
+seplay 3,47,71
+textoff
+waits 167
+lbg s0_3,"sakutaro1a"
+flush 1
+agpt quakeycycle,67
+agpt quakeyamp,30
+agpt quakeyamp,0,1000,1
+rumble 63,500
+gptwait quakeyamp
+wait 1000
+bgmplay 92,85,0
+wait 2000
+*d22070
+d `And straight away, ......yellow and orange peeked out.`[\]
+*d22071
+d `What appeared was a slightly blank‐looking stuffed lion,`[@]` with cute round eyes and a cute white chest.`[\]
+textoff
+waits 167
+vol_bgm 90,1000
+wait 1000
+textoff
+waits 167
+lbg s0_3,"sakutaro1b"
+flush 22
+*d22072
+d `It was about the size of a small pillow.`[@]` It looked pretty big held by a short person like Maria onee‐chan, but it probably wasn't that large.`[\]
+*d22073
+d `From the perspective of someone who didn't know better, it would probably look like something cheap bought from a department store or something.`[\]
+*d22074
+d `But to Maria onee‐chan, it was her mother's handmade stuffed animal, the only one of its kind in the world, and irreplaceable.`[\]
+textoff
+waits 167
+lbg s0_3,"e0404"
+flush 26
+msgwnd_mar
+*d22075
+d [lv 0*"13"*"40400085"]`"Sakutaro~, Sakutaro~!!`[@][lv 0*"13"*"40400086"]` *giggle*giggle*!!`[@][lv 0*"13"*"40400087"]` Cute cute, reeeeally cute...!`[@][lv 0*"13"*"40400088"]` Thank you Mama, thank you Mama, thank you so much for making such a cute stuffed animal for me even though you're so busy with your work...!!"`[\]
+msgwnd_ros
+*d22076
+d [lv 0*"12"*"41400034"]`"...Please don't praise me so much, it makes me feel embarrassed.`[@][lv 0*"12"*"41400035"]` I couldn't take much time, so I couldn't make anything that good.`[@][lv 0*"12"*"41400036"]` I actually wanted to make one so big that you couldn't wrap your arms around it..."`[\]
+msgwnd_mar
+*d22077
+d [lv 0*"13"*"40400089"]`"No, this is good!`[@][lv 0*"13"*"40400090"]` With this size, we can always be together.`[@][lv 0*"13"*"40400091"]` We can go out together.`[@][lv 0*"13"*"40400092"]` Sakutaro~, I'm your onee‐cha~n, uryu~{p:0:☆}"`[\]
+textoff
+waits 167
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+flush 10,367
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+flush 28
+lss s0_23,"enj","c11_warai2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_enj
+*d22078
+d [lv 0*"11"*"42000148"]`"It really is a cute stuffed animal.`[@][lv 0*"11"*"42000149"]` So this kid is your best friend Sakutaro."`[\]
+lss s0_25,"mar","a22_niyari1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_mar
+*d22079
+d [lv 0*"13"*"40400093"]`"Uu!`[@][lv 0*"13"*"40400094"]` Can't go to school together, but we're always, always together at home and he's my best friend."`[\]
+lss s0_25,"mar","a22_warai2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+*d22080
+d [lv 0*"13"*"40400095"]`"You know, Sakutaro is verrry innocent and cute, and he's always nice to me.`[@][lv 0*"13"*"40400096"]` Cheers me up when I'm feeling down, and plays a lot with me when I'm feeling good!"`[\]
+lss s0_25,"mar","a22_warai1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+*d22081
+d [lv 0*"13"*"40400097"]`"So I'm not lonely anymore.`[@][lv 0*"13"*"40400098"]` Not lonely when Mama is busy with work and I'm all alone, and even if no one plays with me at school, not lonely at all.`[@][lv 0*"13"*"40400099"]` Riiight, Sakutaro~, uryu~{p:0:☆}"`[\]
+csp_slot s0_21
+csp_slot s0_22
+csp_slot s0_25
+csp_slot s0_23
+textoff
+waits 167
+lbg s0_3,"black"
+textoff
+waits 167
+lbg s0_26,"black"
+flush 2
+vol_mix_fade 3000
+vol_bgm -1,3000
+wait 3000
+msgwnd_non
+*d22082
+d `......At school, Maria onee‐chan was in similar circumstances to me.`[\]
+bgmplay 91,71,0
+*d22083
+d `Compared to the other kids in her class, Maria onee‐chan's tempo was always a beat too slow.`[\]
+*d22084
+d `Her impressionability and way of thinking about things were a little peculiar, ......and she was a little too idiosyncratic to blend in with them.`[\]
+*d22085
+d `Her grades were low as well, and yet she was talkative when it came to her specialist field of the occult, which led to her being treated like a weirdo by everyone else in the class.`[\]
+*d22086
+d `If she touches you, you'll be cursed... Stuff like that.`[\]
+*d22087
+d `Everyone in the class acted like she was gross, made fun of her, and avoided her, it seems.`[\]
+*d22088
+d `Boys who bumped into Maria onee‐chan...`[@]`would start wiping that part of them off against the other boys, as if they'd gotten something dirty on them.`[\]
+*d22089
+d `They would pick up her stuff between pinched fingers like it was something filthy and chase the other boys around with it.`[\]
+*d22090
+d `As for the girls, they appeared to find even speaking to her unpleasant;`[@]` they ignored her completely, giggling and sneering at her whenever she made a mistake.`[\]
+textoff
+waits 167
+textoff
+waits 167
+csp_slot s0_26
+textoff
+waits 167
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+lss s0_23,"enj","c11_fuman2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_enj
+*d22091
+d [lv 0*"11"*"42000150"]`"............It looks like bullying is the same in all eras.`[@][lv 0*"11"*"42000151"]` Humans really don't advance.`[@][lv 0*"11"*"42000152"]` Go extinct already."`[\]
+lss s0_25,"mar","a11_fukigen2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_mar
+*d22092
+d [lv 0*"13"*"40400100"]`"......I'm sad to be bullied, but I think it can't be helped."`[\]
+lss s0_23,"enj","c11_komaru2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_enj
+*d22093
+d [lv 0*"11"*"42000153"]`"It can't be helped...?`[@][lv 0*"11"*"42000154"]` Why...?"`[\]
+lss s0_25,"mar","a22_defo1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_mar
+*d22094
+d [lv 0*"13"*"40400101"]`"'Cause, there's a rule that says, every class has to have one kid who gets picked on."`[\]
+lss s0_23,"enj","c11_fuman2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_enj
+*d22095
+d [lv 0*"11"*"42000155"]`"......That's a horrible rule.`[@][lv 0*"11"*"42000156"]` I want to find whoever made that and hit them over the head with a brick.`[@][lv 0*"11"*"42000157"]` The corner of it, obviously."`[\]
+lss s0_25,"mar","a11_fukigen2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_mar
+*d22096
+d2 [lv 0*"13"*"40400102"]`"If I wasn't there anymore, I'm sure a new bullied kid would be chosen in my place.`[@][#][*][lv 0*"13"*"40400103"]` By staying strong, I can protect them."`[\]
+wait_on_d 0
+lss s0_25,"mar","a22_warai1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+d_continue
+wait_on_d -1
+msgwnd_non
+*d22097
+d `As she said that, she smiled faintly.`[\]
+*d22098
+d `.........Maria onee‐chan's way of thinking really is unusual.`[\]
+csp_slot s0_21
+csp_slot s0_22
+csp_slot s0_25
+csp_slot s0_23
+textoff
+waits 167
+lbg s0_3,"black"
+flush 5
+textoff
+waits 167
+lbg s0_3,"schr_o1a"
+flush 22
+*d22099
+d `According to her, there is always a witch residing in the place called school.`[\]
+*d22100
+d `No, she says that anywhere that a lot of people gather will most certainly have a witch residing there.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+*d22101
+d `The witch tries to make the students perish by disease or accidents, so that she can steal their souls.`[@]` She sometimes also corrupts the souls, leading them down a path of evil.`[\]
+*d22102
+d `Maria onee‐chan told me that an angel came, not content to let that happen.`[\]
+textoff
+waits 167
+lbg s0_3,"schr_o2a"
+textoff
+waits 167
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+lss s0_24,"mar","a22_defo1" ;1
+flush 26
+msgwnd_mar
+*d22103
+d [lv 0*"13"*"40400104"]`"......And the angel, she tried to defeat that witch.`[@][lv 0*"13"*"40400105"]` But the witch was powerful, and the fight continued for seven days and seven nights, but even then, it still wasn't over.`[@][lv 0*"13"*"40400106"]` The tired‐out witch asked for a truce, and proposed this."`[\]
+csp_slot s0_24
+flush 10,167
+lss s0_23,"enj","c11_nayamu1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_enj
+*d22104
+d [lv 0*"11"*"42000158"]`"I've heard this before.`[@][lv 0*"11"*"42000159"]` ......‘Thus far, I have made half of the students in the class become sick or injured.`[@][lv 0*"11"*"42000160"]` But in exchange, I have protected the remaining half of the students from sickness and injury."`[\]
+lss s0_23,"enj","c11_defo2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+*d22105
+d [lv 0*"11"*"42000161"]`"Therefore, if you will make just one member of the class a sacrifice to me, if you will make them "the bullied kid",`[@][lv 0*"11"*"42000162"]` I shall protect all of the other students from sickness and injury’,`[|][lv 0*"11"*"42000163"]` .........wasn't it?"`[\]
+lss s0_25,"mar","a11_niyari1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_mar
+*d22106
+d [lv 0*"13"*"40400107"]`"Uu.`[@][lv 0*"13"*"40400108"]` The angel thought about it.`[@][lv 0*"13"*"40400109"]` Compared to half the class suffering misfortune, having only one person be the unlucky one would be much better.`[@][lv 0*"13"*"40400110"]` Plus, the witch was saying that she would protect the safety of all the other students, using her powerful magic."`[\]
+lss s0_23,"enj","c11_defo1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_enj
+*d22107
+d [lv 0*"11"*"42000164"]`"If there are forty students in a class,`[@][lv 0*"11"*"42000165"]` ......and the twenty victims are shrunk down to one, then nineteen people are saved.`[@][lv 0*"11"*"42000166"]` ......A truly logical proposal."`[\]
+msgwnd_non
+*d22108
+d `I wonder if this fairy tale has some kind of motif.`[@]`{n}If it's a creation of Maria onee‐chan, a nine year old girl, that would be pretty impressive.`[\]
+lss s0_25,"mar","a22_defo1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_mar
+*d22109
+d2 [lv 0*"13"*"40400111"]`"The angel decided to accept that proposal.`[@][lv 0*"13"*"40400112"]` So, through the single sacrifice, nineteen people were saved.`[@][#][*][lv 0*"13"*"40400113"]` ......So my role is important.`[@][lv 0*"13"*"40400114"]` The witch is protecting nineteen people."`[\]
+wait_on_d 0
+lss s0_25,"mar","a11_niyari1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_23,"enj","c11_fuman2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_enj
+*d22110
+d [lv 0*"11"*"42000167"]`"......Because of us becoming sacrifices?`[@][lv 0*"11"*"42000168"]` .........Well, I don't remember ever being thanked by those nineteen people."`[\]
+msgwnd_non
+*d22111
+d `...Maria onee‐chan's thinking is too compassionate.`[\]
+*d22112
+d `The miserableness of our situations is very similar.`[@]` ......And yet, there's a difference in our inner peace, just because of a small difference in our way of thinking?`[\]
+lss s0_23,"enj","c11_nayamu1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_enj
+*d22113
+d [lv 0*"11"*"42000169"]`"So then, aren't you sad, Maria onee‐chan...?"`[\]
+csp_slot s0_25
+csp_slot s0_23
+flush 10,167
+lss s0_24,"mar","a22_warai1" ;1
+flush 10,167
+msgwnd_mar
+*d22114
+d2 [lv 0*"13"*"40400115"]`"Uu.`[@][lv 0*"13"*"40400116"]` Not sad at all.`[@][#][*][lv 0*"13"*"40400117"]` 'Cause I'll be together with Sakutaro from now on.`[@][lv 0*"13"*"40400118"]` Right?`[@][lv 0*"13"*"40400119"]` Sakutaro?"`[\]
+wait_on_d 0
+lss s0_24,"mar","a22_warai2" ;1
+flush 10,167
+d_continue
+wait_on_d -1
+msgwnd_sak
+*d22115
+d [lv 0*"33"*"44200001"]`‘Uryuu! If I can be with Maria, I'm happy too~!’`[\]
+lss s0_24,"mar","a22_warai1" ;1
+flush 10,167
+msgwnd_mar
+*d22116
+d [lv 0*"13"*"40400120"]`"Look, Sakutaro is saying he's happy too.`[@][lv 0*"13"*"40400121"]` Uu{p:0:☆}"`[\]
+msgwnd_non
+*d22117
+d `Maria onee‐chan held up the Sakutaro stuffed animal, playing both sides of the conversation herself.`[\]
+*d22118
+d `I don't understand.`[@]` ......But that's exactly why I want to reach Maria onee‐chan's level.`[\]
+*d22119
+d `...It's what makes me so strongly interested in her tale and her words.`[\]
+textoff
+waits 167
+vol_mix_fade 3000
+vol_bgm -1,3000
+wait 3000
+lss s0_24,"mar","a11_niyari1" ;1
+flush 10,167
+msgwnd_mar
+*d22120
+d [lv 0*"13"*"40400122"]`"Ange, is it tough because you're all alone......?"`[\]
+meplay 1,5,50
+csp_slot s0_21
+csp_slot s0_22
+csp_slot s0_24
+textoff
+waits 167
+lbg s0_3,"black"
+flush 25
+msgwnd_enj
+*d22121
+d [lv 0*"11"*"42000170"]`"......It is tough.`[@][lv 0*"11"*"42000171"]` But, just the time when I can be with you like this is different.`[@][lv 0*"11"*"42000172"]` Because I'm not...all alone."`[\]
+msgwnd_mar
+*d22122
+d [lv 0*"13"*"40400123"]`"Then if Sakutaro becomes your friend too, it'll be even more fun.`[@][lv 0*"13"*"40400124"]` Uu!`[@][lv 0*"13"*"40400125"]` Okay, starting today, Sakutaro is your new friend!`[@][lv 0*"13"*"40400126"]` Right, Sakutaro~?"`[\]
+textoff
+waits 167
+vol_mix_fade 2000
+wait 2000
+textoff
+waits 167
+lbg s0_3,"sakutaro1b"
+flush 46
+bgmplay 90,71,0
+msgwnd_sak
+*d22123
+d [lv 0*"33"*"44200002"]`‘Uryu?`[@][lv 0*"33"*"44200003"]` I am...Ange's friend...?`[@][lv 0*"33"*"44200004"]` Uryuu, Ange~!’`[\]
+msgwnd_non
+*d22124
+d `Skillfully moving the stuffed animal like it was a puppet, Maria onee‐chan made Sakutaro emote.`[\]
+textoff
+waits 167
+lbg s0_3,"sakutaro1a"
+flush 22
+*d22125
+d `She was controlling him, but the charming way he waved his short hand and cocked his head to the side...`[@]`made it feel like he really was a new friend called Sakutaro.`[\]
+*d22126
+d `Of course, if you were to look at it with cold eyes,`[@]` you would only see Maria onee‐chan comforting mopey old me with a stuffed animal.`[\]
+*d22127
+d `......But that stuffed animal had definitely been imbued with a soul.`[\]
+*d22128
+d `The soul of Maria onee‐chan's love.`[\]
+*d22129
+d `So I accepted the existence of a being called Sakutaro inside that stuffed animal.`[\]
+msgwnd_mar
+*d22130
+d [lv 0*"13"*"40400127"]`"Come on, say hi to Sakutaro, Ange.`[@][lv 0*"13"*"40400128"]` Come on, you say hi too, Sakutaro~{p:0:☆}"`[\]
+textoff
+waits 167
+lbg s0_3,"sakutaro1b"
+flush 80
+msgwnd_sak
+*d22131
+d [lv 0*"33"*"44200005"]`‘Uryu......?`[@][lv 0*"33"*"44200006"]` Is Ange...`[|][lv 0*"33"*"44200007"]`...a scary person......?’`[\]
+msgwnd_non
+*d22132
+d `As Sakutaro timidly looked at me,`[@]` he unexpectedly met my gaze, and hid behind Maria onee‐chan's back in surprise.`[\]
+*d22133
+d `......Maria onee‐chan really is good at playing with stuffed animals.`[\]
+textoff
+waits 167
+lbg s0_3,"sakutaro1a"
+flush 22
+msgwnd_mar
+*d22134
+d [lv 0*"13"*"40400129"]`"It's okay, Sakutaro.`[@][lv 0*"13"*"40400130"]` Ange isn't scary, she's a very nice girl.`[@][lv 0*"13"*"40400131"]` Uu{p:0:☆}"`[\]
+msgwnd_sak
+*d22135
+d [lv 0*"33"*"44200008"]`‘...H‐hello.`[@][lv 0*"33"*"44200009"]` I'm Sakutarou...`[@][lv 0*"33"*"44200010"]` ......Uryu......’`[\]
+msgwnd_enj
+*d22136
+d [lv 0*"11"*"42000173"]`"*giggle*.`[@][lv 0*"11"*"42000174"]` ......Pleased to meet you, Sakutarou.`[@][lv 0*"11"*"42000175"]` I'm Ange.`[@][lv 0*"11"*"42000176"]` I'm glad to be your new friend."`[\]
+msgwnd_non
+*d22137
+d `I held out my right hand as though asking for a handshake,`[@]` and Sakutaro's short hand was stuck out towards me, and lightly touched my index finger.`[\]
+*d22138
+d `After all, the size is all wrong for a handshake between a human and a stuffed animal.`[@]`{n}This greeting by touching each other's fingers was our handshake.`[\]
+textoff
+waits 167
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+lss s0_25,"enj","c11_warai1" ;1
+aspt2 xpos,s0_25,-370
+lss s0_23,"mar","a22_warai2" ;1
+aspt2 xpos,s0_23,370
+flush 22
+msgwnd_mar
+*d22139
+d [lv 0*"13"*"40400132"]`"Uu{p:0:☆}`[@][lv 0*"13"*"40400133"]` See, now you two are friends!`[@][lv 0*"13"*"40400134"]` Two people's funner than one, and three people's funner than two.`[@][lv 0*"13"*"40400135"]` Uu!"`[\]
+msgwnd_sak
+*d22140
+d [lv 0*"33"*"44200011"]`‘Uryu~!’`[\]
+msgwnd_non
+*d22141
+d `Maria onee‐chan had given the name "Sakutarou" to the stuffed animal she was going to receive on her birthday,`[@]` and had warmed and expanded his existence in her heart for a long, long time.`[\]
+*d22142
+d `Therefore, even before she had met him, his existence had been sublimated into a personality.`[\]
+*d22143
+d `From the very first moment they met, the two of them were already friends.`[\]
+csp_slot s0_21
+csp_slot s0_22
+csp_slot s0_25
+csp_slot s0_23
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+*d22144
+d `Of course, I don't think anything could be as personified and loved as Sakutarou was,`[@]` but that wasn't anything extraordinary in Maria onee‐chan's eyes.`[\]
+*d22145
+d `She loved the things she owned very much, treating them just like friends or beloved pets.`[\]
+*d22146
+d `Maybe it was partly that Aunt Rosa hadn't let her keep a pet,`[@]` or maybe just her innate desire to treat things as though they were precious.`[\]
+*d22147
+d `......Maybe it was that she was so isolated, she had been forced to find friends closer to home.`[\]
+*d22148
+d `Because of all those various circumstances, this wasn't anything extraordinary from her perspective.`[\]
+textoff
+waits 167
+lbg s0_3,"sakutaro1a"
+flush 22
+*d22149
+d `Yet even so, Sakutarou, ......no, maybe I should call him Sakutaro like Maria onee‐chan.`[\]
+*d22150
+d `It was certain that Sakutaro was a stuffed animal,`[@]` ...no, a friend, who was more loved than anything, or anyone.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 25
+wait 1000
+meplay 1,23,40
+wait 2000
+textoff
+waits 167
+lbg s0_3,"tel1a"
+flush 26
+wait 2000
+vol_me 1,-1,1000
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+msgwnd_ros
+*d22151
+d [lv 0*"12"*"41400037"]`"Hello... It's Mama.`[@][lv 0*"12"*"41400038"]` You're in a good mood, do you have a friend over?"`[\]
+msgwnd_mar
+*d22152
+d [lv 0*"13"*"40400136"]`"Uu!`[@][lv 0*"13"*"40400137"]` Playing with Sakutaro!`[@][lv 0*"13"*"40400138"]` Listen what he said, *giggle*giggle*!"`[\]
+msgwnd_non
+*d22153
+d `It was already past nine at night.`[\]
+*d22154
+d `Rosa had asked out of surprise since this wasn't an appropriate time for a friend to be over,`[@]` but when she thought about it, Maria didn't have any friends who would come over to play, did she...`[\]
+*d22155
+d `Even so, to think that she would have so much fun playing with that stuffed animal.`[\]
+*d22156
+d `Rosa was very pleased that Maria had liked her birthday present so much.`[\]
+msgwnd_ros
+*d22157
+d [lv 0*"12"*"41400039"]`"I'm sorry.`[@][lv 0*"12"*"41400040"]` Mama just can't get her work finished...`[@][lv 0*"12"*"41400041"]` We're having a tough time with next season's lineup.`[@][lv 0*"12"*"41400042"]` It looks like we're finally starting to get noticed bit by bit, and I really want to somehow make an impact here that can meet their expectations..."`[\]
+msgwnd_mar
+*d22158
+d [lv 0*"13"*"40400139"]`"Staying over again?`[@][lv 0*"13"*"40400140"]` Yep, that's okay.`[@][lv 0*"13"*"40400141"]` Do your best, Mama!"`[\]
+msgwnd_ros
+*d22159
+d [lv 0*"12"*"41400043"]`"R‐really?`[@][lv 0*"12"*"41400044"]` Thank you, Maria...`[@][lv 0*"12"*"41400045"]` Thanks for understanding about Mama's work..."`[\]
+msgwnd_non
+*d22160
+d `Rosa was very surprised that Maria had accepted with such indifference that she couldn't come home.`[\]
+*d22161
+d `Telling Maria that she would be coming home late or staying overnight had been a heavy burden for Rosa.`[\]
+*d22162
+d `Maria would start crying about how lonely she was on the other end of the phone, and it took a lot of time and effort to calm her down.`[\]
+*d22163
+d `To think that Maria would accept it in such high spirits...`[\]
+*d22164
+d `Is this also thanks to Sakutarou?`[\]
+*d22165
+d `...Rosa was once again pleased that she had given such a good present.`[\]
+textoff
+waits 167
+lbg s0_3,"tel1a"
+flush 22
+msgwnd_ros
+*d22166
+d [lv 0*"12"*"41400046"]`"I'll make sure I can come back by this time tomorrow.`[@][lv 0*"12"*"41400047"]` Let's eat dinner together tomorrow.`[@][lv 0*"12"*"41400048"]` You haven't eaten dinner yet, have you, Maria?`[@][lv 0*"12"*"41400049"]` Buy a bento at the convenience store and eat that.`[@][lv 0*"12"*"41400050"]` No sweets, and no soda.`[@][lv 0*"12"*"41400051"]` Make sure you get a receipt with your change, understand?"`[\]
+msgwnd_mar
+*d22167
+d [lv 0*"13"*"40400142"]`"Uu!`[@][lv 0*"13"*"40400143"]` Shopping with Sakutaro, shopping with Sakutaro...!"`[\]
+msgwnd_ros
+*d22168
+d [lv 0*"12"*"41400052"]`"H‐hey!`[@][lv 0*"12"*"41400053"]` Not Sakutaro, have him watch over the house!"`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+msgwnd_non
+*d22169
+d `From Maria's manner of speech, Rosa got the feeling that Maria had been going shopping with that stuffed animal without her knowing about it.`[\]
+*d22170
+d `Rosa's forehead creased, and after sourly telling Maria that she was absolutely not to, she hung up.`[\]
+textoff
+waits 167
+textoff
+waits 167
+lbg s0_3,"ros_m1ar"
+lss s0_10,"mar","c12_fukigen2" ;1
+aspt2 xpos,s0_10,370
+flush 26
+msgwnd_mar
+*d22171
+d [lv 0*"13"*"40400144"]`"Uu...`[@][lv 0*"13"*"40400145"]` Mama said I can't go shopping with you..."`[\]
+msgwnd_sak
+*d22172
+d [lv 0*"33"*"44200012"]`‘Uryuu...`[@][lv 0*"33"*"44200013"]` Can't go shopping with Maria...`[@][lv 0*"33"*"44200014"]` Staying home alone...will be lonely...’`[\]
+lss s0_10,"mar","c11_odoroki1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_mar
+*d22173
+d [lv 0*"13"*"40400146"]`"Why did Mama say not to go shopping with you...`[@][lv 0*"13"*"40400147"]` Uu..."`[\]
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"black"
+flush 25
+textoff
+waits 167
+lbg s0_3,"sakutaro1b"
+flush 22
+msgwnd_sak
+*d22174
+d [lv 0*"33"*"44200015"]`‘Uryu...`[@][lv 0*"33"*"44200016"]` ......She must be...embarrassed for people to see you and me together...’`[\]
+msgwnd_mar
+*d22175
+d [lv 0*"13"*"40400148"]`"......Embarrassed?`[@][lv 0*"13"*"40400149"]` Why?"`[\]
+msgwnd_sak
+*d22176
+d [lv 0*"33"*"44200017"]`‘Mama often says not to take me outside.`[@][lv 0*"33"*"44200018"]` And she usually words it like, no, you're too old for that now...’`[\]
+msgwnd_mar
+*d22177
+d [lv 0*"13"*"40400150"]`"Uu?`[@][lv 0*"13"*"40400151"]` But I'm not embarrassed at all to be with you."`[\]
+msgwnd_sak
+*d22178
+d [lv 0*"33"*"44200019"]`‘I am a lion, ...but I'm a stuffed animal.’`[\]
+msgwnd_mar
+*d22179
+d [lv 0*"13"*"40400152"]`"You're a lion and a stuffed animal, but you're my friend.`[@][lv 0*"13"*"40400153"]` So let's go out together{p:0:☆}`[@][lv 0*"13"*"40400154"]` Just when Mama isn't around, as a secret.`[@][lv 0*"13"*"40400155"]` Uu?`[@][lv 0*"13"*"40400156"]` Are you embarrassed too?"`[\]
+msgwnd_sak
+*d22180
+d [lv 0*"33"*"44200020"]`‘I'm not embarrassed, but......`[@][lv 0*"33"*"44200021"]`...uryu, ...the people outside are a little scary...’`[\]
+textoff
+waits 167
+lbg s0_3,"ros_m1ar"
+lss s0_9,"mar","c11_odoroki1" ;1
+flush 26
+lss s0_9,"mar","c21_warai2" ;1
+flush 10,167
+msgwnd_mar
+*d22181
+d [lv 0*"13"*"40400157"]`"So that's it!`[@][lv 0*"13"*"40400158"]` Okay, I'll make it so you don't have to be scared about going outside!`[@][lv 0*"13"*"40400159"]` Leave it to me, I've got something useful...!"`[\]
+csp_slot s0_9
+flush 10,167
+msgwnd_non
+*d22182
+d `Maria started fishing around her messy room.`[\]
+textoff
+waits 167
+vol_mix_fade 2000
+vol_bgm -1,2000
+wait 2000
+seplay 1,20,71
+wait 667
+seplay 2,3,71
+agpt quakeycycle,50
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+seplay 3,13,71
+agpt quakexcycle,67
+agpt quakexamp,30
+agpt quakexamp,0,333,1
+rumble 63,500
+gptwait quakexamp
+seplay 1,4,71
+agpt quakeycycle,67
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+*d22183
+d `Rosa often told her to clean it up, but she was just bad at cleaning up her room.`[\]
+*d22184
+d `However, she knew more or less where everything was.`[\]
+*d22185
+d `So much so that whenever Rosa would take it upon herself to tidy up, Maria would have trouble finding things.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 24
+textoff
+waits 167
+lbg s0_3,"ros_m1ar"
+flush 24
+lss s0_10,"mar","c21_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+bgmplay 92,80,0
+msgwnd_mar
+*d22186
+d2 [lv 0*"13"*"40400160"]`"Found it!`[#][*][@][lv 0*"13"*"40400161"]` Look, look, Sakutaro.`[@][#][*][lv 0*"13"*"40400162"]` A knapsa~ck!"`[\]
+wait_on_d 0
+seplay 1,4,71
+d_continue
+wait_on_d 1
+seplay 2,3,71
+d_continue
+wait_on_d -1
+msgwnd_non
+*d22187
+d `Maria proudly held it up high.`[\]
+*d22188
+d `Sakutaro looked at the gaping‐open knapsack and shifted uneasily...`[\]
+msgwnd_sak
+*d22189
+d [lv 0*"33"*"44200022"]`‘Uryu...... Maria, you aren't saying......’`[\]
+lss s0_10,"mar","c12_niyari1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_mar
+*d22190
+d [lv 0*"13"*"40400163"]`"Uu!`[@][lv 0*"13"*"40400164"]` This way, we can go shopping together, and you won't be scared!"`[\]
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"black"
+flush 26
+msgwnd_non
+*d22191
+d `Maria held Sakutaro up, and started stuffing him into the knapsack.`[\]
+*d22192
+d `At first, she tried to stick him in head‐first, but then he'd be upside‐down and suffocate.`[@]` So she pulled him out and tried pushing him in again, feet‐first.`[\]
+msgwnd_sak
+*d22193
+d [lv 0*"33"*"44200023"]`‘Uryuu...!`[@][lv 0*"33"*"44200024"]` It's tiiight and craaamped and daaark.`[@][lv 0*"33"*"44200025"]` Uryuu!`[@][lv 0*"33"*"44200026"]` Mmggh.’`[\]
+textoff
+waits 167
+lbg s0_3,"ros_m1ar"
+lss s0_9,"mar","c21_warai2" ;1
+flush 26
+msgwnd_mar
+*d22194
+d [lv 0*"13"*"40400165"]`"See, it's alright.`[@][lv 0*"13"*"40400166"]` If you stick your head out, it isn't cramped and it isn't dark, so it won't be scary.`[@][lv 0*"13"*"40400167"]` And it's a good view.`[@][lv 0*"13"*"40400168"]` Uu!"`[\]
+msgwnd_sak
+*d22195
+d [lv 0*"33"*"44200027"]`‘Uryu, you're right.`[@][lv 0*"33"*"44200028"]` ......Will it be okay for me to go shopping with you now...?’`[\]
+lss s0_9,"mar","c11_warai1" ;1
+flush 10,167
+msgwnd_mar
+*d22196
+d [lv 0*"13"*"40400169"]`"Yep, it's okay now!`[@][lv 0*"13"*"40400170"]` What should we get for dinner tonight?!`[@][lv 0*"13"*"40400171"]` Come on, let's go out, Sakutaro!`[@][lv 0*"13"*"40400172"]` Uu!"`[\]
+textoff
+waits 167
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+flush 10,367
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+flush 28
+lips_sprite s0_9_b
+lss s0_23,"enj","c11_warai2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_enj
+*d22197
+d [lv 0*"11"*"42000177"]`"*giggle*.`[@][lv 0*"11"*"42000178"]` Looks like you're having fun, Maria onee‐chan."`[\]
+lss s0_25,"mar","a22_warai2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_mar
+*d22198
+d [lv 0*"13"*"40400173"]`"Yep, it's reeeally fun.`[@][lv 0*"13"*"40400174"]` Even things that would be lonely and boring alone all become fun with Sakutaro.`[@][lv 0*"13"*"40400175"]` Any {y:0:Human}{n:0:human} friend would have to go home when it gets late."`[\]
+lss s0_25,"mar","a22_niyari1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+*d22199
+d [lv 0*"13"*"40400176"]`"But Sakutaro doesn't go home, so he can be with me all the time.`[@][lv 0*"13"*"40400177"]` He'll watch TV with me,`[@][lv 0*"13"*"40400178"]` be together even in the futon,`[@][lv 0*"13"*"40400179"]` and even hold my hand on scary nights with thunder."`[\]
+lss s0_25,"mar","a22_warai1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+*d22200
+d [lv 0*"13"*"40400180"]`"He'll even chase away the monsters in the closet and under the bed.`[@][lv 0*"13"*"40400181"]` Sakutaro is reliable!"`[\]
+csp_slot s0_21
+csp_slot s0_22
+csp_slot s0_25
+csp_slot s0_23
+lips_sprite s0_9_b,"mar"
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"sakutaro1b"
+flush 22
+msgwnd_sak
+*d22201
+d [lv 0*"33"*"44200029"]`‘Uryu.`[@][lv 0*"33"*"44200030"]` I'm a lion, so if there's any monsters that scare Maria, I'll show my courage and chase them away.`[@][lv 0*"33"*"44200031"]` Uryuu, {ruby:roar:gaooo}.’`[\]
+msgwnd_non
+*d22202
+d `They were so close that it made me a little envious.`[\]
+*d22203
+d `I'm supposedly older than Maria onee‐chan.`[\]
+*d22204
+d `But I can call her nothing else; even now she stands above me like an older sister, and I am yet to reach her level.`[\]
+*d22205
+d `...If only I had a friend close by like Sakutaro.`[\]
+textoff
+waits 167
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+lss s0_25,"mar","a11_niyari1" ;1
+aspt2 xpos,s0_25,-370
+flush 80
+msgwnd_mar
+*d22206
+d2 [lv 0*"13"*"40400182"]`"But both me and Sakutaro {i:are} friends close by!`[@][lv 0*"13"*"40400183"]` We're aaallways right by your side.`[@][#][*][lv 0*"13"*"40400184"]` It's just that your magic is weak, so you can't perceive us unless you open my diary like this."`[\]
+wait_on_d 0
+lss s0_25,"mar","a22_warai1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_23,"enj","c11_warai1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_enj
+*d22207
+d [lv 0*"11"*"42000179"]`"......Perceive?`[@][lv 0*"11"*"42000180"]` You know some pretty difficult words, Maria onee‐chan."`[\]
+msgwnd_non
+*d22208
+d `According to her, this world is full of magic and spirits.`[\]
+*d22209
+d `As natural and nearby as a light breeze.`[\]
+lss s0_25,"mar","a11_niyari1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_mar
+*d22210
+d [lv 0*"13"*"40400185"]`"You don't normally notice or see the wind,`[@][lv 0*"13"*"40400186"]` but when incense or something trails smoke, you can see it, right?"`[\]
+lss s0_23,"enj","c11_warai2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_enj
+*d22211
+d [lv 0*"11"*"42000181"]`"......Right.`[@][lv 0*"11"*"42000182"]` And even if you can't see it, it is always nearby."`[\]
+lss s0_25,"mar","a22_warai2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_mar
+*d22212
+d [lv 0*"13"*"40400187"]`"That's it.`[@][lv 0*"13"*"40400188"]` Me and Sakutaro are always really close by you, Ange.`[@][lv 0*"13"*"40400189"]` Gods and spirits and guardians, they're always right next to us."`[\]
+*d22213
+d [lv 0*"13"*"40400190"]`"But if you aren't conscious of them, you can't feel their existence.`[@][lv 0*"13"*"40400191"]` Like wind that can't be seen with the eyes.`[@][lv 0*"13"*"40400192"]` But they are certainly near us, and if the smoke called magic draws trails, anyone can see them."`[\]
+csp_slot s0_21
+csp_slot s0_22
+csp_slot s0_25
+csp_slot s0_23
+textoff
+waits 167
+lbg s0_3,"book1"
+flush 8
+msgwnd_non
+*d22214
+d `I had thought that I could only meet Maria onee‐chan when I opened this diary.`[\]
+*d22215
+d `But from what she said, she was always with me, and I could meet her at any time if I truly desired to.`[\]
+msgwnd_mar
+*d22216
+d [lv 0*"13"*"40400193"]`"Along with the records of my life, I left a fragment of my own soul in my diary.`[@][lv 0*"13"*"40400194"]` So the power of my magic resides in this diary.`[@][lv 0*"13"*"40400195"]` But it's very faint, so no one other than you can detect it."`[\]
+textoff
+waits 167
+lbg s0_3,"ros_m1ar"
+textoff
+waits 167
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+lss s0_23,"enj","c11_warai2" ;1
+aspt2 xpos,s0_23,370
+flush 22
+msgwnd_enj
+*d22217
+d [lv 0*"11"*"42000183"]`"......Only I...can tell?"`[\]
+lss s0_25,"mar","a22_warai1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_mar
+*d22218
+d [lv 0*"13"*"40400196"]`"Yep.`[@][lv 0*"13"*"40400197"]` After all, the power of a witch resides in you, just like it does in me!`[@][lv 0*"13"*"40400198"]` If you study hard, even you can definitely become a great witch in the future."`[\]
+lss s0_23,"enj","c11_warai1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_enj
+*d22219
+d [lv 0*"11"*"42000184"]`".........A witch.`[@][lv 0*"11"*"42000185"]` I wonder if that's fun."`[\]
+lss s0_25,"mar","a22_warai2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_mar
+*d22220
+d [lv 0*"13"*"40400199"]`"Uu!`[@][lv 0*"13"*"40400200"]` It is fun.`[@][lv 0*"13"*"40400201"]` If you do that, you'll be able to tell that me and Sakutaro are always by your side, even without opening the diary."`[\]
+*d22221
+d [lv 0*"13"*"40400202"]`"And then every day will be so much fun!`[@][lv 0*"13"*"40400203"]` And then I can introduce you to all my other friends.`[@][lv 0*"13"*"40400204"]` And then every day you'll have a lot to do, and it'll be very lively."`[\]
+lss s0_23,"enj","c11_warai2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_enj
+*d22222
+d [lv 0*"11"*"42000186"]`"That might be fun.`[@][lv 0*"11"*"42000187"]` ......I do have the grimoire you left behind, Maria onee‐chan.`[@][lv 0*"11"*"42000188"]` I'll try reading it seriously sometime soon.`[@][lv 0*"11"*"42000189"]` ......And then I won't be all alone anymore,`[|][lv 0*"11"*"42000190"]` ...will I...?"`[\]
+lss s0_25,"mar","a22_warai1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_non
+*d22223
+d [vv 75][lv 1*"13"*"40400205"][lv 0*"33"*"44200032"]`"Uu!"{n}{t}‘Uryuu!’`[\]
+*d22224
+d `Maria onee‐chan and Sakutaro said that at the same time, happy that I had developed an interest in the world of witches.`[\]
+textoff
+waits 167
+csp_slot s0_21
+csp_slot s0_22
+csp_slot s0_25
+csp_slot s0_23
+flush 8
+textoff
+waits 167
+lbg s0_3,"black"
+flush 5
+vol_mix_fade 2000
+vol_bgm -1,2000
+wait 2000
+textoff
+waits 167
+lbg s0_3,"moon_2a"
+flush 22
+wait 1000
+bgmplay 43,71,0
+wait 2000
+textoff
+waits 167
+lbg s0_3,"black"
+flush 2
+textoff
+waits 167
+lbg s0_3,"cit_3a"
+flush 2
+*d22225
+d `With half of Sakutaro's face peeking out of the knapsack on her back,`[@]` Maria walked through the late‐night shopping district in high spirits.`[\]
+*d22226
+d `It was only to be expected given the time.`[@]` Everyone in the shopping district was either a shop owner lowering the shutters on their shop, or an employee rushing, or else staggering, back home.`[\]
+lss s0_9,"mar","c21_warai2" ;1
+aspt2 darken_r,s0_9,156
+aspt2 darken_g,s0_9,156
+aspt2 darken_b,s0_9,160
+flush 10,167
+*d22227
+d `Amidst all that, Maria, in the best of moods as though she was hiking, probably stood out a great deal.`[\]
+*d22228
+d `The occasionally passing employees glanced backwards over their shoulders at her with the eyes of someone seeing something out of place.`[\]
+*d22229
+d `Office ladies giggled at the cute stuffed animal poking its head out of the knapsack.`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"moon_2a"
+flush 25
+*d22230
+d `The supermarket had been closed for a while by this time.`[@]` However, the recently popular convenience stores stayed open until late into the night.`[\]
+*d22231
+d `It was very convenient for Maria, whose mother's return was often later still.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 25
+textoff
+waits 167
+lbg s0_3,"con_i1a"
+flush 22
+*d22232
+d `Maria took the knapsack off her back, and hugging it close to her chest, she headed over to the sweet buns corner.`[\]
+*d22233
+d `She pointed to each of the sweet buns she had eaten before, explaining to Sakutaro that this one was delicious,`[@]` and that one was pretty good too.`[@]` Sakutaro seemed to be enjoying it a lot.`[\]
+lss s0_10,"mar","c12_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_mar
+*d22234
+d [lv 0*"13"*"40400206"]`"I'm going to haaave...the three‐flavor bun!`[@][lv 0*"13"*"40400207"]` With just this one thing, you get to eat red bean jam and cream and strawberry jam!`[@][lv 0*"13"*"40400208"]` But sometimes it's green pea jam or white bean jam.`[@][lv 0*"13"*"40400209"]` There should be one kind of bean jam."`[\]
+msgwnd_sak
+*d22235
+d [lv 0*"33"*"44200033"]`‘Uryuu!`[@][lv 0*"33"*"44200034"]` It sounds fun with all the different things inside.`[@][lv 0*"33"*"44200035"]` Uryu~!’`[\]
+lss s0_10,"mar","c21_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_mar
+*d22236
+d [lv 0*"13"*"40400210"]`"And I'll also have a...fruit yogurt!`[@][lv 0*"13"*"40400211"]` There's fruit in it, but it isn't a sweet, right?`[@][lv 0*"13"*"40400212"]` Yep, I'm sure Mama will be fine with it.`[@][lv 0*"13"*"40400213"]` Do you want one too, Sakutaro?"`[\]
+msgwnd_sak
+*d22237
+d [lv 0*"33"*"44200036"]`‘Uryu?`[@][lv 0*"33"*"44200037"]` Can I......?`[@][lv 0*"33"*"44200038"]` What about the money?’`[\]
+lss s0_10,"mar","c11_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_mar
+*d22238
+d [lv 0*"13"*"40400214"]`"Uu, no proble~m!`[@][lv 0*"13"*"40400215"]` Look, it's {c:86EF9C:{ruby:(5000 yen):Shotoku Taishi}}, uu!`[gstg 2][@][lv 0*"13"*"40400216"]` So I can buy you whatever you want too, Sakutaro.`[@][lv 0*"13"*"40400217"]` Let's eat together!`[@][lv 0*"13"*"40400218"]` Do you want a yogurt too?"`[\]
+msgwnd_non
+*d22239
+d `When Maria made to grab another one of the same fruit yogurt, Sakutaro tilted his head as if he was a little worried.`[\]
+msgwnd_sak
+*d22240
+d [lv 0*"33"*"44200039"]`‘Uryu...`[@][lv 0*"33"*"44200040"]` But I can't eat a big one, so a little one is fine.’`[\]
+lss s0_10,"mar","c22_niyari1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_mar
+*d22241
+d [lv 0*"13"*"40400219"]`"Uu.`[@][lv 0*"13"*"40400220"]` Then what about this small yogurt?`[@][lv 0*"13"*"40400221"]` It's 30 yen.`[@][lv 0*"13"*"40400222"]` That's cheap."`[\]
+msgwnd_sak
+*d22242
+d [lv 0*"33"*"44200041"]`‘Uryu!`[@][lv 0*"33"*"44200042"]` That's good enough for me.`[@][lv 0*"33"*"44200043"]` Yogurt with Maria!’`[\]
+lss s0_10,"mar","c21_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_mar
+*d22243
+d [lv 0*"13"*"40400223"]`"Yogurt with Sakutaro!`[@][lv 0*"13"*"40400224"]` Uu!"`[\]
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"black"
+flush 24
+msgwnd_non
+*d22244
+d `Maria put the three‐flavor bun and the two yogurts into a shopping basket, and brought them to the register.`[\]
+*d22245
+d `The man working the register, previously in charge of the tobacco shop that had been in this spot until last year, rang her up.`[\]
+*d22246
+d [lv 0*"99"*"shopma4001"]`"I seem to be seeing you a lot at this time of day, little lady.`[@][lv 0*"99"*"shopma4002"]` You're a good girl, but next time come with your mother when you go shopping this late, alright?"`[\]
+msgwnd_mar
+*d22247
+d [lv 0*"13"*"40400225"]`"Mama said it's okay, so it's alright!`[@][lv 0*"13"*"40400226"]` Mama always comes home late because of her work, but we aren't lonely.`[@][lv 0*"13"*"40400227"]` Are we, Sakutaro?"`[\]
+msgwnd_sak
+*d22248
+d [lv 0*"33"*"44200044"]`‘Uryuu!’`[\]
+msgwnd_non
+*d22249
+d [lv 0*"99"*"shopma4003"]`"Really? That sounds tough.`[@][lv 0*"99"*"shopma4004"]` Here you go, I'll throw in a free soda."`[\]
+*d22250
+d `The man working at the store took a can of leftover soda or something from behind the register and packed it into the bag with everything else.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 5
+meplay 1,30,50
+textoff
+waits 167
+lbg s0_3,"cit_3a"
+lss s0_8,"mar","c11_warai1" ;1
+aspt2 xpos,s0_8,-370
+aspt2 darken_r,s0_8,156
+aspt2 darken_g,s0_8,156
+aspt2 darken_b,s0_8,160
+flush 22
+msgwnd_mar
+*d22251
+d [lv 0*"13"*"40400228"]`"Thank you, mister!`[@][lv 0*"13"*"40400229"]` Uu!`[@][lv 0*"13"*"40400230"]` Isn't that great, Sakutaro?!"`[\]
+msgwnd_sak
+*d22252
+d [lv 0*"33"*"44200045"]`‘Uryuu!’`[\]
+msgwnd_non
+*d22253
+d `Since she had been told not to buy soda, she couldn't take it back home.`[\]
+*d22254
+d `So she decided to drink it on her way back, and not bring the empty can back home.`[\]
+textoff
+waits 167
+csp_slot s0_8
+lbg s0_3,"moon_2a"
+flush 2
+*d22255
+d `With the plastic bag with the sweet bun in it hanging from her elbow,`[@]` and hugging the knapsack with Sakutaro in it with that same arm, the two of them walked home drinking the soda...`[\]
+msgwnd_mar
+*d22256
+d [lv 0*"13"*"40400231"]`"......Uu.`[@][lv 0*"13"*"40400232"]` Yuzu and chili pepper soda tastes pretty weird...`[@][lv 0*"13"*"40400233"]` You want to try too, Sakutaro...?"`[\]
+msgwnd_sak
+*d22257
+d [lv 0*"33"*"44200046"]`‘Uryu?`[@][lv 0*"33"*"44200047"]` .........Uryu‐uryu‐uryu, uryuu!!`[@][lv 0*"33"*"44200048"]` Pwhaaah.`[@][lv 0*"33"*"44200049"]` ...Uryuuuu, that was mean, Maria...`[@][lv 0*"33"*"44200050"]` Nasssty......’`[\]
+msgwnd_mar
+*d22258
+d [lv 0*"13"*"40400234"]`"It sure is, uu‐uu."`[\]
+msgwnd_non
+*d22259
+d `Of course, it's not like she could actually make a stuffed animal drink soda.`[\]
+*d22260
+d `She just put the can to Sakutaro's mouth and pretended to tilt it.`[\]
+*d22261
+d `But it was great fun for Maria to share the taste of this weird drink that she had gotten for free with Sakutaro...`[\]
+*d22262
+d `There was a huge moon in the sky.`[\]
+*d22263
+d `At times, that moon had been clouded by tears when Rosa had stayed over at work,`[@]` and Maria had thrown a tantrum and been scolded by her mother.`[\]
+*d22264
+d `But this moon was very warm, and it seemed to watch over the two of them as they enjoyed their trip home by themselves...`[\]
+*d22265
+d `Maria and Sakutaro.`[@]` ......Ange watched the two of them go from behind.`[\]
+textoff
+waits 167
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+lss s0_23,"enj","c11_komaru1" ;1
+aspt2 xpos,s0_23,370
+flush 22
+msgwnd_enj
+*d22266
+d [lv 0*"11"*"42000191"]`"........................"`[\]
+msgwnd_non
+*d22267
+d `What a...heartwarming sight.`[\]
+*d22268
+d `The sight of Maria onee‐chan and Sakutaro walking away together...`[@]`made it very difficult to remember the several occasions on which she had spent long nights crying because her mother hadn't come home...`[\]
+*d22269
+d `......I couldn't admit this to Maria onee‐chan,`[@]` ...but if I had been in the same position, even if I had given that stuffed animal the name Sakutarou,`[@]` ...it wouldn't have been anything more or less than a stuffed animal.`[\]
+textoff
+waits 167
+csp_slot s0_23
+csp_slot s0_21
+csp_slot s0_22
+flush 22
+*d22270
+d `Anyone can make a relationship which only distracts you from your loneliness.`[\]
+*d22271
+d `But Maria onee‐chan was different.`[@]`{n}Sakutaro wasn't a stuffed animal or a toy.`[\]
+*d22272
+d `......He was a real friend, and far from just distracting Maria from her loneliness,`[@]` he changed the nights without her mother into a fun time where they could play all by themselves...`[\]
+textoff
+waits 167
+lbg s0_3,"sakutaro1a"
+flush 2
+*d22273
+d `Was it because Sakutarou was a special stuffed animal?`[@]`{n}Because her mother had made it herself?`[@]`{n}Because it was very, very cute?`[\]
+*d22274
+d `......Probably...not.`[\]
+*d22275
+d `If there is a secret here, it doesn't lie within Sakutarou.`[@]`{n}...I think it probably lies within Maria onee‐chan.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 2
+vol_mix_fade 3000
+vol_bgm -1,3000
+wait 3000
+textoff
+waits 167
+lbg s0_3,"schr_o2a"
+textoff
+waits 167
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+lss s0_23,"enj","c11_komaru1" ;1
+aspt2 xpos,s0_23,370
+flush 24
+bgmplay 90,71,0
+msgwnd_enj
+*d22276
+d [lv 0*"11"*"42000192"]`".........Is this the power of magic you were talking about, Maria onee‐chan...?"`[\]
+lss s0_25,"mar","a22_warai1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_mar
+*d22277
+d [lv 0*"13"*"40400235"]`"Uu.`[@][lv 0*"13"*"40400236"]` To know magic is to notice a lot of friends right beside you who you never noticed before.`[@][lv 0*"13"*"40400237"]` It's as fun as having a bunch of new toy shops pop up all over the neighborhood!"`[\]
+msgwnd_non
+*d22278
+d `......If I, too, locked up in an academy without a single friend,`[@]` ...had the same kind of power as Maria onee‐chan, I wonder if I could make my days just a bit richer.`[\]
+*d22279
+d `I wonder if I would become able to honestly shed tears on the nights I feel like crying—and crack a smile when the nights are gray.`[\]
+lss s0_25,"mar","a22_warai2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_mar
+*d22280
+d [lv 0*"13"*"40400238"]`"Yep.`[@][lv 0*"13"*"40400239"]` You could.`[@][lv 0*"13"*"40400240"]` You can, Ange.`[@][lv 0*"13"*"40400241"]` After all, you also have the qualifications to become a witch."`[\]
+lss s0_23,"enj","c11_defo2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_enj
+*d22281
+d [lv 0*"11"*"42000193"]`".........The qualifications...to become a witch."`[\]
+lss s0_25,"mar","a22_niyari1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_mar
+*d22282
+d [lv 0*"13"*"40400242"]`"I also have the qualifications to become a witch.`[@][lv 0*"13"*"40400243"]` So I still have a lot more studying and training to do."`[\]
+lss s0_25,"mar","a22_warai1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+*d22283
+d [lv 0*"13"*"40400244"]`"I know we'll become wonderful witches, flying in the sky on our brooms, and drawing rainbows with our wands, making candy fall from the sky.`[@][lv 0*"13"*"40400245"]` I know I can do it.`[@][lv 0*"13"*"40400246"]` And when I do, I'll show you too.`[@][lv 0*"13"*"40400247"]` It'll be like a scene from a wonderful dream."`[\]
+msgwnd_non
+*d22284
+d `Maria onee‐chan said that, making an absolute promise with her smile.`[\]
+*d22285
+d `......There's no way we can become {i:witches}.`[@]` But when I listen to her speak, I can believe that maybe...we really could.`[\]
+*d22286
+d `Because the fact is......that on this troubled night, when not a single flower of a smile could bloom, her magic had certainly given birth to a smile.`[\]
+lss s0_23,"enj","c11_komaru2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_enj
+*d22287
+d [lv 0*"11"*"42000194"]`"......I wonder if I can...`[|][lv 0*"11"*"42000195"]`.........become a witch."`[\]
+lss s0_25,"mar","a22_odoroki1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_mar
+*d22288
+d [lv 0*"13"*"40400248"]`"You can.`[@][lv 0*"13"*"40400249"]` ......You got a little bit older, so your soul is slightly bound by gravity.`[@][lv 0*"13"*"40400250"]` So training might be tougher than for me."`[\]
+lss s0_25,"mar","a22_warai1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+*d22289
+d [lv 0*"13"*"40400251"]`"But you definitely can.`[@][lv 0*"13"*"40400252"]` After all, you've already experienced a glimpse of magic."`[\]
+lss s0_23,"enj","c11_fuman2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_enj
+*d22290
+d [lv 0*"11"*"42000196"]`"I have?`[@][lv 0*"11"*"42000197"]` ......Magic...?"`[\]
+lss s0_25,"mar","a22_warai2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_mar
+*d22291
+d [lv 0*"13"*"40400253"]`"Yep.`[@][lv 0*"13"*"40400254"]` Come on, look, I'm not in this world anymore, but you've summoned me, and you're talking with me."`[\]
+lss s0_23,"enj","c11_komaru2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_enj
+*d22292
+d [lv 0*"11"*"42000198"]`".........This is...magic...?"`[\]
+lss s0_25,"mar","a22_warai1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_mar
+*d22293
+d [lv 0*"13"*"40400255"]`"Yep.`[@][lv 0*"13"*"40400256"]` You've filled the fragment of my soul that I left in the diary with magic, keeping me revived."`[\]
+*d22294
+d [lv 0*"13"*"40400257"]`"Didn't I just say it?`[@][lv 0*"13"*"40400258"]` You're able to reunite with me, and have a conversation, and show a smile every once in a while, so you must have some magical talent, Ange.`[@][lv 0*"13"*"40400259"]` Maria onee‐chan guarantees it.`[@][lv 0*"13"*"40400260"]` Uu!"`[\]
+lss s0_23,"enj","c11_komaru2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_enj
+*d22295
+d [lv 0*"11"*"42000199"]`"...You told me just now, Onee‐chan.`[@][lv 0*"11"*"42000200"]` That you're actually nearby all the time, even though I've been thinking that I can only see you when I open the diary."`[\]
+*d22296
+d [lv 0*"11"*"42000201"]`"......If I had more of the power of magic, I could see that,`[@][lv 0*"11"*"42000202"]` ...and, just like now, ......I could have a conversation with you...?`[@][lv 0*"11"*"42000203"]` Any time...?"`[\]
+lss s0_25,"mar","a22_warai2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_mar
+*d22297
+d [lv 0*"13"*"40400261"]`"Yep.`[@][lv 0*"13"*"40400262"]` We can talk any time.`[@][lv 0*"13"*"40400263"]` I'm always by your side to say good morning, and I'm even there during class.`[@][lv 0*"13"*"40400264"]` Let's talk together during boring classes to take your mind off things."`[\]
+*d22298
+d [lv 0*"13"*"40400265"]`"I can also be someone to talk to during meals, so let's always be together like this during lunch break."`[\]
+lss s0_25,"mar","a11_niyari1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+*d22299
+d [lv 0*"13"*"40400266"]`"I'm with you after school too, and of course, I'm always by your side even when you return to the dormitory.`[@][lv 0*"13"*"40400267"]` ...It's just that {i:you never look at me except when you open the diary}."`[\]
+lss s0_23,"enj","c11_komaru1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_enj
+*d22300
+d [lv 0*"11"*"42000204"]`"............Even if I close the diary,`[|][lv 0*"11"*"42000205"]` ...you'll be...`[|][lv 0*"11"*"42000206"]`by my side, right?"`[\]
+lss s0_25,"mar","a22_warai1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_mar
+*d22301
+d [lv 0*"13"*"40400268"]`"Yep.`[@][lv 0*"13"*"40400269"]` I'll be there.`[@][lv 0*"13"*"40400270"]` So if you try to {y:1:‘see’}{n:1:see} me and try to talk to me, I can definitely answer.`[@][lv 0*"13"*"40400271"]` ......If you look hard and try to talk."`[\]
+lss s0_23,"enj","c11_komaru2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_enj
+*d22302
+d [lv 0*"11"*"42000207"]`"............I'll...`[|][lv 0*"11"*"42000208"]`......give it a try."`[\]
+lss s0_25,"mar","a22_defo1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_mar
+*d22303
+d [lv 0*"13"*"40400272"]`"It won't be easy, you know?`[@][lv 0*"13"*"40400273"]` It's not going to go great right from the start, okay?"`[\]
+lss s0_23,"enj","c11_fuman2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_enj
+*d22304
+d2 [lv 0*"11"*"42000209"]`".........I understand.`[@][lv 0*"11"*"42000210"]` I'm sure it won't be easy.`[@][#][*][lv 0*"11"*"42000211"]` ......But I...`[|][lv 0*"11"*"42000212"]`......want to be like you, Maria onee‐chan........."`[\]
+wait_on_d 0
+lss s0_23,"enj","c11_nayamu1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_25,"mar","a11_niyari1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_mar
+*d22305
+d [lv 0*"13"*"40400274"]`"Uu.`[@][lv 0*"13"*"40400275"]` Okay.`[@][lv 0*"13"*"40400276"]` .........Then look at me closely.`[@][lv 0*"13"*"40400277"]` Look hard."`[\]
+lss s0_23,"enj","c11_defo1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_enj
+*d22306
+d [lv 0*"11"*"42000213"]`"......Yeah."`[\]
+lss s0_25,"mar","a22_defo1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_mar
+*d22307
+d [lv 0*"13"*"40400278"]`"Practice slowly closing your eyes and opening them again.`[@][lv 0*"13"*"40400279"]` ...Don't start shutting them for a long time right away.`[@][lv 0*"13"*"40400280"]` Burn me into your eyes, then try to blend that onto the inside of your eyelids..."`[\]
+lss s0_23,"enj","c11_nayamu1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_enj
+*d22308
+d [lv 0*"11"*"42000214"]`".........Yeah,`[|][lv 0*"11"*"42000215"]` ......I'm doing it."`[\]
+lss s0_25,"mar","a22_warai1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_mar
+*d22309
+d [lv 0*"13"*"40400281"]`"Once you can visualize me even with your eyes closed,`[@][lv 0*"13"*"40400282"]` .........without changing anything, slowly and softly close your eyes.`[@][lv 0*"13"*"40400283"]` .........Well?`[@][lv 0*"13"*"40400284"]` Still {y:1:‘see’}{n:1:see} me?"`[\]
+lss s0_23,"enj","c11_nayamu1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_enj
+*d22310
+d [lv 0*"11"*"42000216"]`"Y‐......yes.`[@][lv 0*"11"*"42000217"]` ...I think...I can probably {y:1:‘see’}{n:1:see} you..."`[\]
+lss s0_25,"mar","a11_niyari1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_mar
+*d22311
+d2 [lv 0*"13"*"40400285"]`"Okay, open your eyes again for a second.`[@][#][*][lv 0*"13"*"40400286"]` .........Time for the real thing.`[@][lv 0*"13"*"40400287"]` Calm your heart, and close the diary.`[@][lv 0*"13"*"40400288"]` ......When you do, I might disappear for a little while."`[\]
+wait_on_d 0
+lss s0_23,"enj","c11_defo1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+lss s0_25,"mar","a22_defo1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_25,"mar","a22_warai1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+*d22312
+d [lv 0*"13"*"40400289"]`"But calm your heart and don't rush.`[@][lv 0*"13"*"40400290"]` ......Then, try to blend me back from the inside of your eyelids, back into your eyes again.`[@][lv 0*"13"*"40400291"]` ...Slowly visualize me in the empty air.`[@][lv 0*"13"*"40400292"]` ......In the empty air...{y:1:‘see’}{n:1:see} me."`[\]
+lss s0_23,"enj","c11_nayamu1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_enj
+*d22313
+d2 [lv 0*"11"*"42000218"]`".....................`[@][lv 0*"11"*"42000219"]` ......Okay, I can do this.`[@][#][*][lv 0*"11"*"42000220"]` ............Right,`[|][lv 0*"11"*"42000221"]` .........I'm closing it,`[|][lv 0*"11"*"42000222"]` the diary."`[\]
+wait_on_d 0
+lss s0_23,"enj","c11_defo1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_25,"mar","a22_warai2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_mar
+*d22314
+d [lv 0*"13"*"40400293"]`"Uu."`[\]
+textoff
+waits 167
+csp_slot s0_21
+csp_slot s0_22
+csp_slot s0_25
+csp_slot s0_23
+lss s0_10,"enj","c11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 4
+msgwnd_non
+*d22315
+d `Slowly.........`[!w500]`...I closed the diary.`[\]
+meplay 1,5,50
+*d22316
+d `When I closed the diary, ......a gray reality filled with dull air unfolded.`[\]
+*d22317
+d `Of course, Maria onee‐chan's form disappeared.`[\]
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"black"
+flush 22
+*d22318
+d `......Give it all you've got, have courage.`[@]`{n}...Take the first step into the world of witches.`[\]
+*d22319
+d `I felt like Maria onee‐chan was cheering me on inside my heart.`[\]
+*d22320
+d `Cheering me on?`[@]` Really?`[@]`{n}Isn't that just what I'd like to imagine...?`[\]
+*d22321
+d `No, that's not it.`[@]`{n}I just convince myself that it is...and that's {i:why I cannot {y:1:‘see’}{n:1:see} her}.`[\]
+textoff
+waits 167
+lbg s0_3,"schr_o2a"
+flush 5
+*d22322
+d `Maria onee‐chan is always by my side.`[@]` And even now, she's definitely there, cheering me on to do my best...`[\]
+*d22323
+d `And I...can hear it.`[@]` So I mustn't ignore it like it's my imagination or the inner voice of my own heart......`[\]
+*d22324
+d `......Believe...`[!w500]`that Maria onee‐chan is there.`[\]
+textoff
+waits 167
+lbg s0_3,"sky_1a"
+flush 5
+*d22325
+d `I mustn't doubt.`[@]` ...I believe.`[@]`{n}Onee‐chan said she's always by my side.`[@]`{n}I must not doubt that...`[\]
+*d22326
+d `But as I faced that empty space, that empty back wall of the school building,`[@]` amidst those almost heartlessly boring rays of sunlight, calling out her name was so much easier said than done...`[\]
+*d22327
+d `The chains of common sense which had clung to me until today sneered at me, telling me that calling out to the empty air was ridiculous...`[\]
+*d22328
+d `It was almost like being told to take a step forward off the roof of a skyscraper overlooking a sea of lights.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+*d22329
+d `......Maria onee‐chan was telling me.`[@]`{n}......That it's alright, that I can do it.`[\]
+*d22330
+d `Stop thinking that you might fall, or that it would be foolish to take a step off a roof,`[@]` ......and free yourself from those chains of common sense...............`[\]
+textoff
+waits 167
+vol_bgm -1,3000
+wait 3000
+textoff
+waits 167
+lbg s0_3,"sky_1a"
+flush 22
+vol_me 1,70,3000
+wait 3000
+msgwnd_enj
+*d22331
+d [lv 0*"11"*"42000223"]`"...............whew.........`[@][lv 0*"11"*"42000224"]` .........haaah, ............`[@][lv 0*"11"*"42000225"]` .....................Yeah..."`[\]
+msgwnd_non
+*d22332
+d `I steadied my breathing.`[@]`{n}I concentrated my mind.`[\]
+*d22333
+d `Make the form of Maria onee‐chan you can see vividly on the inside of your eyelids...rise to the surface in the empty space before you.`[\]
+*d22334
+d `.........Understand magic,`[!w500]` ......and {y:1:‘see’}{n:1:see}...Onee‐chan......`[\]
+textoff
+waits 167
+meplay 2,17,0
+vol_me 1,100,5000
+vol_me 2,100,5000
+wait 5000
+wait 1000
+textoff
+waits 167
+lbg s0_3,"black"
+flush 1
+vol_mix_fade 1000
+wait 1000
+set_window_simple 80
+msgwnd_enj
+*d22335
+d [lv 0*"11"*"42000226"]`"............Maria...onee‐chan.........!"`[\]
+set_name_window_non
+seplay 1,69,71
+textoff
+waits 167
+lbg s0_3,"schr_o2a"
+flush 1
+*d22336
+d [lv 0*"99"*"stufa4004"]`"Huh?!`[|][lv 0*"99"*"stufa4005"]` Is someone there?!"`[\]
+*d22337
+d `Suddenly answered by the sound of rustling bushes and a wild cry, I came to my senses.`[\]
+*d22338
+d `Apparently I hadn't been the only one behind the school building.`[@]`{n}No, I'd been so immersed in the world of the diary that I hadn't noticed that someone else had come afterwards.`[\]
+*d22339
+d `I recognized a group of three beyond the bushes.`[@]`{n}...They were girls from my class.`[\]
+*d22340
+d `It felt as though they had come behind the school building to gossip about someone or talk in secret.`[\]
+*d22341
+d `I hurried out of that place.`[\]
+*d22342
+d `Because if it became known that I had been alone in a place like this, mumbling to myself, it would probably create more things for me to deal with...`[\]
+meplay 1,5,50
+textoff
+waits 167
+lbg s0_3,"sky_1a"
+flush 25
+*d22343
+d [lv 0*"99"*"stufb4003"]`"......She said that, right? She did say that?`[@][lv 0*"99"*"stufb4004"]` "Maria onee‐chan" or something?!"`[\]
+*d22344
+d [lv 0*"99"*"stufc4011"]`"Messed up... I think the nutcase is seeing ghosts or something."`[\]
+*d22345
+d [lv 0*"99"*"stufa4006"]`"Pfff...*giggle*giggle*giggle*giggle*!`[@][lv 0*"99"*"stufa4007"]` Ushiromiya‐san is so~ funny...!"`[\]
+textoff
+waits 167
+seplay 2,37,71
+wait 333
+seplay 3,37,90
+textoff
+waits 167
+lbg s0_3,"black"
+flush 23
+*d22346
+d `I could hear the shrill, loud laughter from behind.`[\]
+*d22347
+d `Irritated and feeling that Maria onee‐chan had been made fun of,`[@]` I left that place at a quick pace, and then a half‐run once I turned the corner.`[\]
+*d22348
+d `......And I might have made it to Onee‐chan's world with just a little more time......`[\]
+*d22349
+d `Frustrating, aggravating... Why does everyone get in my way...`[@]`{n}I've never gotten in their way, not even once......!`[\]
+*d22350
+d `I ran and ran, but it still felt as though I could hear their shrill laughs......`[\]
+textoff
+waits 167
+wait 2000
+break_glass
+wait 500
+lbg s0_29,"black"
+flush 10,500
+csp_slot s0_29
+wait 83
+ch_done flag_scenario_4_2

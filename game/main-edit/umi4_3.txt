@@ -1,0 +1,2386 @@
+*umi4_3
+;１２年後の未来
+log_reset
+mov $name_chapter_r_click,r_click_chapters_4_3
+mov $name_chapter_save, "4_03"
+new_chapter date_scenario_4_3,scenario_4_3
+gstc 210
+textoff
+waits 167
+vol_mix_fade 1000
+wait 1000
+seplay 1,29,70
+textoff
+waits 167
+lbg s0_3,"oct_1998"
+flush 80
+wait 4000
+meplay 1,29,70
+textoff
+waits 167
+lbg s0_3,"black"
+flush 42
+textoff
+waits 167
+lbg s0_3,"bui_o1a"
+flush 42
+vol_me 1,40,3000
+wait 3000
+textoff
+waits 167
+lbg s0_3,"white"
+flush 5
+wait 1000
+textoff
+waits 167
+lbg s0_3,"bui_r1d"
+flush 2
+bgmplay 1,0,0
+vol_bgm 70,2000
+vol_me 1,0,2000
+wait 2000
+vol_me 1,-1,1000
+textoff
+waits 167
+lbg s0_3,"bui_r1a"
+flush 6
+lss s0_10,"oko","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d22351
+d [lv 0*"21"*"44100001"]`"Rumor has it, Ange‐chan,`[@][lv 0*"21"*"44100002"]` that you jumped off the top of a building?"`[\]
+lss s0_8,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d22352
+d [lv 0*"11"*"42000227"]`"The groupies were getting annoying, so I thought I'd give them the slip."`[\]
+msgwnd_non
+*d22353
+d `Ange and an old gentleman wearing an expensive suit were alone in a massive, modern conference room.`[\]
+*d22354
+d `The conference room was equipped with all the latest equipment for presentations,`[@]` while keeping intact a refined and composed atmosphere;`[@]` that alone was enough to make abundantly clear the worth of the corporation that was its owner.`[\]
+*d22355
+d `However, Ange couldn't have cared less.`[\]
+*d22356
+d `Looking aloof from the world, she sat slovenly in one of the high‐class chairs for executives with salaries probably north of twenty million yen.`[\]
+lss s0_8,"enj","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d22357
+d [lv 0*"11"*"42000228"]`"And anyway, I knew they were remodeling on the lower floors and had a safety net, so."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 22
+msgwnd_non
+*d22358
+d `Ange dismissed it with an offhand comment, but in reality, it had been a {i:miracle} among miracles.`[\]
+*d22359
+d `She had shot through several layers of safety netting for the remodeling project,`[@]` been caught by a multi‐colored banner adorning the atrium, slid down and off it,`[@]` ...been softly caught by a final banner, landed on the ground without a scratch,`[@]` and then left that place at a brisk walk... It put Hong Kong movies to shame.`[\]
+textoff
+waits 167
+lbg s0_3,"bui_r1a"
+lss s0_8,"oko","a11_warai1" ;1
+aspt2 xpos,s0_8,-370
+flush 22
+*d22360
+d [lv 0*"21"*"44100003"]`"So you knew there was a net—it was still a 200‐meter‐tall skyscraper, y'know.`[@][lv 0*"21"*"44100004"]` If things hadn't gone according to plan, there'd be a real mess to deal with right now."`[\]
+lss s0_10,"enj","a11_defo2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d22361
+d2 [lv 0*"11"*"42000229"]`"......I figured that if I died, then that would be the end of that, more or less.`[@][#][*][lv 0*"11"*"42000230"]` Well, let's just say, I was testing my luck a bit.`[@][lv 0*"11"*"42000231"]` Put it down to the rashness of youth."`[\]
+wait_on_d 0
+lss s0_10,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+msgwnd_non
+*d22362
+d `Ange shrugged coldly, as though saying that she'd had enough of that topic.`[\]
+*d22363
+d `At this, the old gentleman, who was looking at the world below through the window, burst into laughter.`[\]
+lss s0_8,"oko","a11_akuwarai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d22364
+d2 [lv 0*"21"*"44100005"]`"So you were testing your luck...!`[@][#][*][lv 0*"21"*"44100006"]` My, my, you truly are Kinzo‐san's grandchild.`[@][lv 0*"21"*"44100007"]` The nerve to entrust yourself to chance, to put your life in the hands of the gods and think nothing of it.`[@][lv 0*"21"*"44100008"]` ...The Chairman was also a person who could stake her life on a bet like it was nothing—wonder if this is all part of the Ushiromiya blood."`[\]
+wait_on_d 0
+lss s0_8,"oko","a12_warai2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+*d22365
+d [lv 0*"21"*"44100009"]`"......You really are going to be something big in the future.`[@][lv 0*"21"*"44100010"]` Take my advice.`[@][lv 0*"21"*"44100011"]` Why not put this running away from home act behind you and return to the Sumadera family?"`[\]
+lss s0_10,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d22366
+d [lv 0*"11"*"42000232"]`"I heard that Mom had a bad relationship with her family.`[@][lv 0*"11"*"42000233"]` I don't want to go to the house of people I first met at a funeral."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 25
+msgwnd_non
+*d22367
+d `The Sumadera ({p:0:須磨寺}) family is my mom's family.`[\]
+*d22368
+d `It's a bit of an old family from Kyoto, and unbelievably strict in a way you could never have imagined from the frank way Mom acted.`[\]
+*d22369
+d `The only person in the Sumadera family I had been on good terms with was Grandpa, who was living separately under the guise of retirement.`[\]
+*d22370
+d `Mom, too, kept up contact only with Grandpa,`[@]` and had nothing to do with the rest of the family at all, nor they with her, to an ugly degree.`[\]
+*d22371
+d `Even for me, Grandpa's house was the only part of the Sumadera family I ever went to visit.`[\]
+textoff
+waits 167
+lbg s0_3,"bui_r1d"
+flush 22
+*d22372
+d `Being young, I hadn't really understood it at the time,`[@]` but I hear that Grandpa, as a man who married into his wife's family, was in an extremely weak position, and his relationship with Grandma was also bad.`[\]
+*d22373
+d `...In fact, maybe you could even have said that he was hated by Grandma, and confined to the house.`[\]
+*d22374
+d `It isn't hard to imagine that because she had a soft spot for Grandpa alone,`[@]` Mom was probably also hated by the Sumadera family.`[\]
+*d22375
+d `As her daughter, I was probably also hated quite a bit.`[\]
+*d22376
+d `And yet, they had appeared for the first time at my parents' funeral,`[@]` shamelessly going on about how I'd grown, like they could actually act like family after all this time...`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+*d22377
+d `After Aunt Eva died, all the wealth of the Ushiromiya family was inherited by me.`[\]
+*d22378
+d `If they weren't after that, there's no way they'd have been able to say such disgusting words.`[\]
+textoff
+waits 167
+lbg s0_3,"bui_r1a"
+lss s0_8,"oko","a11_warai1" ;1
+aspt2 xpos,s0_8,-370
+flush 6
+*d22379
+d [lv 0*"21"*"44100012"]`"......Well, look, you're all alone now, it's not like I don't get why you'd just quit caring."`[\]
+lss s0_10,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d22380
+d [lv 0*"11"*"42000234"]`"It's not not caring.`[@][lv 0*"11"*"42000235"]` Annoying Aunt Eva has kicked the bucket at last, and I'm finally stretching my legs and taking a relaxing stroll, that's all.`[@][lv 0*"11"*"42000236"]` ......Everyone else is just making too big a deal out of it."`[\]
+msgwnd_non
+*d22381
+d `They're all just after the vast Ushiromiya wealth I'm shouldered with, anyway.`[\]
+*d22382
+d `They must think if they become my guardians, they'll be able to do whatever they please with that wealth.`[\]
+*d22383
+d `Just how many people have tried to act like a substitute parent and get close to me?`[\]
+lss s0_8,"oko","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d22384
+d [lv 0*"21"*"44100013"]`"Ange‐chan, you know, if life's treating you rough, you can come talk to me anytime if you want some advice.`[@][lv 0*"21"*"44100014"]` I think of you as my true grandchild."`[\]
+lss s0_10,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d22385
+d2 [lv 0*"11"*"42000237"]`"...........................haah.`[@][lv 0*"11"*"42000238"]` ...Let's make that a no‐thank‐you for now.`[@][#][*][lv 0*"11"*"42000239"]` ...More importantly, let's get back on topic."`[\]
+wait_on_d 0
+lss s0_10,"enj","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+csp_slot s0_8
+csp_slot s0_10
+flush 10,167
+lss s0_9,"oko","a11_warai2" ;1
+flush 10,167
+msgwnd_non
+*d22386
+d [lv 0*"21"*"44100015"]`"Ange‐chan.`[@][lv 0*"21"*"44100016"]` Ask me as much as you want, but I'm hiding nothing.`[@][lv 0*"21"*"44100017"]` The Chairman was the only one to survive Rokkenjima that day.`[@][lv 0*"21"*"44100018"]` And she gave up the ghost without saying a thing."`[\]
+lss s0_9,"oko","a11_warai1" ;1
+flush 10,167
+*d22387
+d [lv 0*"21"*"44100019"]`"I myself understand nothing.`[@][lv 0*"21"*"44100020"]` We're all in the dark, as they say."`[\]
+*d22388
+d `The old gentleman was one of a number of corporate heavyweights who, after Eva had passed away, had been entrusted with the business group she had built up.`[\]
+*d22389
+d `The one he referred to as "the Chairman", technically the former chairwoman, was Ushiromiya Eva.`[\]
+*d22390
+d `His company had once had a friendly relationship with Hideyoshi's company,`[@]` and he had been a close friend of both Hideyoshi and Eva.`[\]
+*d22391
+d `For that reason, after Eva lost Hideyoshi, he had become the only person to whom she could reveal her true thoughts.`[\]
+*d22392
+d `When Eva's heart had been torn by the loss of her family, and she had taken it out on Ange,`[@]` he had also acted as a buffer between the two, so although Ange didn't trust him, she too found him an easy person to pay a visit...`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 25
+*d22393
+d [lv 0*"21"*"44100021"]`"That crime,`[|][lv 0*"21"*"44100022"]` ...no, accident, I guess.`[@][lv 0*"21"*"44100023"]` If I call it a crime, I'll get in trouble.`[@][lv 0*"21"*"44100024"]` ...Sure, I had my questions, just like the rest of the public and the talk shows."`[\]
+msgwnd_enj
+*d22394
+d [lv 0*"11"*"42000240"]`"......At the time of the accident, why was Aunt Eva in a place two kilometers away from the mansion, all alone?`[@][lv 0*"11"*"42000241"]` And on the night of a storm."`[\]
+textoff
+waits 167
+lbg s0_1,"mlib_1a_bg"
+lbg s0_3,"mlib_1a"
+color_mod2 s0_1,#ffffff
+color_mod2 s0_3,#ffffff
+lss s0_9,"kin","a11_defo1" ;1
+color_mod2 s0_9,#ffffff
+flush 2
+msgwnd_non
+*d22395
+d [lv 0*"21"*"44100025"]`"At the time, Kinzo‐san was unsure as to who he would choose to be the next successor.`[@][lv 0*"21"*"44100026"]` ......Publicly it was to be the eldest son, Krauss‐san, but he wasn't well trusted by Kinzo‐san."`[\]
+textoff
+waits 167
+csp_slot s0_9
+csp_slot s0_1
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_3,"bui_r1a"
+lss s0_9,"enj","a11_defo1" ;1
+flush 22
+lss s0_9,"enj","a11_nayamu1" ;1
+flush 10,167
+msgwnd_enj
+*d22396
+d [lv 0*"11"*"42000242"]`"......So, to fairly determine a successor from among the four siblings, he made this game‐like test called the riddle of the epitaph...?"`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"bui_r1a"
+lss s0_10,"oko","a11_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 23
+msgwnd_non
+*d22397
+d [lv 0*"21"*"44100027"]`"Only officially speaking.`[@][lv 0*"21"*"44100028"]` ......Kinzo‐san probably planned to make Eva‐san the successor to the head from the beginning."`[\]
+*d22398
+d [lv 0*"21"*"44100029"]`"He wanted to leave the family to Eva‐san, who unlike Krauss‐san was extremely diligent and brilliant, even at the cost of taking back his own rule that the eldest son would be the successor."`[\]
+lss s0_10,"oko","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d22399
+d [lv 0*"21"*"44100030"]`"...The new rule about giving the family headship to the one who solved the epitaph...`[@][lv 0*"21"*"44100031"]`was probably nothing more than a farce so that he could snatch the position of successor away from Krauss‐san."`[\]
+lss s0_8,"enj","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d22400
+d [lv 0*"11"*"42000243"]`"What do you mean by...farce?"`[\]
+lss s0_10,"oko","a11_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_non
+*d22401
+d [lv 0*"21"*"44100032"]`"There was no need for anyone to solve that epitaph.`[@][lv 0*"21"*"44100033"]` Once it had been displayed for an appropriate amount of time, Kinzo‐san would just call Eva‐san, who he truly wanted to succeed him,`[@][lv 0*"21"*"44100034"]` {i:and give her the answer}.`[@][lv 0*"21"*"44100035"]` In other words, that itself was the proof of the succession to the headship."`[\]
+lss s0_8,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d22402
+d [lv 0*"11"*"42000244"]`"..................There hasn't been any mention of this on the talk shows, has there?"`[\]
+lss s0_10,"oko","a11_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_non
+*d22403
+d [lv 0*"21"*"44100036"]`"Well, that's because if you start going on about the succession of the head, it's gonna strengthen the murder theory.`[@][lv 0*"21"*"44100037"]` I'm no fool myself.`[@][lv 0*"21"*"44100038"]` I'm not gonna go out of my way to say things that could invite misunderstandings."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 2
+*d22404
+d `The way he told it went like this:`[\]
+textoff
+waits 167
+lbg s0_1,"mlib_1c_bg"
+lbg s0_3,"mlib_1c"
+color_mod2 s0_1,#ffffff
+color_mod2 s0_3,#ffffff
+lss s0_10,"kin","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+color_mod2 s0_10,#ffffff
+flush 22
+*d22405
+d `At the time, the head of the Ushiromiya family, Kinzo, diagnosed with little time left to live, was troubled over the problem of who was to succeed him.`[\]
+*d22406
+d `Normally, the successor would be fixed as the oldest son, Krauss, as laid out by Kinzo himself.`[\]
+*d22407
+d `...But in his later years, Kinzo began to think that Eva was more fitting to be head.`[\]
+*d22408
+d `However, Kinzo, stubborn even to himself and obstructed by the title of successor that he had given to Krauss,`[@]` searched for an {i:official stance} by which he could skip over Krauss and select Eva as his successor.`[\]
+textoff
+waits 167
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_3,"mhal_2c"
+color_mod2 s0_3,#ffffff
+flush 2
+*d22409
+d `That official stance was the riddle of the epitaph.`[\]
+*d22410
+d `The primary successor was still Krauss,`[@]` but there was a new rule, saying that if someone appeared who could solve the riddle, they would be chosen as the successor to the head.`[\]
+*d22411
+d `And on the day of what would probably be his final family conference, Kinzo had told Eva the answer to that riddle himself.`[\]
+*d22412
+d `......In short, it was the same as proclaiming that Eva was the successor.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_3,"bui_r1a"
+lss s0_9,"oko","a11_warai2" ;1
+flush 22
+*d22413
+d [lv 0*"21"*"44100039"]`"On that day, Eva‐san was summoned by Kinzo‐san, and that was revealed to her.`[@][lv 0*"21"*"44100040"]` And so that she could succeed the head, he called Eva‐san to the hidden mansion Kuwadorian, known only to the head."`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"bui_r1a"
+lss s0_10,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_10,370
+flush 24
+msgwnd_enj
+*d22414
+d [lv 0*"11"*"42000245"]`".........And the claim is that she escaped harm in that accident because she was waiting at the hidden mansion just beforehand?`[@][lv 0*"11"*"42000246"]` Maybe Aunt Eva just killed everyone and made it {i:look} like an accident so that she could steal all of the wealth,`[@][lv 0*"11"*"42000247"]` and {i:that's} why she's the only one who escaped unharmed."`[\]
+lss s0_8,"oko","a11_warai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_non
+*d22415
+d2 [lv 0*"21"*"44100041"]`"Well, that's what the papers are shouting about.`[@][#][*][lv 0*"21"*"44100042"]` However, I believe Eva‐san.`[@][lv 0*"21"*"44100043"]` ......I think there are several points that make her worthy of trust."`[\]
+wait_on_d 0
+lss s0_8,"oko","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_10,"enj","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d22416
+d [lv 0*"11"*"42000248"]`"For example...?"`[\]
+lss s0_8,"oko","a11_warai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_non
+*d22417
+d [lv 0*"21"*"44100044"]`"That ring of the Ushiromiya family head, which is on your finger as we speak.`[@][lv 0*"21"*"44100045"]` That ring is the only one of its kind in the world, which Kinzo‐san had specially made.`[@][lv 0*"21"*"44100046"]` And even the artisan who made it acknowledges that the object on your finger is, without a doubt, that ring."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_3,"m_o1af"
+color_mod2 s0_3,#ffffff
+flush 22
+*d22418
+d `The Ushiromiya family...Head's Ring.`[\]
+*d22419
+d `That ring, with the heft of gold and the one‐winged crest on it,`[@]` had diamonds adorning the pedestal, and possessed both stateliness and a sense of gaudy extravagance.`[\]
+*d22420
+d `Kinzo had worn that on his finger, never removing it even for a moment.`[\]
+*d22421
+d `The fact that Eva had it was apparently proof that Kinzo had acknowledged her as the successor to the head.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_3,"bui_r1a"
+lss s0_10,"oko","a11_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 26
+*d22422
+d [lv 0*"21"*"44100047"]`"Because Eva‐san did indeed have that ring,`[@][lv 0*"21"*"44100048"]` and, if you take into consideration that Eva‐san was indeed more capable, and that Krauss‐san was known to have made a fool of himself numerous times in the business setting,`[@][lv 0*"21"*"44100049"]` I cannot imagine that Eva‐san's story is completely made up."`[\]
+lss s0_8,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d22423
+d [lv 0*"11"*"42000249"]`"............Although there's also the possibility that she murdered Grandfather in order to steal that ring.`[@][lv 0*"11"*"42000250"]` And then, using some kind of trick, she massacred everyone and made it look like an accident."`[\]
+lss s0_10,"oko","a11_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_non
+*d22424
+d [lv 0*"21"*"44100050"]`"Ah, yes.`[@][lv 0*"21"*"44100051"]` It seems the papers are accusing her of massacring her entire family with the aim of keeping all the wealth to herself."`[\]
+lss s0_10,"oko","a11_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d22425
+d [lv 0*"21"*"44100052"]`"It is true that Eva‐san was the kind of person to take drastic action when it came to the crunch.`[@][lv 0*"21"*"44100053"]` It could be possible......that she committed the only murders she planned on committing in her life to grab this chance to make the Ushiromiya wealth all her own.`[@][lv 0*"21"*"44100054"]` ............But you know, I don't think that's true."`[\]
+lss s0_8,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d22426
+d [lv 0*"11"*"42000251"]`"What's the second point making her worthy of that trust?"`[\]
+lss s0_10,"oko","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_non
+*d22427
+d [lv 0*"21"*"44100055"]`"Eva‐san's family.`[@][lv 0*"21"*"44100056"]` Hideyoshi‐san and George‐kun.`[@][lv 0*"21"*"44100057"]` ......You might find this difficult to believe, Ange‐chan, but Eva‐san was a person who treasured her family greatly."`[\]
+*d22428
+d `......He was right; I found it very hard to believe that, or admit it.`[@]`{n}But deep inside I knew.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 22
+lss s0_10,"eva","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+color_mod2 s0_10,#ffffff
+flush 2
+*d22429
+d `Aunt Eva really had been a person who treasured her family greatly.`[\]
+*d22430
+d `The root of her twisted personality had been nothing more than the sadness of losing her beloved husband and son.`[\]
+*d22431
+d `Having been used as an outlet for all that emotion, I had no feelings of sympathy for her at all,`[@]` ......but even so, it's not like I couldn't imagine that losing her entire family had dealt her an incredible shock sufficient to transform her personality.`[\]
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"black"
+flush 2
+textoff
+waits 167
+lbg s0_3,"bui_r1a"
+lss s0_10,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 26
+msgwnd_enj
+*d22432
+d [lv 0*"11"*"42000252"]`"......You're saying that there's no way Aunt Eva, who loved her family, would have abandoned her husband and her son?"`[\]
+lss s0_8,"oko","a11_warai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_non
+*d22433
+d [lv 0*"21"*"44100058"]`"That's right.`[@][lv 0*"21"*"44100059"]` If Eva‐san really had been the culprit and massacred her entire family, making it look like an accident,`[@][lv 0*"21"*"44100060"]` ......her husband and her son would definitely be alive right now."`[\]
+lss s0_8,"oko","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d22434
+d [lv 0*"21"*"44100061"]`"She'd have tried to wriggle out of it by saying her family was the only one in the hidden mansion by coincidence.`[@][lv 0*"21"*"44100062"]` If Hideyoshi‐san and George‐kun had both been alright, even I would have probably suspected Eva‐san."`[\]
+lss s0_8,"oko","a11_warai2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d22435
+d [lv 0*"21"*"44100063"]`"......It's impossible for me to believe that all that wailing Eva‐san did at Hideyoshi‐san's funeral was an act."`[\]
+lss s0_10,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d22436
+d [lv 0*"11"*"42000253"]`".........Both of those are circumstantial evidence.`[@][lv 0*"11"*"42000254"]` That isn't the same as physically showing Aunt Eva's innocence."`[\]
+lss s0_8,"oko","a11_warai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_non
+*d22437
+d [lv 0*"21"*"44100064"]`"Hahahaha.`[@][lv 0*"21"*"44100065"]` That's just unconstructive.`[@][lv 0*"21"*"44100066"]` Eva‐san was the only one left alive.`[@][lv 0*"21"*"44100067"]` And she says that is the truth."`[\]
+lss s0_10,"enj","a11_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d22438
+d [lv 0*"11"*"42000255"]`"But no one can prove her innocence."`[\]
+lss s0_8,"oko","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_non
+*d22439
+d [lv 0*"21"*"44100068"]`"Yes, that's right.`[@][lv 0*"21"*"44100069"]` And no one can prove that she committed a crime, either."`[\]
+lss s0_10,"enj","b21_fuman2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d22440
+d [lv 0*"11"*"42000256"]`".............................."`[\]
+csp_slot s0_8
+csp_slot s0_10
+flush 10,167
+lss s0_9,"oko","a11_warai2" ;1
+flush 10,167
+msgwnd_non
+*d22441
+d2 [lv 0*"21"*"44100070"]`"And the final point making her worthy of trust—is the police.`[@][#][*][lv 0*"21"*"44100071"]` After all, it was one hell of an incident.`[@][lv 0*"21"*"44100072"]` Pushed forward by a public in an uproar over the murder theory, the police must have investigated her thoroughly."`[\]
+wait_on_d 0
+lss s0_9,"oko","a11_warai1" ;1
+flush 10,167
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"bui_r1d"
+flush 26
+*d22442
+d `It's easy to feel something unnatural about the claim that Eva had escaped the accident by coincidence,`[@]` because she and she alone had escaped to a hidden mansion.`[\]
+*d22443
+d `Furthermore, at the time, Hideyoshi's company had been right in the middle of a takeover struggle, and had wanted a large sum of cash in order to buy off the big stockholders.`[\]
+*d22444
+d `It shouldn't be too hard to find a motive there.`[\]
+*d22445
+d `But as a matter of fact, en route to the family conference, Eva's person had been perfectly clean.`[\]
+*d22446
+d `Nothing unnatural was found on her that could have been used to brutally murder her family and make it look like an accident.`[\]
+*d22447
+d `The servants who escaped harm by being off‐duty on that day also stated that they hadn't seen anything strange regarding anyone related to the event, Eva included.`[\]
+*d22448
+d `Putting all of that together,`[@]` it could only be concluded that Ushiromiya Eva had headed to Rokkenjima for a normal family conference, no different from usual,`[@]` and became involved in an accident...`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_3,"bui_r1a"
+lss s0_9,"oko","a11_warai2" ;1
+flush 26
+*d22449
+d2 [lv 0*"21"*"44100073"]`"The police placed her under all that scrutiny, and they still couldn't find evidence that it was a crime.`[@][#][*][lv 0*"21"*"44100074"]` ......That was the police's conclusion.`[@][lv 0*"21"*"44100075"]` Doesn't that put an end to Rokkenjimagate?"`[\]
+wait_on_d 0
+lss s0_9,"oko","a11_warai1" ;1
+flush 10,167
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"bui_r1a"
+lss s0_8,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_8,-370
+flush 23
+msgwnd_enj
+*d22450
+d [lv 0*"11"*"42000257"]`"......That just means that the police`[|][lv 0*"11"*"42000258"]` {i:couldn't find} the evidence of her crimes, doesn't it?"`[\]
+lss s0_10,"oko","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_non
+*d22451
+d [lv 0*"21"*"44100076"]`"Oh, come on, you could go on forever that way.`[@][lv 0*"21"*"44100077"]` It becomes a Devil's Proof.`[@][lv 0*"21"*"44100078"]` To expose a crime, you just need to find the evidence.`[@][lv 0*"21"*"44100079"]` But what can you find to show someone's innocence?`[@][lv 0*"21"*"44100080"]` It's impossible to prove a negative fact."`[\]
+lss s0_8,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d22452
+d [lv 0*"11"*"42000259"]`"......Did Aunt Eva commit a crime, or did she not...`[@][lv 0*"11"*"42000260"]` Because we can't find the data to decide that, the truth will remain a mystery, in other words."`[\]
+lss s0_10,"oko","a11_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_non
+*d22453
+d [lv 0*"21"*"44100081"]`".........Well,`[@][lv 0*"21"*"44100082"]` to put it in the words you're hoping for, that's how it is.`[@][lv 0*"21"*"44100083"]` Even Eva‐san couldn't conclusively prove her own innocence."`[\]
+lss s0_10,"oko","a11_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d22454
+d [lv 0*"21"*"44100084"]`"An unfortunate accident occurred on that island.`[@][lv 0*"21"*"44100085"]` And Eva‐san survived by chance.`[@][lv 0*"21"*"44100086"]` And that's literally all we know!"`[\]
+*d22455
+d [lv 0*"21"*"44100087"]`"In short, as Eva‐san is the only survivor, it all comes down to whether you can believe her story or not."`[\]
+lss s0_10,"oko","a11_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d22456
+d [lv 0*"21"*"44100088"]`"......I believed.`[@][lv 0*"21"*"44100089"]` What she told me about the ring, and her admirable love for her family.`[@][lv 0*"21"*"44100090"]` And the tears she showed at the funeral.`[@][lv 0*"21"*"44100091"]` Taking all of that into consideration, I decided I would believe her story."`[\]
+lss s0_8,"enj","a11_fuman1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d22457
+d [lv 0*"11"*"42000261"]`"......But I don't believe it.`[@][lv 0*"11"*"42000262"]` If she wanted to steal the ring, there were probably many ways for her to do so, and no one knows whether her relationship with her family really was good.`[@][lv 0*"11"*"42000263"]` It's impossible to prove that the tears at the funeral were the real thing."`[\]
+lss s0_8,"enj","a31_komaru5" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+meplay 1,29,50
+*d22458
+d [lv 0*"11"*"42000264"]`"......Anyway, in the first place, I {i:hate} Aunt Eva.`[@][lv 0*"11"*"42000265"]` So that doesn't exactly inspire me to believe her story."`[\]
+textoff
+waits 167
+vol_bgm -1,2000
+wait 2000
+lss s0_10,"oko","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_non
+*d22459
+d [lv 0*"21"*"44100092"]`"Hahahaha...`[@][lv 0*"21"*"44100093"]` How does one view the truth of the incident?`[@][lv 0*"21"*"44100094"]` You and I are at loggerheads on the issue.`[@][lv 0*"21"*"44100095"]` Even though the information we're given is exactly the same, we develop completely different opinions."`[\]
+lss s0_10,"oko","a12_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d22460
+d [lv 0*"21"*"44100096"]`".........This kind of thing happens all the time in politics and economics.`[@][lv 0*"21"*"44100097"]` No matter the enterprise, it will always result in a division of opinions.`[@][lv 0*"21"*"44100098"]` Do you know why?"`[\]
+lss s0_8,"enj","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d22461
+d [lv 0*"11"*"42000266"]`".........No?"`[\]
+textoff
+waits 167
+vol_mix_fade 1000
+wait 1000
+bgmplay 49,71,0
+lss s0_10,"oko","a12_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_non
+*d22462
+d [lv 0*"21"*"44100099"]`"It's about whether you have love.`[@][lv 0*"21"*"44100100"]` ......Depending on whether you feel love for the other side, the way you see things is completely different."`[\]
+*d22463
+d [lv 0*"21"*"44100101"]`"If a person you like gives to the poor, you can respect them, right?`[@][lv 0*"21"*"44100102"]` But if someone you hate starts donating, you fiercely protest that it's a publicity stunt or they're handing out favors."`[\]
+lss s0_10,"oko","a12_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d22464
+d [lv 0*"21"*"44100103"]`"No matter what they do or don't do, you thank them if you have love and criticize them if you don't.`[@][lv 0*"21"*"44100104"]` That's how the world works."`[\]
+lss s0_8,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d22465
+d [lv 0*"11"*"42000267"]`"Can you believe Aunt Eva or not...`[@][lv 0*"11"*"42000268"]` ......You're saying that's the only difference?"`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_3,"bui_r1d"
+flush 26
+msgwnd_non
+*d22466
+d [lv 0*"21"*"44100105"]`"Those who suspect her will probably take anything she does or doesn't do and view it as truly unnatural.`[@][lv 0*"21"*"44100106"]` And it works in reverse.`[@][lv 0*"21"*"44100107"]` ......As for me,`[@][lv 0*"21"*"44100108"]` I think that perhaps, except in extreme cases, truth in this world doesn't exist."`[\]
+*d22467
+d [lv 0*"21"*"44100109"]`"No, even {i:if}...`[@][lv 0*"21"*"44100110"]`even if truth {i:does} exist, whether you believe it or not is determined by whether or not you have love."`[\]
+*d22468
+d [lv 0*"21"*"44100111"]`"......Can you really call truth "truth" if it isn't absolute?`[@][lv 0*"21"*"44100112"]` Even if Eva‐san had been able to demonstrate a physical alibi, would you have been able to believe it?"`[\]
+msgwnd_enj
+*d22469
+d [lv 0*"11"*"42000269"]`"..........................."`[\]
+msgwnd_non
+*d22470
+d `He has a point.`[\]
+*d22471
+d `...I hate Aunt Eva, so I'll probably deny all information beneficial to her,`[@]` and maliciously interpret all neutral information.`[\]
+*d22472
+d `......In other words, inside myself, the truth is already decided.`[@]` And yet I'm still unsatisfied, still searching for the "truth"—so what exactly is this "truth" I'm searching for...?`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 2
+textoff
+waits 167
+lbg s0_3,"bui_r1a"
+lss s0_10,"oko","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 26
+*d22473
+d [lv 0*"21"*"44100113"]`"That's how it is.`[@][lv 0*"21"*"44100114"]` So no matter what you hear from me, as long as you still suspect Eva‐san,`[@][lv 0*"21"*"44100115"]` it won't change anything for you, not after all this time."`[\]
+*d22474
+d [lv 0*"21"*"44100116"]`"Even if you got your hands on a piece of hitherto unknown information, I still don't think you'd be able to reach the truth, not the way you are now, at least."`[\]
+lss s0_8,"enj","a11_defo2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d22475
+d [lv 0*"11"*"42000270"]`".........So I'm incapable...`[|][lv 0*"11"*"42000271"]`of reaching the truth?"`[\]
+lss s0_10,"oko","a11_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_non
+*d22476
+d [lv 0*"21"*"44100117"]`"Well, yeah.`[@][lv 0*"21"*"44100118"]` No matter what kind of new information or proof you find, Ange‐chan, you aren't gonna change your stance that Eva‐san is the culprit, right?"`[\]
+lss s0_10,"oko","a11_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d22477
+d [lv 0*"21"*"44100119"]`"Then it doesn't matter what else you look into, it isn't gonna mean anything, is it?`[@][lv 0*"21"*"44100120"]` {i:The truth inside of you is already decided}."`[\]
+lss s0_8,"enj","a21_komaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d22478
+d [lv 0*"11"*"42000272"]`"..........................."`[\]
+lss s0_10,"oko","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_non
+*d22479
+d [lv 0*"21"*"44100121"]`"But if...`[@][lv 0*"21"*"44100122"]`if you don't think of that as truth, and earnestly desire to arrive at the deeper, real truth, there is a single way."`[\]
+lss s0_10,"oko","a11_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d22480
+d [lv 0*"21"*"44100123"]`"I believe I already mentioned that once, though.`[@][lv 0*"21"*"44100124"]` Know what it is?"`[\]
+textoff
+waits 167
+vol_mix_fade 2000
+vol_bgm -1,2000
+wait 2000
+lss s0_8,"enj","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d22481
+d [lv 0*"11"*"42000273"]`"......You mean...love?`[@][lv 0*"11"*"42000274"]` I don't really know what you mean by that."`[\]
+textoff
+waits 167
+vol_mix_fade 1000
+wait 1000
+bgmplay 10,71,0
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_3,"bui_r1d"
+flush 22
+msgwnd_non
+*d22482
+d [lv 0*"21"*"44100125"]`"Right now, you are thinking about this while supposing that Eva‐san is the culprit.`[@][lv 0*"21"*"44100126"]` But that is like looking at things with one eye."`[\]
+*d22483
+d [lv 0*"21"*"44100127"]`"With one eye, no matter how much you squint, you can't see an object in three dimensions, right?`[@][lv 0*"21"*"44100128"]` That's why you need another eye.`[@][lv 0*"21"*"44100129"]` Of course, in a different position from the eye you have right now."`[\]
+msgwnd_enj
+*d22484
+d [lv 0*"11"*"42000275"]`"............You're telling me to look at things based on the supposition that Aunt Eva isn't the culprit,`[@][lv 0*"11"*"42000276"]` ...or else, that it actually was a real accident...?"`[\]
+textoff
+waits 167
+lbg s0_3,"bui_r1a"
+lss s0_9,"oko","a11_warai2" ;1
+flush 26
+msgwnd_non
+*d22485
+d [lv 0*"21"*"44100130"]`"Yes, yes, exactly.`[@][lv 0*"21"*"44100131"]` When you think about something, try to look at it from different perspectives.`[@][lv 0*"21"*"44100132"]` If you don't, you won't understand anything about how it really is."`[\]
+lss s0_9,"oko","a11_defo1" ;1
+flush 10,167
+*d22486
+d [lv 0*"21"*"44100133"]`"It's the same with newspapers.`[@][lv 0*"21"*"44100134"]` With only a single newspaper, you can only see things from the single viewpoint of the writer who wrote the article.`[@][lv 0*"21"*"44100135"]` Sometimes it takes reading multiple papers before you can process the information rationally and in three dimensions."`[\]
+lss s0_9,"oko","a11_warai1" ;1
+flush 10,167
+*d22487
+d2 [lv 0*"21"*"44100136"]`"......Without love, the truth cannot be {y:1:‘seen’}{n:1:seen}.`[@][#][*][lv 0*"21"*"44100137"]` .........Mmm, that's got a nice ring to it, wahahaha."`[\]
+wait_on_d 0
+lss s0_9,"oko","a12_warai2" ;1
+flush 10,167
+d_continue
+wait_on_d -1
+*d22488
+d `Maybe he found it amusing that a cheesy phrase like that had popped out of his mouth.`[@]`{n}For a while, he laughed, looking pleased.`[\]
+*d22489
+d `......By that, he was simultaneously declaring that he had told everything that he knew,`[@]` and that it was about time for me to leave.`[@]` Understanding that, I got to my feet.`[\]
+lss s0_9,"oko","a11_warai1" ;1
+flush 10,167
+*d22490
+d2 [lv 0*"21"*"44100138"]`"I understand your feelings now, Ange‐chan.`[@][lv 0*"21"*"44100139"]` You should do as you like for a while, until you're satisfied.`[@][#][*][lv 0*"21"*"44100140"]` ......You were six years old at the time.`[@][lv 0*"21"*"44100141"]` You lost your family before you could even make sense of it, and I fully understand you feeling like you still don't have closure."`[\]
+wait_on_d 0
+lss s0_9,"oko","a11_defo1" ;1
+flush 10,167
+d_continue
+wait_on_d -1
+csp_slot s0_9
+flush 10,167
+lss s0_8,"oko","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+lss s0_10,"enj","a11_komaru1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d22491
+d `"..........................."`[\]
+lss s0_8,"oko","a11_warai2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_non
+*d22492
+d [lv 0*"21"*"44100142"]`"You may learn the truth, and you may not.`[@][lv 0*"21"*"44100143"]` Eva‐san may be the culprit, and she may be a victim."`[\]
+lss s0_8,"oko","a11_warai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d22493
+d [lv 0*"21"*"44100144"]`"......I pray that you find the "truth" you believe in, Ange‐chan.`[@][lv 0*"21"*"44100145"]` A journey at such a young age may be a valuable experience."`[\]
+lss s0_10,"enj","a11_komaru2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d22494
+d2 [lv 0*"11"*"42000278"]`"Thank you very much...`[@][lv 0*"11"*"42000279"]` ......I am truly sorry to be such a bother when you are so busy, Okonogi‐san."`[#][*][\]
+wait_on_d 0
+gstc 211
+seplay 9,1060,71
+d_continue
+wait_on_d -1
+lss s0_8,"oko","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_oko
+*d22495
+d [lv 0*"21"*"44100146"]`"No trouble, no trouble.`[@][lv 0*"21"*"44100147"]` What are you going to do now?"`[\]
+lss s0_10,"enj","a11_defo2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_enj
+*d22496
+d [lv 0*"11"*"42000280"]`"Well, whatever works.`[@][lv 0*"11"*"42000281"]` ......I've made appointments with several specialists and people related to the crime, so I plan to pay them a visit."`[\]
+lss s0_8,"oko","a11_warai2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_oko
+*d22497
+d [lv 0*"21"*"44100148"]`"I see.`[@][lv 0*"21"*"44100149"]` I hope you can find an answer you can accept."`[\]
+textoff
+waits 167
+meplay 1,29,40
+vol_bgm -1,3000
+wait 3000
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"bui_r1a"
+flush 4
+msgwnd_non
+*d22498
+d `At that moment, company president Okonogi's secretary came in, and handed him a memo over his shoulder.`[\]
+*d22499
+d `He read it and looked between it and my face.`[\]
+lss s0_10,"oko","a11_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_oko
+*d22500
+d [lv 0*"21"*"44100150"]`"......Ange‐chan.`[@][lv 0*"21"*"44100151"]` My apologies that this comes right after telling you to try going on a journey, but I have some information you should lend an ear to.`[@][lv 0*"21"*"44100152"]` ......It looks like you're in a bit of a nasty fix right now."`[\]
+lss s0_8,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d22501
+d [lv 0*"11"*"42000282"]`"People after my money?`[@][lv 0*"11"*"42000283"]` This is why money is stupid."`[\]
+lss s0_10,"oko","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_oko
+*d22502
+d [lv 0*"21"*"44100153"]`"Yes, but if you try to sell off the whole shebang and donate the entire sum to social welfare,`[@][lv 0*"21"*"44100154"]` those people already making plans for your fortune, you're gonna make their eyes pop out."`[\]
+lss s0_8,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d22503
+d [lv 0*"11"*"42000284"]`"Oh, so it's the Sumadera family.`[@][lv 0*"11"*"42000285"]` The arrogance of them trying to act like my guardians."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 22
+msgwnd_non
+*d22504
+d `I have the precedent of Aunt Eva.`[@]`{n}Who would {i:ever} go under the care of the Sumadera family?`[\]
+*d22505
+d `They probably want, as Aunt Eva had so often threatened in the past,`[@]` to cut off my arms and legs, throw me in a warehouse, and suck the Ushiromiya family's wealth dry.`[\]
+textoff
+waits 167
+lbg s0_3,"bui_r1a"
+lss s0_8,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_8,-370
+lss s0_10,"oko","a11_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 80
+vol_mix_fade 1000
+wait 1000
+msgwnd_oko
+*d22506
+d2 [lv 0*"21"*"44100155"]`"A representative from the Sumadera family is coming here.`[@][#][*][lv 0*"21"*"44100156"]` They're saying to hand you over...no no, that they want to protect you."`[\]
+wait_on_d 0
+bgmplay 86,71,0
+d_continue
+wait_on_d -1
+lss s0_8,"enj","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d22507
+d [lv 0*"11"*"42000286"]`"Representative, you say?"`[\]
+lss s0_10,"oko","a11_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_oko
+*d22508
+d [lv 0*"21"*"44100157"]`"It's your aunt.`[@][lv 0*"21"*"44100158"]` Kyrie‐san's younger sister.`[@][lv 0*"21"*"44100159"]` She has said before that she thinks of you as a little sister."`[\]
+lss s0_8,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d22509
+d [lv 0*"11"*"42000287"]`"She must be kidding.`[@][lv 0*"11"*"42000288"]` At least call me a grandchild, you old granny."`[\]
+lss s0_10,"oko","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_oko
+*d22510
+d [lv 0*"21"*"44100160"]`"Judging from the context, it seems they're not planning on taking your wishes into consideration.`[@][lv 0*"21"*"44100161"]` I have a car waiting in the parking lot two stories underground.`[@][lv 0*"21"*"44100162"]` Go."`[\]
+lss s0_8,"enj","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d22511
+d [lv 0*"11"*"42000289"]`"......The Sumadera family is telling you to hand me over, right?`[@][lv 0*"11"*"42000290"]` Is it really alright to let me go?"`[\]
+lss s0_10,"oko","a11_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_oko
+*d22512
+d2 [lv 0*"21"*"44100163"]`"You will definitely be someone big in the future, Ange‐chan.`[@][lv 0*"21"*"44100164"]` Let's call this a favor to be repaid upon your success.`[@][#][*][lv 0*"21"*"44100165"]` ...Go, quickly...!"`[\]
+wait_on_d 0
+lss s0_10,"oko","a11_akuwarai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 23
+seplay 1,15,71
+msgwnd_non
+*d22513
+d `After bowing silently and deeply, Ange left that place at a dash.`[\]
+*d22514
+d `After watching her leave, the secretary straightened her glasses and whispered.`[\]
+meplay 1,29,50
+textoff
+waits 167
+lbg s0_3,"bui_r1a"
+flush 23
+*d22515
+d [lv 0*"99"*"secfa4001"]`"The Sumadera family told us to stall her...`[@][lv 0*"99"*"secfa4002"]` Is it alright to let her go?"`[\]
+lss s0_9,"oko","a21_chohatsu1" ;1
+flush 10,167
+msgwnd_oko
+*d22516
+d [lv 0*"21"*"44100166"]`"We did stall her, more than enough.`[@][lv 0*"21"*"44100167"]` If they still don't make it in time, that's the Sumaderas' error.`[@][lv 0*"21"*"44100168"]` ......I told Ange‐chan to run for it.`[@][lv 0*"21"*"44100169"]` And I informed the Sumaderas that Ange‐chan was here.`[@][lv 0*"21"*"44100170"]` Whether she's caught or not, neither one of them will blame me."`[\]
+textoff
+waits 167
+vol_bgm 100,2000
+vol_me 1,70,2000
+wait 2000
+lss s0_9,"oko","a21_yoou1" ;1
+flush 10,167
+*d22517
+d [lv 0*"21"*"44100171"]`"......Everything in this world is...love, you see...`[@][lv 0*"21"*"44100172"]` It's alright, she'll escape.`[@][lv 0*"21"*"44100173"]` After all, she's the kind of kid who can jump off a building to lose her pursuers."`[\]
+csp_slot s0_9
+flush 10,167
+msgwnd_non
+*d22518
+d `......Okonogi again looked down at the world below,`[@]` and muttered "yeah, that'd be beyond me..."`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+vol_me 1,-1,1000
+seplay 1,2,70
+vol_bgm 90
+textoff
+waits 167
+lbg s0_3,"white"
+flush 1
+textoff
+waits 167
+lbg s0_3,"bui_inf1a"
+flush 80
+*d22519
+d `Ange was no fool herself.`[\]
+*d22520
+d `She got off the elevator, and stepped out onto the third floor.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 62
+*d22521
+d `A taxi in the second level of the basement?`[\]
+*d22522
+d `That's so overly courteous that it feels wrong.`[@]` It's probably better to decline that.`[\]
+*d22523
+d `But my enemies aren't fools either.`[@]` They probably have control of not just the underground parking lot, but the first‐floor lobby as well.`[\]
+textoff
+waits 167
+lbg s0_3,"bui_inf1a"
+flush 80
+*d22524
+d `This is such a massive building.`[@]`{n}Instead of getting anxious and escaping outside, maybe it's better to stay on the inside and wait it out?`[\]
+*d22525
+d `No, that's no good.`[@]` If they gain control of the security room in a modern building like this, I'll have nowhere to run to.`[\]
+*d22526
+d `This entire building is like a massive dead end.`[\]
+*d22527
+d `The third floor is the business floor.`[@]` A girl like me clearly sticks out.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 64
+*d22528
+d `Trying not to stand out any more than I had to, I walked at a quick pace, searching for an emergency staircase.`[@]` ......One running down the outside of the building would be ideal.`[\]
+*d22529
+d `I found the door to the emergency staircase.`[\]
+vol_bgm 70
+meplay 1,29,70
+seplay 1,15,90
+textoff
+waits 167
+lbg s0_3,"white"
+flush 64
+textoff
+waits 167
+lbg s0_3,"bui_o2b"
+flush 2
+*d22530
+d `After opening that heavy door, I found the outside stairs I was hoping to see.`[\]
+*d22531
+d `Once outside, I immediately encountered a man smoking a cigarette, who looked like an employee skipping work.`[@]`{n}After glaring at me, he quickly crushed up his cigarette and went away.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 23
+textoff
+waits 167
+lbg s0_3,"bui_o2a"
+flush 23
+*d22532
+d `It looks like there's no one below.`[@]`{n}...If I'm going to escape, now is my only chance...!`[\]
+vol_bgm 40
+vol_me 1,-1,1000
+seplay 1,68,90
+textoff
+waits 167
+lbg s0_3,"car_o2a"
+flush 1
+agpt quakexcycle,67
+agpt quakexamp,30
+agpt quakexamp,0,1167,1
+rumble 63,500
+gptwait quakexamp
+vol_bgm 70
+*d22533
+d `Just when I thought that, with an incredible squealing of the tires, a black car slid directly below me and came to a sudden stop.`[\]
+*d22534
+d `......It felt from the tire sounds like there were several more of them, and this one had come here to block this path.`[\]
+meplay 1,29,70
+textoff
+waits 167
+lbg s0_3,"bui_o2b"
+lss s0_10,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_10,370
+flush 64
+msgwnd_enj
+*d22535
+d [lv 0*"11"*"42000291"]`"......Not bad, Aunt Kasumi.`[@][lv 0*"11"*"42000292_b"]` Even your niece leaving by an emergency exit gets a car sent to pick her up."`[\]
+msgwnd_non
+*d22536
+d `Bam‐bam! The car doors opened forcefully, three men in black suits jumped out, and they looked up at the emergency staircase.`[\]
+*d22537
+d `......Ahhh shoot, our eyes met.`[\]
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"car_o2a"
+flush 23
+*d22538
+d [lv 0*"99"*"mafma4001"]`"12, target found.`[@][lv 0*"99"*"mafma4002"]` Northwest side emergency stairs, third floor, send support."`[\]
+*d22539
+d [lv 0*"99"*"mafmb4001"]`"Ange‐sama!`[@][lv 0*"99"*"mafmb4002"]` Please do not move from there!`[@][lv 0*"99"*"mafmb4003"]` Forgive our roughness...!!"`[\]
+meplay 2,17,80
+*d22540
+d `The three of them began to clamor up the emergency staircase.`[\]
+*d22541
+d `......They already announced that they're planning to be rough.`[@]` This is pretty bad.`[\]
+*d22542
+d `They've probably been ordered to bring me back by any means, with one of my arms yanked off if necessary, just so long as I'm still breathing.`[\]
+textoff
+waits 167
+lbg s0_3,"bui_o2b"
+flush 66
+*d22543
+d `Clankclankclankclank!!`[@]` Their heavy, wild footsteps became a helix and began to rise from the lower floors, getting closer...!`[\]
+textoff
+waits 167
+vol_bgm 90,2000
+vol_me 1,80,2000
+wait 2000
+textoff
+waits 167
+lbg s0_3,"black"
+flush 1
+vol_me 1,-1,1000
+vol_me 2,-1,1000
+textoff
+waits 167
+lbg s0_3,"bui_inf1a"
+flush 24
+*d22544
+d `In the entrance lobby of the building, a woman was walking forwards at a leisurely pace, with seven black‐suited guards in tow.`[\]
+*d22545
+d `Seeing this ostentatious entrance, the security guards for the building ran up to them, asking if they had an appointment.`[\]
+lss s0_9,"kas","a11_defo1" ;1
+flush 10,167
+*d22546
+d [lv 0*"22"*"44300001"]`".........How typical of Tokyo people.`[@][lv 0*"22"*"44300002"]` You require a name to even understand the status of the person you are talking to...?"`[\]
+*d22547
+d [lv 0*"99"*"guarma4001"]`"M‐my apologies...`[@][lv 0*"99"*"guarma4002"]` The policy at our company is for guests to take a securi—"`[\]
+seplay 1,28,90
+lss s0_9,"kas","a11_akuwarai1" ;1
+flush 10,167
+*d22548
+d [lv 0*"22"*"44300003"]`"......Back down, plebeian.`[@][lv 0*"22"*"44300004"]` I came because I was called by your president.`[@][lv 0*"22"*"44300005"]` Call Okonogi Tetsuro here.`[@][lv 0*"22"*"44300006"]` To think that he would call me here and then not welcome me... How typical of Tokyo people..."`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"bui_inf1a"
+lss s0_10,"oko","a11_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 24
+msgwnd_oko
+*d22549
+d2 [lv 0*"21"*"44100174"]`"My apologies.`[@][lv 0*"21"*"44100175"]` Welcome to the Ushiromiya Group, Sumadera Kasumi‐san."`[#][*][\]
+wait_on_d 0
+gstc 212
+seplay 9,1060,71
+d_continue
+wait_on_d -1
+msgwnd_non
+*d22550
+d `With his secretary behind him, Okonogi dashingly appeared from the elevator.`[\]
+*d22551
+d `Even though both of them wore bold smiles, they were caught in a tension reminiscent of the smell of gunpowder...`[\]
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"bui_inf1a"
+lss s0_8,"kas","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 23
+msgwnd_kas
+*d22552
+d [lv 0*"22"*"44300007"]`".........Where is Ange?`[@][lv 0*"22"*"44300008"]` I came to collect my sister's darling, darling daughter."`[\]
+lss s0_10,"oko","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_oko
+*d22553
+d [lv 0*"21"*"44100176"]`"Strict observance of time is our motto here at the Ushiromiya Group.`[@][lv 0*"21"*"44100177"]` The former Chairman herself said that those who can't keep time can't keep contracts."`[\]
+lss s0_8,"kas","a11_warai2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_kas
+*d22554
+d [lv 0*"22"*"44300009"]`"......You call me all the way to Tokyo to be greeted by this mess?`[@][lv 0*"22"*"44300010"]` You let her go, didn't you."`[\]
+lss s0_10,"oko","a11_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_oko
+*d22555
+d [lv 0*"21"*"44100178"]`"She got away...is the wording I would have preferred.`[@][lv 0*"21"*"44100179"]` We did stall her for quite some time, believe it or not.`[@][lv 0*"21"*"44100180"]` I'm not surprised she smelled a rat.`[@][lv 0*"21"*"44100181"]` There wouldn't have been a problem if you had come on time, Sumadera‐san."`[\]
+*d22556
+d2 [lv 0*"21"*"44100182"]`"This is why you provincials are such a hassle, you're never ever punctual.`[@][#][*][lv 0*"21"*"44100183"]` Wahhaha{0}ha{0}ha{0}ha{0}ha{0}haha!"`[\]
+wait_on_d 0
+lss s0_10,"oko","a11_akuwarai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+meplay 1,17,70
+csp_slot s0_8
+csp_slot s0_10
+flush 10,167
+lss s0_9,"kas","a11_akuwarai1" ;1
+flush 10,167
+msgwnd_kas
+*d22557
+d [lv 0*"22"*"44300011"]`"............What did you say just now......?`[@][lv 0*"22"*"44300012"]` What did you say to me...?"`[\]
+msgwnd_non
+*d22558
+d `You couldn't sense any of Kyrie's sociability in the face of her younger sister Kasumi.`[\]
+*d22559
+d `She wore on her face the arrogance of the ancient Sumadera family towards the ruined Ushiromiya family,`[@]` ......as well as pride, because she didn't want anyone to notice that her family was declining so much that they couldn't ignore the Ushiromiya family's wealth.`[\]
+*d22560
+d `Even at a glance, it was easy to understand why Ange hated everything about her aunt...`[\]
+*d22561
+d `Kasumi couldn't stand even a slight insult, and while she still smiled, her eyebrows twitched.`[\]
+*d22562
+d `At that time, one of the men in black suits behind Kasumi whispered to her.`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"bui_inf1a"
+flush 23
+*d22563
+d [lv 0*"99"*"mafmc4001"]`"Ange‐sama has been found.`[@][lv 0*"99"*"mafmc4002"]` We are dealing with her as I speak."`[\]
+lss s0_10,"kas","a11_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_kas
+*d22564
+d [lv 0*"22"*"44300013"]`"......Oh, I'm glad we made it in time.`[@][lv 0*"22"*"44300014"]` ......Thank you, Okonogi.`[@][lv 0*"22"*"44300015"]` It seems I can finally take my naughty niece home.`[@][lv 0*"22"*"44300016"]` ......I've been so eager to have a nice long talk with that girl in my tea room that I already have the tools ready and waiting, you know.`[@][lv 0*"22"*"44300017"]` Ehheheheheheheh...!"`[\]
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"black"
+flush 25
+vol_me 1,100,2000
+wait 2000
+msgwnd_non
+*d22565
+d `Clankclankclankclank......!!`[\]
+*d22566
+d `As the violence of the sound drew a helix, it rushed up at me from below, threatening to swallow me up.`[\]
+*d22567
+d `Of course, even if I fight them, I stand no chance of winning.`[@]` Even so, if I run into the building, it'll be like jumping into a dead end of my own accord.`[\]
+*d22568
+d `The enemies will increase in number with time.`[@]` If I can't do anything here, I won't have any more chances to escape.`[\]
+textoff
+waits 167
+lbg s0_3,"bui_o2b"
+flush 22
+*d22569
+d `Then, three muscular black‐suits came into view below me.`[\]
+*d22570
+d `One, two, three.`[@]` Three people.`[@]` In other words, everyone who had gotten out of the car.`[\]
+*d22571
+d `If there had been just one of them, I might have been able to wait for the moment of arrival to dropkick him as hard as I could, which might have worked out.`[@]` ......But it really is impossible with three of them.`[\]
+*d22572
+d `Wait... Three, huh...`[@]` ......Three...might be just about doable...`[@]`{n}......I can do it......!`[\]
+lss s0_9,"enj","a11_nayamu1" ;1
+flush 10,167
+msgwnd_enj
+*d22573
+d2 [lv 0*"11"*"42000293"]`"Whew.........`[@][#][*][lv 0*"11"*"42000294"]` ............haaaaAAAAHHH!!"`[\]
+wait_on_d 0
+lss s0_9,"enj","a11_ikari1" ;1
+flush 10,167
+d_continue
+wait_on_d -1
+textoff
+waits 167
+vol_mix_fade 1000
+vol_bgm -1,1000
+wait 1000
+seplay 1,20,100
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 1
+meplay 1,28,70
+msgwnd_non
+*d22574
+d [lv 0*"99"*"mafma4003"]`"Wh—?!`[@][lv 0*"99"*"mafma4004"]` Y‐you idiot, stop!!`[@][lv 0*"99"*"mafma4005"]` Look ooooout!!`[@][lv 0*"99"*"mafma4006"]` Uwaaaaaaaaaahhh...!!"`[\]
+textoff
+waits 167
+vol_mix_fade 1000
+wait 1000
+seplay 1,27,80
+textoff
+waits 167
+lbg s0_3,"white"
+flush 80
+textoff
+waits 167
+lbg s0_3,"car_o2c"
+flush 1
+agpt quakeycycle,133
+agpt quakeyamp,30
+agpt quakeyamp,0,1000,1
+rumble 63,500
+gptwait quakeyamp
+wait 2000
+*d22575
+d [lv 0*"99"*"mafmc4003"]`"01 calling 12, do you have her, please respond.`[@][lv 0*"99"*"mafmc4004"]` ......What's wrong?!`[@][lv 0*"99"*"mafmc4005"]` Respond!"`[\]
+bgmplay 87,71,0
+*d22576
+d [lv 0*"99"*"mafmb4004"]`"Wh‐......what kind of person... Damn it......"`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+seplay 1,13,71
+*d22577
+d `.........Nggghh...`[@]` ......Ouchhh...`[@]`{n}Look, see... That worked out, didn't it? It's just {i:three}.`[\]
+*d22578
+d `I've already experienced much higher places, after all.`[@]`{n}I knew I could jump down {i:just three floors}...!`[\]
+*d22579
+d `It's a good thing that the car they came in was right beneath me.`[@]`{n}Even if it wasn't as pleasant as a trampoline, it broke my fall, a little gently, a little roughly.`[\]
+textoff
+waits 167
+lbg s0_3,"car_o2c"
+flush 22
+msgwnd_enj
+*d22580
+d [lv 0*"11"*"42000295"]`"......Well, that makes me feel wonderful.`[@][lv 0*"11"*"42000296"]` No one asked you to go and dent that badly."`[\]
+msgwnd_non
+*d22581
+d `Having broken my fall, the roof of the car now had a massive dent around my body.`[\]
+*d22582
+d `I guess car roofs are more delicate than I thought.`[@]`{n}I don't think it's because of my weight.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 26
+*d22583
+d `Apparently, the three men on the stairs hadn't anticipated me jumping down.`[\]
+*d22584
+d `Having realized that they had been outwitted, they were hurriedly rushing back down.`[\]
+*d22585
+d `I have to run and escape while I have the chance.`[@]`{n}As I moved my body, the car roof made buckling and popping sounds.`[\]
+textoff
+waits 167
+lbg s0_3,"car_o2a"
+flush 22
+*d22586
+d `But I had been naive.`[@]` There was no way they'd have all rushed up the stairs without leaving one person behind.`[\]
+*d22587
+d `There was one black‐suit left in the driver's seat of the car that had broken my fall.`[@]`{n}He stuck his head out of the window, and when he realized that the thing that had fallen on him was me, he jumped out.`[\]
+*d22588
+d `In a rush, I jumped off the roof, but his reaction was really fast.`[@]` ......Either there was a massive reward for capturing me, or a harsh punishment for letting me get away.`[\]
+seplay 1,13,71
+textoff
+waits 167
+lbg s0_3,"black"
+flush 1
+*d22589
+d2 [lv 0*"99"*"mafma4007"]`"15, secured, secured...!"`[#][*][\]
+wait_on_d 0
+agpt quakeycycle,83
+agpt quakeyamp,30
+agpt quakeyamp,0,167,1
+rumble 63,500
+gptwait quakeyamp
+d_continue
+wait_on_d -1
+msgwnd_enj
+*d22590
+d [lv 0*"11"*"42000297"]`"Owowowow......!!`[@][lv 0*"11"*"42000298"]` Ghhhh, get your hands off me, let GO!!"`[\]
+textoff
+waits 167
+lbg s0_3,"car_o2a"
+flush 22
+msgwnd_non
+*d22591
+d `I was mercilessly held down against the asphalt.`[@]` I was being crushed face‐down, covered and pressed down on from above.`[\]
+*d22592
+d `It was a hold without a trace of elegance, but it really was logical and left me absolutely no room for resistance.`[\]
+*d22593
+d `I tried to push back with both hands, searching for a way to resist,`[@]` but I was being pushed down solidly, and I couldn't even tear myself off the asphalt.`[\]
+textoff
+waits 167
+seplay 2,68,71
+agpt quakexcycle,67
+agpt quakexamp,30
+agpt quakexamp,0,667,1
+rumble 63,500
+gptwait quakexamp
+*d22594
+d `Then another car came, squealing its tires as it slid to a sudden stop.`[\]
+*d22595
+d `Guess it's all over.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 1
+*d22596
+d2 [lv 0*"99"*"mafma4007_1"]`"Gyah!!!"`[#][*][\]
+wait_on_d 0
+seplay 3,11,71
+agpt quakeycycle,67
+agpt quakeyamp,30
+agpt quakeyamp,0,333,1
+rumble 63,500
+gptwait quakeyamp
+d_continue
+wait_on_d -1
+*d22597
+d `The man that had been crushing me let out a sharp cry.`[@]` ......He had yelled close to my left ear, making it ring.`[@]` What in the world?!`[\]
+*d22598
+d `The black‐suit and I were unceremoniously rolled over.`[\]
+textoff
+waits 167
+lbg s0_3,"white"
+flush 22
+textoff
+waits 167
+lbg s0_3,"car_o2a"
+flush 2
+*d22599
+d `After being turned face up, the first thing I saw was...an arm stuck out right in front of my eyes.`[\]
+lss s0_8,"enj","a11_fuman1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d22600
+d [lv 0*"11"*"42000299"]`".........Amakusa...?`[@][lv 0*"11"*"42000300"]` Why are you here...?"`[\]
+lss s0_10,"ama","a11_akuwarai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ama
+*d22601
+d [lv 0*"20"*"43000001"]`"Let's talk about that after we've lost them.`[@][lv 0*"20"*"43000002"]` To the car, quickly, missy...!"`[\]
+msgwnd_non
+*d22602
+d `Amakusa grabbed my arm and easily pulled me up, spinning me around with himself as the center of gravity.`[\]
+*d22603
+d `The thought that it was a little like a dance lasted only the few brief moments before he flung me through the open door into the driver's seat.`[\]
+seplay 1,20,71
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 1
+wait 1000
+seplay 2,13,71
+textoff
+waits 167
+lbg s0_3,"car_i3b"
+flush 1
+agpt quakexcycle,67
+agpt quakexamp,30
+agpt quakexamp,0,333,1
+rumble 63,500
+gptwait quakexamp
+*d22604
+d `I climbed over the hand brake and slid into the passenger's seat.`[@]`{n}Pushing me through, Amakusa also got in and took up the driver's seat.`[\]
+*d22605
+d `Since we had suddenly taken off while I was still on all fours, I had to kick and struggle around on the seat for a while, like a turtle flipped onto its back...`[\]
+meplay 1,29,71
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+*d22606
+d `Amakusa checked the rear‐view mirror for cars in pursuit, but flew into the artery of the big city without lowering his speed in the slightest.`[\]
+textoff
+waits 167
+vol_bgm 90,3000
+vol_me 1,90,3000
+wait 3000
+textoff
+waits 167
+lbg s0_3,"car_i3c"
+flush 22
+*d22607
+d `We sewed our way between cars one after another.`[@]`{n}Just like a chase scene in some action movie.`[\]
+*d22608
+d `......Tossed about by his horrible driving, I had trouble getting myself reseated.`[\]
+spriteset_enable 1
+aspritesetpt xpos,1,1920
+textoff
+waits 167
+lbg s1_3,"car_i3b2"
+lss s1_10,"ama","a11_defo2" ;1
+aspt2 xpos,s1_10,370
+mask_set msk1,msk_cutb,1
+flush 1 ;flush2: 1 frames
+aspritesetpt xpos,1,400,500
+spritesetptwait xpos,1
+wait 17
+msgwnd_ama
+*d22609
+d [lv 0*"20"*"43000003"]`"Any injuries, missy?"`[\]
+spriteset_enable 2
+aspritesetpt xpos,2,-1920
+textoff
+waits 167
+lbg s2_3,"car_i3b2"
+lss s2_8,"enj","a11_fuman2" ;1
+aspt2 xpos,s2_8,-370
+mask_set msk2,msk_cutc,2
+flush 1 ;flush2: 1 frames
+aspritesetpt xpos,2,-400,500
+spritesetptwait xpos,2
+wait 17
+msgwnd_enj
+*d22610
+d2 [lv 0*"11"*"42000301"]`"All good.`[@][lv 0*"11"*"42000302"]` Humans are surprisingly durable.`[@][#][*][lv 0*"11"*"42000303"]` From now on, whenever I miss a down elevator, I'll just jump out a window instead."`[\]
+wait_on_d 0
+lss s2_8,"enj","a11_nayamu1" ;1
+aspt2 xpos,s2_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s1_10,"ama","a11_defo1" ;1
+aspt2 xpos,s1_10,370
+flush 10,167
+msgwnd_ama
+*d22611
+d [lv 0*"20"*"43000004"]`"Hyahhahaha, looks like air dives are your hobby, missy.`[@][lv 0*"20"*"43000005"]` Still, I recommend that you bring a parachute next time."`[\]
+lss s2_8,"enj","a11_defo1" ;1
+aspt2 xpos,s2_8,-370
+flush 10,167
+msgwnd_enj
+*d22612
+d [lv 0*"11"*"42000304"]`"I'll do that, if I remember after jumping."`[\]
+lss s1_10,"ama","a11_akuwarai1" ;1
+aspt2 xpos,s1_10,370
+flush 10,167
+msgwnd_ama
+*d22613
+d [lv 0*"20"*"43000006"]`"Hyahhahahahaha, <cool>!"`[\]
+msgwnd_non
+*d22614
+d `He smacked the steering wheel, guffawing.`[\]
+*d22615
+d `Need an explanation for this flippantly spoken man?`[\]
+csp -11
+csp msk1
+csp -12
+csp msk2
+textoff
+waits 167
+lbg s0_3,"black"
+flush 2
+lss s0_9,"ama","a11_defo1" ;1
+flush 22
+*d22616
+d2 `His name is Amakusa Juuza ({p:0:天草十三}).`[#][*][\]
+wait_on_d 0
+gstc 213
+seplay 9,1060,71
+d_continue
+wait_on_d -1
+*d22617
+d `He was originally one of Aunt Eva's guards.`[@]` If I remember correctly, she hated him for being too jokey and too chatty.`[\]
+*d22618
+d `He was especially young amongst the guards, but contrary to his outward flippancy, he had hopped from the 1st Airborne of the JSDF to the French Foreign Legion,`[@]` placing himself in overseas private military companies and high‐class security companies one after another, making for a pretty incredible and unique career.`[\]
+*d22619
+d `......But I heard that he ran off from both the JSDF and the French Foreign Legion, and that he'll be arrested if he enters France again.`[@]`{n}Both of these flippant episodes were very typical of him.`[\]
+*d22620
+d `Apparently, the guards had been sternly told not to chat with me unnecessarily,`[@]` but I recall that didn't stop him coming to take a pass at me.`[\]
+*d22621
+d `Aunt Eva had particularly disliked that, and I believe she dismissed him right before she died.`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 23
+textoff
+waits 167
+lbg s0_3,"car_i3b"
+flush 23
+msgwnd_enj
+*d22622
+d [lv 0*"11"*"42000305"]`"It's nice to hear that casual tone again.`[@][lv 0*"11"*"42000306"]` What have you been up to since getting fired?"`[\]
+msgwnd_ama
+*d22623
+d [lv 0*"20"*"43000007"]`"Coaching people at Blackwater.`[@][lv 0*"20"*"43000008"]` I came back to this country for some time off, and President Okonogi offered me a high wage."`[\]
+msgwnd_enj
+*d22624
+d [lv 0*"11"*"42000307"]`"......And you ran off again?`[@][lv 0*"11"*"42000308"]` What use is a man like that, I wonder."`[\]
+msgwnd_ama
+*d22625
+d [lv 0*"20"*"43000009"]`"It doesn't count as running off as long as I come back by next week.`[@][lv 0*"20"*"43000010"]` I talked with him yesterday.`[@][lv 0*"20"*"43000011"]` I was told that you might attract some troublesome people."`[\]
+msgwnd_enj
+*d22626
+d [lv 0*"11"*"42000309"]`"Sorry that it turned out to be exactly right."`[\]
+textoff
+waits 167
+lbg s0_3,"car_i3c"
+flush 24
+spriteset_enable 1
+aspritesetpt xpos,1,1920
+textoff
+waits 167
+lbg s1_3,"car_i3b2"
+lss s1_10,"ama","a11_defo1" ;1
+aspt2 xpos,s1_10,370
+mask_set msk1,msk_cutb,1
+flush 1 ;flush2: 1 frames
+aspritesetpt xpos,1,400,500
+spritesetptwait xpos,1
+wait 17
+msgwnd_ama
+*d22627
+d [lv 0*"20"*"43000012"]`"My name probably came up since I know you, and I've got plenty of experience when things get crazy.`[@][lv 0*"20"*"43000013"]` Thanks to you, it looks like this'll make for a happy break along with some pocket money."`[\]
+spriteset_enable 2
+aspritesetpt xpos,2,-1920
+textoff
+waits 167
+lbg s2_3,"car_i3b2"
+lss s2_8,"enj","a11_majime1" ;1
+aspt2 xpos,s2_8,-370
+mask_set msk2,msk_cutc,2
+flush 1 ;flush2: 1 frames
+aspritesetpt xpos,2,-400,500
+spritesetptwait xpos,2
+wait 17
+msgwnd_enj
+*d22628
+d [lv 0*"11"*"42000310"]`"......Okonogi‐san employed you as my guard?"`[\]
+lss s1_10,"ama","a11_akuwarai1" ;1
+aspt2 xpos,s1_10,370
+flush 10,167
+msgwnd_ama
+*d22629
+d [lv 0*"20"*"43000014"]`"He probably wants you to owe him one, missy.`[@][lv 0*"20"*"43000015"]` ......After I got the axe, President Okonogi helped me out a bunch, you see.`[@][lv 0*"20"*"43000016"]` He's got me right where he wants me, can't say no to him.`[@][lv 0*"20"*"43000017"]` Hyahha!"`[\]
+lss s2_8,"enj","a11_nayamu1" ;1
+aspt2 xpos,s2_8,-370
+flush 10,167
+msgwnd_enj
+*d22630
+d2 [lv 0*"11"*"42000311"]`"......Seems that if you let Okonogi‐san help you out, it'll be pretty costly in the future.`[@][#][*][lv 0*"11"*"42000312"]` ......So, where are you planning on taking me?"`[\]
+wait_on_d 0
+lss s2_8,"enj","a11_defo1" ;1
+aspt2 xpos,s2_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s1_10,"ama","a11_defo2" ;1
+aspt2 xpos,s1_10,370
+flush 10,167
+msgwnd_ama
+*d22631
+d [lv 0*"20"*"43000018"]`"Wherever.`[@][lv 0*"20"*"43000019"]` I'm employed until the weekend.`[@][lv 0*"20"*"43000020"]` Anything after that'll cost you extra."`[\]
+lss s2_8,"enj","a11_nayamu1" ;1
+aspt2 xpos,s2_8,-370
+flush 10,167
+msgwnd_enj
+*d22632
+d [lv 0*"11"*"42000313"]`"How much a day?"`[\]
+lss s1_10,"ama","a11_defo1" ;1
+aspt2 xpos,s1_10,370
+flush 10,167
+msgwnd_ama
+*d22633
+d [lv 0*"20"*"43000021"]`"I'll cut you a deal for 50K.`[@][lv 0*"20"*"43000022"]` Plus expenses."`[\]
+lss s2_8,"enj","a11_majime1" ;1
+aspt2 xpos,s2_8,-370
+flush 10,167
+msgwnd_enj
+*d22634
+d [lv 0*"11"*"42000314"]`"If you stop cracking jokes, I'll double it.`[@][lv 0*"11"*"42000315"]` The period of employment is undetermined.`[@][lv 0*"11"*"42000316"]` It might be several weeks."`[\]
+lss s1_10,"ama","a11_akuwarai1" ;1
+aspt2 xpos,s1_10,370
+flush 10,167
+msgwnd_ama
+*d22635
+d [lv 0*"20"*"43000023"]`"...That'll be tough.`[@][lv 0*"20"*"43000024"]` I'll have to call the boss to get an extension on my vacation."`[\]
+csp -11
+csp msk1
+csp -12
+csp msk2
+textoff
+waits 167
+lbg s0_3,"black"
+flush 25
+textoff
+waits 167
+lbg s0_3,"car_i3b"
+flush 22
+msgwnd_enj
+*d22636
+d [lv 0*"11"*"42000317"]`"I just want to investigate that day, more than anything."`[\]
+msgwnd_ama
+*d22637
+d [lv 0*"20"*"43000025"]`"......Oh, you're talking about Rokkenjima?"`[\]
+msgwnd_enj
+*d22638
+d [lv 0*"11"*"42000318"]`"Yes.`[@][lv 0*"11"*"42000319"]` What happened on that island twelve years ago?`[@][lv 0*"11"*"42000320"]` ......I want to investigate it with my own hands, and find a satisfying explanation."`[\]
+msgwnd_ama
+*d22639
+d [lv 0*"20"*"43000026"]`"Will you really make any new discoveries at this point, investigating something that happened so long ago...?"`[\]
+msgwnd_enj
+*d22640
+d [lv 0*"11"*"42000321"]`"You're right.`[@][lv 0*"11"*"42000322"]` Which is why this is a journey for my own self‐satisfaction.`[@][lv 0*"11"*"42000323"]` ......Once I'm done, I'll just throw my hands up and go to the Sumadera family."`[\]
+*d22641
+d [lv 0*"11"*"42000324"]`"......Didn't Aunt Kasumi say something about wanting to treat me to some {ruby:powdered tea:matcha}?`[@][lv 0*"11"*"42000325"]` Maybe I'll be made to kneel on some sharp wooden blocks and clutch stones or something while we drink."`[\]
+msgwnd_ama
+*d22642
+d [lv 0*"20"*"43000027"]`"Damn that sounds freaky, hyahhahahaha...!"`[\]
+textoff
+waits 167
+textoff
+waits 167
+lbg s0_3,"black"
+flush 2
+vol_bgm 0,5000
+vol_me 1,40,5000
+wait 5000
+vol_bgm -1,1000
+textoff
+waits 167
+lbg s0_3,"bui_o1a"
+flush 26
+wait 2000
+textoff
+waits 167
+lbg s0_3,"black"
+flush 26
+textoff
+waits 167
+lbg s0_3,"bui_inf1a"
+flush 2
+msgwnd_non
+*d22643
+d [lv 0*"99"*"mafmd4020"]`"My apologies, we lost sight of her...`[@][lv 0*"99"*"mafmd4001"]` A single man thought to be an associate assisted in her escape.`[@][lv 0*"99"*"mafmd4002"]` Judging by his possession of a stun gun and his driving skills, he is no amateur."`[\]
+bgmplay 86,71,0
+textoff
+waits 167
+lbg s0_3,"bui_inf1a"
+flush 24
+lss s0_9,"kas","a11_defo1" ;1
+flush 10,167
+msgwnd_kas
+*d22644
+d2 [lv 0*"22"*"44300018"]`"............I see. Thank you.`[@][#][*][lv 0*"22"*"44300019"]` .........I'm disappointed, Okonogi.`[@][lv 0*"22"*"44300020"]` Shall I take this as your answer...?"`[\]
+wait_on_d 0
+lss s0_9,"kas","a11_akuwarai1" ;1
+flush 10,167
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"bui_inf1a"
+lss s0_8,"oko","a11_warai1" ;1
+aspt2 xpos,s0_8,-370
+flush 23
+lss s0_8,"oko","a11_warai2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_oko
+*d22645
+d [lv 0*"21"*"44100184"]`"Letting her get away was your screwup.`[@][lv 0*"21"*"44100185"]` Not my problem, I'm afraid."`[\]
+lss s0_10,"kas","a11_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_kas
+*d22646
+d [lv 0*"22"*"44300021"]`"............I'd dearly like to treat you to some matcha in the near future as well.`[@][lv 0*"22"*"44300022"]` The next time you are in Kyoto, please do stop by.`[@][lv 0*"22"*"44300023"]` .........Let's go."`[\]
+lss s0_8,"oko","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_oko
+*d22647
+d [lv 0*"21"*"44100186"]`"Huh, leaving already?`[@][lv 0*"21"*"44100187"]` {c:86EF9C:You could have some chazuke before you go.}"`[gstg 3][\]
+meplay 2,17,80
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 1
+msgwnd_kas
+*d22648
+d [lv 0*"22"*"44300024"]`"..................*cackle*cackle*.`[@][lv 0*"22"*"44300025"]` ...Hoh‐hoh‐hoh‐hoh‐ho...!!"`[\]
+textoff
+waits 167
+lbg s0_3,"bui_inf1a"
+flush 22
+msgwnd_non
+*d22649
+d `Her back to Okonogi, she laughed at first lightly, but with an increasingly shrill and hateful tone, using that as a substitute for a sharp parting remark.`[\]
+*d22650
+d `At the exact moment she stopped laughing, the look on her face changed dramatically to that of a {ruby:hannya:demon},`[@]` but because her back was facing him, Okonogi never saw that expression.`[\]
+*d22651
+d `Okonogi watched her go, laughing coolly.`[@]`{n}His secretary whispered over his shoulder.`[\]
+*d22652
+d [lv 0*"99"*"secfa4003"]`"......Is that alright?`[@][lv 0*"99"*"secfa4004"]` Milady Ange is our company's primary stockholder.`[@][lv 0*"99"*"secfa4005"]` If the Sumadera family becomes her guardian..."`[\]
+lss s0_9,"oko","a11_warai1" ;1
+flush 10,167
+msgwnd_oko
+*d22653
+d [lv 0*"21"*"44100188"]`"I get it.`[@][lv 0*"21"*"44100189"]` But you know, we're the one‐and‐only Ushiromiyas.`[@][lv 0*"21"*"44100190"]` We can't let them take us lightly."`[\]
+lss s0_9,"oko","a11_defo1" ;1
+flush 10,167
+*d22654
+d [lv 0*"21"*"44100191"]`"......Still, looks like he outmanuevered them pretty well.`[@][lv 0*"21"*"44100192"]` ......Now we'll just let Ange‐chan do as she pleases.`[@][lv 0*"21"*"44100193"]` I'm counting on you, Amakusa."`[\]
+textoff
+waits 167
+vol_me 1,100
+seplay 1,28,100
+seplay 2,28,100
+seplay 3,28,100
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"white"
+flush 1
+textoff
+waits 167
+lbg s0_3,"bui_o1a"
+flush 22
+msgwnd_non
+*d22655
+d [lv 0*"99"*"mafmc4006"]`"......Kasumi‐sama.`[@][lv 0*"99"*"mafmc4007"]` The getaway vehicle was a rental.`[@][lv 0*"99"*"mafmc4008"]` The license plate on display was a fake.`[@][lv 0*"99"*"mafmc4009"]` He's clearly a pro.`[@][lv 0*"99"*"mafmc4010"]` They will probably abandon the car.`[@][lv 0*"99"*"mafmc4011"]` Pursuit will be difficult.`[@][lv 0*"99"*"mafmc4012"]` ......Should we have the police chase them?"`[\]
+msgwnd_kas
+*d22656
+d [lv 0*"22"*"44300026"]`"............Let me see.`[@][lv 0*"22"*"44300027"]` Shall we have them search for a runaway daughter?`[@][lv 0*"22"*"44300028"]` They are getting paid with our taxes, so we must have them be of some use every once in a while.`[@][lv 0*"22"*"44300029"]` Hoh‐hoh‐hoh‐ho............"`[\]
+meplay 3,18,70
+*d22657
+d [lv 0*"22"*"44300030"]`"You do realize I left the mansion defiantly insisting to Mother that she should leave it to me?`[@][lv 0*"22"*"44300031"]` Do you intend to embarrass me further still......?"`[\]
+*d22658
+d [lv 0*"22"*"44300032"]`"It looks like I need to serve some matcha to every single one of you, doesn't it?`[@][lv 0*"22"*"44300033"]` ......Our underground tea room is cramped, so you'll have to wait in line, won't you......?"`[\]
+msgwnd_non
+*d22659
+d [lv 0*"99"*"mafmb4005"]`"N‐no...`[@][lv 0*"99"*"mafmb4006"]` We will search with everything we have."`[\]
+msgwnd_kas
+*d22660
+d [lv 0*"22"*"44300034"]`"......Ahh, she really is a cute kid, just like Nee‐san.`[@][lv 0*"22"*"44300035"]` ......Especially that unrestrained, self‐centered side of her.`[@][lv 0*"22"*"44300036"]` ......Ahh, now I can't see her as anyone but Nee‐san."`[\]
+*d22661
+d [lv 0*"22"*"44300037"]`"Ahh, I'm truly looking forward to it.`[@][lv 0*"22"*"44300038"]` To think I'll be able to invite Nee‐san's daughter to my tea room......`[@][lv 0*"22"*"44300039"]` Hoh‐hoh‐hoh‐hoh‐ho......!!"`[\]
+textoff
+waits 167
+vol_mix_fade 1000
+vol_bgm -1,1000
+wait 1000
+seplay 1,2,100
+textoff
+waits 167
+lbg s0_3,"black"
+flush 1
+wait 3000
+gstc 214
+textoff
+waits 167
+meplay 1,30,71
+textoff
+waits 167
+lbg s0_3,"cit_1a"
+flush 2
+wait 2000
+textoff
+waits 167
+lbg s0_3,"car_i3c"
+flush 6
+spriteset_enable 2
+aspritesetpt xpos,2,-1920
+textoff
+waits 167
+lbg s2_3,"car_i3b2"
+lss s2_8,"enj","a11_nayamu1" ;1
+aspt2 xpos,s2_8,-370
+mask_set msk1,msk_cutc,2
+flush 1 ;flush2: 1 frames
+aspritesetpt xpos,2,-400,500
+spritesetptwait xpos,2
+wait 17
+msgwnd_enj
+*d22662
+d [lv 0*"11"*"42000326"]`"......The Sumadera family sure moved quickly.`[@][lv 0*"11"*"42000327"]` Did Okonogi‐san sell me out...?"`[\]
+spriteset_enable 1
+aspritesetpt xpos,1,1920
+textoff
+waits 167
+lbg s1_3,"car_i3b2"
+lss s1_10,"ama","a11_majime1" ;1
+aspt2 xpos,s1_10,370
+mask_set msk2,msk_cutb,1
+flush 1 ;flush2: 1 frames
+aspritesetpt xpos,1,400,500
+spritesetptwait xpos,1
+wait 17
+msgwnd_ama
+*d22663
+d [lv 0*"20"*"43000028"]`"You're joking.`[@][lv 0*"20"*"43000029"]` He's my client.`[@][lv 0*"20"*"43000030"]` If he'd sold you out, he wouldn't have hired me, right...?"`[\]
+lss s2_8,"enj","a11_defo1" ;1
+aspt2 xpos,s2_8,-370
+flush 10,167
+msgwnd_enj
+*d22664
+d [lv 0*"11"*"42000328"]`"...........................`[@][lv 0*"11"*"42000329"]` ...I guess that's true."`[\]
+lss s1_10,"ama","a11_defo1" ;1
+aspt2 xpos,s1_10,370
+flush 10,167
+msgwnd_ama
+*d22665
+d [lv 0*"20"*"43000031"]`"......Ah, so that's why you got off the elevator at the third floor?"`[\]
+lss s2_8,"enj","a11_nayamu1" ;1
+aspt2 xpos,s2_8,-370
+flush 10,167
+msgwnd_enj
+*d22666
+d [lv 0*"11"*"42000330"]`"Having a car waiting in the underground parking lot was suspiciously well‐organized of him, you see.`[@][lv 0*"11"*"42000331"]` I thought that he might have sold me out.`[@][lv 0*"11"*"42000332"]` ......Although at this point, it's impossible to prove whether there was an ambush set up in the parking lot or not."`[\]
+lss s1_10,"ama","a11_akuwarai1" ;1
+aspt2 xpos,s1_10,370
+flush 10,167
+msgwnd_ama
+*d22667
+d2 [lv 0*"20"*"43000032"]`"Riiight... Damn, the poor guy.`[@][lv 0*"20"*"43000033"]` Looks like he didn't have your trust, missy.`[@][#][*][lv 0*"20"*"43000034"]` That car in the basement was mine."`[\]
+wait_on_d 0
+bgmplay 12,71,0
+d_continue
+wait_on_d -1
+lss s2_8,"enj","a11_fuman2" ;1
+aspt2 xpos,s2_8,-370
+flush 10,167
+msgwnd_enj
+*d22668
+d [lv 0*"11"*"42000333"]`"Huh......?`[@][lv 0*"11"*"42000334"]` He was talking about you...?"`[\]
+lss s1_10,"ama","a11_defo1" ;1
+aspt2 xpos,s1_10,370
+flush 10,167
+msgwnd_ama
+*d22669
+d [lv 0*"20"*"43000035"]`"I freaked out when the elevator was empty.`[@][lv 0*"20"*"43000036"]` If I hadn't been able to listen in on their radio, who knows what would have happened by now."`[\]
+lss s2_8,"enj","a11_defo1" ;1
+aspt2 xpos,s2_8,-370
+flush 10,167
+msgwnd_enj
+*d22670
+d [lv 0*"11"*"42000335"]`"..................So...what?`[@][lv 0*"11"*"42000336"]` If I had obediently believed Okonogi‐san and gone to the parking lot,`[@][lv 0*"11"*"42000337"]` there would have been no need for me to do that jump off the third floor...?"`[\]
+lss s1_10,"ama","a11_akuwarai1" ;1
+aspt2 xpos,s1_10,370
+flush 10,167
+msgwnd_ama
+*d22671
+d [lv 0*"20"*"43000037"]`"Pretty much.`[@][lv 0*"20"*"43000038"]` Well, it turned out alright in the end."`[\]
+lss s2_8,"enj","a11_komaru1" ;1
+aspt2 xpos,s2_8,-370
+flush 10,167
+msgwnd_enj
+*d22672
+d [lv 0*"11"*"42000338"]`"........................"`[\]
+csp -11
+csp msk2
+csp -12
+csp msk1
+textoff
+waits 167
+lbg s0_3,"black"
+flush 25
+vol_me 1,-1,1000
+wait 1000
+textoff
+waits 167
+lbg s0_3,"car_i3b"
+flush 22
+msgwnd_non
+*d22673
+d `.........Well that's something.`[\]
+*d22674
+d `If I hadn't suspected President Okonogi,`[@]` ......I could have easily escaped without getting caught in a tough spot.`[\]
+*d22675
+d `{i:"President Okonogi might have sold me out."}`[\]
+*d22676
+d `No, because paranoia told me that it was better to suppose that he sold me out, I assumed and {i:decided} that he did.`[\]
+*d22677
+d `Because I wasn't able to believe him,`[@]` my truth, regardless of his truth, became "he sold me out"......`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 25
+*d22678
+d `I thought back on President Okonogi's words.`[\]
+*d22679
+d `Can you really call truth "truth" if it isn't absolute...?`[\]
+*d22680
+d `Truth can change completely depending on whether you have love or not.`[\]
+*d22681
+d `In the end, ......perhaps this thing called "truth" doesn't exist.`[\]
+*d22682
+d `For each person who speaks of it, another truth is born from their interpretations—that's all there is to it.`[\]
+textoff
+waits 167
+lbg s0_3,"car_i3c"
+flush 2
+*d22683
+d `If I can't accept something that indeterminate as truth,`[@]` ......then where {i:does} the truth that I really want to find exist?`[@]` ......And is that something that can be seen with the eyes?`[\]
+*d22684
+d `I might be surprised to discover...that even if the truth is thrust in front of me,`[@]` ......it may be something that I cannot {y:1:‘see’}{n:1:see}...`[\]
+meplay 1,30,71
+textoff
+waits 167
+lbg s0_3,"white"
+flush 29
+textoff
+waits 167
+lbg s0_3,"cit_1a"
+flush 22
+msgwnd_enj
+*d22685
+d [lv 0*"11"*"42000339"]`"......Without love, it cannot be {y:1:‘seen’}{n:1:seen}, is it..."`[\]
+textoff
+waits 167
+vol_bgm 0,3000
+vol_me 1,40,3000
+wait 3000
+vol_bgm -1,1000
+seplay 1,56,71
+textoff
+waits 167
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+flush 10,367
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+flush 28
+gstc 215
+lss s0_23,"ber","a11_defo1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+bgmplay 62,71,0
+msgwnd_ber
+*d22686
+d [lv 0*"28"*"42100018"]`".........This fragment of yours is very lively.`[@][lv 0*"28"*"42100019"]` It doesn't bore me."`[\]
+lss s0_25,"enj","a11_defo1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_enj
+*d22687
+d [lv 0*"11"*"42000340"]`"You said to me.`[@][lv 0*"11"*"42000341"]` You told me to search for the truth of twelve years ago.`[@][lv 0*"11"*"42000342"]` ......But I feel like it's not really clear to me anymore."`[\]
+lss s0_23,"ber","a11_defo2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_ber
+*d22688
+d [lv 0*"28"*"42100020"]`"What isn't?"`[\]
+lss s0_25,"enj","a11_komaru2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_enj
+*d22689
+d [lv 0*"11"*"42000343"]`"......What is truth?`[@][lv 0*"11"*"42000344"]` There are as many truths as there are people.`[@][lv 0*"11"*"42000345"]` There are as many interpretations as there are people.`[@][lv 0*"11"*"42000346"]` And those can be twisted by opinions and changed indefinitely.`[@][lv 0*"11"*"42000347"]` ......Is truth really that indeterminate and vague?"`[\]
+lss s0_23,"ber","a11_defo1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_ber
+*d22690
+d [lv 0*"28"*"42100021"]`"It is.`[@][lv 0*"28"*"42100022"]` ......Truth is indeterminate.`[@][lv 0*"28"*"42100023"]` It can be like a particle, or like a wave, and it can hold conflicting forms at the same time."`[\]
+*d22691
+d [lv 0*"28"*"42100024"]`"You are free to believe that the cat in the box is alive, or that it is dead.`[@][lv 0*"28"*"42100025"]` ......But the truth is very delicate.`[@][lv 0*"28"*"42100026"]` It changes its appearance just by being observed."`[\]
+lss s0_25,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_enj
+*d22692
+d [lv 0*"11"*"42000348"]`"You're talking about that Schrödinger's cat box?`[@][lv 0*"11"*"42000349"]` .........Nonsense.`[@][lv 0*"11"*"42000350"]` If you open the box, you learn the truth.`[@][lv 0*"11"*"42000351"]` Debating what happens before you open it is armchair theorizing at best."`[\]
+vol_me 1,-1,1000
+csp_slot s0_21
+csp_slot s0_22
+csp_slot s0_25
+csp_slot s0_23
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_3,"different_spiral_1a"
+flush 28
+msgwnd_ber
+*d22693
+d [lv 0*"28"*"42100027"]`"Yes.`[@][lv 0*"28"*"42100028"]` And yet, in order to deny those armchair theories, you need to open the box.`[@][lv 0*"28"*"42100029"]` ......If a box cannot be opened, any and all ideas about its contents are impossible to disprove.`[@][lv 0*"28"*"42100030"]` In other words, truth."`[\]
+msgwnd_enj
+*d22694
+d [lv 0*"11"*"42000352"]`".........As long as truth can't be denied, it keeps its form."`[\]
+msgwnd_ber
+*d22695
+d [lv 0*"28"*"42100031"]`"That's right.`[@][lv 0*"28"*"42100032"]` As long as truth can't be observed, it keeps its form."`[\]
+textoff
+waits 167
+lbg s0_3,"car_i3c"
+textoff
+waits 167
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+lss s0_23,"enj","a11_majime1" ;1
+aspt2 xpos,s0_23,370
+flush 26
+lss s0_23,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_enj
+*d22696
+d [lv 0*"11"*"42000353"]`"So, any reckless statement can suffice as truth if it can't be exposed as a lie."`[\]
+lss s0_25,"ber","a11_defo1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_ber
+*d22697
+d [lv 0*"28"*"42100033"]`"Yes.`[@][lv 0*"28"*"42100034"]` ......Even if they contradict each other, endless ideas can exist as truth at the same time without being negated."`[\]
+meplay 1,16,50
+textoff
+waits 167
+csp_slot s0_25
+csp_slot s0_23
+lbg s0_3,"sea_3af"
+lss s0_25,"ber","a11_defo1" ;1
+aspt2 xpos,s0_25,-370
+lss s0_23,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_23,370
+flush 2
+lss s0_23,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_enj
+*d22698
+d [lv 0*"11"*"42000354"]`".........So even something as screwed up as my family being captured by the Rokkenjima witch and imprisoned twelve years in the past for all eternity...`[@][lv 0*"11"*"42000355"]`can exist as truth as long as we don't know what happened twelve years ago..."`[\]
+textoff
+waits 167
+csp_slot s0_25
+csp_slot s0_23
+lbg s0_3,"sea_1cf"
+lss s0_25,"ber","a11_defo1" ;1
+aspt2 xpos,s0_25,-370
+lss s0_23,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_23,370
+flush 2
+lss s0_25,"ber","a11_defo2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_ber
+*d22699
+d [lv 0*"28"*"42100035"]`"Twelve years ago, on Rokkenjima, the witch called {f:5:Beatrice} wrenched open a space for "endless" imagination, and swallowed everything up into it, using it as a cat box.`[@][lv 0*"28"*"42100036"]` ......Everything in the unopening box is truth."`[\]
+msgwnd_non
+*d22700
+d `That's right.`[@]` {i:We don't know what happened on that island}, so it becomes endless.`[\]
+lss s0_23,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_enj
+*d22701
+d [lv 0*"11"*"42000356"]`"......So long as it remains closed, that is.`[@][lv 0*"11"*"42000357"]` All I have to do is wrench it open."`[\]
+lss s0_23,"enj","a11_fuman1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+*d22702
+d [lv 0*"11"*"42000358"]`".........But that box was closed up twelve years ago, and I don't even know where it is.`[@][lv 0*"11"*"42000359"]` ......Even if I were to visit Rokkenjima, just what would I be able to learn, there on that desolated island, about what happened twelve years ago?"`[\]
+lss s0_25,"ber","a11_defo1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_ber
+*d22703
+d [lv 0*"28"*"42100037"]`"Who knows?`[@][lv 0*"28"*"42100038"]` What could you learn, I wonder.`[@][lv 0*"28"*"42100039"]` .........In any event, that is something that can only be done by the person who is able to walk around freely in the world of 1998, twelve years in the future—`[@][lv 0*"28"*"42100040"]`the final witch, {f:5:Ange Beatrice}."`[\]
+lss s0_23,"enj","a11_defo1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_enj
+*d22704
+d [lv 0*"11"*"42000360"]`"........................"`[\]
+csp_slot s0_21
+csp_slot s0_22
+csp_slot s0_25
+csp_slot s0_23
+textoff
+waits 167
+lbg s0_3,"black"
+flush 5
+vol_me 1,-1,1000
+textoff
+waits 167
+lbg s0_3,"chess1"
+flush 22
+msgwnd_ber
+*d22705
+d [lv 0*"28"*"42100041"]`"{f:5:Beatrice}'s game board spans the two days from October 4th to the 5th, 1986.`[@][lv 0*"28"*"42100042"]` In other words, this means that you are a piece who can move freely outside her game board.`[@][lv 0*"28"*"42100043"]` ......And even {f:5:Beatrice} cannot influence this future that lies outside the game board."`[\]
+msgwnd_enj
+*d22706
+d [lv 0*"11"*"42000361"]`"......When you put it like that, it sounds like I'm a pretty overpowered piece."`[\]
+msgwnd_ber
+*d22707
+d [lv 0*"28"*"42100044"]`"The future of twelve years later in which you are placed certainly is distant.`[@][lv 0*"28"*"42100045"]` However, the further in the future a piece is placed, the stronger the power it holds.`[@][lv 0*"28"*"42100046"]` ......I told you, didn't I?`[@][lv 0*"28"*"42100047"]` Truth changes form when it's observed."`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+vol_mix_fade 2000
+vol_bgm -1,2000
+wait 2000
+textoff
+waits 167
+lbg s0_3,"different_spiral_1a"
+flush 28
+bgmplay 49,71,0
+msgwnd_enj
+*d22708
+d [lv 0*"11"*"42000362"]`"Come to think of it, I've heard something related to that.`[@][lv 0*"11"*"42000363"]` ......Even if one day, all of a sudden, a star in Centaurus were to explode,`[@][lv 0*"11"*"42000364"]` the light from that explosion would have to travel 4.4 light years, so it would take four and a half years to reach the Earth."`[\]
+msgwnd_ber
+*d22709
+d [lv 0*"28"*"42100048"]`"It would.`[@][lv 0*"28"*"42100049"]` In other words, even if the sun in Centaurus has already died, people on Earth wouldn't be able to perceive that fact for four and a half years.`[@][lv 0*"28"*"42100050"]` ......Because no method of perception exists that is faster than the speed of light."`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+msgwnd_non
+*d22710
+d `At the time we learn that the sun in Centaurus exploded...`[\]
+*d22711
+d `...we Earth people will paint over our past four and a half years of history with a new truth.`[@]`{n}We will revise history with a new fact: that it exploded four and a half years ago.`[\]
+*d22712
+d `However, for the four‐and‐a‐half‐year period until we learn that, despite the fact that it has already died,`[@]` the mistaken truth that the sun of Centaurus still exists will be able to exist as truth.`[\]
+*d22713
+d `The truth of the future wins out over the truth of the past.`[\]
+textoff
+waits 167
+lbg s0_3,"sea_1bf"
+textoff
+waits 167
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+lss s0_24,"enj","a11_defo1" ;1
+flush 26
+msgwnd_enj
+*d22714
+d [lv 0*"11"*"42000365"]`".........That's right.`[@][lv 0*"11"*"42000366"]` By itself, the Rokkenjima accident...`[@][lv 0*"11"*"42000367"]`would have given rise to nothing but suspicion of a murder plot revolving around Aunt Eva and the Ushiromiya estate."`[\]
+lss s0_24,"enj","a11_fuman2" ;1
+flush 10,167
+*d22715
+d [lv 0*"11"*"42000368"]`"......But in the years that followed...`[@][lv 0*"11"*"42000369"]`it was dramatized through the occult, and the plot was painted over as the Legend of the Witch."`[\]
+csp_slot s0_21
+csp_slot s0_22
+csp_slot s0_24
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+textoff
+waits 167
+lbg s0_3,"portrait2"
+flush 26
+msgwnd_non
+*d22716
+d `Even though it was clamored over as a murder plot at the time of the incident,`[@]` in later years, strange occult theories which claimed that it had been the work of a witch ran rampant, and began to paint over the truth of October 5th, 1986...`[\]
+*d22717
+d `The murder theory will probably be forgotten over time.`[\]
+*d22718
+d `......And only the more bizarre, impressive witch theory will continue to remain as superstition, and eventually, paint over the murder theory entirely.`[\]
+lss s0_23,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_enj
+*d22719
+d [lv 0*"11"*"42000370"]`"Yes,`[@][lv 0*"11"*"42000371"]` the false truth that exists before the light from an exploding star reaches Earth is a lot like the human murder theory."`[\]
+*d22720
+d [lv 0*"11"*"42000372"]`".........The wine bottle with a letter inside that drifted ashore several years later, the "message bottle", began to retroactively paint over that theory with the occult witch theory."`[\]
+lss s0_23,"enj","a11_fuman1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+*d22721
+d [lv 0*"11"*"42000373"]`"......That's right.`[@][lv 0*"11"*"42000374"]` No witch existed during 1986.`[@][lv 0*"11"*"42000375"]` The witch took control of Rokkenjima because she was "observed" several years later by us humans of the future, thanks to that message bottle...!"`[\]
+lss s0_25,"ber","a11_defo1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_ber
+*d22722
+d [lv 0*"28"*"42100051"]`"......A small revision is necessary.`[@][lv 0*"28"*"42100052"]` The witch could have existed even during 1986.`[@][lv 0*"28"*"42100053"]` As one of many endless possibilities."`[\]
+lss s0_23,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_enj
+*d22723
+d [lv 0*"11"*"42000376"]`"Certainly.`[@][lv 0*"11"*"42000377"]` Curled up in the cat box, which would disappear if observed.`[@][lv 0*"11"*"42000378"]` ......That's why the message bottle is so pernicious."`[\]
+lss s0_23,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+*d22724
+d [lv 0*"11"*"42000379"]`"...The witch tried to get out of the box.`[@][lv 0*"11"*"42000380"]` She made it so that she would be observed, weeding out all possibilities other than the witch theory.`[@][lv 0*"11"*"42000381"]` ......In other words, to make it impossible for herself to be negated, she negated all possibilities other than the witch theory."`[\]
+lss s0_23,"enj","a11_ikari1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+*d22725
+d [lv 0*"11"*"42000382"]`".........Well, I'll be damned.`[@][lv 0*"11"*"42000383"]` So in other words, {f:5:Beatrice} satisfied the Devil's Proof with a frontal attack.`[@][lv 0*"11"*"42000384"]` And that was part of the witch's plan from the beginning."`[\]
+lss s0_25,"ber","a11_defo2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_ber
+*d22726
+d [lv 0*"28"*"42100054"]`"The message bottle is information observed in the future after 1986.`[@][lv 0*"28"*"42100055"]` .........It cannot be observed by {f:5:Beatrice} or Battler.`[@][lv 0*"28"*"42100056"]` ...It can only be observed by {f:5:Ange Beatrice}."`[\]
+lss s0_23,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_enj
+*d22727
+d [lv 0*"11"*"42000385"]`"......In truth, I didn't want to investigate the message bottle.`[@][lv 0*"11"*"42000386"]` ...After all, reading it would be like listening to the witch's side of the story.`[@][lv 0*"11"*"42000387"]` Since I've been ignoring all that mad raving about a witch theory, I thought of it as nothing more than a waste of time."`[\]
+lss s0_23,"enj","a11_defo1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+*d22728
+d [lv 0*"11"*"42000388"]`"......But Okonogi‐san told me.`[@][lv 0*"11"*"42000389"]` You can't see things in three dimensions with only one eye."`[\]
+lss s0_25,"ber","a11_defo1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_ber
+*d22729
+d [lv 0*"28"*"42100057"]`"You mean that at the same time as looking at it from the viewpoint of denying witches, you must also look at it from the viewpoint of accepting witches?`[@][lv 0*"28"*"42100058"]` ......That is the correct way to think.`[@][lv 0*"28"*"42100059"]` The number of viewpoints is like a denominator.`[@][lv 0*"28"*"42100060"]` If the number of viewpoints is 1, the mystery in the numerator doesn't decrease in the slightest.`[@][lv 0*"28"*"42100061"]` However, the more your number of viewpoints increases, the more the mystery begins to be divided."`[\]
+lss s0_23,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_enj
+*d22730
+d [lv 0*"11"*"42000390"]`"I know that.`[@][lv 0*"11"*"42000391"]` ......The message bottle that washed up on a neighboring island several years after the crime.`[@][lv 0*"11"*"42000392"]` It passed into the hands of a dilettante.`[@][lv 0*"11"*"42000393"]` I've made an appointment, just in case."`[\]
+csp_slot s0_21
+csp_slot s0_22
+csp_slot s0_25
+csp_slot s0_23
+textoff
+waits 167
+lbg s0_3,"white"
+flush 22
+meplay 1,30,71
+textoff
+waits 167
+lbg s0_3,"car_i3c"
+flush 22
+msgwnd_non
+*d22731
+d `...I was able to hear Aunt Eva's side from Okonogi‐san.`[\]
+*d22732
+d `Next...would be the witch.`[@]` Why not, I'll listen.`[@]`{n}To what {f:5:Beatrice} has to say...!`[\]
+break_glass
+wait 500
+display_clock 1470,740,50,891,891,0,0
+wait 1667
+flush 10,500
+wait 83
+ch_done flag_scenario_4_3

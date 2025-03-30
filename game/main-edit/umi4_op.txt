@@ -1,0 +1,611 @@
+*umi4_op
+;オープニング
+log_reset
+mov $name_chapter_r_click,r_click_chapters_4_op
+mov $name_chapter_save, "4_op"
+new_episode 4
+gstc 203
+flush 10,167
+textoff
+waits 167
+lbg s0_3,"black"
+flush 2
+vol_mix_fade 1000
+wait 1000
+textoff
+waits 167
+seplay 1,28,100
+textoff
+waits 167
+lbg s0_3,"text001"
+flush 1
+wait 6000
+textoff
+waits 167
+lbg s0_3,"black"
+flush 2
+meplay 2,5,0
+vol_me 2,70,3000
+wait 3000
+bgmplay 4,0,0
+meplay 1,1,0
+vol_me 1,70,4000
+vol_me 2,40,4000
+wait 4000
+seplay 1,28,100
+textoff
+waits 167
+lbg s0_3,"oct_4_1986"
+flush 80
+wait 3000
+textoff
+waits 167
+lbg s0_3,"white"
+flush 42
+vol_bgm 70,7000
+vol_me 2,0,7000
+wait 7000
+textoff
+waits 167
+lbg s0_3,"airp_w1d"
+flush 22
+wait 3000
+textoff
+waits 167
+lbg s0_3,"white"
+flush 2
+textoff
+waits 167
+lbg s0_3,"airp_w1j"
+flush 22
+wait 1500
+seplay 1,4,71
+waits 167
+seplay 2,20,71
+agpt quakeycycle,67
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+seplay 3,20,71
+agpt quakexcycle,67
+agpt quakexamp,30
+agpt quakexamp,0,500,1
+rumble 63,500
+gptwait quakexamp
+seplay 1,12,71
+seplay 2,3,71
+vol_bgm -1,1000
+vol_me 1,-1,1000
+vol_me 2,-1,1000
+textoff
+waits 167
+lbg s0_3,"white"
+flush 1
+agpt quakeycycle,100
+agpt quakeyamp,30
+agpt quakeyamp,0,667,1
+rumble 63,500
+gptwait quakeyamp
+wait 1000
+bgmplay 2,71,0
+textoff
+waits 167
+lbg s0_3,"air_in1e"
+lss s0_10,"hid","a21_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 5
+lss s0_10,"hid","a21_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_hid
+*d21584
+d [lv 0*"06"*"41100001"]`"Wahahahaha, you alright, Battler‐kun...?!`[@][lv 0*"06"*"41100002"]` We're already on the ground, y'know, you can't fall any further than that, wahahahaha...!"`[\]
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"air_in1e"
+lss s0_9,"mar","a22_warai2" ;1
+flush 24
+msgwnd_mar
+*d21585
+d2 [lv 0*"13"*"40400001"]`"Uu, *giggle*giggle*!`[@][#][*][lv 0*"13"*"40400002"]` Gonna faaall, gonna faaall, *giggle*giggle*!"`[#][*][\]
+wait_on_d 0
+csp_slot s0_9
+flush 10,167
+d_continue
+wait_on_d 1
+seplay 1,3,71
+agpt quakexcycle,50
+agpt quakexamp,30
+agpt quakexamp,0,667,1
+rumble 63,500
+gptwait quakexamp
+seplay 2,4,71
+agpt quakeycycle,33
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+seplay 3,4,71
+agpt quakexcycle,67
+agpt quakexamp,30
+agpt quakexamp,0,667,1
+rumble 63,500
+gptwait quakexamp
+d_continue
+wait_on_d -1
+msgwnd_non
+*d21586
+d `In the lobby of the Niijima airport, Maria dashed around in excitement.`[@]`{n}Battler's uproar in the plane must have been very funny to her.`[\]
+lss s0_10,"ros","a32_ikari3" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ros
+*d21587
+d2 [lv 0*"12"*"41400001"]`"Hey, Maria!`[@][lv 0*"12"*"41400002"]` That's enough!`[@][#][*][lv 0*"12"*"41400003"]` ...Sorry, Battler‐kun.`[@][lv 0*"12"*"41400004"]` Don't take it badly."`[\]
+wait_on_d 0
+lss s0_10,"ros","a13_komaru3" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_8,"rud","a11_akuwarai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_rud
+*d21588
+d [lv 0*"08"*"41200001"]`"Man, you're {i:pathetic}.`[@][lv 0*"08"*"41200002"]` A grown‐ass man like you still can't handle vehicles?"`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_10,"but","b23_odoroki2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_but
+*d21589
+d [lv 0*"10"*"40100001"]`"Urgh, shut up...`[@][lv 0*"10"*"40100002"]` All humans have one or two things they can't handle..."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"air_in1e"
+lss s0_8,"eva","a11_warai1" ;1
+aspt2 xpos,s0_8,-370
+flush 23
+msgwnd_eva
+*d21590
+d [lv 0*"05"*"41000001"]`"Battler‐kun, why don't you come with your aunt on an overseas trip sometime soon?`[@][lv 0*"05"*"41000002"]` What about Europe?`[@][lv 0*"05"*"41000003"]` I'm sure you'd conquer your fears after the half‐day plane trip.`[@][lv 0*"05"*"41000004"]` *giggle*giggle*giggle*!"`[\]
+lss s0_10,"geo","a12_komaru3" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_geo
+*d21591
+d [lv 0*"07"*"40300001"]`"...Stop it, Mother.`[@][lv 0*"07"*"40300002"]` I'm sure Battler‐kun's dislike for vehicles is inherited."`[\]
+csp_slot s0_8
+flush 10,167
+lss s0_8,"kir","a11_defo1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_kir
+*d21592
+d [lv 0*"09"*"41300001"]`"Oh, from Asumu‐san?"`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_10,"rud","a11_defo2" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_rud
+*d21593
+d2 [lv 0*"08"*"41200003"]`"......For some reason, she just couldn't handle vehicles.`[@][lv 0*"08"*"41200004"]` Pretty much anything other than a bicycle or a car.`[@][#][*][lv 0*"08"*"41200005"]` Whenever we tried to take a trip somewhere far away, that woman was so annoying with the "no not this, no not that,`[@][lv 0*"08"*"41200006"]` I'm scared I'm scared, I'm going to fall I'm going to fall, scream scream"."`[\]
+wait_on_d 0
+lss s0_10,"rud","a11_warai1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_9,"geo","a11k_defo1k" ;1
+flush 10,167
+msgwnd_geo
+*d21594
+d2 [lv 0*"07"*"40300003"]`"Children tend to learn that things which their parents can't seem to handle are dangerous.`[@][#][*][lv 0*"07"*"40300004"]` Battler‐kun must have seen Asumu‐san doing something like that and learned that vehicles are scary."`[\]
+wait_on_d 0
+lss s0_9,"geo","a11_hohoemi1" ;1
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_8,"kir","a11_futeki1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_kir
+*d21595
+d [lv 0*"09"*"41300002"]`"*giggle*giggle*.`[@][lv 0*"09"*"41300003"]` Could it be Asumu‐san's genes, I wonder?"`[\]
+csp_slot s0_9
+csp_slot s0_10
+flush 10,167
+lss s0_9,"rud","a13_defo2" ;1
+flush 10,167
+msgwnd_rud
+*d21596
+d2 [lv 0*"08"*"41200007"]`"Beats me.`[@][lv 0*"08"*"41200008"]` Those'd be some damned annoying genes.`[@][#][*][lv 0*"08"*"41200009"]` .........Stop talking about Asumu.`[@][lv 0*"08"*"41200010"]` Right now, the one who's here is you.`[@][lv 0*"08"*"41200011"]` Right?"`[\]
+wait_on_d 0
+lss s0_9,"rud","a12_majime2" ;1
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_8,"kir","a11_nayamu1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_kir
+*d21597
+d [lv 0*"09"*"41300004"]`"...You're right, sorry."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+lbg s0_3,"black"
+flush 24
+textoff
+waits 167
+lbg s0_3,"air_in1e"
+lss s0_10,"hid","a21_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 24
+msgwnd_hid
+*d21598
+d [lv 0*"06"*"41100003"]`"Heyyy, the cars are here!`[@][lv 0*"06"*"41100004"]` Exactly three of 'em.`[@][lv 0*"06"*"41100005"]` All in, all in!"`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_8,"mar","a22_warai2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_mar
+*d21599
+d2 [lv 0*"13"*"40400003"]`"Gonna fall, gonna faaall!!`[@][lv 0*"13"*"40400004"]` Where's the parachuuute, where's the parachuuuute!!`[@][#][*][lv 0*"13"*"40400005"]` Uu‐uu, *giggle*!!"`[#][*][\]
+wait_on_d 0
+csp_slot s0_8
+flush 10,167
+d_continue
+wait_on_d 1
+seplay 1,3,71
+agpt quakexcycle,67
+agpt quakexamp,30
+agpt quakexamp,0,1000,1
+rumble 63,500
+gptwait quakexamp
+d_continue
+wait_on_d -1
+lss s0_9,"but","b22_odoroki2" ;1
+flush 10,167
+msgwnd_but
+*d21600
+d2 [lv 0*"10"*"40100003"]`"You little rapscallio~n!!`[@][lv 0*"10"*"40100004"]` Wait, wait, come back here, you!`[@][#][*][lv 0*"10"*"40100005"]` I'll sentence you to the tickle punishme~nt!!"`[#][*][\]
+wait_on_d 0
+csp_slot s0_9
+flush 10,167
+d_continue
+wait_on_d 1
+seplay 1,3,71
+agpt quakexcycle,67
+agpt quakexamp,30
+agpt quakexamp,0,1000,1
+rumble 63,500
+gptwait quakexamp
+seplay 2,5,71
+agpt quakeycycle,50
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+seplay 3,4,71
+agpt quakeycycle,50
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+d_continue
+wait_on_d -1
+textoff
+waits 167
+lbg s0_3,"air_in1e"
+lss s0_10,"eva","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 23
+msgwnd_eva
+*d21601
+d [lv 0*"05"*"41000005"]`"Ehheheheheh.`[@][lv 0*"05"*"41000006"]` It's good that they're in high spirits.`[@][lv 0*"05"*"41000007"]` If Battler‐kun and Maria‐chan weren't there, the atmosphere in that plane would have been very stiff."`[\]
+lss s0_8,"rud","a11_defo2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_rud
+*d21602
+d2 [lv 0*"08"*"41200012"]`"Thanks.`[@][lv 0*"08"*"41200013"]` I'll take that at face value.`[@][#][*][lv 0*"08"*"41200014"]` ......Hey, brats!`[@][lv 0*"08"*"41200015"]` The taxis are here!`[@][lv 0*"08"*"41200016"]` Save the games for later."`[\]
+wait_on_d 0
+lss s0_8,"rud","a11_warai2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"white"
+flush 24
+meplay 1,5,40
+textoff
+waits 167
+lbg s0_3,"air_out2b"
+lss s0_9,"mar","a22_warai2" ;1
+flush 24
+msgwnd_mar
+*d21603
+d [lv 0*"13"*"40400006"]`"Uu‐uu!!`[@][lv 0*"13"*"40400007"]` Taxiii, taxiii!!`[@][lv 0*"13"*"40400008"]` I'm gonna be first iiiiin!`[@][lv 0*"13"*"40400009"]` *giggle*!!"`[\]
+lss s0_10,"ros","a12_nayamu1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_ros
+*d21604
+d [lv 0*"12"*"41400005"]`"Hey!`[@][lv 0*"12"*"41400006"]` Maria, and you too, Battler‐kun, stop fooling around!`[@][lv 0*"12"*"41400007"]` You'll bump into someone!"`[\]
+msgwnd_non
+*d21605
+d `The tone of Aunt Rosa's voice became a little frightening.`[\]
+*d21606
+d `Battler, too, had started to think that perhaps he really was fooling around too much...when, just as expected, he bumped into someone.`[\]
+seplay 1,13,71
+textoff
+waits 167
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_3,"white"
+flush 1
+agpt quakeycycle,83
+agpt quakeyamp,30
+agpt quakeyamp,0,667,1
+rumble 63,500
+gptwait quakeyamp
+textoff
+waits 167
+lbg s0_3,"air_out2b"
+lss s0_8,"but","b22_odoroki2" ;1
+aspt2 xpos,s0_8,-370
+flush 22
+msgwnd_but
+*d21607
+d [lv 0*"10"*"40100006"]`"Oh, sorry..."`[\]
+lss s0_10,"geo","a11k_warai1k" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_geo
+*d21608
+d [lv 0*"07"*"40300005"]`"Battler‐kun, your family is going in the car over there.`[@][lv 0*"07"*"40300006"]` You're keeping them waiting."`[\]
+msgwnd_non
+*d21609
+d `Rushed on by George, Battler made an apologetic gesture to the person he had bumped into and ran up to his parents, who were telling him to come quickly.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 2
+*d21610
+d `With clunking sounds, the doors on the three taxis were shut one after another, and they departed, heading for the harbor......`[\]
+textoff
+waits 167
+vol_bgm 0,4000
+vol_me 1,70,4000
+wait 4000
+textoff
+waits 167
+lbg s0_3,"air_out2b"
+flush 2
+*d21611
+d `......As their taxis dashed away...`[\]
+*d21612
+d `...the entire world grew suddenly dull,`[!w583]` ......and slowed to a halt.`[\]
+textoff
+waits 167
+vol_mix_fade 3000
+vol_bgm -1,3000
+wait 3000
+wait 1000
+bgmplay 49,71,0
+gstc 204
+textoff
+waits 167
+lbg s0_3,"air_out2b"
+color_mod2 s0_3,#ffffff
+flush 48
+*d21613
+d `Voices, the wind, and even sound—`[@]`absolutely everything ceased, and as if they had been frozen in the instant a photo was taken, everything moving or about to move...`[@]`...stopped.`[\]
+*d21614
+d `People, machines, clock hands, even the dust dancing in the wind—frozen.`[@]`{n}People who were in the middle of walking—frozen, with one foot still raised.`[@]`{n}Scraps of paper dancing in the wind—frozen, pinned in midair.`[\]
+*d21615
+d `......And among these stationary figures in this world that had come to a standstill, a single one...moved.`[\]
+textoff
+waits 167
+wait 2000
+lss s0_23,"enj","a11_komaru1" ;1
+aspt2 xpos,s0_23,370
+flush 42
+*d21616
+d `It was a woman.`[@]` The very woman that Battler had just bumped into...`[\]
+*d21617
+d `It was truly the slightest of movements.`[\]
+*d21618
+d `Her gaze dropped, her shoulders lowered a minuscule amount, and she sighed.`[@]`{n}...That was all.`[\]
+*d21619
+d `In a normal world, that probably wouldn't even count as movement,`[@]` but in this still world, it looked very out of place.`[\]
+*d21620
+d `...Then something else moved.`[@]`{n}It was a black cat that had been dozing in the shadows near the taxi rank.`[\]
+*d21621
+d `It came up right behind the woman,`[@]` ......and leisurely...changed its form into that of a {y:0:Human}{n:0:human}.`[\]
+textoff
+waits 167
+seplay 1,52,40
+lss s0_25,"ber","a11_defo1" ;1
+aspt2 xpos,s0_25,-370
+aspt2 breakup,s0_25,1000
+aspt2 alpha,s0_25,0
+flush 1
+aspt2 breakup,s0_25,0,3000
+aspt2 alpha,s0_25,255,3000
+sptwait2 breakup,s0_25
+*d21622
+d `It wasn't a cat.`[@]` It was a witch.`[@]`{n}Of course, the woman was also a witch.`[\]
+*d21623
+d `As the witch stood there, her gaze still downwards, she muttered...`[\]
+lss s0_23,"enj","a31_komaru3" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_enj
+*d21624
+d [lv 0*"11"*"42000001"]`".........I can't stop them...`[|][lv 0*"11"*"42000002"]`...from going to Rokkenjima, can I..."`[\]
+lss s0_25,"ber","a11_defo2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_ber
+*d21625
+d [lv 0*"28"*"42100001"]`"You cannot.`[@][lv 0*"28"*"42100002"]` On October 4th, 1986, you are not here."`[\]
+lss s0_23,"enj","a11_komaru2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_enj
+*d21626
+d [lv 0*"11"*"42000003"]`"......So if I had been here, it might even have been possible to stop them all from going...?"`[\]
+lss s0_25,"ber","a11_defo1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_ber
+*d21627
+d [lv 0*"28"*"42100003"]`"What verbal acrobatics a six‐year‐old girl could possibly perform to persuade them to turn back,`[@][lv 0*"28"*"42100004"]` I can't even imagine.`[@][lv 0*"28"*"42100005"]` ......But yes.`[@][lv 0*"28"*"42100006"]` If you had been in this place, the probability wouldn't have been zero.`[@][lv 0*"28"*"42100007"]` If there is a probability other than zero, I can find a miracle."`[\]
+textoff
+waits 167
+csp_slot s0_25
+csp_slot s0_23
+lbg s0_3,"black"
+flush 22
+msgwnd_enj
+*d21628
+d [lv 0*"11"*"42000004"]`"......If I hadn't been sick,`[|][lv 0*"11"*"42000005"]` ...and they hadn't left me behind......"`[\]
+msgwnd_non
+*d21629
+d `With her head facing downwards, the witch tightened her fists...`[@]`{n}...They were trembling very slightly.`[\]
+meplay 1,16,50
+textoff
+waits 167
+lbg s0_3,"different_spiral_1a"
+flush 8
+msgwnd_ber
+*d21630
+d [lv 0*"28"*"42100008"]`"You were sick in bed starting October 3rd, 1986.`[@][lv 0*"28"*"42100009"]` And Beato's game board is a snippet of time beginning on October 4th.`[@][lv 0*"28"*"42100010"]` ......You are not given the possibility of not getting sick.`[@][lv 0*"28"*"42100011"]` ...In other words, you are fundamentally an existence which can never step up onto the game board."`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_3,"sky_1a"
+color_mod2 s0_3,#ffffff
+flush 22
+msgwnd_enj
+*d21631
+d [lv 0*"11"*"42000006"]`"Thanks for being so patronizing.`[@][lv 0*"11"*"42000007"]` ......I'm aware of that.`[@][lv 0*"11"*"42000008"]` ......I know that just seeing Mom, Dad,`[|][lv 0*"11"*"42000009"]` .........and Onii‐chan healthy and happy like this,`[|][lv 0*"11"*"42000010"]` ......that alone...`[@][lv 0*"11"*"42000011"]`...is a very wonderful miracle...`[|][lv 0*"11"*"42000012"]` .........I know that all too well..."`[\]
+msgwnd_non
+*d21632
+d `Ange had been trying to stand in the way of her family, and prevent them from going outside the airport, ......towards Rokkenjima.`[\]
+*d21633
+d `...But that was impossible for Ange, who could not exist there on October 4th, 1986.`[\]
+*d21634
+d `Just receiving a shoulder‐bump and words of apology from her older brother...`[\]
+*d21635
+d `...Even though he hadn't known that she was his sister,`[!w583]` ...that was still such a miracle,`[!w500]` ......it could have moved her to tears......`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 5
+vol_bgm -1,3000
+wait 3000
+textoff
+waits 167
+lbg s0_3,"air_out2b"
+color_mod2 s0_3,#ffffff
+lss s0_23,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_23,370
+flush 25
+msgwnd_enj
+*d21636
+d [lv 0*"11"*"42000013"]`"............I'm sorry for the sarcasm.`[@][lv 0*"11"*"42000014"]` I won't waste the miracle you've given me."`[\]
+lss s0_25,"ber","a11_defo2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_ber
+*d21637
+d [lv 0*"28"*"42100012"]`"I'm glad to hear it.`[@][lv 0*"28"*"42100013"]` ......Now, let's go with them.`[@][lv 0*"28"*"42100014"]` To Rokkenjima.`[@][lv 0*"28"*"42100015"]` Soon, all of the pieces will be gathered.`[@][lv 0*"28"*"42100016"]` ......The curtain will open on the fourth game.`[@][lv 0*"28"*"42100017"]` Beato and Battler will already be seated by now."`[\]
+seplay 1,21,50
+textoff
+waits 167
+csp_slot s0_25
+csp_slot s0_23
+lbg s0_3,"black"
+flush 2
+msgwnd_enj
+*d21638
+d [lv 0*"11"*"42000015"]`"......To Rokkenjima......`[@][lv 0*"11"*"42000016"]` ............To the day my...`[|][lv 0*"11"*"42000017"]`no,`[|][lv 0*"11"*"42000018"]` ......the day {i:everyone's} fates changed...October 4th, 1986,`[|][lv 0*"11"*"42000019"]` ...on Rokkenjima........."`[\]
+msgwnd_non
+*d21639
+d `...What happened on that day?`[@]`{n}I will expose that.`[@]` Learn that.`[@]` And I'll take them back...!`[\]
+meplay 2,5,71
+textoff
+waits 167
+lbg s0_3,"white"
+flush 22
+textoff
+waits 167
+lbg s0_3,"sky_1a"
+color_mod2 s0_3,#ffffff
+flush 26
+*d21640
+d `As she stood there with her fists still clenched, she surely turned her face to the heavens.`[@]`{n}A single teardrop from the depths of her eyes dripped down into the air.`[\]
+textoff
+waits 167
+seplay 1,52,50
+textoff
+waits 167
+lbg s0_3,"black"
+spriteset_enable 1
+textoff
+waits 167
+lbg s1_3,"sky_1a"
+color_mod2 s1_3,#ffffff
+aspritesetpt breakup,1,0
+flush 1
+aspritesetpt breakup,1,1000,3000
+spritesetptwait breakup,1
+reset_set 1
+csp -11
+flush 1
+*d21641
+d `And when time started moving again, the two witches' figures were sucked into a blowing gale, and erased in an instant.`[\]
+textoff
+waits 167
+meplay 3,17,0
+meplay 4,14,0
+meplay 5,13,0
+vol_me 1,100,6000
+vol_me 2,100,6000
+vol_me 3,100,6000
+vol_me 4,100,6000
+vol_me 5,100,6000
+wait 6000
+wait 1000
+vol_mix_fade 1000
+wait 1000
+textoff
+waits 167
+skip_off
+pam 749,"op",0
+skip_on
+textoff
+waits 167
+wait 2000
+ch_done flag_scenario_4_op

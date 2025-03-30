@@ -1,0 +1,1238 @@
+*ura_teatime_3
+log_reset
+mov $name_chapter_r_click,r_click_chapters_3_ura
+mov $name_chapter_save, "3_ura"
+new_ura 3
+gstt 16
+gstc 321
+flush 10,167
+textoff
+waits 167
+vol_mix_fade 1000
+wait 1000
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+wait 2000
+textoff
+waits 167
+lbg s0_3,"oct_4_1998b"
+flush 22
+wait 6000
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+seplay 1,28,90
+textoff
+waits 167
+lbg s0_3,"oct_4_1998"
+flush 1
+wait 6000
+bgmplay 1,71,0
+textoff
+waits 167
+lbg s0_3,"hos_r1am"
+flush 2
+*d32223
+d `A monotonous electronic sound kept on repeating.`[\]
+*d32224
+d `The theme of that room was a so‐called "hygienic" emotionless white.`[@]`{n}...It was a room of a certain university hospital.`[\]
+*d32225
+d `An ordinary person wouldn't be able to afford the cost of even a single night in this room,`[@]` a room which neither her doctors, nor she herself, had any doubts would be the last she ever stayed in...`[\]
+textoff
+waits 167
+lbg s0_3,"hos_r1cm"
+flush 2
+*d32226
+d `Was the person on the bed...`[!w667]`............Eva?`[\]
+*d32227
+d `She looked haggard and aged, to the point that you would not believe it was her, unless you were told.`[\]
+*d32228
+d `A well‐built man in a suit, waiting in the corner near the door, was having a conversation with the outside in a low voice, over the intercom.`[\]
+*d32229
+d `...He was a guard protecting Eva's person.`[\]
+*d32230
+d `After telling the person on the other end of the intercom to wait, he approached Eva's bed.`[\]
+*d32231
+d `...Eva had been awake for a while.`[\]
+*d32232
+d `......However, she stared at a single point in empty space, as though her mind was not in the same place.`[\]
+textoff
+waits 167
+lbg s0_3,"hos_r1am"
+flush 22
+*d32233
+d [lv 0*"99"*"gurma9001"]`"......Ange ({p:0:縁寿})‐san has arrived in the lobby below.`[@][lv 0*"99"*"gurma9002"]` Should we let her pass?"`[\]
+msgwnd_eva
+*d32234
+d `"................................."`[\]
+msgwnd_non
+*d32235
+d `For a long time, Eva didn't answer.`[\]
+*d32236
+d `However, bit by bit, her eyes began to regain their focus, and she gave a small nod, indicating that she didn't mind if they called Ange.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+*d32237
+d `...Eva herself had been the one to call her.`[@]` And she was right on time.`[\]
+*d32238
+d `Eva now refused to meet anyone without an appointment made in advance.`[\]
+*d32239
+d `The reason the room was dark, even though it was still light outside, was because the curtains were closed.`[\]
+*d32240
+d `...There was always one guard waiting in the room, and three more waiting in the corridor and the lobby.`[\]
+*d32241
+d `They were all there to protect Eva's person...`[\]
+textoff
+waits 167
+seplay 1,19,100
+wait 1000
+textoff
+waits 167
+lbg s0_3,"hos_r1am"
+flush 22
+*d32242
+d `Eventually, there was the sound of a knock.`[\]
+*d32243
+d `Also, there was a message from the intercom that the guest's body check had been completed with no problems.`[\]
+*d32244
+d2 `The door was unlocked, then opened,`[#][*][!w500]` .........and a woman of about high‐school age was standing there.`[\]
+wait_on_d 0
+seplay 2,16,71
+d_continue
+wait_on_d -1
+textoff
+waits 167
+lbg s0_3,"hos_r1cm"
+flush 25
+*d32245
+d [lv 0*"99"*"gurma9003"]`"Chairman.`[@][lv 0*"99"*"gurma9004"]` Ange‐san has arrived."`[\]
+*d32246
+d `Eva reacted and turned her face towards the guest.`[\]
+*d32247
+d `However, instead of reacting to the guard's call, maybe it would be better to say that she reacted to the smell of Ange's makeup.`[\]
+*d32248
+d `......Having been shut up in this room for so long, Eva was sensitive to small changes in smell.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+vol_mix_fade 2000
+vol_bgm -1,2000
+wait 2000
+textoff
+waits 167
+lbg s0_3,"hos_r1am"
+flush 26
+msgwnd_eva
+*d32249
+d2 [lv 0*"05"*"91000004"]`"........................`[@][lv 0*"05"*"91000005"]` So you came.`[@][#][*][lv 0*"05"*"91000006"]` ......Ange."`[\]
+wait_on_d 0
+gstc 322
+seplay 9,1060,70
+d_continue
+wait_on_d -1
+bgmplay 10,71,0
+lss s0_9,"enj","a11_defo1" ;1
+flush 10,167
+msgwnd_enj
+*d32250
+d [lv 0*"11"*"92000001"]`"......Yes, I did.`[@][lv 0*"11"*"92000002"]` You did call me."`[\]
+msgwnd_non
+*d32251
+d `On Eva's face, you couldn't find the expression of one warmly welcoming their niece.`[@]`{n}...And on Ange's face, you couldn't see the expression of one pleased to see their aunt.`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 22
+*d32252
+d `Eva waved her arm, which had grown as thin as a withered branch, and motioned for the guard to leave.`[\]
+*d32253
+d `The guard bowed silently and went out into the hall.`[\]
+textoff
+waits 167
+lbg s0_3,"hos_r1am"
+flush 23
+lss s0_8,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d32254
+d [lv 0*"11"*"92000003"]`"......It's not only stuffy, but dark too.`[@][lv 0*"11"*"92000004"]` Why don't you have the curtains opened...?"`[\]
+msgwnd_eva
+*d32255
+d [lv 0*"05"*"91000007"]`"...............And then the hitman you hired will shoot through the window, is that what you're planning......?"`[\]
+lss s0_8,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d32256
+d [lv 0*"11"*"92000005"]`".........If it came to that, I'd much rather be the one paid to do the hit.`[@][lv 0*"11"*"92000006"]` All I'd have to do is relax at home for a month and the job would take care of itself."`[\]
+msgwnd_eva
+*d32257
+d [lv 0*"05"*"91000008"]`"...Heheheheh, hahhahhahhahha......"`[\]
+msgwnd_non
+*d32258
+d `Their discussion was quite morbid for an aunt and niece.`[\]
+*d32259
+d `...However, they didn't look like they were joking.`[@]`{n}......At the very least, Eva did believe that someone was after her life.`[\]
+textoff
+waits 167
+csp_slot s0_8
+lbg s0_3,"black"
+flush 25
+meplay 1,16,50
+textoff
+waits 167
+lbg s0_3,"gold2"
+flush 2
+*d32260
+d `All of the Ushiromiya family's massive fortune had come into the possession of Ushiromiya Eva.`[\]
+*d32261
+d `...It was said that this fortune also included the ten tons of hidden gold that Ushiromiya Kinzo was rumored to have kept concealed.`[\]
+*d32262
+d `They could do nothing while this vast wealth was in the hands of the cunning, sly, and extremely suspicious Eva,`[@]` ......but it was rumored that if it passed on to Ange, who was no more than a young girl, certain people were plotting to snatch it away at once.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_3,"m_o1a"
+color_mod2 s0_3,#ffffff
+flush 2
+*d32263
+d `By now, Eva and Ange were Kinzo's only descendants.`[@]`{n}......If Eva died, all of the wealth would go to Ange.`[\]
+*d32264
+d `...And if Ange were to be killed as well,`[@]` ......that wealth would go to the family of Ange's mother, Kyrie.`[\]
+*d32265
+d `In this sense, not only Eva, but Ange as well,`[@]` ...was in a position where it wouldn't be odd at all for her life to be targeted by some unknown person.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+vol_me 1,-1,1000
+textoff
+waits 167
+lbg s0_3,"hos_r1cm"
+flush 26
+*d32266
+d `......And Eva had hated Ange for a long time.`[\]
+*d32267
+d `Because, after losing her precious only son George,`[@]` ......she had learned that the only one who had survived to inherit her own wealth...`[@]`was Ange, who had been absent from that family conference twelve years ago.`[\]
+*d32268
+d `Eva shunned Ange, hated her, even detested her.`[\]
+*d32269
+d `She isolated Ange in a special school, and separated her from the youth and happiness normal people have, trying to deprive her life of all opportunity.`[\]
+textoff
+waits 167
+lbg s0_3,"blood_2e"
+flush 22
+*d32270
+d `......However, Eva had succumbed to an incurable illness,`[@]` and ironically, ...her remaining life was estimated to be the same as Kinzo's had been at that family conference twelve years earlier...`[\]
+*d32271
+d `Both Eva and Ange...hated each other.`[\]
+*d32272
+d `Even though they were each other's last blood relatives, ...they hated each other so much that they hoped the other would die quickly...`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_3,"hos_r1am"
+lss s0_9,"enj","a11_defo1" ;1
+flush 26
+msgwnd_enj
+*d32273
+d [lv 0*"11"*"92000007"]`".........And?`[@][lv 0*"11"*"92000008"]` Why did you go to all the trouble of calling for me...?"`[\]
+msgwnd_eva
+*d32274
+d [lv 0*"05"*"91000009"]`"......I don't have much time left.`[@][lv 0*"05"*"91000010"]` ......These quack doctors still have no idea what I was poisoned with.`[@][lv 0*"05"*"91000011"]` .........But I know.`[@][lv 0*"05"*"91000012"]` I'm sure it's that secret assassination drug, the one that foreign intelligence agency was using."`[\]
+*d32275
+d [lv 0*"05"*"91000013"]`"...Ooh, I'm going to be killed, I'm going to be killed...!!`[@][lv 0*"05"*"91000014"]` Aren't you lucky, very soon, I will die, and then you will be so relieved...!"`[\]
+lss s0_9,"enj","a11_fuman2" ;1
+flush 10,167
+msgwnd_enj
+*d32276
+d [lv 0*"11"*"92000009"]`".................................`[@][lv 0*"11"*"92000010"]` ...What a pitiable person."`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 25
+msgwnd_non
+*d32277
+d `This always happened.`[@]`{n}......She immediately deviated from the main topic, distorting it into a more unsettling discussion.`[\]
+*d32278
+d `Eva, who was full of suspicion, believed that someone was always after her life.`[\]
+*d32279
+d `Indeed, after inheriting the vast wealth of the Ushiromiya family,`[@]` she had used wild methods just like Kinzo had done in the past, and had repeatedly made money by any means necessary, creating many enemies along the way.`[\]
+*d32280
+d `With a massive supply of capital, she had launched aggressive takeovers against businesses which were starting to have rapid growth,`[@]` making them buy it back at a high price under the guise of reconciliation.`[\]
+*d32281
+d `......Ironically, it was the same type of action that her husband's company had been hit with twelve years ago...`[\]
+*d32282
+d `She had repeated this constantly for the past twelve years.`[@]`{n}......She had also earned a lot of hatred.`[\]
+*d32283
+d `If her husband had heard of this from beyond the grave, he might have defended her, saying that this was because of the loneliness from losing her family.`[\]
+*d32284
+d `......However, no one who knew her now would come to her defense.`[\]
+textoff
+waits 167
+lbg s0_3,"hos_r1cm"
+flush 26
+*d32285
+d `For some time, Eva waxed eloquent about exactly how her life was being targeted,`[@]` listing off names of people who likely held hatred for her,`[@]` and sneering at the fact that she still hadn't been killed.`[\]
+*d32286
+d `Even when Ange heard her own name included in that list,`[@]` her expression did not change significantly, and she waited indifferently for Eva to tire herself out...`[\]
+meplay 1,16,50
+textoff
+waits 167
+lbg s0_3,"hos_r1am"
+flush 22
+msgwnd_eva
+*d32287
+d [lv 0*"05"*"91000015"]`".........You know what?`[|][lv 0*"05"*"91000016"]` ............I really hate...`[@][lv 0*"05"*"91000017"]`you."`[\]
+msgwnd_enj
+*d32288
+d [lv 0*"11"*"92000011"]`"I'm honored.`[@][lv 0*"11"*"92000012"]` Same here."`[\]
+msgwnd_eva
+*d32289
+d [lv 0*"05"*"91000018"]`".........I built this future for George's sake.`[@][lv 0*"05"*"91000019"]` ......To think that it would be snatched away by you.`[@][lv 0*"05"*"91000020"]` ...To think that it would be stolen by Rudolf's daughter...`[@][lv 0*"05"*"91000021"]` .........I can't bear it.`[@][lv 0*"05"*"91000022"]` ......To think that not only will I not leave a child,`[|][lv 0*"05"*"91000023"]` ...but even my fortune will be stolen,`[|][lv 0*"05"*"91000024"]` .........that, to me, is just...`[|][lv 0*"05"*"91000025"]`...unforgivable............!"`[\]
+msgwnd_enj
+*d32290
+d [lv 0*"11"*"92000013"]`"......In that case, why don't you give all of your fortune to charity?`[@][lv 0*"11"*"92000014"]` What happened to all those religious people you've requested so many times?"`[\]
+msgwnd_eva
+*d32291
+d [lv 0*"05"*"91000026"]`"............*cackle*cackle*cackle*!`[@][lv 0*"05"*"91000027"]` They all say the same thing.`[@][lv 0*"05"*"91000028"]` ...My excessive wealth has become a burden to me.`[@][lv 0*"05"*"91000029"]` They always say something about how I need to give it up and cleanse myself.`[@][lv 0*"05"*"91000030"]` ......Ahha{0}ha{0}ha{0}ha{0}ha{0}ha{0}hahaha!`[@][lv 0*"05"*"91000031"]` And then the idea came to me.`[@][lv 0*"05"*"91000032"]` To stop donating!"`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 25
+vol_me 1,-1,1000
+msgwnd_non
+*d32292
+d `For a time, Eva had invited in the founders of several strange new religious cults, perhaps looking for peace in her heart.`[\]
+*d32293
+d `...But in the end, they did not give her heart any relief,`[@]` and only further increased her suspicion...`[\]
+textoff
+waits 167
+lbg s0_3,"hos_r1am"
+lss s0_9,"enj","a11_nayamu1" ;1
+flush 26
+lss s0_9,"enj","a11_defo1" ;1
+flush 10,167
+msgwnd_enj
+*d32294
+d [lv 0*"11"*"92000015"]`".........If you've got money to burn, why don't you start buying up thoroughbreds and make some corned beef?"`[\]
+msgwnd_eva
+*d32295
+d [lv 0*"05"*"91000033"]`"I've thought of something even more interesting.`[@][lv 0*"05"*"91000034"]` ......*cackle*cackle*cackle*cackle*!`[@][lv 0*"05"*"91000035"]` I've racked my brains over it a lot.`[@][lv 0*"05"*"91000036"]` What could I do to make things horrible for you?"`[\]
+*d32296
+d [lv 0*"05"*"91000037"]`"......I thought about just killing you.`[@][lv 0*"05"*"91000038"]` I also thought about erasing all of my wealth, leaving you penniless, and selling you off to a slave trader or something."`[\]
+*d32297
+d2 [lv 0*"05"*"91000039"]`"Wouldn't that be wonderful?`[@][lv 0*"05"*"91000040"]` You'd have your arms and legs chopped off and be forced to take customers until you died.`[@][lv 0*"05"*"91000041"]` Aaah, that too would be truly glorious,`[|][lv 0*"05"*"91000042"][#][*]` *cackle*cackle*cackle*cackle*!!"`[\]
+wait_on_d 0
+seplay 1,37,71
+d_continue
+wait_on_d -1
+lss s0_9,"enj","a11_fuman2" ;1
+flush 10,167
+msgwnd_enj
+*d32298
+d [lv 0*"11"*"92000016"]`"............Having fun?"`[\]
+msgwnd_eva
+*d32299
+d [lv 0*"05"*"91000043"]`"Oh, yes.`[@][lv 0*"05"*"91000044"]` It's fun to scare you...`[@][lv 0*"05"*"91000045"]` ......But very soon, I will die.`[@][lv 0*"05"*"91000046"]` ...So I thought about how I can continue to cause you pain even after I die."`[\]
+*d32300
+d [lv 0*"05"*"91000047"]`".........And then, ......*cackle*cackle*!`[@][lv 0*"05"*"91000048"]` It was surprisingly simple.`[@][lv 0*"05"*"91000049"]` ......I called you because I wanted to tell you about it."`[\]
+lss s0_9,"enj","a11_nayamu1" ;1
+flush 10,167
+msgwnd_enj
+*d32301
+d [lv 0*"11"*"92000017"]`".....................I have midterms coming up.`[@][lv 0*"11"*"92000018"]` Keep it brief."`[\]
+meplay 1,5,50
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 22
+msgwnd_eva
+*d32302
+d2 [lv 0*"05"*"91000050"]`"...I have decided.`[@][#][*][lv 0*"05"*"91000051"]` I will have you inherit all of my fortune."`[\]
+wait_on_d 0
+vol_bgm -1,1000
+d_continue
+wait_on_d -1
+msgwnd_enj
+*d32303
+d [lv 0*"11"*"92000019"]`".................................`[@][lv 0*"11"*"92000020"]` ...Huh."`[\]
+textoff
+waits 167
+lbg s0_3,"hos_r1am"
+flush 26
+msgwnd_eva
+*d32304
+d [lv 0*"05"*"91000052"]`"Not only that,`[|][lv 0*"05"*"91000053"]` ......I decided that until the very day that I die,`[|][lv 0*"05"*"91000054"]` ...I'll increase that fortune as much as I can, inflate it to massive proportions and have you inherit all of it.`[@][lv 0*"05"*"91000055"]` ...*cackle*cackle*, can you even imagine what that would be like...?"`[\]
+msgwnd_enj
+*d32305
+d [lv 0*"11"*"92000021"]`"......No idea.`[@][lv 0*"11"*"92000022"]` Because I'm stupid."`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+seplay 1,37,71
+msgwnd_eva
+*d32306
+d [lv 0*"05"*"91000056"]`"Ehhehhehheh, *cackle*cackle*cackle*cackle*!!`[@][lv 0*"05"*"91000057"]` No, you wouldn't have any idea, would you...!`[@][lv 0*"05"*"91000058"]` Look forward to it, it really is fun, being rich...!`[@][lv 0*"05"*"91000059"]` Every day, from morning till night, monsters from across Japan will come to play."`[\]
+bgmplay 16,71,0
+*d32307
+d [lv 0*"05"*"91000060"]`"From now on, your entire private life will be followed by talk shows and weekly magazines.`[@][lv 0*"05"*"91000061"]` The media criticize me no matter what I do or don't do!`[@][lv 0*"05"*"91000062"]` If I donate, they'll attack me as a bourgeois, and if I begrudge them that money, I'll be abused as a miser."`[\]
+*d32308
+d [lv 0*"05"*"91000063"]`"Oh, every day really is wonderful, you see?`[@][lv 0*"05"*"91000064"]` I realized that I would love to invite you to that kind of life, when you are so young and have so much ahead of you.`[@][lv 0*"05"*"91000065"]` Isn't that just to die for?"`[\]
+textoff
+waits 167
+lbg s0_3,"hos_r1am"
+lss s0_9,"enj","a11_defo1" ;1
+flush 26
+msgwnd_enj
+*d32309
+d [lv 0*"11"*"92000023"]`".........The public is right in its criticism of all that you've done."`[\]
+msgwnd_eva
+*d32310
+d [lv 0*"05"*"91000066"]`"*cackle*cackle*cackle*!!`[@][lv 0*"05"*"91000067"]` Yes, yes, I'm sure that they are.`[@][lv 0*"05"*"91000068"]` ...Go ahead, insult me as much as you want.`[@][lv 0*"05"*"91000069"]` And then you will be burdened with that criticism."`[\]
+*d32311
+d [lv 0*"05"*"91000070"]`"......Japanese culture says that good people live in honorable poverty, while the wealthy should die.`[@][lv 0*"05"*"91000071"]` No matter what you do or do not do, you will eventually be held up as a symbol of envy and hate from across Japan."`[\]
+*d32312
+d [lv 0*"05"*"91000072"]`"...*cackle*cackle*cackle*!`[@][lv 0*"05"*"91000073"]` I wonder how twisted your life will become after living this way...?"`[\]
+*d32313
+d [lv 0*"05"*"91000074"]`"You will have no allies!`[@][lv 0*"05"*"91000075"]` No one will listen to your worries.`[@][lv 0*"05"*"91000076"]` Insulting you will become a public sport.`[@][lv 0*"05"*"91000077"]` And no one can stop that!"`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+lss s0_9,"enj","a11_defo1" ;1
+flush 2
+*d32314
+d [lv 0*"05"*"91000078"]`"Oh, Ange!`[@][lv 0*"05"*"91000079"]` Ehheheheheheh,`[|][lv 0*"05"*"91000080"]` oh, I'm really looking forward to it.`[@][lv 0*"05"*"91000081"]` ...I wonder how you will live your life, and how you'll end it...!`[@][lv 0*"05"*"91000082"]` Relish your life of being unable to trust anyone in the world, love anyone, or talk with anyone...!!"`[\]
+*d32315
+d2 [lv 0*"05"*"91000083"]`"I'll be patiently waiting for you in hell, waiting for you to come falling down, bringing that story of hardship with you.`[@][lv 0*"05"*"91000084"]` Heheheheh,`[|][lv 0*"05"*"91000085"]` ahahhahahahahahahaha,`[|][lv 0*"05"*"91000086"]` waah‐hah‐hah‐hah‐hah‐hah‐hah‐hah‐hah,`[|][lv 0*"05"*"91000087"]` ghhkk,`[#][*][|][lv 0*"05"*"91000088"]` *cough*cough*,`[#][*][|][lv 0*"05"*"91000089"]` ghah!!"`[\]
+wait_on_d 0
+agpt quakeycycle,50
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+d_continue
+wait_on_d 1
+agpt quakeycycle,67
+agpt quakeyamp,30
+agpt quakeyamp,0,333,1
+rumble 63,500
+gptwait quakeyamp
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"hos_r1cm"
+flush 22
+vol_me 1,-1,1000
+msgwnd_non
+*d32316
+d `Her insane laughter turned into a painful cough.`[\]
+*d32317
+d `Without changing her expression in the slightest, looking completely unconcerned,`[!w583]` ......Ange stared at the only survivor of Rokkenjima.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 23
+textoff
+waits 167
+lbg s0_3,"hos_r1am"
+flush 23
+*d32318
+d `Perhaps because he found the violent coughing odd, the guard flew in as he gave a short knock on the door.`[\]
+*d32319
+d `Ange glanced at him, wordlessly showing that she hadn't moved a step from where she had been.`[\]
+*d32320
+d `......Ange was prepared for some kind of trap to frame her in Eva's death.`[@]` However, that was fortunately a needless anxiety.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 25
+textoff
+waits 167
+lbg s0_3,"hos_r1cm"
+flush 22
+*d32321
+d `As the guard rubbed Eva's back, he poured hot water from a thermos into a mug.`[\]
+*d32322
+d `As he did, Eva kept coughing, looking like she was in pain.`[\]
+*d32323
+d `Ange thought that this was probably the final form of the witch of Rokkenjima, and the last she would be able to see.`[\]
+textoff
+waits 167
+lbg s0_3,"hos_r1am"
+flush 2
+*d32324
+d `Eventually, Eva was able to moisten her throat and regain her normal breathing.`[@]`{n}...However, the glittering madness inside her eyes hadn't subsided in the slightest.`[\]
+msgwnd_eva
+*d32325
+d [lv 0*"05"*"91000090"]`"*cackle*cackle*cackle*cackle*cackle*cackle*cackle*!!`[@][lv 0*"05"*"91000091"]` That cursed mass of gold and the inheritance of the Ushiromiya headship,`[@][lv 0*"05"*"91000092"]` ......as well as...`[|][lv 0*"05"*"91000093"]`.........the name of the Golden Witch, {f:5:Beatrice}...`[|][lv 0*"05"*"91000094"]`are now yours.`[@][lv 0*"05"*"91000095"]` ............Enjoy your insane, twisted life fitting for the name of the witch...!"`[\]
+lss s0_9,"enj","a21_fuman1" ;1
+flush 10,167
+msgwnd_enj
+*d32326
+d [lv 0*"11"*"92000024"]`"I don't care about those.`[@][lv 0*"11"*"92000025"]` Enough of that, just tell me this.`[@][lv 0*"11"*"92000026"]` ......What happened on Rokkenjima that day?`[@][lv 0*"11"*"92000027"]` .........I don't believe that there was an accident.`[@][lv 0*"11"*"92000028"]` Tell me the truth about what happened that day, and why Mom and Dad and Nii‐san died......!!"`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 25
+msgwnd_eva
+*d32327
+d [lv 0*"05"*"91000096"]`"*cackle*cackle*...!`[@][lv 0*"05"*"91000097"]` Oh, that must be the best way to harass you, mustn't it?`[@][lv 0*"05"*"91000098"]` ......What happened on that day?`[@][lv 0*"05"*"91000099"]` What happened on this very day in 1986...?`[@][lv 0*"05"*"91000100"]` ......You want to know what they said before they died, ......don't youuuu...?"`[\]
+*d32328
+d2 [lv 0*"05"*"91000101"]`"I woOOn't tell yooOOOoouu,`[|][lv 0*"05"*"91000102"][#][*]` aaahh{0}hyah{0}hyah{0}hyah{0}hyah!!`[@][lv 0*"05"*"91000103"]` I'll leave behind the cursed gold!`[@][lv 0*"05"*"91000104"]` But you know what? I'll take the truth you desire with me to hell...!`[@][lv 0*"05"*"91000105"]` That's the best way I can harass you!!"`[\]
+wait_on_d 0
+seplay 1,37,100
+d_continue
+wait_on_d -1
+*d32329
+d2 [lv 0*"05"*"91000106"]`"Upset?`[@][lv 0*"05"*"91000107"]` If you want to hear, try going to hell and asking your family there!`[@][lv 0*"05"*"91000108"]` In that case, you better die right now, right?!`[@][#][*][lv 0*"05"*"91000109"]` Ahhaha{0}ha{0}ha{0}haha, why don't you just give up and die now and foreverrr?!`[@][#][*][lv 0*"05"*"91000110"]` Waaahhah‐hah‐hah‐hah‐hah‐hah‐hah‐hah‐hah‐hah‐hah‐hah‐hah‐hah‐hah‐hah‐hah‐hah!!"`[\]
+wait_on_d 0
+seplay 2,37,71
+d_continue
+wait_on_d 1
+seplay 3,37,100
+d_continue
+wait_on_d -1
+textoff
+waits 167
+wait 1000
+msgwnd_non
+*d32330
+d `That laugh continued until she started coughing again.`[\]
+*d32331
+d `And that cough did not subside until she started moaning and going into convulsions......`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 2
+vol_mix_fade 3000
+vol_bgm -1,3000
+wait 3000
+wait 2000
+textoff
+waits 167
+lbg s0_3,"white"
+flush 8
+bgmplay 66,71,0
+textoff
+waits 167
+lbg s0_3,"sea_1c"
+color_mod2 s0_3,#ffffff
+flush 2
+*d32332
+d `October 4th, 1986.`[\]
+*d32333
+d `On Rokkenjima, the Ushiromiya family's customary and final family conference was held.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+*d32334
+d `And on the next day, October 5th...`[\]
+*d32335
+d `an "extremely unfortunate accident" occurred, and the Ushiromiya family was wiped out.`[\]
+textoff
+waits 167
+lss s0_9,"eva","a11_warai1" ;1
+color_mod2 s0_9,#ffffff
+flush 6
+*d32336
+d `"As good luck would have it", Ushiromiya Eva escaped from that,`[@]` and succeeded almost all of the Ushiromiya family's fortune.`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_3,"cit_1a"
+color_mod2 s0_3,#ffffff
+flush 2
+*d32337
+d `However, due to the many turbulent rumors surrounding the Ushiromiya family, the way Eva acted afterwards,`[@]` and her unnatural actions at the time of the "unfortunate accident", there was public controversy over whether this might have been a plot to get all of the inheritance for herself.`[\]
+*d32338
+d `Under pressure from the public, prosecutors attempted numerous investigations,`[@]` and the media began tracing the outline of the murder plot under the name of Rokkenjimagate,`[@]` but in the end, they were not able to find sufficient proof that this "unfortunate accident" was a crime.`[\]
+meplay 1,16,50
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+*d32339
+d `However, because the media continued to give the impression that Rokkenjimagate was a murder plot by Eva,`[@]` public opinion began to believe that she was the true culprit.`[\]
+*d32340
+d `...Of course, all that easily condemnable overbearing financial activity which she had carried out using that vast wealth...`[@]`left a bad impression that only made matters worse.`[\]
+*d32341
+d `Every time she did something and the rumors started spreading, the talk shows would bring back Rokkenjimagate,`[@]` blaming the justice system by saying that she was the true culprit, and that the only reason that she hadn't been arrested was because even the police had been bribed.`[\]
+*d32342
+d `And the impression that she was an evil criminal grew stronger and stronger...`[\]
+*d32343
+d `Her heart eventually degenerated,`[!w583]` ...and ironically, it began to transfigure her into the kind of human that the public expected...`[\]
+meplay 2,12,50
+textoff
+waits 167
+lbg s0_3,"different_spiral_1a"
+flush 22
+*d32344
+d `By now, Eva had no one she trusted, and no family.`[\]
+*d32345
+d `......Her beloved husband, Hideyoshi, was already no more, and the talk shows would occasionally mention his company,`[@]` saying that it was run recklessly, while criticizing and disgracing its former accomplishments.`[\]
+*d32346
+d `Even her beloved son, George,`[@]` was dramatized as the stereotypical "rich, lazy son" that the public expected,`[@]` ...and no one even attempted to find out what a simple and honest character he had possessed.`[\]
+*d32347
+d `...As to how much all of this hurt Eva and ran her to ruin, ...no one was interested.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+vol_me 1,-1,2000
+vol_me 2,-1,2000
+wait 2000
+*d32348
+d `The public was only interested in the idea of an evil woman who had gone so far as to kill her whole family to become a multimillionaire,`[@]` and in what kind of pitiful final years she would lead.`[\]
+*d32349
+d `So she changed more and more,`[@]` ...until eventually...`[@]`{n}...Eva's personality was transfigured to the point that she was treated as a lunatic......`[\]
+*d32350
+d `It was said that she sometimes remembered that this was exactly the same way her father Kinzo, who she had once admired, had been in his later years,`[@]` and laughed at herself with scorn...`[\]
+textoff
+waits 167
+lbg s0_3,"mdin_1e"
+color_mod2 s0_3,#ffffff
+flush 2
+*d32351
+d `And, on the day of that final family conference...`[\]
+*d32352
+d `Because Ushiromiya Rudolf's daughter, Ange, had been sick and had stayed with her mother's family, she had not participated.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+*d32353
+d `At the age of six, she lost her family and gained Eva as her guardian.`[\]
+textoff
+waits 167
+lbg s0_3,"different_spiral_1a"
+flush 22
+*d32354
+d `Since Ange had become Eva's only blood relative,`[@]` Eva "took very good care of her".`[\]
+*d32355
+d `She had imposing guards always surrounding Ange's person, to prevent her from coming to harm.`[\]
+*d32356
+d `......Ange had even her right to play with friends, to come home from school together, and to enjoy the seasons together...stolen.`[\]
+*d32357
+d `"So that she can live a full and pleasant school life",`[@]` Eva sent Ange to an elegant boarding school which took care of her every need, completely isolating her from the world.`[\]
+*d32358
+d `She didn't even know the popular songs that girls her age might hum.`[\]
+*d32359
+d `She was never once given a chance to enjoy window shopping with her friends, or stuff her mouth with crêpes,`[@]` ...much less an encounter with a member of the opposite sex to make her heart throb.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+seplay 1,15,100
+wait 1000
+meplay 1,16,50
+seplay 2,16,100
+textoff
+waits 167
+lbg s0_3,"hos_p1b"
+lss s0_10,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_10,370
+flush 64
+*d32360
+d `Ange did not have a single friend.`[@]` If anyone carelessly acted friendly with Ange, they would be scolded by the guards, or else the teachers.`[\]
+*d32361
+d `......All of them were strictly ordered not to let the peasants approach the daughter of the esteemed Ushiromiya family.`[\]
+*d32362
+d `During that time, the talk shows were always talking about Ushiromiya Eva, and always spreading rumors about her many financial evil deeds.`[\]
+*d32363
+d `......Those who found out that she was her "daughter" naturally began to keep their distance.`[\]
+*d32364
+d `...Even now, she was called a witch at school, and any time something adverse happened,`[@]` it was baselessly whispered as truth that the school was operating according to her wishes, and that she had something to do with it.`[\]
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"hos_p1b"
+flush 22
+meplay 2,5,50
+*d32365
+d `The environment makes the person.`[@]`{n}By now, she had a heart as hardened as those around her feared.`[\]
+*d32366
+d `...She trusted no one, and didn't even try.`[@]`{n}She loved no one, and didn't even try.`[\]
+*d32367
+d `And on top of all of this, when Eva caught an incurable illness,`[@]` it was whispered that this too had been planned, and this time, Ange was set up as the mastermind...`[\]
+*d32368
+d `Everyone whispered that the daughter of a witch was a witch.`[@]`{n}Even the talk shows and the weekly magazines whispered that.`[\]
+*d32369
+d `...So Ange, too,`[!w500]` because of that,`[!w417]` no,`[!w417]` as though it might as well be true, accepted it.`[\]
+seplay 1,21,71
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+*d32370
+d `Therefore, since she already believed that she was a witch,`[@]` when she heard that the name of the Golden Witch was being turned over to her, she felt nothing if not completely unfazed.`[\]
+*d32371
+d `However, she was at least sure of one thing.`[\]
+*d32372
+d `This title of witch that she had inherited would definitely never be inherited by anyone else.`[\]
+*d32373
+d `She would be the last head of the Ushiromiya family, and the last, isolated, Golden Witch......`[\]
+textoff
+waits 167
+vol_bgm 0,5000
+vol_me 2,0,5000
+wait 5000
+vol_mix_fade 2000
+vol_bgm -1,2000
+wait 2000
+seplay 1,17,70
+textoff
+waits 167
+lbg s0_3,"white"
+flush 10
+meplay 1,5,70
+textoff
+waits 167
+lbg s0_3,"cit_2a"
+flush 2
+bgmplay 82,71,0
+*d32374
+d `Ange could be seen on the roof of a skyscraper.`[\]
+*d32375
+d `Compared to the winds of the world which had beaten down upon her until now, this strong, cold wind was warm and pleasant.`[\]
+*d32376
+d `Below her lay a beautiful nighttime scene, and a dazzling river of red and white lights.`[\]
+*d32377
+d `It was a clear sky tonight.`[@]` ...So there really should have been countless stars stretching out over the sky.`[@]` ...However, the light from the ground was so bright, you couldn't see them at all.`[\]
+*d32378
+d `...Ange couldn't help but think that what she really sought lay somewhere in that unseen starlight.`[\]
+*d32379
+d `The world of reality below her looked so far away from here.`[\]
+*d32380
+d `...This place felt to her as the closest to the world she should really be in.`[\]
+*d32381
+d `............There was only one thing that Ange cursed:`[\]
+*d32382
+d `Why had I not been able to go to that family conference, on that day twelve years ago?`[\]
+*d32383
+d `If I had gone, I would probably have been able to be with my family forever.`[\]
+*d32384
+d `...Recently, ...I've been having a dream about my family, over and over again.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+vol_me 1,-1,1000
+wait 1000
+textoff
+waits 167
+lbg s0_3,"different_spiral_1a"
+flush 22
+*d32385
+d `My self of twelve years ago calls out frantically, urging them not to go to the family conference.`[\]
+textoff
+waits 167
+lss s0_12,"rud","a11_defo1" ;1
+aspt2 xpos,s0_12,370
+aspt2 alpha,s0_12,100
+lss s0_4,"kir","a11_warai1" ;1
+aspt2 xpos,s0_4,-370
+aspt2 alpha,s0_4,100
+flush 2
+*d32386
+d `But both Mom and Dad are too far away, and my hand won't reach them.`[\]
+textoff
+waits 167
+csp_slot s0_4
+csp_slot s0_12
+lss s0_9,"but","a11_defo2" ;1
+flush 2
+*d32387
+d `I reach for the hand of Battler nii‐san, who always really loved me—for the hand that would always pat my head—`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 1
+*d32388
+d ` .........but even though it looks like it's so close to reaching, even that falls short.`[\]
+*d32389
+d `For some reason, I started having that dream over and over again.`[\]
+textoff
+waits 167
+lbg s0_3,"cit_2a"
+flush 22
+*d32390
+d `......Whenever I have that dream,`[@]` I repeat my useless effort inside the dream, trying to stretch out my hand even more forcefully.`[\]
+*d32391
+d `If only Battler nii‐san at least could have lived...`[\]
+*d32392
+d `.........then perhaps, at least the two of us could have supported each other through life in this cold and lonely reality.`[\]
+*d32393
+d `But his hand never reaches me.`[\]
+*d32394
+d `So even if I climb to the roof of a building as tall as this one,`[!w500]` ......I am distantly separated from all of them.`[\]
+*d32395
+d `......A mysterious girl appears in my dreams and urges me.`[\]
+*d32396
+d `That girl in my dreams urges me to arrive at the truth of what happened twelve years ago.`[\]
+msgwnd_enj
+*d32397
+d `"........................`[@][lv 0*"11"*"92000030"]` ......If I could learn...`[|][lv 0*"11"*"92000031"]`what happened to Dad and everyone else on that day,`[|][lv 0*"11"*"92000032"]` ............would they come back?`[@][lv 0*"11"*"92000033"]` At least one of them...!"`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+msgwnd_non
+*d32398
+d `There was no way...`[!w500]`...that anyone existed who could answer those words.`[\]
+*d32399
+d `I understand.`[@]` .........In this world, I have no family, no friends, no one.`[\]
+*d32400
+d `So,`[!w500]` ............let's go.`[@]` ...Let's go home.`[@]`{n}......To where my family is.`[\]
+meplay 1,16,50
+textoff
+waits 167
+lbg s0_3,"cit_2a"
+flush 42
+*d32401
+d `From the beginning, ...Ange's figure had been on the far side of the fence.`[\]
+*d32402
+d `The scenery below her eyes was distant, beautiful, and so fantastical that it did not give rise to the slightest bit of fear.`[\]
+*d32403
+d `If I face down, I'll surely be taken to the world below.`[\]
+textoff
+waits 167
+lbg s0_3,"cit_1ar"
+flush 42
+*d32404
+d `......So I faced up.`[\]
+*d32405
+d `Because I wanted to be taken to the world above, the world where my family was.`[\]
+*d32406
+d `.........Who cares about vast wealth.`[@]` Who cares about cursed gold.`[@]`{n}Who cares about the Golden Witch {f:5:Beatrice}.`[\]
+*d32407
+d `What I really want...isn't something that even a mountain of gold will help me obtain...`[\]
+*d32408
+d `What I need for that...is just the small amount of courage...to take a single step forward.`[\]
+textoff
+waits 167
+wait 2000
+textoff
+waits 167
+lbg s0_3,"white"
+flush 2
+vol_bgm -1,1000
+*d32409
+d `............Just then,`[@]` ...I definitely heard a voice.`[@]`{n}I knew that voice.`[\]
+*d32410
+d `The voice that had always......called to me in my dreams...`[\]
+vol_me 1,-1,1000
+textoff
+waits 167
+lbg s0_3,"cit_2a"
+flush 2
+bgmplay 67,71,0
+lss s0_9,"ber","a11_defo1" ;1
+flush 42
+gstc 323
+*d32411
+d `Before my eyes, ......in other words, in mid‐air above that jet‐black nighttime scenery...`[\]
+*d32412
+d `......There was the figure of that girl I had seen in my dreams...`[\]
+*d32413
+d `She spoke again, with the same voice I had heard inside my dreams.`[\]
+lss s0_9,"ber","a11_defo2" ;1
+flush 10,167
+msgwnd_ber
+*d32414
+d [lv 0*"28"*"92100217"]`".........Your assistance is needed."`[\]
+msgwnd_enj
+*d32415
+d [lv 0*"11"*"92000034"]`"...My...`[|][lv 0*"11"*"92000035"]`.........assistance......?`[@][lv 0*"11"*"92000036"]` Who needs it......?"`[\]
+lss s0_9,"ber","a11_defo1" ;1
+flush 10,167
+msgwnd_ber
+*d32416
+d [lv 0*"28"*"92100218"]`".........Your family needs it.`[@][lv 0*"28"*"92100219"]` ...Your family is eternally imprisoned in the two‐day span that began on this day twelve years ago."`[\]
+msgwnd_enj
+*d32417
+d [lv 0*"11"*"92000037"]`"I‐...if I save them,`[|][lv 0*"11"*"92000038"]` ......does that mean my family will come back?!"`[\]
+msgwnd_non
+*d32418
+d `When I asked the question I most wanted to ask, the girl cruelly stopped talking and hung her head.`[\]
+lss s0_9,"ber","a11_defo2" ;1
+flush 10,167
+msgwnd_ber
+*d32419
+d [lv 0*"28"*"92100220"]`"......I cannot promise that.`[@][lv 0*"28"*"92100221"]` The enemy is the Golden Witch {f:5:Beatrice}.`[@][lv 0*"28"*"92100222"]` ...A mighty opponent.`[@][lv 0*"28"*"92100223"]` I cannot compete with her.`[@][lv 0*"28"*"92100224"]` ......But another Golden Witch might be able to manage something."`[\]
+msgwnd_enj
+*d32420
+d [lv 0*"11"*"92000039"]`"............I, I don't know...what you're talking about."`[\]
+lss s0_9,"ber","a11_defo1" ;1
+flush 10,167
+msgwnd_ber
+*d32421
+d [lv 0*"28"*"92100225"]`"......The only one who can oppose the {f:5:Beatrice} of 1986...`[|][lv 0*"28"*"92100226"]`is the final {f:5:Beatrice}, of 1998.`[@][lv 0*"28"*"92100227"]` .........In other words, you.`[@][lv 0*"28"*"92100228"]` Ange.`[@][lv 0*"28"*"92100229"]` .........{f:5:Ange Beatrice}."`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 22
+msgwnd_enj
+*d32422
+d [lv 0*"11"*"92000040"]`"That witch from twelve years ago...`[|][lv 0*"11"*"92000041"]`...took away my family.........?"`[\]
+textoff
+waits 167
+lbg s0_3,"portrait2"
+flush 22
+msgwnd_ber
+*d32423
+d [lv 0*"28"*"92100230"]`"Yes.`[@][lv 0*"28"*"92100231"]` She is responsible for what happened to your family.`[@][lv 0*"28"*"92100232"]` ............The source that always leads to your future of isolation."`[\]
+msgwnd_enj
+*d32424
+d [lv 0*"11"*"92000042"]`"........................`[@][lv 0*"11"*"92000043"]` ......My...`[|][lv 0*"11"*"92000044"]`...family's...`[|][lv 0*"11"*"92000045"]`......killer."`[\]
+meplay 1,16,50
+textoff
+waits 167
+lbg s0_3,"cit_1ar"
+flush 42
+lss s0_10,"ber","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ber
+*d32425
+d [lv 0*"28"*"92100233"]`"......In exchange, I will search for the fragment with the ideal world that you wish for, the world where your family comes home.`[@][lv 0*"28"*"92100234"]` .........But I can't promise you that your desire will be granted.`[@][lv 0*"28"*"92100235"]` ...The game board of the 1986 {f:5:Beatrice} is quite perfect."`[\]
+lss s0_10,"ber","a11_defo2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d32426
+d [lv 0*"28"*"92100236"]`"......I had planned on bringing you that ideal fragment as a present today, but I still can't find it.`[@][lv 0*"28"*"92100237"]` ............It's a very firm fate.`[@][lv 0*"28"*"92100238"]` I haven't seen the likes of it since I fought with {f:5:Lambdadelta}."`[\]
+msgwnd_enj
+*d32427
+d [lv 0*"11"*"92000046"]`".............................................`[@][lv 0*"11"*"92000047"]` I,`[|][lv 0*"11"*"92000048"]` ......I don't know...`[|][lv 0*"11"*"92000049"]`...what you're talking about."`[\]
+lss s0_10,"ber","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ber
+*d32428
+d [lv 0*"28"*"92100239"]`".........I'm giving you a chance for revenge.`[@][lv 0*"28"*"92100240"]` ...In exchange, I promise to find and bring you the happiest resolution that it is possible for you to receive."`[\]
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"black"
+flush 25
+vol_me 1,-1,1000
+textoff
+waits 167
+lbg s0_3,"portrait2"
+flush 2
+msgwnd_enj
+*d32429
+d [lv 0*"11"*"92000050"]`"..............................Revenge......"`[\]
+msgwnd_ber
+*d32430
+d [lv 0*"28"*"92100241"]`"......It may be a fruitless effort.`[@][lv 0*"28"*"92100242"]` Even if you succeed in your revenge, there's no definite proof that your family will return.`[@][lv 0*"28"*"92100243"]` Even with a miraculous probability, you may only be able to bring one person back."`[\]
+msgwnd_non
+*d32431
+d `...Ange now understood the meaning of that dream.`[\]
+*d32432
+d `......That dream where it seemed that, with just a little bit more, her hand might at least be able to reach Battler nii‐san.`[\]
+meplay 1,5,50
+textoff
+waits 167
+lbg s0_3,"cit_2a"
+flush 22
+msgwnd_enj
+*d32433
+d [lv 0*"11"*"92000051"]`"A miraculous probability......is still higher than zero, right...?`[@][lv 0*"11"*"92000052"]` Is it about one percent...?"`[\]
+lss s0_10,"ber","a11_defo2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ber
+*d32434
+d [lv 0*"28"*"92100244"]`"......All probability values are powerless before the result.`[@][lv 0*"28"*"92100245"]` So I cannot tell you that number."`[\]
+msgwnd_enj
+*d32435
+d [lv 0*"11"*"92000053"]`"But unlike if I don't do anything, there definitely is a small possibility."`[\]
+lss s0_10,"ber","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ber
+*d32436
+d [lv 0*"28"*"92100246"]`"Yes.`[@][lv 0*"28"*"92100247"]` As long as you do not throw your hope away.`[@][lv 0*"28"*"92100248"]` ...But prepare yourself.`[@][lv 0*"28"*"92100249"]` It is extremely close to zero."`[\]
+textoff
+waits 167
+wait 2000
+lss s0_8,"enj","a11_nayamu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d32437
+d2 [lv 0*"11"*"92000054"]`"..................`[#][*][|][lv 0*"11"*"92000055"]` Alright.`[@][#][*][lv 0*"11"*"92000056"]` I'm in."`[\]
+wait_on_d 0
+seplay 1,2,71
+d_continue
+wait_on_d 1
+lss s0_8,"enj","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_10,"ber","a11_defo2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ber
+*d32438
+d [lv 0*"28"*"92100250"]`"......Are you sure?`[@][lv 0*"28"*"92100251"]` You'll probably never be able to come back here again."`[\]
+lss s0_8,"enj","a11_fuman2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_enj
+*d32439
+d [lv 0*"11"*"92000057"]`"This is not the world where I belong.`[@][lv 0*"11"*"92000058"]` ......And...as for the world where I do belong...I'll find it myself.`[@][lv 0*"11"*"92000059"]` Tell me your name."`[\]
+lss s0_10,"ber","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ber
+*d32440
+d2 [lv 0*"28"*"92100252"]`"The Witch of Miracles, {f:5:Bernkastel}.`[@][lv 0*"28"*"92100253"]` And by that name,`[@][#][*][lv 0*"28"*"92100254"]` I acknowledge you as the Golden Witch, {f:5:Ange Beatrice}.`[@][lv 0*"28"*"92100255"]` ......As of now, you are a true witch."`[\]
+wait_on_d 0
+gstc 324
+seplay 9,1060,100
+d_continue
+wait_on_d -1
+msgwnd_non
+*d32441
+d `The instant she proclaimed that I was a witch...`[@]`...I felt dizzy, as though something inside me had changed drastically.`[\]
+seplay 3,22,71
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"white"
+flush 2
+seplay 1,16,100
+vol_me 1,-1,1000
+vol_bgm -1,1000
+meplay 1,16,50
+textoff
+waits 167
+lbg s0_3,"black"
+flush 1
+*d32442
+d `Just then, I heard a slam.`[@]`{n}...It was the sound of the door connecting the staircase to the roof being opened.`[\]
+skip_off
+bgmplay2 83,70,1
+lsp s0_5,"*8"
+flush 1
+waittimer 167
+*d32443
+d [ak][text_speed_t 5]`There were Aunt Eva's guards.`[\]
+waittimer 2667
+*d32444
+d [ak][text_speed_t 5]`...“Guards” only in name.{n}Aren't they the cage that's closest to me, shutting me in?`[\]
+waittimer 5167
+*d32445
+d [ak][text_speed_t 5]`They saw that I was already on the other side of the fence and dashed forward, horrified.`[\]
+waittimer 8167
+textoff
+waits 167
+lbg s0_3,"cit_1ar"
+flush 22
+waittimer 9167
+*d32446
+d2 [lv 0*"99"*"mafma9001"][ak][text_speed_t 5]`"20, target found.`[*][|][lv 0*"99"*"mafma9002"]` Requesting assistance on the roof."`[*][\]
+waittimer 10617
+d_continue
+waittimer 12067
+d_continue
+wait_on_d -1
+waittimer 12567
+*d32447
+d2 [lv 0*"99"*"mafmb9001"][ak][text_speed_t 5]`"Ange‐san...!`[*][|][lv 0*"99"*"mafmb9002"]` We were looking for you!`[*][|][lv 0*"99"*"mafmb9003"]` It's dangerous there, so quickly, come this way!"`[*][\]
+waittimer 13517
+d_continue
+waittimer 14933
+d_continue
+waittimer 17383
+d_continue
+wait_on_d -1
+waittimer 17883
+textoff
+;waits 167
+lbg s0_3,"cit_2a"
+flush 25
+lss s0_10,"ber","a11_defo2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+;waittimer 18133
+msgwnd_ber
+*d32448
+d2 [lv 0*"28"*"92100256"][ak][text_speed_t 5]`".........What's that?"`[*][\]
+waittimer 20567 ;20467
+d_continue
+wait_on_d -1
+waittimer 20967
+lss s0_8,"enj","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+waittimer 21217
+msgwnd_enj
+*d32449
+d2 [lv 0*"11"*"92000060"][ak][text_speed_t 5]`"......My fan club.`[*][|][lv 0*"11"*"92000061"]` ...I'm pretty popular."`[*][\]
+waittimer 22567
+d_continue
+waittimer 24817
+d_continue
+wait_on_d -1
+waittimer 25317
+lss s0_10,"ber","a23_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+waittimer 25567
+msgwnd_ber
+*d32450
+d2 [lv 0*"28"*"92100257"][ak][text_speed_t 5]`"No point in getting caught.`[*][|][lv 0*"28"*"92100258"]` .........Let's go."`[*][\]
+waittimer 27817
+d_continue
+waittimer 28900
+d_continue
+wait_on_d -1
+waittimer 29400
+vol_me 1,-1,1000
+vol_bgm 100,1000
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 10,500
+waittimer 29900
+lbg2 s0_2,"end_3b_1"
+drop_cache "end_3b_1"
+lbg2 s0_3,"end_3b_2"
+drop_cache "end_3b_2"
+aspt2 scaley,s0_2,200
+aspt2 scaley,s0_3,200
+aspt2 ypos,s0_2,24780
+aspt2 ypos,s0_3,24780
+flush 1
+waittimer 30400
+textoff
+aspt2 ypos,s0_2,540,96183
+aspt2 ypos,s0_3,540,96183
+aspt2 ypos,s0_2,0,3417,1
+aspt2 ypos,s0_3,0,3417,1
+sptwait2 ypos,s0_3
+wait 1000
+csp_slot s0_5
+lbg s0_28,"ware"
+vol_mix_fade 1000
+vol_bgm -1,1000
+wait 1000
+seplay 1,27,71
+seplay 2,46,71
+seplay 9,1006,71
+flush 1
+wait 3000
+seplay 1,2,100
+seplay 2,1006,100
+seplay 3,1006,100
+csp_slot s0_28
+textoff
+waits 167
+csp_slot s0_2
+lbg s0_3,"white"
+flush 1
+textoff
+waits 167
+lbg s0_3,"black"
+flush 18,4000,msk_1
+skip_on
+meplay 1,16,50
+wait 1000
+msgwnd_non
+*d32451
+d `Looking annoyed, {f:5:Bernkastel} turned on her heels.`[@]` ...In the jet black sky.`[\]
+*d32452
+d `Watching that perfectly casual gesture, I followed her as though it was completely normal.`[\]
+textoff
+waits 167
+lbg s0_3,"cit_2a"
+flush 2
+*d32453
+d [lv 0*"99"*"mafma9003"]`"Ange‐san!!!`[@][lv 0*"99"*"mafma9004"]` Wait!`[@][lv 0*"99"*"mafma9005"]` Don't be hasty, look ooooooooooouuuut!!"`[\]
+lss s0_9,"enj","a13_nayamu1" ;1
+flush 10,167
+msgwnd_enj
+*d32454
+d [lv 0*"11"*"92000062"]`"Oh, it's useless, it's all useless.`[@][lv 0*"11"*"92000063"]` Time to go. <See you again>."`[\]
+lss s0_9,"enj","b12_defo1" ;1
+flush 10,167
+*d32455
+d [lv 0*"11"*"92000064"]`"Please send a limo to get me.`[@][lv 0*"11"*"92000065"]` 'Cause everyone else will be with me too.`[@][lv 0*"11"*"92000066"]` See you."`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"c0406"
+flush 66
+lv 0,"99","mafmb9004"
+agpt quakeycycle,100
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+textoff
+waits 167
+vol_me 1,-1,1000
+wait 1000
+seplay 1,20,100
+agpt onionscale,1000
+agpt onionalpha,160,167
+aspritesetpt blur,0,2000,1000
+set_scale_center s0_3,-500,-230
+aspt2 rot,s0_3,83,1000,2
+aspt2 scalex,s0_3,1000,1000,2
+aspt2 scaley,s0_3,1000,1000,2
+wait 500
+aspt2 darken_r,s0_3,0,500
+aspt2 darken_g,s0_3,0,500
+aspt2 darken_b,s0_3,0,500
+sptwait2 rot,s0_3
+wait 1000
+agpt onionalpha,0
+aspritesetpt blur,0,0
+textoff
+waits 167
+vol_mix_fade 1000
+wait 1000
+textoff
+waits 167
+lbg s0_3,"black"
+flush 10,17
+wait 2000
+ch_done flag_scenario_3_ura
+*ura_3_end
+goto *end_game

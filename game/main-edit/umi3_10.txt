@@ -1,0 +1,2393 @@
+*umi3_10
+;10/5（日）9:00 黄金郷の鍵
+log_reset
+mov $name_chapter_r_click,r_click_chapters_3_10
+mov $name_chapter_save, "3_10"
+new_chapter date_scenario_3_10,scenario_3_10
+gstc 149
+meplay 1,12,70
+meplay 2,5,70
+rain_load s0_11
+rain_load s0_7
+rain_params s0_11,400,800,0
+rain_params s0_7,400,500,0
+textoff
+waits 167
+lbg s0_3,"g_o1a"
+flush 6
+wait 3000
+csp_slot s0_7
+csp_slot s0_11
+rain_load s0_11
+z_order_override s0_11,s0_1
+rain_params s0_11,500,300,0
+textoff
+waits 167
+lbg s0_1,"glob_1a_bg"
+lbg s0_3,"glob_1a"
+flush 6
+vol_me 1,50
+vol_me 2,50
+*d17558
+d `The true enemy of holding a fort probably isn't the fear of unseen enemies.`[@]` It's whether you can keep it going over a long period of time.`[\]
+textoff
+waits 167
+csp_slot s0_1
+lbg s0_3,"black"
+flush 22
+meplay 3,11,80
+textoff
+waits 167
+lbg s0_1,"glob_1d_bg"
+lbg s0_3,"glob_1d"
+lss s0_9,"mar","a11_fukigen2" ;1
+flush 22
+*d17559
+d `Maria had gotten bored and had started making a ruckus because she wanted to watch TV.`[@]` Since there was no TV in the lobby, she decided to return to the cousins' room upstairs.`[\]
+textoff
+waits 167
+csp_slot s0_9
+csp_slot s0_1
+lbg s0_3,"black"
+flush 23
+textoff
+waits 167
+lbg s0_1,"glob_1a_bg"
+lbg s0_3,"glob_1a"
+flush 23
+*d17560
+d `The adults probably didn't want to leave Maria all on her own, among other reasons.`[@]` They told all the children to go to the cousins' room upstairs.`[\]
+textoff
+waits 167
+csp_slot s0_1
+lbg s0_3,"black"
+flush 25
+*d17561
+d `George, his heart wounded by the loss of his fiancée, had no willpower to resist that, and led the cousins upstairs.`[\]
+textoff
+waits 167
+lbg s0_1,"glob_1d_bg"
+lbg s0_3,"glob_1d"
+lss s0_10,"nan","a1_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 26
+*d17562
+d `At first, Nanjo had been reading a book in the lobby,`[@]` but when he noticed that the relatives looked like they wanted to talk about something shady,`[@]` he said "It seems I am in the way..." and returned to his room upstairs.`[\]
+textoff
+waits 167
+csp_slot s0_10
+textoff
+waits 167
+csp_slot s0_1
+lbg s0_3,"black"
+flush 22
+vol_mix_fade 3000
+vol_bgm -1,3000
+wait 3000
+bgmplay 30,71,0
+textoff
+waits 167
+lbg s0_1,"glob_1a_bg"
+lbg s0_3,"glob_1a"
+lss s0_10,"rud","a11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 26
+msgwnd_rud
+*d17563
+d [lv 0*"08"*"31200225"]`".........I'm starving.`[@][lv 0*"08"*"31200226"]` And if I keep just sitting around, my drowsiness will be even worse."`[\]
+lss s0_8,"ros","a11_komaru4" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ros
+*d17564
+d [lv 0*"12"*"31400200_1"]`"It's only natural.`[@][lv 0*"12"*"31400200_2"]` Because we didn't sleep last night."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_1,"glob_1d_bg"
+lbg s0_3,"glob_1d"
+flush 24
+lss s0_10,"cla","a11_defo1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_cla
+*d17565
+d [lv 0*"02"*"30800193"]`"...We will probably end up barricaded here for a full 24 hours.`[@][lv 0*"02"*"30800194"]` It may be wiser to take naps in turn instead of over‐stressing ourselves."`[\]
+lss s0_8,"nat","a11_majime1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_nat
+*d17566
+d [lv 0*"03"*"30900083"]`"I agree.`[@][lv 0*"03"*"30900084"]` My husband and I will be here, so anyone who finds this difficult should rest without overdoing it."`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_10,"eva","a11_majime1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_eva
+*d17567
+d [lv 0*"05"*"31000322"]`"They might be expecting that, you know?`[@][lv 0*"05"*"31000323"]` They may not be able to defeat this many people, but if that number was reduced by a certain amount, they may plan to use that to their advantage."`[\]
+lss s0_9,"kir","a11_defo1" ;1
+flush 10,167
+msgwnd_kir
+*d17568
+d [lv 0*"09"*"31300163"]`"There are seven of us here.`[@][lv 0*"09"*"31300164"]` Two of us could rest for three hours at a time.`[@][lv 0*"09"*"31300165"]` ......It's a long time until tomorrow morning.`[@][lv 0*"09"*"31300166"]` We still have some energy now, but tonight's going to be tough."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_1,"glob_1a_bg"
+lbg s0_3,"glob_1a"
+lss s0_8,"hid","a11_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 23
+msgwnd_hid
+*d17569
+d [lv 0*"06"*"31100206"]`"Sure will be.`[@][lv 0*"06"*"31100207"]` Anyone sleepy?`[@][lv 0*"06"*"31100208"]` Don't overdo it, rest."`[\]
+msgwnd_non
+*d17570
+d `Hideyoshi looked around at everyone to see who wanted to sleep first, but no one volunteered.`[\]
+*d17571
+d `...Everyone was just as tired, but no one was bold enough to be able to sleep now.`[@]` ......Their fear of the unknown culprit was just as strong as their sleepiness.`[\]
+lss s0_8,"hid","a11_fumu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_hid
+*d17572
+d [lv 0*"06"*"31100209"]`"......Nobody?`[@][lv 0*"06"*"31100210"]` Well, don't overdo it, everyone."`[\]
+lss s0_10,"eva","a11_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_eva
+*d17573
+d [lv 0*"05"*"31000324"]`"If we get tired, we can think about it then.`[@][lv 0*"05"*"31000325"]` ......I certainly am tired, but I'm not in the mood now."`[\]
+msgwnd_non
+*d17574
+d `Eva spoke sharply, and then read once more over the second letter from {f:5:Beatrice}, which had been found in the boiler room.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_3,"letter1"
+flush 2
+*d17575
+d `{f:5:Beatrice} had sent them two letters, and had repeatedly told them to solve the riddle of the epitaph.`[\]
+*d17576
+d `And she had even provoked them by saying she would give up the inheritance, both assets and headship, if it could be solved...`[\]
+*d17577
+d `Eva took out a notebook and opened it to a page with the epitaph copied onto it.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 64
+textoff
+waits 167
+lbg s0_1,"glob_1d_bg"
+lbg s0_3,"glob_1d"
+lss s0_10,"kir","a11_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 22
+msgwnd_kir
+*d17578
+d [lv 0*"09"*"31300167"]`"............Is that the epitaph?"`[\]
+lss s0_8,"eva","a11_hohoemi1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_eva
+*d17579
+d [lv 0*"05"*"31000326"]`"Yes.`[@][lv 0*"05"*"31000327"]` ......Although it's annoying to do as the culprit says,`[@][lv 0*"05"*"31000328"]` after all, we do have time to waste.`[@][lv 0*"05"*"31000329"]` I think it's the perfect way to stave off boredom."`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_10,"cla","a11_akuwarai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_cla
+*d17580
+d [lv 0*"02"*"30800195"]`"...Not a bad way to kill time.`[@][lv 0*"02"*"30800196"]` Why don't we challenge it together as siblings?"`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_1,"glob_1a_bg"
+lbg s0_3,"glob_1a"
+lss s0_8,"kir","a11_warai1" ;1
+aspt2 xpos,s0_8,-370
+flush 23
+msgwnd_kir
+*d17581
+d2 [lv 0*"09"*"31300168"]`"......Can I borrow that?`[@][lv 0*"09"*"31300169"]` I'll rewrite it just a little larger.`[@][#][*][lv 0*"09"*"31300170"]` Natsuhi‐san, do you have a slightly larger piece of paper?"`[\]
+wait_on_d 0
+lss s0_8,"kir","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_10,"nat","a11_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_nat
+*d17582
+d [lv 0*"03"*"30900085"]`"There should be paper in the servant room.`[@][lv 0*"03"*"30900086"]` I will bring some."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 24
+msgwnd_non
+*d17583
+d `Natsuhi immediately brought a B4 blank sheet of paper from the servant room.`[\]
+*d17584
+d `Kyrie borrowed Eva's notebook, wrote out the epitaph on the paper, and laid it out on the table.`[\]
+*d17585
+d `Straight away, everyone peered down at it.`[@]`{n}...A fence of people naturally formed.`[\]
+meplay 1,12,50
+textoff
+waits 167
+lbg s0_1,"glob_1d_bg"
+lbg s0_3,"glob_1d"
+lss s0_10,"hid","a11_komaru2" ;1
+aspt2 xpos,s0_10,370
+flush 26
+msgwnd_hid
+*d17586
+d [lv 0*"06"*"31100211"]`"I've heard about it, but...`[@][lv 0*"06"*"31100212"]`...really, this is a tough riddle.`[@][lv 0*"06"*"31100213"]` I don't have a clue what it's talking about."`[\]
+lss s0_8,"ros","a11_komaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ros
+*d17587
+d [lv 0*"12"*"31400201"]`"At one point, I also did my best to challenge it, but I was just as clueless."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_1,"glob_1d_bg"
+lbg s0_3,"glob_1d"
+flush 23
+lss s0_10,"rud","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_rud
+*d17588
+d [lv 0*"08"*"31200227"]`"If we did know, we wouldn't have come all the way out here with a plan to make money.`[@][lv 0*"08"*"31200228"]` After all, it's ten tons of gold."`[\]
+lss s0_8,"kir","a13_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_kir
+*d17589
+d [lv 0*"09"*"31300171"]`"............This is the first time I've read it seriously, but...`[@][lv 0*"09"*"31300172"]`...roughly speaking, couldn't it be split into three parts?"`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_1,"glob_1d_bg"
+lbg s0_3,"glob_1d"
+flush 24
+lss s0_10,"cla","a11_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_cla
+*d17590
+d [lv 0*"02"*"30800197"]`"...I've been thinking this since last night, but you really do seem to be a good thinker, Kyrie‐san.`[@][lv 0*"02"*"30800198"]` It's possible that you could easily solve this riddle that we couldn't."`[\]
+lss s0_8,"rud","a11_majime2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_rud
+*d17591
+d [lv 0*"08"*"31200229"]`"Yeah.`[@][lv 0*"08"*"31200230"]` Kyrie's sharp.`[@][lv 0*"08"*"31200231"]` ......She might be able to tackle it in an interesting way if we don't give her any strange preconceptions."`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_10,"eva","b21_akire2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_eva
+*d17592
+d [lv 0*"05"*"31000330"]`".........Yes.`[@][lv 0*"05"*"31000331"]` Kyrie‐san.`[@][lv 0*"05"*"31000332"]` Will you let us hear your honest thoughts having read the epitaph?"`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_1,"glob_1a_bg"
+lbg s0_3,"glob_1a"
+lss s0_10,"kir","a11_komaru1" ;1
+aspt2 xpos,s0_10,550
+flush 23
+msgwnd_kir
+*d17593
+d [lv 0*"09"*"31300173"]`"I think it probably won't be very useful to all of you.`[@][lv 0*"09"*"31300174"]` You all give me too much credit."`[\]
+lss s0_8,"rud","a11_defo1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_rud
+*d17594
+d2 [lv 0*"08"*"31200232"]`"No way, anything that comes to mind would be helpful.`[@][lv 0*"08"*"31200233"]` Let us hear what you have to say.`[@][#][*][lv 0*"08"*"31200234"]` ......Because your hints always help me when I'm worried."`[\]
+wait_on_d 0
+lss s0_8,"rud","a11_warai1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_10,"kir","a11_warai2" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_kir
+*d17595
+d [lv 0*"09"*"31300175"]`"Oh, so they were helpful?`[@][lv 0*"09"*"31300176"]` It's nice to finally hear about this now."`[\]
+lss s0_8,"rud","a11_warai2" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_rud
+*d17596
+d [lv 0*"08"*"31200235"]`"Come ooon, don't I always thank you?"`[\]
+lss s0_9,"ros","a11_warai1" ;1
+flush 10,167
+msgwnd_ros
+*d17597
+d [lv 0*"12"*"31400202"]`"You two do get along well.`[@][lv 0*"12"*"31400203"]` I'm jealous."`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_10,"eva","a11_warai1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_eva
+*d17598
+d [lv 0*"05"*"31000333"]`"And the rest of us would also love to accept your hints.`[@][lv 0*"05"*"31000334"]` It's alright, we're just killing time anyway, so why not relax?"`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 22
+msgwnd_non
+*d17599
+d `Kyrie was bewildered by all this praise she was suddenly receiving.`[\]
+*d17600
+d `...But they had plenty of time.`[@]` She realized that this was just a way to waste time, and she decided to accept that role...`[\]
+textoff
+waits 167
+vol_mix_fade 2000
+vol_bgm -1,2000
+wait 2000
+meplay 1,11,71
+textoff
+waits 167
+lbg s0_1,"glob_1d_bg"
+lbg s0_3,"glob_1d"
+lss s0_9,"kir","a11_warai2" ;1
+flush 80
+msgwnd_kir
+*d17601
+d [lv 0*"09"*"31300177"]`"......I'm sure I'll say something off the mark, but...`[@][lv 0*"09"*"31300178"]`well, I'll put forward my ideas."`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_1,"glob_1d_bg"
+lbg s0_3,"glob_1d"
+lss s0_10,"cla","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 24
+msgwnd_cla
+*d17602
+d [lv 0*"02"*"30800199"]`"Mmhm.`[@][lv 0*"02"*"30800200"]` ......What did you mean in the beginning, about how, roughly speaking, it could be divided into three parts?"`[\]
+textoff
+waits 167
+vol_mix_fade 1000
+wait 1000
+bgmplay 63,71,0
+textoff
+waits 167
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_3,"text010"
+flush 2
+msgwnd_kir
+*d17603
+d [lv 0*"09"*"31300179"]`"Well...I just mean what I said.`[@]` I think that overall, the epitaph can be divided into three parts."`[|][lv 0*"09"*"31300180"]`"First, there are the five lines up to and including "There the {loghint:kagi:key} to the {loghint:ougon:gold} sleeps".`[\]
+*d17604
+d [lv 0*"09"*"31300181"]` Up until this point is the first part, which points to the location of the key."`[@]`"And then there's the part formed by the eleven lines up until the tenth twilight, which refer to the location of the {loghint:ougonkyou:Golden Land} itself."`[|][lv 0*"09"*"31300182"]`"And the remaining six lines make up the part after the Golden Land has been reached."`[\]
+textoff
+waits 167
+seplay 1,2,40
+textoff
+waits 167
+lbg s0_3,"text010a"
+flush 22
+*d17605
+d [lv 0*"09"*"31300183"]`"I see.`[\]
+textoff
+waits 167
+seplay 1,2,40
+textoff
+waits 167
+lbg s0_3,"text010b"
+flush 22
+*d17606
+d [lv 0*"09"*"31300184"]` The key, the Golden Land,`[\]
+textoff
+waits 167
+seplay 1,2,40
+textoff
+waits 167
+lbg s0_3,"text010c"
+flush 22
+wait 3000
+wait 3000
+textoff
+waits 167
+lbg s0_3,"black"
+flush 2
+textoff
+waits 167
+lbg s0_1,"glob_1d_bg"
+lbg s0_3,"glob_1d"
+lss s0_10,"nat","a21_warai1" ;1
+aspt2 xpos,s0_10,550
+flush 23
+msgwnd_nat
+*d17607
+d [lv 0*"03"*"30900087"]` and the Golden Land's {loghint:takara:treasure}; it can be divided into these three parts."`[@][lv 0*"03"*"30900088"]`"Even we have been able to grasp that much.`[@][lv 0*"03"*"30900089"]` The three sections that refer to the key, the door, and the treasure."`[\]
+lss s0_8,"cla","a11_nayamu1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_cla
+*d17608
+d [lv 0*"02"*"30800201"]`"...Nii‐san, don't butt in any more than you have to!`[@][lv 0*"02"*"30800202"]` Let Kyrie‐san speak her ideas freely."`[\]
+lss s0_9,"eva","a11_ikari2" ;1
+flush 10,167
+msgwnd_eva
+*d17609
+d [lv 0*"05"*"31000335"]`"Kyrie.`[@][lv 0*"05"*"31000336"]` Please continue.`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_10,"rud","a11_defo1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_rud
+*d17610
+d [lv 0*"08"*"31200236"]` ......We recognize the same thing regarding what you said.`[@][lv 0*"08"*"31200237"]` So then?"`[@][lv 0*"08"*"31200238"]`"......I wonder what that thing in the beginning, the "{loghint:natsukashiki:beloved} {loghint:kokyou:home of old}", means.`[@][lv 0*"08"*"31200239"]` Thinking about it normally, would it refer to Grandfather's home?"`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 25
+textoff
+waits 167
+lbg s0_3,"text011_r"
+flush 2
+msgwnd_kir
+*d17611
+d [lv 0*"09"*"31300185"]`"Since he explicitly mentioned that it's {loghint:natsukashiki:beloved}, I can imagine that it's a home he thought about very deeply.`[@][lv 0*"09"*"31300186_b"]` ......Didn't Father come from Odawara?"`[\]
+*d17612
+d [lv 0*"09"*"31300187"]`".........Odawara is definitely where he was born,`[@][lv 0*"09"*"31300188"]` but I don't think this home Father loved was Odawara.`[\]
+msgwnd_eva
+*d17613
+d [lv 0*"05"*"31000337"]` I believe all of us siblings are thinking of the same place."`[@][lv 0*"05"*"31000338"]`"...Yes.`[@][lv 0*"05"*"31000339"]` This probably isn't Odawara.`[\]
+msgwnd_ros
+*d17614
+d [lv 0*"12"*"31400204"]` From what I've heard, he had a very fun time as a youth."`[@][lv 0*"12"*"31400205"]`"Hahhaha.`[@][lv 0*"12"*"31400206"]` ...Dad's greatest misfortune in his life was probably being made the Ushiromiya family head."`[\]
+msgwnd_rud
+*d17615
+d [lv 0*"08"*"31200240"]`"......Probably.`[@][lv 0*"08"*"31200241"]` Father really hadn't wanted to become the Ushiromiya family head."`[\]
+msgwnd_cla
+*d17616
+d [lv 0*"02"*"30800203"]`"So where is it?`[@][lv 0*"02"*"30800204"]` And is there a {loghint:kawa:river} where {loghint:ayu:sweetfish} swim?"`[\]
+meplay 1,13,50
+textoff
+waits 167
+lbg s0_1,"glob_1d_bg"
+lbg s0_3,"glob_1d"
+lss s0_9,"kir","a13_majime1" ;1
+flush 26
+msgwnd_kir
+*d17617
+d [lv 0*"09"*"31300189"]`"......Maybe there was at the time.`[@][lv 0*"09"*"31300190"]` I'm sure that there has been a lot of development there by now, so the sweetfish might have disappeared.`[\]
+lss s0_10,"eva","a11_majime1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_eva
+*d17618
+d [lv 0*"05"*"31000340"]` It would be extremely difficult to investigate whether there were sweetfish there during the time Grandfather was a boy."`[@][lv 0*"05"*"31000341"]`"There's not just one river, either.`[@][lv 0*"05"*"31000342"]` I believe we all investigated thoroughly in a geographical sense.`[\]
+textoff
+waits 167
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_1,"glob_1d_bg"
+lbg s0_3,"glob_1d"
+lss s0_8,"cla","a11_komaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 23
+msgwnd_cla
+*d17619
+d2 [lv 0*"02"*"30800205"]` ......You even went to the actual place to investigate directly, didn't you, Eva?"`[@][lv 0*"02"*"30800206"]`"That was only as a vacation.`[@][#][*][lv 0*"02"*"30800207"]` ......But the townscape had changed completely from Father's time.`[\]
+wait_on_d 0
+lss s0_8,"cla","a11_akuwarai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_10,"eva","a11_futeki1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_eva
+*d17620
+d [lv 0*"05"*"31000343"]` After all, there was a war in between.`[@][lv 0*"05"*"31000344"]` It was impossible to even figure out where Father actually lived.`[@][lv 0*"05"*"31000345"]` ...Probably, even if Father dragged himself to the actual location,`[@][lv 0*"05"*"31000346"]` by now, even he wouldn't be able to determine where it was that he lived."`[@][lv 0*"05"*"31000347"]`"They've had a remarkable revival over there, after all..."`[@][lv 0*"05"*"31000348"]`"............Doesn't any place name come clearly to mind after hearing "{loghint:ayu no kawa:sweetfish river}"?"`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_1,"glob_1a_bg"
+lbg s0_3,"glob_1a"
+lss s0_8,"rud","a11_warai1" ;1
+aspt2 xpos,s0_8,-550
+flush 23
+msgwnd_rud
+*d17621
+d [lv 0*"08"*"31200242"]`"Not really.`[\]
+lss s0_10,"kir","a38_nayamu1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_kir
+*d17622
+d [lv 0*"09"*"31300191"]` I mean, they're sweetfish, right?`[\]
+lss s0_8,"rud","a11_akuwarai1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_rud
+*d17623
+d [lv 0*"08"*"31200243"]` People say they live in rivers with {loghint:kirei:clean} {loghint:mizu:water}, so there are countless rivers we could guess at.`[@][lv 0*"08"*"31200244"]` Any {loghint:ogawa:stream} that Dad innocently went {loghint:ayuzuri:sweetfish‐fishing} in was probably buried by the development later.`[@][lv 0*"08"*"31200245"]` It would be different if we had a map from before the war, or a person who knew a lot about how the area was before the war, but..."`[@][lv 0*"08"*"31200246"]`"......It probably isn't something like that."`[@][lv 0*"08"*"31200247"]`"What do you mean...?"`[\]
+lss s0_10,"kir","a13_majime1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_kir
+*d17624
+d [lv 0*"09"*"31300192"]`".........Behold the sweetfish river, running through my beloved home of old.`[\]
+lss s0_9,"cla","a11_majime1" ;1
+flush 10,167
+msgwnd_cla
+*d17625
+d [lv 0*"02"*"30800208"]` You who seek the Golden Land, follow its path downstream in search of the key.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 25
+textoff
+waits 167
+lbg s0_3,"text011_r"
+flush 2
+vol_me 1,-1,1000
+msgwnd_kir
+*d17626
+d [lv 0*"09"*"31300193"]` ...After these two lines, there is a single blank line."`[@][lv 0*"09"*"31300194"]`"...Something is being presented with just these two lines.`[@][lv 0*"09"*"31300195"]` I would suppose the next three lines continue based upon that something."`[\]
+*d17627
+d [lv 0*"09"*"31300196"]`"I wonder what it is that's being presented, then...?"`[@][lv 0*"09"*"31300197"]`"......I don't know.`[\]
+msgwnd_hid
+*d17628
+d [lv 0*"06"*"31100214"]` In any case, after just these two lines, it's not something vague like you don't know which river it is...`[\]
+msgwnd_kir
+*d17629
+d [lv 0*"09"*"31300198"]`you're able to narrow it down and say specifically what "{loghint:kawa:river}"."`[@][lv 0*"09"*"31300199"]`"......It may be that this isn't a "river" with water flowing down it.`[@][lv 0*"09"*"31300200"]` ...The "sweetfish river" might be some kind of metaphor.`[\]
+*d17630
+d [lv 0*"09"*"31300201"]` ......What kind of image does the word sweetfish have?"`[@][lv 0*"09"*"31300202"]`".........Sweetfish are like {loghint:shake:salmon}.`[@][lv 0*"09"*"31300203"]` They're {loghint:tansui‐gyo:freshwater fish}, but they go out into the {loghint:umi:ocean} right after they're born.`[\]
+meplay 1,12,50
+textoff
+waits 167
+lbg s0_1,"glob_1a_bg"
+lbg s0_3,"glob_1a"
+lss s0_9,"hid","a11_majime1" ;1
+flush 23
+msgwnd_hid
+*d17631
+d [lv 0*"06"*"31100215"]` And when they get big, they return to the river to live there,`[@][lv 0*"06"*"31100216"]` and then they {loghint:sanran:spawn} there and end their lives there."`[@][lv 0*"06"*"31100217"]`"Well, they leave their home at one point, but the part about them getting big and returning there to lay {loghint:tamago:eggs},`[@][lv 0*"06"*"31100218"]` that might have a family prosperity type of image."`[\]
+lss s0_9,"hid","a11_odayaka1" ;1
+flush 10,167
+*d17632
+d [lv 0*"06"*"31100219"]`"Huh.`[@][lv 0*"06"*"31100220"]` They're freshwater fish, but they can live in the {loghint:kaisui:ocean}?`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_1,"glob_1d_bg"
+lbg s0_3,"glob_1d"
+flush 23
+lss s0_10,"rud","a11_warai1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_rud
+*d17633
+d [lv 0*"08"*"31200248"]` I didn't know that.`[@][lv 0*"08"*"31200249"]` I thought they were {loghint:kawa‐zakana:river fish}, so they couldn't go out into the sea."`[@][lv 0*"08"*"31200250"]`"And they are also called {ruby:kougyo:{p:0:香魚}} (aroma fish) because they have a pleasant smell.`[@][lv 0*"08"*"31200251"]` I have never eaten one, but I have heard that they are very delicious when {loghint:shioyaki:grilled with salt}."`[\]
+lss s0_8,"nat","a11_warai1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_nat
+*d17634
+d [lv 0*"03"*"30900090"]`"Whoa, Natsuhi‐san!`[@][lv 0*"03"*"30900091"]` You've never eaten salt‐grilled sweetfish?!`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_10,"hid","a21_warai1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_hid
+*d17635
+d [lv 0*"06"*"31100221"]` They're delicious!`[@][lv 0*"06"*"31100222"]` I'll treat you sometime!"`[@][lv 0*"06"*"31100223"]`"It is a food for commoners.`[@][lv 0*"06"*"31100224"]` It isn't appropriate for your mouth."`[\]
+lss s0_9,"cla","a11_akuwarai2" ;1
+flush 10,167
+msgwnd_cla
+*d17636
+d [lv 0*"02"*"30800209"]`"......This is just my wild idea,`[@][lv 0*"02"*"30800210"]` ...but the image I get from a sweetfish river has made me suspect a {loghint:kakeizu:family tree} before.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_1,"glob_1a_bg"
+lbg s0_3,"glob_1a"
+flush 23
+lss s0_9,"ros","a11_komaru4" ;1
+flush 10,167
+msgwnd_ros
+*d17637
+d [lv 0*"12"*"31400207"]` The sweetfish go out into the ocean for a time, but they return to the river where they were born to spawn, right?`[@][lv 0*"12"*"31400208"]` .........It makes me think about myself."`[@][lv 0*"12"*"31400209"]`"......You're right.`[@][lv 0*"12"*"31400210"]` I can confess now...`[\]
+lss s0_10,"eva","a11_akire1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_eva
+*d17638
+d [lv 0*"05"*"31000349"]`that I have sometimes suspected that it refers to you and Maria‐chan."`[@][lv 0*"05"*"31000350"]`"I see.`[@][lv 0*"05"*"31000351"]` ......As you travel down it, you will see a village.`[\]
+lss s0_8,"cla","a11_komaru1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_cla
+*d17639
+d [lv 0*"02"*"30800211"]` The only "village" ({ruby:sato:{p:0:里}}) you'll find by going down the family tree is the one in Maria's name ({p:0:真里亞})."`[@][lv 0*"02"*"30800212"]`"Right?!`[@][lv 0*"02"*"30800213"]` ......But as you all know, Father has a dislike of Maria,`[\]
+lss s0_9,"ros","a11_nayamu1" ;1
+flush 10,167
+msgwnd_ros
+*d17640
+d [lv 0*"12"*"31400211"]` and he has almost never spoken with her."`[@][lv 0*"12"*"31400212"]`"Besides which, Father once told me to give Maria a completely different name.`[@][lv 0*"12"*"31400213"]` I just made it Maria on my own.`[\]
+lss s0_9,"ros","a11_komaru1" ;1
+flush 10,167
+*d17641
+d [lv 0*"12"*"31400214"]` Father was very mad about that."`[@][lv 0*"12"*"31400215"]`"......If you think about the history there,`[@][lv 0*"12"*"31400216"]` I just really couldn't imagine that he'd reference Maria's name in his precious epitaph about who would inherit his wealth and the family headship."`[\]
+*d17642
+d [lv 0*"12"*"31400217"]`"Have you ever let Maria‐chan read the epitaph?"`[@][lv 0*"12"*"31400218"]`"Um, yes. Of course I have.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_1,"glob_1d_bg"
+lbg s0_3,"glob_1d"
+lss s0_10,"kir","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 24
+msgwnd_kir
+*d17643
+d [lv 0*"09"*"31300204"]` But she didn't seem to have a clue.`[\]
+lss s0_8,"ros","a11_komaru4" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ros
+*d17644
+d [lv 0*"12"*"31400219"]` ......She didn't have a clue, and she kept going on about that same occult stuff, about how it was a {loghint:fukkatsu:resurrection} {loghint:gishiki:ceremony} for the witch."`[@][lv 0*"12"*"31400220"]`"............A connection between Father and Maria.`[@][lv 0*"12"*"31400221"]` ...Certainly, they do share that occult hobby, but they never interacted.`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_10,"cla","a11_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_cla
+*d17645
+d [lv 0*"02"*"30800214"]` ...I can't imagine it refers to Maria either."`[@][lv 0*"02"*"30800215"]`"......What interests me is the fact that he explicitly added the word "{loghint:natsukashiki:beloved}" at the beginning.`[@][lv 0*"02"*"30800216"]` ......Like you all said just now,`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 23
+vol_me 1,-1,1000
+textoff
+waits 167
+lbg s0_3,"text011_r"
+flush 2
+msgwnd_kir
+*d17646
+d [lv 0*"09"*"31300205"]` if Father was reluctant about becoming the Ushiromiya family head,`[@][lv 0*"09"*"31300206"]` would he describe it that way?`[@][lv 0*"09"*"31300207"]` ...I don't think it is Odawara, which points back to the Ushiromiya {loghint:honke:main family}."`[@][lv 0*"09"*"31300208"]`"......I believe that this word "beloved" here at the beginning...`[@][lv 0*"09"*"31300209"]`definitely refers to a place full of very important memories to Father."`[\]
+*d17647
+d [lv 0*"09"*"31300210"]`"...............Hmmmmmm.`[@][lv 0*"09"*"31300211"]` ...Well, that's fine.`[\]
+meplay 1,12,50
+textoff
+waits 167
+lbg s0_1,"glob_1a_bg"
+lbg s0_3,"glob_1a"
+flush 23
+lss s0_10,"rud","a11_defo2" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_rud
+*d17648
+d [lv 0*"08"*"31200252"]` It'd be hard to pinpoint since we don't have a clue about a map from that time,`[@][lv 0*"08"*"31200253"]` but anyway, there were probably several rivers with sweetfish swimming in them near Dad's home during his youth."`[@][lv 0*"08"*"31200254"]`"That's if it's a river with water flowing down it, right?`[@][lv 0*"08"*"31200255"]` And then?`[\]
+lss s0_9,"eva","a11_akire1" ;1
+flush 10,167
+msgwnd_eva
+*d17649
+d2 [lv 0*"05"*"31000352"]` Go on, Kyrie‐san."`[@][#][*][lv 0*"05"*"31000353"]`"......I don't really understand the three lines starting with "As you travel down it, you will see a village".`[@][lv 0*"05"*"31000354"]` ...These are probably coupled with the two lines about the sweetfish river."`[\]
+wait_on_d 0
+lss s0_9,"eva","a11_warai1" ;1
+flush 10,167
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_9
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 25
+vol_me 1,-1,1000
+textoff
+waits 167
+lbg s0_3,"text011_r"
+flush 22
+msgwnd_kir
+*d17650
+d [lv 0*"09"*"31300212"]`"It's probably something that we would automatically understand if we knew what the sweetfish river really was.`[@][lv 0*"09"*"31300213"]` ...As long as we don't understand that, it's probably useless to try and solve those three lines any further."`[\]
+*d17651
+d [lv 0*"09"*"31300214"]`"So we're screwed unless we know what the "sweetfish river" really is...`[@][lv 0*"09"*"31300215"]` And there's no guarantee it even means a literal river."`[\]
+meplay 1,12,50
+textoff
+waits 167
+lbg s0_1,"glob_1d_bg"
+lbg s0_3,"glob_1d"
+lss s0_10,"rud","a11_odoroki1" ;1
+aspt2 xpos,s0_10,370
+flush 26
+msgwnd_rud
+*d17652
+d [lv 0*"08"*"31200256"]`"...Seriously.`[@][lv 0*"08"*"31200257"]` The heck does it mean by sweetfish?`[\]
+lss s0_10,"rud","a11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d17653
+d [lv 0*"08"*"31200258"]` Were they a {loghint:koubutsu:favorite dish} of Dad's?`[@][lv 0*"08"*"31200259"]` Or is there some special meaning?`[@][lv 0*"08"*"31200260"]` Is it pointless to read too deeply into it?"`[@][lv 0*"08"*"31200261"]`"...If you don't have both a micro and a macro perspective, your field of vision grows narrow.`[@][lv 0*"08"*"31200262"]` ......Think not too deeply, about a river with {loghint:sakana:fish} swimming in it, or some kind of {loghint:nagare:flow},`[\]
+lss s0_8,"eva","b21_akire2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_eva
+*d17654
+d [lv 0*"05"*"31000355"]` ...something you can {loghint:kudaru:go down} or {loghint:noboru:go up},`[@][lv 0*"05"*"31000356"]` keep those kinds of abstract images in mind, and we may be able to come up with more out‐of‐the‐box ideas."`[|][lv 0*"05"*"31000357"]`"And via the three lines that follow, the answer for the "sweetfish river" ends up at the "key to the Golden Land"..."`[@][lv 0*"05"*"31000358"]`"If you think about it this way, I wonder if it was a mistake to split it into three parts.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_1,"glob_1a_bg"
+lbg s0_3,"glob_1a"
+flush 23
+lss s0_10,"ros","a11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ros
+*d17655
+d [lv 0*"12"*"31400222"]` There's actually four parts.`[\]
+lss s0_8,"kir","a11_warai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_kir
+*d17656
+d [lv 0*"09"*"31300216"]` ......‘Go down the sweetfish river’,`[@][lv 0*"09"*"31300217"]` "find the key to the Golden Land",`[@][lv 0*"09"*"31300218"]` "journey to the Golden Land",`[@][lv 0*"09"*"31300219"]` and "the treasure of the Golden Land"."`[@][lv 0*"09"*"31300220"]`"Hmmm... ......Truly interesting.`[@][lv 0*"09"*"31300221"]` While we have this opportunity,`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_10,"cla","a11_akuwarai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_cla
+*d17657
+d [lv 0*"02"*"30800217"]` would you mind continuing and telling us your opinion about the most central portion of the {loghint:hibun:epitaph},`[@][lv 0*"02"*"30800218"]` up until the {loghint:dai‐juu no ban:tenth twilight} where we arrive at the Golden Land?"`[@][lv 0*"02"*"30800219"]`"......That's the most symbolic, ...and also the most disturbing part."`[@][lv 0*"02"*"30800220"]`"Since it keeps mentioning the word {loghint:ikenie:sacrifice},`[\]
+csp_slot s0_8
+flush 10,167
+lss s0_8,"ros","a11_komaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ros
+*d17658
+d [lv 0*"12"*"31400223"]` I can't help but think it has something to do with Father's occult {loghint:gishiki:rituals}...`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_10,"eva","a11_akire1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_eva
+*d17659
+d [lv 0*"05"*"31000359"]` .........How do you see it, Kyrie‐san?"`[@][lv 0*"05"*"31000360"]`Kyrie recrossed her arms several times,`[@][lv 0*"05"*"31000361"]` peering into the paper with the epitaph copied onto it as though she was looking through it...`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 25
+vol_me 1,-1,1000
+textoff
+waits 167
+lbg s0_3,"text012_r"
+flush 2
+msgwnd_non
+*d17660
+d `"...........................`[@]` .........This is...very difficult.`[\]
+msgwnd_kir
+*d17661
+d [lv 0*"09"*"31300222"]` ...By starting with "You who laid {loghint:te:hand} upon the key",`[@][lv 0*"09"*"31300223"]` it probably means that you won't be able to continue without understanding the key.`[@][lv 0*"09"*"31300224"]` ...I'll have to give up, but I'll take a shot at it anyway."`[@][lv 0*"09"*"31300225"]`"......Just like how the "sweetfish river" isn't necessarily a river with water flowing down it,`[@][lv 0*"09"*"31300226"]` it is also doubtful whether this "key" is actually something shaped like a key."`[\]
+msgwnd_eva
+*d17662
+d [lv 0*"05"*"31000362"]`"Right.`[@][lv 0*"05"*"31000363"]` There's also the possibility that it's a code or a keyword.`[\]
+msgwnd_kir
+*d17663
+d [lv 0*"09"*"31300227"]` ......After all, this key isn't something to be stuck into a keyhole.`[@][lv 0*"09"*"31300228"]` It's something that selects the six people to be sacrifices for the first twilight."`[@][lv 0*"09"*"31300229"]`"In that sense, we can state that this key isn't something to open the door to the Golden Land."`[@][lv 0*"09"*"31300230"]`"......But what a disturbing key.`[\]
+*d17664
+d [lv 0*"09"*"31300231"]` A key that can select six people to be sacrifices..."`[\]
+meplay 1,12,50
+textoff
+waits 167
+lbg s0_1,"glob_1a_bg"
+lbg s0_3,"glob_1a"
+lss s0_10,"nat","a21_odoroki2" ;1
+aspt2 xpos,s0_10,370
+flush 26
+msgwnd_nat
+*d17665
+d2 [lv 0*"03"*"30900092"]`"How would a key {loghint:erabu:select} anything?`[@][#][*][lv 0*"03"*"30900093"]` ...Does it spin around like a roulette...?"`[\]
+wait_on_d 0
+seplay 1,21,50
+d_continue
+wait_on_d -1
+lss s0_8,"hid","a11_fumu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_hid
+*d17666
+d [lv 0*"06"*"31100225"]`"This key points towards a certain specific group of {loghint:roku‐nin:six people}.`[@][lv 0*"06"*"31100226"]` ......No, we should say it points to a certain specific group of {loghint:muttsu:six things}.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_1,"glob_1d_bg"
+lbg s0_3,"glob_1d"
+lss s0_10,"kir","a27_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 24
+msgwnd_kir
+*d17667
+d [lv 0*"09"*"31300232"]` ......If this doesn't mean a literal command to offer sacrifices.`[@][lv 0*"09"*"31300233"]` ...For example, it could be an anagram."`[@][lv 0*"09"*"31300234"]`"An anagram?`[@][lv 0*"09"*"31300235"]` Do you mean a word game...?"`[\]
+lss s0_8,"cla","a11_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_cla
+*d17668
+d [lv 0*"02"*"30800221"]`"Yes.`[@][lv 0*"02"*"30800222"]` Ever since Rosa started talking about the family tree and how "village" was a part of Maria‐chan's name,`[\]
+lss s0_10,"kir","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_kir
+*d17669
+d [lv 0*"09"*"31300236"]` this has constantly been going through my mind."`[@][lv 0*"09"*"31300237"]`"......It seems as though Rudolf‐san, for example, has run with the words "beloved home of old",`[@][lv 0*"09"*"31300238"]` and is assuming that it has to something to do with {loghint:chikei:geography} or {loghint:zahyou:coordinates}, but that might not be true.`[\]
+lss s0_10,"kir","a11_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d17670
+d [lv 0*"09"*"31300239"]` This could be some kind of puzzle, ...or maybe playing with letters."`[@][lv 0*"09"*"31300240"]`"......I'm sorry.`[@][lv 0*"09"*"31300241"]` What do you mean by playing with letters?"`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_1,"glob_1d_bg"
+lbg s0_3,"glob_1d"
+lss s0_8,"nat","a21_zutuu1" ;1
+aspt2 xpos,s0_8,-550
+flush 23
+msgwnd_nat
+*d17671
+d [lv 0*"03"*"30900094"]`"Oh yeah, it's like "sucker merry barrellers".`[@][lv 0*"03"*"30900095"]` What do you get when you take out the e's and r's?`[\]
+lss s0_10,"rud","a11_warai2" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_rud
+*d17672
+d [lv 0*"08"*"31200263"]` Like that.`[@][lv 0*"08"*"31200264"]` Well, you were raised well, Natsuhi‐san, so you probably haven't heard that one."`[@][lv 0*"08"*"31200265"]`"Take out the e's and r's? Huh?`[@][lv 0*"08"*"31200266"]` ???"`[\]
+lss s0_8,"nat","a21_odoroki2" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_nat
+*d17673
+d [lv 0*"03"*"30900097"]`"Don't.`[@][lv 0*"03"*"30900098"]` It is an undignified game, inappropriate for you."`[\]
+lss s0_9,"cla","a11_komaru1" ;1
+flush 10,167
+msgwnd_cla
+*d17674
+d [lv 0*"02"*"30800223"]`Only Natsuhi didn't get it and had a blank look on her face.`[@][lv 0*"02"*"30800224"]`It seemed that she had only guessed the answer had to be something undignified,`[\]
+msgwnd_non
+*d17675
+d ` after hearing Rudolf and Eva's snickers.`[\]
+*d17676
+d `"Ah, ...Natsuhi nee‐san, it's something like this.`[@]` There was something like it in Maria's book of puzzles, okay?`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_10,"ros","a11_defo1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_ros
+*d17677
+d [lv 0*"12"*"31400224"]` There's this thing called the Tanuki Notebook."`[@][lv 0*"12"*"31400225"]`"There's a notebook written in some kind of code, with a lot of "ta"s mixed in,`[@][lv 0*"12"*"31400226"]` and if you "{ruby:nuki:remove}" all of the "ta"s, then the true sentences pop up.`[\]
+lss s0_10,"ros","a13_defo1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+*d17678
+d [lv 0*"12"*"31400227"]` It's a game like that."`[@][lv 0*"12"*"31400228"]`"Ah......oh, I see.`[@][lv 0*"12"*"31400229"]` .........??"`[\]
+lss s0_8,"nat","a11_warai1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_nat
+*d17679
+d2 [lv 0*"03"*"30900099"]`Natsuhi finally realized the answer to the undignified riddle Rudolf had posed, and her face grew red as she hung her head in embarrassment.`[@][#][*][lv 0*"03"*"30900100"]`"...............So maybe that "remove" part is actually represented by "{loghint:korosu:kill}"...?"`[\]
+wait_on_d 0
+lss s0_8,"nat","a11_zutuu1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+d_continue
+wait_on_d -1
+msgwnd_non
+*d17680
+d `"Yes.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 25
+meplay 2,5,50
+textoff
+waits 167
+lbg s0_1,"glob_1d_bg"
+lbg s0_3,"glob_1d"
+flush 22
+msgwnd_eva
+*d17681
+d [lv 0*"05"*"31000364"]` I was just thinking that too.`[\]
+msgwnd_kir
+*d17682
+d [lv 0*"09"*"31300242"]` It's possible that the key to the Golden Land is a word with {loghint:roku‐moji:six characters}."`[@][lv 0*"09"*"31300243"]`"In other words, ...the "ta" from the Tanuki Notebook...is actually six characters here...?`[@][lv 0*"09"*"31300244"]` Hmmm, ...this is gettin' complicated..."`[\]
+msgwnd_hid
+*d17683
+d [lv 0*"06"*"31100227"]`"Playing with letters, is it...`[@][lv 0*"06"*"31100228"]` ......Hmmm.`[\]
+msgwnd_cla
+*d17684
+d [lv 0*"02"*"30800225"]` In Japan, it really feels like a child's game, but it seems that it is a stylish form of humor among intellectuals in the English‐speaking world.`[@][lv 0*"02"*"30800226"]` ...It is easy to imagine that Father showed interest in it."`[@][lv 0*"02"*"30800227"]`"......But right here, I quickly lose my ability to understand it.`[@][lv 0*"02"*"30800228"]` Up until this point, while it was filled with mystery, it was extremely sequential."`[\]
+textoff
+waits 167
+csp_slot s0_1
+lbg s0_3,"black"
+flush 22
+vol_me 1,-1,1000
+vol_me 2,-1,1000
+textoff
+waits 167
+lbg s0_3,"text012_r"
+flush 22
+msgwnd_kir
+*d17685
+d [lv 0*"09"*"31300245"]`"‘Sweetfish river’, "go down it", "then find the key" is all extremely sequential.`[@][lv 0*"09"*"31300246"]` And we can guess that we gain a six‐character key as a result,`[\]
+*d17686
+d [lv 0*"09"*"31300247"]` ......but in that case, we now don't know {i:what} we kill the six characters from."`[@][lv 0*"09"*"31300248"]`"That's a point.`[@][lv 0*"09"*"31300249"]` What do we subtract the six characters from?`[\]
+msgwnd_rud
+*d17687
+d [lv 0*"08"*"31200267"]` It doesn't tell us."`[@][lv 0*"08"*"31200268"]`"...On the second twilight, it says "{loghint:nokosareshi mono wa:those who remain}".`[@][lv 0*"08"*"31200269"]` ......Which means that, at the very least, that "something" has a finite number of characters.`[\]
+lss s0_10,"kir","a27_majime1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_kir
+*d17688
+d [lv 0*"09"*"31300250"]` You could read it like it's telling you to continue with the {loghint:nokotta:remaining} characters after the six characters are removed."`[@][lv 0*"09"*"31300251"]`".........And yet, we don't know what this "something" is, even though it should have been shown to us at the beginning.`[@][lv 0*"09"*"31300252"]` ...Were we wrong even to assume that this is playing with letters...?"`[\]
+*d17689
+d [lv 0*"09"*"31300253"]`".....................hmmmmm..."`[@][lv 0*"09"*"31300254"]`Everyone crossed their arms and fell into silence.`[\]
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"black"
+flush 22
+msgwnd_hid
+*d17690
+d [lv 0*"06"*"31100229"]`It felt like they were about to reach a novel understanding that they hadn't been able to before...but they stumbled just one step before it.`[\]
+meplay 1,13,50
+textoff
+waits 167
+lbg s0_1,"glob_1a_bg"
+lbg s0_3,"glob_1a"
+flush 5
+msgwnd_non
+*d17691
+d `At that time, Hideyoshi's stomach rumbled heartily.`[\]
+*d17692
+d `The silence up until then was broken by laughter.`[\]
+textoff
+waits 167
+meplay 2,5,0
+vol_bgm 0,3000
+vol_me 2,50,3000
+wait 3000
+vol_bgm -1,1000
+seplay 1,47,71
+textoff
+waits 167
+csp_slot s0_1
+lbg s0_3,"black"
+flush 1
+*d17693
+d `"Sorry, sorry.`[\]
+*d17694
+d ` By spinnin' the gears in my head for a change, my stomach's gone completely empty.`[\]
+textoff
+waits 167
+lbg s0_1,"glob_1a_bg"
+lbg s0_3,"glob_1a"
+lss s0_9,"hid","a21_warai2" ;1
+flush 22
+msgwnd_hid
+*d17695
+d [lv 0*"06"*"31100230"]` Looks like skippin' breakfast really takes its toll on me...wahahahahaha."`[@][lv 0*"06"*"31100231"]`"Natsuhi.`[@][lv 0*"06"*"31100232"]` Is there nothing here?"`[\]
+csp_slot s0_9
+flush 10,167
+lss s0_10,"cla","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_cla
+*d17696
+d [lv 0*"02"*"30800229"]`"There should at least be enough set aside for breakfast.`[@][lv 0*"02"*"30800230"]` I will prepare it."`[\]
+lss s0_8,"nat","a11_warai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_nat
+*d17697
+d [lv 0*"03"*"30900101"]`"I'm also starving.`[@][lv 0*"03"*"30900102"]` I'll bet those brats above us are starving too.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_1,"glob_1d_bg"
+lbg s0_3,"glob_1d"
+lss s0_10,"rud","a11_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 24
+msgwnd_rud
+*d17698
+d [lv 0*"08"*"31200270"]` ...But I doubt there's enough for 18 people here, and for three meals."`[@][lv 0*"08"*"31200271"]`"You're right there.`[@][lv 0*"08"*"31200272"]` It'll be a marathon to tomorrow.`[\]
+lss s0_8,"hid","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_hid
+*d17699
+d [lv 0*"06"*"31100233"]` It might be better if we took a trip back to the mansion and fished around for some canned food or something in the kitchen."`[@][lv 0*"06"*"31100234"]`"There's nothing more than crackers and snacks, but if that is alright, I can prepare them.`[@][lv 0*"06"*"31100235"]` But with this many people, there might not be any left for lunch..."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_1,"glob_1a_bg"
+lbg s0_3,"glob_1a"
+flush 23
+lss s0_10,"nat","a11_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_nat
+*d17700
+d [lv 0*"03"*"30900103"]`"That will be fine for now.`[@][lv 0*"03"*"30900104"]` Sorry, but would you prepare it for us?"`[\]
+lss s0_8,"cla","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_cla
+*d17701
+d [lv 0*"02"*"30800231"]`It looked like the men had been taken over with an appetite that stopped all thought.`[@][lv 0*"02"*"30800232"]`The atmosphere grew more peaceful, and the epitaph investigation meeting broke up for the time being.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 5
+meplay 3,11,71
+textoff
+waits 167
+lbg s0_1,"glob_1d_bg"
+lbg s0_3,"glob_1d"
+flush 6
+msgwnd_non
+*d17702
+d `But Eva kept staring at the paper the epitaph was written on like she was going to burn a hole through it...`[\]
+*d17703
+d `"............A word game was nothing more than my theory.`[\]
+*d17704
+d ` There is a chance that it's mistaken.`[\]
+lss s0_10,"kir","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_kir
+*d17705
+d [lv 0*"09"*"31300255"]` Eva‐san, don't take it too seriously, okay...?"`[@][lv 0*"09"*"31300256"]`".........Thank you.`[@][lv 0*"09"*"31300257"]` This is something I've decided to do myself.`[\]
+lss s0_8,"eva","a11_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_eva
+*d17706
+d [lv 0*"05"*"31000365"]` Would you mind leaving me alone?"`[@][lv 0*"05"*"31000366"]`Eva spoke coldly.`[@][lv 0*"05"*"31000367"]`...Kyrie didn't bother her any more, and went to help Natsuhi prepare breakfast.`[\]
+msgwnd_non
+*d17707
+d `"Nee‐san.`[\]
+csp_slot s0_10
+flush 10,167
+*d17708
+d ` Shouldn't we also help prepare breakfast?"`[\]
+lss s0_10,"ros","a11_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ros
+*d17709
+d [lv 0*"12"*"31400230"]`"Then you go help.`[@][lv 0*"12"*"31400231"]` I'm busy solving this!"`[\]
+lss s0_8,"eva","a11_akire1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_eva
+*d17710
+d [lv 0*"05"*"31000368"]`"S‐sorry...`[@][lv 0*"05"*"31000369"]` Th‐then I'll go help..."`[\]
+seplay 1,21,50
+lss s0_10,"ros","a11_komaru3" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ros
+*d17711
+d [lv 0*"12"*"31400232"]`".........Come {i:on}.`[@][lv 0*"12"*"31400233"]` Why are you like this?"`[\]
+lss s0_8,"eva","a11_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+vol_me 3,-1,1000
+msgwnd_eva
+*d17712
+d [lv 0*"05"*"31000370"]`"......Huh?"`[@][lv 0*"05"*"31000371"]`"The Ushiromiya family inheritance will be given to the person who solves this epitaph.`[\]
+lss s0_10,"ros","a11_komaru1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ros
+*d17713
+d [lv 0*"12"*"31400234"]` You seem to have given up from the beginning, as though it has nothing to do with you,`[\]
+lss s0_8,"eva","b21_akire2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_eva
+*d17714
+d [lv 0*"05"*"31000372"]` but if you could solve it, even you have the opportunity to inherit the family headship."`[@][lv 0*"05"*"31000373"]`"......This is a chance to steal everything from Nii‐san.`[@][lv 0*"05"*"31000374"]` Why aren't you seriously trying to solve it for that once‐in‐a‐lifetime chance?"`[\]
+seplay 2,21,71
+lss s0_8,"eva","a11_ikari2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d17715
+d [lv 0*"05"*"31000375"]`"...Um, .........umm, ......I......"`[@][lv 0*"05"*"31000376"]`Rosa hung her head, troubled over how she should answer.`[\]
+lss s0_10,"ros","a11_komaru4" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ros
+*d17716
+d [lv 0*"12"*"31400235"]`{n}...She regretted, for the first time in a while, carelessly speaking to her sister when she was in a bad mood.`[\]
+msgwnd_non
+*d17717
+d `"If you've noticed anything, say so.`[@]` Even though Kyrie‐san and I were seriously reasoning, you just kept nodding your head, didn't you?`[\]
+lss s0_8,"eva","a11_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_eva
+*d17718
+d [lv 0*"05"*"31000377"]` Come on.`[@][lv 0*"05"*"31000378"]` Isn't there anything you've noticed?`[@][lv 0*"05"*"31000379"]` Come on!"`[@][lv 0*"05"*"31000380"]`".........Uh,`[@][lv 0*"05"*"31000381"]` .........umm,`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 5
+msgwnd_ros
+*d17719
+d [lv 0*"12"*"31400236"]` .........`[|][lv 0*"12"*"31400237"]` ......Isn't...this strange?"`[|][lv 0*"12"*"31400238"]`"...Strange?`[@][lv 0*"12"*"31400239"]` What is?"`[\]
+msgwnd_eva
+*d17720
+d [lv 0*"05"*"31000382"]`"Umm, ......this word, {loghint:ougonkyou:Golden Land}.`[@][lv 0*"05"*"31000383"]` The word Golden Land comes up several times."`[\]
+textoff
+waits 167
+lbg s0_3,"text012_r"
+flush 22
+msgwnd_ros
+*d17721
+d [lv 0*"12"*"31400240"]`"So what?`[@][lv 0*"12"*"31400241"]` Do you get some keywords by splitting up the characters in "Golden Land"?"`[\]
+msgwnd_eva
+*d17722
+d [lv 0*"05"*"31000384"]`"Um, umm, that's not it.`[@][lv 0*"05"*"31000385"]` ......Look, isn't just the tenth twilight strange?"`[\]
+msgwnd_ros
+*d17723
+d [lv 0*"12"*"31400242"]`"...............Huh?`[@][lv 0*"12"*"31400243"]` ......ah."`[\]
+msgwnd_eva
+*d17724
+d [lv 0*"05"*"31000386"]`"Even though they're all written the "Golden Land" ({ruby:ougonkyou:{p:0:黄金郷}}), for some reason, this one place has the "Home of the Gold" ({ruby:ougon no sato:{p:0:黄金の郷}}).`[@][lv 0*"05"*"31000387"]` He explicitly mixed in the character {ruby:no:{p:0:の}}, changing the phrasing.`[\]
+textoff
+waits 167
+vol_mix_fade 1000
+wait 1000
+bgmplay 18,71,0
+msgwnd_ros
+*d17725
+d [lv 0*"12"*"31400244"]` It vaguely bugged me that it's only said differently here..."`[@][lv 0*"12"*"31400245"]`".........ah, umm, ...it's not like it means anything.`[@][lv 0*"12"*"31400246"]` This is Father we're talking about.`[\]
+*d17726
+d [lv 0*"12"*"31400247"]` It could just be a coincidental change in how he said the word."`[@][lv 0*"12"*"31400248"]`".........................................."`[@][lv 0*"12"*"31400249"]`".........Boring."`[\]
+msgwnd_eva
+*d17727
+d [lv 0*"05"*"31000388"]`"Oh? What is boring...?"`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 42
+vol_mix_fade 3000
+vol_bgm -1,3000
+wait 3000
+gstc 150
+textoff
+waits 167
+seplay 1,52,71
+textoff
+waits 167
+lbg s0_3,"different_spiral_1a"
+flush 22
+wait 2000
+textoff
+waits 167
+lbg s0_3,"white"
+flush 8
+textoff
+waits 167
+lbg s0_3,"g1f_s1ap"
+lss s0_10,"bea","a11_fukigen2" ;1
+aspt2 xpos,s0_10,370
+flush 2
+bgmplay 70,71,0
+msgwnd_bea
+*d17728
+d [lv 0*"27"*"30701319"]`".........Boring, boring."`[\]
+textoff
+waits 167
+seplay 1,52,71
+lss s0_8,"wal","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+aspt2 breakup,s0_8,1000
+aspt2 alpha,s0_8,0
+flush 1
+aspt2 breakup,s0_8,0,2000
+aspt2 alpha,s0_8,255,2000
+sptwait2 breakup,s0_8
+msgwnd_wal
+*d17729
+d [lv 0*"30"*"33200373"]`"Well now.`[\]
+lss s0_10,"bea","a11_nayamu2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d17730
+d [lv 0*"27"*"30701320"]` I don't have the foggiest idea what this child is grumbling about."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"g1f_s1ap"
+flush 23
+lss s0_9,"wal","a11_warai1" ;1
+flush 10,167
+msgwnd_wal
+*d17731
+d [lv 0*"30"*"33200374"]`"She is probably dissatisfied that you gave Battler‐sama various hints, Madam."`[@][lv 0*"30"*"33200375"]`"......Noooope?`[\]
+textoff
+waits 167
+seplay 1,52,71
+lss s0_10,"ron","a11_warai2" ;1
+aspt2 xpos,s0_10,550
+aspt2 breakup,s0_10,1000
+aspt2 alpha,s0_10,0
+flush 1
+aspt2 breakup,s0_10,0,2000
+aspt2 alpha,s0_10,255,2000
+sptwait2 breakup,s0_10
+msgwnd_ron
+*d17732
+d [lv 0*"31"*"33100413"]` I'm not dissatisfied about that.`[\]
+textoff
+waits 167
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_3,"g1f_s1bp"
+lss s0_9,"bea","a11_nayamu2" ;1
+flush 23
+lss s0_9,"bea","a11_fukigen2" ;1
+flush 10,167
+msgwnd_bea
+*d17733
+d [lv 0*"27"*"30701321"]` I'm actually {i:more} satisfied now that that worthless Battler has finally reached the level where he can go along with me."`[@][lv 0*"27"*"30701322"]`"Hoh‐hoh‐ho...`[@][lv 0*"27"*"30701323"]` Was I a little too friendly with Battler‐kun?`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"g1f_s1ap"
+lss s0_10,"ron","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+lss s0_8,"wal","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 24
+lss s0_8,"wal","a12_warai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_wal
+*d17734
+d [lv 0*"30"*"33200376"]` Maybe it would be better if the old people went away and left everything to the young kids."`[@][lv 0*"30"*"33200377"]`"Pu ku ku ku ku..."`[@][lv 0*"30"*"33200378"]`When {f:5:Virgilia} and Ronove giggled and cackled,`[\]
+lss s0_10,"ron","a13_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ron
+*d17735
+d [lv 0*"31"*"33100414"]` {f:5:Beatrice}'s irritation meter finally reached its limit.`[\]
+msgwnd_non
+*d17736
+d `"Ahhhh, the both of you joining forces and laughing at me!`[@]` Ronove, hide yourself for a while!`[\]
+csp_slot s0_8
+flush 10,167
+seplay 1,1006,71
+lss s0_8,"bea","a11_aseru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_bea
+*d17737
+d2 [lv 0*"27"*"30701324"]` Go away, go awaaaay!"`[#][*][@][#][*][lv 0*"27"*"30701325"]`"Certainly.`[@][lv 0*"27"*"30701326"]` Then, I will rest for a while.`[\]
+wait_on_d 0
+agpt quakeycycle,50
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+d_continue
+wait_on_d 1
+lss s0_8,"bea","a11_komaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_10,"ron","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ron
+*d17738
+d2 [lv 0*"31"*"33100415"]` Pukkukukuku..."`[@][lv 0*"31"*"33100416"]`Ronove bowed his head, still laughing, and hid himself.`[@][#][*][lv 0*"31"*"33100417"]`After that, all that remained was the figure of {f:5:Beatrice}, who was grumpy and irritated,`[\]
+wait_on_d 0
+seplay 1,52,71
+aspt2 breakup,s0_10,0
+aspt2 breakup,s0_10,1000,2000
+aspt2 alpha,s0_10,0,2000
+sptwait2 breakup,s0_10
+csp_slot s0_10
+flush 1 ;flush2: NO frames
+d_continue
+wait_on_d -1
+msgwnd_non
+*d17739
+d ` and {f:5:Virgilia}, who was coolly enjoying her tea.`[\]
+*d17740
+d `"...............When you said "{p:1:There are no more than 18 people on this island}", you actually cornered yourself."`[@]`".........I thought so...`[\]
+textoff
+waits 167
+csp_slot s0_8
+lbg s0_3,"g1f_s1ap"
+flush 23
+lss s0_10,"wal","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_wal
+*d17741
+d [lv 0*"30"*"33200379"]` ............I thought it might have been a {i:little} too early, but...`[\]
+lss s0_8,"bea","a11_odoroki2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_bea
+*d17742
+d [lv 0*"27"*"30701327"]` ......I guess it really was......"`[@][lv 0*"27"*"30701328"]`"If you had led him further astray beforehand, things might have been different,`[@][lv 0*"27"*"30701329"]` but it really was a futile trump card.`[\]
+lss s0_10,"wal","a11_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_wal
+*d17743
+d [lv 0*"30"*"33200380"]` You stirred him up instead."`[@][lv 0*"30"*"33200381"]`In addition to his victory condition of denying the witch,`[@][lv 0*"30"*"33200382"]` Battler had held onto a different victory condition, since he had wanted to explain things without suspecting any of the 18.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 25
+textoff
+waits 167
+lbg s0_3,"g1f_s1bp"
+color_mod2 s0_3,#ffffff
+lss s0_9,"but","b11_nayamu1" ;1
+color_mod2 s0_9,#ffffff
+flush 26
+msgwnd_non
+*d17744
+d `Hadn't he been at his weakest when he was being tossed about by these two opposing goals?`[@]`However, {f:5:Beatrice} had used the red carelessly, and had proclaimed that there were no more than 18 people.`[\]
+lss s0_9,"but","b11_kuyasigaru1" ;1
+color_mod2 s0_9,#ffffff
+flush 10,167
+*d17745
+d `...Because of that, Battler had been forced to suspect one of the 18,`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"g1f_s1ap"
+color_mod2 s0_3,#ffffff
+lss s0_10,"bea","a21_akuwarai2" ;1
+aspt2 xpos,s0_10,370
+color_mod2 s0_10,#ffffff
+flush 24
+*d17746
+d ` .........and he had finally begun to build up the readiness that he needed to accept that.`[\]
+textoff
+waits 167
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"g1f_s1ap"
+color_mod2 s0_3,#ffffff
+lss s0_9,"but","b11_kuyasigaru1" ;1
+color_mod2 s0_9,#ffffff
+flush 23
+*d17747
+d2 `Battler was stubborn,`[@][#][*]` but because of that, when he was struck where he was fragile, fissures would crack all over him, like breaking china.`[\]
+wait_on_d 0
+lss s0_9,"but","b11_nayamu1" ;1
+color_mod2 s0_9,#ffffff
+flush 10,167
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"black"
+flush 22
+*d17748
+d `That itself should have been his greatest weak point...`[@]`".........Kuuuuuu.`[\]
+*d17749
+d ` ......Maybe I got a bit too careless after my overwhelming victory last time......"`[\]
+textoff
+waits 167
+lbg s0_3,"g1f_s1bp"
+flush 26
+lss s0_10,"bea","a11_nayamu2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d17750
+d [lv 0*"27"*"30701330"]`"Yes, you were too careless.`[@][lv 0*"27"*"30701331"]` ...The last game was a difficult one for Battler‐kun,`[\]
+lss s0_8,"wal","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_wal
+*d17751
+d [lv 0*"30"*"33200383"]` but it seems...`[@][lv 0*"30"*"33200384"]`this game will prove a difficult one {i:for you}."`[@][lv 0*"30"*"33200385"]`"......A broken vase will definitely never return to its original form.`[|][lv 0*"30"*"33200386"]` ...So it would be more constructive to think of the next move, rather than regretfully picking up the pieces."`[\]
+lss s0_10,"bea","a11_iiwake1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d17752
+d [lv 0*"27"*"30701332"]`".........But now that Battler has all the right ideas in his head, how should I plot against him...?"`[@][lv 0*"27"*"30701333"]`"Hoh‐hoh‐ho.`[\]
+lss s0_10,"bea","a11_nayamu2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d17753
+d [lv 0*"27"*"30701334"]` Your troubled face is an even better treat than Ronove's cookies."`[\]
+lss s0_8,"wal","a11_warai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_wal
+*d17754
+d [lv 0*"30"*"33200387"]`"......Uu.`[@][lv 0*"30"*"33200388"]` You and Battler and even Ronove keep treating me like a snack.`[\]
+csp_slot s0_10
+flush 10,167
+msgwnd_bea
+*d17755
+d [lv 0*"27"*"30701335"]` ...Even though I'm not sweet at allll."`[@][lv 0*"27"*"30701336"]`With a shameful, childlike face that she would never have shown in front of Battler,`[@][lv 0*"27"*"30701337"]` {f:5:Beatrice} rolled her head around on top of the table.`[\]
+seplay 1,47,71
+msgwnd_non
+*d17756
+d `"............Masteeer.`[@]` .........At least a hiiint."`[\]
+lss s0_10,"bea","a11_nayamu2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d17757
+d [lv 0*"27"*"30701338"]`"Oh?`[@][lv 0*"27"*"30701339"]` What kind of hint?"`[\]
+lss s0_8,"wal","a11_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_wal
+*d17758
+d [lv 0*"30"*"33200389"]`"If you know a skillful move that will make Battler speechless, and make him want to accept me,`[@][lv 0*"30"*"33200390"]` I won't ask you to say it outright, so, umm,`[\]
+lss s0_10,"bea","a11_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d17759
+d2 [lv 0*"27"*"30701340"]` ...even if it's just a hint..."`[@][#][*][lv 0*"27"*"30701341"]`"Hoh‐hoh‐ho, I can't.`[|][lv 0*"27"*"30701342"]` I am acting as Battler‐kun's ally right now,`[\]
+wait_on_d 0
+lss s0_10,"bea","a11_nayamu2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_8,"wal","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_wal
+*d17760
+d [lv 0*"30"*"33200391"]` so I cannot teach you something that would give you an advantage."`[@][lv 0*"30"*"33200392"]`"...You don't have to be so strict...`[@][lv 0*"30"*"33200393"]` Your disciple's in troubllle..."`[\]
+lss s0_10,"bea","a11_iiwake2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d17761
+d [lv 0*"27"*"30701343"]`"I believe you harshly boasted that you had surpassed your master, correct?"`[@][lv 0*"27"*"30701344"]`".........Uu...`[\]
+lss s0_8,"wal","a11_komaru2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_wal
+*d17762
+d [lv 0*"30"*"33200394"]` Please act like the old person you are and give me just a bit of your cunning wisdom...`[\]
+lss s0_10,"bea","a11_fukigen2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d17763
+d [lv 0*"27"*"30701345"]` Pleease...`[@][lv 0*"27"*"30701346"]` It's mean if you only help Battleeer..."`[@][lv 0*"27"*"30701347"]`"My, my.`[@][lv 0*"27"*"30701348"]` You're still a spoiled child."`[\]
+textoff
+waits 167
+lss s0_8,"wal","a11_fuman1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+vol_mix_fade 1000
+vol_bgm -1,1000
+wait 1000
+msgwnd_wal
+*d17764
+d [lv 0*"30"*"33200395"]`"......But, it's true that I may have given Battler‐kun a few too many hints.`[@][lv 0*"30"*"33200396"]` It did serve as a scolding to you,`[\]
+meplay 1,11,71
+lss s0_8,"wal","a12_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d17765
+d [lv 0*"30"*"33200397"]` but perhaps it was a little too much support for a fair game."`[@][lv 0*"30"*"33200398"]`"You see, you see...?`[@][lv 0*"30"*"33200399"]` Please, Masteeer, at least just a hint to help me on..."`[\]
+lss s0_10,"bea","a11_iiwake2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_bea
+*d17766
+d [lv 0*"27"*"30701349"]`"..................Just a hint.`[@][lv 0*"27"*"30701350"]` Think about what it means by yourself, alright?"`[\]
+lss s0_8,"wal","a11_fuman1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_wal
+*d17767
+d [lv 0*"30"*"33200400"]`"Yeah, yeah!`[@][lv 0*"30"*"33200401"]` I'll think about it myself, so please!`[\]
+lss s0_10,"bea","a11_warai2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+seplay 1,47,71
+msgwnd_bea
+*d17768
+d2 [lv 0*"27"*"30701351"]` Please, give me one that'll leave Battler down in the dumps, Masterrrr."`[@][#][*][lv 0*"27"*"30701352"]`It was truly shameful how she behaved when Battler wasn't around, even though she acted utterly like a Great Witch in front of him.`[@][lv 0*"27"*"30701353"]`{f:5:Virgilia} sighed, lamenting under her breath that Beato never seemed to grow up.`[\]
+wait_on_d 0
+seplay 2,48,71
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 22
+msgwnd_non
+*d17769
+d `"Then just a hint.`[\]
+*d17770
+d ` ......Do you know of Aesop's fable, The North Wind and the Sun?"`[\]
+textoff
+waits 167
+vol_mix_fade 1000
+wait 1000
+bgmplay 59,71,0
+textoff
+waits 167
+lbg s0_3,"g1f_s1ap"
+flush 26
+lss s0_10,"wal","a11_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_wal
+*d17771
+d [lv 0*"30"*"33200402"]`"Of course.`[@][lv 0*"30"*"33200403"]` It's a story about how the north wind and the sun challenge each other to steal the cloak of a traveler, right?"`[\]
+lss s0_8,"bea","a11_fukigen2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_bea
+*d17772
+d [lv 0*"27"*"30701354"]`"That's right.`[@][lv 0*"27"*"30701355"]` The moral is that violent or impatient methods aren't always necessarily the best decisions."`[\]
+lss s0_10,"wal","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_wal
+*d17773
+d [lv 0*"30"*"33200404"]`"......You don't have to tell me that.`[@][lv 0*"30"*"33200405"]` I have already reflected on the fact that I rushed too fast towards victory."`[\]
+lss s0_8,"bea","a11_iiwake1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_bea
+*d17774
+d [lv 0*"27"*"30701356"]`"...............`[@][lv 0*"27"*"30701357"]` Think well about what this means.`[\]
+lss s0_10,"wal","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_wal
+*d17775
+d2 [lv 0*"30"*"33200406"]` And furthermore,`[@][lv 0*"30"*"33200407"]` ......although it seems that Battler‐kun had a slight misunderstanding as well, you too seem to be under a misapprehension.`[@][lv 0*"30"*"33200408"]` Do you understand the victory conditions of this game?"`[@][lv 0*"30"*"33200409"]`"...What else is there, other than making Battler submit to me?"`[@][#][*][lv 0*"30"*"33200410"]`".........See?`[\]
+wait_on_d 0
+lss s0_10,"wal","a11_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_8,"bea","a11_fukigen2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_bea
+*d17776
+d [lv 0*"27"*"30701358"]` At that point, you are already mistaken."`[\]
+lss s0_10,"wal","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_wal
+*d17777
+d [lv 0*"30"*"33200411"]`"How am I mistaken?"`[@][lv 0*"30"*"33200412"]`"Your victory isn't making Battler‐kun submit.`[\]
+lss s0_8,"bea","a11_fukigen3" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_bea
+*d17778
+d [lv 0*"27"*"30701359"]` ......It is to get Battler‐kun to accept your existence, is it not?"`[\]
+lss s0_10,"wal","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_wal
+*d17779
+d [lv 0*"30"*"33200413"]`"......What's this?`[@][lv 0*"30"*"33200414"]` You want me to butter up Battler, and ask him to "Accept me as a witch, pleease?"!`[\]
+lss s0_8,"bea","a11_aseru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_bea
+*d17780
+d [lv 0*"27"*"30701360"]` How foolish!`[@][lv 0*"27"*"30701361"]` I will not sink so low!"`[@][lv 0*"27"*"30701362"]`Grrrrrrrrrrr..., Beato growled, like a dog in a bad mood.`[@][lv 0*"27"*"30701363"]`{f:5:Virgilia} shrugged her shoulders, snickering at her disciple, who was as short‐tempered as always...`[\]
+msgwnd_non
+*d17781
+d `"That is my hint.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 24
+textoff
+waits 167
+lbg s0_3,"g1f_s1ap"
+lss s0_9,"wal","a11_warai1" ;1
+flush 24
+*d17782
+d ` Now you should think deeply.`[\]
+lss s0_9,"wal","a11_defo1" ;1
+flush 10,167
+msgwnd_wal
+*d17783
+d [lv 0*"30"*"33200415"]` .........In any event, your moves up until now will not work on Battler‐kun.`[@][lv 0*"30"*"33200416"]` A significant tactical conversion will probably be required."`[@][lv 0*"30"*"33200417"]`"...I know that even without you telling me.`[@][lv 0*"30"*"33200418"]` ......I don't have a clue what you mean by the North Wind and the Sun,`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_3,"g1f_s1ap"
+lss s0_8,"bea","a11_komaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 23
+msgwnd_bea
+*d17784
+d2 [lv 0*"27"*"30701364"]` but anyway, I understand that I will have to change my direction.`[@][lv 0*"27"*"30701365"]` ......I'll showcase a clever scheme that will surprise even you, Master...!"`[@][lv 0*"27"*"30701366"]`"Hoh‐hoh‐ho...`[@][#][*][lv 0*"27"*"30701367"]` I look forward to it.`[\]
+wait_on_d 0
+lss s0_8,"bea","a11_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_10,"wal","a11_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_wal
+*d17785
+d [lv 0*"30"*"33200419"]` I wonder how Battler‐kun will tackle that.`[@][lv 0*"30"*"33200420"]` ......I will be wishing you good luck as well."`[@][lv 0*"30"*"33200421"]`"After Battler, right?`[@][lv 0*"30"*"33200422"]` Hmph..."`[\]
+lss s0_8,"bea","a11_fukigen2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_bea
+*d17786
+d [lv 0*"27"*"30701368"]`".........Are you going to give up and resign already?`[@][lv 0*"27"*"30701369"]` If you're that tired, why not just go into a futon and sleep forever...?"`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 2
+vol_mix_fade 3000
+vol_bgm -1,3000
+wait 3000
+gstc 151
+textoff
+waits 167
+wait 2000
+meplay 1,13,70
+meplay 2,5,70
+csp_slot s0_11
+rain_load s0_11
+rain_load s0_7
+rain_params s0_11,400,800,0
+rain_params s0_7,400,500,0
+textoff
+waits 167
+lbg s0_3,"rose_g1a"
+flush 22
+wait 3000
+csp_slot s0_11
+csp_slot s0_7
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+vol_me 1,40
+vol_me 2,40
+rain_load s0_11
+z_order_override s0_11,s0_1
+rain_params s0_11,500,300,0
+textoff
+waits 167
+lbg s0_1,"glob_1d_bg"
+lbg s0_3,"glob_1d"
+flush 22
+wait 3000
+vol_mix_fade 1000
+wait 1000
+seplay 1,56,40
+bgmplay 62,71,0
+textoff
+waits 167
+rain_pause s0_11
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+flush 22
+lss s0_23,"ev2","b11_defo1" ;1
+aspt2 xpos,s0_23,550
+flush 10,167
+msgwnd_non
+*d17787
+d [lv 0*"34"*"33300070"]`...As my consciousness grew vague and I pretended to fight my drowsiness, sinking deeper and deeper into the sofa,`[@][lv 0*"34"*"33300071"]` "I" scolded "myself".`[\]
+*d17788
+d `"......Don't you remember how much you dreamed about stealing the position of family head from Krauss...?"`[@]`"Even though I gave you that chance with my magic, you're already throwing it away...?"`[\]
+lss s0_23,"ev2","b11_ikari1" ;1
+aspt2 xpos,s0_23,550
+flush 10,167
+*d17789
+d [lv 0*"34"*"33300072"]`You say that, but...`[\]
+lss s0_23,"ev2","b11_niramu2" ;1
+aspt2 xpos,s0_23,550
+flush 10,167
+*d17790
+d [lv 0*"34"*"33300073"]` ............This riddle is really difficult.`[\]
+msgwnd_eva
+*d17791
+d [lv 0*"05"*"31000389"]`Even a wire puzzle would be better.`[@]`...At least in that case, you're assured that it definitely is solvable.`[|][lv 0*"05"*"31000390"]`But with this epitaph riddle, I don't know if I'm even assured that.`[@]`......I might just be fighting a useless battle.`[|][lv 0*"05"*"31000391"]`...Still hazy, I looked at the notebook which I had been holding the whole time.`[@]`It was opened to the page with the epitaph, which I had stared at, almost burned a hole through, on so many hundreds of nights I had lost count.`[|][lv 0*"05"*"31000392"]`......That...is truly a door.`[\]
+*d17792
+d [lv 0*"05"*"31000393"]`On the other side...is the "Golden Land", that place which ever since I was a child I've wished to reach, I've spared no effort to reach,`[\]
+*d17793
+d [lv 0*"05"*"31000394"]` ...and I've never been able to reach.`[\]
+textoff
+waits 167
+csp_slot s0_23
+lbg s0_3,"black"
+csp_slot s0_21
+rain_resume s0_11
+flush 5
+msgwnd_non
+*d17794
+d `Here I am with both hands upon the door,`[\]
+*d17795
+d ` ...and even though the book, no, the door is open, I still cannot reach the other side?`[\]
+*d17796
+d `"...That's right.`[\]
+*d17797
+d ` You already have your hands upon the door.`[@]` Come, open it with all of your strength.`[\]
+*d17798
+d ` And read the characters written on the door."`[@]`".........Open it...`[\]
+textoff
+waits 167
+lbg s0_1,"glob_1d_bg"
+lbg s0_3,"glob_1d"
+textoff
+waits 167
+rain_pause s0_11
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+flush 26
+lss s0_23,"ev2","b11_ikari1" ;1
+aspt2 xpos,s0_23,550
+flush 10,167
+*d17799
+d [lv 0*"34"*"33300074"]`with all my strength.`[@][lv 0*"34"*"33300075"]` ...Read the characters...`[@][lv 0*"34"*"33300076"]`written on the door..."`[@][lv 0*"34"*"33300077"]`Strain your eyes.`[\]
+msgwnd_eva
+*d17800
+d [lv 0*"05"*"31000395"]` ......See through to what lies further beyond the epitaph written in the notebook...`[|][lv 0*"05"*"31000396"]`"...The "beloved home of old" definitely won't betray our expectations.`[@][lv 0*"05"*"31000397"]` ......The only past that Father held dear was his years as a boy."`[|][lv 0*"05"*"31000398"]`That's right......`[\]
+msgwnd_non
+*d17801
+d ` Then what about the "sweetfish river"?`[@]`There are several rivers where they swim, and it's dubious whether there was one very near the place that Father lived.`[\]
+textoff
+waits 167
+csp_slot s0_23
+lbg s0_3,"text011_r"
+lss s0_10,"ev2","b11_ikari1" ;1
+aspt2 xpos,s0_10,550
+seplay 1,22,50
+csp_slot s0_21
+rain_resume s0_11
+flush 2
+lss s0_10,"ev2","b11_defo1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+*d17802
+d [lv 0*"34"*"33300078"]`...If we start wondering which river that's home to sweetfish is closest in a cartographical sense...`[@][lv 0*"34"*"33300079"]`things will quickly get vague and we won't be able to pin it down...`[\]
+msgwnd_eva
+*d17803
+d [lv 0*"05"*"31000399"]`"......Didn't you say it yourself?`[@][lv 0*"05"*"31000399_1"]` You said it didn't have to be a river with water flowing down it.`[@]` ......If the word sweetfish is too complicated, why not forget it forever...?"`[|][lv 0*"05"*"31000400"]`"Think of a river.`[\]
+*d17804
+d [lv 0*"05"*"31000401"]` A river.`[@][lv 0*"05"*"31000401_1"]` Linking it with a "family tree" wasn't a bad idea.`[\]
+lss s0_10,"ev2","b11_warai1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_non
+*d17805
+d [lv 0*"34"*"33300080"]` Try thinking about how to link a river with something else along those lines......"`[@][lv 0*"34"*"33300081"]`......Not a river?`[@][lv 0*"34"*"33300082"]` Even though the sweetfish can't swim in it if it isn't a river?`[\]
+lss s0_23,"ev2","b11_ikari1" ;1
+aspt2 xpos,s0_23,550
+flush 10,167
+*d17806
+d [lv 0*"34"*"33300083"]`Oh, but maybe "sweetfish can swim in it" means it joins up with the ocean......`[@][lv 0*"34"*"33300084"]`My husband did say that, despite being river fish, they go out into the ocean... ...............`[@][lv 0*"34"*"33300085"]`.......................................`[@][lv 0*"34"*"33300086"]` ...............With the ocean.`[\]
+textoff
+waits 167
+meplay 1,5,0
+vol_bgm 0,5000
+vol_me 1,50,5000
+wait 5000
+msgwnd_eva
+*d17807
+d [lv 0*"05"*"31000402"]`........................No,`[@][lv 0*"05"*"31000402_1"]` ...but,`[\]
+*d17808
+d [lv 0*"05"*"31000403"]` .........`[\]
+*d17809
+d [lv 0*"05"*"31000404"]` ......Huh...?`[\]
+textoff
+waits 167
+vol_mix_fade 2000
+vol_bgm -1,2000
+wait 2000
+bgmplay 71,71,0
+*d17810
+d [lv 0*"05"*"31000405"]`"......Did you notice?`[@]` But that's just a faint memory.`[|][lv 0*"05"*"31000406"]` There should be a book archive somewhere around here.`[@]` If you investigate, you can make sure."`[|][lv 0*"05"*"31000407"]`......If that's the "sweetfish river".........`[|][lv 0*"05"*"31000408"]` .........And if the key might be a six‐character word...`[|][lv 0*"05"*"31000409"]`.....................Is the key really resting in that river?`[@]`I, I don't know, I don't know.`[|][lv 0*"05"*"31000410"]`{n}...Anyway, I have to search in an atlas...`[\]
+textoff
+waits 167
+csp_slot s0_10
+csp_slot s0_23
+lbg s0_1,"glob_1d_bg"
+lbg s0_3,"glob_1d"
+lss s0_23,"ev2","b11_niramu2" ;1
+aspt2 xpos,s0_23,370
+textoff
+waits 167
+rain_pause s0_11
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+flush 22
+msgwnd_non
+*d17811
+d [lv 0*"34"*"33300087"]`But, even if I know that, I don't know {i:from what} I should take the six characters...`[@][lv 0*"34"*"33300088"]`"......You really don't know?`[@][lv 0*"34"*"33300089"]` Think deeply.`[@][lv 0*"34"*"33300090"]` .........We're too smart for our own good, so our thoughts are inflexible."`[\]
+msgwnd_eva
+*d17812
+d [lv 0*"05"*"31000411"]`"Don't think of it like it's something as grandiose as "The Riddle of the Epitaph", but like it's a child's puzzle.`[@]` ......Men are always children, no matter how old they get.`[|][lv 0*"05"*"31000412"]` Even if Father has advanced into old age,`[\]
+*d17813
+d [lv 0*"05"*"31000413"]` that doesn't change the fact that he is essentially a child inside his heart."`[\]
+msgwnd_non
+*d17814
+d `".........Throw away your awe of Father.`[@]` ...Think of this like it's a worthless, infantile puzzle game, like the ones Maria suddenly brings up on the boat."`[\]
+*d17815
+d `......Puzzles.`[\]
+lss s0_23,"ev2","b11_ikari1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+*d17816
+d [lv 0*"34"*"33300091"]` ......Worthless, infantile.`[@][lv 0*"34"*"33300092"]`........................`[@][lv 0*"34"*"33300093"]` .....................Huh, .........ah.`[\]
+lss s0_23,"ev2","b11_niramu1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+*d17817
+d [lv 0*"34"*"33300094"]`.........I'm sure that was, ...what was it, ......umm, umm......`[@][lv 0*"34"*"33300095"]`...I'm sure, if my memory isn't wrong, ......that was probably, umm...`[@][lv 0*"34"*"33300096"]`No, I don't have to rely on my vague memory.`[@][lv 0*"34"*"33300097"]`{n}I should be able to figure that out immediately too by searching in the archive.`[\]
+lss s0_23,"ev2","b11_niramu2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+*d17818
+d [lv 0*"34"*"33300098"]`".........We've probably already realized the answer.`[@][lv 0*"34"*"33300099"]` ...All that's left is to research whether that's correct or not."`[\]
+msgwnd_eva
+*d17819
+d [lv 0*"05"*"31000414"]`"Come, Eva.`[@][lv 0*"05"*"31000414_1"]` Let's go to the archive and make sure no one notices.`[\]
+textoff
+waits 167
+lbg s0_26,"black"
+flush 22
+*d17820
+d [lv 0*"05"*"31000415"]` ......There, we should find a mountain of thick books that didn't fit in Father's study.`[@]` ...I'm sure that we'll find a book that answers our question.`[|][lv 0*"05"*"31000416"]` .........Quickly.`[\]
+*d17821
+d [lv 0*"05"*"31000416_1"]` This is our first and last chance in our life to have our dreams made true."`[\]
+msgwnd_non
+*d17822
+d `When Natsuhi tried to lay a blanket over her, Eva suddenly jumped up.`[\]
+*d17823
+d `"...I'm sorry.`[@]` I seem to have woken you."`[\]
+textoff
+waits 167
+csp_slot s0_26
+csp_slot s0_21
+textoff
+waits 167
+csp_slot s0_23
+lbg s0_1,"glob_1d_bg"
+lbg s0_3,"glob_1d"
+textoff
+waits 167
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+lss s0_24,"ev2","b11_defo1" ;1
+flush 22
+*d17824
+d [lv 0*"34"*"33300100"]`"......Eva.`[@][lv 0*"34"*"33300101"]` If you're sleepy, don't overdo it.`[\]
+lss s0_24,"ev2","b11_ikari1" ;1
+flush 10,167
+*d17825
+d [lv 0*"34"*"33300102"]` You rest first."`[@][lv 0*"34"*"33300103"]`"Th‐......thank you.`[@][lv 0*"34"*"33300104"]` I'm just going to the lavatory for a bit to wash my face."`[@][lv 0*"34"*"33300105"]`"You should take it easy and rest.`[@][lv 0*"34"*"33300106"]` ...Your health'll take another bad turn, you know?"`[@][lv 0*"34"*"33300107"]`"I said I'm fine, really!`[\]
+textoff
+waits 167
+lbg s0_26,"white"
+spriteset_enable 1
+rain_load s1_11
+z_order_override s1_11,s1_1
+rain_params s1_11,500,300,0
+rain_pause s1_11
+textoff
+waits 167
+lbg s1_21,"black"
+aspt2 alpha,s1_21,150
+textoff
+waits 167
+lbg s1_1,"glob_1d_bg"
+lbg s1_3,"glob_1d"
+lss s1_24,"ev2","b11_ikari1" ;1
+aspritesetpt breakup,1,0
+flush 1
+aspritesetpt breakupdir,1,1
+aspritesetpt breakup,1,1000,3000
+spritesetptwait breakup,1
+reset_set 1
+csp -11
+flush 1
+csp_slot s0_21
+csp_slot s0_24
+rain_resume s0_11
+textoff
+waits 167
+csp_slot s0_26
+textoff
+waits 167
+lbg s0_1,"glob_1a_bg"
+lbg s0_3,"glob_1a"
+lss s0_10,"nat","a12_tukare2" ;1
+aspt2 xpos,s0_10,370
+flush 22
+vol_bgm 80
+meplay 1,13,50
+agpt quakeycycle,83
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+*d17826
+d ` I'll be right back."`[\]
+lss s0_10,"nat","a11_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_nat
+*d17827
+d [lv 0*"03"*"30900105"]`Leaving only those words behind, I left the lobby at a brisk pace.`[@][lv 0*"03"*"30900106"]`The lobby was partitioned off by a door, so as soon as I went into the corridor, they could no longer see me.`[\]
+lss s0_8,"cla","a11_komaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_cla
+*d17828
+d [lv 0*"02"*"30800233"]`......The archive was next to the servant room.`[@][lv 0*"02"*"30800234"]`Father always owned a vast book collection,`[@][lv 0*"02"*"30800235"]` but after he started to become engrossed with his occult hobby, his library of those kinds of books grew even larger,`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_1,"glob_1d_bg"
+lbg s0_3,"glob_1d"
+lss s0_8,"eva","a11_komaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 23
+msgwnd_eva
+*d17829
+d [lv 0*"05"*"31000417"]` so that the normal books suitable for a normal study had been forced out as his study overflowed.`[@][lv 0*"05"*"31000418"]`This archive was where those normal books were stored.`[\]
+lss s0_10,"hid","a11_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_hid
+*d17830
+d [lv 0*"06"*"31100236"]`They were all stiff books for intellectuals, like complete volume sets of encyclopedias,`[@][lv 0*"06"*"31100237"]` but that was very convenient for me now that I was investigating something.`[\]
+lss s0_8,"eva","a11_ikari2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_eva
+*d17831
+d2 [lv 0*"05"*"31000419"]`I entered softly, ......and just in case, I checked the room with my gun readied, making sure that there were no suspicious people there.`[#][*][@][lv 0*"05"*"31000420"]`Then I locked it from the inside.`[\]
+wait_on_d 0
+agpt quakeycycle,50
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 23
+seplay 1,16,71
+textoff
+waits 167
+lbg s0_3,"g1f_p1c"
+flush 23
+msgwnd_non
+*d17832
+d `I actually wasn't thinking that the murderer might be hiding somewhere.`[\]
+*d17833
+d `...What scared me was my fear that one of the siblings might hear what I was investigating.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 23
+seplay 2,15,71
+textoff
+waits 167
+lbg s0_3,"glib_1a"
+flush 22
+*d17834
+d `My heart had started jumping......`[\]
+*d17835
+d `{n}...I had been half‐asleep until a short time ago, so I hadn't been able to realize how significant this thing I had realized was.`[@]`But as I started to become aware, ......my heart started feeling like it was about to explode.`[@]`".........I...wonder if any of the other siblings have realized this......"`[\]
+*d17836
+d `I don't think Krauss and Rudolf will realize.`[\]
+*d17837
+d `......But I don't know about Kyrie.`[@]`She has extraordinarily good intuition.`[\]
+lss s0_10,"eva","b24_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+seplay 3,30,71
+*d17838
+d `.........And I don't know about Rosa either.`[\]
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"black"
+flush 22
+seplay 1,25,71
+*d17839
+d `"Rosa is as dim as the others.`[\]
+*d17840
+d ` She always has been, and ridiculously so."`[\]
+*d17841
+d `Really...?`[\]
+textoff
+waits 167
+lbg s0_3,"glib_1a"
+flush 22
+meplay 2,17,80
+*d17842
+d ` I think she was wise enough to make you think she was dim, so that she didn't earn herself unnecessary malice.`[@]`".........Here it is.`[\]
+*d17843
+d ` ...I wonder if we'll find it in this one."`[\]
+textoff
+waits 167
+lbg s0_3,"glib_1a"
+lss s0_23,"eva","b24_ikari2" ;1
+aspt2 xpos,s0_23,370
+flush 26
+msgwnd_eva
+*d17844
+d [lv 0*"05"*"31000421"]`I pulled the book out, and flipped through the pages......`[\]
+seplay 1,56,71
+lss s0_25,"ev2","b11_ikari1" ;1
+aspt2 xpos,s0_25,-370
+textoff
+waits 167
+rain_pause s0_11
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+flush 22
+msgwnd_non
+*d17845
+d [lv 0*"34"*"33300108"]`"...............Oh.`[@]` .........This is...`[|][lv 0*"34"*"33300109"]`......`[@]`a "sweetfish river"...?"`[|][lv 0*"34"*"33300110"]`I see...`[\]
+*d17846
+d [lv 0*"34"*"33300111"]`This is what the sweetfish river means.`[\]
+lss s0_23,"eva","b24_akire2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_eva
+*d17847
+d [lv 0*"05"*"31000422"]`......Don't dawdle around, research further.`[@][lv 0*"05"*"31000423"]`"Y‐yes, I know...`[\]
+lss s0_25,"ev2","b11_niramu1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_non
+*d17848
+d [lv 0*"34"*"33300112"]` As you travel down it, you will see a village ({ruby:sato:{p:0:里}})...`[@][lv 0*"34"*"33300112_1"]` {ruby:sato:{p:0:里}} is an older word for {loghint:machi:town} or {loghint:mura:village}, right?`[\]
+textoff
+waits 167
+csp_slot s0_25
+csp_slot s0_23
+lbg s0_3,"black"
+csp_slot s0_21
+rain_resume s0_11
+flush 22
+textoff
+waits 167
+lbg s0_3,"glib_1a"
+flush 25
+meplay 3,16,70
+msgwnd_eva
+*d17849
+d [lv 0*"05"*"31000424"]` But it's a densely populated area... There's any number of those..."`[@][lv 0*"05"*"31000425"]`Why have you stopped thinking?!`[\]
+msgwnd_non
+*d17850
+d `If you don't like it, why not quit forever...?`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+msgwnd_eva
+*d17851
+d2 [lv 0*"05"*"31000426"]`Why not just hand over the Ushiromiya headship to Kyrie forever?!`[@][lv 0*"05"*"31000427"]`"I, ...I don't want to...`[|][lv 0*"05"*"31000428"]` I will become the head.`[#][*][|][lv 0*"05"*"31000429"]` ...This is my first and last chance to do that...`[\]
+wait_on_d 0
+seplay 1,2,100
+d_continue
+wait_on_d -1
+msgwnd_non
+*d17852
+d [lv 0*"34"*"33300113"]` ......What is {i:village}?`[@][lv 0*"34"*"33300114"]` What does it mean?!`[@]` Is there a village if you go down this "river"......?!`[|][lv 0*"34"*"33300115"]` ............ah, .........`[\]
+textoff
+waits 167
+lbg s0_3,"glib_1a"
+flush 22
+meplay 4,18,60
+msgwnd_eva
+*d17853
+d [lv 0*"05"*"31000430"]`aaaaaaaahhh......!!"`[@][lv 0*"05"*"31000431"]`......In {loghint:sono sato:that village}, look for the {loghint:kishi:shore} {loghint:futari:the two} {loghint:kuchi:speak} of.`[@][lv 0*"05"*"31000432"]`......It's a "shore" ({ruby:kishi:{p:0:岸}}).`[@][lv 0*"05"*"31000433"]` Understand?`[\]
+lss s0_23,"ev2","b11_ikari1" ;1
+aspt2 xpos,s0_23,370
+textoff
+waits 167
+rain_pause s0_11
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+flush 22
+lss s0_23,"ev2","b11_ikari2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_non
+*d17854
+d2 [lv 0*"34"*"33300116"]`"Uh, ...*gulp*...`[#][*][@]` I, I, I understand...!`[|][lv 0*"34"*"33300117"]` Shore, ......shore.........!"`[@]`All those pieces that I hadn't been able to understand at all were...`[|][lv 0*"34"*"33300118"]`...right before my eyes, starting to...`[\]
+wait_on_d 0
+agpt quakexcycle,50
+agpt quakexamp,30
+agpt quakexamp,0,500,1
+rumble 63,500
+gptwait quakexamp
+d_continue
+wait_on_d -1
+msgwnd_eva
+*d17855
+d2 [lv 0*"05"*"31000434"]`...snap,`[@][lv 0*"05"*"31000435"]` snap into place, all by themselves......`[@][lv 0*"05"*"31000436"]`I couldn't even remember to close my open mouth.`[@][lv 0*"05"*"31000437"]`{n}...My throat grew completely dry...`[@][lv 0*"05"*"31000438"]`Is it......really alright for this to be the answer?`[@][lv 0*"05"*"31000439"]`{n}R‐really?`[@][lv 0*"05"*"31000440"]` Really...?!`[|][lv 0*"05"*"31000441"]`"...But this isn't six characters at all.`[#][*][\]
+wait_on_d 0
+seplay 1,2,100
+agpt quakeycycle,50
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+d_continue
+wait_on_d -1
+lss s0_23,"ev2","b11_ikari1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_non
+*d17856
+d [lv 0*"34"*"33300119"]` ......I'm absolutely sure that this is the answer, but this doesn't reach six characters at all...!"`[@]`Did you stop thinking again?`[|][lv 0*"34"*"33300120"]` In that case, think of a way you could read it with six characters.`[@][lv 0*"34"*"33300120_1"]`If you can't think of one, then research it.`[\]
+msgwnd_eva
+*d17857
+d [lv 0*"05"*"31000442"]`......There has to be an answer.`[@][lv 0*"05"*"31000443"]` You must not doubt that.`[@][lv 0*"05"*"31000444"]`If you can't believe that, why don't you cry yourself to sleep, and then just give up and die forever...?`[\]
+msgwnd_non
+*d17858
+d `"............One,`[!w500]` two,`[!w500]` three,`[!w500]` four,`[\]
+csp_slot s0_21
+csp_slot s0_23
+rain_resume s0_11
+textoff
+waits 167
+lbg s0_3,"black"
+flush 26
+*d17859
+d ` five,`[@]` six...`[\]
+*d17860
+d ` ......Oooh,`[@]` ...s‐`[@]`......`[\]
+textoff
+waits 167
+lbg s0_3,"glib_1a"
+flush 26
+lss s0_23,"eva","a11_ikari2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_eva
+*d17861
+d [lv 0*"05"*"31000445"]`six characters...`[@][lv 0*"05"*"31000446"]`"`[\]
+seplay 2,27,71
+seplay 1,56,71
+lss s0_25,"ev2","b11_ikari1" ;1
+aspt2 xpos,s0_25,-370
+textoff
+waits 167
+rain_pause s0_11
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+flush 22
+lss s0_25,"ev2","b11_ikari2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_non
+*d17862
+d [lv 0*"34"*"33300121"]`"......I,`[@][lv 0*"34"*"33300121_1"]` ......I found it.`[\]
+*d17863
+d [lv 0*"34"*"33300122"]` ...This is...`[@]`......the Golden Land's...`[|][lv 0*"34"*"33300123"]`k‐`[@][lv 0*"34"*"33300123_1"]`......key.........!!"`[\]
+lss s0_25,"ev2","b11_fukigen2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+*d17864
+d [lv 0*"34"*"33300124"]`Yes.`[\]
+textoff
+waits 167
+csp_slot s0_25
+csp_slot s0_23
+lbg s0_3,"black"
+csp_slot s0_21
+rain_resume s0_11
+flush 26
+msgwnd_eva
+*d17865
+d2 [lv 0*"05"*"31000447"]` That is...the key to the Golden Land.`[|][lv 0*"05"*"31000448"]` ......The key...to our childhood dreams.`[|][lv 0*"05"*"31000449"]`......The only keyhole to stick that key in...is that place.`[|][lv 0*"05"*"31000450"]`That...is definitely what offers the sacrifices.`[|][lv 0*"05"*"31000451"]`You get it now...right...............?`[|][lv 0*"05"*"31000452"]`"Uuu, ............uuuuUUUgghhHAAaaaaa...!!!"`[@][lv 0*"05"*"31000453"]`"Uuu, ............uuuuUUUgghhHAAaaaaa...!!!"`[|][lv 0*"05"*"31000454"]`"Uuu, ............uuuuUUUgghhHAAaaaaa...!!!"`[|][lv 0*"05"*"31000455"]`"Uuu, ............uuuuUUUgghhHAAaaaaa...!!!"`[|][lv 0*"05"*"31000456"]`"Uuu, ............uuuuUUUgghhHAAaaaaa...!!!"`[#][*]`"Uuu, ............uuuuUUUgghhHAAaaaaa...!!!"`[\]
+wait_on_d 0
+seplay 1,2,100
+agpt quakeycycle,83
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+d_continue
+wait_on_d -1
+*d17866
+d2 [lv 0*"05"*"31000457"]`"Uuu, ............uuuuUUUgghhHAAaaaaa...!!!"`[|][lv 0*"05"*"31000458"]`"Uuu, ............uuuuUUUgghhHAAaaaaa...!!!"`[@][lv 0*"05"*"31000459"]`"Uuu, ............uuuuUUUgghhHAAaaaaa...!!!"`[|][lv 0*"05"*"31000460"]`"Uuu, ............uuuuUUUgghhHAAaaaaa...!!!"`[|][lv 0*"05"*"31000461"]`"Uuu, ............uuuuUUUgghhHAAaaaaa...!!!"`[|][lv 0*"05"*"31000462"][#][*]`"Uuu, ............uuuuUUUgghhHAAaaaaa...!!!"`[\]
+wait_on_d 0
+seplay 2,27,71
+d_continue
+wait_on_d -1
+textoff
+waits 167
+lbg s0_3,"glib_1a"
+seplay 1,56,71
+lss s0_24,"ev2","b11_niramu2" ;1
+textoff
+waits 167
+rain_pause s0_11
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+flush 22
+msgwnd_non
+*d17867
+d [lv 0*"34"*"33300125"]`"Uuu, ............uuuuUUUgghhHAAaaaaa...!!!"`[@][lv 0*"34"*"33300125_1"]`"Uuu, ............uuuuUUUgghhHAAaaaaa...!!!"`[@]`"Uuu, ............uuuuUUUgghhHAAaaaaa...!!!"`[|][lv 0*"34"*"33300125_2"]`"Uuu, ............uuuuUUUgghhHAAaaaaa...!!!"`[\]
+lss s0_24,"ev2","b11_ikari1" ;1
+flush 10,167
+*d17868
+d [lv 0*"34"*"33300126"]`"Uuu, ............uuuuUUUgghhHAAaaaaa...!!!"`[@]`"Uuu, ............uuuuUUUgghhHAAaaaaa...!!!"`[|][lv 0*"34"*"33300127"]`"Uuu, ............uuuuUUUgghhHAAaaaaa...!!!"`[@]`"Uuu, ............uuuuUUUgghhHAAaaaaa...!!!"`[|][lv 0*"34"*"33300128"]`"Uuu, ............uuuuUUUgghhHAAaaaaa...!!!"`[\]
+seplay 3,27,100
+msgwnd_eva
+*d17869
+d [lv 0*"05"*"31000463"]`"Uuu, ............uuuuUUUgghhHAAaaaaa...!!!"`[\]
+textoff
+gstg 2
+waits 167
+wait 2000
+break_glass2
+wait 500
+display_clock 1470,740,90,577,600,0,0
+wait 1667
+flush 10,500
+wait 83
+ch_done flag_scenario_3_10

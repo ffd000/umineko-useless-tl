@@ -1,0 +1,4398 @@
+*umi2_12
+;10/5（日）7:30 容疑者
+log_reset
+mov $name_chapter_r_click,r_click_chapters_2_12
+mov $name_chapter_save, "2_12"
+new_chapter date_scenario_2_12,scenario_2_12
+gstc 85
+rain_load s0_11
+z_order_override s0_11,s0_1
+rain_params s0_11,500,300,0
+textoff
+waits 167
+lbg s0_3,"m1f_s1cr"
+flush 6
+meplay 1,12,40
+*d11598
+d `...Rosa and the rest returned from the chapel to the parlor in the mansion.`[@]`{n}Such a horrific thing had happened so early in the morning.`[@]`{n}Of course they were high‐strung...`[\]
+textoff
+waits 167
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_3,"m1f_s1d"
+flush 22
+seplay 1,13,71
+agpt quakeycycle,50
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+meplay 2,11,71
+*d11599
+d `Battler and George—who had cried, raged, and let their emotions explode after seeing their parents' tragic bodies—`[@]`returned to the parlor, sat on the sofas, and let their minds go blank, as though everything up until then had been a lie...`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 24
+textoff
+waits 167
+lbg s0_1,"m1f_s1a_bg"
+lbg s0_3,"m1f_s1a"
+lss s0_9,"mar","a11_defo1" ;1
+flush 24
+*d11600
+d `Only Maria was completely unchanged, and looked just like normal.`[\]
+*d11601
+d `......When she wasn't being mischievous, she was basically a kid who played wordlessly by herself,`[@]` so even if her mind was blank, she would probably look as she did.`[\]
+*d11602
+d `...But as she turned on the TV and flipped through the channels, it looked as though nothing about her had changed from normal.`[\]
+textoff
+waits 167
+csp_slot s0_9
+csp_slot s0_1
+lbg s0_3,"black"
+flush 22
+*d11603
+d `Perhaps Rosa had some opinions about this attitude, which was clearly different from normal people.`[\]
+*d11604
+d `......She stared at Maria's back with a gaze that wasn't quite pleasant.`[\]
+textoff
+waits 167
+lbg s0_1,"m1f_s1a_bg"
+lbg s0_3,"m1f_s1a"
+lss s0_9,"kum","a11_defo1" ;1
+flush 26
+*d11605
+d `Eventually, Kumasawa came to say good morning.`[@]` ...Her cheerful manner was clearly out of place, and she couldn't help but be bewildered at the strange atmosphere in the room.`[\]
+textoff
+waits 167
+csp_slot s0_9
+csp_slot s0_1
+lbg s0_3,"black"
+flush 22
+*d11606
+d `......Then, she heard the details from Gohda, and expressed her shock in a truly noisy manner.`[\]
+vol_me 2,-1,1000
+textoff
+waits 167
+lbg s0_3,"m1f_s1c"
+lss s0_10,"kum","a11_komaru1" ;1
+aspt2 xpos,s0_10,370
+flush 24
+meplay 2,5,40
+msgwnd_kum
+*d11607
+d [lv 0*"18"*"21800052"]`"O‐o‐o‐of course you've contacted the police, right...?!`[@][lv 0*"18"*"21800053"]` What should we do in a time like this, oooh, what should we do...?!"`[\]
+lss s0_8,"goh","a12_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_goh
+*d11608
+d [lv 0*"17"*"21700112"]`".........Please listen calmly.`[@][lv 0*"17"*"21700113"]` ...It seems that some kind of apparatus was done in by lightning last night.`[@][lv 0*"17"*"21700114"]` Because of that, we have become unable to use the telephones..."`[\]
+lss s0_10,"kum","a11_odoroki1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_kum
+*d11609
+d [lv 0*"18"*"21800054"]`"Huuuh?!!`[@][lv 0*"18"*"21800055"]` Th‐then, until the typhoon passes, we can't even contact the police?!"`[\]
+msgwnd_non
+*d11610
+d `Maybe Kumasawa's exaggerated surprise was a little comical.`[\]
+*d11611
+d `Rosa giggled, in spite of the situation.`[\]
+*d11612
+d `......Because of that, the fog of confusion that had covered her head cleared up a little.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_1,"m1f_s1a_bg"
+lbg s0_3,"m1f_s1a"
+lss s0_10,"ros","a11_komaru1" ;1
+aspt2 xpos,s0_10,370
+flush 24
+msgwnd_ros
+*d11613
+d [lv 0*"12"*"21400359"]`".........I've got to stay strong.`[@][lv 0*"12"*"21400360"]` ......It's not just Maria.`[@][lv 0*"12"*"21400361"]` ......I'm acting as a parent for George‐kun and Battler‐kun too now, so I have to stay strong......"`[\]
+textoff
+waits 167
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 25
+textoff
+waits 167
+lbg s0_3,"m1f_s1d"
+flush 25
+msgwnd_non
+*d11614
+d `Rosa had been the youngest sibling, with a large difference in age between her and the others.`[@]`{n}So she was always treated as a child.`[\]
+*d11615
+d `Every time she learned something new, it was something obvious to her brothers and sister,`[@]` and she had grown a complex, thinking that she must be incompetent.`[\]
+*d11616
+d `So she had formed a passive attitude, asking her brothers and sister for advice every time something happened...`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+*d11617
+d `.........But she no longer had any brothers or sisters.`[@]`{n}Now, Rosa was the only one of the four Ushiromiya siblings left.`[\]
+*d11618
+d `...Furthermore, if Kinzo continued to shut himself away even in this extraordinary situation,`[@]` ......Rosa would have to surpass this crisis as the representative of the head.`[\]
+textoff
+waits 167
+lbg s0_1,"m1f_s1a_bg"
+lbg s0_3,"m1f_s1a"
+flush 22
+lss s0_9,"ros","a11_majime1" ;1
+flush 10,167
+msgwnd_ros
+*d11619
+d [lv 0*"12"*"21400362"]`"...............I'm not a child anymore, not a child.`[@][lv 0*"12"*"21400363"]` ................................."`[\]
+msgwnd_non
+*d11620
+d `...Rosa slapped her knees lightly and stood up.`[\]
+*d11621
+d `She must not wait for orders now.`[@]`{n}...She had to start moving herself.`[\]
+textoff
+waits 167
+csp_slot s0_9
+csp_slot s0_1
+lbg s0_3,"black"
+flush 24
+*d11622
+d `She picked up the receiver to the extension phone on the side table.`[@]`{n}......Then she immediately remembered that the telephones were out of order.`[\]
+*d11623
+d `Genji and Shannon, who she had sent to see Kinzo, hadn't returned yet.`[\]
+*d11624
+d `...She had a general guess.`[@]` He was probably yelling about something nonsensical again, and they were unable to calm him.`[\]
+*d11625
+d `...His important chapel had been defiled with blood.`[@]`{n}That was easy to imagine.`[\]
+textoff
+waits 167
+lbg s0_1,"m1f_s1a_bg"
+lbg s0_3,"m1f_s1a"
+flush 25
+*d11626
+d `She had planned on using the extension phone to call the study, but with the telephone line dead, there was nothing else for it.`[\]
+*d11627
+d `Rosa decided to go to the study directly, with her own two feet.`[\]
+*d11628
+d `Her old self would have been so frightened that she wouldn't have been able to go see Kinzo.`[\]
+*d11629
+d `...And in fact, if she did meet him, she would probably be blamed for something and abused.`[\]
+*d11630
+d `But now wasn't the time to be frightened.`[@]` .........As his true daughter, she had to make him aware of the current situation.`[\]
+textoff
+waits 167
+lbg s0_3,"m1f_s1c"
+flush 22
+lss s0_10,"ros","a11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ros
+*d11631
+d [lv 0*"12"*"21400364"]`"......Kumasawa‐san,`[@][lv 0*"12"*"21400365"]` I'm going to see Father.`[@][lv 0*"12"*"21400366"]` ...Take special care of George‐kun and Battler‐kun.`[@][lv 0*"12"*"21400367"]` ......I'm sure they are on edge right now."`[\]
+lss s0_8,"kum","a11_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_kum
+*d11632
+d [lv 0*"18"*"21800056"]`"Yes, yes...`[@][lv 0*"18"*"21800057"]` I am quite sure they must be...`[@][lv 0*"18"*"21800058"]` ...It is truly pitiable...`[@][lv 0*"18"*"21800059"]` I shall make them something warm to drink."`[\]
+lss s0_10,"ros","a11_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ros
+*d11633
+d [lv 0*"12"*"21400368"]`"Thank you."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 23
+textoff
+waits 167
+lbg s0_1,"m1f_p1b_bg"
+lbg s0_3,"m1f_p1b"
+flush 23
+msgwnd_non
+*d11634
+d `Rosa went out into the hallway, and headed towards Kinzo's study.`[\]
+*d11635
+d `The atmosphere in this mansion, which she had spent her younger days in and should have been full of memories, seemed somehow different...`[\]
+textoff
+waits 167
+csp_slot s0_1
+lbg s0_3,"black"
+flush 24
+textoff
+waits 167
+lbg s0_1,"mhal_2a_bg"
+lbg s0_3,"mhal_2a"
+flush 22
+meplay 1,13,40
+*d11636
+d `And she began to climb the stairs in the entrance hall...`[\]
+*d11637
+d `......Just then.`[@]` In the gloom down the stairs behind Rosa, ...something glowed.`[\]
+textoff
+waits 167
+seplay 1,22,71
+anim s0_17,"no81",1
+flush 1
+waitvideo
+lbg s0_17,"no81_0048"
+flush 1
+*d11638
+d `It was a single fluttering gold butterfly.`[@]`{n}...It fluttered around and sparkled.`[@]`{n}That butterfly quietly danced without a sound.`[\]
+*d11639
+d `......Obviously.`[@]` No one can hear the sound of a butterfly's wings beating.`[\]
+seplay 2,26,71
+*d11640
+d `.........And then, ......it stopped on Rosa's back as she slowly climbed the stairs.`[\]
+csp_slot s0_17
+textoff
+waits 167
+lbg s0_1,"mhal_2b_bg"
+lbg s0_3,"mhal_2b"
+lss s0_9,"ros","a11_komaru1" ;1
+flush 22
+*d11641
+d `Rosa didn't notice.`[@]` And to an ignorant observer, it would probably have looked just as though a single sheet of gold leaf in the shape of a butterfly had gotten stuck there.`[\]
+*d11642
+d `Without noticing, Rosa continued heading to Kinzo's study......`[\]
+textoff
+waits 167
+csp_slot s0_9
+flush 10,167
+wait 2000
+seplay 1,37,71
+wait 1000
+seplay 2,52,71
+lss s0_10,"bea","a11_akuwarai1" ;1
+aspt2 xpos,s0_10,370
+aspt2 breakupdir,s0_10,1
+aspt2 breakup,s0_10,1000
+aspt2 alpha,s0_10,0
+flush 1
+aspt2 breakup,s0_10,0,2000
+aspt2 alpha,s0_10,255,2000
+sptwait2 breakup,s0_10
+msgwnd_bea
+*d11643
+d [lv 0*"27"*"20701079"]`".........Wellll then, in what way should I entertain myself next?`[@][lv 0*"27"*"20701080"]` ...There are still many, many pieces left.`[@][lv 0*"27"*"20701081"]` ...*cackle*cackle*cackle*cackle*...!"`[\]
+textoff
+waits 167
+seplay 3,27,71
+textoff
+waits 167
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"white"
+flush 1
+wait 1000
+textoff
+waits 167
+lbg s0_3,"black"
+flush 2
+wait 2000
+csp_slot s0_11
+rain_load s0_11
+rain_load s0_7
+rain_params s0_11,400,800,0
+rain_params s0_7,400,500,0
+textoff
+waits 167
+lbg s0_3,"m_o1a"
+flush 2
+vol_me 1,70
+vol_me 2,70
+wait 3000
+csp_slot s0_11
+csp_slot s0_7
+textoff
+waits 167
+lbg s0_3,"black"
+flush 5
+rain_load s0_11
+z_order_override s0_11,s0_1
+rain_params s0_11,500,300,0
+flush 1
+wait 1000
+textoff
+waits 167
+lbg s0_1,"m1f_s1a_bg"
+lbg s0_3,"m1f_s1a"
+flush 22
+meplay 1,12,40
+vol_me 2,40
+meplay 3,11,71
+msgwnd_non
+*d11644
+d `In the parlor, which had returned to silence, the only sound was that of the TV, which Maria was watching alone.`[\]
+*d11645
+d `If there was anything audible other than that, it was the sound of the rain which had continued on and on since last night.`[\]
+*d11646
+d `Every one of those people who had viewed that unearthly and horrible scene stayed silent, as though praying that the events of this morning were all a dream.`[\]
+textoff
+waits 167
+lbg s0_3,"m1f_s1d"
+flush 22
+*d11647
+d `Only Kumasawa hadn't seen it, and so acted slightly differently.`[\]
+*d11648
+d `...She instead found this silence difficult to bear, and was fidgety with the desire to cheer everyone up.`[\]
+*d11649
+d `...However, unable to say more than she should, it seemed that she was racking her brains as to how she could be of some use...`[\]
+*d11650
+d `Normally it would be time for breakfast.`[@]` ......However, maybe because something like that had happened, Gohda seemed to have forgotten about preparing a meal.`[\]
+*d11651
+d `...No, maybe everyone was so beaten up that they had forgotten their hunger.`[\]
+*d11652
+d `Kumasawa wanted to bring up the subject of what they would do for breakfast, but it didn't seem like the right atmosphere, so she really couldn't.`[\]
+*d11653
+d `But it was difficult being hungry.`[@]`{n}...So, she casually made a proposal.`[\]
+textoff
+waits 167
+lbg s0_3,"m1f_s1cr"
+flush 22
+lss s0_10,"kum","a11_defo2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_kum
+*d11654
+d [lv 0*"18"*"21800060"]`"...I imagine you all must be tired after all that has happened.`[@][lv 0*"18"*"21800061"]` ......In times like this, I think the best thing is to heat yourself with some warm black tea."`[\]
+lss s0_8,"nan","a1_fumu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_nan
+*d11655
+d [lv 0*"19"*"21900126"]`"......Mm, that is a good plan.`[@][lv 0*"19"*"21900127"]` I agree as well."`[\]
+lss s0_10,"kum","a11_warai1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_kum
+*d11656
+d [lv 0*"18"*"21800062"]`"Hoh‐hoh‐ho.`[@][lv 0*"18"*"21800063"]` How about some delicious black tea with biscuits and jam?`[@][lv 0*"18"*"21800064"]` Oh yes, yes, it seems that it's near Halloween—there were some delicious‐looking pumpkin‐shaped cookies on the shelf..."`[\]
+lss s0_8,"nan","a1_komaru3" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_nan
+*d11657
+d [lv 0*"19"*"21900128"]`"......Ah, Kumasawa‐san, that's........."`[\]
+vol_me 3,-1,1000
+seplay 1,21,71
+textoff
+waits 167
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"white"
+flush 62
+textoff
+waits 167
+lbg s0_1,"cha_i1a_bg"
+lbg s0_3,"cha_i1a"
+flush 1
+waits 167
+textoff
+waits 167
+lbg s0_3,"pumpkin2"
+flush 1
+waits 167
+textoff
+waits 167
+lbg s0_3,"blood_1a"
+flush 1
+waits 167
+textoff
+waits 167
+lbg s0_3,"m1f_s1d"
+flush 2
+msgwnd_non
+*d11658
+d `Of course, she had said the wrong thing.`[@]` ...Because she had reminded Battler and the rest about that horrible and tragic Halloween party in the chapel...`[\]
+*d11659
+d `Nanjo hurriedly whispered into Kumasawa's ear.`[\]
+textoff
+waits 167
+lbg s0_1,"m1f_s1a_bg"
+lbg s0_3,"m1f_s1a"
+lss s0_10,"but","b11_kuyasigaru1" ;1
+aspt2 xpos,s0_10,550
+flush 26
+msgwnd_but
+*d11660
+d [lv 0*"10"*"20100562"]`".........................................."`[\]
+lss s0_8,"kum","a11_komaru1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_kum
+*d11661
+d [lv 0*"18"*"21800065"]`"......Battler‐san, I am truly sorry!`[@][lv 0*"18"*"21800066"]` ...I didn't mean anything bad, gracious, no..."`[\]
+lss s0_10,"but","b22_niramu1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_but
+*d11662
+d [lv 0*"10"*"20100563"]`"No, don't worry about it.`[@][lv 0*"10"*"20100564"]` .........I'll definitely turn this boiling anger back on the culprit."`[\]
+lss s0_9,"geo","a11k_majime2k" ;1
+flush 10,167
+msgwnd_geo
+*d11663
+d [lv 0*"07"*"20300479"]`".........I wonder if that culprit is still on the island."`[\]
+lss s0_10,"but","b11_futeki1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_but
+*d11664
+d [lv 0*"10"*"20100565"]`"Probably.`[@][lv 0*"10"*"20100566"]` After all, there's not gonna be a boat coming until the typhoon passes."`[\]
+lss s0_8,"kum","a11_odoroki1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_kum
+*d11665
+d [lv 0*"18"*"21800067"]`"Ye‐...yes, my goodness!`[@][lv 0*"18"*"21800068"]` Because the boats don't come even if there is a little wind.`[@][lv 0*"18"*"21800069"]` They certainly wouldn't be able to ride one during a typhoon, good gracious no!"`[\]
+lss s0_9,"geo","a11_komaru1" ;1
+flush 10,167
+msgwnd_geo
+*d11666
+d [lv 0*"07"*"20300480"]`"......It creeps me out."`[\]
+lss s0_10,"but","b11_nayamu1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_but
+*d11667
+d [lv 0*"10"*"20100567"]`"You think so too, Aniki?`[@][lv 0*"10"*"20100568"]` Me too.`[@][lv 0*"10"*"20100569"]` .........Regardless of whether the culprit was that mystery guest or not."`[\]
+textoff
+waits 167
+vol_mix_fade 2000
+vol_bgm -1,2000
+wait 2000
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 22
+bgmplay 20,71,0
+textoff
+waits 167
+lbg s0_3,"portrait3"
+flush 22
+msgwnd_nan
+*d11668
+d [lv 0*"19"*"21900129"]`"That's right.`[@][lv 0*"19"*"21900130"]` ......We are naturally suspecting the mysterious guest who calls herself {f:5:Beatrice},`[@][lv 0*"19"*"21900131"]` but we still cannot be sure that she is the culprit.`[@][lv 0*"19"*"21900132"]` ...There is still the possibility she's a {i:victim whose corpse still hasn't been found}."`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 2
+textoff
+waits 167
+lbg s0_1,"m1f_s1a_bg"
+lbg s0_3,"m1f_s1a"
+flush 23
+lss s0_10,"geo","a12_majime2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_geo
+*d11669
+d [lv 0*"07"*"20300481"]`"......When I think of it that way, there's something I just can't understand."`[\]
+lss s0_8,"goh","a11_komaru2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_goh
+*d11670
+d [lv 0*"17"*"21700115"]`"What do you......mean by that......?"`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_10,"but","b11_komaru2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_but
+*d11671
+d [lv 0*"10"*"20100570"]`"It's simple.`[@][lv 0*"10"*"20100571"]` It's just like Kumasawa baa‐chan said a short while ago.`[@][lv 0*"10"*"20100572"]` Right now, this island is right in the midst of the typhoon, and escape is impossible.`[@][lv 0*"10"*"20100573"]` The same thing goes for the culprit.`[@][lv 0*"10"*"20100574"]` .........In that case, having the crime come to light should have been the thing that the culprit most wanted to avoid."`[\]
+lss s0_8,"goh","a11_komaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_goh
+*d11672
+d [lv 0*"17"*"21700116"]`"......That's right.`[@][lv 0*"17"*"21700117"]` ...There was no need to draw that creepy magic circle on the entrance to the chapel, and show off the fact that the corpses were there."`[\]
+lss s0_10,"but","b11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_but
+*d11673
+d [lv 0*"10"*"20100575"]`"Right, exactly that.`[@][lv 0*"10"*"20100576"]` Furthermore, if they were able to take the time and effort to do something so horrible to those six,`[@][lv 0*"10"*"20100577"]` ......it should have been equally possible for them to hide the six corpses where they would be impossible to find."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 22
+rain_pause s0_11
+textoff
+waits 167
+lbg s0_1,"cha_i1a_bg"
+lbg s0_3,"cha_i1a"
+color_mod2 s0_1,#ffffff
+color_mod2 s0_3,#ffffff
+flush 8
+msgwnd_geo
+*d11674
+d [lv 0*"07"*"20300482"]`"I agree. That brutal Halloween party probably wasn't directed at those who died.`[@][lv 0*"07"*"20300483"]` ......It was directed at the people who would eventually discover it: us.`[@][lv 0*"07"*"20300484"]` You could probably claim that the magic circle was there to show it to us."`[\]
+textoff
+waits 167
+csp_slot s0_1
+lbg s0_3,"black"
+flush 5
+csp_slot s0_11
+rain_load s0_11
+rain_load s0_7
+rain_params s0_11,400,800,0
+rain_params s0_7,400,500,0
+rain_pause s0_11
+rain_pause s0_7
+textoff
+waits 167
+lbg s0_3,"m_o1a"
+color_mod2 s0_3,#ffffff
+flush 22
+meplay 2,12,40
+msgwnd_but
+*d11675
+d [lv 0*"10"*"20100578"]`"...The culprit knew that they wouldn't be able to get away from this island for a while.`[@][lv 0*"10"*"20100579"]` ......And yet, they acted as though they wanted to make us find the corpses in the middle of this typhoon."`[\]
+*d11676
+d [lv 0*"10"*"20100580"]`"......What...does this mean?`[@][lv 0*"10"*"20100581"]` ...If I was the culprit, I definitely wouldn't play around and make us find the corpses."`[\]
+csp_slot s0_11
+csp_slot s0_7
+textoff
+waits 167
+lbg s0_3,"black"
+flush 25
+wait 100
+rain_load s0_11
+z_order_override s0_11,s0_1
+rain_params s0_11,500,300,0
+textoff
+waits 167
+lbg s0_1,"m1f_s1a_bg"
+lbg s0_3,"m1f_s1a"
+lss s0_10,"goh","a11_iiwake1" ;1
+aspt2 xpos,s0_10,550
+flush 22
+msgwnd_goh
+*d11677
+d [lv 0*"17"*"21700118"]`"............{f:5:Beatrice}‐sama was not in her room.`[@][lv 0*"17"*"21700119"]` ...The room did not seem particularly disturbed.`[@][lv 0*"17"*"21700120"]` ......Ah, no, Milady did disturb it quite a lot though..."`[\]
+textoff
+waits 167
+vol_bgm -1,2000
+wait 2000
+lss s0_8,"but","b22_oyaa1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_but
+*d11678
+d [lv 0*"10"*"20100582"]`"...Come to think of it, what happened to Jessica?"`[\]
+lss s0_10,"goh","a11_defo1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_goh
+*d11679
+d [lv 0*"17"*"21700121"]`"Kanon‐san is looking after her.`[@][lv 0*"17"*"21700122"]` ...They are probably in Milady's room."`[\]
+lss s0_9,"geo","a11_majime3" ;1
+flush 10,167
+bgmplay 6,71,0
+msgwnd_geo
+*d11680
+d [lv 0*"07"*"20300485"]`"............That isn't good.`[@][lv 0*"07"*"20300486"]` ...The culprit is definitely still on the island.`[@][lv 0*"07"*"20300487"]` ......In this situation, I don't believe it's a very good idea to isolate ourselves in small numbers."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_3,"m1f_s1c"
+lss s0_10,"kum","a11_odoroki1" ;1
+aspt2 xpos,s0_10,550
+flush 24
+msgwnd_kum
+*d11681
+d [lv 0*"18"*"21800070"]`"Wh‐what do you mean by that...?`[@][lv 0*"18"*"21800071"]` Y‐y‐you don't mean to say that the culprit plans to kill all of us...?!`[@][lv 0*"18"*"21800072"]` Awawa{0}wa{0}wa{0}wa{0}wawawa..."`[\]
+lss s0_8,"nan","a1_majime1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_nan
+*d11682
+d [lv 0*"19"*"21900133"]`"Let us remain calm...`[@][lv 0*"19"*"21900134"]` That is not yet certain..."`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_10,"but","b11_nayamu1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_but
+*d11683
+d [lv 0*"10"*"20100583"]`"But we can't deny the possibility, much to my chagrin. Ihihi."`[\]
+lss s0_10,"but","b22_niramu1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+*d11684
+d [lv 0*"10"*"20100584"]`"......This letter was in the chapel.`[@][lv 0*"10"*"20100585"]` According to this, the culprit is the witch,`[@][lv 0*"10"*"20100586"]` and if we don't solve the riddle of Grandfather's epitaph and find the gold, she'll massacre the whole family...or something like that."`[\]
+lss s0_9,"goh","a11_odoroki1" ;1
+flush 10,167
+msgwnd_goh
+*d11685
+d [lv 0*"17"*"21700123"]`"Is that true...!`[@][lv 0*"17"*"21700124"]` Umm, would you allow me to read it as well...?"`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_10,"kum","a11_odoroki1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_kum
+*d11686
+d [lv 0*"18"*"21800073"]`"Hii...{0}hi...{0}hi...{0}hieee{0}e{0}e{0}e{0}e{0}e{0}e{0}e{0}e{0}e{0}e{0}e{0}e{0}e{0}eeee...{0}eeee{0}e{0}e{0}eeee...{0}hh..."`[\]
+lss s0_8,"nan","a1_komaru2" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_nan
+*d11687
+d [lv 0*"19"*"21900135"]`"......mmmmmmmgh......"`[\]
+seplay 1,1010,71
+msgwnd_non
+*d11688
+d `As they read the witch's letter, Gohda, Kumasawa, and Nanjo's faces grew even paler than they had been...`[\]
+*d11689
+d `Kumasawa could no longer hide her shaking.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 23
+textoff
+waits 167
+lbg s0_1,"m1f_s1a_bg"
+lbg s0_3,"m1f_s1a"
+flush 23
+lss s0_8,"but","b22_oyaa1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d11690
+d2 [lv 0*"10"*"20100587"]`".........If you don't want to die, try finding Grandfather's hidden gold, huh.`[@][#][*][lv 0*"10"*"20100588"]` ...Screwing around with us.`[@][lv 0*"10"*"20100589"]` I'll bet you can't solve the riddle, so you're trying to make us solve it...!"`[\]
+wait_on_d 0
+lss s0_8,"but","b11_kuyasigaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_1
+lbg s0_3,"black"
+flush 25
+textoff
+waits 167
+lbg s0_3,"m1f_s1d"
+flush 22
+msgwnd_goh
+*d11691
+d [lv 0*"17"*"21700125"]`"However, ...I wonder what the truth is.`[@][lv 0*"17"*"21700126"]` Madam always insisted that the Legend of the Gold was nothing more than a fantasy created by the Master.`[@][lv 0*"17"*"21700127"]` ......It is doubtful whether that actually existed..."`[\]
+msgwnd_nan
+*d11692
+d [lv 0*"19"*"21900136"]`"True...`[@][lv 0*"19"*"21900137"]` Supposedly, they thought it would be nice if it existed, but only somewhat believed it.`[@][lv 0*"19"*"21900138"]` ......The relatives only all started believing in the Legend of the Gold after Kinzo's health worsened and the inheritance problem came up.`[@][lv 0*"19"*"21900139"]` I would think that there were very few people who believed it before then."`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_3,"gold1"
+flush 22
+msgwnd_geo
+*d11693
+d [lv 0*"07"*"20300488"]`"...Really? I wonder if that's why.`[@][lv 0*"07"*"20300489"]` Do you remember?`[@][lv 0*"07"*"20300490"]` On the table in the chapel.`[@][lv 0*"07"*"20300491"]` ...There were three gold ingots.`[@][lv 0*"07"*"20300492"]` That alone is worth quite a lot.`[@][lv 0*"07"*"20300493"]` Couldn't that truly prove that the Legend of the Gold was real?"`[\]
+textoff
+waits 167
+lbg s0_1,"m1f_s1a_bg"
+lbg s0_3,"m1f_s1a"
+lss s0_10,"kum","a11_komaru1" ;1
+aspt2 xpos,s0_10,370
+flush 26
+vol_bgm -1,1000
+msgwnd_kum
+*d11694
+d [lv 0*"18"*"21800074"]`"E‐...excuse me, ...please wait.`[@][lv 0*"18"*"21800075"]` Just now, did you say three gold bars......?"`[\]
+lss s0_8,"but","b11_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d11695
+d [lv 0*"10"*"20100590"]`"......Yeah, there were definitely three of them piled up.`[@][lv 0*"10"*"20100591"]` So what?"`[\]
+lss s0_10,"kum","a11_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+bgmplay 34,71,0
+msgwnd_kum
+*d11696
+d [lv 0*"18"*"21800076"]`"Well, umm, I, .........happened to hear Krauss‐sama talking about it once.`[@][lv 0*"18"*"21800077"]` ......Yes, I just heard it, you understand?!`[@][lv 0*"18"*"21800078"]` It's not like I was trying to listen to his discussions in secret, gracious no!"`[\]
+lss s0_8,"but","b11_nayamu2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d11697
+d [lv 0*"10"*"20100592"]`"Don't worry about that now.`[@][lv 0*"10"*"20100593"]` So then what?`[@][lv 0*"10"*"20100594"]` Is there something wrong with there being three of those gold bars?"`[\]
+lss s0_10,"kum","a11_komaru1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+seplay 1,21,71
+msgwnd_kum
+*d11698
+d [lv 0*"18"*"21800079"]`"...Y‐yes.`[@][lv 0*"18"*"21800080"]` According to Krauss‐sama, ...there was only one bar ever found to support the Legend of the Gold."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_1,"m1f_s1a_bg"
+lbg s0_3,"m1f_s1a"
+lss s0_10,"nan","a1_fumu1" ;1
+aspt2 xpos,s0_10,370
+flush 24
+msgwnd_nan
+*d11699
+d [lv 0*"19"*"21900140"]`"......That is correct.`[@][lv 0*"19"*"21900141_b"]` I do believe the story goes that Kinzo‐san showed the president of Marusoo a mountain of gold, and let him take one bar back with him."`[\]
+lss s0_8,"kum","a11_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_kum
+*d11700
+d [lv 0*"18"*"21800081"]`"And that one came to be in Krauss‐sama's possession.`[@][lv 0*"18"*"21800082"]` And he said this as well.`[@][lv 0*"18"*"21800083"]` That there was no gold which supported the Master's legend besides that one..."`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_10,"but","b11_komaru2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_but
+*d11701
+d2 [lv 0*"10"*"20100595"]`"You're talking about my uncle here, right?`[@][lv 0*"10"*"20100596"]` So what have we got here?`[@][#][*][lv 0*"10"*"20100597"]` ......No wait, ......three?!`[@][lv 0*"10"*"20100598"]` Wait, wait, where did they come from, that's too many of them!"`[\]
+wait_on_d 0
+lss s0_10,"but","b23_odoroki2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_1,"m1f_s1a_bg"
+lbg s0_3,"m1f_s1a"
+lss s0_10,"nan","a1_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 23
+msgwnd_nan
+*d11702
+d [lv 0*"19"*"21900142"]`"Might we not think of it this way?`[@][lv 0*"19"*"21900143"]` Maybe the other people in the family each found one, and they each brought one of them there..."`[\]
+lss s0_8,"goh","a11_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_goh
+*d11703
+d [lv 0*"17"*"21700128"]`"No, I cannot believe that.`[@][lv 0*"17"*"21700129"]` When all of the relatives came to the mansion, I was entrusted with their luggage.`[@][lv 0*"17"*"21700130"]` I did not feel any suspicious weight back then."`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_1,"m1f_s1a_bg"
+lbg s0_3,"m1f_s1a"
+lss s0_8,"geo","a11k_majime2k" ;1
+aspt2 xpos,s0_8,-370
+flush 24
+msgwnd_geo
+*d11704
+d [lv 0*"07"*"20300494"]`"......I think they weighed about ten kilograms.`[@][lv 0*"07"*"20300495"]` If that much weight was in their bags, even I would notice.`[@][lv 0*"07"*"20300496"]` But it didn't seem that way."`[\]
+lss s0_10,"but","b11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_but
+*d11705
+d [lv 0*"10"*"20100599"]`"Same here.`[@][lv 0*"10"*"20100600"]` At the most, there were some changes of clothes, medicine, Kyrie‐san's makeup.`[@][lv 0*"10"*"20100601"]` That's about it, I think.`[@][lv 0*"10"*"20100602"]` Aunt Rosa's luggage also looked pretty light."`[\]
+lss s0_8,"geo","a11_komaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_geo
+*d11706
+d [lv 0*"07"*"20300497"]`"......In that case, those three piled up gold bars were being shown to them, ...or maybe us.`[@][lv 0*"07"*"20300498"]` ......Telling us that the Legend of the Gold is definitely real.`[@][lv 0*"07"*"20300499"]` That it isn't a fantasy.`[@][lv 0*"07"*"20300500"]` And challenging us to uncover it."`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_10,"goh","a11_komaru1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_goh
+*d11707
+d [lv 0*"17"*"21700131"]`"Could there be a scheme...to have us solve the epitaph which points to the hidden location, and then try to snatch it away?"`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 23
+textoff
+waits 167
+lbg s0_1,"m1f_s1a_bg"
+lbg s0_3,"m1f_s1a"
+lss s0_9,"but","b24_niramu1" ;1
+flush 23
+msgwnd_but
+*d11708
+d [lv 0*"10"*"20100603"]`"............That does fit best.`[@][lv 0*"10"*"20100604"]` ...But there are a few parts that don't make sense.`[@][lv 0*"10"*"20100605"]` First, our parents, who should have been the most likely to be able to solve the epitaph, were killed first.`[@][lv 0*"10"*"20100606"]` I think that creates an immediate contradiction."`[\]
+lss s0_9,"but","b22_nayamu4" ;1
+flush 10,167
+*d11709
+d [lv 0*"10"*"20100607"]`".........And something else makes even less sense.`[@][lv 0*"10"*"20100608"]` ......They're trying to say that the Legend of the Gold is actually true,`[|][lv 0*"10"*"20100609"]` {i:but how could they prepare that gold}?`[@][lv 0*"10"*"20100610"]` ......It's almost like the culprit has already found the gold,`[@][lv 0*"10"*"20100611"]` and is telling us to try and find it too."`[\]
+lss s0_10,"geo","a11k_majime3k" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_geo
+*d11710
+d [lv 0*"07"*"20300501"]`"Maybe the culprit obtained those three like Uncle Krauss and thereby became certain about the Legend of the Gold,`[@][lv 0*"07"*"20300502"]` and is trying to make us search for the rest... I think that way is the most convincing."`[\]
+lss s0_9,"but","b22_kuyasigaru1" ;1
+flush 10,167
+msgwnd_but
+*d11711
+d [lv 0*"10"*"20100612"]`"...........................`[@][lv 0*"10"*"20100613"]` ......The pieces on the chessboard aren't lining up at all.`[@][lv 0*"10"*"20100614"]` ............We don't have a clue what the culprit is planning, what they want, what they want to make us do.`[@][lv 0*"10"*"20100615"]` ............Is it pointless?`[@]` Thinking about anything, at this point in time.`[|][lv 0*"10"*"20100616"]` ..........................."`[@][lv 0*"10"*"20100617"]`"......Kihihi.`[\]
+textoff
+waits 167
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_1,"m1f_s1a_bg"
+lbg s0_3,"m1f_s1a"
+lss s0_8,"mar","a11_akuwarai2" ;1
+aspt2 xpos,s0_8,-370
+flush 23
+meplay 2,16,40
+msgwnd_mar
+*d11712
+d [lv 0*"13"*"20400377"]` It was written down.`[@][lv 0*"13"*"20400378"]` What she wants you to do.`[@][lv 0*"13"*"20400379"]` Can't any of you read? Kihihi{0}hi{0}hi{0}hi{0}hi{0}hihihi."`[@][lv 0*"13"*"20400380"]`Maria suddenly laughed in a creepy voice.`[\]
+msgwnd_non
+*d11713
+d `...I'd thought she'd been concentrating on the TV, but she'd been listening in too, apparently.`[\]
+*d11714
+d `As she remained facing the TV, ...she very simply told us what we were forgetting.`[\]
+*d11715
+d `"{f:5:Beatrice} hasn't said one word about wanting the gold.`[\]
+lss s0_8,"mar","a11_ikari1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_mar
+*d11716
+d [lv 0*"13"*"20400381"]` ......She's not asked anything except whether you can solve the epitaph's riddle or not."`[@][lv 0*"13"*"20400382"]`"...Although I bet she thinks it'll be impossible for you anyway.`[\]
+lss s0_8,"mar","a22_akuwarai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d11717
+d [lv 0*"13"*"20400383"]` ......Kihihi{0}hi{0}hi{0}hi{0}hi{0}hi{0}hi{0}hi{0}hi{0}hi{0}hi{0}hi{0}hihihi."`[@][lv 0*"13"*"20400384"]`"......So you're saying you can solve it, Maria?"`[\]
+lss s0_10,"but","b11_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_but
+*d11718
+d [lv 0*"10"*"20100618"]`"...Don't caaare.`[\]
+lss s0_8,"mar","a11_akuwarai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_mar
+*d11719
+d2 [lv 0*"13"*"20400385"]` She's going to take me to the Golden Land, so.`[@][lv 0*"13"*"20400386"]` Won't get in {f:5:Beatrice}'s way.`[@][lv 0*"13"*"20400387"]` Kihihi{0}hi{0}hi{0}hi{0}hi{0}hi{0}hihihi,`[@][lv 0*"13"*"20400388"]` ouch."`[!w333][#][*]`"Looks like if we wanna understand further, we're gonna have to ask Maria.`[\]
+wait_on_d 0
+lss s0_8,"mar","a22_sakebu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+seplay 1,7,71
+agpt quakeycycle,50
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+d_continue
+wait_on_d -1
+lss s0_10,"but","b24_niramu2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_but
+*d11720
+d [lv 0*"10"*"20100619"]` ...Maria, tell us.`[@][lv 0*"10"*"20100620"]` ...............Who is this {f:5:Beatrice}?`[@][lv 0*"10"*"20100621"]` What is she planning?"`[@][lv 0*"10"*"20100622"]`"Kihihihihihihihihihihihihihihihihi!`[\]
+lss s0_8,"mar","a11_akuwarai2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_mar
+*d11721
+d [lv 0*"13"*"20400389"]` Well, you see, {f:5:Beatrice} is a witch!`[@][lv 0*"13"*"20400390"]` She can do anything with her wondrous powers."`[@][lv 0*"13"*"20400391"]`"Anything can be done with the power of magic.`[\]
+lss s0_8,"mar","a22_akuwarai2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d11722
+d [lv 0*"13"*"20400392"]` You can create gold, you can create bread.`[@][lv 0*"13"*"20400393"]` And of course, you can even create sweets!`[@][lv 0*"13"*"20400394"]` You saw it, didn't you?`[@][lv 0*"13"*"20400395"]` Kihihi{0}hi{0}hi{0}hi{0}hi{0}hi{0}hi{0}hi{0}hi{0}hi{0}hi{0}hi{0}hi{0}hi{0}hi{0}hi{0}hi{0}hi{0}hi{0}hihihi!"`[@][lv 0*"13"*"20400396"]`"......hn?"`[\]
+textoff
+waits 167
+vol_mix_fade 1000
+vol_bgm -1,1000
+wait 1000
+seplay 1,16,71
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 62
+msgwnd_geo
+*d11723
+d [lv 0*"07"*"20300502_1"]`At that time, everyone jumped at the sound of a door being closed forcefully.`[\]
+msgwnd_non
+*d11724
+d `We turned around to find that at some point Rosa had returned, bringing Genji and Shannon.`[\]
+textoff
+waits 167
+lbg s0_1,"m1f_s1a_bg"
+lbg s0_3,"m1f_s1a"
+lss s0_9,"gen","a11_defo1" ;1
+lss s0_10,"ros","a11_majime1" ;1
+aspt2 xpos,s0_10,550
+lss s0_8,"sha","a11_fuman1" ;1
+aspt2 xpos,s0_8,-550
+flush 64
+*d11725
+d `......Then she rapidly approached Maria, her heels clacking, and hit her sharply on the cheek.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_1,"m1f_s1a_bg"
+lbg s0_3,"m1f_s1a"
+lss s0_10,"mar","a22_akuwarai2" ;1
+aspt2 xpos,s0_10,370
+flush 24
+lss s0_8,"ros","a11_ikari3" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d11726
+d `"......Stop talking about that.`[\]
+textoff
+waits 167
+seplay 1,6,71
+agpt quakexcycle,50
+agpt quakexamp,30
+agpt quakexamp,0,500,1
+rumble 63,500
+gptwait quakexamp
+lss s0_10,"mar","a11_fukigen2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+lss s0_8,"ros","a11_ikari3" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+meplay 1,13,40
+msgwnd_ros
+*d11727
+d [lv 0*"12"*"21400369"]` Battler‐kun and the rest will take it badly."`[@][lv 0*"12"*"21400370"]`"..................Uu..."`[\]
+lss s0_10,"mar","a22_komaru1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_mar
+*d11728
+d [lv 0*"13"*"20400397"]`Without waiting for a response, she slapped Maria's cheek once more.`[\]
+textoff
+waits 167
+seplay 1,6,71
+lss s0_10,"mar","a22_sakebu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+agpt quakexcycle,50
+agpt quakexamp,30
+agpt quakexamp,0,500,1
+rumble 63,500
+gptwait quakexamp
+msgwnd_non
+*d11729
+d `{n}Everyone could only stand there, shocked.`[@]`"I don't know what "uu" means.`[\]
+lss s0_8,"ros","a11_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ros
+*d11730
+d [lv 0*"12"*"21400371"]` What about yes?"`[@][lv 0*"12"*"21400372"]`"...............Uu."`[\]
+lss s0_10,"mar","a11_fukigen2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_mar
+*d11731
+d [lv 0*"13"*"20400398"]`She mercilessly slapped Maria's cheek again.`[\]
+textoff
+waits 167
+seplay 1,7,71
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 1
+agpt quakexcycle,50
+agpt quakexamp,30
+agpt quakexamp,0,500,1
+rumble 63,500
+gptwait quakexamp
+msgwnd_non
+*d11732
+d `......Maybe she didn't feel like resisting after being hit twice.`[\]
+*d11733
+d `Maria weakly said yes.`[\]
+*d11734
+d `"Ro‐......Rosa‐san, there was no reason to do something so harsh..."`[\]
+textoff
+waits 167
+lbg s0_3,"m1f_s1c"
+flush 24
+lss s0_10,"nan","a1_komaru3" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_nan
+*d11735
+d [lv 0*"19"*"21900144"]`"...This is my daughter's education.`[\]
+lss s0_8,"ros","a11_ikari3" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ros
+*d11736
+d [lv 0*"12"*"21400373"]` I would greatly appreciate it if you didn't interject."`[@][lv 0*"12"*"21400374"]`The atmosphere around Rosa, with Genji and Shannon in tow, was somehow cold, and yet dignified,`[\]
+msgwnd_non
+*d11737
+d ` ...completely different from how she seemed before she left.`[@]`We saw that Aunt Rosa was holding something that looked like a gun.`[\]
+*d11738
+d `{n}......I couldn't imagine that she would have brought back a toy in this situation.`[@]`"Aunt Rosa, what is...?"`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 23
+textoff
+waits 167
+lbg s0_1,"m1f_s1a_bg"
+lbg s0_3,"m1f_s1a"
+lss s0_8,"geo","a11_komaru1" ;1
+aspt2 xpos,s0_8,-550
+flush 23
+msgwnd_geo
+*d11739
+d [lv 0*"07"*"20300503"]`"......This is Father's.`[\]
+textoff
+waits 167
+seplay 1,21,71
+lss s0_10,"ros","a11_majime1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+seplay 2,43,71
+lss s0_10,"ros","a14_majime1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+wait 1000
+msgwnd_ros
+*d11740
+d [lv 0*"12"*"21400375"]` Because of the current situation, I borrowed it specially.`[@][lv 0*"12"*"21400376"]` .........I'm sure you all realize as well as I do.`[@][lv 0*"12"*"21400377"]` The culprit is still nearby.`[@][lv 0*"12"*"21400378"]` We don't know what could happen."`[@][lv 0*"12"*"21400379"]`"...............I agree.`[\]
+lss s0_8,"geo","a11k_majime3k" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_geo
+*d11741
+d [lv 0*"07"*"20300504"]` ......Rather than trying to figure out what the culprit is planning, it might be better to first think about our own safety."`[@][lv 0*"07"*"20300505"]`"..........................."`[\]
+lss s0_9,"mar","a11_fukigen2" ;1
+flush 10,167
+meplay 2,5,40
+msgwnd_mar
+*d11742
+d [lv 0*"13"*"20400399"]`"Father was alright, but he was slightly agitated by these sudden events.`[\]
+lss s0_10,"ros","a11_nayamu1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_ros
+*d11743
+d [lv 0*"12"*"21400380"]` ...Fortunately, he said that he won't leave his room, so he's probably safe.`[@][lv 0*"12"*"21400381"]` Now, we should do all we can to gather in the same place."`[@][lv 0*"12"*"21400382"]`"...I agree.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_1,"m1f_s1a_bg"
+lbg s0_3,"m1f_s1a"
+lss s0_10,"but","b22_oyaa1" ;1
+aspt2 xpos,s0_10,370
+flush 24
+msgwnd_but
+*d11744
+d [lv 0*"10"*"20100623"]` We don't even know where the culprit is hiding, ......and anyway, there's no proof that there's only one of them.`[@][lv 0*"10"*"20100624"]` ..............."`[@][lv 0*"10"*"20100625"]`I shivered at the words that had come out of my own mouth.`[\]
+meplay 3,16,40
+msgwnd_non
+*d11745
+d `That's right.`[\]
+*d11746
+d ` Could a single person kill six people and create such a horrible scene all alone?`[@]`......Isn't it natural to assume that this crime was carried out by multiple culprits?`[\]
+*d11747
+d `"......I agree with Rosa‐san.`[\]
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"m1f_s1c"
+flush 24
+lss s0_8,"nan","a1_majime1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_nan
+*d11748
+d [lv 0*"19"*"21900145"]` It is probably good for us to gather in one place."`[@][lv 0*"19"*"21900146"]`"My goodness, yes, I also think that is good, yes, yes!"`[\]
+lss s0_10,"kum","a11_komaru1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_kum
+*d11749
+d [lv 0*"18"*"21800084"]`".........Maybe it would be good to call Milady and Kanon‐san here already."`[\]
+lss s0_9,"goh","a11_iiwake1" ;1
+flush 10,167
+msgwnd_goh
+*d11750
+d [lv 0*"17"*"21700132"]`"Good idea.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_1,"m1f_s1a_bg"
+lbg s0_3,"m1f_s1a"
+lss s0_10,"geo","a11_majime2" ;1
+aspt2 xpos,s0_10,550
+flush 23
+msgwnd_geo
+*d11751
+d [lv 0*"07"*"20300506"]` ......Let's have them come down."`[@][lv 0*"07"*"20300507"]`George‐aniki made to grab the extension phone, but Gohda‐san shook his head.`[\]
+msgwnd_non
+*d11752
+d `......Oh, right, we can't use the phones right now.`[\]
+*d11753
+d `"......I'll go with a couple people.`[\]
+seplay 1,21,71
+lss s0_8,"but","b11_majime1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_but
+*d11754
+d [lv 0*"10"*"20100626"]` If George‐aniki and Gohda‐san come as well, that should be enough."`[@][lv 0*"10"*"20100627"]`"............No.`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_10,"ros","a11_majime1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_ros
+*d11755
+d2 [lv 0*"12"*"21400383"]` Let's all go together.`[@][lv 0*"12"*"21400384"]` ...It's a "Wolves and Sheep Puzzle".`[@][#][*][lv 0*"12"*"21400385"]` {i:If we're all gathered together here in equilibrium}, that situation is the most safe."`[@][lv 0*"12"*"21400386"]`"...‘Wolves and Sheep Puzzle’?"`[\]
+wait_on_d 0
+seplay 3,26,71
+d_continue
+wait_on_d -1
+lss s0_8,"but","b22_oyaa1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_but
+*d11756
+d [lv 0*"10"*"20100628"]`"......Uu.`[\]
+lss s0_9,"mar","a22_warai1" ;1
+flush 10,167
+msgwnd_mar
+*d11757
+d [lv 0*"13"*"20400400"]` I have it.`[@][lv 0*"13"*"20400401"]` Show you."`[@][lv 0*"13"*"20400402"]`"Maria, turn off the television.`[\]
+lss s0_10,"ros","a11_ikari3" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+vol_me 3,-1,1000
+msgwnd_ros
+*d11758
+d [lv 0*"12"*"21400387"]` ......Genji‐san.`[@][lv 0*"12"*"21400388"]` Please tell me where Jessica‐chan's room is.`[@][lv 0*"12"*"21400389"]` Let's all go together."`[@][lv 0*"12"*"21400390"]`"......Yes.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_1,"m1f_s1a_bg"
+lbg s0_3,"m1f_s1a"
+lss s0_10,"gen","a11_defo1" ;1
+aspt2 xpos,s0_10,370
+flush 23
+msgwnd_gen
+*d11759
+d [lv 0*"14"*"21600091"]` I will guide you."`[@][lv 0*"14"*"21600092"]`"Come on, everyone.`[\]
+lss s0_8,"ros","a14_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ros
+*d11760
+d [lv 0*"12"*"21400391"]` We'll move together.`[@][lv 0*"12"*"21400392"]` Follow my instructions."`[@][lv 0*"12"*"21400393"]`We stood up.`[\]
+msgwnd_non
+*d11761
+d ` Maria alone looked like she had some lingering attachment to the TV, but she went along with everyone for now, and got up.`[@]`"...Shannon, thank goodness.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 23
+textoff
+waits 167
+lbg s0_1,"m1f_s1a_bg"
+lbg s0_3,"m1f_s1a"
+flush 23
+lss s0_10,"geo","a11_majime2" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_geo
+*d11762
+d [lv 0*"07"*"20300508"]` I was a little worried when you took so long to get back."`[@][lv 0*"07"*"20300509"]`"I am sorry to have worried you.`[\]
+lss s0_8,"sha","a21_defo1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_sha
+*d11763
+d [lv 0*"15"*"20500668"]` The Master ordered me to copy down something..."`[@][lv 0*"15"*"20500669"]`"Copy down?"`[\]
+lss s0_10,"geo","a11k_majime2k" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_geo
+*d11764
+d [lv 0*"07"*"20300510"]`"............Shannon."`[\]
+lss s0_9,"gen","a11_komaru1" ;1
+flush 10,167
+msgwnd_gen
+*d11765
+d [lv 0*"14"*"21600093"]`"I, .........I am sorry, excuse me..."`[\]
+lss s0_8,"sha","a11_komaru1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_sha
+*d11766
+d [lv 0*"15"*"20500670"]`We headed for Jessica's room, led by Genji‐san, and Aunt Rosa, holding the gun.`[\]
+textoff
+waits 167
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 22
+meplay 3,12,0
+vol_me 3,40,2000
+textoff
+waits 167
+lbg s0_1,"m1f_p1b_bg"
+lbg s0_3,"m1f_p1b"
+flush 23
+wait 2000
+textoff
+waits 167
+csp_slot s0_1
+lbg s0_3,"black"
+flush 23
+textoff
+waits 167
+lbg s0_1,"mhal_2a_bg"
+lbg s0_3,"mhal_2a"
+flush 23
+gstc 86
+msgwnd_non
+*d11767
+d `Jessica and Kanon‐kun are a girl and boy of about the same age.`[\]
+*d11768
+d ` That'd sure be a shame if we walked in on them at a bad tiiime, is what I'd have joked about normally, I'm sure.`[@]`However, Aunt Rosa was on edge, constantly exuding tension.`[\]
+bgmplay 14,71,0
+*d11769
+d ` ...So it really wasn't the kind of atmosphere where I could joke like that.`[@]`"Hey, don't fall behind!!`[\]
+textoff
+waits 167
+csp_slot s0_1
+lbg s0_3,"black"
+flush 24
+textoff
+waits 167
+lbg s0_1,"mhal_2b_bg"
+lbg s0_3,"mhal_2b"
+lss s0_10,"ros","a14_ikari3" ;1
+aspt2 xpos,s0_10,370
+flush 24
+msgwnd_ros
+*d11770
+d [lv 0*"12"*"21400394"]` Everyone move together!`[@][lv 0*"12"*"21400395"]` We don't know when or where the culprit might leap out at us, you know?!"`[@][lv 0*"12"*"21400396"]`...No, maybe Aunt Rosa's attitude was more appropriate.`[\]
+msgwnd_non
+*d11771
+d `{n}......Since Grandfather hadn't come down, Aunt Rosa was the leader.`[@]`This wasn't a situation where she could smile like she always did.`[\]
+*d11772
+d `......And Aunt Rosa was herself a mother.`[\]
+*d11773
+d ` She probably also thought that, if she didn't get ahold of herself, some harm might befall her beloved daughter.`[@]`The culprit had killed six of our parents at once.`[\]
+textoff
+waits 167
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 25
+textoff
+waits 167
+lbg s0_3,"blood_1b"
+flush 25
+*d11774
+d `{n}......The method they had used was unknown, but there was a good chance that this opponent could take down a large number of people in an instant.`[@]`Was that with weapons, or with numbers?`[\]
+*d11775
+d `{n}......Or was it the magic of a witch?`[@]`In any case, it definitely didn't look like there were any factors indicating we could get careless...`[\]
+*d11776
+d `The rest of us should also take much, much greater care, like Aunt Rosa...`[\]
+*d11777
+d `"............Everyone, stop!"`[\]
+textoff
+waits 167
+lbg s0_1,"m2f_p1b_bg"
+lbg s0_3,"m2f_p1b"
+lss s0_9,"ros","a11_aseru1" ;1
+flush 22
+vol_bgm -1,1000
+seplay 1,30,71
+lss s0_9,"ros","a14_ikari3" ;1
+flush 10,167
+msgwnd_ros
+*d11778
+d [lv 0*"12"*"21400397"]`Aunt Rosa spoke in a sharp voice.`[\]
+msgwnd_non
+*d11779
+d `When we peered forwards, wondering what was up...`[\]
+*d11780
+d `{n}......we immediately noticed the reason...`[@]`".........Wh‐......what is this......"`[\]
+textoff
+waits 167
+csp_slot s0_9
+csp_slot s0_1
+lbg s0_3,"black"
+flush 22
+seplay 1,33,90
+textoff
+waits 167
+lbg s0_3,"magicsquare_moon1"
+flush 1
+meplay 1,16,40
+wait 2000
+msgwnd_kum
+*d11781
+d [lv 0*"18"*"21800085"]`"Hii...............!"`[\]
+msgwnd_sha
+*d11782
+d [lv 0*"15"*"20500671"]`"Everyone, get back...!"`[\]
+msgwnd_goh
+*d11783
+d [lv 0*"17"*"21700133"]`Gohda‐san and Genji‐san approached the door...`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_3,"m_door1"
+flush 22
+msgwnd_non
+*d11784
+d `{n}Jessica's room was probably on the other side of that door.`[@]`"This......seems to be the same paint that was scribbled on the door to the chapel."`[\]
+lss s0_10,"goh","a11_iiwake2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_goh
+*d11785
+d [lv 0*"17"*"21700134"]`"......It appears so.`[\]
+lss s0_8,"gen","a11_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_gen
+*d11786
+d [lv 0*"14"*"21600094"]` It appears that not much time has passed since it was drawn."`[@][lv 0*"14"*"21600095"]`"What is that......`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"black"
+flush 23
+textoff
+waits 167
+lbg s0_1,"m1f_p1d_bg"
+lbg s0_3,"m1f_p1d"
+flush 23
+lss s0_10,"but","b11_komaru1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_but
+*d11787
+d [lv 0*"10"*"20100629"]` ......Another...magic circle?!"`[@][lv 0*"10"*"20100630"]`"......It's the first magic circle of the moon.`[\]
+lss s0_8,"mar","a11_niyari1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_mar
+*d11788
+d [lv 0*"13"*"20400403"]` ...It has the power to open unopenable doors."`[@][lv 0*"13"*"20400404"]`The door to Jessica's room......had that creepy graffiti on it which had been drawn on the door to the chapel.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 25
+seplay 1,27,71
+textoff
+waits 167
+lbg s0_3,"white"
+flush 1
+textoff
+waits 167
+lbg s0_3,"magicsquare_moon1"
+flush 2
+meplay 2,13,40
+msgwnd_non
+*d11789
+d `......That strange shape definitely had some meaning related to the occult.`[\]
+*d11790
+d `But it didn't matter what that meaning was.`[\]
+*d11791
+d `{n}We were more worried about whether those two were alright.`[@]`"Tha‐that doesn't matter!`[\]
+textoff
+waits 167
+lbg s0_1,"m1f_p1d_bg"
+lbg s0_3,"m1f_p1d"
+lss s0_10,"geo","a11_komaru1" ;1
+aspt2 xpos,s0_10,370
+flush 26
+msgwnd_geo
+*d11792
+d [lv 0*"07"*"20300511"]` Are Jessica‐chan and Kanon‐kun alright?!"`[@][lv 0*"07"*"20300512"]`"...I have a bad premonition...`[\]
+lss s0_8,"nan","a1_komaru3" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_nan
+*d11793
+d [lv 0*"19"*"21900147"]` We should quickly take those two downstairs."`[@][lv 0*"19"*"21900148"]`"Milady!`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 24
+textoff
+waits 167
+lbg s0_3,"m_door1"
+flush 24
+lss s0_10,"goh","a11_odoroki1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+seplay 2,19,71
+msgwnd_goh
+*d11794
+d2 [lv 0*"17"*"21700135"]` Milady!!`[@][lv 0*"17"*"21700136"]` Are you there?`[#][*][@][lv 0*"17"*"21700137"]` Please answer!!"`[#][*][@][lv 0*"17"*"21700138"]`Gohda‐san knocked violently and yelled, ...but there was no answer.`[#][*][\]
+wait_on_d 0
+seplay 3,19,80
+d_continue
+wait_on_d 1
+seplay 1,19,90
+d_continue
+wait_on_d 2
+seplay 2,19,100
+d_continue
+wait_on_d -1
+msgwnd_non
+*d11795
+d `He twisted the doorknob with a clatter, but the lock just resisted him.`[\]
+*d11796
+d `"......Rosa‐sama, it seems to be locked."`[\]
+flush 10,167
+lss s0_8,"gen","a11_komaru1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_gen
+*d11797
+d [lv 0*"14"*"21600096"]`"There are no other options.`[\]
+lss s0_9,"ros","a14_ikari3" ;1
+flush 10,167
+msgwnd_ros
+*d11798
+d [lv 0*"12"*"21400398"]` Please open it."`[@][lv 0*"12"*"21400399"]`Genji nodded, and Gohda quickly unlocked the door with the master key.`[\]
+msgwnd_non
+*d11799
+d `...In the back of my mind, horrible images floated up and disappeared, one after another.`[\]
+seplay 1,31,71
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_3,"black"
+flush 22
+*d11800
+d `{n}......A magic circle had been drawn on the door to the chapel.`[@]`{n}And six corpses had been behind that.`[@]`......So, if there was a magic circle drawn on the door to Jessica's room, ......then beyond it............`[\]
+*d11801
+d `"Je‐............Jessica‐sama!!"`[\]
+textoff
+waits 167
+vol_mix_fade 1000
+wait 1000
+seplay 1,16,90
+msgwnd_goh
+*d11802
+d [lv 0*"17"*"21700139"]`"Wh‐what happened?`[\]
+textoff
+waits 167
+lbg s0_3,"m_door1"
+lss s0_9,"ros","a34_ikari3" ;1
+flush 22
+bgmplay 33,71,0
+msgwnd_ros
+*d11803
+d [lv 0*"12"*"21400400"]` Is she there?!"`[@][lv 0*"12"*"21400401"]`"Jessica!!`[\]
+lss s0_8,"but","b22_odoroki1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_but
+*d11804
+d [lv 0*"10"*"20100631"]` What happened?!!"`[@][lv 0*"10"*"20100632"]`......It was truly heartless.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+lbg s0_3,"black"
+flush 22
+msgwnd_non
+*d11805
+d `...The expression on Gohda‐san's face and what he said when he opened the door...`[\]
+*d11806
+d `prepared us for the brutal fate that Jessica might have met, even without seeing her...`[@]`Everyone tumbled into Jessica's room at once.`[\]
+textoff
+waits 167
+lbg s0_3,"white"
+flush 22
+textoff
+waits 167
+lbg s0_1,"mjes_1a_bg"
+lbg s0_3,"mjes_1a"
+flush 2
+meplay 1,13,40
+*d11807
+d `{n}...That scene told everyone that their worst fears were right on the mark...`[@]`"...Jessicaaaaaaaaaaaaaaa!!!"`[\]
+textoff
+waits 167
+lbg s0_3,"g0202"
+flush 22
+msgwnd_but
+*d11808
+d2 [lv 0*"10"*"20100633"]`".........Oh......my......`[#][*][\]
+wait_on_d 0
+agpt quakeycycle,67
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+d_continue
+wait_on_d -1
+msgwnd_ros
+*d11809
+d [lv 0*"12"*"21400402"]` ...Doc‐...Doctor Nanjo!!"`[@][lv 0*"12"*"21400403"]`The room seemed elegant for Jessica's age, and there she was inside it, lying on the ground.`[\]
+gstc 87
+seplay 9,1061,100
+msgwnd_non
+*d11810
+d `There was a large pool of blood on the floor.`[\]
+*d11811
+d `......And there was a knife or something sticking deep into her back......`[\]
+*d11812
+d `...Was it a knife?`[\]
+*d11813
+d ` There was a design in the handle that had to have been done in a devil motif.`[@]`There was no doubt that this weapon(?) carried some kind of occult meaning.`[\]
+*d11814
+d `"...This is.........horrible.`[\]
+textoff
+waits 167
+csp_slot s0_1
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_1,"mjes_1a_bg"
+lbg s0_3,"mjes_1a"
+lss s0_10,"nan","a1_komaru3" ;1
+aspt2 xpos,s0_10,370
+flush 26
+msgwnd_nan
+*d11815
+d [lv 0*"19"*"21900149"]` ...She has passed away.`[@][lv 0*"19"*"21900150"]` ......This...probably...reaches her lungs...`[@][lv 0*"19"*"21900151"]` ......Not much time has passed since she died."`[@][lv 0*"19"*"21900152"]`"Jessicaaaaaaaaaaaa!!`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_9,"but","b22_naku1" ;1
+flush 10,167
+msgwnd_but
+*d11816
+d2 [lv 0*"10"*"20100634"]` Damn it, damn iiiiiiiiiiiiiiiiiit!!"`[@][lv 0*"10"*"20100635"]`"......B‐Battler‐sama......"`[#][*][\]
+wait_on_d 0
+seplay 1,12,71
+agpt quakeycycle,50
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+seplay 1,12,71
+agpt quakeycycle,50
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+d_continue
+wait_on_d -1
+lss s0_8,"sha","a11_odoroki1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_sha
+*d11817
+d [lv 0*"15"*"20500672"]`"I was naive!!`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_1
+lbg s0_3,"black"
+flush 22
+msgwnd_but
+*d11818
+d2 [lv 0*"10"*"20100636"]` I knew it!!`[#][*][@][lv 0*"10"*"20100637"]` Since they couldn't escape the island, the culprit was definitely close by!`[#][*][@][lv 0*"10"*"20100638"]` Then why wasn't I on my guard straight away!!`[@][lv 0*"10"*"20100639"]` ......I was naive!!`[@][lv 0*"10"*"20100640"]` I just assumed that culprits sneak away after they commit a crime!"`[#][*][@][lv 0*"10"*"20100641"]`"......We were stunned then.`[\]
+wait_on_d 0
+seplay 1,9,71
+agpt quakeycycle,50
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+d_continue
+wait_on_d 1
+seplay 1,8,71
+agpt quakeycycle,50
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+d_continue
+wait_on_d 2
+seplay 1,12,71
+agpt quakeycycle,50
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+d_continue
+wait_on_d -1
+textoff
+waits 167
+lbg s0_1,"mjes_1a_bg"
+lbg s0_3,"mjes_1a"
+flush 22
+lss s0_8,"geo","b21_naku1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_geo
+*d11819
+d [lv 0*"07"*"20300513"]` We thought we just had to accept it when Jessica‐chan gave in to rage and ran off.`[@][lv 0*"07"*"20300514"]` ......But we were naive.`[@][lv 0*"07"*"20300515"]` We should have stopped her...!"`[@][lv 0*"07"*"20300516"]`"...Gohda‐san, why did you leave those two alone?!`[\]
+textoff
+waits 167
+csp_slot s0_8
+lbg s0_1,"mjes_1c_bg"
+lbg s0_3,"mjes_1c"
+lss s0_10,"ros","a11_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 24
+meplay 2,5,40
+msgwnd_ros
+*d11820
+d [lv 0*"12"*"21400404"]` If only you had been with them, something like this would never...!!"`[@][lv 0*"12"*"21400405"]`"N‐no, you, you see, I...!!`[\]
+lss s0_8,"goh","a12_odoroki1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_goh
+*d11821
+d [lv 0*"17"*"21700140"]` I said it was dangerous so we should return!`[@][lv 0*"17"*"21700141"]` It's just that...Milady said that she wanted to be alone!`[@][lv 0*"17"*"21700142"]` Kanon‐san told me to leave it to him, and...!"`[@][lv 0*"17"*"21700143"]`"......Speaking of which, where is Kanon‐san...?!"`[\]
+lss s0_8,"goh","a12_iiwake2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d11822
+d [lv 0*"17"*"21700144"]`"That's right!`[\]
+gstc 88
+seplay 9,1061,100
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_1,"mjes_1a_bg"
+lbg s0_3,"mjes_1a"
+lss s0_10,"geo","a11_ikari2" ;1
+aspt2 xpos,s0_10,550
+flush 23
+msgwnd_geo
+*d11823
+d [lv 0*"07"*"20300517"]` What in the world happened to Kanon‐kun?!"`[@][lv 0*"07"*"20300518"]`"K‐......Kanon‐kun...`[\]
+lss s0_8,"sha","a11_odoroki1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_sha
+*d11824
+d [lv 0*"15"*"20500673"]` Where........."`[@][lv 0*"15"*"20500674"]`"Kanon‐san should have been with Milady...`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_10,"goh","a11_majime1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_goh
+*d11825
+d [lv 0*"17"*"21700145"]` Where in the world...!"`[@][lv 0*"17"*"21700146"]`"You don't think...they got him...?!"`[\]
+lss s0_9,"but","b11_kuyasigaru1" ;1
+flush 10,167
+msgwnd_but
+*d11826
+d [lv 0*"10"*"20100642"]`".......................................`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_1,"mjes_1c_bg"
+lbg s0_3,"mjes_1c"
+flush 24
+lss s0_10,"ros","a14_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ros
+*d11827
+d2 [lv 0*"12"*"21400406"]` Quiet.`[@][#][*][lv 0*"12"*"21400407"]` .........Someone might be hiding in this room.`[@][lv 0*"12"*"21400408"]` Search under the bed and in the closet!"`[@][lv 0*"12"*"21400409"]`There was also a chance that Kanon‐kun's corpse had been pushed away somewhere.`[\]
+wait_on_d 0
+lss s0_10,"ros","a34_ikari3" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 22
+msgwnd_non
+*d11828
+d `At Rosa‐san's order, everyone searched the room together.`[\]
+*d11829
+d `......But there wasn't a single human hiding anywhere.`[\]
+*d11830
+d `"......He's nowhere!!`[\]
+textoff
+waits 167
+wait 2000
+textoff
+waits 167
+lbg s0_1,"mjes_1a_bg"
+lbg s0_3,"mjes_1a"
+flush 22
+lss s0_10,"but","b22_odoroki1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_but
+*d11831
+d [lv 0*"10"*"20100643"]` Could the culprit have taken him out of the room?!`[@][lv 0*"10"*"20100644"]` Then we have to search for him quickly and save him!`[@][lv 0*"10"*"20100645"]` ......If we're slow, something awful might happen!!"`[@][lv 0*"10"*"20100646"]`"Aunt Rosa, let's search all over the mansion!`[\]
+*d11832
+d [lv 0*"10"*"20100647"]` Let's search for the culprit!`[@][lv 0*"10"*"20100648"]` Let's save Kanon‐kun!!"`[@][lv 0*"10"*"20100649"]`"........................`[\]
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_3,"mjes_1e"
+flush 22
+msgwnd_ros
+*d11833
+d2 [lv 0*"12"*"21400410"]` ............Quiet!!!"`[@][#][*][lv 0*"12"*"21400411"]`Aunt Rosa yelled at us loudly, and we fell instantly silent.`[\]
+wait_on_d 0
+vol_mix_fade 0
+vol_bgm -1
+agpt quakeycycle,50
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+d_continue
+wait_on_d -1
+msgwnd_non
+*d11834
+d `She was probably contemplating something.`[\]
+textoff
+waits 167
+lbg s0_1,"mjes_1a_bg"
+lbg s0_3,"mjes_1a"
+lss s0_9,"ros","a14_komaru4" ;1
+flush 26
+meplay 1,12,40
+*d11835
+d `{n}...But what in the world could that be......?`[@]`...Aunt Rosa walked around the room as though looking for something, ...or as though she was collecting her thoughts.`[\]
+*d11836
+d `............Then, she found something on the side table by the bed, and picked it up.`[\]
+textoff
+waits 167
+textoff
+waits 167
+csp_slot s0_9
+csp_slot s0_1
+lbg s0_3,"black"
+flush 24
+textoff
+waits 167
+lbg s0_3,"mjes_1e"
+flush 24
+wait 1500
+textoff
+waits 167
+lbg s0_3,"black"
+flush 24
+textoff
+waits 167
+lbg s0_1,"mjes_1a_bg"
+lbg s0_3,"mjes_1a"
+flush 24
+wait 1500
+textoff
+waits 167
+csp_slot s0_1
+lbg s0_3,"black"
+flush 24
+textoff
+waits 167
+lbg s0_1,"mjes_1c_bg"
+lbg s0_3,"mjes_1c"
+flush 24
+wait 1000
+*d11837
+d `"...............If anyone knows, tell me.`[\]
+lss s0_10,"ros","a11_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ros
+*d11838
+d [lv 0*"12"*"21400412"]` ......What key is this?"`[@][lv 0*"12"*"21400413"]`Aunt Rosa showed everyone a key with a cute mascot attached to it.`[\]
+seplay 1,31,71
+msgwnd_non
+*d11839
+d `...Judging from its cute appearance, I didn't doubt that it was Jessica's key, but I had no way of knowing what key it was.`[\]
+*d11840
+d `"......It is probably the key to this—to Milady's room."`[\]
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_1,"mjes_1c_bg"
+lbg s0_3,"mjes_1c"
+lss s0_8,"gen","a11_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 23
+msgwnd_gen
+*d11841
+d [lv 0*"14"*"21600097"]`After hearing that, Aunt Rosa made a point of going outside the door and checking.`[\]
+msgwnd_non
+*d11842
+d `.........Without a doubt, it was the key to this room.`[\]
+*d11843
+d `"............I wonder why it was set in a place like this.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_1
+lbg s0_3,"black"
+flush 24
+textoff
+waits 167
+lbg s0_1,"mjes_1c_bg"
+lbg s0_3,"mjes_1c"
+flush 22
+lss s0_9,"ros","a11_majime1" ;1
+flush 10,167
+msgwnd_ros
+*d11844
+d [lv 0*"12"*"21400414"]` Normally, don't you keep important keys in your pocket?"`[@][lv 0*"12"*"21400415"]`"...Umm, ............Milady wasn't in the habit of locking her room.`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_1,"mjes_1a_bg"
+lbg s0_3,"mjes_1a"
+lss s0_10,"sha","a11_komaru1" ;1
+aspt2 xpos,s0_10,550
+flush 23
+msgwnd_sha
+*d11845
+d [lv 0*"15"*"20500675"]` Except for when she went to school—`[@][lv 0*"15"*"20500676"]`it seems she would do it then, because she didn't want Krauss‐sama to look inside her room..."`[@][lv 0*"15"*"20500677"]`".........I see.`[\]
+lss s0_8,"ros","a11_nayamu1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_ros
+*d11846
+d [lv 0*"12"*"21400416"]` She wasn't at school, so it's natural that Jessica‐chan would set the key down here.`[@][lv 0*"12"*"21400417"]` How many keys can open this door?"`[@][lv 0*"12"*"21400418"]`"Ju‐...just the one Milady had..."`[\]
+lss s0_9,"kum","a12_majime1" ;1
+flush 10,167
+meplay 2,16,40
+msgwnd_kum
+*d11847
+d [lv 0*"18"*"21800086"]`"Can't it be opened with your master keys?"`[\]
+lss s0_8,"ros","a11_majime1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_ros
+*d11848
+d [lv 0*"12"*"21400419"]`"......They can open it."`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_10,"gen","a11_defo1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_gen
+*d11849
+d [lv 0*"14"*"21600098"]`"How many master keys are there?`[\]
+lss s0_8,"ros","a11_nayamu1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_ros
+*d11850
+d [lv 0*"12"*"21400420"]` Do all of the servants have one?`[@][lv 0*"12"*"21400421"]` Are there extras?"`[@][lv 0*"12"*"21400422"]`"Yes.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_1,"mjes_1c_bg"
+lbg s0_3,"mjes_1c"
+lss s0_10,"goh","a11_majime1" ;1
+aspt2 xpos,s0_10,550
+flush 24
+msgwnd_goh
+*d11851
+d [lv 0*"17"*"21700147"]` We all have one.`[@][lv 0*"17"*"21700148"]` .........As for extras, ...I wonder."`[@][lv 0*"17"*"21700149"]`"There used to be several, ...but Madam strongly scolded us that this was careless, so I believe they have been dealt with."`[\]
+lss s0_8,"sha","a11_fuman1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_sha
+*d11852
+d [lv 0*"15"*"20500678"]`"......That is correct.`[\]
+lss s0_9,"gen","a11_defo1" ;1
+flush 10,167
+msgwnd_gen
+*d11853
+d [lv 0*"14"*"21600099"]` There is only one held by each servant.`[@][lv 0*"14"*"21600100"]` There are no more."`[@][lv 0*"14"*"21600101"]`"...nn?`[\]
+seplay 1,56,71
+vol_me 1,20
+vol_me 2,20
+textoff
+waits 167
+rain_pause s0_11
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+flush 10,367
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+flush 28
+lips_sprite s0_8_b
+lips_sprite s0_9_b
+lips_sprite s0_10_b
+gstc 89
+lss s0_23,"but","b24_komaru2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_but
+*d11854
+d [lv 0*"10"*"20100650"]` Wait a second.`[@][lv 0*"10"*"20100651"]` ...In the last game, I thought we said there were extra master keys?"`[@][lv 0*"10"*"20100652"]`"Yes.`[\]
+lss s0_25,"bea","a11_defo1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_bea
+*d11855
+d [lv 0*"27"*"20701082"]` Regarding that.`[@][lv 0*"27"*"20701083"]` I have noticed that having several master keys whose locations are unknown is quite disadvantageous for me."`[@][lv 0*"27"*"20701084"]`"......Well, yeah.`[\]
+lss s0_23,"but","b11_niramu2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_but
+*d11856
+d [lv 0*"10"*"20100653"]` Since you want to make me believe in magic by using locked rooms, it must be really disadvantageous for you to have master keys unaccounted for."`[@][lv 0*"10"*"20100654"]`"...In fact, every time a trick related to locks showed up,`[\]
+*d11857
+d [lv 0*"10"*"20100655"]` I was planning to resist by arguing that the culprit possessed a master key that someone had lost in the past, or a duplicate."`[@][lv 0*"10"*"20100656"]`"Yes, exactly.`[\]
+lss s0_25,"bea","a11_akuwarai1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_bea
+*d11858
+d [lv 0*"27"*"20701085"]` So I've decided to make a move to defeat that.`[@][lv 0*"27"*"20701086"]` ......I'll alter the setup."`[@][lv 0*"27"*"20701087"]`"`[\]
+*d11859
+d2 [lv 0*"27"*"20701088"]`{p:1:The only master keys are the ones held by the servants, one key each}.`[#][*]` *cackle*cackle*."`[@][lv 0*"27"*"20701089"]`"...Messing with me.`[\]
+wait_on_d 0
+seplay 1,59,71
+d_continue
+wait_on_d -1
+lss s0_23,"but","b22_niramu1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_but
+*d11860
+d [lv 0*"10"*"20100657"]` ......More importantly.`[@][lv 0*"10"*"20100658"]` What is this move?`[@][lv 0*"10"*"20100659"]` ......What's Aunt Rosa saying?"`[@][lv 0*"10"*"20100660"]`"*cackle*cackle*.`[\]
+lss s0_25,"bea","a11_warai2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_bea
+*d11861
+d [lv 0*"27"*"20701090"]` Who knows?`[@][lv 0*"27"*"20701091"]` You should try listening in."`[@][lv 0*"27"*"20701092"]`"...............Thank you.`[\]
+textoff
+waits 167
+csp_slot s0_21
+csp_slot s0_22
+csp_slot s0_25
+csp_slot s0_23
+rain_resume s0_11
+lips_sprite s0_8_b,"sha"
+lips_sprite s0_9_b,"gen"
+lips_sprite s0_10_b,"goh"
+flush 8
+vol_me 1,40
+vol_me 2,40
+wait 667
+gstc 90
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_1,"mjes_1a_bg"
+lbg s0_3,"mjes_1a"
+lss s0_9,"ros","a14_nayamu1" ;1
+flush 24
+msgwnd_ros
+*d11862
+d [lv 0*"12"*"21400423"]` I have the situation sorted out."`[@][lv 0*"12"*"21400424"]`"......And I've managed to identify the culprit who assaulted Jessica‐chan, or maybe one of their accomplices."`[\]
+textoff
+waits 167
+vol_mix_fade 2000
+wait 2000
+lss s0_9,"ros","a14_akuwarai1" ;1
+flush 10,167
+bgmplay 19,71,0
+*d11863
+d [lv 0*"12"*"21400425"]`"Wha‐what did you say...?!`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_1,"mjes_1c_bg"
+lbg s0_3,"mjes_1c"
+lss s0_10,"but","b22_odoroki2" ;1
+aspt2 xpos,s0_10,550
+flush 24
+msgwnd_but
+*d11864
+d [lv 0*"10"*"20100661"]` Who is that?!"`[@][lv 0*"10"*"20100662"]`"...Aunt Rosa, you can't be talking about Kanon‐kun...?"`[\]
+lss s0_8,"geo","a11_majime3" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_geo
+*d11865
+d [lv 0*"07"*"20300519"]`"......Huh, ......huuuh?!`[\]
+lss s0_9,"sha","a12_odoroki2" ;1
+flush 10,167
+msgwnd_sha
+*d11866
+d [lv 0*"15"*"20500679"]` Wh‐why Kanon‐kun?!"`[@][lv 0*"15"*"20500680"]`"This room was locked.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 25
+textoff
+waits 167
+lbg s0_3,"map07"
+flush 22
+msgwnd_ros
+*d11867
+d [lv 0*"12"*"21400426"]` And the only keys that can unlock this room are the master keys that each servant is holding, as well as the key Jessica had."`[@][lv 0*"12"*"21400427"]`"......But Jessica‐chan's key was closed up in here.`[\]
+*d11868
+d [lv 0*"12"*"21400428"]` ...Which means the only keys that could have locked it are the master keys."`[@][lv 0*"12"*"21400429"]`"............It is as you say."`[\]
+msgwnd_gen
+*d11869
+d [lv 0*"14"*"21600102"]`"In that case, someone killed Jessica‐chan, then locked the door!`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_1,"mjes_1c_bg"
+lbg s0_3,"mjes_1c"
+lss s0_9,"ros","a11_majime1" ;1
+flush 22
+lss s0_9,"ros","a34_ikari4" ;1
+flush 10,167
+meplay 1,13,40
+seplay 1,21,71
+msgwnd_ros
+*d11870
+d [lv 0*"12"*"21400430"]` That person was holding a master key.`[@][lv 0*"12"*"21400431"]` And there are only five people who were holding master keys!"`[@][lv 0*"12"*"21400432"]`"Oh, oh my!!`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_1,"mjes_1a_bg"
+lbg s0_3,"mjes_1a"
+lss s0_8,"kum","a11_odoroki1" ;1
+aspt2 xpos,s0_8,-370
+flush 23
+msgwnd_kum
+*d11871
+d [lv 0*"18"*"21800087"]` It wasn't me, not me!`[@][lv 0*"18"*"21800088"]` Gracious, no, I couldn't do something like that!"`[@][lv 0*"18"*"21800089"]`"......Kumasawa‐san, you got up late.`[\]
+lss s0_10,"ros","a14_ikari3" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ros
+*d11872
+d [lv 0*"12"*"21400433"]` After we returned from the chapel to the parlor, we did meet you there,`[@][lv 0*"12"*"21400434"]` but it's impossible to prove where you were and what you were doing until that time."`[@][lv 0*"12"*"21400435"]`"You watched us from the shadows, chased after Jessica‐chan and Kanon‐kun when they were isolated, and stealthily attacked them."`[\]
+*d11873
+d [lv 0*"12"*"21400436"]`"A‐are you saying that I visited Milady's room,`[\]
+lss s0_8,"kum","a11_komaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_kum
+*d11874
+d [lv 0*"18"*"21800090"]` and did something so horrible?!`[|][lv 0*"18"*"21800091"]` I, I, I did no such thing!`[@][lv 0*"18"*"21800092"]` Gracious no, no such thing!!"`[@][lv 0*"18"*"21800093"]`"What about you, Gohda‐san?`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_1,"mjes_1a_bg"
+lbg s0_3,"mjes_1a"
+lss s0_9,"ros","a14_majime1" ;1
+flush 23
+msgwnd_ros
+*d11875
+d [lv 0*"12"*"21400437"]` You said that you left Jessica‐chan in Kanon‐kun's care and returned."`[@][lv 0*"12"*"21400438"]`"...But I wonder if that's true?`[\]
+lss s0_9,"ros","a34_ikari4" ;1
+flush 10,167
+*d11876
+d [lv 0*"12"*"21400439"]` ......I wonder if you didn't really kill the two of them, hide Kanon‐kun's corpse,`[@][lv 0*"12"*"21400440"]` and then come back with an innocent look on your face?!"`[@][lv 0*"12"*"21400441"]`"Nothing of the sort happened!`[\]
+lss s0_10,"goh","a11_odoroki1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_goh
+*d11877
+d [lv 0*"17"*"21700150"]` I swear on my name that I did not do anything like that!!"`[@][lv 0*"17"*"21700151"]`"......It, it wasn't us, either...!!`[\]
+textoff
+waits 167
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_1,"mjes_1c_bg"
+lbg s0_3,"mjes_1c"
+lss s0_10,"gen","a11_komaru1" ;1
+aspt2 xpos,s0_10,370
+lss s0_8,"sha","a11_komaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 24
+lss s0_8,"sha","a11_odoroki1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_sha
+*d11878
+d [lv 0*"15"*"20500681"]` We were following the Master's orders and—"`[@][lv 0*"15"*"20500682"]`"Yes.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_1,"mjes_1a_bg"
+lbg s0_3,"mjes_1a"
+lss s0_10,"ros","a14_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 24
+msgwnd_ros
+*d11879
+d [lv 0*"12"*"21400442"]` At least you and Genji‐san are alright.`[@][lv 0*"12"*"21400443"]` That is backed up by what I heard from Father.`[@][lv 0*"12"*"21400444"]` The two of you were in Father's room the whole time, one copying and one standing witness.`[@][lv 0*"12"*"21400445"]` Father and I can guarantee that."`[@][lv 0*"12"*"21400446"]`".........Thank you very much."`[\]
+lss s0_8,"gen","a11_komaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_gen
+*d11880
+d [lv 0*"14"*"21600103"]`"In that case, I think the argument becomes who is more suspicious, Gohda‐san or Kumasawa‐san.`[\]
+csp_slot s0_8
+csp_slot s0_10
+lss s0_9,"ros","a14_ikari3" ;1
+flush 10,167
+msgwnd_ros
+*d11881
+d [lv 0*"12"*"21400447"]` ......That's how I thought, too, at least in the first moments after entering this room."`[@][lv 0*"12"*"21400448"]`".........But then, I thought it was strange.`[\]
+*d11882
+d [lv 0*"12"*"21400449"]` Look at the state of Jessica‐chan's body.`[@][lv 0*"12"*"21400450"]` Don't you all think it's strange?"`[@][lv 0*"12"*"21400451"]`"......Strange, ...you say...?"`[\]
+lss s0_8,"nan","a1_majime1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_nan
+*d11883
+d [lv 0*"19"*"21900153"]`"Jessica‐chan was stabbed in the back.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_1
+lbg s0_3,"black"
+flush 26
+textoff
+waits 167
+lbg s0_3,"g0202"
+flush 22
+msgwnd_ros
+*d11884
+d [lv 0*"12"*"21400452"]` .........Come on, it's often generally said, right?`[@][lv 0*"12"*"21400453"]` That in crimes where the victim is stabbed in the back, there's a high likelihood that the culprit was someone whose face was known to the victim.`[@][lv 0*"12"*"21400454"]` She definitely wouldn't invite a person that she doesn't trust into her room, and defenselessly expose her back."`[@][lv 0*"12"*"21400455"]`"Ro‐......Rosa‐sama, you couldn't mean...`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_1,"mjes_1a_bg"
+lbg s0_3,"mjes_1a"
+lss s0_10,"sha","a11_komaru1" ;1
+aspt2 xpos,s0_10,370
+flush 26
+meplay 2,5,50
+msgwnd_sha
+*d11885
+d [lv 0*"15"*"20500683"]`.........to say that was Kanon‐kun...?"`[|][lv 0*"15"*"20500684"]`"Yes.`[\]
+lss s0_8,"ros","a34_ikari4" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ros
+*d11886
+d [lv 0*"12"*"21400456"]` We know well what state Jessica‐chan was in right before she was killed."`[@][lv 0*"12"*"21400457"]`"......Jessica‐chan was very panicked after seeing her parents' tragic bodies.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 25
+rain_pause s0_11
+textoff
+waits 167
+lbg s0_1,"cha_i1a_bg"
+lbg s0_3,"cha_i1a"
+color_mod2 s0_1,#ffffff
+color_mod2 s0_3,#ffffff
+lss s0_10,"jes","a11_naki1" ;1
+aspt2 xpos,s0_10,370
+aspt2 darken_r,s0_10,156
+aspt2 darken_g,s0_10,156
+aspt2 darken_b,s0_10,160
+color_mod2 s0_10,#ffffff
+flush 22
+*d11887
+d [lv 0*"12"*"21400458"]` And it's easy to imagine that after she regained her composure, she'd have been in a horrible slump."`[@][lv 0*"12"*"21400459"]`"......I can really understand it if Jessica‐chan's frame of mind led her to shut herself up alone in her room.`[\]
+textoff
+waits 167
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_3,"m_door1"
+color_mod2 s0_3,#ffffff
+flush 2
+*d11888
+d [lv 0*"12"*"21400460"]` And those particulars would also fit with Gohda‐san's story."`[@][lv 0*"12"*"21400461"]`"......Jessica‐chan said to leave her alone.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 23
+textoff
+waits 167
+lbg s0_1,"m1f_p2b_bg"
+lbg s0_3,"m1f_p2b"
+color_mod2 s0_1,#ffffff
+color_mod2 s0_3,#ffffff
+lss s0_10,"kan","a11_majime1" ;1
+aspt2 xpos,s0_10,370
+color_mod2 s0_10,#ffffff
+flush 23
+*d11889
+d [lv 0*"12"*"21400462"]` ...Then Kanon‐kun, who is of a similar age, and may have had some adolescent relationship with her, said to leave it to him.`[@][lv 0*"12"*"21400463"]` I can really understand why he'd feel that way."`[@][lv 0*"12"*"21400464"]`".........And I think that is the very reason why Jessica‐chan welcomed Kanon‐kun into her room."`[\]
+textoff
+waits 167
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 22
+*d11890
+d [lv 0*"12"*"21400465"]`"But what if it had been Gohda‐san or Kumasawa‐san?`[\]
+rain_resume s0_11
+textoff
+waits 167
+lbg s0_1,"mjes_1a_bg"
+lbg s0_3,"mjes_1a"
+lss s0_9,"ros","a34_ikari4" ;1
+flush 26
+*d11891
+d [lv 0*"12"*"21400466"]` Would she have let them into her room?"`[@][lv 0*"12"*"21400467"]`"......I, I believe that I have gained Milady's trust.`[\]
+textoff
+waits 167
+csp_slot s0_9
+lbg s0_1,"mjes_1c_bg"
+lbg s0_3,"mjes_1c"
+lss s0_10,"goh","a11_iiwake2" ;1
+aspt2 xpos,s0_10,370
+flush 24
+msgwnd_goh
+*d11892
+d [lv 0*"17"*"21700152"]` But even so, err..."`[@][lv 0*"17"*"21700153"]`"Then you are another suspect after all, right, Gohda‐san?`[\]
+lss s0_8,"ros","a11_akuwarai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+seplay 1,43,71
+lss s0_8,"ros","a14_akuwarai1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ros
+*d11893
+d [lv 0*"12"*"21400468"]` I thought that you probably weren't liked by Jessica‐chan, so I believed she wouldn't have let you into her room."`[@][lv 0*"12"*"21400469"]`"So I thought it was impossible that you were the culprit, but...?"`[\]
+lss s0_8,"ros","a34_ikari4" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d11894
+d [lv 0*"12"*"21400470"]`"No, umm...!`[\]
+lss s0_10,"goh","a11_iiwake2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_goh
+*d11895
+d2 [lv 0*"17"*"21700154"]` .........I am afraid to say that I may not have been accepted by Milady.`[@][lv 0*"17"*"21700155"]` ...K‐Kumasawa‐san, what about you?"`[@][#][*][lv 0*"17"*"21700156"]`"Ho, hohohohohoho!`[\]
+wait_on_d 0
+lss s0_10,"goh","a11_odoroki1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+csp_slot s0_8
+flush 10,167
+lss s0_8,"kum","a11_komaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_kum
+*d11896
+d2 [lv 0*"18"*"21800094"]` A senior like me is far too separated by age to understand the feelings of a young person like Milady very well...`[@][#][*][lv 0*"18"*"21800095"]` And perhaps Milady did not open her heart up to me.`[@][lv 0*"18"*"21800096"]` Right, Gohda‐san?!"`[@][lv 0*"18"*"21800097"]`"Yes, that's right!`[\]
+wait_on_d 0
+lss s0_8,"kum","a11_defo2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_10,"goh","a11_omakase2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_goh
+*d11897
+d [lv 0*"17"*"21700157"]` She probably did not open her heart to us to a great degree!`[@][lv 0*"17"*"21700158"]` It would be inconceivable that Milady would let us into her room when she was heartbroken!"`[@][lv 0*"17"*"21700159"]`Gohda‐san and Kumasawa baa‐chan each clasped their hands together, affirming each other with forced smiles on their faces.`[\]
+msgwnd_non
+*d11898
+d `It was a really unpleasant routine.`[\]
+*d11899
+d `"Someone who would be permitted to enter Jessica‐chan's room when she was heartbroken.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 23
+textoff
+waits 167
+lbg s0_1,"mjes_1a_bg"
+lbg s0_3,"mjes_1a"
+flush 23
+lss s0_10,"ros","a11_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+seplay 1,21,71
+msgwnd_ros
+*d11900
+d [lv 0*"12"*"21400471"]` Who would have been given access to her defenseless back.`[@][lv 0*"12"*"21400472"]` And that person had a master key.`[@][lv 0*"12"*"21400473"]` That only points to one person.`[@][lv 0*"12"*"21400474"]` ......It was impossible for anyone except Kanon‐kun."`[@][lv 0*"12"*"21400475"]`"Ple‐......please, wait...!`[\]
+lss s0_8,"sha","a12_odoroki2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_sha
+*d11901
+d [lv 0*"15"*"20500685"]` Kanon‐kun definitely wouldn't do something like...!"`[@][lv 0*"15"*"20500686"]`"Oh, then, is there someone else?`[\]
+seplay 1,30,71
+lss s0_10,"ros","a34_ikari4" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ros
+*d11902
+d [lv 0*"12"*"21400476"]` Is Gohda‐san or Kumasawa‐san suspicious after all?`[@][lv 0*"12"*"21400477"]` Which of the two do you think is more suspicious, Shannon‐chan...? Come on."`[@][lv 0*"12"*"21400478"]`"I, ......I, ...don't............"`[\]
+lss s0_8,"sha","a11_odoroki1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_sha
+*d11903
+d [lv 0*"15"*"20500687"]`"It wasn't me, Shannon‐san!`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 24
+textoff
+waits 167
+lbg s0_1,"mjes_1a_bg"
+lbg s0_3,"mjes_1a"
+lss s0_10,"kum","a11_odoroki1" ;1
+aspt2 xpos,s0_10,550
+flush 24
+msgwnd_kum
+*d11904
+d [lv 0*"18"*"21800098"]` Gracious, no, it was not me!"`[@][lv 0*"18"*"21800099"]`"Of course, it wasn't me either!`[\]
+lss s0_8,"goh","a12_iiwake2" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_goh
+*d11905
+d [lv 0*"17"*"21700160"]` It was Kanon‐san who had a close relationship with Milady, and you, Shannon‐san, if anyone!"`[@][lv 0*"17"*"21700161"]`".........Oh yes, I almost forgot.`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_10,"ros","a14_akuwarai1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_ros
+*d11906
+d [lv 0*"12"*"21400479"]` ......Jessica‐chan might also have let Shannon‐chan into her room."`[@][lv 0*"12"*"21400480"]`"But you should have been with Father.`[\]
+lss s0_10,"ros","a14_majime1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+*d11907
+d [lv 0*"12"*"21400481"]` .........But in reality,`[@][lv 0*"12"*"21400482"]` ......are you the culprit...............?"`[|][lv 0*"12"*"21400483"]`"Sha‐......Shannon can't be the culprit!`[\]
+lss s0_9,"geo","a11_ikari2" ;1
+flush 10,167
+msgwnd_geo
+*d11908
+d [lv 0*"07"*"20300520"]` You only just said that she was doing some important work with Grandfather!"`[@][lv 0*"07"*"20300521"]`"Yes, I know that.`[\]
+lss s0_10,"ros","a14_ikari3" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_ros
+*d11909
+d [lv 0*"12"*"21400484"]` Neither Shannon‐chan nor Genji‐san is the culprit.`[@][lv 0*"12"*"21400485"]` Even Father acknowledges that they were together the whole time.`[@][lv 0*"12"*"21400486"]` .........Well then, what do you think, everyone...?"`[@][lv 0*"12"*"21400487"]`Asked that, no one could respond...`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 25
+msgwnd_non
+*d11910
+d `{n}Because even if someone did argue back, they would then have to offer the name of a different suspicious person.`[@]`......And no matter whose name that was, that person was here.`[\]
+*d11911
+d `{n}...No one could do something like that.`[@]`Aunt Rosa glanced at everyone in turn, fingering the gun like it was a toy...`[\]
+textoff
+waits 167
+lbg s0_3,"mjes_1e"
+flush 26
+*d11912
+d `.........She seemed so different from the normal, kind Aunt Rosa.`[\]
+*d11913
+d `...No, it's probably because I still don't feel how much danger we're in.`[\]
+meplay 3,17,50
+*d11914
+d `{n}...Maybe until Aunt Rosa's attitude seemed natural to me, I wasn't fully appreciating the danger...`[@]`"Looks like no one has an opinion.`[\]
+textoff
+waits 167
+lbg s0_1,"mjes_1a_bg"
+lbg s0_3,"mjes_1a"
+lss s0_9,"ros","a14_nayamu1" ;1
+flush 26
+vol_me 1,-1,1000
+vol_me 2,-1,1000
+vol_me 3,-1,1000
+msgwnd_ros
+*d11915
+d [lv 0*"12"*"21400488"]` Then I will say mine."`[@][lv 0*"12"*"21400489"]`"Of course, I can't deny the possibility that Kanon‐kun is a victim without a corpse.`[\]
+lss s0_9,"ros","a14_majime1" ;1
+flush 10,167
+meplay 1,18,40
+*d11916
+d [lv 0*"12"*"21400490"]` But until we find his corpse, I also definitely can't deny the possibility that Kanon‐kun is a suspect."`[@][lv 0*"12"*"21400491"]`"......There's a chance that Kanon‐kun may claim to have been attacked by the culprit and confined somewhere...`[\]
+*d11917
+d [lv 0*"12"*"21400492"]` He may appear unexpectedly with that excuse."`[@][lv 0*"12"*"21400493"]`"But take care.`[\]
+lss s0_9,"ros","a11_ikari3" ;1
+flush 10,167
+*d11918
+d2 [lv 0*"12"*"21400494"]` Maybe, probably—no, definitely.`[@][lv 0*"12"*"21400495"]` .........{i:Kanon‐kun killed Jessica‐chan}."`[@][#][*][lv 0*"12"*"21400496"]`"............No, ..................no way........."`[\]
+wait_on_d 0
+seplay 1,27,71
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_9
+csp_slot s0_1
+lbg s0_3,"black"
+flush 24
+textoff
+waits 167
+lbg s0_1,"mjes_1c_bg"
+lbg s0_3,"mjes_1c"
+lss s0_10,"but","b22_kuyasigaru1" ;1
+aspt2 xpos,s0_10,550
+flush 24
+msgwnd_but
+*d11919
+d [lv 0*"10"*"20100663"]`"I, ...I can't believe it...`[\]
+lss s0_8,"sha","a11_odoroki1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_sha
+*d11920
+d [lv 0*"15"*"20500688"]` For Kanon‐kun to do that...`[@][lv 0*"15"*"20500689"]`......to Milady,`[|][lv 0*"15"*"20500690"]` ......that's too much to accept!!"`[|][lv 0*"15"*"20500691"]`"I feel the same as Shannon.`[\]
+lss s0_9,"geo","a11k_komaru1k" ;1
+flush 10,167
+msgwnd_geo
+*d11921
+d [lv 0*"07"*"20300522"]` I oppose labeling Kanon‐kun as the culprit."`[@][lv 0*"07"*"20300523"]`"Then is the culprit Gohda‐san or is it Kumasawa‐san?`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_1,"mjes_1a_bg"
+lbg s0_3,"mjes_1a"
+lss s0_9,"ros","a34_ikari4" ;1
+flush 23
+msgwnd_ros
+*d11922
+d [lv 0*"12"*"21400497"]` Tell me who's more suspicious."`[@][lv 0*"12"*"21400498"]`""I‐i‐i‐it wasn't us!!""`[\]
+lss s0_8,"goh","a12_odoroki1" ;1
+aspt2 xpos,s0_8,-550
+lss s0_10,"kum","a11_odoroki1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_non
+*d11923
+d2 [lv 1*"17"*"21700162"][lv 0*"18"*"21800100"]`"If it wasn't Kanon‐kun, then who could have locked this door?`[#][*][\]
+wait_on_d 0
+agpt quakexcycle,50
+agpt quakexamp,30
+agpt quakexamp,0,500,1
+rumble 63,500
+gptwait quakexamp
+d_continue
+wait_on_d -1
+lss s0_9,"ros","a14_akuwarai1" ;1
+flush 10,167
+msgwnd_ros
+*d11924
+d [lv 0*"12"*"21400499"]` Shannon‐chan.`[@][lv 0*"12"*"21400500"]` George‐kun.`[@][lv 0*"12"*"21400501"]` ......Well?`[@][lv 0*"12"*"21400502"]` Well, well, well...?"`[@][lv 0*"12"*"21400503"]`Aunt Rosa closed in on Shannon‐chan and George‐aniki, laughing unpleasantly.`[\]
+meplay 2,13,50
+msgwnd_non
+*d11925
+d `...Of course, they couldn't say anything back.`[\]
+*d11926
+d `They wanted to believe in Kanon‐kun.`[\]
+*d11927
+d ` ...But if they did, they would have to suspect the other servants.`[@]`The simplest culprit was the mystery guest {f:5:Beatrice}.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_3,"map07"
+flush 22
+*d11928
+d `{n}......But she was nothing more than a guest, and didn't have a master key.`[@]`.........Then if {f:5:Beatrice} was the culprit without a master key...`[\]
+*d11929
+d `...Do we have to accept the argument that she really is a witch, and locked the door with the power of magic......?`[\]
+*d11930
+d `"............That's a filthy argument...`[\]
+textoff
+waits 167
+vol_bgm 50
+vol_me 1,20
+vol_me 2,20
+seplay 1,56,71
+textoff
+waits 167
+rain_pause s0_11
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+flush 10,367
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+flush 28
+gstc 91
+lss s0_25,"but","b22_kuyasigaru1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_but
+*d11931
+d [lv 0*"10"*"20100664"]` ......Filthy...... Filthy......"`[@][lv 0*"10"*"20100665"]`"What's so difficult?`[\]
+lss s0_23,"bea","a23_akuwarai2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_bea
+*d11932
+d2 [lv 0*"27"*"20701093"]` Make it my fault.`[@][lv 0*"27"*"20701094"]` You can just make it the fault of the 19th person, the mystery guest, can you not?`[@][lv 0*"27"*"20701095"]` If you do, you won't have to watch this ugly battle of humans pressing each other...`[@][lv 0*"27"*"20701096"]` *cackle*cackle*cackle*cackle*!"`[@][#][*][lv 0*"27"*"20701097"]`"So then what.`[\]
+wait_on_d 0
+seplay 1,37,71
+d_continue
+wait_on_d -1
+lss s0_25,"but","b22_odoroki1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_but
+*d11933
+d [lv 0*"10"*"20100666"]` The culprit is the 19th person, the guest {f:5:Beatrice}.`[@][lv 0*"10"*"20100667"]` ...She's a witch, so she could lock the door without a key using magic."`[@][lv 0*"10"*"20100668"]`"Are you telling me to accept that?`[\]
+lss s0_25,"but","b22_odoroki2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+*d11934
+d [lv 0*"10"*"20100669"]` No goddamn way...!`[@][lv 0*"10"*"20100670"]` ...No way, no goddamn way...!!"`[@][lv 0*"10"*"20100671"]`"......*cackle*cackle*cackle*cackle*.`[\]
+lss s0_23,"bea","a11_akuwarai5" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_bea
+*d11935
+d [lv 0*"27"*"20701098"]` In the last game, I learned all of your weak points.`[@][lv 0*"27"*"20701099"]` So, what now, what now...?`[@][lv 0*"27"*"20701100"]` You said you're never going to accept me, did you not?`[@][lv 0*"27"*"20701101"]` In that case, .........you can use Kanon as a perfect sacrifice."`[@][lv 0*"27"*"20701102"]`"Kanon killed Jessica!`[\]
+lss s0_23,"bea","a11_akuwarai3" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+*d11936
+d2 [lv 0*"27"*"20701103"]` If you support Rosa's theory, everything is settled here, you know?`[@][lv 0*"27"*"20701104"]` Kanon is already dead.`[@][lv 0*"27"*"20701105"]` There should be no need to show concern for the dead.`[@][lv 0*"27"*"20701106"]` And you won't have to doubt anyone here!`[@][lv 0*"27"*"20701107"]` *cackle*hahaha{0}ha{0}ha{0}ha{0}ha{0}ha{0}hahaha!"`[@][#][*][lv 0*"27"*"20701108"]`"Damn it!!`[\]
+wait_on_d 0
+seplay 1,37,100
+d_continue
+wait_on_d -1
+lss s0_25,"but","b11_kuyasigaru1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_but
+*d11937
+d [lv 0*"10"*"20100672"]` I won't accept you!!!`[@][lv 0*"10"*"20100673"]` But......Kanon‐kun being the culprit, ......that's impossible!!"`[@][lv 0*"10"*"20100674"]`"..........I don't want to suspect anyone.`[\]
+textoff
+waits 167
+seplay 1,56,71
+vol_me 1,-1,1000
+vol_me 2,-1,1000
+vol_bgm 70
+csp_slot s0_21
+csp_slot s0_22
+csp_slot s0_25
+csp_slot s0_23
+rain_resume s0_11
+flush 8
+gstc 92
+textoff
+waits 167
+lbg s0_1,"mjes_1a_bg"
+lbg s0_3,"mjes_1a"
+flush 24
+lss s0_10,"nan","a1_komaru2" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_nan
+*d11938
+d [lv 0*"19"*"21900154"]` ...However, it is sometimes the case that the suspicious are the guilty.`[@][lv 0*"19"*"21900155"]` ......In any case, there is probably nothing better than caution..."`[@][lv 0*"19"*"21900156"]`"Doc‐...Doctor Nanjo...`[\]
+lss s0_8,"sha","a12_odoroki1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_sha
+*d11939
+d [lv 0*"15"*"20500692"]` What do you mean by that...?"`[@][lv 0*"15"*"20500693"]`"...Umm, please do not misunderstand.`[\]
+lss s0_10,"nan","a1_komaru3" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_nan
+*d11940
+d [lv 0*"19"*"21900157"]` ...I do not wish to label Kanon‐san as the culprit.`[@][lv 0*"19"*"21900158"]` ......However, until we understand the situation, there is the possibility that Kanon‐san is the culprit,`[@][lv 0*"19"*"21900159"]` and I believe keeping that in mind is safer."`[@][lv 0*"19"*"21900160"]`"Ho, ......hoh‐hoh‐ho...`[\]
+lss s0_9,"kum","a11_komaru1" ;1
+flush 10,167
+msgwnd_kum
+*d11941
+d [lv 0*"18"*"21800101"]` Yes, that's right... You cannot be too cautious."`[@][lv 0*"18"*"21800101_1"]`It didn't seem as though anyone blamed Nanjo.`[\]
+meplay 1,13,40
+msgwnd_non
+*d11942
+d `{n}In reality, no one thought that Kanon was the culprit.`[@]`...But if they didn't suspect him, they would have to suspect one of the servants here.`[\]
+*d11943
+d `......We didn't want to do that.`[\]
+*d11944
+d `{n}We didn't want to suspect.`[@]`{n}We didn't want to be suspected.`[@]`"That is the correct way to think.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 24
+textoff
+waits 167
+lbg s0_1,"mjes_1c_bg"
+lbg s0_3,"mjes_1c"
+flush 24
+lss s0_10,"ros","a14_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ros
+*d11945
+d [lv 0*"12"*"21400504"]` ......We cannot be too vigilant.`[@][lv 0*"12"*"21400505"]` Is there anyone who objects to that?"`[@][lv 0*"12"*"21400506"]`"Listen.`[\]
+lss s0_10,"ros","a34_ikari4" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d11946
+d [lv 0*"12"*"21400507"]` ...There is a very high likelihood that this murder case is related to the legend of Father's gold.`[@][lv 0*"12"*"21400508"]` In that case, it's certainly the crime of someone plotting to keep a vast amount of gold worth tens of billions of yen all for themselves."`[@][lv 0*"12"*"21400509"]`"......With that amount of money, you could play around for the rest of your life in any country.`[\]
+*d11947
+d [lv 0*"12"*"21400510"]` ...It may be possible that they would massacre us for this reason."`[@][lv 0*"12"*"21400511"]`".............................."`[\]
+lss s0_8,"mar","a11_fukigen2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_mar
+*d11948
+d [lv 0*"13"*"20400405"]`"For the simple reason that our guest wasn't holding a master key, for the murder of Jessica‐chan, and this murder alone,`[\]
+lss s0_10,"ros","a11_ikari3" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ros
+*d11949
+d [lv 0*"12"*"21400512"]` we removed our 19th person—{f:5:Beatrice}—from suspicion.`[@][lv 0*"12"*"21400513"]` But we can't say that she is unrelated to the crime."`[@][lv 0*"12"*"21400514"]`"......After all, it's a vast amount of gold we're talking about.`[\]
+seplay 1,43,71
+lss s0_10,"ros","a14_komaru4" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d11950
+d [lv 0*"12"*"21400515"]` We can't deny the possibility that there are multiple culprits.`[@][lv 0*"12"*"21400516"]` ......Right now, one of the people here among us might have been bought by the culprit!!"`[@][lv 0*"12"*"21400517"]`As Aunt Rosa yelled, she looked all around, her gun still raised.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 22
+msgwnd_non
+*d11951
+d `......Don't believe anyone, suspect the person next to you—that's what she was saying.`[\]
+*d11952
+d `But no one wanted to suspect.`[\]
+*d11953
+d `{n}...They didn't want to suspect anyone here.`[@]`That weakness in their hearts demanded an answer from those not here...`[\]
+*d11954
+d `"There are only two groups of people you can be sure aren't suspects.`[\]
+textoff
+waits 167
+lbg s0_1,"mjes_1a_bg"
+lbg s0_3,"mjes_1a"
+flush 24
+lss s0_9,"ros","a34_ikari4" ;1
+flush 10,167
+msgwnd_ros
+*d11955
+d [lv 0*"12"*"21400518"]` .........Yourself, and those who are already corpses.`[@][lv 0*"12"*"21400519"]` .........The same goes for Kanon‐kun."`[@][lv 0*"12"*"21400520"]`"Until we catch sight of his corpse, he is the most likely suspect in Jessica‐chan's murder!!`[\]
+lss s0_9,"ros","a11_ikari2" ;1
+flush 10,167
+*d11956
+d [lv 0*"12"*"21400521"]` So take care.`[@][lv 0*"12"*"21400522"]` Even if he's still alive, even if he smooths things over with some explanation, you absolutely must not trust him!`[@][lv 0*"12"*"21400523"]` Alright?!"`[@][lv 0*"12"*"21400524"]`No one gave a answer of their own initiative.`[\]
+textoff
+waits 167
+vol_mix_fade 1000
+vol_bgm -1,1000
+wait 1000
+seplay 1,27,100
+textoff
+waits 167
+csp_slot s0_9
+csp_slot s0_1
+lbg s0_3,"white"
+flush 1
+textoff
+waits 167
+lbg s0_3,"mjes_1e"
+flush 2
+meplay 1,12,40
+wait 1000
+msgwnd_non
+*d11957
+d ` ......However, those who met Aunt Rosa's eyes had to nod their heads...`[@]`Humans are social beings.`[\]
+*d11958
+d `{n}......In other words, from the time they are born, trusting each other is imprinted in their genes.`[@]`...It is unpleasant to go against that.`[\]
+*d11959
+d `They definitely don't want to suspect anyone.`[\]
+*d11960
+d `...But if they had to suspect someone,`[\]
+*d11961
+d ` ...they thought that choosing one of the people not here right now would be the most acceptable.`[@]`For just the reason of acceptability, they had passively chosen to sacrifice Kanon.`[\]
+*d11962
+d `This is ridiculous.........`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+vol_mix_fade 2000
+wait 2000
+bgmplay 51,90,0
+*d11963
+d `{n}I definitely don't want to believe that Kanon‐kun is the culprit!`[@]`I'd only just heard it from George‐aniki, but not only were those two close in age,`[\]
+*d11964
+d ` they also had that adolescent relationship Aunt Rosa had mentioned.`[@]`......It may be a little late now, but yes, they really did have that kind of air about them.`[\]
+*d11965
+d `After seeing her parents' tragic bodies, Jessica, bearing deep wounds in her heart, would only have trusted Kanon‐kun.`[\]
+*d11966
+d `...That's a very conceivable story.`[\]
+*d11967
+d `{n}So I don't like it...!!`[@]`Kanon‐kun was the only one she trusted.`[\]
+*d11968
+d `{n}So she wouldn't have let anyone but Kanon‐kun in.`[@]`So he was the only one who could have killed Jessica. ......I just can't accept that line of argument......!!!`[\]
+*d11969
+d `"...Understand?!`[\]
+textoff
+waits 167
+lbg s0_1,"mjes_1a_bg"
+lbg s0_3,"mjes_1a"
+lss s0_9,"ros","a14_ikari3" ;1
+flush 22
+meplay 1,12,40
+msgwnd_ros
+*d11970
+d [lv 0*"12"*"21400525"]` Even if Kanon‐kun appears, don't get careless!`[@][lv 0*"12"*"21400526"]` As long as we cannot prove Kanon‐kun's innocence, we will suppose that Kanon‐kun is the culprit who killed Jessica‐chan!!"`[@][lv 0*"12"*"21400527"]`Aunt Rosa made that claim.`[\]
+msgwnd_non
+*d11971
+d ` By using the ever‐so‐slightly vague word "suppose", ...ultimately, she gave everyone that last little push they needed.`[@]`Everyone nodded weakly,`[\]
+*d11972
+d ` ...............and, under the excuse that they were just temporarily supposing it,`[!w500]` .........they {i:concluded} that Kanon was the culprit who had killed Jessica...`[!w583]`.........I wonder what the dead Jessica and Kanon would think if they could hear this exchange.`[\]
+gstc 93
+textoff
+waits 167
+csp_slot s0_9
+csp_slot s0_1
+lbg s0_3,"black"
+flush 2
+vol_me 1,-1,2000
+textoff
+waits 167
+lbg s0_1,"mjes_1c_bg"
+lbg s0_3,"mjes_1c"
+flush 2
+*d11973
+d `Jessica...was crying.`[\]
+textoff
+waits 167
+lbg s0_1,"mjes_1c_bg"
+lbg s0_3,"mjes_1c"
+textoff
+waits 167
+lbg s0_27,"black"
+flush 48
+lss s0_12,"jes","a11_naki1" ;1
+aspt2 xpos,s0_12,250
+aspt2 alpha,s0_12,128
+lss s0_13,"kan","a11_nayamu1" ;1
+aspt2 xpos,s0_13,-250
+aspt2 alpha,s0_13,128
+textoff
+waits 167
+csp_slot s0_27
+aspt2 breakup,s0_12,1000
+aspt2 breakup,s0_13,1000
+aspt2 alpha,s0_12,0
+aspt2 alpha,s0_13,0
+flush 1
+aspt2 breakup,s0_12,0,2000
+aspt2 breakup,s0_13,0,2000
+aspt2 alpha,s0_12,128,2000
+aspt2 alpha,s0_13,128,2000
+sptwait2 breakup,s0_12
+sptwait2 breakup,s0_13
+*d11974
+d `{n}......She was crying in the chest of the person who had put his life on the line to fight for her: Kanon.`[@]`It was frustrating.`[\]
+*d11975
+d `{n}So frustrating that it felt like her chest would explode...`[@]`She grieved and resented how far the dignity of the dead had been trampled...`[\]
+*d11976
+d `"...Those guys, ...why are they treating you like the culprit?!!"`[\]
+lss s0_12,"jes","a11_naki1" ;3
+aspt2 xpos,s0_12,250
+aspt2 alpha,s0_12,128
+flush 80
+msgwnd_jes
+*d11977
+d [lv 0*"04"*"20200613"]`"........................Because there's...no corpse."`[\]
+lss s0_13,"kan","a11_majime1" ;3
+aspt2 xpos,s0_13,-250
+aspt2 alpha,s0_13,128
+flush 80
+msgwnd_kan
+*d11978
+d [lv 0*"16"*"20600494"]`"Why are they treating you like the culprit because there's no corpse?!`[\]
+lss s0_12,"jes","a11_ikari1" ;3
+aspt2 xpos,s0_12,250
+aspt2 alpha,s0_12,128
+flush 80
+msgwnd_jes
+*d11979
+d [lv 0*"04"*"20200614"]` You risked your life to fight for me...!"`[@][lv 0*"04"*"20200615"]`"Then, ......that witch erased your corpse for fun......!`[\]
+lss s0_12,"jes","a11_naki1" ;3
+aspt2 xpos,s0_12,250
+aspt2 alpha,s0_12,128
+flush 80
+*d11980
+d [lv 0*"04"*"20200616"]` To call you the culprit because of that, it's horrible, it's too horrible!!"`[@][lv 0*"04"*"20200617"]`".........It's alright.`[\]
+lss s0_13,"kan","a11_nayamu1" ;3
+aspt2 xpos,s0_13,-250
+aspt2 alpha,s0_13,128
+flush 80
+msgwnd_kan
+*d11981
+d [lv 0*"16"*"20600495"]` ......In the end, I couldn't completely protect you, but...`[@][lv 0*"16"*"20600496"]` .........I was able to be of use to you, Milady..."`[@][lv 0*"16"*"20600497"]`"So......why doesn't everyone understand that?!`[\]
+lss s0_12,"jes","a11_naki1" ;3
+aspt2 xpos,s0_12,250
+aspt2 alpha,s0_12,128
+flush 80
+msgwnd_jes
+*d11982
+d [lv 0*"04"*"20200618"]` Stop it, Aunt Rosa!!`[@][lv 0*"04"*"20200619"]` Don't call Kanon‐kun the culprit with that messed up reasoning!!"`[@][lv 0*"04"*"20200620"]`".........She isn't saying that I'm the culprit.`[\]
+lss s0_13,"kan","a11_majime1" ;3
+aspt2 xpos,s0_13,-250
+aspt2 alpha,s0_13,128
+flush 80
+msgwnd_kan
+*d11983
+d [lv 0*"16"*"20600498"]` ...She's just saying I'm suspicious,`[@][lv 0*"16"*"20600499"]` ......no,`[|][lv 0*"16"*"20600500"]` ......she's saying to be careful."`[|][lv 0*"16"*"20600501"]`"She is saying it!!`[\]
+lss s0_12,"jes","a11_naki1" ;3
+aspt2 xpos,s0_12,250
+aspt2 alpha,s0_12,128
+flush 80
+msgwnd_jes
+*d11984
+d [lv 0*"04"*"20200621"]` These people are saying you're the culprit, Kanon‐kun, so they can stop thinking!`[@][lv 0*"04"*"20200622"]` They aren't gonna think about who the culprit who killed me is anymore!!`[@][lv 0*"04"*"20200623"]` They aren't gonna think of the possibility that you aren't the culprit!!"`[@][lv 0*"04"*"20200624"]`"And after this, every time something happens, they'll repeat the excuse that it was the work of Kanon‐kun who's gone missing!!`[\]
+*d11985
+d [lv 0*"04"*"20200625"]` ......I can't stand that!!"`[@][lv 0*"04"*"20200626"]`"...............It's alright.`[\]
+lss s0_13,"kan","a11_nayamu1" ;3
+aspt2 xpos,s0_13,-250
+aspt2 alpha,s0_13,128
+flush 80
+msgwnd_kan
+*d11986
+d [lv 0*"16"*"20600502"]` ...At least you know the truth, Milady."`[@][lv 0*"16"*"20600503"]`"If only I know the truth, that's pointless!!`[\]
+lss s0_12,"jes","a11_naki1" ;3
+aspt2 xpos,s0_12,250
+aspt2 alpha,s0_12,128
+flush 80
+msgwnd_jes
+*d11987
+d [lv 0*"04"*"20200627"]` I found out by dying.`[@][lv 0*"04"*"20200627_1"]` Truth belongs to living humans!!`[@][lv 0*"04"*"20200627_2"]` If the truth doesn't remain, the dead won't be rewarded!!`[@][lv 0*"04"*"20200627_3"]` They won't know why you risked your life!!"`[@][lv 0*"04"*"20200627_4"]`"*cackle*cackle*cackle*cackle*, hahaha{0}ha{0}ha{0}ha{0}ha{0}ha{0}ha{0}hahaha!`[\]
+csp_slot s0_12
+csp_slot s0_13
+textoff
+waits 167
+lbg s0_3,"mjes_1e"
+flush 24
+lss s0_9,"bea","a21_akuwarai2" ;1
+seplay 1,52,71
+aspt2 breakup,s0_9,1000
+aspt2 alpha,s0_9,0
+flush 1
+aspt2 breakup,s0_9,0,2000
+aspt2 alpha,s0_9,255,2000
+sptwait2 breakup,s0_9
+seplay 2,37,100
+msgwnd_bea
+*d11988
+d [lv 0*"27"*"20701109"]` Truly a splendid sight.`[@][lv 0*"27"*"20701110"]` It is a rare honey that is sweeter than the laments of the dead."`[@][lv 0*"27"*"20701111"]`"Lament, lament.`[\]
+lss s0_9,"bea","a11_akuwarai3" ;1
+flush 80
+*d11989
+d [lv 0*"27"*"20701112"]` No matter how much you lament, the voices of the dead never reach the living."`[@][lv 0*"27"*"20701113"]`"Damn it, damn iiiiiiit!!"`[\]
+textoff
+waits 167
+csp_slot s0_9
+csp_slot s0_1
+lbg s0_3,"black"
+flush 22
+textoff
+waits 167
+lbg s0_1,"mjes_1a_bg"
+lbg s0_3,"mjes_1a"
+lss s0_9,"ros","a14_ikari3" ;1
+flush 24
+lss s0_12,"jes","a11_naki1" ;1
+aspt2 xpos,s0_12,370
+aspt2 alpha,s0_12,128
+aspt2 breakup,s0_12,1000
+aspt2 alpha,s0_12,0
+flush 1
+aspt2 breakup,s0_12,0,2000
+aspt2 alpha,s0_12,128,2000
+sptwait2 breakup,s0_12
+msgwnd_jes
+*d11990
+d2 [lv 0*"04"*"20200628"]`"It doesn't matter who!!`[#][*][\]
+wait_on_d 0
+seplay 1,8,71
+agpt quakeycycle,50
+agpt quakeyamp,30
+agpt quakeyamp,0,333,1
+rumble 63,500
+gptwait quakeyamp
+seplay 1,8,71
+agpt quakeycycle,50
+agpt quakeyamp,30
+agpt quakeyamp,0,333,1
+rumble 63,500
+gptwait quakeyamp
+d_continue
+wait_on_d -1
+*d11991
+d [lv 0*"04"*"20200629"]` Hear my voice!!`[@][lv 0*"04"*"20200630"]` Kanon‐kun isn't the culprit!!`[@][lv 0*"04"*"20200631"]` Kanon‐kun's corpse was just erased!`[@][lv 0*"04"*"20200632"]` Why, why don't you understand that?!!"`[@][lv 0*"04"*"20200633"]`".........Milady."`[\]
+textoff
+waits 167
+lss s0_13,"kan","a11_majime1" ;1
+aspt2 xpos,s0_13,-370
+aspt2 alpha,s0_13,128
+aspt2 breakup,s0_13,1000
+aspt2 alpha,s0_13,0
+aspt2 breakupdir,s0_13,1
+flush 1
+aspt2 breakup,s0_13,0,2000
+aspt2 alpha,s0_13,128,2000
+sptwait2 breakup,s0_13
+msgwnd_kan
+*d11992
+d [lv 0*"16"*"20600504"]`"......I can't take this!!`[\]
+textoff
+waits 167
+csp_slot s0_9
+csp_slot s0_12
+csp_slot s0_13
+csp_slot s0_1
+lbg s0_3,"black"
+flush 25
+msgwnd_jes
+*d11993
+d [lv 0*"04"*"20200634"]` It's so sad!`[@][lv 0*"04"*"20200635"]` It's so frustrating!!"`[@][lv 0*"04"*"20200636"]`"If it's like this, ......you died for nothing!!`[\]
+*d11994
+d [lv 0*"04"*"20200637"]` The dead have no honor unless the living acknowledge it!`[@][lv 0*"04"*"20200638"]` It doesn't matter who!`[@][lv 0*"04"*"20200639"]` Realize!!`[@][lv 0*"04"*"20200640"]` Realize!! Please!!`[@][lv 0*"04"*"20200641"]` Kanon‐kun isn't the culprit!!"`[@][lv 0*"04"*"20200642"]`"Aaaaaaaaaaaaaahh, don't go, don't go, guys!!`[\]
+*d11995
+d [lv 0*"04"*"20200643"]` Please, don't end it like this......!`[@][lv 0*"04"*"20200644"]` Don't go, ......don't goooooooooooooo!!!"`[@][lv 0*"04"*"20200645"]`Rosa proclaimed that this room should be sealed until the police came.`[\]
+textoff
+waits 167
+lbg s0_1,"mjes_1c_bg"
+lbg s0_3,"mjes_1c"
+lss s0_10,"ros","a11_ikari3" ;1
+aspt2 xpos,s0_10,370
+flush 26
+msgwnd_non
+*d11996
+d `...The rest didn't want to suspect each other, so they happily accepted that.`[\]
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_1,"mjes_1a_bg"
+lbg s0_3,"mjes_1a"
+lss s0_10,"goh","a11_komaru1" ;1
+aspt2 xpos,s0_10,550
+lss s0_9,"kum","a11_komaru1" ;1
+lss s0_8,"nan","a1_komaru3" ;1
+aspt2 xpos,s0_8,-550
+flush 3
+*d11997
+d `......They accepted Kanon as the tentative culprit.`[\]
+*d11998
+d `...Without even imagining how much disgrace that gave to the dead, they accepted it.`[\]
+*d11999
+d `"......Milady... It's alright now...`[\]
+textoff
+waits 167
+lss s0_13,"kan","a11_majime1" ;1
+aspt2 xpos,s0_13,-370
+aspt2 alpha,s0_13,128
+aspt2 breakup,s0_13,1000
+aspt2 alpha,s0_13,0
+aspt2 breakupdir,s0_13,1
+flush 1
+aspt2 breakup,s0_13,0,2000
+aspt2 alpha,s0_13,128,2000
+sptwait2 breakup,s0_13
+msgwnd_kan
+*d12000
+d [lv 0*"16"*"20600505"]` ......Thank you......"`[@][lv 0*"16"*"20600506"]`"Don't go!!`[\]
+textoff
+waits 167
+csp_slot s0_8
+flush 10,167
+lss s0_12,"jes","a11_naki1" ;1
+aspt2 xpos,s0_12,370
+aspt2 alpha,s0_12,128
+aspt2 breakup,s0_12,1000
+aspt2 alpha,s0_12,0
+flush 1
+aspt2 breakup,s0_12,0,2000
+aspt2 alpha,s0_12,128,2000
+sptwait2 breakup,s0_12
+vol_bgm 100
+msgwnd_jes
+*d12001
+d [lv 0*"04"*"20200646"]` Don't go, guys!!"`[@][lv 0*"04"*"20200647"]`"I beg you, come back!!`[\]
+csp_slot s0_9
+flush 10,167
+lss s0_12,"jes","a11_naki1" ;1
+aspt2 xpos,s0_12,370
+aspt2 alpha,s0_12,128
+flush 80
+*d12002
+d [lv 0*"04"*"20200648"]` Don't leave us like this!!"`[@][lv 0*"04"*"20200649"]`"Don't leave......Kanon‐kun......treated as the culprit!!!!!!!`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_12,"jes","a11_naki1" ;1
+aspt2 xpos,s0_12,370
+aspt2 alpha,s0_12,128
+flush 80
+*d12003
+d [lv 0*"04"*"20200650"]` Uwaaaaaaaaaaaaaaaaaaahhh...!!"`[@][lv 0*"04"*"20200651"]`"It won't reach!!`[\]
+textoff
+waits 167
+seplay 1,52,71
+lss s0_14,"bea","a11_akuwarai4" ;1
+aspt2 xpos,s0_14,520
+aspt2 breakup,s0_14,1000
+aspt2 alpha,s0_14,0
+flush 1
+aspt2 breakup,s0_14,0,2000
+aspt2 alpha,s0_14,255,2000
+sptwait2 breakup,s0_14
+msgwnd_bea
+*d12004
+d [lv 0*"27"*"20701114"]` The laments of the dead never reach!"`[@][lv 0*"27"*"20701115"]`"You make me laugh, yes, that face of yours makes me laugh!!`[\]
+lss s0_14,"bea","a21_akuwarai2" ;1
+aspt2 xpos,s0_14,520
+flush 80
+*d12005
+d2 [lv 0*"27"*"20701116"]` You're thinking it will reach, aren't youuu?`[@][lv 0*"27"*"20701117"]` It won't reach, Jessicaaaaaaa!!!`[@][lv 0*"27"*"20701118"]` *cackle*cackle*cackle*cackle*, wahaha{0}ha{0}ha{0}ha{0}ha{0}ha{0}ha{0}ha{0}ha{0}ha{0}ha{0}ha{0}ha{0}ha{0}ha{0}ha{0}ha{0}ha{0}ha{0}hahaha!!"`[@][#][*][lv 0*"27"*"20701119"]`"That's no goddamn good."`[\]
+wait_on_d 0
+seplay 2,37,100
+d_continue
+wait_on_d -1
+gstc 94
+vol_mix_fade 1000
+vol_bgm -1,1000
+wait 1000
+textoff
+waits 167
+csp_slot s0_12
+csp_slot s0_13
+csp_slot s0_14
+csp_slot s0_1
+lbg s0_3,"black"
+flush 1
+wait 1000
+set_window_simple 80
+msgwnd_but
+*d12006
+d [lv 0*"10"*"20100675"]`"Huh?`[\]
+set_name_window_non
+bgmplay 53,90,0
+textoff
+waits 167
+lbg s0_1,"mjes_1a_bg"
+lbg s0_3,"mjes_1a"
+lss s0_8,"ros","a14_majime1" ;1
+aspt2 xpos,s0_8,-550
+flush 23
+msgwnd_ros
+*d12007
+d [lv 0*"12"*"21400528"]` .........Battler‐kun, did you say something?"`[@][lv 0*"12"*"21400529"]`"Yeah, this is no good.`[\]
+lss s0_10,"but","b34_majime5" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_but
+*d12008
+d [lv 0*"10"*"20100676"]` ...{i:It's no goddamn good at all}."`[@][lv 0*"10"*"20100677"]`At the time everyone made to leave the room,`[\]
+msgwnd_non
+*d12009
+d ` ...only Battler had his back to them, and he was still looking down at Jessica's body.`[@]`"What do you mean, ...it's no good at all?`[\]
+lss s0_8,"ros","a11_ikari3" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_ros
+*d12010
+d [lv 0*"12"*"21400530"]` Do you have some objection...?"`[@][lv 0*"12"*"21400531"]`"I'll at least agree that we have to be vigilant.`[\]
+lss s0_10,"but","b11_nayamu2" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_but
+*d12011
+d [lv 0*"10"*"20100678"]` ......But this talk about having Kanon‐kun be the culprit, sorry, but allow me to refuse."`[@][lv 0*"10"*"20100679"]`"......Hoh.`[\]
+seplay 1,56,100
+textoff
+waits 167
+rain_pause s0_11
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+flush 10,367
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+flush 28
+lips_sprite s0_8_b
+lips_sprite s0_10_b
+gstc 95
+lss s0_25,"bea","a11_futeki1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_bea
+*d12012
+d [lv 0*"27"*"20701120"]` So you're biting into this part.`[@][lv 0*"27"*"20701121"]` If Kanon wasn't the culprit, and it wasn't my doing either, then how do you explain this locked room that Jessica's room has become...?"`[@][lv 0*"27"*"20701122"]`".........Honestly, I've gotta throw my hands up there.`[\]
+lss s0_23,"but","b11_niramu2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_but
+*d12013
+d [lv 0*"10"*"20100680"]` ...Seriously, why'd I say it's no goddamn good?"`[@][lv 0*"10"*"20100681"]`"...I've gotta take responsibility for my own actions.`[\]
+lss s0_23,"but","b11_futeki1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+*d12014
+d2 [lv 0*"10"*"20100682"]` Ihihihihi...!`[@][lv 0*"10"*"20100683"]` ...............I'm empty‐handed with zero weapons to argue with.`[@][#][*][lv 0*"10"*"20100684"]` ...But you know, I won't stand here twiddling my thumbs anymore!! {f:5:Beatrice}!!"`[@][#][*][lv 0*"10"*"20100685"]`"B‐......Battler‐sama......"`[\]
+wait_on_d 0
+lss s0_23,"but","b22_odoroki1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+d_continue
+wait_on_d 1
+seplay 1,2,100
+d_continue
+wait_on_d -1
+textoff
+waits 167
+seplay 2,56,71
+csp_slot s0_21
+csp_slot s0_22
+csp_slot s0_25
+csp_slot s0_23
+rain_resume s0_11
+lips_sprite s0_8_b,"ros"
+lips_sprite s0_10_b,"but"
+flush 8
+gstc 96
+csp_slot s0_8
+flush 10,167
+lss s0_8,"sha","a11_odoroki2" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_sha
+*d12015
+d [lv 0*"15"*"20500694"]`"......I‐is there some proof that Kanon‐kun isn't the culprit......?"`[\]
+lss s0_9,"geo","a11k_defo1k" ;1
+flush 10,167
+msgwnd_geo
+*d12016
+d [lv 0*"07"*"20300524"]`The expression that rose to those two faces was definitely expectant.`[\]
+msgwnd_non
+*d12017
+d `{n}......They didn't want to believe that Kanon was the culprit.`[@]`{n}In truth, they believed in Kanon.`[@]`So this expectation was because they wanted to be made to believe in him even more strongly!`[\]
+*d12018
+d `"Then, Battler‐kun, which of the other servants do you suspect?`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_1,"mjes_1a_bg"
+lbg s0_3,"mjes_1a"
+flush 23
+lss s0_10,"ros","a11_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ros
+*d12019
+d [lv 0*"12"*"21400531_1"]` Gohda‐san?`[@][lv 0*"12"*"21400531_2"]` Or is it Kumasawa‐san?"`[@][lv 0*"12"*"21400531_3"]`"Quit it, Aunt Rosa.`[\]
+textoff
+waits 167
+csp_slot s0_10
+lbg s0_1,"mjes_1c_bg"
+lbg s0_3,"mjes_1c"
+lss s0_8,"but","b11_komaru2" ;1
+aspt2 xpos,s0_8,-370
+flush 24
+msgwnd_but
+*d12020
+d [lv 0*"10"*"20100686"]` ...I know the person called Kumasawa baa‐chan well.`[@][lv 0*"10"*"20100687"]` ......She'll sometimes slack off on work, but she'll always try to make things fun for people.`[@][lv 0*"10"*"20100688"]` ......She is not a person who would kill, not even if her eyes were dazzled by money."`[@][lv 0*"10"*"20100689"]`"B‐......Battler‐sama........."`[\]
+lss s0_10,"kum","a11_komaru1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_kum
+*d12021
+d [lv 0*"18"*"21800102_b"]`"And I've just met Gohda‐san yesterday.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 23
+textoff
+waits 167
+lbg s0_1,"mjes_1a_bg"
+lbg s0_3,"mjes_1a"
+lss s0_8,"goh","a11_komaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 23
+lss s0_10,"but","b11_futeki1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_but
+*d12022
+d2 [lv 0*"10"*"20100690"]` ......Honestly, I still don't really understand him.`[@][lv 0*"10"*"20100691"]` ......But there is one thing I understand."`[@][#][*][lv 0*"10"*"20100692"]`"........................I, I........."`[\]
+wait_on_d 0
+lss s0_10,"but","b22_niramu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_8,"goh","a11_odoroki1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_goh
+*d12023
+d [lv 0*"17"*"21700166"]`"......I've never seen someone look so happy to be making food.`[\]
+lss s0_10,"but","b22_odoroki1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_but
+*d12024
+d [lv 0*"10"*"20100693"]` ...You're the same.`[@][lv 0*"10"*"20100694"]` The same as Kumasawa baa‐chan.`[@][lv 0*"10"*"20100695"]` ......Gohda‐san likes to make people happy."`[@][lv 0*"10"*"20100696"]`"As if a person like that could kill those who praised his own food as delicious, ...even if money was piled up in front of him!!"`[\]
+lss s0_10,"but","b11_nayamu2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d12025
+d [lv 0*"10"*"20100697"]`"...Then, who do you think killed Jessica‐chan, Battler‐kun?`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_1,"mjes_1a_bg"
+lbg s0_3,"mjes_1a"
+lss s0_10,"ros","a11_ikari3" ;1
+aspt2 xpos,s0_10,370
+flush 24
+msgwnd_ros
+*d12026
+d [lv 0*"12"*"21400532"]` Who do you think shut Jessica‐chan up in a room that could only be locked by a master key?"`[@][lv 0*"12"*"21400533"]`"Wait.`[\]
+lss s0_8,"but","b22_niramu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d12027
+d2 [lv 0*"10"*"20100698"]` ......Before I argue about that, there's something I want to make clear.`[@][lv 0*"10"*"20100699"]` I don't want to talk about, if so‐and‐so is not the culprit, then so‐and‐so is the culprit.`[@][#][*][lv 0*"10"*"20100700"]` ...I just want to talk about how it's completely impossible for Kanon‐kun to be the culprit."`[@][lv 0*"10"*"20100701"]`"You say that you can establish that Kanon isn't the culprit?`[\]
+wait_on_d 0
+lss s0_8,"but","b22_komaru2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+seplay 1,56,100
+textoff
+waits 167
+rain_pause s0_11
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+flush 10,367
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+flush 28
+lips_sprite s0_8_b
+lips_sprite s0_10_b
+gstc 97
+lss s0_25,"bea","a11_akuwarai1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_bea
+*d12028
+d [lv 0*"27"*"20701123"]` *cackle*, how?!"`[@][lv 0*"27"*"20701124"]`"It's really simple.`[\]
+lss s0_23,"but","b11_futeki1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_but
+*d12029
+d [lv 0*"10"*"20100702"]` ...It's something I came dangerously close to overlooking.`[@][lv 0*"10"*"20100703"]` ......Beato!"`[@][lv 0*"10"*"20100704"]`"Repeat it!!`[\]
+csp_slot s0_25
+csp_slot s0_23
+lss s0_23,"but","b25_odoroki1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+seplay 1,2,100
+*d12030
+d [lv 0*"10"*"20100705"]` Say it if you can: "Kanon‐kun was holding a master key"!!"`[@][lv 0*"10"*"20100706"]`"...........................Hoh...!"`[\]
+csp_slot s0_23
+flush 10,167
+lss s0_25,"bea","a11_fukigen1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_bea
+*d12031
+d [lv 0*"27"*"20701125"]`"......Kanon‐kun wasn't holding a master key?!`[\]
+textoff
+waits 167
+seplay 1,56,71
+csp_slot s0_21
+csp_slot s0_22
+csp_slot s0_25
+rain_resume s0_11
+lips_sprite s0_8_b,"but"
+lips_sprite s0_10_b,"ros"
+flush 8
+gstc 98
+lss s0_10,"ros","a11_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_ros
+*d12032
+d [lv 0*"12"*"21400534"]` How can you tell that?!"`[@][lv 0*"12"*"21400535"]`"I heard what Gohda‐san said before.`[\]
+lss s0_8,"but","b11_nayamu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d12033
+d [lv 0*"10"*"20100707"]` Just before he split up with Kanon‐kun.`[@][lv 0*"10"*"20100708"]` ...The part about when Jessica went to raid the VIP room."`[@][lv 0*"10"*"20100709"]`".........Gohda‐san, you did a good job remembering it.`[\]
+lss s0_8,"but","b11_defo2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+*d12034
+d [lv 0*"10"*"20100710"]` You protected Kanon‐kun's honor."`[@][lv 0*"10"*"20100711"]`"......I,`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_1,"mjes_1a_bg"
+lbg s0_3,"mjes_1a"
+lss s0_10,"goh","a11_odoroki1" ;1
+aspt2 xpos,s0_10,370
+flush 24
+msgwnd_goh
+*d12035
+d [lv 0*"17"*"21700167"]` ......I...`[|][lv 0*"17"*"21700168"]`did...?!"`[|][lv 0*"17"*"21700169"]`"I heard him talk about the same thing.`[\]
+lss s0_8,"geo","a11_majime2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_geo
+*d12036
+d [lv 0*"07"*"20300525"]` But I don't really understand!`[@][lv 0*"07"*"20300526"]` Could you explain it, Battler‐kun?!"`[@][lv 0*"07"*"20300527"]`"......That's right.`[\]
+seplay 1,56,71
+textoff
+waits 167
+rain_pause s0_11
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+flush 10,367
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+flush 28
+lips_sprite s0_8_b
+lips_sprite s0_10_b
+gstc 99
+lss s0_23,"but","b11_nayamu2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_but
+*d12037
+d2 [lv 0*"10"*"20100712"]` When Jessica unlocked the VIP room,`[@][lv 0*"10"*"20100713"]` she borrowed the key from Kanon‐kun, {i:but didn't give it back}!`[@][lv 0*"10"*"20100714"]` So Kanon‐kun wasn't holding a master key!!"`[#][*][@][lv 0*"10"*"20100715"]`"*cackle*cackle*!`[\]
+wait_on_d 0
+seplay 2,2,100
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_23
+flush 10,167
+textoff
+waits 167
+lbg s0_26,"map07"
+flush 2
+wait 1000
+seplay 1,2,100
+textoff
+waits 167
+lbg s0_26,"white"
+flush 1
+textoff
+waits 167
+csp_slot s0_26
+csp_slot s0_21
+csp_slot s0_22
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_3,"map08"
+flush 2
+wait 3000
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+lss s0_25,"bea","a11_fukigen1" ;1
+aspt2 xpos,s0_25,-370
+flush 23
+msgwnd_bea
+*d12038
+d [lv 0*"27"*"20701126"]` Or was he?"`[@][lv 0*"27"*"20701127"]`"Certainly, Gohda has no recollection of the master key being returned to Kanon.`[\]
+lss s0_25,"bea","a11_futeki1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+*d12039
+d [lv 0*"27"*"20701128"]` However, she might have returned it when Gohda wasn't looking!`[@][lv 0*"27"*"20701129"]` How can you prove that it definitely didn't happen?!"`[@][lv 0*"27"*"20701130"]`"*cackle*cackle*cackle*, if you could just search the pocket of Kanon's corpse, you could probably establish that, but you can't!!`[\]
+*d12040
+d [lv 0*"27"*"20701131"]` It is impossible to prove!!"`[@][lv 0*"27"*"20701132"]`"You're no goddamn good at all.`[\]
+lss s0_23,"but","b11_defo1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_but
+*d12041
+d [lv 0*"10"*"20100716"]` It's truly simple to prove, isn't it?"`[@][lv 0*"10"*"20100717"]`"......No way...!`[\]
+textoff
+waits 167
+lss s0_25,"bea","a11_aseru1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+wait 1000
+gstc 100
+seplay 1,56,71
+csp_slot s0_21
+csp_slot s0_22
+csp_slot s0_25
+csp_slot s0_23
+rain_resume s0_11
+flush 8
+textoff
+waits 167
+lbg s0_1,"mjes_1a_bg"
+lbg s0_3,"mjes_1a"
+lss s0_10,"ros","a11_aseru1" ;1
+aspt2 xpos,s0_10,370
+flush 24
+msgwnd_ros
+*d12042
+d [lv 0*"12"*"21400536"]` So, you're saying that Kanon‐kun wasn't holding a key?!"`[@][lv 0*"12"*"21400537"]`"Yeah.`[\]
+lss s0_8,"but","b11_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_but
+*d12043
+d2 [lv 0*"10"*"20100718"]` And to prove it, all you have to do is search Jessica.`[@][lv 0*"10"*"20100719"]` ......Kanon‐kun's master key should be in Jessica's pocket.`[@][lv 0*"10"*"20100720"]` Doctor Nanjo, would you check for us?"`[@][#][*][lv 0*"10"*"20100721"]`"Ye‐......yes."`[\]
+wait_on_d 0
+lss s0_8,"but","b11_komaru2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_1,"mjes_1a_bg"
+lbg s0_3,"mjes_1a"
+flush 23
+lss s0_9,"nan","a1_komaru3" ;1
+flush 10,167
+msgwnd_nan
+*d12044
+d [lv 0*"19"*"21900161"]`Nanjo dashed up to Jessica, and searched in her jacket pocket......`[\]
+textoff
+waits 167
+csp_slot s0_9
+csp_slot s0_1
+lbg s0_3,"black"
+flush 22
+msgwnd_non
+*d12045
+d `{n}Everyone...hoped for it.........!`[@]`"......mgh..."`[\]
+textoff
+waits 167
+wait 3000
+msgwnd_nan
+*d12046
+d [lv 0*"19"*"21900162"]`...Please.`[\]
+msgwnd_non
+*d12047
+d ` Be there............!!`[@]`"......Here it is!`[\]
+seplay 1,2,100
+textoff
+waits 167
+lbg s0_3,"white"
+flush 1
+textoff
+waits 167
+lbg s0_1,"mjes_1a_bg"
+lbg s0_3,"mjes_1a"
+lss s0_9,"nan","a1_komaru2" ;1
+flush 22
+msgwnd_nan
+*d12048
+d [lv 0*"19"*"21900163"]` Is this it?"`[@][lv 0*"19"*"21900164"]`"...............Yes.`[\]
+lss s0_10,"gen","a11_defo1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_gen
+*d12049
+d [lv 0*"14"*"21600104"]` That is a master key.`[@][lv 0*"14"*"21600105"]` Without a doubt."`[@][lv 0*"14"*"21600106"]`At Genji's statement, there was a small "oooh" of joyful voices.`[\]
+msgwnd_non
+*d12050
+d `"That is Kanon‐kun's master key.`[\]
+textoff
+waits 167
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_1,"mjes_1a_bg"
+lbg s0_3,"mjes_1a"
+flush 24
+lss s0_9,"but","b11_defo1" ;1
+flush 10,167
+msgwnd_but
+*d12051
+d [lv 0*"10"*"20100722"]` .........I'll say it again."`[@][lv 0*"10"*"20100723"]`"‘Kanon‐kun isn't holding a master key’.`[\]
+csp_slot s0_9
+flush 10,167
+lss s0_10,"but","b25_odoroki1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+seplay 1,2,100
+*d12052
+d [lv 0*"10"*"20100724"]` Therefore, there's no way he could have locked the door!!"`[@][lv 0*"10"*"20100725"]`"......It certainly does...appear that way.`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_8,"ros","a11_komaru4" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ros
+*d12053
+d2 [lv 0*"12"*"21400538"]` ......But Kanon‐kun was the last person to meet Jessica‐chan.`[@][#][*][lv 0*"12"*"21400539"]` The fact that he's suspicious hasn't changed."`[@][lv 0*"12"*"21400540"]`"Let's......give that a rest."`[\]
+wait_on_d 0
+lss s0_8,"ros","a14_ikari3" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_10,"but","b22_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_but
+*d12054
+d [lv 0*"10"*"20100726"]`"......Huh?"`[\]
+lss s0_8,"ros","a11_komaru4" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ros
+*d12055
+d [lv 0*"12"*"21400541"]`"Humans were originally supposed to be creatures that trust each other.`[\]
+lss s0_10,"but","b11_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_but
+*d12056
+d [lv 0*"10"*"20100727"]` ...But in order to live in a tough world, we learn to be wary.`[@][lv 0*"10"*"20100728"]` ...So we'll doubt anything.`[@][lv 0*"10"*"20100729"]` We are sad creatures.`[@][lv 0*"10"*"20100730"]` ...I won't deny that's our nature."`[@][lv 0*"10"*"20100731"]`"...............But I won't permit you to come to a conclusion without proof!!`[\]
+lss s0_10,"but","b22_kuyasigaru1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d12057
+d [lv 0*"10"*"20100732"]` The suspicious are not the guilty, they are the innocent!!`[@][lv 0*"10"*"20100733"]` Of course, the world is full of wolves.`[@][lv 0*"10"*"20100734"]` I won't tell you to carelessly believe everyone!"`[@][lv 0*"10"*"20100735"]`"But if you're going to say someone's guilty, prepare some perfect evidence!`[\]
+lss s0_10,"but","b22_odoroki1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+*d12058
+d [lv 0*"10"*"20100736"]` Unless you can do that, never say someone is guilty because of speculation!!!"`[@][lv 0*"10"*"20100737"]`"...............u......`[\]
+lss s0_8,"ros","a11_aseru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ros
+*d12059
+d [lv 0*"12"*"21400542"]` That's........."`[@][lv 0*"12"*"21400543"]`"......I was the one who said the suspicious were the guilty.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_1,"mjes_1a_bg"
+lbg s0_3,"mjes_1a"
+lss s0_10,"nan","a1_defo1" ;1
+aspt2 xpos,s0_10,550
+flush 23
+lss s0_10,"nan","a1_fumu1" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_nan
+*d12060
+d [lv 0*"19"*"21900165"]` .........That was thoughtless.`[@][lv 0*"19"*"21900166"]` I apologize."`[@][lv 0*"19"*"21900167"]`"............Battler‐sama........."`[\]
+lss s0_8,"sha","a11_defo1" ;1
+aspt2 xpos,s0_8,-550
+flush 10,167
+msgwnd_sha
+*d12061
+d [lv 0*"15"*"20500695"]`"...W‐wonderful reasoning, Battler‐kun!`[\]
+lss s0_9,"geo","a11_warai1" ;1
+flush 10,167
+msgwnd_geo
+*d12062
+d [lv 0*"07"*"20300528"]` Thank you too, Gohda‐san.`[@][lv 0*"07"*"20300529"]` Because of what you remembered, Kanon‐kun is cleared from suspicion!"`[@][lv 0*"07"*"20300530"]`"N‐no, I... Hahahaha..."`[\]
+csp_slot s0_10
+flush 10,167
+lss s0_10,"goh","a11_iiwake2" ;1
+aspt2 xpos,s0_10,550
+flush 10,167
+msgwnd_goh
+*d12063
+d [lv 0*"17"*"21700170"]`Clap clap clap...`[\]
+textoff
+waits 167
+seplay 1,56,71
+vol_bgm 40
+textoff
+waits 167
+rain_pause s0_11
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+flush 10,367
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+flush 28
+lips_sprite s0_8_b
+lips_sprite s0_9_b
+lips_sprite s0_10_b
+gstc 101
+lss s0_24,"bea","a31_warai1" ;1
+flush 10,167
+vol_mix_fade 2000
+vol_bgm -1,2000
+wait 2000
+wait 1000
+bgmplay 44,71,0
+msgwnd_non
+*d12064
+d ` ...It was the dry sound of the witch's applause.`[@]`"Well done, well done.`[\]
+lss s0_24,"bea","a11_defo1" ;1
+flush 10,167
+msgwnd_bea
+*d12065
+d [lv 0*"27"*"20701133"]` ......Not a bad job."`[@][lv 0*"27"*"20701134"]`".........Shit.`[\]
+csp_slot s0_24
+lss s0_25,"but","b11_niramu2" ;1
+aspt2 xpos,s0_25,-370
+lss s0_23,"bea","a11_defo1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_but
+*d12066
+d [lv 0*"10"*"20100738"]` Did I just fall for a blatant bait piece...?"`[@][lv 0*"10"*"20100739"]`"You wonderfully proved that at least Kanon couldn't lock the door to this room.`[\]
+lss s0_23,"bea","a11_futeki2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_bea
+*d12067
+d [lv 0*"27"*"20701135"]` The servants should all have been holding master keys.`[@][lv 0*"27"*"20701136"]` With that as a basis, Kanon was treated as the culprit, so you did a wonderful job of at least clearing away that suspicion.`[@][lv 0*"27"*"20701137"]` *cackle*cackle*cackle*."`[@][lv 0*"27"*"20701138"]`"......In that case.`[\]
+lss s0_25,"but","b11_futeki1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_but
+*d12068
+d [lv 0*"10"*"20100740"]` ...How did the culprit who killed Jessica lock the door?`[@][lv 0*"10"*"20100741"]` So that's the problem I have now."`[@][lv 0*"10"*"20100742"]`"Tch.`[\]
+lss s0_25,"but","b22_niramu1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+*d12069
+d [lv 0*"10"*"20100743"]` ......I've been drawn into a development that went exactly like you wanted..."`[@][lv 0*"10"*"20100744"]`"Right into my trap, yes...?`[\]
+lss s0_23,"bea","a31_akuwarai1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_bea
+*d12070
+d [lv 0*"27"*"20701139"]` Furthermore, you said something outrageous about not doubting any of the other servants.`[@][lv 0*"27"*"20701140"]` Wellll then, it'll be worth seeing how you gloss this over..."`[@][lv 0*"27"*"20701141"]`"Shut your face.`[\]
+lss s0_25,"but","b11_majime1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_but
+*d12071
+d [lv 0*"10"*"20100745"]` ...Let's get this started.`[@][lv 0*"10"*"20100746"]` I'm sure I'll be denied from all angles, ...but first I'll verify the definition of what it means for this room to be a locked room."`[@][lv 0*"10"*"20100747"]`"Very well.`[\]
+lss s0_23,"bea","a11_defo2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+meplay 1,16,40
+msgwnd_bea
+*d12072
+d2 [lv 0*"27"*"20701142"]` First,`[@][lv 0*"27"*"20701143"]` {p:1:there are absolutely no types of hidden doors}.`[#][*]` {p:1:This door is the only way in or out}.`[@][lv 0*"27"*"20701144"][#][*]` {p:1:The only way to lock this door is with Jessica's single key or the master keys, only one of which is held by each servant}."`[@][lv 0*"27"*"20701145"][#][*]`"It is on the second floor, but it is probably possible to enter or leave through the window.`[\]
+wait_on_d 0
+seplay 1,59,71
+d_continue
+wait_on_d 1
+seplay 2,59,71
+d_continue
+wait_on_d 2
+seplay 3,59,71
+d_continue
+wait_on_d -1
+lss s0_23,"bea","a11_defo1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+*d12073
+d2 [lv 0*"27"*"20701146"]` However,`[@][lv 0*"27"*"20701147"]` {p:1:the window is locked from the inside}."`[#][*]`"......Let me spin the chessboard around right away.`[\]
+wait_on_d 0
+seplay 1,59,71
+d_continue
+wait_on_d -1
+lss s0_25,"but","b11_nayamu2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_but
+*d12074
+d [lv 0*"10"*"20100748"]` ...If I start by arguing about the door and the lock, I probably won't leave the palm of your hand."`[@][lv 0*"10"*"20100749"]`"Do as you like.`[\]
+lss s0_23,"bea","a11_futeki2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_bea
+*d12075
+d [lv 0*"27"*"20701148"]` Well then, well then, what should I repeat?"`[@][lv 0*"27"*"20701149"]`".........Repeat it.`[\]
+lss s0_25,"but","b22_oyaa1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_but
+*d12076
+d [lv 0*"10"*"20100750"]` "Kanon‐kun was killed in this room"."`[@][lv 0*"10"*"20100751"]`"Mmhm.`[\]
+lss s0_23,"bea","a11_defo1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_bea
+*d12077
+d2 [lv 0*"27"*"20701150"]` "{p:1:Kanon was killed in this room}".`[@][lv 0*"27"*"20701151"][#][*]` Although I erased his corpse with magic, of course?`[@][#][*][lv 0*"27"*"20701152"]` *cackle*cackle*cackle*!"`[@][lv 0*"27"*"20701153"]`"And again, repeat it.`[\]
+wait_on_d 0
+gstc 102
+seplay 9,1061,100
+seplay 1,59,71
+d_continue
+wait_on_d 1
+lss s0_23,"bea","a21_akuwarai5" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+d_continue
+wait_on_d -1
+lss s0_25,"but","b11_nayamu1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_but
+*d12078
+d [lv 0*"10"*"20100752"]` "Kanon‐kun's corpse is in this room"."`[@][lv 0*"10"*"20100753"]`"*cackle*cackle*cackle*cackle*!`[\]
+lss s0_23,"bea","a31_warai1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_bea
+*d12079
+d [lv 0*"27"*"20701154"]` I decline.`[@][lv 0*"27"*"20701155"]` I cannot repeat it.`[@][lv 0*"27"*"20701156"]` ...Because I erased the corpse with magic.`[@][lv 0*"27"*"20701157"]` *giggle*giggle*giggle*!"`[@][lv 0*"27"*"20701158"]`"Of course you wouldn't.`[\]
+lss s0_25,"but","b22_nayamu2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_but
+*d12080
+d [lv 0*"10"*"20100754"]` ......There's got to be a secret hidden in there somewhere."`[@][lv 0*"10"*"20100755"]`"......Damn, where's the point of contention to this riddle?`[\]
+lss s0_25,"but","b24_kuyasigaru1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+*d12081
+d [lv 0*"10"*"20100756"]` .........Is it that they locked it without a master key?`[@][lv 0*"10"*"20100757"]` Or is it how they managed to kill two people who were inside a room with the door locked?`[@][lv 0*"10"*"20100758"]` Or is it how they managed to escape after killing them both?"`[@][lv 0*"10"*"20100759"]`"......I hate to say it, but I'll have to tackle this one step at a time.`[\]
+lss s0_25,"but","b22_niramu1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+*d12082
+d [lv 0*"10"*"20100760"]` ...Repeat it.`[@][lv 0*"10"*"20100761"]` ......‘The last time it was locked was by a master key’."`[@][lv 0*"10"*"20100762"]`"I also decline that.`[\]
+lss s0_23,"bea","a11_akuwarai1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_bea
+*d12083
+d [lv 0*"27"*"20701159"]` *cackle*cackle*."`[@][lv 0*"27"*"20701160"]`"......This declining thing is really vague.`[\]
+lss s0_25,"but","b23_kuyasigaru1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_but
+*d12084
+d [lv 0*"10"*"20100763"]` I don't know if you decline because it's impossible to repeat, or whether you can repeat it and you're declining on purpose..."`[@][lv 0*"10"*"20100764"]`"Back when discussing the lock to the chapel, you completely turned the tables on me.`[\]
+lss s0_23,"bea","a11_futeki1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_bea
+*d12085
+d [lv 0*"27"*"20701161"]` When I have an advantage, there's no need to go out of my way to speak using the red, which carries risk.`[@][lv 0*"27"*"20701162"]` That's all it is."`[@][lv 0*"27"*"20701163"]`".........Yeah, I guess so.`[\]
+lss s0_25,"but","b11_nayamu2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_but
+*d12086
+d [lv 0*"10"*"20100765"]` ...At its heart, the red is something you use when you want to stop my strange theories."`[@][lv 0*"10"*"20100766"]`"It is natural that I would use it to my advantage.`[\]
+lss s0_23,"bea","a11_warai2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_bea
+*d12087
+d [lv 0*"27"*"20701164"]` Because of the risk of it being quibbled with, I won't use it uselessly."`[@][lv 0*"27"*"20701165"]`"...*cackle*cackle*.`[\]
+lss s0_23,"bea","a21_akuwarai2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+*d12088
+d [lv 0*"27"*"20701166"]` Well then, what move will you come at me with next?`[@][lv 0*"27"*"20701167"]` A move that puts Gohda or Kumasawa under suspicion would probably be the easiest to use, right...?"`[@][lv 0*"27"*"20701168"]`"......Damn.`[\]
+lss s0_25,"but","b34_kuyasigaru1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_but
+*d12089
+d [lv 0*"10"*"20100767"]` It's like you're leading me down a path, goddamn annoying...`[@][lv 0*"10"*"20100768"]` Stay quiet a while, I'm thinking...!"`[@][lv 0*"10"*"20100769"]`"Of course, this door is the same as the chapel.`[\]
+lss s0_23,"bea","a11_defo2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_bea
+*d12090
+d2 [lv 0*"27"*"20701169"]` {p:1:When locked, it does not permit any form of entry or exit}."`[@][lv 0*"27"*"20701170"][#][*]`"I'll say more. {p:1:No trick could have the effect of locking the door from the outside without using a key}.`[\]
+wait_on_d 0
+seplay 1,59,71
+d_continue
+wait_on_d -1
+lss s0_23,"bea","a11_akuwarai3" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+seplay 2,59,71
+*d12091
+d [lv 0*"27"*"20701171"]` *cackle*cackle*...!"`[@][lv 0*"27"*"20701172"]`"Tch.`[\]
+lss s0_25,"but","b11_komaru1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_but
+*d12092
+d [lv 0*"10"*"20100770"]` Damn you for always using red when I don't ask for it..."`[@][lv 0*"10"*"20100771"]`............Let's back up.`[\]
+csp_slot s0_21
+csp_slot s0_22
+csp_slot s0_25
+csp_slot s0_23
+rain_resume s0_11
+lips_sprite s0_8_b,"sha"
+lips_sprite s0_9_b,"geo"
+lips_sprite s0_10_b,"goh"
+flush 8
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 22
+msgwnd_non
+*d12093
+d ` ...Let me just think.`[@]`{n}I'll lay out everything I know.`[@]`First, there are two victims.`[\]
+*d12094
+d `Jessica and Kanon‐kun.`[\]
+textoff
+waits 167
+lss s0_10,"jes","a11_majime1" ;1
+aspt2 xpos,s0_10,370
+color_mod2 s0_10,#ffffff
+lss s0_8,"kan","a11_defo1" ;1
+aspt2 xpos,s0_8,-370
+color_mod2 s0_8,#ffffff
+flush 2
+*d12095
+d `...Kanon‐kun's corpse isn't here, but {f:5:Beatrice} admitted in red that Kanon‐kun was killed.`[\]
+*d12096
+d `So even without a corpse, he's included as a victim.`[\]
+*d12097
+d `There are a few questionable points.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+flush 2
+*d12098
+d ` And depending on which I focus on, my line of thought changes a lot.`[@]`First, after the culprit committed murder in this room, how did they lock it?`[\]
+textoff
+waits 167
+lbg s0_3,"m_door2"
+color_mod2 s0_3,#ffffff
+flush 6
+*d12099
+d `If we assume that the culprit was one of those holding a master key, it's extremely simple.`[\]
+textoff
+waits 167
+lbg s0_3,"map07"
+flush 2
+*d12100
+d `......But I want to avoid that if I can.`[\]
+*d12101
+d `Because I would have to suspect Gohda‐san or Kumasawa‐san—no, in the worst case, even Shannon‐chan and Genji‐san.`[\]
+*d12102
+d `At this point, I noticed something.`[\]
+textoff
+waits 167
+lbg s0_3,"black"
+flush 22
+*d12103
+d `......I'm contradicting myself.`[\]
+*d12104
+d `{n}I'm cutting my own throat.`[@]`I want to deny {f:5:Beatrice} no matter what.`[\]
+rain_pause s0_11
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+textoff
+waits 167
+lbg s0_1,"mjes_1a_bg"
+lbg s0_3,"mjes_1a"
+lss s0_8,"sha","a11_defo1" ;1
+aspt2 xpos,s0_8,-550
+lss s0_9,"geo","a11_warai1" ;1
+lss s0_10,"goh","a11_iiwake2" ;1
+aspt2 xpos,s0_10,550
+lss s0_24,"bea","a21_akuwarai2" ;1
+flush 22
+*d12105
+d `{n}I want to erase the existence of that brutal, fickle, ridiculous witch!`[@]`In order to do that, I have to explain everything with humans, not magic.`[\]
+*d12106
+d `......But that also means suspecting some human.`[\]
+*d12107
+d `I don't want to suspect someone.`[\]
+*d12108
+d `......Of course, if there was some clear proof, I would have to believe that person was the culprit,`[\]
+*d12109
+d ` ...but as long as that didn't happen, I didn't want to cast any suspicions.`[@]`Am I just green...?`[\]
+*d12110
+d `{n}Am I just a kid who doesn't want to have my feelings, which tell me that at least this person or that person couldn't be a murderer, betrayed...?`[@]`I want to deny that it was a witch; I also want to deny that it was a human.`[\]
+*d12111
+d `{n}.........Now I don't know what is what anymore...`[@]`"*cackle*cackle*!`[\]
+lss s0_24,"bea","a11_futeki1" ;1
+flush 10,167
+seplay 1,37,71
+msgwnd_bea
+*d12112
+d [lv 0*"27"*"20701173"]` In the first place, the only victory condition in our game regarded whether or not you could deny my existence.`[@][lv 0*"27"*"20701174"]` ...Even though that alone was a game that put you at a disadvantage, you've increased the number of victory conditions all by yourself, and made your own victory difficult...!"`[@][lv 0*"27"*"20701175"]`......It's just as she says.`[\]
+msgwnd_non
+*d12113
+d ` ...If I started arguing that someone holding a master key was the culprit, this locked room could be easily broken.`[@]`......However, since the number of keys that could open this door are limited,`[\]
+*d12114
+d ` and furthermore it's clearly known who holds them,`[@]` saying that would mean that I was suspecting someone I knew well...`[@]`...No, ......have I just been averting my eyes?`[\]
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+csp_slot s0_24
+csp_slot s0_21
+csp_slot s0_22
+rain_resume s0_11
+textoff
+waits 167
+csp_slot s0_1
+lbg s0_3,"black"
+flush 25
+*d12115
+d `In that locked room trick with the chapel, which had been exhilarating to destroy,`[\]
+textoff
+waits 167
+lbg s0_3,"map06"
+flush 22
+*d12116
+d ` I had proposed that "someone stole the key from Maria's handbag, and returned it".`[@]` If that theory was right, then the question becomes who could have stolen the key from her handbag.`[@]`...Maria's handbag had probably been at its most unguarded when she was sleeping.`[\]
+*d12117
+d `......In that case,`[\]
+*d12118
+d ` .........in addition to me,`[!w500]` ...George‐aniki and Jessica are also suspects.`[!w583]`George‐aniki or Jessica was the culprit?`[\]
+*d12119
+d `{n}Or maybe an accomplice?!`[@]`......All of our parents had been killed, right?!`[\]
+*d12120
+d `{n}And yet, ......and yet, one of us consented to that and assisted with the crime?!`[@]`We had lamented, mourned, and shed tears in the chapel.`[\]
+*d12121
+d `{n}...And yet, one among us......had been lying?!`[@]`"......*cackle*cackle*.`[\]
+rain_pause s0_11
+lbg s0_21,"black"
+aspt2 alpha,s0_21,150
+lbg s0_22,"hana1"
+aspt2 alpha,s0_22,150
+textoff
+waits 167
+lbg s0_1,"mjes_1a_bg"
+lbg s0_3,"mjes_1a"
+lss s0_8,"sha","a11_defo1" ;1
+aspt2 xpos,s0_8,-550
+lss s0_9,"geo","a11_warai1" ;1
+lss s0_10,"goh","a11_iiwake2" ;1
+aspt2 xpos,s0_10,550
+lss s0_25,"bea","a11_akuwarai1" ;1
+aspt2 xpos,s0_25,-370
+flush 22
+lss s0_25,"bea","a31_akuwarai2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+seplay 1,37,71
+msgwnd_bea
+*d12122
+d [lv 0*"27"*"20701176"]` That theory of yours about taking the key out of the handbag and putting it back cast a pronounced suspicion on the cousins, did it not...?"`[@][lv 0*"27"*"20701177"]`"Quite impressive—in spite of that, you managed to act like you didn't notice,`[\]
+lss s0_25,"bea","a11_akuwarai3" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+*d12123
+d [lv 0*"27"*"20701178"]` and spoke your theory with such gusto...!`[@][lv 0*"27"*"20701179"]` *giggle*giggle*giggle*."`[@][lv 0*"27"*"20701180"]`"D‐............damn it...`[\]
+lss s0_23,"but","b22_kuyasigaru1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_but
+*d12124
+d [lv 0*"10"*"20100772"]` That doesn't guarantee that one of the family or the servants is the culprit!`[@][lv 0*"10"*"20100773"]` If you snuck up on us hiding in a cardboard box, for example,`[@][lv 0*"10"*"20100774"]` there's a good chance you could have slunk into our room when we were fast asleep and stolen the key, right?!"`[@][lv 0*"10"*"20100775"]`"Mmm.`[\]
+lss s0_25,"bea","a31_warai1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_bea
+*d12125
+d [lv 0*"27"*"20701181"]` That would also be acceptable in that instance.`[@][lv 0*"27"*"20701182"]` By suspecting me as the guest, the 19th person, you won't have to suspect them."`[@][lv 0*"27"*"20701183"]`".........But then, what will you do about the lock to Jessica's room?`[\]
+lss s0_25,"bea","a11_futeki2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+*d12126
+d [lv 0*"27"*"20701184"]` It's no trouble at all for me to open the lock with magic, but of course, I don't have a master key.`[@][lv 0*"27"*"20701185"]` If you deny my magic, you also have to deny that I'm a suspect, you realize...?"`[@][lv 0*"27"*"20701186"]`"And what that entails is suspecting one of you 18...!!"`[\]
+lss s0_25,"bea","a11_futeki1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+*d12127
+d [lv 0*"27"*"20701187"]`"Tha‐......thanks for the lovely explanation.`[\]
+lss s0_23,"but","b23_nayamu2" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_but
+*d12128
+d [lv 0*"10"*"20100776"]` ...I've been able to sort things out a bit."`[@][lv 0*"10"*"20100777"]`"......My goal is to pursue how the 19th person, the {y:0:Human}{n:0:human} guest {f:5:Beatrice}, committed the crimes.`[\]
+lss s0_23,"but","b22_niramu1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+*d12129
+d [lv 0*"10"*"20100778"]` If I do that, I won't have to suspect anyone!!"`[@][lv 0*"10"*"20100779"]`"*cackle*cackle*!`[\]
+lss s0_25,"bea","a11_akuwarai3" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_bea
+*d12130
+d [lv 0*"27"*"20701188"]` If you can do that, yes...!`[@][lv 0*"27"*"20701189"]` Foolish man.`[@][lv 0*"27"*"20701190"]` ......A room like this never needed to be a locked room at all.`[@][lv 0*"27"*"20701191"]` After all, there are a total of six keys that can open it."`[@][lv 0*"27"*"20701192"]`"And there were several who possessed those keys!`[\]
+lss s0_25,"bea","a21_akuwarai5" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+*d12131
+d [lv 0*"27"*"20701193"]` You can suspect any of them!`[@][lv 0*"27"*"20701194"]` Suspect as much as you like!!`[@][lv 0*"27"*"20701195"]` But you went to all the trouble of denying all of those, and made it a locked room yourself."`[@][lv 0*"27"*"20701196"]`".........Understand?`[\]
+lss s0_25,"bea","a11_akuwarai3" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+*d12132
+d [lv 0*"27"*"20701197"]` This is a locked room born from your mental contradiction.`[@][lv 0*"27"*"20701198"]` *cackle*cackle*!`[@][lv 0*"27"*"20701199"]` There's no one else, you closed that door yourself."`[@][lv 0*"27"*"20701200"]`"......So accept that a witch opened it with magic,`[\]
+lss s0_23,"but","b22_odoroki1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_but
+*d12133
+d [lv 0*"10"*"20100780"]` ...or accept that someone I know is the culprit—those are my only two options, you're saying.`[@][lv 0*"10"*"20100781"]` Damn, are you trying to fork the rook?!"`[@][lv 0*"10"*"20100782"]`"I merely wanted to show you that this move also exists."`[\]
+lss s0_25,"bea","a11_akuwarai1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_bea
+*d12134
+d [lv 0*"27"*"20701201"]`"......*cackle*.`[\]
+lss s0_25,"bea","a31_akuwarai2" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+*d12135
+d2 [lv 0*"27"*"20701202"]` So, what will you do, Ushiromiya Battleeeeeeer?`[@][lv 0*"27"*"20701203"]` Isn't it a truly simple problemmm...?`[@][lv 0*"27"*"20701204"]` You just have to make sacrifices of that overly self‐confident cook and that hag who should have died yeeears ago.`[@][lv 0*"27"*"20701205"]` *cackle*cackle*cackle*cackle*cackle*!!"`[@][#][*][lv 0*"27"*"20701206"]`"...............Damn it!!`[\]
+wait_on_d 0
+seplay 1,37,100
+d_continue
+wait_on_d -1
+lss s0_23,"but","b26_kuyasigaru1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+msgwnd_but
+*d12136
+d2 [lv 0*"10"*"20100783"]` So if I suspect Gohda‐san and Kumasawa‐san, everything's fine?!`[#][*][@][lv 0*"10"*"20100784"]` That's no good!"`[@][lv 0*"10"*"20100785"]`".........I can't think of Gohda‐san as the culprit!`[#][*][\]
+wait_on_d 0
+seplay 1,12,71
+agpt quakeycycle,50
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+d_continue
+wait_on_d 1
+seplay 1,8,71
+agpt quakeycycle,33
+agpt quakeyamp,30
+agpt quakeyamp,0,500,1
+rumble 63,500
+gptwait quakeyamp
+d_continue
+wait_on_d -1
+lss s0_23,"but","b22_odoroki1" ;1
+aspt2 xpos,s0_23,370
+flush 10,167
+*d12137
+d [lv 0*"10"*"20100786"]` I can't think of Kumasawa‐san as the culprit!!`[@][lv 0*"10"*"20100787"]` But I won't accept you!!`[@][lv 0*"10"*"20100788"]` Ever!!"`[@][lv 0*"10"*"20100789"]`"In that case, they would have to enter the room without using magic or a master key,`[\]
+lss s0_25,"bea","a31_warai1" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+msgwnd_bea
+*d12138
+d [lv 0*"27"*"20701207"]` kill Jessica and Kanon, and even erase Kanon's corpse without using magic."`[@][lv 0*"27"*"20701208"]`"......How could it be done?!`[\]
+lss s0_25,"bea","a11_akuwarai5" ;1
+aspt2 xpos,s0_25,-370
+flush 10,167
+*d12139
+d2 [lv 0*"27"*"20701209"]` How could it be done so that you can deny me and not suspect anyone at the same time?!!`[@][lv 0*"27"*"20701210"]` *cackle*cackle*cackle*cackle*cackle*!"`[@][#][*][lv 0*"27"*"20701211"]`"............Resign."`[\]
+wait_on_d 0
+seplay 1,37,71
+d_continue
+wait_on_d -1
+textoff
+waits 167
+seplay 2,56,71
+csp_slot s0_21
+csp_slot s0_22
+csp_slot s0_25
+csp_slot s0_23
+rain_resume s0_11
+flush 8
+gstc 103
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_9
+csp_slot s0_10
+lbg s0_1,"mjes_1a_bg"
+lbg s0_3,"mjes_1a"
+lss s0_10,"but","b11_nayamu1" ;1
+aspt2 xpos,s0_10,370
+flush 24
+vol_mix_fade 3000
+vol_bgm -1,3000
+wait 3000
+wait 1000
+msgwnd_but
+*d12140
+d [lv 0*"10"*"20100790"]`"Huh?`[\]
+lss s0_8,"geo","a11_majime2" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+meplay 1,13,40
+msgwnd_geo
+*d12141
+d [lv 0*"07"*"20300531"]` Battler‐kun, what did you say?"`[@][lv 0*"07"*"20300532"]`"......I give up.`[\]
+lss s0_10,"but","b11_komaru2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_but
+*d12142
+d [lv 0*"10"*"20100791"]` I was able to prove that Kanon‐kun couldn't have locked this door.`[@][lv 0*"10"*"20100792"]` ......But that doesn't mean I was able to figure out who killed Jessica."`[@][lv 0*"10"*"20100793"]`"N‐......no, ...that's more than enough...`[\]
+csp_slot s0_8
+flush 10,167
+lss s0_8,"sha","a21_defo1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_sha
+*d12143
+d [lv 0*"15"*"20500696"]` Umm, ......for doing all that for Kanon‐kun,`[@][lv 0*"15"*"20500697"]` ...thank you very much...!"`[|][lv 0*"15"*"20500698"]`"......I don't want thanks.`[\]
+lss s0_10,"but","b11_nayamu2" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_but
+*d12144
+d [lv 0*"10"*"20100794"]` After all, ......that means that you're under suspicion too."`[@][lv 0*"10"*"20100795"]`"....................."`[\]
+lss s0_8,"sha","a11_komaru1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_sha
+*d12145
+d [lv 0*"15"*"20500699"]`"...And sorry, Aunt Rosa.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+lbg s0_1,"mjes_1c_bg"
+lbg s0_3,"mjes_1c"
+lss s0_8,"ros","a14_komaru4" ;1
+aspt2 xpos,s0_8,-370
+flush 23
+lss s0_10,"but","b11_majime1" ;1
+aspt2 xpos,s0_10,370
+flush 10,167
+msgwnd_but
+*d12146
+d [lv 0*"10"*"20100796"]` ......It's not like I wanted to be defiant towards you.`[@][lv 0*"10"*"20100797"]` I don't want to die either, and I want to find Dad and the rest's true killer.`[@][lv 0*"10"*"20100798"]` ......Sorry for saying something that wasn't cooperative."`[@][lv 0*"10"*"20100799"]`"......No, it's alright.`[\]
+lss s0_8,"ros","a14_nayamu1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_ros
+*d12147
+d [lv 0*"12"*"21400544"]` I was also a little rash.`[@][lv 0*"12"*"21400545"]` Let's make up.`[@][lv 0*"12"*"21400546"]` As auntie and nephew, we have to be friendly with each other.`[@][lv 0*"12"*"21400547"]` ............Right?"`[@][lv 0*"12"*"21400548"]`Aunt Rosa shifted the gun to one hand, and held out her other hand.`[\]
+lss s0_8,"ros","a11_majime1" ;1
+aspt2 xpos,s0_8,-370
+flush 10,167
+msgwnd_non
+*d12148
+d `...I reached out, and for the time being, we shook hands.`[\]
+*d12149
+d `Auntie's gaze was sharp.`[\]
+textoff
+waits 167
+csp_slot s0_8
+csp_slot s0_10
+csp_slot s0_1
+lbg s0_3,"black"
+flush 22
+*d12150
+d `{n}......In order to deny the witch, she would make anyone a sacrifice.`[@]`{n}...That's what her eyes told me.`[@]`And me...?`[\]
+*d12151
+d `{n}I denied the witch.`[@]`{n}......But I wasn't prepared to lose anything.`[@]`I was probably the one who thought himself most ready to fight, ......and the one standing furthest from the truth.`[\]
+*d12152
+d `I was probably the one who thought himself most ready to fight, ......and the one standing furthest from the truth.`[\]
+textoff
+waits 167
+wait 2000
+break_glass2
+wait 500
+display_clock 1470,740,90,480,780,0,0
+wait 1667
+flush 10,500
+wait 83
+ch_done flag_scenario_2_12
