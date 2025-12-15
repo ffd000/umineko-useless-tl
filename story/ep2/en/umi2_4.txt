@@ -210,19 +210,19 @@
 `......However, the seesaws Krauss chose never turned out as he would have liked them to.`
 `...His foresight wasn't wrong, ......but times were slow.`
 `{n}They never caught up with him.`
-`For example, think of a literal seesaw, placed in a park.`
-`Due to its great popularity, there was always someone playing on it, so if he wanted to play, he would have to wait a long time for his turn.`
-`...And then, one day, he found that seesaw vacant, straddled it realizing he was the first to arrive, and had it all to himself.`
-`However, ...nobody got on the opposite side of the seesaw, so he couldn't play on it.`
-`And no matter how much time passed, nobody came to the opposite side of the seesaw.`
-`The seesaw is a popular piece of playground equipment, so if you waited, another person would definitely show up.`
+`For example, think of a literal seesaw in a park.`
+`Because it was so popular, someone was always playing on it, and he would have to wait a long time for his turn.`
+`...And then, one day, he found it vacant, straddled it realizing he was the first to arrive, and had it all to himself.`
+`However, ...nobody got on the opposite side, so he couldn't play.`
+`And no matter how much time passed, nobody came.`
+`The seesaw was popular, so surely someone would appear eventually.`
 `......Krauss noticed.`
 `The weather looked like it was getting worse.`
-`{n}That's why nobody was coming outside to play.`
+`{n}That's why nobody was coming outside.`
 `But the seesaw is a popular piece of playground equipment, so someone would definitely come.`
-`...If he vacated his place because the weather seemed to be getting worse, someone would definitely snatch his place away,`
-` and he would end up only longingly gazing from a distance, at someone else having fun playing on the seesaw again...`
-`On one side of the seesaw, he continued to wait patiently, all alone...`
+`...Still, if he vacated his place because the weather seemed bad, someone would definitely snatch his place away,`
+` and he would once again watch from afar as someone else enjoyed the seesaw...`
+`So he waited alone on one side....`
 `{n}That was Krauss's current enterprise, and situation.`
 `"............If only I'd had a bit more courage, ...and the self‐confidence to believe in my own foresight...`
 `I'd never once......have failed."`
@@ -728,31 +728,31 @@
 `"......Nope."`
 `The witch looked at him in challenge while elegantly smoking her pipe.`
 `And Battler?`
-`{n}He just slovenly shrugged his shoulders as though she wasn't worth his time.`
+`{n}He slovenly shrugged his shoulders as though she wasn't worth his time.`
 `He wouldn't look her in the eyes.`
 `{n}But that didn't mean he wasn't going to play.`
 `...It signified his plain determination to never be taken in by the artifices of this being he faced.`
-`{n}It was an expression of his powerful determination to fight.`
+`{n}A powerful determination to fight.`
 `"Don't tell me you don't have a plan...?"`
-`"I don't know how you're going to play, so no, I don't have any plan.`
+`"I don't know how you're going to play, so no, I don't.`
 ` ...Feel free to take the first move."`
-`"Hmph... Naturally, I intend to.`
+`"Hmph... Naturally.`
 ` In what way shall I destroy your defense?`
 ` In how many moves will I checkmate you?`
 ` ......That is how I will display my skills."`
 `"............Whatever moves you come at me with, I will never believe in you!`
 ` ...As long as I stand my ground on that one point, I won't lose.`
-` And what that means is this.`
+` And that means this.`
 ` The way this game is made, you cannot win...!"`
 `"Maybe you're right.`
 ` However...`
-` I shall decide how many times we'll repeat this game.`
-` It will be repeated over and over again, until I win and you admit defeat...!"`
-`"In other words, this is torment.`
-` Eternal torment that will continue until you surrender to me...!`
-` Continuing eternally, until you acknowledge me and the existence of witches!"`
-`"......In that case, I'll go along with you endlessly, any number of times, until you run out of patience.`
-` I've never lost in such a "battle of wills"."`
+` I shall decide how many times this game is repeated.`
+` Over and over again, until I win and you admit defeat...!"`
+`"In other words, eternal torment.`
+` It will continue until you surrender to me...!`
+` Until you acknowledge me and the existence of witches!"`
+`"......Then I'll go along with you endlessly, any number of times, until you run out of patience.`
+` I've never lost in a battle of stubbornness."`
 `"Did some witch or other suggest that to you...?`
 ` *cackle*cackle*, that's just fine...!"`
 `"I'm tired of listening to your rambling.`
@@ -765,19 +765,19 @@
 ` I have only one thing to tell you before we start."`
 `"What is it...?"`
 `"You're free to say anything.`
-` But when it comes to whether I believe or not,`
-` that is always`
+` But whether I believe or not,`
+` is always`
 ` for me`
 ` to decide...!"`
 `"No matter how great your magic is!`
-` My soul won't yield to you.`
+` My soul won't yield.`
 ` You think this will be torture for me?`
 ` You're wrong!!"`
-`"Then, what would you call it...!"`
+`"Then what would you call it...!"`
 `"This is torture for you!!"`
-`"Someday you will yield to me and give up!`
-` Until then, you'll be tortured over and over again!"`
-`"How amusing, a fine metaphor!!`
-` Torture where we torment each other, how truly amusing!`
+`"Someday you will yield and give up!`
+` Until then, you'll be tortured again and again!"`
+`"How amusing, a fine notion!!`
+` Torture where we torment each other, how delightful!`
 ` Come, we shall begin that torture!!`
 ` Ushiromiya Battleeeeer!!!"`
