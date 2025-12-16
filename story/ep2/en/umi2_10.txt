@@ -1,27 +1,27 @@
 `"Milady, please, calm yourself...!"`
 `"We still don't know who the culprit is!`
-` And {f:5:Beatrice}‐sama is an honored guest to the Master...!"`
+` And {f:5:Beatrice}‐sama is an honored guest of the Master...!"`
 `"So what?!!`
 ` If we grab her by the collar, she'll definitely confess!!`
 ` If we can look her in the eye, we'll know!!`
-` I'll see through her lies!!`
+` I'll see right through her!!`
 ` A witch?! {f:5:Beatrice}?!!`
 ` I'll expose her for who she is!!"`
-`Jessica never stopped moving.`
-`{n}Gohda and Kanon chased after her, doing their best to convince her, but Jessica never lent them an ear.`
+`Jessica never slowed down.`
+`{n}Gohda and Kanon chased after her, doing their best to convince her, but she never lent them an ear.`
 `Eventually, the "Witch's VIP Room" came into view.`
-`{n}This VIP room was always sealed and never used.`
+`{n}The room was always sealed.`
 `...No matter what kind of guest came, Kinzo wouldn't let them in this room.`
 `......And yet, the servants were always made to clean this room, so that it could be used at any time.`
 `So the servants had started calling this room the "Witch's VIP Room", after their other shapeless master.`
 `Jessica also knew this.`
-` And she couldn't stand that woman's arrogance in calling herself a witch, by staying in that room.`
+` And she couldn't stand the arrogance of that woman claiming it.`
 `......The Golden Witch was just a fairy tale.`
 ` Come on, a witch?!`
-` To Jessica, she was nothing more or less than the murderer who had brutally killed her parents!`
+` To Jessica, {f:5:Beatrice} was nothing more or less than the murderer who had brutally taken her parents!`
 `Question her, make her give painful excuses, make her spit at the ground painfully, make her breathe painfully.`
-`...No matter how hard she pretends to be a witch, I'll teach her that she's just a stinking, sweaty {y:0:Human}{n:0:human}!!`
-`Jessica hit the door to the VIP room while yelling with all of her strength.`
+`...No matter how hard she pretends, I'll teach her that she's just a stinking, sweaty {y:0:Human}{n:0:human}!!`
+`Jessica slammed her fist against the door.`
 `It definitely wasn't a knock.`
 ` ...That sound was the beating of her anger's hammer, whose message was clear: if the woman didn't open the door, she'd break it down.`
 `"Open it, {f:5:Beatrice}!!`
@@ -29,70 +29,69 @@
 ` You hear me, right?!`
 ` Open up!!!"`
 `There was no answer.`
-` ...Jessica twisted the doorknob without any reservation, but she felt the resistance of the lock.`
-`Jessica turned to the two servants, and spat out at them demandingly.`
+` ...She twisted the doorknob without any reservation, but she felt the resistance of the lock.`
+`Jessica whirled on the servants.`
 `"The master key opens this, right?!`
 ` Open it!!"`
 `"Milady...!`
 ` That would be horribly rude...!!"`
-`Although Gohda was flustered, he still tried to somehow calm Jessica's anger.`
+`Although Gohda was flustered, he still tried to somehow calm her.`
 `......After hanging his head silently for a while, Kanon pulled a master key from his jacket pocket.`
 `"Kanon‐san...!`
 ` Is that alright?!"`
 `"......I am aware that this will be rude if she is there.`
 ` .........And in any case,`
-` ...if {f:5:Beatrice}‐sama has nothing to do with this, she just has to explain herself so that we can believe her."`
+` ...if {f:5:Beatrice}‐sama has nothing to do with this, she only has to explain herself."`
 `"Tha‐......that's right, exactly!!`
 ` Give it here!"`
-`Jessica snatched the master key from Kanon's hand, and violently shoved it into the keyhole.`
+`Jessica snatched the key and jammed it into the lock.`
 `...Immediately, there was a light sound and she felt it unlock.`
 `And without excusing herself, she flung open the door.`
 `"{f:5:Beatrice}!!`
 ` Where are you?!`
 ` Show yourself!!"`
-`Jessica rudely barged into the room.`
+`Jessica barged inside.`
 `{n}...The witch wasn't anywhere to be seen.`
 `"...Bitch!!`
-` She's not here!!`
+` She's not here?!"`
 ` Where the hell did she go?!"`
 `".........She, she doesn't appear to be here, does she..."`
 `Jessica, thinking that she might be hiding somewhere inside the room, peeked behind the curtains and under the bed, but she couldn't find anyone.`
-`However, there definitely were signs that the bed had been used,`
-` ......and although it's an odd way to say it, the atmosphere in the room had grown a little softer.`
+`The bed showed signs of use,`
+` and the air felt strangely softened.`
 `It wasn't the hard atmosphere of a place normally devoid of people, like the chapel.`
-`{n}You could definitely tell that someone had spent the night in this room.`
+`{n}Someone had clearly spent the night here.`
 `But she could not be seen.`
 `In reality, neither Jessica nor Gohda had met {f:5:Beatrice} yet.`
-`...They had only been told by those who had met her that she was the spitting image of the person in the portrait.`
+`...They had only heard that she resembled the woman in the portrait.`
 `...So they were doubtful about what her face really looked like.`
-`...However, Kanon alone had met her.`
+`Kanon alone had met her.`
 ` And he understood what kind of being that witch was, ......and what kind of character she had.`
 `So he knew that if they were to force their way in here searching for her, she wouldn't let things go as they planned.`
-`......She must be watching us bitterly flail about in vain from somewhere, sneering at us.`
-` ......She's that kind of person.`
-`Because he was looking at things that way, Kanon was the first to find it.`
+`......She must be watching us flounder somewhere, amused.`
+` ......While the other two searched for a body, Kanon noticed something else.`
 ` ...The other two were concentrating on finding the shape of a person, so they hadn't noticed.`
 `Near a water jug on the side table, there was a single sheet of writing paper.`
-` It was accompanied by a short message and a fountain pen which had probably been used to write it...`
+` On it was a short message, and nearby was a fountain pen...`
 `Kanon understood the witch.`
-` The witch would definitely ridicule them, as they found the six corpses, forced their way in here in rage, and were unable to find her.`
+` The witch would definitely mock them for barging in here in rage, only to find nothing.`
 `......Ridicule has no meaning unless it is communicated.`
 `{n}So in other words, ...this was definitely...that...!`
 `"......Milady.`
 ` .........There's something written here."`
 `"Written, what?!"`
-`Jessica quickly dashed over and violently stole the piece of paper.`
+`Jessica quickly dashed over and violently snatched the paper from his hand.`
 `......She probably wasn't trying to be violent.`
 `{n}...She just couldn't control her strength now.`
 `".........What...?!`
 ` She's, she's {i:mocking} me?!!"`
-`As soon as she read the message, Jessica went into a wild rage, crumpled the paper up, and threw it.`
-`Then, she grabbed a table lamp that was by the side of the bed and violently swung it around, mercilessly hitting the walls and furniture with it.`
-`...The lightbulb shattered at once, and scattered its shards across the room.`
+`As soon as she finished reading, Jessica crumpled the paper and threw it.`
+`She grabbed the table lamp by the bed and swung it wildly, smashing it against the walls and furniture.`
+`...The lightbulb shattered at once, and scattered glass across the room.`
 `"Milady, please calm yourself...!`
 ` You'll hurt yourself!!"`
 `"Let go!!`
-` Damn it, damn it!`
+` Damn it...!`
 ` Show yourself, {f:5:Beatrice}!!`
 ` How could you do that to Mom and Dad!!`
 ` Are you that damn scared of me?!`
@@ -100,10 +99,10 @@
 ` Come out so I can beat you to death!!!`
 ` I told you to let go of me, damn iiiiiiiiiiiiiiiiiiit!!"`
 `This was written on the paper...`
-`{e:070:―Did you think I'd waste my time waiting comfortably in this place for you to barge in here?`
-` You're too wild to be suitable for this intellectual night.`
-` What kind of faces must your parents have had after raising you to be such a hapless fool?`
-` Yeah, I saw them, they had perfectly stupid faces just like you.`
+`{e:070:―Did you think I'd waste my time waiting comfortably for you to barge in here?`
+` You're far too wild for this intellectual night.`
+` What kind of faces must your parents have had after raising such a hapless fool?`
+` Yes, I saw them. Perfectly stupid faces just like yours.`
 ` Now they are in Candyland with their bellies all full!}`
 `......It sounded like something that witch would write...`
 ` ......It meant that she had predicted that one of the children who had lost their parents would come running in here.`
@@ -130,17 +129,17 @@
 ` Mom......Dad......uwaaa{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}a{0}auuu{0}u{0}u{0}uuuu!!"`
 `...Considering that she was a daughter of the Ushiromiya main family, ...she was in a very shabby state.`
 `......She scratched at the carpet with her fingernails, and even her feet writhed and scratched at it.`
-`Jessica cried very, very hard.`
+`Jessica cried desperately.`
 ` ...Because if she didn't, her rage would start building up again, and swallow her up.`
 `But over and over again, she remembered that letter's humiliating message...`
-` ......What kind of faces must your parents have had after raising you to be such a hapless fool?`
+` ......What kind of faces must your parents have had after raising such a hapless fool?`
 `"They aren't stupid!!`
 ` Both Mom and Dad were smart!!`
 ` They weren't like me, they were really smart!!`
 ` They aren't stupid!`
 ` Take it back,`
 ` take it back!!"`
-`Yeah, I saw them, they had perfectly stupid faces just like you.`
+`Yes, I saw them. Perfectly stupid faces just like yours.`
 `{n}Now they are in Candyland with their bellies all full!!`
 `"Ooooooooooooooohhh, damn iiiiiit!!`
 ` I'll kill her I'll kill her, I'll slice her stomach and make her meet the same end!!`
@@ -150,10 +149,10 @@
 ` The servants watching over her ran up to her hurriedly and rubbed her back, but that only provoked Jessica's wrath...`
 `"*cough*cough*!!`
 ` 'the hell!!`
-` If you have the time to do that, search for that bitch!!`
-` Find her and bring her to me!!"`
+` If you have the time for that, find that bitch!!`
+` Bring her to me!!"`
 `"If you won't go, then I will!!`
-` And I'll kill her with my own hands, I'll slice her stomach!!"`
+` And I'll kill her with my own hands!!"`
 `"*cough*cough*cough*cough*!!`
 ` *cough*, *cough*!!`
 ` Don't touch me!!!`
@@ -446,14 +445,14 @@
 ` ...Never let your back leave the wall."`
 `"Wha......?!"`
 `"......*cackle*cackle*cackle*!`
-` Hide behind him.`
+` Hide behind your knight.`
 ` Relish the pleasure of being protected.`
 ` ......Come!`
 ` Kanon, show me your blade!!"`
 `"................................."`
 `"......Beautiful.`
 ` ...At least when it comes to giving birth to furniture, Kinzo might reach up to my feet."`
-`"...Something like this......can't even be used to trim the roses."`
+`"...Something like this......can't even trim the roses."`
 `"...............K‐.........Kanon‐kun...`
 ` ...............What is........."`
 `".........I didn't want...to show you."`

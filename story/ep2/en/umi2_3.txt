@@ -418,9 +418,9 @@
 `You could say that her room was the place where her parents had specified for her to be.`
 `So maybe you could say that, for Jessica,`
 ` choosing not to return to her own room and instead disappearing to an unknown location in this large mansion was a meager form of resistance...`
-`Jessica felt that even being in the mansion made it hard to breathe, so she went outside to the rose garden.`
+`Jessica felt that even being in the mansion made it hard to breathe, so she escaped to the rose garden.`
 `"...............`
-` ...Well, even if she had come, she'd just have said something about how it wasn't appropriate for the successor to the Ushiromiya family anyway.`
+` ...Well, even if she had come, she'd just say something about how it wasn't appropriate for the successor to the Ushiromiya family anyway.`
 ` ...So what the hell's my problem.`
 ` Ahahahahahaha."`
 `Jessica laughed at what she was sulking over.`
@@ -432,66 +432,66 @@
 `"wah!—Kanon‐kun...`
 ` D‐don't scare me like that, hahaha...!`
 ` *cough*cough*!"`
-`Kanon had suddenly started talking to her just as she had tried to force a laugh, so she choked.`
+`She'd tried to laugh it off and ended up choking instead.`
 `"What?`
 ` Something to say...?"`
 `".....................`
 `umm."`
 `"......Yeah?"`
-`Jessica's expression had become the one Kanon always saw.`
-`{n}The listless Jessica from a second ago was gone.`
-`If he still only knew Jessica as the successor to the Ushiromiya family, as he did until today,`
+`Jessica's usual expression returned—the one Kanon always saw.`
+`{n}But now he knew better.`
+`He understood that her smile didn't mean she was fine.`
 ` ...he would have mistakenly thought that Jessica's mood had sprung back to normal.`
 `......But that was wrong.`
 `He now knew a part of her that he could not {y:1:‘see’}{n:1:see} until today, so he understood that there was no way that, on the inside, Jessica was just as she appeared.`
 `"Ah... About today's cultural festival...`
-` ...Well, thanks for coming with me so I could show off.`
+` ...Thanks for coming with me so I could show off.`
 ` You really helped."`
 `"......Your singing.`
 ` ...It was good."`
 `"Wha?!`
 ` ......Ah,`
 ` .........ahahahahahaha?!`
-` Re‐really? I'm embarrassed..."`
+` Re‐really? That's embarrassing..."`
 `Even though she had heard the words she had most wanted to hear,`
 ` ...Jessica became shy, and couldn't accept them frankly.`
 `"......I cannot sing.`
-` And I don't know how to play any instruments other than the harmonica and the recorder, which I learned in elementary school.`
+` I can only play a little harmonica or recorder.`
 ` ...So I had just assumed that you were the same, Milady."`
-`...Kanon hadn't been consciously looking down on Jessica to that degree.`
+`...He hadn't meant to look down on her.`
 `But people playing unique instruments were always on the other side of the Braun tubes in the TV.`
 `...He had got it into his head that it would be impossible for Jessica, at least.`
 `"...I am furniture.`
-` ...So I didn't believe there was any need to sing or play instruments."`
+` ...I didn't think there was any reason for me to sing or play instruments."`
 `But...`
 `...I'm not sure anymore.`
 `"......Kanon‐kun,`
-` seriously, enough with that phrase "I am furniture"...`
+` seriously, stop calling yourself that...`
 ` That's some kind of servant's mentality, right...?`
 ` That "servants should be living furniture" thing.`
-` ...Genji‐san says it a lot."`
+` ...Genji‐san says it all the time."`
 `"It isn't a mentality......`
 ` ...We really are...furniture."`
-`"I know the kids from the Gospel House...receive assistance from Grandfather in various ways...`
-`and I realize you feel gratitude for that."`
+`"I know the kids from the Gospel House...receive help from Grandfather...`
+`and I get that you feel grateful."`
 `"......But that doesn't mean...you should call yourself furniture.`
 ` Aren't you a human like us?"`
 `"........................"`
 `"Kanon‐kun, when you saw me singing, ...what did you think?"`
 `"......It looked like you were having a lot of fun."`
-`"That's probably not it."`
+`"That's not it."`
 `"......Huh?"`
 `"It wasn't that I looked like I was having fun,`
-` ...you were jealous, weren't you?"`
+` "...You were jealous, weren't you?"`
 `"...............`
 ` I......"`
-`Even Kanon himself probably hadn't noticed that emotion.`
+`Kanon himself probably hadn't noticed.`
 `{n}......Kanon had seen something he had never seen before, never known of before...and had probably become jealous.`
-`And to trick himself about that emotion, he had called himself furniture over and over...`
+`To deny that feeling, he had repeated the word furniture again and again...`
 `"I know I'm the successor to the Ushiromiya family or something,`
-` ......and, well, I'm sure there'll be a lot of annoying stuff to do in the future too.`
+` ......and yeah, I'm sure there'll be tons of annoying stuff to do in the future.`
 ` As far as that goes, I've just gotta resign myself to it—I was born under an unlucky star."`
-`"...Probably, just like you had to live at the Gospel House, neither of us have a choice.`
+`"...Probably, just like you couldn't choose the Gospel House."`
 ` We couldn't choose the stars we were born under."`
 `"...............That may be true."`
 `"But there's one part where you and me are completely different.`
@@ -501,11 +501,11 @@
 `"...I don't know."`
 `"Kanon‐kun, you think that your own fate is everything about you, and you gave up.`
 ` I can't accept this kind of fate, so I decided to do the best I can."`
-`"......So as well as my normal constrained self who has to act as the daughter of the Ushiromiya family,`
+`"......So besides the Jessica who has to play the Ushiromiya daughter,`
 ` I've created another self who pours all her heart into the things she likes."`
 `".........Another...self."`
 `"Yeah.`
-` ......Kanon‐kun, you've been telling yourself "I am furniture".`
+` ......You keep telling yourself "I am furniture".`
 ` ......I'm sure there's been many tough things that have forced you to tell yourself that."`
 `"...I think that's...`
 `...really unfortunate.`
@@ -514,7 +514,7 @@
 `"You know, people can always make another self inside themselves that they can really grow to like.`
 ` This isn't escaping from reality, okay?`
 ` ......When I'm that other part of myself, I can really feel like I'm living a great life."`
-`"So no matter how constrained and boring everyday life is, I can definitely live without suffocating."`
+`"That's how I keep from suffocating."`
 `"......To make...`
 `...another self that you can really grow to like...`
 `inside yourself..."`
@@ -530,7 +530,7 @@
 `He had no concept of a private life.`
 `So Kanon would always be Kanon.`
 `{n}So furniture would always be furniture.`
-`"......Kanon‐kun, that "Kanon" isn't your real name, right?"`
+`"......Kanon‐kun, that isn't your real name, right?"`
 `The Gospel House gave new students new families and a new life, so it also made a point of giving each of them a new name.`
 `......In his case, that was "Kanon".`
 `".........Certainly, ......that name of mine may be a temporary thing."`
@@ -550,9 +550,9 @@
 `But one day, Jessica had stopped giving up and surrendering.`
 `Stuff like the Ushiromiya family customs and pressure, those didn't matter.`
 `She created a real "Jessica" inside herself, who could do what she really wanted to do.`
-`"You know, I'm called by this nickname Jessie in school.`
-` So when I'm Jessie, I live life honestly and to the fullest.`
-` And because of that, I can do my best when I'm Jessica too."`
+`"You know, at school I'm called Jessie.`
+` When I'm Jessie, I live life honestly and to the fullest.`
+` And because of that, I can do my best as Jessica too."`
 `"...Maybe you too could have times when you're Kanon,`
 ` and times when you're, umm,`
 ` ......your real name, and live a different way in each.`
